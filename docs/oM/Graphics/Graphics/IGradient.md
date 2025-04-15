@@ -12,16 +12,16 @@ title: IGradient
 
 ???+ bhom "The IGradient in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IBHoMObject](/documentation/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
+    -  Base.[IBHoMObject](/om_documentation/oM/Framework/Base/IBHoMObject)
+    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Graphics.[Gradient](/documentation/oM/Graphics/Graphics/Gradient)
-    - Graphics.[SteppedGradient](/documentation/oM/Graphics/Graphics/SteppedGradient)
+    - Graphics.[Gradient](/om_documentation/oM/Graphics/Graphics/Gradient)
+    - Graphics.[SteppedGradient](/om_documentation/oM/Graphics/Graphics/SteppedGradient)
 
 
 ## Properties
@@ -43,7 +43,7 @@ The following properties are defined as extension methods in one of the BHoM_Eng
 
 | Name             | Type             | Description      | Quantity         | Engine           |
 |------------------|------------------|------------------|------------------|------------------|
-| IGradientLegend | [RenderMesh](/documentation/oM/Graphics/Graphics/RenderMesh) | Constructs a RenderMesh corresponding to the gradient. | - | Graphics_Engine |
+| IGradientLegend | [RenderMesh](/om_documentation/oM/Graphics/Graphics/RenderMesh) | Constructs a RenderMesh corresponding to the gradient. | - | Graphics_Engine |
 
 
 ## Code and Schema

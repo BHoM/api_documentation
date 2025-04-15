@@ -12,17 +12,17 @@ Minimum required area of reinforcement for a Bar.
 
 ???+ bhom "The BarRequiredArea in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Structure.Results.[BarResult](/documentation/oM/Analytical/Structure/Results/BarResult)
-    -  Structure.Results.[IStructuralResult](/documentation/oM/Analytical/Structure/Results/IStructuralResult)
-    -  Analytical.Results.[IObjectIdResult](/documentation/oM/Analytical/Analytical/Results/IObjectIdResult)
-    -  Analytical.Results.[IResult](/documentation/oM/Analytical/Analytical/Results/IResult)
-    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
-    -  [IComparable](https://learn.microsoft.com/en-us/dotnet/api/System.IComparable-1?view=netstandard-2.0)&lt;Analytical.Results.[IResult](/documentation/oM/Analytical/Analytical/Results/IResult)&gt;
-    -  Base.[IImmutable](/documentation/oM/Framework/Base/IImmutable)
-    -  Analytical.Results.[ICasedResult](/documentation/oM/Analytical/Analytical/Results/ICasedResult)
-    -  Analytical.Results.[ITimeStepResult](/documentation/oM/Analytical/Analytical/Results/ITimeStepResult)
-    -  Analytical.Results.[IElement1DResult](/documentation/oM/Analytical/Analytical/Results/IElement1DResult)
-    -  Analytical.Results.[IResultItem](/documentation/oM/Analytical/Analytical/Results/IResultItem)
+    -  Structure.Results.[BarResult](/om_documentation/oM/Analytical/Structure/Results/BarResult)
+    -  Structure.Results.[IStructuralResult](/om_documentation/oM/Analytical/Structure/Results/IStructuralResult)
+    -  Analytical.Results.[IObjectIdResult](/om_documentation/oM/Analytical/Analytical/Results/IObjectIdResult)
+    -  Analytical.Results.[IResult](/om_documentation/oM/Analytical/Analytical/Results/IResult)
+    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
+    -  [IComparable](https://learn.microsoft.com/en-us/dotnet/api/System.IComparable-1?view=netstandard-2.0)&lt;Analytical.Results.[IResult](/om_documentation/oM/Analytical/Analytical/Results/IResult)&gt;
+    -  Base.[IImmutable](/om_documentation/oM/Framework/Base/IImmutable)
+    -  Analytical.Results.[ICasedResult](/om_documentation/oM/Analytical/Analytical/Results/ICasedResult)
+    -  Analytical.Results.[ITimeStepResult](/om_documentation/oM/Analytical/Analytical/Results/ITimeStepResult)
+    -  Analytical.Results.[IElement1DResult](/om_documentation/oM/Analytical/Analytical/Results/IElement1DResult)
+    -  Analytical.Results.[IResultItem](/om_documentation/oM/Analytical/Analytical/Results/IResultItem)
 
 
 ## Properties
@@ -35,11 +35,11 @@ The following properties are defined on the class
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| Top | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Minimum required area of reinforcement in the top layer. | [Area](/documentation/oM/Dimensional/Quantities/Attributes/Area) [m²] |
-| Bottom | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Minimum required area of reinforcement in the bottom layer. | [Area](/documentation/oM/Dimensional/Quantities/Attributes/Area) [m²] |
-| Perimeter | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Minimum required area of perimeter reinforcement. | [Area](/documentation/oM/Dimensional/Quantities/Attributes/Area) [m²] |
-| Shear | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Minimum required area of shear reinforcement expressed as an area per unit length. | [AreaPerUnitLength](/documentation/oM/Dimensional/Quantities/Attributes/AreaPerUnitLength) [m²/m] |
-| Torsion | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Minimum required area of torsion reinforcement. | [Area](/documentation/oM/Dimensional/Quantities/Attributes/Area) [m²] |
+| Top | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Minimum required area of reinforcement in the top layer. | [Area](/om_documentation/oM/Dimensional/Quantities/Attributes/Area) [m²] |
+| Bottom | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Minimum required area of reinforcement in the bottom layer. | [Area](/om_documentation/oM/Dimensional/Quantities/Attributes/Area) [m²] |
+| Perimeter | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Minimum required area of perimeter reinforcement. | [Area](/om_documentation/oM/Dimensional/Quantities/Attributes/Area) [m²] |
+| Shear | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Minimum required area of shear reinforcement expressed as an area per unit length. | [AreaPerUnitLength](/om_documentation/oM/Dimensional/Quantities/Attributes/AreaPerUnitLength) [m²/m] |
+| Torsion | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Minimum required area of torsion reinforcement. | [Area](/om_documentation/oM/Dimensional/Quantities/Attributes/Area) [m²] |
 | MaterialName | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | Material name for the reinforcement. | - |
 
 

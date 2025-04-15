@@ -12,9 +12,9 @@ A representation of a borehole defined by a coordinate system, start point and e
 
 ???+ bhom "The Borehole in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[BHoMObject](/documentation/oM/Framework/Base/BHoMObject)
-    -  Base.[IBHoMObject](/documentation/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
+    -  Base.[BHoMObject](/om_documentation/oM/Framework/Base/BHoMObject)
+    -  Base.[IBHoMObject](/om_documentation/oM/Framework/Base/IBHoMObject)
+    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
 
 
 ## Properties
@@ -28,13 +28,13 @@ The following properties are defined on the class
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
 | Id | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | Location identifier for the borehole unique to the project (LOCA_ID). | - |
-| Top | [Point](/documentation/oM/Dimensional/Geometry/Point) | The top of the borehole within the coordinate system provided (LOCA_NATE, LOCA_NATEN, LOCA_GL). | - |
-| Bottom | [Point](/documentation/oM/Dimensional/Geometry/Point) | The bottom of the borehole within the coordinate system provided (LOCA_ETRV, LOCA_NTRV, LOCA_FDEP). | - |
-| CoordinateSystem | [Cartesian](/documentation/oM/Dimensional/Geometry/CoordinateSystem/Cartesian) | The coordinate system referenced by the top and bottom point. (LOCA_GREF, LOCA_NATD). | - |
-| Strata | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[Stratum](/documentation/oM/Analytical/Ground/Stratum)&gt; | A list of objects containing the strata found within the borehole, based on the GEOL table. | - |
-| ContaminantSamples | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[ContaminantSample](/documentation/oM/Analytical/Ground/ContaminantSample)&gt; | A list of objects containing the contaminant samples found within the borehole, based on the ERES table. | - |
-| GeotechnicalTestResults | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[ITest](/documentation/oM/Analytical/Ground/ITest)&gt; | A list of objects containing the geotechnical results found within the borehole. | - |
-| BoreholeProperties | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[IBoreholeProperty](/documentation/oM/Analytical/Ground/IBoreholeProperty)&gt; | A list of properties related to the borehole. | - |
+| Top | [Point](/om_documentation/oM/Dimensional/Geometry/Point) | The top of the borehole within the coordinate system provided (LOCA_NATE, LOCA_NATEN, LOCA_GL). | - |
+| Bottom | [Point](/om_documentation/oM/Dimensional/Geometry/Point) | The bottom of the borehole within the coordinate system provided (LOCA_ETRV, LOCA_NTRV, LOCA_FDEP). | - |
+| CoordinateSystem | [Cartesian](/om_documentation/oM/Dimensional/Geometry/CoordinateSystem/Cartesian) | The coordinate system referenced by the top and bottom point. (LOCA_GREF, LOCA_NATD). | - |
+| Strata | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[Stratum](/om_documentation/oM/Analytical/Ground/Stratum)&gt; | A list of objects containing the strata found within the borehole, based on the GEOL table. | - |
+| ContaminantSamples | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[ContaminantSample](/om_documentation/oM/Analytical/Ground/ContaminantSample)&gt; | A list of objects containing the contaminant samples found within the borehole, based on the ERES table. | - |
+| GeotechnicalTestResults | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[ITest](/om_documentation/oM/Analytical/Ground/ITest)&gt; | A list of objects containing the geotechnical results found within the borehole. | - |
+| BoreholeProperties | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[IBoreholeProperty](/om_documentation/oM/Analytical/Ground/IBoreholeProperty)&gt; | A list of properties related to the borehole. | - |
 
 
 ### Inherited properties
@@ -44,7 +44,7 @@ The following properties are inherited from the base class of the object
 |------------------|------------------|------------------|------------------|
 | BHoM_Guid | [Guid](https://learn.microsoft.com/en-us/dotnet/api/System.Guid?view=netstandard-2.0) | - | - |
 | Name | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | - | - |
-| Fragments | [FragmentSet](/documentation/oM/Framework/Base/FragmentSet) | - | - |
+| Fragments | [FragmentSet](/om_documentation/oM/Framework/Base/FragmentSet) | - | - |
 | Tags | [HashSet](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.HashSet-1?view=netstandard-2.0)&lt;[string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0)&gt; | - | - |
 | CustomData | [Dictionary](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.Dictionary-2?view=netstandard-2.0)&lt;[string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0), [object](https://learn.microsoft.com/en-us/dotnet/api/System.Object?view=netstandard-2.0)&gt; | - | - |
 
@@ -57,7 +57,7 @@ The following properties are defined as extension methods in one of the BHoM_Eng
 |------------------|------------------|------------------|------------------|------------------|
 | DistinctSuites | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0)&gt; | Returns a distinct list of suites from a Borehole using the sample reference, test name or top depth (in order of priority). | - | Ground_Engine |
 | IsValid | [bool](https://learn.microsoft.com/en-us/dotnet/api/System.Boolean?view=netstandard-2.0) | Checks if a Borehole or its defining properties are valid and outputs relevant error message. | - | Ground_Engine |
-| StrataLines | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[Line](/documentation/oM/Dimensional/Geometry/Line)&gt; | Generates a list of lines relating to the strata within the Borehole which can be used for visualisation purposes. | - | Ground_Engine |
+| StrataLines | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[Line](/om_documentation/oM/Dimensional/Geometry/Line)&gt; | Generates a list of lines relating to the strata within the Borehole which can be used for visualisation purposes. | - | Ground_Engine |
 
 
 ## Code and Schema

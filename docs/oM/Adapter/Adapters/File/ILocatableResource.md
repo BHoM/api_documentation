@@ -12,24 +12,24 @@ Identifies a general data Resource, whether a File or a Directory or other, that
 
 ???+ bhom "The ILocatableResource in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Adapters.File.[IResource](/documentation/oM/Adapter/Adapters/File/IResource)
-    -  Base.[IBHoMObject](/documentation/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
+    -  Adapters.File.[IResource](/om_documentation/oM/Adapter/Adapters/File/IResource)
+    -  Base.[IBHoMObject](/om_documentation/oM/Framework/Base/IBHoMObject)
+    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
 
 
 ### Interfaces implementing this interface
 
 ???+ bhom "The following interfaces are implementing this interface:"
 
-    - Adapters.File.[IContainer](/documentation/oM/Adapter/Adapters/File/IContainer)
+    - Adapters.File.[IContainer](/om_documentation/oM/Adapter/Adapters/File/IContainer)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Adapters.File.[Directory](/documentation/oM/Adapter/Adapters/File/Directory)
-    - Adapters.File.[File](/documentation/oM/Adapter/Adapters/File/File)
+    - Adapters.File.[Directory](/om_documentation/oM/Adapter/Adapters/File/Directory)
+    - Adapters.File.[File](/om_documentation/oM/Adapter/Adapters/File/File)
 
 
 ## Properties

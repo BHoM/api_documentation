@@ -12,14 +12,14 @@ Full collection of discrete results for an AnalysisGrid for a specific Analysis.
 
 ???+ bhom "The MeshResult in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Analytical.Results.[IObjectIdResult](/documentation/oM/Analytical/Analytical/Results/IObjectIdResult)
-    -  Analytical.Results.[IResult](/documentation/oM/Analytical/Analytical/Results/IResult)
-    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
-    -  [IComparable](https://learn.microsoft.com/en-us/dotnet/api/System.IComparable-1?view=netstandard-2.0)&lt;Analytical.Results.[IResult](/documentation/oM/Analytical/Analytical/Results/IResult)&gt;
-    -  Base.[IImmutable](/documentation/oM/Framework/Base/IImmutable)
-    -  Analytical.Results.[ICasedResult](/documentation/oM/Analytical/Analytical/Results/ICasedResult)
-    -  Analytical.Results.[ITimeStepResult](/documentation/oM/Analytical/Analytical/Results/ITimeStepResult)
-    -  Analytical.Results.[IResultCollection](/documentation/oM/Analytical/Analytical/Results/IResultCollection%601)&lt;Environment.Results.Mesh.[MeshElementResult](/documentation/oM/Analytical/Environment/Results/Mesh/MeshElementResult)&gt;
+    -  Analytical.Results.[IObjectIdResult](/om_documentation/oM/Analytical/Analytical/Results/IObjectIdResult)
+    -  Analytical.Results.[IResult](/om_documentation/oM/Analytical/Analytical/Results/IResult)
+    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
+    -  [IComparable](https://learn.microsoft.com/en-us/dotnet/api/System.IComparable-1?view=netstandard-2.0)&lt;Analytical.Results.[IResult](/om_documentation/oM/Analytical/Analytical/Results/IResult)&gt;
+    -  Base.[IImmutable](/om_documentation/oM/Framework/Base/IImmutable)
+    -  Analytical.Results.[ICasedResult](/om_documentation/oM/Analytical/Analytical/Results/ICasedResult)
+    -  Analytical.Results.[ITimeStepResult](/om_documentation/oM/Analytical/Analytical/Results/ITimeStepResult)
+    -  Analytical.Results.[IResultCollection](/om_documentation/oM/Analytical/Analytical/Results/IResultCollection%601)&lt;Environment.Results.Mesh.[MeshElementResult](/om_documentation/oM/Analytical/Environment/Results/Mesh/MeshElementResult)&gt;
 
 
 ## Properties
@@ -35,7 +35,7 @@ The following properties are defined on the class
 | ObjectId | [IComparable](https://learn.microsoft.com/en-us/dotnet/api/System.IComparable?view=netstandard-2.0) | ID of the AnalysisGrid that this result collection belongs to | - |
 | ResultCase | [IComparable](https://learn.microsoft.com/en-us/dotnet/api/System.IComparable?view=netstandard-2.0) | Identifier for the Analysis Case that the result belongs to. Is generally name or number of the analysis | - |
 | TimeStep | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Time step for time history results. Typically this will be hour intervals for most Environment Analysis | - |
-| Results | [IReadOnlyList](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IReadOnlyList-1?view=netstandard-2.0)&lt;[MeshElementResult](/documentation/oM/Analytical/Environment/Results/Mesh/MeshElementResult)&gt; | A collection of the discrete mesh element results per node | - |
+| Results | [IReadOnlyList](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IReadOnlyList-1?view=netstandard-2.0)&lt;[MeshElementResult](/om_documentation/oM/Analytical/Environment/Results/Mesh/MeshElementResult)&gt; | A collection of the discrete mesh element results per node | - |
 
 
 ### Derived properties

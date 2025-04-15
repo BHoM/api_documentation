@@ -13,9 +13,9 @@ Outputs a string file path if the OutputLocation is given, or the base64 string 
 
 ???+ bhom "The WindroseCommand in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  LadybugTools.[ISimulationCommand](/documentation/oM/Adapter/LadybugTools/ISimulationCommand)
-    -  Adapter.[IExecuteCommand](/documentation/oM/Framework/Adapter/IExecuteCommand)
-    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
+    -  LadybugTools.[ISimulationCommand](/om_documentation/oM/Adapter/LadybugTools/ISimulationCommand)
+    -  Adapter.[IExecuteCommand](/om_documentation/oM/Framework/Adapter/IExecuteCommand)
+    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
 
 
 ## Properties
@@ -28,8 +28,8 @@ The following properties are defined on the class
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| EPWFile | [FileSettings](/documentation/oM/Framework/Adapter/FileSettings) | The path to an EPW file. | - |
-| AnalysisPeriod | [AnalysisPeriod](/documentation/oM/Adapter/LadybugTools/AnalysisPeriod) | The analysis period to use for plotting, default to whole non-leap year. | - |
+| EPWFile | [FileSettings](/om_documentation/oM/Framework/Adapter/FileSettings) | The path to an EPW file. | - |
+| AnalysisPeriod | [AnalysisPeriod](/om_documentation/oM/Adapter/LadybugTools/AnalysisPeriod) | The analysis period to use for plotting, default to whole non-leap year. | - |
 | NumberOfDirectionBins | [int](https://learn.microsoft.com/en-us/dotnet/api/System.Int32?view=netstandard-2.0) | The number of directional bins to plot on the windrose. | - |
 | ColourMap | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | A Matplotlib colour map. Corresponds to the 'cmap' parameter of plot methods. See https://matplotlib.org/stable/users/explain/colors/colormaps.html for examples of valid keys. Default of 'viridis'. | - |
 | OutputLocation | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | Full file path (with file name) to save the plot to. Leave blank to output a base 64 string representation of the image instead. | - |

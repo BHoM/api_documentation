@@ -12,10 +12,10 @@ A relation is a group of elements (Members) used to model logical (and usually l
 
 ???+ bhom "The Relation in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[BHoMObject](/documentation/oM/Framework/Base/BHoMObject)
-    -  Base.[IBHoMObject](/documentation/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
-    -  Adapters.OpenStreetMap.[IOpenStreetMapElement](/documentation/oM/Adapter/Adapters/OpenStreetMap/IOpenStreetMapElement)
+    -  Base.[BHoMObject](/om_documentation/oM/Framework/Base/BHoMObject)
+    -  Base.[IBHoMObject](/om_documentation/oM/Framework/Base/IBHoMObject)
+    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
+    -  Adapters.OpenStreetMap.[IOpenStreetMapElement](/om_documentation/oM/Adapter/Adapters/OpenStreetMap/IOpenStreetMapElement)
 
 
 ## Properties
@@ -30,7 +30,7 @@ The following properties are defined on the class
 |------------------|------------------|------------------|------------------|
 | OsmID | [long](https://learn.microsoft.com/en-us/dotnet/api/System.Int64?view=netstandard-2.0) | The unique OpenStreetMap id for the Relation. | - |
 | KeyValues | [Dictionary](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.Dictionary-2?view=netstandard-2.0)&lt;[string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0), [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0)&gt; | The KeyValue tags describing the geographic attributes of this Relation. | - |
-| Members | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[IOpenStreetMapElement](/documentation/oM/Adapter/Adapters/OpenStreetMap/IOpenStreetMapElement)&gt; | The IOpenStreetMapElement that define this Relation. | - |
+| Members | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[IOpenStreetMapElement](/om_documentation/oM/Adapter/Adapters/OpenStreetMap/IOpenStreetMapElement)&gt; | The IOpenStreetMapElement that define this Relation. | - |
 
 
 ### Inherited properties
@@ -40,7 +40,7 @@ The following properties are inherited from the base class of the object
 |------------------|------------------|------------------|------------------|
 | BHoM_Guid | [Guid](https://learn.microsoft.com/en-us/dotnet/api/System.Guid?view=netstandard-2.0) | - | - |
 | Name | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | - | - |
-| Fragments | [FragmentSet](/documentation/oM/Framework/Base/FragmentSet) | - | - |
+| Fragments | [FragmentSet](/om_documentation/oM/Framework/Base/FragmentSet) | - | - |
 | Tags | [HashSet](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.HashSet-1?view=netstandard-2.0)&lt;[string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0)&gt; | - | - |
 | CustomData | [Dictionary](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.Dictionary-2?view=netstandard-2.0)&lt;[string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0), [object](https://learn.microsoft.com/en-us/dotnet/api/System.Object?view=netstandard-2.0)&gt; | - | - |
 

@@ -12,9 +12,9 @@ An acoustics room is defined by the criteria related to the sound within the spa
 
 ???+ bhom "The Room in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[BHoMObject](/documentation/oM/Framework/Base/BHoMObject)
-    -  Base.[IBHoMObject](/documentation/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
+    -  Base.[BHoMObject](/om_documentation/oM/Framework/Base/BHoMObject)
+    -  Base.[IBHoMObject](/om_documentation/oM/Framework/Base/IBHoMObject)
+    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
 
 
 ## Properties
@@ -27,10 +27,10 @@ The following properties are defined on the class
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| Boundaries | [PolySurface](/documentation/oM/Dimensional/Geometry/PolySurface) | - | - |
+| Boundaries | [PolySurface](/om_documentation/oM/Dimensional/Geometry/PolySurface) | - | - |
 | Area | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | - | - |
 | Volume | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | - | - |
-| Samples | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[Receiver](/documentation/oM/Analytical/Acoustic/Receiver)&gt; | - | - |
+| Samples | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[Receiver](/om_documentation/oM/Analytical/Acoustic/Receiver)&gt; | - | - |
 | AcousticZone | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | This specifies the list of spaces associated with a particular occupant activity's acoustic criteria. | - |
 | PublicAddressVoiceAlarmZone | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | This specifies the list of spaces associated with similar Public Address and Voice Alarm devices | - |
 | AverageInternalAmbientNoiseLevelRequirement | [int](https://learn.microsoft.com/en-us/dotnet/api/System.Int32?view=netstandard-2.0) | This acoustic requirement specificies the maximum equivalent continuous noise level of a time-varying noise (LAeq,T) within a space. This metric is usually composed of noise from many sources, near and far and is measured in A-weighted decibels (dBA). | - |
@@ -52,7 +52,7 @@ The following properties are inherited from the base class of the object
 |------------------|------------------|------------------|------------------|
 | BHoM_Guid | [Guid](https://learn.microsoft.com/en-us/dotnet/api/System.Guid?view=netstandard-2.0) | - | - |
 | Name | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | - | - |
-| Fragments | [FragmentSet](/documentation/oM/Framework/Base/FragmentSet) | - | - |
+| Fragments | [FragmentSet](/om_documentation/oM/Framework/Base/FragmentSet) | - | - |
 | Tags | [HashSet](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.HashSet-1?view=netstandard-2.0)&lt;[string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0)&gt; | - | - |
 | CustomData | [Dictionary](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.Dictionary-2?view=netstandard-2.0)&lt;[string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0), [object](https://learn.microsoft.com/en-us/dotnet/api/System.Object?view=netstandard-2.0)&gt; | - | - |
 

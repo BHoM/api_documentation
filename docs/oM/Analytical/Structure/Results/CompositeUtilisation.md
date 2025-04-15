@@ -12,17 +12,17 @@ Base class for all bar result classes. Stores all identifier information and how
 
 ???+ bhom "The CompositeUtilisation in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Structure.Results.[BarResult](/documentation/oM/Analytical/Structure/Results/BarResult)
-    -  Structure.Results.[IStructuralResult](/documentation/oM/Analytical/Structure/Results/IStructuralResult)
-    -  Analytical.Results.[IObjectIdResult](/documentation/oM/Analytical/Analytical/Results/IObjectIdResult)
-    -  Analytical.Results.[IResult](/documentation/oM/Analytical/Analytical/Results/IResult)
-    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
-    -  [IComparable](https://learn.microsoft.com/en-us/dotnet/api/System.IComparable-1?view=netstandard-2.0)&lt;Analytical.Results.[IResult](/documentation/oM/Analytical/Analytical/Results/IResult)&gt;
-    -  Base.[IImmutable](/documentation/oM/Framework/Base/IImmutable)
-    -  Analytical.Results.[ICasedResult](/documentation/oM/Analytical/Analytical/Results/ICasedResult)
-    -  Analytical.Results.[ITimeStepResult](/documentation/oM/Analytical/Analytical/Results/ITimeStepResult)
-    -  Analytical.Results.[IElement1DResult](/documentation/oM/Analytical/Analytical/Results/IElement1DResult)
-    -  Analytical.Results.[IResultItem](/documentation/oM/Analytical/Analytical/Results/IResultItem)
+    -  Structure.Results.[BarResult](/om_documentation/oM/Analytical/Structure/Results/BarResult)
+    -  Structure.Results.[IStructuralResult](/om_documentation/oM/Analytical/Structure/Results/IStructuralResult)
+    -  Analytical.Results.[IObjectIdResult](/om_documentation/oM/Analytical/Analytical/Results/IObjectIdResult)
+    -  Analytical.Results.[IResult](/om_documentation/oM/Analytical/Analytical/Results/IResult)
+    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
+    -  [IComparable](https://learn.microsoft.com/en-us/dotnet/api/System.IComparable-1?view=netstandard-2.0)&lt;Analytical.Results.[IResult](/om_documentation/oM/Analytical/Analytical/Results/IResult)&gt;
+    -  Base.[IImmutable](/om_documentation/oM/Framework/Base/IImmutable)
+    -  Analytical.Results.[ICasedResult](/om_documentation/oM/Analytical/Analytical/Results/ICasedResult)
+    -  Analytical.Results.[ITimeStepResult](/om_documentation/oM/Analytical/Analytical/Results/ITimeStepResult)
+    -  Analytical.Results.[IElement1DResult](/om_documentation/oM/Analytical/Analytical/Results/IElement1DResult)
+    -  Analytical.Results.[IResultItem](/om_documentation/oM/Analytical/Analytical/Results/IResultItem)
 
 
 ## Properties

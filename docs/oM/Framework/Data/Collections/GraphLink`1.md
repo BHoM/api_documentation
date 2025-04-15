@@ -20,8 +20,8 @@ Unconstrained generic type. Can be any type of object.
 
 ???+ bhom "The GraphLink`1 in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Data.Collections.[IDataStructure](/documentation/oM/Framework/Data/Collections/IDataStructure)
-    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
+    -  Data.Collections.[IDataStructure](/om_documentation/oM/Framework/Data/Collections/IDataStructure)
+    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
 
 
 ## Properties
@@ -36,8 +36,8 @@ The following properties are defined on the class
 |------------------|------------------|------------------|------------------|
 | Attributes | [Dictionary](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.Dictionary-2?view=netstandard-2.0)&lt;[string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0), [object](https://learn.microsoft.com/en-us/dotnet/api/System.Object?view=netstandard-2.0)&gt; | - | - |
 | Weight | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | - | - |
-| StartNode | [GraphNode](/documentation/oM/Framework/Data/Collections/GraphNode%601)&lt;[T](#t)&gt; | - | - |
-| EndNode | [GraphNode](/documentation/oM/Framework/Data/Collections/GraphNode%601)&lt;[T](#t)&gt; | - | - |
+| StartNode | [GraphNode](/om_documentation/oM/Framework/Data/Collections/GraphNode%601)&lt;[T](#t)&gt; | - | - |
+| EndNode | [GraphNode](/om_documentation/oM/Framework/Data/Collections/GraphNode%601)&lt;[T](#t)&gt; | - | - |
 
 
 ## Code and Schema

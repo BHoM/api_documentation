@@ -12,17 +12,17 @@ Requires a Fragment to contain a PersistentId, imported through an Adapter, that
 
 ???+ bhom "The IPersistentAdapterId in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IFragment](/documentation/oM/Framework/Base/IFragment)
-    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
+    -  Base.[IFragment](/om_documentation/oM/Framework/Base/IFragment)
+    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Adapters.ETABS.[ETABSId](/documentation/oM/Adapter/Adapters/ETABS/ETABSId)
-    - Adapters.Revit.Parameters.[RevitIdentifiers](/documentation/oM/Adapter/Adapters/Revit/Parameters/RevitIdentifiers)
-    - Adapters.SAP2000.[SAP2000Id](/documentation/oM/Adapter/Adapters/SAP2000/SAP2000Id)
+    - Adapters.ETABS.[ETABSId](/om_documentation/oM/Adapter/Adapters/ETABS/ETABSId)
+    - Adapters.Revit.Parameters.[RevitIdentifiers](/om_documentation/oM/Adapter/Adapters/Revit/Parameters/RevitIdentifiers)
+    - Adapters.SAP2000.[SAP2000Id](/om_documentation/oM/Adapter/Adapters/SAP2000/SAP2000Id)
 
 
 ## Properties

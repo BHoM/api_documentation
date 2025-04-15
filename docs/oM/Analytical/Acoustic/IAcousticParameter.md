@@ -12,17 +12,17 @@ title: IAcousticParameter
 
 ???+ bhom "The IAcousticParameter in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
+    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Acoustic.[Rasti](/documentation/oM/Analytical/Acoustic/Rasti)
-    - Acoustic.[RT60](/documentation/oM/Analytical/Acoustic/RT60)
-    - Acoustic.[SnRatio](/documentation/oM/Analytical/Acoustic/SnRatio)
-    - Acoustic.[SoundLevel](/documentation/oM/Analytical/Acoustic/SoundLevel)
+    - Acoustic.[Rasti](/om_documentation/oM/Analytical/Acoustic/Rasti)
+    - Acoustic.[RT60](/om_documentation/oM/Analytical/Acoustic/RT60)
+    - Acoustic.[SnRatio](/om_documentation/oM/Analytical/Acoustic/SnRatio)
+    - Acoustic.[SoundLevel](/om_documentation/oM/Analytical/Acoustic/SoundLevel)
 
 
 ## Properties
@@ -38,7 +38,7 @@ The following properties are defined on the interface
 | Value | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | - | - |
 | ReceiverID | [int](https://learn.microsoft.com/en-us/dotnet/api/System.Int32?view=netstandard-2.0) | - | - |
 | SpeakerID | [int](https://learn.microsoft.com/en-us/dotnet/api/System.Int32?view=netstandard-2.0) | - | - |
-| Frequency | [Frequency](/documentation/oM/Analytical/Acoustic/Frequency) | - | - |
+| Frequency | [Frequency](/om_documentation/oM/Analytical/Acoustic/Frequency) | - | - |
 
 
 ## Code and Schema

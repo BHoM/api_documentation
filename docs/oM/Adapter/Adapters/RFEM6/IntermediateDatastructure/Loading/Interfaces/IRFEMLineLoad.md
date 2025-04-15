@@ -12,16 +12,16 @@ title: IRFEMLineLoad
 
 ???+ bhom "The IRFEMLineLoad in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IBHoMObject](/documentation/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
+    -  Base.[IBHoMObject](/om_documentation/oM/Framework/Base/IBHoMObject)
+    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Adapters.RFEM6.IntermediateDatastructure.Geometry.[RFEMFreeLineLoad](/documentation/oM/Adapter/Adapters/RFEM6/IntermediateDatastructure/Geometry/RFEMFreeLineLoad)
-    - Adapters.RFEM6.IntermediateDatastructure.Geometry.[RFEMNonFreeLineLoad](/documentation/oM/Adapter/Adapters/RFEM6/IntermediateDatastructure/Geometry/RFEMNonFreeLineLoad)
+    - Adapters.RFEM6.IntermediateDatastructure.Geometry.[RFEMFreeLineLoad](/om_documentation/oM/Adapter/Adapters/RFEM6/IntermediateDatastructure/Geometry/RFEMFreeLineLoad)
+    - Adapters.RFEM6.IntermediateDatastructure.Geometry.[RFEMNonFreeLineLoad](/om_documentation/oM/Adapter/Adapters/RFEM6/IntermediateDatastructure/Geometry/RFEMNonFreeLineLoad)
 
 
 ## Properties
@@ -34,7 +34,7 @@ The following properties are defined on the interface
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| geometrialLineLoad | [GeometricalLineLoad](/documentation/oM/Analytical/Structure/Loads/GeometricalLineLoad) | - | - |
+| geometrialLineLoad | [GeometricalLineLoad](/om_documentation/oM/Analytical/Structure/Loads/GeometricalLineLoad) | - | - |
 
 
 ## Code and Schema

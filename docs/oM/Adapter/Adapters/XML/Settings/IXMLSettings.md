@@ -12,15 +12,15 @@ title: IXMLSettings
 
 ???+ bhom "The IXMLSettings in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
+    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Adapters.XML.Settings.[GBXMLSettings](/documentation/oM/Adapter/Adapters/XML/Settings/GBXMLSettings)
-    - Adapters.XML.Settings.[KMLSettings](/documentation/oM/Adapter/Adapters/XML/Settings/KMLSettings)
+    - Adapters.XML.Settings.[GBXMLSettings](/om_documentation/oM/Adapter/Adapters/XML/Settings/GBXMLSettings)
+    - Adapters.XML.Settings.[KMLSettings](/om_documentation/oM/Adapter/Adapters/XML/Settings/KMLSettings)
 
 
 ## Properties

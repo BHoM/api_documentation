@@ -12,28 +12,28 @@ Base class for all Node result classes. Stores all identifier information and ho
 
 ???+ bhom "The NodeResult in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Structure.Results.[IStructuralResult](/documentation/oM/Analytical/Structure/Results/IStructuralResult)
-    -  Analytical.Results.[IObjectIdResult](/documentation/oM/Analytical/Analytical/Results/IObjectIdResult)
-    -  Analytical.Results.[IResult](/documentation/oM/Analytical/Analytical/Results/IResult)
-    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
-    -  [IComparable](https://learn.microsoft.com/en-us/dotnet/api/System.IComparable-1?view=netstandard-2.0)&lt;Analytical.Results.[IResult](/documentation/oM/Analytical/Analytical/Results/IResult)&gt;
-    -  Base.[IImmutable](/documentation/oM/Framework/Base/IImmutable)
-    -  Analytical.Results.[ICasedResult](/documentation/oM/Analytical/Analytical/Results/ICasedResult)
-    -  Analytical.Results.[ITimeStepResult](/documentation/oM/Analytical/Analytical/Results/ITimeStepResult)
-    -  Analytical.Results.[IObjectResult](/documentation/oM/Analytical/Analytical/Results/IObjectResult)
+    -  Structure.Results.[IStructuralResult](/om_documentation/oM/Analytical/Structure/Results/IStructuralResult)
+    -  Analytical.Results.[IObjectIdResult](/om_documentation/oM/Analytical/Analytical/Results/IObjectIdResult)
+    -  Analytical.Results.[IResult](/om_documentation/oM/Analytical/Analytical/Results/IResult)
+    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
+    -  [IComparable](https://learn.microsoft.com/en-us/dotnet/api/System.IComparable-1?view=netstandard-2.0)&lt;Analytical.Results.[IResult](/om_documentation/oM/Analytical/Analytical/Results/IResult)&gt;
+    -  Base.[IImmutable](/om_documentation/oM/Framework/Base/IImmutable)
+    -  Analytical.Results.[ICasedResult](/om_documentation/oM/Analytical/Analytical/Results/ICasedResult)
+    -  Analytical.Results.[ITimeStepResult](/om_documentation/oM/Analytical/Analytical/Results/ITimeStepResult)
+    -  Analytical.Results.[IObjectResult](/om_documentation/oM/Analytical/Analytical/Results/IObjectResult)
 
 
 ### Classes inheriting from this class
 
 ???+ bhom "The following classes are inheriting from this class:"
 
-    - Structure.Results.[NodeAcceleration](/documentation/oM/Analytical/Structure/Results/NodeAcceleration)
-    - Structure.Results.[NodeDisplacement](/documentation/oM/Analytical/Structure/Results/NodeDisplacement)
-    - Structure.Results.[NodeModalMass](/documentation/oM/Analytical/Structure/Results/NodeModalMass)
-    - Structure.Results.[NodeModalResults](/documentation/oM/Analytical/Structure/Results/NodeModalResults)
-    - Structure.Results.[NodeModeShape](/documentation/oM/Analytical/Structure/Results/NodeModeShape)
-    - Structure.Results.[NodeReaction](/documentation/oM/Analytical/Structure/Results/NodeReaction)
-    - Structure.Results.[NodeVelocity](/documentation/oM/Analytical/Structure/Results/NodeVelocity)
+    - Structure.Results.[NodeAcceleration](/om_documentation/oM/Analytical/Structure/Results/NodeAcceleration)
+    - Structure.Results.[NodeDisplacement](/om_documentation/oM/Analytical/Structure/Results/NodeDisplacement)
+    - Structure.Results.[NodeModalMass](/om_documentation/oM/Analytical/Structure/Results/NodeModalMass)
+    - Structure.Results.[NodeModalResults](/om_documentation/oM/Analytical/Structure/Results/NodeModalResults)
+    - Structure.Results.[NodeModeShape](/om_documentation/oM/Analytical/Structure/Results/NodeModeShape)
+    - Structure.Results.[NodeReaction](/om_documentation/oM/Analytical/Structure/Results/NodeReaction)
+    - Structure.Results.[NodeVelocity](/om_documentation/oM/Analytical/Structure/Results/NodeVelocity)
 
 
 ## Properties
@@ -50,7 +50,7 @@ The following properties are defined on the class
 | ResultCase | [IComparable](https://learn.microsoft.com/en-us/dotnet/api/System.IComparable?view=netstandard-2.0) | Identifier for the Loadcase or LoadCombination that the result belongs to. Is generally name or number of the loadcase, depending on the analysis package. | - |
 | ModeNumber | [int](https://learn.microsoft.com/en-us/dotnet/api/System.Int32?view=netstandard-2.0) | Positive index, starting at one. Only set for cases with modal outputs such as dynamic cases. | - |
 | TimeStep | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Time step for time history results. | - |
-| Orientation | [Basis](/documentation/oM/Dimensional/Geometry/Basis) | Defines the directionality of the results. Defaults to global XYZ. | - |
+| Orientation | [Basis](/om_documentation/oM/Dimensional/Geometry/Basis) | Defines the directionality of the results. Defaults to global XYZ. | - |
 
 
 ### Derived properties

@@ -20,9 +20,9 @@ Unconstrained generic type. Can be any type of object.
 
 ???+ bhom "The DomainTree`1 in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Data.Collections.[INode](/documentation/oM/Framework/Data/Collections/INode%601)&lt;[T](/documentation/oM/Framework/Data/Collections/INode%601#t)&gt;
-    -  Data.Collections.[IDataStructure](/documentation/oM/Framework/Data/Collections/IDataStructure)
-    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
+    -  Data.Collections.[INode](/om_documentation/oM/Framework/Data/Collections/INode%601)&lt;[T](/om_documentation/oM/Framework/Data/Collections/INode%601#t)&gt;
+    -  Data.Collections.[IDataStructure](/om_documentation/oM/Framework/Data/Collections/IDataStructure)
+    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
 
 
 ## Properties
@@ -35,9 +35,9 @@ The following properties are defined on the class
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| Children | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[DomainTree](/documentation/oM/Framework/Data/Collections/DomainTree%601)&lt;[T](#t)&gt;&gt; | The child nodes of this node. All child nodes DomainBoxes are assumed to be enclosed by this nodes DomainBox. An empty list indicates this node as a leaf node | - |
+| Children | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[DomainTree](/om_documentation/oM/Framework/Data/Collections/DomainTree%601)&lt;[T](#t)&gt;&gt; | The child nodes of this node. All child nodes DomainBoxes are assumed to be enclosed by this nodes DomainBox. An empty list indicates this node as a leaf node | - |
 | Values | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[T](#t)&gt; | The data values stored on this node. The DomainTree assumes that only nodes with an empty list of children have values. | - |
-| DomainBox | [DomainBox](/documentation/oM/Framework/Data/Collections/DomainBox) | This nodes DomainBox, enclosing either all the child nodes' DomainBoxes or this node's Values. | - |
+| DomainBox | [DomainBox](/om_documentation/oM/Framework/Data/Collections/DomainBox) | This nodes DomainBox, enclosing either all the child nodes' DomainBoxes or this node's Values. | - |
 
 
 ## Code and Schema

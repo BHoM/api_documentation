@@ -12,9 +12,9 @@ Use in conjunction with the LadybugToolsAdapter to run a diurnal analysis on a s
 
 ???+ bhom "The DiurnalPlotCommand in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  LadybugTools.[ISimulationCommand](/documentation/oM/Adapter/LadybugTools/ISimulationCommand)
-    -  Adapter.[IExecuteCommand](/documentation/oM/Framework/Adapter/IExecuteCommand)
-    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
+    -  LadybugTools.[ISimulationCommand](/om_documentation/oM/Adapter/LadybugTools/ISimulationCommand)
+    -  Adapter.[IExecuteCommand](/om_documentation/oM/Framework/Adapter/IExecuteCommand)
+    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
 
 
 ## Properties
@@ -27,12 +27,12 @@ The following properties are defined on the class
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| EPWFile | [FileSettings](/documentation/oM/Framework/Adapter/FileSettings) | The EPW file to analyse. | - |
-| EPWKey | [EPWKey](/documentation/oM/Adapter/LadybugTools/EPWKey) | The key in the EPW file to analyse. | - |
+| EPWFile | [FileSettings](/om_documentation/oM/Framework/Adapter/FileSettings) | The EPW file to analyse. | - |
+| EPWKey | [EPWKey](/om_documentation/oM/Adapter/LadybugTools/EPWKey) | The key in the EPW file to analyse. | - |
 | Colour | [Color](https://learn.microsoft.com/en-us/dotnet/api/System.Drawing.Color?view=netstandard-2.0) | The colour of the average line on the plot. | - |
 | OutputLocation | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | The directory to output the file. Leave empty to return a base64 string representation of that image. | - |
 | Title | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | Title of the plot, will appear above any information on the top of the plot. | - |
-| Period | [DiurnalPeriod](/documentation/oM/Adapter/LadybugTools/DiurnalPeriod) | The diurnal period to analyse. Daily for 365 samples/timestep, weekly for 52, monthly for 30. | - |
+| Period | [DiurnalPeriod](/om_documentation/oM/Adapter/LadybugTools/DiurnalPeriod) | The diurnal period to analyse. Daily for 365 samples/timestep, weekly for 52, monthly for 30. | - |
 
 
 ## Code and Schema

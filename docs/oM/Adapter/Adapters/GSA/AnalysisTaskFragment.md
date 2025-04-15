@@ -12,8 +12,8 @@ Fragment to be put on a LoadCombination to help you control the analysis task ty
 
 ???+ bhom "The AnalysisTaskFragment in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IFragment](/documentation/oM/Framework/Base/IFragment)
-    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
+    -  Base.[IFragment](/om_documentation/oM/Framework/Base/IFragment)
+    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
 
 
 ## Properties
@@ -26,7 +26,7 @@ The following properties are defined on the class
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| AnalysisType | [AnalysisType](/documentation/oM/Adapter/Adapters/GSA/AnalysisType) | - | - |
+| AnalysisType | [AnalysisType](/om_documentation/oM/Adapter/Adapters/GSA/AnalysisType) | - | - |
 | Stage | [int](https://learn.microsoft.com/en-us/dotnet/api/System.Int32?view=netstandard-2.0) | The stage number for the combination to be run on. | - |
 | ResidualForce | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Allowed residual Force for convergence, only used for Non-linear analysis. | - |
 | ResidualMoment | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Allowed residual Moment for convergence, only used for Non-linear analysis. | - |

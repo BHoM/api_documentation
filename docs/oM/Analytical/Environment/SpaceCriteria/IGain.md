@@ -12,20 +12,20 @@ title: IGain
 
 ???+ bhom "The IGain in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IBHoMObject](/documentation/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
+    -  Base.[IBHoMObject](/om_documentation/oM/Framework/Base/IBHoMObject)
+    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Environment.SpaceCriteria.[Equipment](/documentation/oM/Analytical/Environment/SpaceCriteria/Equipment)
-    - Environment.SpaceCriteria.[Infiltration](/documentation/oM/Analytical/Environment/SpaceCriteria/Infiltration)
-    - Environment.SpaceCriteria.[Lighting](/documentation/oM/Analytical/Environment/SpaceCriteria/Lighting)
-    - Environment.SpaceCriteria.[People](/documentation/oM/Analytical/Environment/SpaceCriteria/People)
-    - Environment.SpaceCriteria.[Plug](/documentation/oM/Analytical/Environment/SpaceCriteria/Plug)
-    - Environment.SpaceCriteria.[Pollutant](/documentation/oM/Analytical/Environment/SpaceCriteria/Pollutant)
+    - Environment.SpaceCriteria.[Equipment](/om_documentation/oM/Analytical/Environment/SpaceCriteria/Equipment)
+    - Environment.SpaceCriteria.[Infiltration](/om_documentation/oM/Analytical/Environment/SpaceCriteria/Infiltration)
+    - Environment.SpaceCriteria.[Lighting](/om_documentation/oM/Analytical/Environment/SpaceCriteria/Lighting)
+    - Environment.SpaceCriteria.[People](/om_documentation/oM/Analytical/Environment/SpaceCriteria/People)
+    - Environment.SpaceCriteria.[Plug](/om_documentation/oM/Analytical/Environment/SpaceCriteria/Plug)
+    - Environment.SpaceCriteria.[Pollutant](/om_documentation/oM/Analytical/Environment/SpaceCriteria/Pollutant)
 
 
 ## Properties

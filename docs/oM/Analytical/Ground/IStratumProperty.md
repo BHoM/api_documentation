@@ -12,15 +12,15 @@ Base interface for stratum properties.
 
 ???+ bhom "The IStratumProperty in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IBHoMObject](/documentation/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
+    -  Base.[IBHoMObject](/om_documentation/oM/Framework/Base/IBHoMObject)
+    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Ground.[StratumReference](/documentation/oM/Analytical/Ground/StratumReference)
+    - Ground.[StratumReference](/om_documentation/oM/Analytical/Ground/StratumReference)
 
 
 ## Properties

@@ -12,7 +12,7 @@ Configuration used to specify representation to be pulled and passed to RevitRep
 
 ???+ bhom "The PullRepresentationConfig in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
+    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
 
 
 ## Properties
@@ -26,7 +26,7 @@ The following properties are defined on the class
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
 | PullRenderMesh | [bool](https://learn.microsoft.com/en-us/dotnet/api/System.Boolean?view=netstandard-2.0) | If true, representation of elements will be pulled and stored under RenderMesh in RevitRepresentation fragment. | - |
-| DetailLevel | [DetailLevel](/documentation/oM/Adapter/Adapters/Revit/Enums/DetailLevel) | Detail level of representation, correspondent to level of detail in Revit. | - |
+| DetailLevel | [DetailLevel](/om_documentation/oM/Adapter/Adapters/Revit/Enums/DetailLevel) | Detail level of representation, correspondent to level of detail in Revit. | - |
 | IncludeNonVisible | [bool](https://learn.microsoft.com/en-us/dotnet/api/System.Boolean?view=netstandard-2.0) | Invisible element parts will be pulled and passed to RevitRepresentation fragment if true. PullRepresentation switched to true needed for this to activate. | - |
 
 

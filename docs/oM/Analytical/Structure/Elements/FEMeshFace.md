@@ -12,11 +12,11 @@ Face of an FEMesh. The face is defined by the indices of its nodes in the node l
 
 ???+ bhom "The FEMeshFace in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[BHoMObject](/documentation/oM/Framework/Base/BHoMObject)
-    -  Base.[IBHoMObject](/documentation/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
-    -  Analytical.Elements.[IFace](/documentation/oM/Analytical/Analytical/Elements/IFace)
-    -  Analytical.[IAnalytical](/documentation/oM/Analytical/Analytical/IAnalytical)
+    -  Base.[BHoMObject](/om_documentation/oM/Framework/Base/BHoMObject)
+    -  Base.[IBHoMObject](/om_documentation/oM/Framework/Base/IBHoMObject)
+    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
+    -  Analytical.Elements.[IFace](/om_documentation/oM/Analytical/Analytical/Elements/IFace)
+    -  Analytical.[IAnalytical](/om_documentation/oM/Analytical/Analytical/IAnalytical)
 
 
 ## Properties
@@ -30,7 +30,7 @@ The following properties are defined on the class
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
 | NodeListIndices | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[int](https://learn.microsoft.com/en-us/dotnet/api/System.Int32?view=netstandard-2.0)&gt; | List of which node indices in the host FEMesh node list that this face is connecting. | - |
-| OrientationAngle | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Defines the angle that the local x and y axes are rotated around the normal (i.e. local z) of the FEMeshFace.<br>The normal of the FEMeshFace is determined by the curl right hand rule dictated by the order of the node list.<br>Local x is found by projecting the global X to the plane of the FEMeshFace and is then rotated with the OrientationAngle, except for the case when the Normal is parallel with the global X. For this case the local y is instead found by projecting global Y to the plane of the FEMeshFace and is then rotated with the OrientationAngle.<br>The remaining local axis is determined by the right hand rule. | [Angle](/documentation/oM/Dimensional/Quantities/Attributes/Angle) [rad] |
+| OrientationAngle | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Defines the angle that the local x and y axes are rotated around the normal (i.e. local z) of the FEMeshFace.<br>The normal of the FEMeshFace is determined by the curl right hand rule dictated by the order of the node list.<br>Local x is found by projecting the global X to the plane of the FEMeshFace and is then rotated with the OrientationAngle, except for the case when the Normal is parallel with the global X. For this case the local y is instead found by projecting global Y to the plane of the FEMeshFace and is then rotated with the OrientationAngle.<br>The remaining local axis is determined by the right hand rule. | [Angle](/om_documentation/oM/Dimensional/Quantities/Attributes/Angle) [rad] |
 
 
 ### Inherited properties
@@ -40,7 +40,7 @@ The following properties are inherited from the base class of the object
 |------------------|------------------|------------------|------------------|
 | BHoM_Guid | [Guid](https://learn.microsoft.com/en-us/dotnet/api/System.Guid?view=netstandard-2.0) | - | - |
 | Name | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | - | - |
-| Fragments | [FragmentSet](/documentation/oM/Framework/Base/FragmentSet) | - | - |
+| Fragments | [FragmentSet](/om_documentation/oM/Framework/Base/FragmentSet) | - | - |
 | Tags | [HashSet](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.HashSet-1?view=netstandard-2.0)&lt;[string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0)&gt; | - | - |
 | CustomData | [Dictionary](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.Dictionary-2?view=netstandard-2.0)&lt;[string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0), [object](https://learn.microsoft.com/en-us/dotnet/api/System.Object?view=netstandard-2.0)&gt; | - | - |
 
@@ -51,7 +51,7 @@ The following properties are defined as extension methods in one of the BHoM_Eng
 
 | Name             | Type             | Description      | Quantity         | Engine           |
 |------------------|------------------|------------------|------------------|------------------|
-| Geometry | [Face](/documentation/oM/Dimensional/Geometry/Face) | Gets the geometry of a analytical IFace as a geometrical Mesh's Face. A geometrical mesh face only supports 3 and 4 nodes faces, while a FEMeshFace does not have this limitation. For FEMeshFaces with more than 4 nodes or less than 3 this operation is therefore not possible. Method required for automatic display in UI packages. | - | Analytical_Engine |
+| Geometry | [Face](/om_documentation/oM/Dimensional/Geometry/Face) | Gets the geometry of a analytical IFace as a geometrical Mesh's Face. A geometrical mesh face only supports 3 and 4 nodes faces, while a FEMeshFace does not have this limitation. For FEMeshFaces with more than 4 nodes or less than 3 this operation is therefore not possible. Method required for automatic display in UI packages. | - | Analytical_Engine |
 | IsNull | [bool](https://learn.microsoft.com/en-us/dotnet/api/System.Boolean?view=netstandard-2.0) | Checks if an FEMeshFace or its defining properties are null and outputs relevant error message. | - | Structure_Engine |
 
 

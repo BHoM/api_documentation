@@ -12,46 +12,46 @@ title: IMaterialProperties
 
 ???+ bhom "The IMaterialProperties in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IBHoMObject](/documentation/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
+    -  Base.[IBHoMObject](/om_documentation/oM/Framework/Base/IBHoMObject)
+    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
 
 
 ### Interfaces implementing this interface
 
 ???+ bhom "The following interfaces are implementing this interface:"
 
-    - Environment.MaterialFragments.[IEnvironmentMaterial](/documentation/oM/Analytical/Environment/MaterialFragments/IEnvironmentMaterial)
-    - MEP.System.MaterialFragments.[IInsulationMaterial](/documentation/oM/Analytical/MEP/System/MaterialFragments/IInsulationMaterial)
-    - Physical.Materials.[IDensityProvider](/documentation/oM/Physical/Physical/Materials/IDensityProvider)
-    - Structure.MaterialFragments.[IIsotropic](/documentation/oM/Analytical/Structure/MaterialFragments/IIsotropic)
-    - Structure.MaterialFragments.[IMaterialFragment](/documentation/oM/Analytical/Structure/MaterialFragments/IMaterialFragment)
-    - Structure.MaterialFragments.[IOrthotropic](/documentation/oM/Analytical/Structure/MaterialFragments/IOrthotropic)
-    - Structure.MaterialFragments.[ITimber](/documentation/oM/Analytical/Structure/MaterialFragments/ITimber)
+    - Environment.MaterialFragments.[IEnvironmentMaterial](/om_documentation/oM/Analytical/Environment/MaterialFragments/IEnvironmentMaterial)
+    - MEP.System.MaterialFragments.[IInsulationMaterial](/om_documentation/oM/Analytical/MEP/System/MaterialFragments/IInsulationMaterial)
+    - Physical.Materials.[IDensityProvider](/om_documentation/oM/Physical/Physical/Materials/IDensityProvider)
+    - Structure.MaterialFragments.[IIsotropic](/om_documentation/oM/Analytical/Structure/MaterialFragments/IIsotropic)
+    - Structure.MaterialFragments.[IMaterialFragment](/om_documentation/oM/Analytical/Structure/MaterialFragments/IMaterialFragment)
+    - Structure.MaterialFragments.[IOrthotropic](/om_documentation/oM/Analytical/Structure/MaterialFragments/IOrthotropic)
+    - Structure.MaterialFragments.[ITimber](/om_documentation/oM/Analytical/Structure/MaterialFragments/ITimber)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Environment.MaterialFragments.[GasMaterial](/documentation/oM/Analytical/Environment/MaterialFragments/GasMaterial)
-    - Environment.MaterialFragments.[SolidMaterial](/documentation/oM/Analytical/Environment/MaterialFragments/SolidMaterial)
-    - Adapters.GSA.MaterialFragments.[Fabric](/documentation/oM/Adapter/Adapters/GSA/MaterialFragments/Fabric)
-    - LifeCycleAssessment.MaterialFragments.[EnvironmentalProductDeclaration](/documentation/oM/Analytical/LifeCycleAssessment/MaterialFragments/EnvironmentalProductDeclaration)
-    - MEP.System.MaterialFragments.[DuctMaterial](/documentation/oM/Analytical/MEP/System/MaterialFragments/DuctMaterial)
-    - MEP.System.MaterialFragments.[InsulationMaterial](/documentation/oM/Analytical/MEP/System/MaterialFragments/InsulationMaterial)
-    - MEP.System.MaterialFragments.[LiningMaterial](/documentation/oM/Analytical/MEP/System/MaterialFragments/LiningMaterial)
-    - MEP.System.MaterialFragments.[PipeMaterial](/documentation/oM/Analytical/MEP/System/MaterialFragments/PipeMaterial)
-    - MEP.System.MaterialFragments.[WireMaterial](/documentation/oM/Analytical/MEP/System/MaterialFragments/WireMaterial)
-    - Structure.MaterialFragments.[Aluminium](/documentation/oM/Analytical/Structure/MaterialFragments/Aluminium)
-    - Structure.MaterialFragments.[Concrete](/documentation/oM/Analytical/Structure/MaterialFragments/Concrete)
-    - Structure.MaterialFragments.[GenericIsotropicMaterial](/documentation/oM/Analytical/Structure/MaterialFragments/GenericIsotropicMaterial)
-    - Structure.MaterialFragments.[GenericOrthotropicMaterial](/documentation/oM/Analytical/Structure/MaterialFragments/GenericOrthotropicMaterial)
-    - Structure.MaterialFragments.[Glulam](/documentation/oM/Analytical/Structure/MaterialFragments/Glulam)
-    - Structure.MaterialFragments.[LaminatedVeneerLumberCrossbands](/documentation/oM/Analytical/Structure/MaterialFragments/LaminatedVeneerLumberCrossbands)
-    - Structure.MaterialFragments.[LaminatedVeneerLumberParallel](/documentation/oM/Analytical/Structure/MaterialFragments/LaminatedVeneerLumberParallel)
-    - Structure.MaterialFragments.[SawnTimber](/documentation/oM/Analytical/Structure/MaterialFragments/SawnTimber)
-    - Structure.MaterialFragments.[Steel](/documentation/oM/Analytical/Structure/MaterialFragments/Steel)
-    - Structure.MaterialFragments.[Timber](/documentation/oM/Analytical/Structure/MaterialFragments/Timber)
+    - Environment.MaterialFragments.[GasMaterial](/om_documentation/oM/Analytical/Environment/MaterialFragments/GasMaterial)
+    - Environment.MaterialFragments.[SolidMaterial](/om_documentation/oM/Analytical/Environment/MaterialFragments/SolidMaterial)
+    - Adapters.GSA.MaterialFragments.[Fabric](/om_documentation/oM/Adapter/Adapters/GSA/MaterialFragments/Fabric)
+    - LifeCycleAssessment.MaterialFragments.[EnvironmentalProductDeclaration](/om_documentation/oM/Analytical/LifeCycleAssessment/MaterialFragments/EnvironmentalProductDeclaration)
+    - MEP.System.MaterialFragments.[DuctMaterial](/om_documentation/oM/Analytical/MEP/System/MaterialFragments/DuctMaterial)
+    - MEP.System.MaterialFragments.[InsulationMaterial](/om_documentation/oM/Analytical/MEP/System/MaterialFragments/InsulationMaterial)
+    - MEP.System.MaterialFragments.[LiningMaterial](/om_documentation/oM/Analytical/MEP/System/MaterialFragments/LiningMaterial)
+    - MEP.System.MaterialFragments.[PipeMaterial](/om_documentation/oM/Analytical/MEP/System/MaterialFragments/PipeMaterial)
+    - MEP.System.MaterialFragments.[WireMaterial](/om_documentation/oM/Analytical/MEP/System/MaterialFragments/WireMaterial)
+    - Structure.MaterialFragments.[Aluminium](/om_documentation/oM/Analytical/Structure/MaterialFragments/Aluminium)
+    - Structure.MaterialFragments.[Concrete](/om_documentation/oM/Analytical/Structure/MaterialFragments/Concrete)
+    - Structure.MaterialFragments.[GenericIsotropicMaterial](/om_documentation/oM/Analytical/Structure/MaterialFragments/GenericIsotropicMaterial)
+    - Structure.MaterialFragments.[GenericOrthotropicMaterial](/om_documentation/oM/Analytical/Structure/MaterialFragments/GenericOrthotropicMaterial)
+    - Structure.MaterialFragments.[Glulam](/om_documentation/oM/Analytical/Structure/MaterialFragments/Glulam)
+    - Structure.MaterialFragments.[LaminatedVeneerLumberCrossbands](/om_documentation/oM/Analytical/Structure/MaterialFragments/LaminatedVeneerLumberCrossbands)
+    - Structure.MaterialFragments.[LaminatedVeneerLumberParallel](/om_documentation/oM/Analytical/Structure/MaterialFragments/LaminatedVeneerLumberParallel)
+    - Structure.MaterialFragments.[SawnTimber](/om_documentation/oM/Analytical/Structure/MaterialFragments/SawnTimber)
+    - Structure.MaterialFragments.[Steel](/om_documentation/oM/Analytical/Structure/MaterialFragments/Steel)
+    - Structure.MaterialFragments.[Timber](/om_documentation/oM/Analytical/Structure/MaterialFragments/Timber)
 
 
 ## Properties

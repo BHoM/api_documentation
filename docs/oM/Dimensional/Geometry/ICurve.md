@@ -12,34 +12,34 @@ The interface for all one-dimensional geometrical objects.
 
 ???+ bhom "The ICurve in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Geometry.[IGeometry](/documentation/oM/Dimensional/Geometry/IGeometry)
-    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
-    -  Dimensional.[IElement1D](/documentation/oM/Dimensional/Dimensional/IElement1D)
-    -  Dimensional.[IElement](/documentation/oM/Dimensional/Dimensional/IElement)
+    -  Geometry.[IGeometry](/om_documentation/oM/Dimensional/Geometry/IGeometry)
+    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
+    -  Dimensional.[IElement1D](/om_documentation/oM/Dimensional/Dimensional/IElement1D)
+    -  Dimensional.[IElement](/om_documentation/oM/Dimensional/Dimensional/IElement)
 
 
 ### Interfaces implementing this interface
 
 ???+ bhom "The following interfaces are implementing this interface:"
 
-    - Geometry.[IBoundary](/documentation/oM/Dimensional/Geometry/IBoundary)
-    - Geometry.[IPolyCurve](/documentation/oM/Dimensional/Geometry/IPolyCurve)
-    - Geometry.[IPolyline](/documentation/oM/Dimensional/Geometry/IPolyline)
+    - Geometry.[IBoundary](/om_documentation/oM/Dimensional/Geometry/IBoundary)
+    - Geometry.[IPolyCurve](/om_documentation/oM/Dimensional/Geometry/IPolyCurve)
+    - Geometry.[IPolyline](/om_documentation/oM/Dimensional/Geometry/IPolyline)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Geometry.[Arc](/documentation/oM/Dimensional/Geometry/Arc)
-    - Geometry.[BoundaryCurve](/documentation/oM/Dimensional/Geometry/BoundaryCurve)
-    - Geometry.[Circle](/documentation/oM/Dimensional/Geometry/Circle)
-    - Geometry.[Ellipse](/documentation/oM/Dimensional/Geometry/Ellipse)
-    - Geometry.[Line](/documentation/oM/Dimensional/Geometry/Line)
-    - Geometry.[NurbsCurve](/documentation/oM/Dimensional/Geometry/NurbsCurve)
-    - Geometry.[PolyCurve](/documentation/oM/Dimensional/Geometry/PolyCurve)
-    - Geometry.[Polygon](/documentation/oM/Dimensional/Geometry/Polygon)
-    - Geometry.[Polyline](/documentation/oM/Dimensional/Geometry/Polyline)
+    - Geometry.[Arc](/om_documentation/oM/Dimensional/Geometry/Arc)
+    - Geometry.[BoundaryCurve](/om_documentation/oM/Dimensional/Geometry/BoundaryCurve)
+    - Geometry.[Circle](/om_documentation/oM/Dimensional/Geometry/Circle)
+    - Geometry.[Ellipse](/om_documentation/oM/Dimensional/Geometry/Ellipse)
+    - Geometry.[Line](/om_documentation/oM/Dimensional/Geometry/Line)
+    - Geometry.[NurbsCurve](/om_documentation/oM/Dimensional/Geometry/NurbsCurve)
+    - Geometry.[PolyCurve](/om_documentation/oM/Dimensional/Geometry/PolyCurve)
+    - Geometry.[Polygon](/om_documentation/oM/Dimensional/Geometry/Polygon)
+    - Geometry.[Polyline](/om_documentation/oM/Dimensional/Geometry/Polyline)
 
 
 ## Properties
@@ -50,30 +50,30 @@ The following properties are defined as extension methods in one of the BHoM_Eng
 
 | Name             | Type             | Description      | Quantity         | Engine           |
 |------------------|------------------|------------------|------------------|------------------|
-| Bounds | [BoundingBox](/documentation/oM/Dimensional/Geometry/BoundingBox) | Queries the IElement1Ds BoundingBox. Acts on the ICurve definition of the IElement1D through the Geometry_Engine. | - | Spatial_Engine |
-| Centroid | [Point](/documentation/oM/Dimensional/Geometry/Point) | Queries the centre of weight for a IElement1Ds ICurve representation. | - | Spatial_Engine |
-| ControlPoints | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[Point](/documentation/oM/Dimensional/Geometry/Point)&gt; | Queries the control points of the one dimensional representation of the IElement1D. | - | Spatial_Engine |
-| DominantVector | [Vector](/documentation/oM/Dimensional/Geometry/Vector) | Gets the the dominant vector (orientation) of an Element1D based on its lines lengths. | - | Spatial_Engine |
-| ElementCurves | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[ICurve](/documentation/oM/Dimensional/Geometry/ICurve)&gt; | Queries the defining curves of an IElement1D. | - | Spatial_Engine |
-| ElementVertices | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[Point](/documentation/oM/Dimensional/Geometry/Point)&gt; | Returns the discontinuity points from the defining ICurve of the IElement1D. | - | Spatial_Engine |
+| Bounds | [BoundingBox](/om_documentation/oM/Dimensional/Geometry/BoundingBox) | Queries the IElement1Ds BoundingBox. Acts on the ICurve definition of the IElement1D through the Geometry_Engine. | - | Spatial_Engine |
+| Centroid | [Point](/om_documentation/oM/Dimensional/Geometry/Point) | Queries the centre of weight for a IElement1Ds ICurve representation. | - | Spatial_Engine |
+| ControlPoints | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[Point](/om_documentation/oM/Dimensional/Geometry/Point)&gt; | Queries the control points of the one dimensional representation of the IElement1D. | - | Spatial_Engine |
+| DominantVector | [Vector](/om_documentation/oM/Dimensional/Geometry/Vector) | Gets the the dominant vector (orientation) of an Element1D based on its lines lengths. | - | Spatial_Engine |
+| ElementCurves | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[ICurve](/om_documentation/oM/Dimensional/Geometry/ICurve)&gt; | Queries the defining curves of an IElement1D. | - | Spatial_Engine |
+| ElementVertices | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[Point](/om_documentation/oM/Dimensional/Geometry/Point)&gt; | Returns the discontinuity points from the defining ICurve of the IElement1D. | - | Spatial_Engine |
 | GeometryHash | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | Returns a signature of the input geometry, useful for diffing.<br>The hash is computed as a serialised array representing the coordinate of significant points taken on the geometry.<br>The number of points is reduced to the minimum essential to determine uniquely any geometry.<br>Additionally, the resulting points are transformed based on the source geometry type, to remove or minimize collisions.<br>(Any transformation so performed is translational only, in order to support geometrical tolerance, i.e. numerical distance, when comparing GeometryHashes downstream). | - | Geometry_Engine |
 | Height | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Returns the height of a BHoM Geometry ICurve based on the bounding box of the curve | - | Environment_Engine |
-| IArea | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Calculates the area of the provided geometry. | [Area](/documentation/oM/Dimensional/Quantities/Attributes/Area) [m²] | Geometry_Engine |
-| IArea | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Queries the area of the geometrical representation of an IElement. | [Area](/documentation/oM/Dimensional/Quantities/Attributes/Area) [m²] | Spatial_Engine |
-| IBounds | [BoundingBox](/documentation/oM/Dimensional/Geometry/BoundingBox) | Queries the IElements BoundingBox. Acts on the elements geometrical definition of the IElement through the Geometry_Engine. | - | Spatial_Engine |
-| IBounds | [BoundingBox](/documentation/oM/Dimensional/Geometry/BoundingBox) | Returns the global world axis oriented enclosing BoundingBox for all points of the geometry, i.e. the box with the smallest volume within which all the points on the geometry lie. | - | Geometry_Engine |
-| ICentroid | [Point](/documentation/oM/Dimensional/Geometry/Point) | Interface method that queries the centre of area for any ICurve. | - | Geometry_Engine |
-| ICentroid | [Point](/documentation/oM/Dimensional/Geometry/Point) | Queries the centre of weight for the homogeneous geometrical representation of an IElement. | - | Spatial_Engine |
-| IControlPoints | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[Point](/documentation/oM/Dimensional/Geometry/Point)&gt; | Queries the control points of the geometrical representation of an IElement. | - | Spatial_Engine |
-| IControlPoints | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[Point](/documentation/oM/Dimensional/Geometry/Point)&gt; | Gets the ControlPoints of the ICurve. Result will depend on the curve provided. Note that for NurbsCurves might not returns curves that are on the curve. | - | Geometry_Engine |
-| IDiscontinuityPoints | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[Point](/documentation/oM/Dimensional/Geometry/Point)&gt; | Gets the points at kinks of the curve, i.e. points where the tangent between two segments coming in to the same point is outside of the provided tolerance. | - | Geometry_Engine |
-| IElementCurves | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[ICurve](/documentation/oM/Dimensional/Geometry/ICurve)&gt; | Queries the geometricly defining curves of the IElements geometry. | - | Spatial_Engine |
-| IElements0D | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[IElement0D](/documentation/oM/Dimensional/Dimensional/IElement0D)&gt; | Queries the IElement0Ds from a IElement1D. Returns null if no IElement0Ds are defined for the type of IElement1D. | - | Spatial_Engine |
-| IElementVertices | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[Point](/documentation/oM/Dimensional/Geometry/Point)&gt; | Returns the discontinuity points from the defining ICurves of the IElement. | - | Spatial_Engine |
-| IEndDir | [Vector](/documentation/oM/Dimensional/Geometry/Vector) | Gets the tangent vector at the end of the curve. | - | Geometry_Engine |
-| IEndPoint | [Point](/documentation/oM/Dimensional/Geometry/Point) | - | - | Geometry_Engine |
-| IGeometry | [ICurve](/documentation/oM/Dimensional/Geometry/ICurve) | Queries the defining geometrical object which all spatial operations will act on. | - | Spatial_Engine |
-| IGeometry | [ICurve](/documentation/oM/Dimensional/Geometry/ICurve) | - | - | Geometry_Engine |
+| IArea | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Calculates the area of the provided geometry. | [Area](/om_documentation/oM/Dimensional/Quantities/Attributes/Area) [m²] | Geometry_Engine |
+| IArea | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Queries the area of the geometrical representation of an IElement. | [Area](/om_documentation/oM/Dimensional/Quantities/Attributes/Area) [m²] | Spatial_Engine |
+| IBounds | [BoundingBox](/om_documentation/oM/Dimensional/Geometry/BoundingBox) | Queries the IElements BoundingBox. Acts on the elements geometrical definition of the IElement through the Geometry_Engine. | - | Spatial_Engine |
+| IBounds | [BoundingBox](/om_documentation/oM/Dimensional/Geometry/BoundingBox) | Returns the global world axis oriented enclosing BoundingBox for all points of the geometry, i.e. the box with the smallest volume within which all the points on the geometry lie. | - | Geometry_Engine |
+| ICentroid | [Point](/om_documentation/oM/Dimensional/Geometry/Point) | Interface method that queries the centre of area for any ICurve. | - | Geometry_Engine |
+| ICentroid | [Point](/om_documentation/oM/Dimensional/Geometry/Point) | Queries the centre of weight for the homogeneous geometrical representation of an IElement. | - | Spatial_Engine |
+| IControlPoints | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[Point](/om_documentation/oM/Dimensional/Geometry/Point)&gt; | Queries the control points of the geometrical representation of an IElement. | - | Spatial_Engine |
+| IControlPoints | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[Point](/om_documentation/oM/Dimensional/Geometry/Point)&gt; | Gets the ControlPoints of the ICurve. Result will depend on the curve provided. Note that for NurbsCurves might not returns curves that are on the curve. | - | Geometry_Engine |
+| IDiscontinuityPoints | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[Point](/om_documentation/oM/Dimensional/Geometry/Point)&gt; | Gets the points at kinks of the curve, i.e. points where the tangent between two segments coming in to the same point is outside of the provided tolerance. | - | Geometry_Engine |
+| IElementCurves | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[ICurve](/om_documentation/oM/Dimensional/Geometry/ICurve)&gt; | Queries the geometricly defining curves of the IElements geometry. | - | Spatial_Engine |
+| IElements0D | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[IElement0D](/om_documentation/oM/Dimensional/Dimensional/IElement0D)&gt; | Queries the IElement0Ds from a IElement1D. Returns null if no IElement0Ds are defined for the type of IElement1D. | - | Spatial_Engine |
+| IElementVertices | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[Point](/om_documentation/oM/Dimensional/Geometry/Point)&gt; | Returns the discontinuity points from the defining ICurves of the IElement. | - | Spatial_Engine |
+| IEndDir | [Vector](/om_documentation/oM/Dimensional/Geometry/Vector) | Gets the tangent vector at the end of the curve. | - | Geometry_Engine |
+| IEndPoint | [Point](/om_documentation/oM/Dimensional/Geometry/Point) | - | - | Geometry_Engine |
+| IGeometry | [ICurve](/om_documentation/oM/Dimensional/Geometry/ICurve) | Queries the defining geometrical object which all spatial operations will act on. | - | Spatial_Engine |
+| IGeometry | [ICurve](/om_documentation/oM/Dimensional/Geometry/ICurve) | - | - | Geometry_Engine |
 | IHashArray | [Double[]](https://learn.microsoft.com/en-us/dotnet/api/System.Double[]?view=netstandard-2.0) | Returns a signature of the input geometry, useful for distance-based comparisons and diffing.<br>The hash is computed as an array representing the coordinate of significant points taken on the geometry.<br>The number of points is reduced to the minimum essential to determine uniquely any geometry.<br>Additionally, the resulting points are transformed based on the source geometry type, to remove or minimize collisions.<br>(Any transformation so performed is translational only, in order to support geometrical tolerance, i.e. numerical distance, when comparing GeometryHashes downstream). | - | Geometry_Engine |
 | IIsClosed | [bool](https://learn.microsoft.com/en-us/dotnet/api/System.Boolean?view=netstandard-2.0) | Checks if the ICurve is closed, i.e. forms a closed loop. | - | Geometry_Engine |
 | IIsLinear | [bool](https://learn.microsoft.com/en-us/dotnet/api/System.Boolean?view=netstandard-2.0) | Returns if the curve is Linear or not. | - | Geometry_Engine |
@@ -83,22 +83,22 @@ The following properties are defined as extension methods in one of the BHoM_Eng
 | IIsSelfIntersecting | [bool](https://learn.microsoft.com/en-us/dotnet/api/System.Boolean?view=netstandard-2.0) | Checks if any of the curves defining an IElement is closer to itself than the tolerance at any two points (is self intersecting). In case of IElement2D, does not check for intersections between external and internal curves, or between different internal curves. | - | Spatial_Engine |
 | IIsSelfIntersecting | [bool](https://learn.microsoft.com/en-us/dotnet/api/System.Boolean?view=netstandard-2.0) | Checks if any part of the the ICurve is intersecting with any other part of the curve. | - | Geometry_Engine |
 | IIsValid | [bool](https://learn.microsoft.com/en-us/dotnet/api/System.Boolean?view=netstandard-2.0) | - | - | Geometry_Engine |
-| ILength | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Calculates the length of a Curve. | [Length](/documentation/oM/Dimensional/Quantities/Attributes/Length) [m] | Geometry_Engine |
-| INormal | [Vector](/documentation/oM/Dimensional/Geometry/Vector) | Interface method that returns a vector normal to the plane of any ICurve and oriented according to the right hand rule. Works only for closed and planar curves with an exception for single Arcs. | - | Geometry_Engine |
-| INormals | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[Vector](/documentation/oM/Dimensional/Geometry/Vector)&gt; | Interface method that returns the list of vectors normal to any IGeometry. | - | Geometry_Engine |
+| ILength | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Calculates the length of a Curve. | [Length](/om_documentation/oM/Dimensional/Quantities/Attributes/Length) [m] | Geometry_Engine |
+| INormal | [Vector](/om_documentation/oM/Dimensional/Geometry/Vector) | Interface method that returns a vector normal to the plane of any ICurve and oriented according to the right hand rule. Works only for closed and planar curves with an exception for single Arcs. | - | Geometry_Engine |
+| INormals | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[Vector](/om_documentation/oM/Dimensional/Geometry/Vector)&gt; | Interface method that returns the list of vectors normal to any IGeometry. | - | Geometry_Engine |
 | IPrimaryPropertyName | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | Returns the name of an elements primary defining property | - | Facade_Engine |
 | IsNull | [bool](https://learn.microsoft.com/en-us/dotnet/api/System.Boolean?view=netstandard-2.0) | Checks if a Geometry is null and outputs relevant error message. | - | Geometry_Engine |
 | IsNurbsCurve | [bool](https://learn.microsoft.com/en-us/dotnet/api/System.Boolean?view=netstandard-2.0) | Queries if any part of the curve is a nurbs curve. | - | Geometry_Engine |
 | IsPlanar | [bool](https://learn.microsoft.com/en-us/dotnet/api/System.Boolean?view=netstandard-2.0) | Checks whether all control points of an element lie in a single plane. | - | Spatial_Engine |
 | IsSelfIntersecting | [bool](https://learn.microsoft.com/en-us/dotnet/api/System.Boolean?view=netstandard-2.0) | Checks if the one dimensional representation of the IElement1D is closer to itself than the tolerance at any two points. | - | Spatial_Engine |
-| IStartDir | [Vector](/documentation/oM/Dimensional/Geometry/Vector) | Gets the tangent vector at the start of the curve. | - | Geometry_Engine |
-| IStartPoint | [Point](/documentation/oM/Dimensional/Geometry/Point) | - | - | Geometry_Engine |
-| ISubParts | [IEnumerable](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IEnumerable-1?view=netstandard-2.0)&lt;[ICurve](/documentation/oM/Dimensional/Geometry/ICurve)&gt; | - | - | Geometry_Engine |
-| ISubParts | [IEnumerable](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IEnumerable-1?view=netstandard-2.0)&lt;[IGeometry](/documentation/oM/Dimensional/Geometry/IGeometry)&gt; | - | - | Geometry_Engine |
+| IStartDir | [Vector](/om_documentation/oM/Dimensional/Geometry/Vector) | Gets the tangent vector at the start of the curve. | - | Geometry_Engine |
+| IStartPoint | [Point](/om_documentation/oM/Dimensional/Geometry/Point) | - | - | Geometry_Engine |
+| ISubParts | [IEnumerable](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IEnumerable-1?view=netstandard-2.0)&lt;[ICurve](/om_documentation/oM/Dimensional/Geometry/ICurve)&gt; | - | - | Geometry_Engine |
+| ISubParts | [IEnumerable](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IEnumerable-1?view=netstandard-2.0)&lt;[IGeometry](/om_documentation/oM/Dimensional/Geometry/IGeometry)&gt; | - | - | Geometry_Engine |
 | IsValid | [bool](https://learn.microsoft.com/en-us/dotnet/api/System.Boolean?view=netstandard-2.0) | - | - | Geometry_Engine |
-| Length | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Returns the length of the IElement1Ds curve. | [Length](/documentation/oM/Dimensional/Quantities/Attributes/Length) [m] | Spatial_Engine |
-| PointInRegion | [Point](/documentation/oM/Dimensional/Geometry/Point) | - | - | Geometry_Engine |
-| ToEdges | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[Edge](/documentation/oM/Analytical/Environment/Elements/Edge)&gt; | Returns a collection of Environment Edges from a BHoM Geomtry Polyline | - | Environment_Engine |
+| Length | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Returns the length of the IElement1Ds curve. | [Length](/om_documentation/oM/Dimensional/Quantities/Attributes/Length) [m] | Spatial_Engine |
+| PointInRegion | [Point](/om_documentation/oM/Dimensional/Geometry/Point) | - | - | Geometry_Engine |
+| ToEdges | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[Edge](/om_documentation/oM/Analytical/Environment/Elements/Edge)&gt; | Returns a collection of Environment Edges from a BHoM Geomtry Polyline | - | Environment_Engine |
 | Width | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Returns the width of a BHoM Geometry ICurve based on the bounding box of the curve | - | Environment_Engine |
 
 

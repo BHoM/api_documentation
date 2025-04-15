@@ -12,8 +12,8 @@ Toolkit Settings that contain an initialisation method to be ran when the UI sta
 
 ???+ bhom "The IInitialisationSettings in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IImmutable](/documentation/oM/Framework/Base/IImmutable)
-    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
+    -  Base.[IImmutable](/om_documentation/oM/Framework/Base/IImmutable)
+    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
 
 
 ## Properties

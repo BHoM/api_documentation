@@ -20,7 +20,7 @@ Unconstrained generic type. Can be any type of object.
 
 ???+ bhom "The DBSCANObject`1 in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
+    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
 
 
 ## Properties

@@ -12,15 +12,15 @@ Lux contains results for Lux analysis. Inherits from MeshElementResult which pro
 
 ???+ bhom "The Lux in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Lighting.Results.Mesh.[MeshElementResult](/documentation/oM/Analytical/Lighting/Results/Mesh/MeshElementResult)
-    -  Analytical.Results.[IMeshElementResult](/documentation/oM/Analytical/Analytical/Results/IMeshElementResult)
-    -  Analytical.Results.[IResult](/documentation/oM/Analytical/Analytical/Results/IResult)
-    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
-    -  [IComparable](https://learn.microsoft.com/en-us/dotnet/api/System.IComparable-1?view=netstandard-2.0)&lt;Analytical.Results.[IResult](/documentation/oM/Analytical/Analytical/Results/IResult)&gt;
-    -  Base.[IImmutable](/documentation/oM/Framework/Base/IImmutable)
-    -  Analytical.Results.[IObjectIdResult](/documentation/oM/Analytical/Analytical/Results/IObjectIdResult)
-    -  Analytical.Results.[ICasedResult](/documentation/oM/Analytical/Analytical/Results/ICasedResult)
-    -  Analytical.Results.[IResultSeries](/documentation/oM/Analytical/Analytical/Results/IResultSeries)
+    -  Lighting.Results.Mesh.[MeshElementResult](/om_documentation/oM/Analytical/Lighting/Results/Mesh/MeshElementResult)
+    -  Analytical.Results.[IMeshElementResult](/om_documentation/oM/Analytical/Analytical/Results/IMeshElementResult)
+    -  Analytical.Results.[IResult](/om_documentation/oM/Analytical/Analytical/Results/IResult)
+    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
+    -  [IComparable](https://learn.microsoft.com/en-us/dotnet/api/System.IComparable-1?view=netstandard-2.0)&lt;Analytical.Results.[IResult](/om_documentation/oM/Analytical/Analytical/Results/IResult)&gt;
+    -  Base.[IImmutable](/om_documentation/oM/Framework/Base/IImmutable)
+    -  Analytical.Results.[IObjectIdResult](/om_documentation/oM/Analytical/Analytical/Results/IObjectIdResult)
+    -  Analytical.Results.[ICasedResult](/om_documentation/oM/Analytical/Analytical/Results/ICasedResult)
+    -  Analytical.Results.[IResultSeries](/om_documentation/oM/Analytical/Analytical/Results/IResultSeries)
 
 
 ## Properties
@@ -33,7 +33,7 @@ The following properties are defined on the class
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| LuxLevel | [IReadOnlyList](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IReadOnlyList-1?view=netstandard-2.0)&lt;[double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0)&gt; | The amount of lux recorded for the given analysis node | [Illuminance](/documentation/oM/Dimensional/Quantities/Attributes/Illuminance) [lux] |
+| LuxLevel | [IReadOnlyList](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IReadOnlyList-1?view=netstandard-2.0)&lt;[double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0)&gt; | The amount of lux recorded for the given analysis node | [Illuminance](/om_documentation/oM/Dimensional/Quantities/Attributes/Illuminance) [lux] |
 
 
 ### Inherited properties

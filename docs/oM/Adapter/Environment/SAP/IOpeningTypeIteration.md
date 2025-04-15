@@ -12,17 +12,17 @@ title: IOpeningTypeIteration
 
 ???+ bhom "The IOpeningTypeIteration in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Environment.SAP.[IIteration](/documentation/oM/Adapter/Environment/SAP/IIteration)
-    -  Base.[IBHoMObject](/documentation/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
+    -  Environment.SAP.[IIteration](/om_documentation/oM/Adapter/Environment/SAP/IIteration)
+    -  Base.[IBHoMObject](/om_documentation/oM/Framework/Base/IBHoMObject)
+    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Environment.SAP.[OpeningTypeGValueIteration](/documentation/oM/Adapter/Environment/SAP/OpeningTypeGValueIteration)
-    - Environment.SAP.[OpeningTypeUValueIteration](/documentation/oM/Adapter/Environment/SAP/OpeningTypeUValueIteration)
+    - Environment.SAP.[OpeningTypeGValueIteration](/om_documentation/oM/Adapter/Environment/SAP/OpeningTypeGValueIteration)
+    - Environment.SAP.[OpeningTypeUValueIteration](/om_documentation/oM/Adapter/Environment/SAP/OpeningTypeUValueIteration)
 
 
 ## Properties

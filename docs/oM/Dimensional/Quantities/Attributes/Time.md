@@ -27,11 +27,11 @@ The quantity is made up of the following [SI base units](https://en.wikipedia.or
 
 ???+ bhom "The Time in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Quantities.Attributes.[QuantityAttribute](/documentation/oM/Dimensional/Quantities/Attributes/QuantityAttribute)
-    -  Base.Attributes.[ClassificationAttribute](/documentation/oM/Framework/Base/Attributes/ClassificationAttribute)
+    -  Quantities.Attributes.[QuantityAttribute](/om_documentation/oM/Dimensional/Quantities/Attributes/QuantityAttribute)
+    -  Base.Attributes.[ClassificationAttribute](/om_documentation/oM/Framework/Base/Attributes/ClassificationAttribute)
     -  [Attribute](https://learn.microsoft.com/en-us/dotnet/api/System.Attribute?view=netstandard-2.0)
-    -  Base.[IImmutable](/documentation/oM/Framework/Base/IImmutable)
-    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
+    -  Base.[IImmutable](/om_documentation/oM/Framework/Base/IImmutable)
+    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
 
 
 

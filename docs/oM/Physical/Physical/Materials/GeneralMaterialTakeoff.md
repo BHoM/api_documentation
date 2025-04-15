@@ -12,9 +12,9 @@ Defines the make up of an object through a list of Materials and their correspon
 
 ???+ bhom "The GeneralMaterialTakeoff in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[BHoMObject](/documentation/oM/Framework/Base/BHoMObject)
-    -  Base.[IBHoMObject](/documentation/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
+    -  Base.[BHoMObject](/om_documentation/oM/Framework/Base/BHoMObject)
+    -  Base.[IBHoMObject](/om_documentation/oM/Framework/Base/IBHoMObject)
+    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
 
 
 ## Properties
@@ -27,7 +27,7 @@ The following properties are defined on the class
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| MaterialTakeoffItems | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[TakeoffItem](/documentation/oM/Physical/Physical/Materials/TakeoffItem)&gt; | List of the the materials with corresponding qunatities relevant to the particular material. | - |
+| MaterialTakeoffItems | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[TakeoffItem](/om_documentation/oM/Physical/Physical/Materials/TakeoffItem)&gt; | List of the the materials with corresponding qunatities relevant to the particular material. | - |
 
 
 ### Inherited properties
@@ -37,7 +37,7 @@ The following properties are inherited from the base class of the object
 |------------------|------------------|------------------|------------------|
 | BHoM_Guid | [Guid](https://learn.microsoft.com/en-us/dotnet/api/System.Guid?view=netstandard-2.0) | - | - |
 | Name | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | - | - |
-| Fragments | [FragmentSet](/documentation/oM/Framework/Base/FragmentSet) | - | - |
+| Fragments | [FragmentSet](/om_documentation/oM/Framework/Base/FragmentSet) | - | - |
 | Tags | [HashSet](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.HashSet-1?view=netstandard-2.0)&lt;[string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0)&gt; | - | - |
 | CustomData | [Dictionary](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.Dictionary-2?view=netstandard-2.0)&lt;[string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0), [object](https://learn.microsoft.com/en-us/dotnet/api/System.Object?view=netstandard-2.0)&gt; | - | - |
 
@@ -48,8 +48,8 @@ The following properties are defined as extension methods in one of the BHoM_Eng
 
 | Name             | Type             | Description      | Quantity         | Engine           |
 |------------------|------------------|------------------|------------------|------------------|
-| EnvironmentalResults | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[MaterialResult](/documentation/oM/Analytical/LifeCycleAssessment/Results/MaterialResult)&gt; | Evaluates the materials in the VolumetricMaterialTakeoff and returns a MaterialResult per material in the takeoff. Requires the materials in the Takeoff to have EPDs assigned. Please use the AssignTemplate methods before calling this method. | - | LifeCycleAssessment_Engine |
-| SolidVolume | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Returns the total solid volume of the provided GeneralMaterialTakeoff. | [Volume](/documentation/oM/Dimensional/Quantities/Attributes/Volume) [m³] | Matter_Engine |
+| EnvironmentalResults | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[MaterialResult](/om_documentation/oM/Analytical/LifeCycleAssessment/Results/MaterialResult)&gt; | Evaluates the materials in the VolumetricMaterialTakeoff and returns a MaterialResult per material in the takeoff. Requires the materials in the Takeoff to have EPDs assigned. Please use the AssignTemplate methods before calling this method. | - | LifeCycleAssessment_Engine |
+| SolidVolume | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Returns the total solid volume of the provided GeneralMaterialTakeoff. | [Volume](/om_documentation/oM/Dimensional/Quantities/Attributes/Volume) [m³] | Matter_Engine |
 
 
 ## Code and Schema

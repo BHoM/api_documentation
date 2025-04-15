@@ -12,19 +12,19 @@ Base interface for contaminant properties.
 
 ???+ bhom "The IContaminantProperty in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IBHoMObject](/documentation/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
+    -  Base.[IBHoMObject](/om_documentation/oM/Framework/Base/IBHoMObject)
+    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Ground.[AnalysisProperties](/documentation/oM/Analytical/Ground/AnalysisProperties)
-    - Ground.[ContaminantReference](/documentation/oM/Analytical/Ground/ContaminantReference)
-    - Ground.[DetectionProperties](/documentation/oM/Analytical/Ground/DetectionProperties)
-    - Ground.[ResultProperties](/documentation/oM/Analytical/Ground/ResultProperties)
-    - Ground.[TestProperties](/documentation/oM/Analytical/Ground/TestProperties)
+    - Ground.[AnalysisProperties](/om_documentation/oM/Analytical/Ground/AnalysisProperties)
+    - Ground.[ContaminantReference](/om_documentation/oM/Analytical/Ground/ContaminantReference)
+    - Ground.[DetectionProperties](/om_documentation/oM/Analytical/Ground/DetectionProperties)
+    - Ground.[ResultProperties](/om_documentation/oM/Analytical/Ground/ResultProperties)
+    - Ground.[TestProperties](/om_documentation/oM/Analytical/Ground/TestProperties)
 
 
 ## Properties

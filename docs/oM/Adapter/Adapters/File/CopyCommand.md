@@ -12,9 +12,9 @@ title: CopyCommand
 
 ???+ bhom "The CopyCommand in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Adapters.File.[IMRCCommand](/documentation/oM/Adapter/Adapters/File/IMRCCommand)
-    -  Adapter.[IExecuteCommand](/documentation/oM/Framework/Adapter/IExecuteCommand)
-    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
+    -  Adapters.File.[IMRCCommand](/om_documentation/oM/Adapter/Adapters/File/IMRCCommand)
+    -  Adapter.[IExecuteCommand](/om_documentation/oM/Framework/Adapter/IExecuteCommand)
+    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
 
 
 ## Properties

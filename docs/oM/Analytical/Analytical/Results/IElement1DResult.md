@@ -12,30 +12,30 @@ Base interface for results, corresponding to a discrete result at a particular p
 
 ???+ bhom "The IElement1DResult in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Analytical.Results.[IResult](/documentation/oM/Analytical/Analytical/Results/IResult)
-    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
-    -  [IComparable](https://learn.microsoft.com/en-us/dotnet/api/System.IComparable-1?view=netstandard-2.0)&lt;Analytical.Results.[IResult](/documentation/oM/Analytical/Analytical/Results/IResult)&gt;
-    -  Base.[IImmutable](/documentation/oM/Framework/Base/IImmutable)
-    -  Analytical.Results.[IObjectIdResult](/documentation/oM/Analytical/Analytical/Results/IObjectIdResult)
+    -  Analytical.Results.[IResult](/om_documentation/oM/Analytical/Analytical/Results/IResult)
+    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
+    -  [IComparable](https://learn.microsoft.com/en-us/dotnet/api/System.IComparable-1?view=netstandard-2.0)&lt;Analytical.Results.[IResult](/om_documentation/oM/Analytical/Analytical/Results/IResult)&gt;
+    -  Base.[IImmutable](/om_documentation/oM/Framework/Base/IImmutable)
+    -  Analytical.Results.[IObjectIdResult](/om_documentation/oM/Analytical/Analytical/Results/IObjectIdResult)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Adapters.ETABS.Results.[SpandrelForce](/documentation/oM/Adapter/Adapters/ETABS/Results/SpandrelForce)
-    - Adapters.ETABS.Results.[PierForce](/documentation/oM/Adapter/Adapters/ETABS/Results/PierForce)
-    - Adapters.SAP2000.Results.[AISCSteelUtilisation](/documentation/oM/Adapter/Adapters/SAP2000/Results/AISCSteelUtilisation)
-    - Structure.Results.[BarDeformation](/documentation/oM/Analytical/Structure/Results/BarDeformation)
-    - Structure.Results.[BarDisplacement](/documentation/oM/Analytical/Structure/Results/BarDisplacement)
-    - Structure.Results.[BarForce](/documentation/oM/Analytical/Structure/Results/BarForce)
-    - Structure.Results.[BarModeShape](/documentation/oM/Analytical/Structure/Results/BarModeShape)
-    - Structure.Results.[BarRequiredArea](/documentation/oM/Analytical/Structure/Results/BarRequiredArea)
-    - Structure.Results.[BarResult](/documentation/oM/Analytical/Structure/Results/BarResult)
-    - Structure.Results.[BarStrain](/documentation/oM/Analytical/Structure/Results/BarStrain)
-    - Structure.Results.[BarStress](/documentation/oM/Analytical/Structure/Results/BarStress)
-    - Structure.Results.[CompositeUtilisation](/documentation/oM/Analytical/Structure/Results/CompositeUtilisation)
-    - Structure.Results.[SteelUtilisation](/documentation/oM/Analytical/Structure/Results/SteelUtilisation)
+    - Adapters.ETABS.Results.[SpandrelForce](/om_documentation/oM/Adapter/Adapters/ETABS/Results/SpandrelForce)
+    - Adapters.ETABS.Results.[PierForce](/om_documentation/oM/Adapter/Adapters/ETABS/Results/PierForce)
+    - Adapters.SAP2000.Results.[AISCSteelUtilisation](/om_documentation/oM/Adapter/Adapters/SAP2000/Results/AISCSteelUtilisation)
+    - Structure.Results.[BarDeformation](/om_documentation/oM/Analytical/Structure/Results/BarDeformation)
+    - Structure.Results.[BarDisplacement](/om_documentation/oM/Analytical/Structure/Results/BarDisplacement)
+    - Structure.Results.[BarForce](/om_documentation/oM/Analytical/Structure/Results/BarForce)
+    - Structure.Results.[BarModeShape](/om_documentation/oM/Analytical/Structure/Results/BarModeShape)
+    - Structure.Results.[BarRequiredArea](/om_documentation/oM/Analytical/Structure/Results/BarRequiredArea)
+    - Structure.Results.[BarResult](/om_documentation/oM/Analytical/Structure/Results/BarResult)
+    - Structure.Results.[BarStrain](/om_documentation/oM/Analytical/Structure/Results/BarStrain)
+    - Structure.Results.[BarStress](/om_documentation/oM/Analytical/Structure/Results/BarStress)
+    - Structure.Results.[CompositeUtilisation](/om_documentation/oM/Analytical/Structure/Results/CompositeUtilisation)
+    - Structure.Results.[SteelUtilisation](/om_documentation/oM/Analytical/Structure/Results/SteelUtilisation)
 
 
 ## Properties

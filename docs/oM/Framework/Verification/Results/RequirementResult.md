@@ -12,8 +12,8 @@ Object representing result of verification of an object against a Requirement.
 
 ???+ bhom "The RequirementResult in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IImmutable](/documentation/oM/Framework/Base/IImmutable)
-    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
+    -  Base.[IImmutable](/om_documentation/oM/Framework/Base/IImmutable)
+    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
 
 
 ## Properties
@@ -28,7 +28,7 @@ The following properties are defined on the class
 |------------------|------------------|------------------|------------------|
 | RequirementId | [IComparable](https://learn.microsoft.com/en-us/dotnet/api/System.IComparable?view=netstandard-2.0) | BHoM_Guid of Requirement object this result was based on. | - |
 | ObjectId | [IComparable](https://learn.microsoft.com/en-us/dotnet/api/System.IComparable?view=netstandard-2.0) | Identifier of an object this result was based on. In case of IBHoMObjects it is their BHoM_Guid. | - |
-| VerificationResult | [IConditionResult](/documentation/oM/Framework/Verification/Results/IConditionResult) | Result of object verification against the condition specified in the Requirement. | - |
+| VerificationResult | [IConditionResult](/om_documentation/oM/Framework/Verification/Results/IConditionResult) | Result of object verification against the condition specified in the Requirement. | - |
 
 
 ## Code and Schema

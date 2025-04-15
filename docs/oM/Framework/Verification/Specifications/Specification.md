@@ -12,10 +12,10 @@ A top level object in verification workflow. Contains the information about the 
 
 ???+ bhom "The Specification in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[BHoMObject](/documentation/oM/Framework/Base/BHoMObject)
-    -  Base.[IBHoMObject](/documentation/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
-    -  Base.[ISpecification](/documentation/oM/Framework/Base/ISpecification)
+    -  Base.[BHoMObject](/om_documentation/oM/Framework/Base/BHoMObject)
+    -  Base.[IBHoMObject](/om_documentation/oM/Framework/Base/IBHoMObject)
+    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
+    -  Base.[ISpecification](/om_documentation/oM/Framework/Base/ISpecification)
 
 
 ## Properties
@@ -30,8 +30,8 @@ The following properties are defined on the class
 |------------------|------------------|------------------|------------------|
 | Clause | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | Human readable identifier to reference the Specification. | - |
 | Description | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | Description of the Specification. | - |
-| Extraction | [IExtraction](/documentation/oM/Framework/Verification/Extraction/IExtraction) | Object describing how to extract the objects to be verify against Requirements. | - |
-| Requirements | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[IRequirement](/documentation/oM/Framework/Verification/Requirements/IRequirement)&gt; | A collection of objects, each containing an atomic check together with reporting config and metadata. | - |
+| Extraction | [IExtraction](/om_documentation/oM/Framework/Verification/Extraction/IExtraction) | Object describing how to extract the objects to be verify against Requirements. | - |
+| Requirements | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[IRequirement](/om_documentation/oM/Framework/Verification/Requirements/IRequirement)&gt; | A collection of objects, each containing an atomic check together with reporting config and metadata. | - |
 
 
 ### Inherited properties
@@ -41,7 +41,7 @@ The following properties are inherited from the base class of the object
 |------------------|------------------|------------------|------------------|
 | BHoM_Guid | [Guid](https://learn.microsoft.com/en-us/dotnet/api/System.Guid?view=netstandard-2.0) | - | - |
 | Name | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | - | - |
-| Fragments | [FragmentSet](/documentation/oM/Framework/Base/FragmentSet) | - | - |
+| Fragments | [FragmentSet](/om_documentation/oM/Framework/Base/FragmentSet) | - | - |
 | Tags | [HashSet](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.HashSet-1?view=netstandard-2.0)&lt;[string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0)&gt; | - | - |
 | CustomData | [Dictionary](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.Dictionary-2?view=netstandard-2.0)&lt;[string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0), [object](https://learn.microsoft.com/en-us/dotnet/api/System.Object?view=netstandard-2.0)&gt; | - | - |
 

@@ -12,14 +12,14 @@ title: ISpecification
 
 ???+ bhom "The ISpecification in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
+    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Verification.Specifications.[Specification](/documentation/oM/Framework/Verification/Specifications/Specification)
+    - Verification.Specifications.[Specification](/om_documentation/oM/Framework/Verification/Specifications/Specification)
 
 
 ## Properties

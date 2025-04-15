@@ -12,8 +12,8 @@ Used to instruct the external software to open/create a new model.
 
 ???+ bhom "The NewModel in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Adapter.[IExecuteCommand](/documentation/oM/Framework/Adapter/IExecuteCommand)
-    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
+    -  Adapter.[IExecuteCommand](/om_documentation/oM/Framework/Adapter/IExecuteCommand)
+    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
 
 
 ## Properties

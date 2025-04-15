@@ -12,20 +12,20 @@ Base interface for panel auto mesh settings in SAP2000. Contains the type of aut
 
 ???+ bhom "The IPanelAutoMesh in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IFragment](/documentation/oM/Framework/Base/IFragment)
-    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
+    -  Base.[IFragment](/om_documentation/oM/Framework/Base/IFragment)
+    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Adapters.SAP2000.Fragments.[PanelAutoMeshByCookieCutLines](/documentation/oM/Adapter/Adapters/SAP2000/Fragments/PanelAutoMeshByCookieCutLines)
-    - Adapters.SAP2000.Fragments.[PanelAutoMeshByCookieCutPoints](/documentation/oM/Adapter/Adapters/SAP2000/Fragments/PanelAutoMeshByCookieCutPoints)
-    - Adapters.SAP2000.Fragments.[PanelAutoMeshByGeneralDivide](/documentation/oM/Adapter/Adapters/SAP2000/Fragments/PanelAutoMeshByGeneralDivide)
-    - Adapters.SAP2000.Fragments.[PanelAutoMeshByMaximumSize](/documentation/oM/Adapter/Adapters/SAP2000/Fragments/PanelAutoMeshByMaximumSize)
-    - Adapters.SAP2000.Fragments.[PanelAutoMeshByNumberOfObjects](/documentation/oM/Adapter/Adapters/SAP2000/Fragments/PanelAutoMeshByNumberOfObjects)
-    - Adapters.SAP2000.Fragments.[PanelAutoMeshByPointsOnEdges](/documentation/oM/Adapter/Adapters/SAP2000/Fragments/PanelAutoMeshByPointsOnEdges)
+    - Adapters.SAP2000.Fragments.[PanelAutoMeshByCookieCutLines](/om_documentation/oM/Adapter/Adapters/SAP2000/Fragments/PanelAutoMeshByCookieCutLines)
+    - Adapters.SAP2000.Fragments.[PanelAutoMeshByCookieCutPoints](/om_documentation/oM/Adapter/Adapters/SAP2000/Fragments/PanelAutoMeshByCookieCutPoints)
+    - Adapters.SAP2000.Fragments.[PanelAutoMeshByGeneralDivide](/om_documentation/oM/Adapter/Adapters/SAP2000/Fragments/PanelAutoMeshByGeneralDivide)
+    - Adapters.SAP2000.Fragments.[PanelAutoMeshByMaximumSize](/om_documentation/oM/Adapter/Adapters/SAP2000/Fragments/PanelAutoMeshByMaximumSize)
+    - Adapters.SAP2000.Fragments.[PanelAutoMeshByNumberOfObjects](/om_documentation/oM/Adapter/Adapters/SAP2000/Fragments/PanelAutoMeshByNumberOfObjects)
+    - Adapters.SAP2000.Fragments.[PanelAutoMeshByPointsOnEdges](/om_documentation/oM/Adapter/Adapters/SAP2000/Fragments/PanelAutoMeshByPointsOnEdges)
 
 
 ## Properties

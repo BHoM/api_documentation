@@ -12,25 +12,25 @@ title: ISortableRequest
 
 ???+ bhom "The ISortableRequest in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Data.Requests.[IRequest](/documentation/oM/Framework/Data/Requests/IRequest)
-    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
+    -  Data.Requests.[IRequest](/om_documentation/oM/Framework/Data/Requests/IRequest)
+    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
 
 
 ### Interfaces implementing this interface
 
 ???+ bhom "The following interfaces are implementing this interface:"
 
-    - Adapters.File.[IDirectoryRequest](/documentation/oM/Adapter/Adapters/File/IDirectoryRequest)
-    - Adapters.File.[IFileRequest](/documentation/oM/Adapter/Adapters/File/IFileRequest)
+    - Adapters.File.[IDirectoryRequest](/om_documentation/oM/Adapter/Adapters/File/IDirectoryRequest)
+    - Adapters.File.[IFileRequest](/om_documentation/oM/Adapter/Adapters/File/IFileRequest)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Adapters.File.[DirectoryRequest](/documentation/oM/Adapter/Adapters/File/DirectoryRequest)
-    - Adapters.File.[FileDirRequest](/documentation/oM/Adapter/Adapters/File/FileDirRequest)
-    - Adapters.File.[FileRequest](/documentation/oM/Adapter/Adapters/File/FileRequest)
+    - Adapters.File.[DirectoryRequest](/om_documentation/oM/Adapter/Adapters/File/DirectoryRequest)
+    - Adapters.File.[FileDirRequest](/om_documentation/oM/Adapter/Adapters/File/FileDirRequest)
+    - Adapters.File.[FileRequest](/om_documentation/oM/Adapter/Adapters/File/FileRequest)
 
 
 ## Properties
@@ -43,7 +43,7 @@ The following properties are defined on the interface
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| SortOrder | [SortOrder](/documentation/oM/Adapter/Adapters/File/SortOrder) | - | - |
+| SortOrder | [SortOrder](/om_documentation/oM/Adapter/Adapters/File/SortOrder) | - | - |
 
 
 ### Derived properties
@@ -52,7 +52,7 @@ The following properties are defined as extension methods in one of the BHoM_Eng
 
 | Name             | Type             | Description      | Quantity         | Engine           |
 |------------------|------------------|------------------|------------------|------------------|
-| Discipline | [Nullable](https://learn.microsoft.com/en-us/dotnet/api/System.Nullable-1?view=netstandard-2.0)&lt;[Discipline](/documentation/oM/Adapter/Adapters/Revit/Enums/Discipline)&gt; | Gets discipline enforced by the Request. If the result is different than defaultDiscipline and neither of two is Undefined, null is returned (the result discipline is conflicting with defaultDiscipline). | - | Revit_Engine |
+| Discipline | [Nullable](https://learn.microsoft.com/en-us/dotnet/api/System.Nullable-1?view=netstandard-2.0)&lt;[Discipline](/om_documentation/oM/Adapter/Adapters/Revit/Enums/Discipline)&gt; | Gets discipline enforced by the Request. If the result is different than defaultDiscipline and neither of two is Undefined, null is returned (the result discipline is conflicting with defaultDiscipline). | - | Revit_Engine |
 | IFilterDescription | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | Returns a description of the filter represented by the given IRequest. | - | Revit_Engine |
 
 

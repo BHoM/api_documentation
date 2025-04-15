@@ -12,9 +12,9 @@ Create a pull config for IES for use with the IES Adapter.
 
 ???+ bhom "The PullConfigIES in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Adapter.[ActionConfig](/documentation/oM/Framework/Adapter/ActionConfig)
-    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
-    -  Environment.IES.[IIESConfig](/documentation/oM/Adapter/Environment/IES/IIESConfig)
+    -  Adapter.[ActionConfig](/om_documentation/oM/Framework/Adapter/ActionConfig)
+    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
+    -  Environment.IES.[IIESConfig](/om_documentation/oM/Adapter/Environment/IES/IIESConfig)
 
 
 ## Properties
@@ -31,7 +31,7 @@ The following properties are defined on the class
 | PullOpenings | [bool](https://learn.microsoft.com/en-us/dotnet/api/System.Boolean?view=netstandard-2.0) | Determine whether or not openings should be pulled from the GEM file when pulling a GEM file. Only valid if pulling Panels which host openings. Default is True, to pull openings when pulling panels. | - |
 | AngleTolerance | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Set the tolerance to be used in angle calculations or wherever a Geometry method requires an Angle Tolerance to determine a zero number. | - |
 | DistanceTolerance | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Set the tolerance to be used in distance calculations or wherever a Geometry method requires an Distance Tolerance to determine a zero number. | - |
-| File | [FileSettings](/documentation/oM/Framework/Adapter/FileSettings) | Set the location of the file to pull IES data from. | - |
+| File | [FileSettings](/om_documentation/oM/Framework/Adapter/FileSettings) | Set the location of the file to pull IES data from. | - |
 
 
 ### Inherited properties
@@ -41,7 +41,7 @@ The following properties are inherited from the base class of the object
 |------------------|------------------|------------------|------------------|
 | WrapNonBHoMObjects | [bool](https://learn.microsoft.com/en-us/dotnet/api/System.Boolean?view=netstandard-2.0) | If true, the Push action wraps any non-BHoM type into a BH.oM.Adapter.ObjectWrapper, allowing them to make use of the full Adapter workflow. | - |
 | AllowHashForComparing | [bool](https://learn.microsoft.com/en-us/dotnet/api/System.Boolean?view=netstandard-2.0) | If true and if no specific EqualityComparer is found for the type, Diffing hashes are computed and used to compare the objects. | - |
-| DiffingConfig | [DiffingConfig](/documentation/oM/Framework/Diffing/DiffingConfig) | Configurations for the Diffing hashing. Requires `AllowHashForComparing` to be set to true. | - |
+| DiffingConfig | [DiffingConfig](/om_documentation/oM/Framework/Diffing/DiffingConfig) | Configurations for the Diffing hashing. Requires `AllowHashForComparing` to be set to true. | - |
 
 
 ## Code and Schema

@@ -28,8 +28,8 @@ Unconstrained generic type. Can be any type of object.
 
 ???+ bhom "The Output`3 in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
-    -  Base.[IOutput](/documentation/oM/Framework/Base/IOutput)
+    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
+    -  Base.[IOutput](/om_documentation/oM/Framework/Base/IOutput)
 
 
 ## Properties

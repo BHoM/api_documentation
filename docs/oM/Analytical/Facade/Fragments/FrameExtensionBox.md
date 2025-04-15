@@ -12,8 +12,8 @@ Fragment containing a curve enclosing the portion of a mullion cross section tha
 
 ???+ bhom "The FrameExtensionBox in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IFragment](/documentation/oM/Framework/Base/IFragment)
-    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
+    -  Base.[IFragment](/om_documentation/oM/Framework/Base/IFragment)
+    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
 
 
 ## Properties
@@ -26,7 +26,7 @@ The following properties are defined on the class
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| BoundingBoxCurve | [ICurve](/documentation/oM/Dimensional/Geometry/ICurve) | ICurve representing the mullion bounding box. | - |
+| BoundingBoxCurve | [ICurve](/om_documentation/oM/Dimensional/Geometry/ICurve) | ICurve representing the mullion bounding box. | - |
 
 
 ## Code and Schema

@@ -12,8 +12,8 @@ title: ShellTypeFragment
 
 ???+ bhom "The ShellTypeFragment in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IFragment](/documentation/oM/Framework/Base/IFragment)
-    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
+    -  Base.[IFragment](/om_documentation/oM/Framework/Base/IFragment)
+    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
 
 
 ## Properties
@@ -26,7 +26,7 @@ The following properties are defined on the class
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| ShellType | [ShellType](/documentation/oM/Adapter/Adapters/ETABS/ShellType) | - | - |
+| ShellType | [ShellType](/om_documentation/oM/Adapter/Adapters/ETABS/ShellType) | - | - |
 
 
 ## Code and Schema

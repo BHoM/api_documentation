@@ -12,16 +12,16 @@ Base interface for all curve layouts.
 
 ???+ bhom "The ICurveLayout in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IBHoMObject](/documentation/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
+    -  Base.[IBHoMObject](/om_documentation/oM/Framework/Base/IBHoMObject)
+    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Spatial.Layouts.[ExplicitCurveLayout](/documentation/oM/Dimensional/Spatial/Layouts/ExplicitCurveLayout)
-    - Spatial.Layouts.[OffsetCurveLayout](/documentation/oM/Dimensional/Spatial/Layouts/OffsetCurveLayout)
+    - Spatial.Layouts.[ExplicitCurveLayout](/om_documentation/oM/Dimensional/Spatial/Layouts/ExplicitCurveLayout)
+    - Spatial.Layouts.[OffsetCurveLayout](/om_documentation/oM/Dimensional/Spatial/Layouts/OffsetCurveLayout)
 
 
 ## Properties

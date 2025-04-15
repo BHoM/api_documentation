@@ -12,9 +12,9 @@ Divide the panel based on points in the meshing group.
 
 ???+ bhom "The PanelAutoMeshByCookieCutPoints in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Adapters.SAP2000.Fragments.[IPanelAutoMesh](/documentation/oM/Adapter/Adapters/SAP2000/Fragments/IPanelAutoMesh)
-    -  Base.[IFragment](/documentation/oM/Framework/Base/IFragment)
-    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
+    -  Adapters.SAP2000.Fragments.[IPanelAutoMesh](/om_documentation/oM/Adapter/Adapters/SAP2000/Fragments/IPanelAutoMesh)
+    -  Base.[IFragment](/om_documentation/oM/Framework/Base/IFragment)
+    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
 
 
 ## Properties
@@ -27,7 +27,7 @@ The following properties are defined on the class
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| Rotation | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | This is an angle in radians that the meshing lines are rotated from their default orientation.By default these lines align with the area object local 1 and 2 axes. | [Angle](/documentation/oM/Dimensional/Quantities/Attributes/Angle) [rad] |
+| Rotation | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | This is an angle in radians that the meshing lines are rotated from their default orientation.By default these lines align with the area object local 1 and 2 axes. | [Angle](/om_documentation/oM/Dimensional/Quantities/Attributes/Angle) [rad] |
 | LocalAxesOnEdge | [bool](https://learn.microsoft.com/en-us/dotnet/api/System.Boolean?view=netstandard-2.0) | - | - |
 | LocalAxesOnFace | [bool](https://learn.microsoft.com/en-us/dotnet/api/System.Boolean?view=netstandard-2.0) | - | - |
 | RestraintsOnEdge | [bool](https://learn.microsoft.com/en-us/dotnet/api/System.Boolean?view=netstandard-2.0) | - | - |

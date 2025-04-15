@@ -12,9 +12,9 @@ Object representing result of IValueCondition.
 
 ???+ bhom "The ValueConditionResult in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Verification.Results.[IConditionResult](/documentation/oM/Framework/Verification/Results/IConditionResult)
-    -  Base.[IImmutable](/documentation/oM/Framework/Base/IImmutable)
-    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
+    -  Verification.Results.[IConditionResult](/om_documentation/oM/Framework/Verification/Results/IConditionResult)
+    -  Base.[IImmutable](/om_documentation/oM/Framework/Base/IImmutable)
+    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
 
 
 ## Properties

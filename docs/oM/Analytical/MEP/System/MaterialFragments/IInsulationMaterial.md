@@ -12,18 +12,18 @@ Insulation is the material surrounding a duct, pipe or wire which mitigates the 
 
 ???+ bhom "The IInsulationMaterial in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IFragment](/documentation/oM/Framework/Base/IFragment)
-    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
-    -  Physical.Materials.[IMaterialProperties](/documentation/oM/Physical/Physical/Materials/IMaterialProperties)
-    -  Base.[IBHoMObject](/documentation/oM/Framework/Base/IBHoMObject)
+    -  Base.[IFragment](/om_documentation/oM/Framework/Base/IFragment)
+    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
+    -  Physical.Materials.[IMaterialProperties](/om_documentation/oM/Physical/Physical/Materials/IMaterialProperties)
+    -  Base.[IBHoMObject](/om_documentation/oM/Framework/Base/IBHoMObject)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - MEP.System.MaterialFragments.[InsulationMaterial](/documentation/oM/Analytical/MEP/System/MaterialFragments/InsulationMaterial)
-    - MEP.System.MaterialFragments.[LiningMaterial](/documentation/oM/Analytical/MEP/System/MaterialFragments/LiningMaterial)
+    - MEP.System.MaterialFragments.[InsulationMaterial](/om_documentation/oM/Analytical/MEP/System/MaterialFragments/InsulationMaterial)
+    - MEP.System.MaterialFragments.[LiningMaterial](/om_documentation/oM/Analytical/MEP/System/MaterialFragments/LiningMaterial)
 
 
 ## Properties

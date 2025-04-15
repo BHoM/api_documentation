@@ -12,22 +12,22 @@ Top interface for all extraction objects.
 
 ???+ bhom "The IExtraction in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
+    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
 
 
 ### Interfaces implementing this interface
 
 ???+ bhom "The following interfaces are implementing this interface:"
 
-    - Verification.Extraction.[IConditionBasedFilter](/documentation/oM/Framework/Verification/Extraction/IConditionBasedFilter)
-    - Verification.Extraction.[IDerivedObjectsExtraction](/documentation/oM/Framework/Verification/Extraction/IDerivedObjectsExtraction)
+    - Verification.Extraction.[IConditionBasedFilter](/om_documentation/oM/Framework/Verification/Extraction/IConditionBasedFilter)
+    - Verification.Extraction.[IDerivedObjectsExtraction](/om_documentation/oM/Framework/Verification/Extraction/IDerivedObjectsExtraction)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Verification.Extraction.[ConditionBasedFilter](/documentation/oM/Framework/Verification/Extraction/ConditionBasedFilter)
+    - Verification.Extraction.[ConditionBasedFilter](/om_documentation/oM/Framework/Verification/Extraction/ConditionBasedFilter)
 
 
 ## Properties

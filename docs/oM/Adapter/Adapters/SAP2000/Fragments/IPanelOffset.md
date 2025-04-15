@@ -12,16 +12,16 @@ Base interface for panel offsets in SAP. Contains only the type of offset.
 
 ???+ bhom "The IPanelOffset in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IFragment](/documentation/oM/Framework/Base/IFragment)
-    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
+    -  Base.[IFragment](/om_documentation/oM/Framework/Base/IFragment)
+    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Adapters.SAP2000.Fragments.[PanelOffsetByJointPattern](/documentation/oM/Adapter/Adapters/SAP2000/Fragments/PanelOffsetByJointPattern)
-    - Adapters.SAP2000.Fragments.[PanelOffsetByPoint](/documentation/oM/Adapter/Adapters/SAP2000/Fragments/PanelOffsetByPoint)
+    - Adapters.SAP2000.Fragments.[PanelOffsetByJointPattern](/om_documentation/oM/Adapter/Adapters/SAP2000/Fragments/PanelOffsetByJointPattern)
+    - Adapters.SAP2000.Fragments.[PanelOffsetByPoint](/om_documentation/oM/Adapter/Adapters/SAP2000/Fragments/PanelOffsetByPoint)
 
 
 ## Properties

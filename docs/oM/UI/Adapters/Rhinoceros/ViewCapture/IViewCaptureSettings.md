@@ -12,15 +12,15 @@ Base itnerface for interface controling settings for view capture.
 
 ???+ bhom "The IViewCaptureSettings in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
+    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Adapters.Rhinoceros.ViewCapture.[DimensionViewCaptureSettings](/documentation/oM/UI/Adapters/Rhinoceros/ViewCapture/DimensionViewCaptureSettings)
-    - Adapters.Rhinoceros.ViewCapture.[ScaleViewCaptureSettings](/documentation/oM/UI/Adapters/Rhinoceros/ViewCapture/ScaleViewCaptureSettings)
+    - Adapters.Rhinoceros.ViewCapture.[DimensionViewCaptureSettings](/om_documentation/oM/UI/Adapters/Rhinoceros/ViewCapture/DimensionViewCaptureSettings)
+    - Adapters.Rhinoceros.ViewCapture.[ScaleViewCaptureSettings](/om_documentation/oM/UI/Adapters/Rhinoceros/ViewCapture/ScaleViewCaptureSettings)
 
 
 ## Properties

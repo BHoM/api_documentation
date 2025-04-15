@@ -12,15 +12,15 @@ Base interface for evaluation configs controling how metrics should be evaluated
 
 ???+ bhom "The IEvaluationConfig in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IBHoMObject](/documentation/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
+    -  Base.[IBHoMObject](/om_documentation/oM/Framework/Base/IBHoMObject)
+    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - LifeCycleAssessment.Configs.[IStructEEvaluationConfig](/documentation/oM/Analytical/LifeCycleAssessment/Configs/IStructEEvaluationConfig)
+    - LifeCycleAssessment.Configs.[IStructEEvaluationConfig](/om_documentation/oM/Analytical/LifeCycleAssessment/Configs/IStructEEvaluationConfig)
 
 
 ## Properties

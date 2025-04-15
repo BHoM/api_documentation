@@ -12,9 +12,9 @@ Fragment used to define entity projection metadata.
 
 ???+ bhom "The ProjectionFragment in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Analytical.Fragments.[IProjectionFragment](/documentation/oM/Analytical/Analytical/Fragments/IProjectionFragment)
-    -  Base.[IFragment](/documentation/oM/Framework/Base/IFragment)
-    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
+    -  Analytical.Fragments.[IProjectionFragment](/om_documentation/oM/Analytical/Analytical/Fragments/IProjectionFragment)
+    -  Base.[IFragment](/om_documentation/oM/Framework/Base/IFragment)
+    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
 
 
 ## Properties

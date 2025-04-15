@@ -12,28 +12,28 @@ title: IUpdate
 
 ???+ bhom "The IUpdate in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
+    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
 
 
 ### Interfaces implementing this interface
 
 ???+ bhom "The following interfaces are implementing this interface:"
 
-    - UI.[IParamUpdate](/documentation/oM/UI/UI/IParamUpdate)
+    - UI.[IParamUpdate](/om_documentation/oM/UI/UI/IParamUpdate)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - UI.[CallerUpdate](/documentation/oM/UI/UI/CallerUpdate)
-    - UI.[ComponentUpdate](/documentation/oM/UI/UI/ComponentUpdate)
-    - UI.[InputsUpdate](/documentation/oM/UI/UI/InputsUpdate)
-    - UI.[OutputsUpdate](/documentation/oM/UI/UI/OutputsUpdate)
-    - UI.[ParamAdded](/documentation/oM/UI/UI/ParamAdded)
-    - UI.[ParamMoved](/documentation/oM/UI/UI/ParamMoved)
-    - UI.[ParamRemoved](/documentation/oM/UI/UI/ParamRemoved)
-    - UI.[ParamUpdated](/documentation/oM/UI/UI/ParamUpdated)
+    - UI.[CallerUpdate](/om_documentation/oM/UI/UI/CallerUpdate)
+    - UI.[ComponentUpdate](/om_documentation/oM/UI/UI/ComponentUpdate)
+    - UI.[InputsUpdate](/om_documentation/oM/UI/UI/InputsUpdate)
+    - UI.[OutputsUpdate](/om_documentation/oM/UI/UI/OutputsUpdate)
+    - UI.[ParamAdded](/om_documentation/oM/UI/UI/ParamAdded)
+    - UI.[ParamMoved](/om_documentation/oM/UI/UI/ParamMoved)
+    - UI.[ParamRemoved](/om_documentation/oM/UI/UI/ParamRemoved)
+    - UI.[ParamUpdated](/om_documentation/oM/UI/UI/ParamUpdated)
 
 
 ## Properties

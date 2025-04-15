@@ -12,7 +12,7 @@ An individual result for a single iteration of a SAP analysis on a dwelling.
 
 ???+ bhom "The SAPResult in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
+    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
 
 
 ## Properties

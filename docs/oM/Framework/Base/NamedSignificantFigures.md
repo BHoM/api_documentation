@@ -12,7 +12,7 @@ Significant digits used for specific numerical objects or properties with a spec
 
 ???+ bhom "The NamedSignificantFigures in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
+    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
 
 
 ## Properties

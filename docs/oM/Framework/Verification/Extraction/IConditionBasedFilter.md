@@ -12,15 +12,15 @@ Interface for all extraction workflows based on 'filter by' modes.
 
 ???+ bhom "The IConditionBasedFilter in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Verification.Extraction.[IExtraction](/documentation/oM/Framework/Verification/Extraction/IExtraction)
-    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
+    -  Verification.Extraction.[IExtraction](/om_documentation/oM/Framework/Verification/Extraction/IExtraction)
+    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Verification.Extraction.[ConditionBasedFilter](/documentation/oM/Framework/Verification/Extraction/ConditionBasedFilter)
+    - Verification.Extraction.[ConditionBasedFilter](/om_documentation/oM/Framework/Verification/Extraction/ConditionBasedFilter)
 
 
 ## Properties
@@ -33,7 +33,7 @@ The following properties are defined on the interface
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| Condition | [ICondition](/documentation/oM/Framework/Verification/Conditions/ICondition) | Filtering condition to be met for objects to be returned. | - |
+| Condition | [ICondition](/om_documentation/oM/Framework/Verification/Conditions/ICondition) | Filtering condition to be met for objects to be returned. | - |
 
 
 ## Code and Schema

@@ -12,27 +12,27 @@ Base class for all discrete mesh element results, that is a result for an indivi
 
 ???+ bhom "The MeshElementResult in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Analytical.Results.[IMeshElementResult](/documentation/oM/Analytical/Analytical/Results/IMeshElementResult)
-    -  Analytical.Results.[IResult](/documentation/oM/Analytical/Analytical/Results/IResult)
-    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
-    -  [IComparable](https://learn.microsoft.com/en-us/dotnet/api/System.IComparable-1?view=netstandard-2.0)&lt;Analytical.Results.[IResult](/documentation/oM/Analytical/Analytical/Results/IResult)&gt;
-    -  Base.[IImmutable](/documentation/oM/Framework/Base/IImmutable)
-    -  Structure.Results.[IStructuralResult](/documentation/oM/Analytical/Structure/Results/IStructuralResult)
-    -  Analytical.Results.[IObjectIdResult](/documentation/oM/Analytical/Analytical/Results/IObjectIdResult)
-    -  Analytical.Results.[ICasedResult](/documentation/oM/Analytical/Analytical/Results/ICasedResult)
-    -  Analytical.Results.[ITimeStepResult](/documentation/oM/Analytical/Analytical/Results/ITimeStepResult)
+    -  Analytical.Results.[IMeshElementResult](/om_documentation/oM/Analytical/Analytical/Results/IMeshElementResult)
+    -  Analytical.Results.[IResult](/om_documentation/oM/Analytical/Analytical/Results/IResult)
+    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
+    -  [IComparable](https://learn.microsoft.com/en-us/dotnet/api/System.IComparable-1?view=netstandard-2.0)&lt;Analytical.Results.[IResult](/om_documentation/oM/Analytical/Analytical/Results/IResult)&gt;
+    -  Base.[IImmutable](/om_documentation/oM/Framework/Base/IImmutable)
+    -  Structure.Results.[IStructuralResult](/om_documentation/oM/Analytical/Structure/Results/IStructuralResult)
+    -  Analytical.Results.[IObjectIdResult](/om_documentation/oM/Analytical/Analytical/Results/IObjectIdResult)
+    -  Analytical.Results.[ICasedResult](/om_documentation/oM/Analytical/Analytical/Results/ICasedResult)
+    -  Analytical.Results.[ITimeStepResult](/om_documentation/oM/Analytical/Analytical/Results/ITimeStepResult)
 
 
 ### Classes inheriting from this class
 
 ???+ bhom "The following classes are inheriting from this class:"
 
-    - Structure.Results.[MeshDisplacement](/documentation/oM/Analytical/Structure/Results/MeshDisplacement)
-    - Structure.Results.[MeshForce](/documentation/oM/Analytical/Structure/Results/MeshForce)
-    - Structure.Results.[MeshModeShape](/documentation/oM/Analytical/Structure/Results/MeshModeShape)
-    - Structure.Results.[MeshRequiredArea](/documentation/oM/Analytical/Structure/Results/MeshRequiredArea)
-    - Structure.Results.[MeshStress](/documentation/oM/Analytical/Structure/Results/MeshStress)
-    - Structure.Results.[MeshVonMises](/documentation/oM/Analytical/Structure/Results/MeshVonMises)
+    - Structure.Results.[MeshDisplacement](/om_documentation/oM/Analytical/Structure/Results/MeshDisplacement)
+    - Structure.Results.[MeshForce](/om_documentation/oM/Analytical/Structure/Results/MeshForce)
+    - Structure.Results.[MeshModeShape](/om_documentation/oM/Analytical/Structure/Results/MeshModeShape)
+    - Structure.Results.[MeshRequiredArea](/om_documentation/oM/Analytical/Structure/Results/MeshRequiredArea)
+    - Structure.Results.[MeshStress](/om_documentation/oM/Analytical/Structure/Results/MeshStress)
+    - Structure.Results.[MeshVonMises](/om_documentation/oM/Analytical/Structure/Results/MeshVonMises)
 
 
 ## Properties
@@ -51,10 +51,10 @@ The following properties are defined on the class
 | ResultCase | [IComparable](https://learn.microsoft.com/en-us/dotnet/api/System.IComparable?view=netstandard-2.0) | Identifier for the Loadcase or LoadCombination that the result belongs to. Is generally name or number of the loadcase, depending on the analysis package. | - |
 | ModeNumber | [int](https://learn.microsoft.com/en-us/dotnet/api/System.Int32?view=netstandard-2.0) | Positive index, starting at one. Only set for cases with modal outputs such as dynamic cases. | - |
 | TimeStep | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Time step for time history results. | - |
-| MeshResultLayer | [MeshResultLayer](/documentation/oM/Analytical/Structure/Results/MeshResultLayer) | - | - |
+| MeshResultLayer | [MeshResultLayer](/om_documentation/oM/Analytical/Structure/Results/MeshResultLayer) | - | - |
 | LayerPosition | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Position within the element thickness that result is extracted from, normalised to 1. I.e. 0 = lower surface, 0.5 = middle, 1 = top surface. | - |
-| Smoothing | [MeshResultSmoothingType](/documentation/oM/Analytical/Structure/Results/MeshResultSmoothingType) | - | - |
-| Orientation | [Basis](/documentation/oM/Dimensional/Geometry/Basis) | Vector basis required in order to report results in a particular direction, for example, for anisotropic materials. | - |
+| Smoothing | [MeshResultSmoothingType](/om_documentation/oM/Analytical/Structure/Results/MeshResultSmoothingType) | - | - |
+| Orientation | [Basis](/om_documentation/oM/Dimensional/Geometry/Basis) | Vector basis required in order to report results in a particular direction, for example, for anisotropic materials. | - |
 
 
 ### Derived properties

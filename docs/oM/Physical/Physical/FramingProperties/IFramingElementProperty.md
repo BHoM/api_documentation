@@ -12,15 +12,15 @@ title: IFramingElementProperty
 
 ???+ bhom "The IFramingElementProperty in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IBHoMObject](/documentation/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
+    -  Base.[IBHoMObject](/om_documentation/oM/Framework/Base/IBHoMObject)
+    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Physical.FramingProperties.[ConstantFramingProperty](/documentation/oM/Physical/Physical/FramingProperties/ConstantFramingProperty)
+    - Physical.FramingProperties.[ConstantFramingProperty](/om_documentation/oM/Physical/Physical/FramingProperties/ConstantFramingProperty)
 
 
 ## Properties
@@ -31,7 +31,7 @@ The following properties are defined as extension methods in one of the BHoM_Eng
 
 | Name             | Type             | Description      | Quantity         | Engine           |
 |------------------|------------------|------------------|------------------|------------------|
-| IAverageProfileArea | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Gets the average cross-section area of a IFramingElementProperty in such a way that multiplying with the length of the element would give the volume | [Area](/documentation/oM/Dimensional/Quantities/Attributes/Area) [m²] | Physical_Engine |
+| IAverageProfileArea | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Gets the average cross-section area of a IFramingElementProperty in such a way that multiplying with the length of the element would give the volume | [Area](/om_documentation/oM/Dimensional/Quantities/Attributes/Area) [m²] | Physical_Engine |
 | IsNull | [bool](https://learn.microsoft.com/en-us/dotnet/api/System.Boolean?view=netstandard-2.0) | Checks if a IFramingElementProperty is null and outputs relevant error message. | - | Physical_Engine |
 
 

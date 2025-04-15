@@ -13,7 +13,7 @@ Means that there can only be one instance of that type in a collection. This is 
 ???+ bhom "The UniqueAttribute in inheriting from the following base type(s) and implements the following interfaces:"
 
     -  [Attribute](https://learn.microsoft.com/en-us/dotnet/api/System.Attribute?view=netstandard-2.0)
-    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
+    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
 
 
 ## Properties

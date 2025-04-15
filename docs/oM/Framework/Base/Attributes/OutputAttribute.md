@@ -14,8 +14,8 @@ To be applied to all methods that do not return void nor BH.oM.Base.Output types
 ???+ bhom "The OutputAttribute in inheriting from the following base type(s) and implements the following interfaces:"
 
     -  [Attribute](https://learn.microsoft.com/en-us/dotnet/api/System.Attribute?view=netstandard-2.0)
-    -  Base.[IImmutable](/documentation/oM/Framework/Base/IImmutable)
-    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
+    -  Base.[IImmutable](/om_documentation/oM/Framework/Base/IImmutable)
+    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
 
 
 ## Properties
@@ -30,7 +30,7 @@ The following properties are defined on the class
 |------------------|------------------|------------------|------------------|
 | Name | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | Name of the correspondent output parameter (to be used in the UI). | - |
 | Description | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | Description of the correspondent output parameter. | - |
-| Classification | [ClassificationAttribute](/documentation/oM/Framework/Base/Attributes/ClassificationAttribute) | Classification of the correspondent output parameter, e.g. folder path, quantity etc. | - |
+| Classification | [ClassificationAttribute](/om_documentation/oM/Framework/Base/Attributes/ClassificationAttribute) | Classification of the correspondent output parameter, e.g. folder path, quantity etc. | - |
 
 
 ### Inherited properties

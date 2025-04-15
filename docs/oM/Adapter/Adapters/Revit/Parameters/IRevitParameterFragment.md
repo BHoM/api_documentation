@@ -12,16 +12,16 @@ Interface for all fragments that carry information about Revit parameters that h
 
 ???+ bhom "The IRevitParameterFragment in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IFragment](/documentation/oM/Framework/Base/IFragment)
-    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
+    -  Base.[IFragment](/om_documentation/oM/Framework/Base/IFragment)
+    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Adapters.Revit.Parameters.[RevitParametersToPush](/documentation/oM/Adapter/Adapters/Revit/Parameters/RevitParametersToPush)
-    - Adapters.Revit.Parameters.[RevitPulledParameters](/documentation/oM/Adapter/Adapters/Revit/Parameters/RevitPulledParameters)
+    - Adapters.Revit.Parameters.[RevitParametersToPush](/om_documentation/oM/Adapter/Adapters/Revit/Parameters/RevitParametersToPush)
+    - Adapters.Revit.Parameters.[RevitPulledParameters](/om_documentation/oM/Adapter/Adapters/Revit/Parameters/RevitPulledParameters)
 
 
 ## Properties
@@ -34,7 +34,7 @@ The following properties are defined on the interface
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| Parameters | [IList](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IList-1?view=netstandard-2.0)&lt;[RevitParameter](/documentation/oM/Adapter/Adapters/Revit/Parameters/RevitParameter)&gt; | Collection of parameters pulled from or meant to be pushed to Revit. | - |
+| Parameters | [IList](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IList-1?view=netstandard-2.0)&lt;[RevitParameter](/om_documentation/oM/Adapter/Adapters/Revit/Parameters/RevitParameter)&gt; | Collection of parameters pulled from or meant to be pushed to Revit. | - |
 
 
 ## Code and Schema

@@ -12,16 +12,16 @@ Base interface for all reinforcement bars.
 
 ???+ bhom "The IReinforcingBar in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IBHoMObject](/documentation/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
+    -  Base.[IBHoMObject](/om_documentation/oM/Framework/Base/IBHoMObject)
+    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Physical.Reinforcement.[PrimaryReinforcingBar](/documentation/oM/Physical/Physical/Reinforcement/PrimaryReinforcingBar)
-    - Physical.Reinforcement.[Stirrup](/documentation/oM/Physical/Physical/Reinforcement/Stirrup)
+    - Physical.Reinforcement.[PrimaryReinforcingBar](/om_documentation/oM/Physical/Physical/Reinforcement/PrimaryReinforcingBar)
+    - Physical.Reinforcement.[Stirrup](/om_documentation/oM/Physical/Physical/Reinforcement/Stirrup)
 
 
 ## Properties
@@ -34,10 +34,10 @@ The following properties are defined on the interface
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| CentreCurve | [ICurve](/documentation/oM/Dimensional/Geometry/ICurve) | Centreline of the reinforcement bar in three-dimensional space. When the BendRadius is sufficient for any kinks in the rebar, this can be defined as a polyline, ommiting any arcs in corners. | - |
-| Diameter | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | - | [Length](/documentation/oM/Dimensional/Quantities/Attributes/Length) [m] |
-| Material | [Material](/documentation/oM/Physical/Physical/Materials/Material) | - | - |
-| BendRadius | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Bend radius used for any discontinuities in the CentreCurve. | [Length](/documentation/oM/Dimensional/Quantities/Attributes/Length) [m] |
+| CentreCurve | [ICurve](/om_documentation/oM/Dimensional/Geometry/ICurve) | Centreline of the reinforcement bar in three-dimensional space. When the BendRadius is sufficient for any kinks in the rebar, this can be defined as a polyline, ommiting any arcs in corners. | - |
+| Diameter | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | - | [Length](/om_documentation/oM/Dimensional/Quantities/Attributes/Length) [m] |
+| Material | [Material](/om_documentation/oM/Physical/Physical/Materials/Material) | - | - |
+| BendRadius | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Bend radius used for any discontinuities in the CentreCurve. | [Length](/om_documentation/oM/Dimensional/Quantities/Attributes/Length) [m] |
 
 
 ## Code and Schema

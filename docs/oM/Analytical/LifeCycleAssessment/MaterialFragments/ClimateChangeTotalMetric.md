@@ -12,12 +12,12 @@ Climate Change - Total, measured in kg CO2 eq (Carbon Dioxide equivalent, also r
 
 ???+ bhom "The ClimateChangeTotalMetric in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  LifeCycleAssessment.MaterialFragments.[EnvironmentalMetric](/documentation/oM/Analytical/LifeCycleAssessment/MaterialFragments/EnvironmentalMetric)
-    -  Base.[BHoMObject](/documentation/oM/Framework/Base/BHoMObject)
-    -  Base.[IBHoMObject](/documentation/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
-    -  LifeCycleAssessment.[ILifeCycleAssessmentPhaseData](/documentation/oM/Analytical/LifeCycleAssessment/ILifeCycleAssessmentPhaseData)
-    -  Base.[IImmutable](/documentation/oM/Framework/Base/IImmutable)
+    -  LifeCycleAssessment.MaterialFragments.[EnvironmentalMetric](/om_documentation/oM/Analytical/LifeCycleAssessment/MaterialFragments/EnvironmentalMetric)
+    -  Base.[BHoMObject](/om_documentation/oM/Framework/Base/BHoMObject)
+    -  Base.[IBHoMObject](/om_documentation/oM/Framework/Base/IBHoMObject)
+    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
+    -  LifeCycleAssessment.[ILifeCycleAssessmentPhaseData](/om_documentation/oM/Analytical/LifeCycleAssessment/ILifeCycleAssessmentPhaseData)
+    -  Base.[IImmutable](/om_documentation/oM/Framework/Base/IImmutable)
 
 
 ## Properties
@@ -30,26 +30,26 @@ The following properties are defined on the class
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| A1 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Climate change - total relating to the Raw Material Supply module in the Product stage. | [ClimateChangePerQuantity](/documentation/oM/Dimensional/Quantities/Attributes/ClimateChangePerQuantity) [kg CO2 eq per unit] |
-| A2 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Climate change - total relating to the Transport module in the Product stage. | [ClimateChangePerQuantity](/documentation/oM/Dimensional/Quantities/Attributes/ClimateChangePerQuantity) [kg CO2 eq per unit] |
-| A3 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Climate change - total relating to the Manufacturing module in the Product stage. | [ClimateChangePerQuantity](/documentation/oM/Dimensional/Quantities/Attributes/ClimateChangePerQuantity) [kg CO2 eq per unit] |
-| A1toA3 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Climate change - total relating to the full Product stage. | [ClimateChangePerQuantity](/documentation/oM/Dimensional/Quantities/Attributes/ClimateChangePerQuantity) [kg CO2 eq per unit] |
-| A4 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Climate change - total relating to the Transport module in the Construction Process stage. | [ClimateChangePerQuantity](/documentation/oM/Dimensional/Quantities/Attributes/ClimateChangePerQuantity) [kg CO2 eq per unit] |
-| A5 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Climate change - total relating to the Construction Installation Process module in the Construction Process stage. | [ClimateChangePerQuantity](/documentation/oM/Dimensional/Quantities/Attributes/ClimateChangePerQuantity) [kg CO2 eq per unit] |
-| B1 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Climate change - total relating to the Use module in the Use stage. | [ClimateChangePerQuantity](/documentation/oM/Dimensional/Quantities/Attributes/ClimateChangePerQuantity) [kg CO2 eq per unit] |
-| B2 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Climate change - total relating to the Maintenance module in the Use stage. | [ClimateChangePerQuantity](/documentation/oM/Dimensional/Quantities/Attributes/ClimateChangePerQuantity) [kg CO2 eq per unit] |
-| B3 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Climate change - total relating to the Repair module in the Use stage. | [ClimateChangePerQuantity](/documentation/oM/Dimensional/Quantities/Attributes/ClimateChangePerQuantity) [kg CO2 eq per unit] |
-| B4 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Climate change - total relating to the Replacement module in the Use stage. | [ClimateChangePerQuantity](/documentation/oM/Dimensional/Quantities/Attributes/ClimateChangePerQuantity) [kg CO2 eq per unit] |
-| B5 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Climate change - total relating to the Refurbishment module in the Use stage. | [ClimateChangePerQuantity](/documentation/oM/Dimensional/Quantities/Attributes/ClimateChangePerQuantity) [kg CO2 eq per unit] |
-| B6 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Climate change - total relating to the Operational Energy Use module in the Use stage. | [ClimateChangePerQuantity](/documentation/oM/Dimensional/Quantities/Attributes/ClimateChangePerQuantity) [kg CO2 eq per unit] |
-| B7 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Climate change - total relating to the Operational Water Use module in the Use stage. | [ClimateChangePerQuantity](/documentation/oM/Dimensional/Quantities/Attributes/ClimateChangePerQuantity) [kg CO2 eq per unit] |
-| B1toB7 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Climate change - total relating to the full Use Stage. | [ClimateChangePerQuantity](/documentation/oM/Dimensional/Quantities/Attributes/ClimateChangePerQuantity) [kg CO2 eq per unit] |
-| C1 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Climate change - total relating to the De-construction Demolition module in the End of Life stage. | [ClimateChangePerQuantity](/documentation/oM/Dimensional/Quantities/Attributes/ClimateChangePerQuantity) [kg CO2 eq per unit] |
-| C2 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Climate change - total relating to the Transport module in the End of Life stage. | [ClimateChangePerQuantity](/documentation/oM/Dimensional/Quantities/Attributes/ClimateChangePerQuantity) [kg CO2 eq per unit] |
-| C3 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Climate change - total relating to the Waste Processing module in the End of Life stage. | [ClimateChangePerQuantity](/documentation/oM/Dimensional/Quantities/Attributes/ClimateChangePerQuantity) [kg CO2 eq per unit] |
-| C4 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Climate change - total relating to the Disposal module in the End of Life stage. | [ClimateChangePerQuantity](/documentation/oM/Dimensional/Quantities/Attributes/ClimateChangePerQuantity) [kg CO2 eq per unit] |
-| C1toC4 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Climate change - total relating to the full End of Life stage. | [ClimateChangePerQuantity](/documentation/oM/Dimensional/Quantities/Attributes/ClimateChangePerQuantity) [kg CO2 eq per unit] |
-| D | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Climate change - total relating to benefits and loads beyond the system boundary. | [ClimateChangePerQuantity](/documentation/oM/Dimensional/Quantities/Attributes/ClimateChangePerQuantity) [kg CO2 eq per unit] |
+| A1 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Climate change - total relating to the Raw Material Supply module in the Product stage. | [ClimateChangePerQuantity](/om_documentation/oM/Dimensional/Quantities/Attributes/ClimateChangePerQuantity) [kg CO2 eq per unit] |
+| A2 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Climate change - total relating to the Transport module in the Product stage. | [ClimateChangePerQuantity](/om_documentation/oM/Dimensional/Quantities/Attributes/ClimateChangePerQuantity) [kg CO2 eq per unit] |
+| A3 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Climate change - total relating to the Manufacturing module in the Product stage. | [ClimateChangePerQuantity](/om_documentation/oM/Dimensional/Quantities/Attributes/ClimateChangePerQuantity) [kg CO2 eq per unit] |
+| A1toA3 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Climate change - total relating to the full Product stage. | [ClimateChangePerQuantity](/om_documentation/oM/Dimensional/Quantities/Attributes/ClimateChangePerQuantity) [kg CO2 eq per unit] |
+| A4 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Climate change - total relating to the Transport module in the Construction Process stage. | [ClimateChangePerQuantity](/om_documentation/oM/Dimensional/Quantities/Attributes/ClimateChangePerQuantity) [kg CO2 eq per unit] |
+| A5 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Climate change - total relating to the Construction Installation Process module in the Construction Process stage. | [ClimateChangePerQuantity](/om_documentation/oM/Dimensional/Quantities/Attributes/ClimateChangePerQuantity) [kg CO2 eq per unit] |
+| B1 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Climate change - total relating to the Use module in the Use stage. | [ClimateChangePerQuantity](/om_documentation/oM/Dimensional/Quantities/Attributes/ClimateChangePerQuantity) [kg CO2 eq per unit] |
+| B2 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Climate change - total relating to the Maintenance module in the Use stage. | [ClimateChangePerQuantity](/om_documentation/oM/Dimensional/Quantities/Attributes/ClimateChangePerQuantity) [kg CO2 eq per unit] |
+| B3 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Climate change - total relating to the Repair module in the Use stage. | [ClimateChangePerQuantity](/om_documentation/oM/Dimensional/Quantities/Attributes/ClimateChangePerQuantity) [kg CO2 eq per unit] |
+| B4 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Climate change - total relating to the Replacement module in the Use stage. | [ClimateChangePerQuantity](/om_documentation/oM/Dimensional/Quantities/Attributes/ClimateChangePerQuantity) [kg CO2 eq per unit] |
+| B5 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Climate change - total relating to the Refurbishment module in the Use stage. | [ClimateChangePerQuantity](/om_documentation/oM/Dimensional/Quantities/Attributes/ClimateChangePerQuantity) [kg CO2 eq per unit] |
+| B6 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Climate change - total relating to the Operational Energy Use module in the Use stage. | [ClimateChangePerQuantity](/om_documentation/oM/Dimensional/Quantities/Attributes/ClimateChangePerQuantity) [kg CO2 eq per unit] |
+| B7 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Climate change - total relating to the Operational Water Use module in the Use stage. | [ClimateChangePerQuantity](/om_documentation/oM/Dimensional/Quantities/Attributes/ClimateChangePerQuantity) [kg CO2 eq per unit] |
+| B1toB7 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Climate change - total relating to the full Use Stage. | [ClimateChangePerQuantity](/om_documentation/oM/Dimensional/Quantities/Attributes/ClimateChangePerQuantity) [kg CO2 eq per unit] |
+| C1 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Climate change - total relating to the De-construction Demolition module in the End of Life stage. | [ClimateChangePerQuantity](/om_documentation/oM/Dimensional/Quantities/Attributes/ClimateChangePerQuantity) [kg CO2 eq per unit] |
+| C2 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Climate change - total relating to the Transport module in the End of Life stage. | [ClimateChangePerQuantity](/om_documentation/oM/Dimensional/Quantities/Attributes/ClimateChangePerQuantity) [kg CO2 eq per unit] |
+| C3 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Climate change - total relating to the Waste Processing module in the End of Life stage. | [ClimateChangePerQuantity](/om_documentation/oM/Dimensional/Quantities/Attributes/ClimateChangePerQuantity) [kg CO2 eq per unit] |
+| C4 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Climate change - total relating to the Disposal module in the End of Life stage. | [ClimateChangePerQuantity](/om_documentation/oM/Dimensional/Quantities/Attributes/ClimateChangePerQuantity) [kg CO2 eq per unit] |
+| C1toC4 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Climate change - total relating to the full End of Life stage. | [ClimateChangePerQuantity](/om_documentation/oM/Dimensional/Quantities/Attributes/ClimateChangePerQuantity) [kg CO2 eq per unit] |
+| D | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Climate change - total relating to benefits and loads beyond the system boundary. | [ClimateChangePerQuantity](/om_documentation/oM/Dimensional/Quantities/Attributes/ClimateChangePerQuantity) [kg CO2 eq per unit] |
 
 
 ### Inherited properties
@@ -57,10 +57,10 @@ The following properties are inherited from the base class of the object
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| MetricType | [EnvironmentalMetrics](/documentation/oM/Analytical/LifeCycleAssessment/EnvironmentalMetrics) | Enum indicating the metric type the object relates to. | - |
+| MetricType | [EnvironmentalMetrics](/om_documentation/oM/Analytical/LifeCycleAssessment/EnvironmentalMetrics) | Enum indicating the metric type the object relates to. | - |
 | BHoM_Guid | [Guid](https://learn.microsoft.com/en-us/dotnet/api/System.Guid?view=netstandard-2.0) | - | - |
 | Name | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | - | - |
-| Fragments | [FragmentSet](/documentation/oM/Framework/Base/FragmentSet) | - | - |
+| Fragments | [FragmentSet](/om_documentation/oM/Framework/Base/FragmentSet) | - | - |
 | Tags | [HashSet](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.HashSet-1?view=netstandard-2.0)&lt;[string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0)&gt; | - | - |
 | CustomData | [Dictionary](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.Dictionary-2?view=netstandard-2.0)&lt;[string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0), [object](https://learn.microsoft.com/en-us/dotnet/api/System.Object?view=netstandard-2.0)&gt; | - | - |
 

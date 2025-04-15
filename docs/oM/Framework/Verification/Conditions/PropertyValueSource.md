@@ -12,8 +12,8 @@ Object pointing at a property as the source of a value to extract.
 
 ???+ bhom "The PropertyValueSource in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Verification.Conditions.[IValueSource](/documentation/oM/Framework/Verification/Conditions/IValueSource)
-    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
+    -  Verification.Conditions.[IValueSource](/om_documentation/oM/Framework/Verification/Conditions/IValueSource)
+    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
 
 
 ## Properties

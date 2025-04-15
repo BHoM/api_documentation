@@ -12,17 +12,17 @@ Base interface for rendered objects.
 
 ???+ bhom "The IRender in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
+    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Graphics.[RenderCurve](/documentation/oM/Graphics/Graphics/RenderCurve)
-    - Graphics.[RenderGeometry](/documentation/oM/Graphics/Graphics/RenderGeometry)
-    - Graphics.[RenderPoint](/documentation/oM/Graphics/Graphics/RenderPoint)
-    - Graphics.[RenderText](/documentation/oM/Graphics/Graphics/RenderText)
+    - Graphics.[RenderCurve](/om_documentation/oM/Graphics/Graphics/RenderCurve)
+    - Graphics.[RenderGeometry](/om_documentation/oM/Graphics/Graphics/RenderGeometry)
+    - Graphics.[RenderPoint](/om_documentation/oM/Graphics/Graphics/RenderPoint)
+    - Graphics.[RenderText](/om_documentation/oM/Graphics/Graphics/RenderText)
 
 
 ## Properties
@@ -44,7 +44,7 @@ The following properties are defined as extension methods in one of the BHoM_Eng
 
 | Name             | Type             | Description      | Quantity         | Engine           |
 |------------------|------------------|------------------|------------------|------------------|
-| IBounds | [BoundingBox](/documentation/oM/Dimensional/Geometry/BoundingBox) | Computes and returns the BoundingBox of the IRender. | - | Graphics_Engine |
+| IBounds | [BoundingBox](/om_documentation/oM/Dimensional/Geometry/BoundingBox) | Computes and returns the BoundingBox of the IRender. | - | Graphics_Engine |
 
 
 ## Code and Schema

@@ -12,16 +12,16 @@ A results object containing velocity data.
 
 ???+ bhom "The IVelocityResult in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IBHoMObject](/documentation/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
-    -  Environment.Results.[IAnalysisResult](/documentation/oM/Analytical/Environment/Results/IAnalysisResult)
+    -  Base.[IBHoMObject](/om_documentation/oM/Framework/Base/IBHoMObject)
+    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
+    -  Environment.Results.[IAnalysisResult](/om_documentation/oM/Analytical/Environment/Results/IAnalysisResult)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Environment.Results.[WindSpeedResult](/documentation/oM/Analytical/Environment/Results/WindSpeedResult)
+    - Environment.Results.[WindSpeedResult](/om_documentation/oM/Analytical/Environment/Results/WindSpeedResult)
 
 
 ## Properties

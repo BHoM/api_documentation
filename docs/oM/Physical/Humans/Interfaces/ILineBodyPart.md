@@ -12,33 +12,33 @@ title: ILineBodyPart
 
 ???+ bhom "The ILineBodyPart in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
+    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Humans.BodyParts.[LeftFoot](/documentation/oM/Physical/Humans/BodyParts/LeftFoot)
-    - Humans.BodyParts.[LeftHand](/documentation/oM/Physical/Humans/BodyParts/LeftHand)
-    - Humans.BodyParts.[LeftHip](/documentation/oM/Physical/Humans/BodyParts/LeftHip)
-    - Humans.BodyParts.[LeftLowerArm](/documentation/oM/Physical/Humans/BodyParts/LeftLowerArm)
-    - Humans.BodyParts.[LeftLowerLeg](/documentation/oM/Physical/Humans/BodyParts/LeftLowerLeg)
-    - Humans.BodyParts.[LeftShoulder](/documentation/oM/Physical/Humans/BodyParts/LeftShoulder)
-    - Humans.BodyParts.[LeftThumb](/documentation/oM/Physical/Humans/BodyParts/LeftThumb)
-    - Humans.BodyParts.[LeftUpperArm](/documentation/oM/Physical/Humans/BodyParts/LeftUpperArm)
-    - Humans.BodyParts.[LeftUpperLeg](/documentation/oM/Physical/Humans/BodyParts/LeftUpperLeg)
-    - Humans.BodyParts.[Neck](/documentation/oM/Physical/Humans/BodyParts/Neck)
-    - Humans.BodyParts.[RightFoot](/documentation/oM/Physical/Humans/BodyParts/RightFoot)
-    - Humans.BodyParts.[RightHand](/documentation/oM/Physical/Humans/BodyParts/RightHand)
-    - Humans.BodyParts.[RightHip](/documentation/oM/Physical/Humans/BodyParts/RightHip)
-    - Humans.BodyParts.[RightLowerArm](/documentation/oM/Physical/Humans/BodyParts/RightLowerArm)
-    - Humans.BodyParts.[RightLowerLeg](/documentation/oM/Physical/Humans/BodyParts/RightLowerLeg)
-    - Humans.BodyParts.[RightShoulder](/documentation/oM/Physical/Humans/BodyParts/RightShoulder)
-    - Humans.BodyParts.[RightThumb](/documentation/oM/Physical/Humans/BodyParts/RightThumb)
-    - Humans.BodyParts.[RightUpperArm](/documentation/oM/Physical/Humans/BodyParts/RightUpperArm)
-    - Humans.BodyParts.[RightUpperLeg](/documentation/oM/Physical/Humans/BodyParts/RightUpperLeg)
-    - Humans.BodyParts.[Spine](/documentation/oM/Physical/Humans/BodyParts/Spine)
+    - Humans.BodyParts.[LeftFoot](/om_documentation/oM/Physical/Humans/BodyParts/LeftFoot)
+    - Humans.BodyParts.[LeftHand](/om_documentation/oM/Physical/Humans/BodyParts/LeftHand)
+    - Humans.BodyParts.[LeftHip](/om_documentation/oM/Physical/Humans/BodyParts/LeftHip)
+    - Humans.BodyParts.[LeftLowerArm](/om_documentation/oM/Physical/Humans/BodyParts/LeftLowerArm)
+    - Humans.BodyParts.[LeftLowerLeg](/om_documentation/oM/Physical/Humans/BodyParts/LeftLowerLeg)
+    - Humans.BodyParts.[LeftShoulder](/om_documentation/oM/Physical/Humans/BodyParts/LeftShoulder)
+    - Humans.BodyParts.[LeftThumb](/om_documentation/oM/Physical/Humans/BodyParts/LeftThumb)
+    - Humans.BodyParts.[LeftUpperArm](/om_documentation/oM/Physical/Humans/BodyParts/LeftUpperArm)
+    - Humans.BodyParts.[LeftUpperLeg](/om_documentation/oM/Physical/Humans/BodyParts/LeftUpperLeg)
+    - Humans.BodyParts.[Neck](/om_documentation/oM/Physical/Humans/BodyParts/Neck)
+    - Humans.BodyParts.[RightFoot](/om_documentation/oM/Physical/Humans/BodyParts/RightFoot)
+    - Humans.BodyParts.[RightHand](/om_documentation/oM/Physical/Humans/BodyParts/RightHand)
+    - Humans.BodyParts.[RightHip](/om_documentation/oM/Physical/Humans/BodyParts/RightHip)
+    - Humans.BodyParts.[RightLowerArm](/om_documentation/oM/Physical/Humans/BodyParts/RightLowerArm)
+    - Humans.BodyParts.[RightLowerLeg](/om_documentation/oM/Physical/Humans/BodyParts/RightLowerLeg)
+    - Humans.BodyParts.[RightShoulder](/om_documentation/oM/Physical/Humans/BodyParts/RightShoulder)
+    - Humans.BodyParts.[RightThumb](/om_documentation/oM/Physical/Humans/BodyParts/RightThumb)
+    - Humans.BodyParts.[RightUpperArm](/om_documentation/oM/Physical/Humans/BodyParts/RightUpperArm)
+    - Humans.BodyParts.[RightUpperLeg](/om_documentation/oM/Physical/Humans/BodyParts/RightUpperLeg)
+    - Humans.BodyParts.[Spine](/om_documentation/oM/Physical/Humans/BodyParts/Spine)
 
 
 ## Properties
@@ -51,7 +51,7 @@ The following properties are defined on the interface
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| TrackingLine | [Line](/documentation/oM/Dimensional/Geometry/Line) | - | - |
+| TrackingLine | [Line](/om_documentation/oM/Dimensional/Geometry/Line) | - | - |
 
 
 ## Code and Schema

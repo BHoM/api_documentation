@@ -20,15 +20,15 @@ Unconstrained generic type. Can be any type of object.
 
 ???+ bhom "The INode`1 in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Data.Collections.[IDataStructure](/documentation/oM/Framework/Data/Collections/IDataStructure)
-    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
+    -  Data.Collections.[IDataStructure](/om_documentation/oM/Framework/Data/Collections/IDataStructure)
+    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Data.Collections.[DomainTree](/documentation/oM/Framework/Data/Collections/DomainTree%601)&lt;[T](/documentation/oM/Framework/Data/Collections/DomainTree%601#t)&gt;
+    - Data.Collections.[DomainTree](/om_documentation/oM/Framework/Data/Collections/DomainTree%601)&lt;[T](/om_documentation/oM/Framework/Data/Collections/DomainTree%601#t)&gt;
 
 
 ## Properties

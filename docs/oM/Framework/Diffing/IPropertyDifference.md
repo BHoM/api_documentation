@@ -12,15 +12,15 @@ Represents a difference found between a Previous and Following version of an obj
 
 ???+ bhom "The IPropertyDifference in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
+    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Diffing.[PropertyDifference](/documentation/oM/Framework/Diffing/PropertyDifference)
-    - Adapters.Revit.[RevitParameterDifference](/documentation/oM/Adapter/Adapters/Revit/RevitParameterDifference)
+    - Diffing.[PropertyDifference](/om_documentation/oM/Framework/Diffing/PropertyDifference)
+    - Adapters.Revit.[RevitParameterDifference](/om_documentation/oM/Adapter/Adapters/Revit/RevitParameterDifference)
 
 
 ## Properties

@@ -12,19 +12,19 @@ A results object containing energy per unit area data.
 
 ???+ bhom "The IEnergyPerUnitAreaResult in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IBHoMObject](/documentation/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
-    -  Environment.Results.[IAnalysisResult](/documentation/oM/Analytical/Environment/Results/IAnalysisResult)
+    -  Base.[IBHoMObject](/om_documentation/oM/Framework/Base/IBHoMObject)
+    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
+    -  Environment.Results.[IAnalysisResult](/om_documentation/oM/Analytical/Environment/Results/IAnalysisResult)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Environment.Results.[DiffuseHorizontalRadiationResult](/documentation/oM/Analytical/Environment/Results/DiffuseHorizontalRadiationResult)
-    - Environment.Results.[DirectNormalRadiationResult](/documentation/oM/Analytical/Environment/Results/DirectNormalRadiationResult)
-    - Environment.Results.[GlobalHorizontalRadiationResult](/documentation/oM/Analytical/Environment/Results/GlobalHorizontalRadiationResult)
-    - Environment.Results.[InsolationResult](/documentation/oM/Analytical/Environment/Results/InsolationResult)
+    - Environment.Results.[DiffuseHorizontalRadiationResult](/om_documentation/oM/Analytical/Environment/Results/DiffuseHorizontalRadiationResult)
+    - Environment.Results.[DirectNormalRadiationResult](/om_documentation/oM/Analytical/Environment/Results/DirectNormalRadiationResult)
+    - Environment.Results.[GlobalHorizontalRadiationResult](/om_documentation/oM/Analytical/Environment/Results/GlobalHorizontalRadiationResult)
+    - Environment.Results.[InsolationResult](/om_documentation/oM/Analytical/Environment/Results/InsolationResult)
 
 
 ## Properties

@@ -12,23 +12,23 @@ Base interface for testing properties.
 
 ???+ bhom "The ITestProperties in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IBHoMObject](/documentation/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
+    -  Base.[IBHoMObject](/om_documentation/oM/Framework/Base/IBHoMObject)
+    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Ground.[InSituVaneReferenceProperties](/documentation/oM/Analytical/Ground/InSituVaneReferenceProperties)
-    - Ground.[InSituVaneResultProperties](/documentation/oM/Analytical/Ground/InSituVaneResultProperties)
-    - Ground.[InSituVaneTestProperties](/documentation/oM/Analytical/Ground/InSituVaneTestProperties)
-    - Ground.[SPTReferenceProperties](/documentation/oM/Analytical/Ground/SPTReferenceProperties)
-    - Ground.[SPTResultProperties](/documentation/oM/Analytical/Ground/SPTResultProperties)
-    - Ground.[SPTTestProperties](/documentation/oM/Analytical/Ground/SPTTestProperties)
-    - Ground.[TriaxialReferenceProperties](/documentation/oM/Analytical/Ground/TriaxialReferenceProperties)
-    - Ground.[TriaxialResultProperties](/documentation/oM/Analytical/Ground/TriaxialResultProperties)
-    - Ground.[TriaxialTestProperties](/documentation/oM/Analytical/Ground/TriaxialTestProperties)
+    - Ground.[InSituVaneReferenceProperties](/om_documentation/oM/Analytical/Ground/InSituVaneReferenceProperties)
+    - Ground.[InSituVaneResultProperties](/om_documentation/oM/Analytical/Ground/InSituVaneResultProperties)
+    - Ground.[InSituVaneTestProperties](/om_documentation/oM/Analytical/Ground/InSituVaneTestProperties)
+    - Ground.[SPTReferenceProperties](/om_documentation/oM/Analytical/Ground/SPTReferenceProperties)
+    - Ground.[SPTResultProperties](/om_documentation/oM/Analytical/Ground/SPTResultProperties)
+    - Ground.[SPTTestProperties](/om_documentation/oM/Analytical/Ground/SPTTestProperties)
+    - Ground.[TriaxialReferenceProperties](/om_documentation/oM/Analytical/Ground/TriaxialReferenceProperties)
+    - Ground.[TriaxialResultProperties](/om_documentation/oM/Analytical/Ground/TriaxialResultProperties)
+    - Ground.[TriaxialTestProperties](/om_documentation/oM/Analytical/Ground/TriaxialTestProperties)
 
 
 ## Properties

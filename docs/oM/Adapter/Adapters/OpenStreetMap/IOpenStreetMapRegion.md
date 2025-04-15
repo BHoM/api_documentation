@@ -12,19 +12,19 @@ Interface for all search regions.
 
 ???+ bhom "The IOpenStreetMapRegion in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IBHoMObject](/documentation/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
+    -  Base.[IBHoMObject](/om_documentation/oM/Framework/Base/IBHoMObject)
+    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Adapters.OpenStreetMap.[BoundingBox](/documentation/oM/Adapter/Adapters/OpenStreetMap/BoundingBox)
-    - Adapters.OpenStreetMap.[CentreRadius](/documentation/oM/Adapter/Adapters/OpenStreetMap/CentreRadius)
-    - Adapters.OpenStreetMap.[LineStringRadius](/documentation/oM/Adapter/Adapters/OpenStreetMap/LineStringRadius)
-    - Adapters.OpenStreetMap.[Polygon](/documentation/oM/Adapter/Adapters/OpenStreetMap/Polygon)
-    - Adapters.OpenStreetMap.[TaggedArea](/documentation/oM/Adapter/Adapters/OpenStreetMap/TaggedArea)
+    - Adapters.OpenStreetMap.[BoundingBox](/om_documentation/oM/Adapter/Adapters/OpenStreetMap/BoundingBox)
+    - Adapters.OpenStreetMap.[CentreRadius](/om_documentation/oM/Adapter/Adapters/OpenStreetMap/CentreRadius)
+    - Adapters.OpenStreetMap.[LineStringRadius](/om_documentation/oM/Adapter/Adapters/OpenStreetMap/LineStringRadius)
+    - Adapters.OpenStreetMap.[Polygon](/om_documentation/oM/Adapter/Adapters/OpenStreetMap/Polygon)
+    - Adapters.OpenStreetMap.[TaggedArea](/om_documentation/oM/Adapter/Adapters/OpenStreetMap/TaggedArea)
 
 
 ## Properties

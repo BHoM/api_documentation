@@ -12,9 +12,9 @@ title: PropertyGroup
 
 ???+ bhom "The PropertyGroup in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  XML.CSProject.[CSProjectObject](/documentation/oM/Adapter/XML/CSProject/CSProjectObject)
-    -  Base.[IBHoMObject](/documentation/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
+    -  XML.CSProject.[CSProjectObject](/om_documentation/oM/Adapter/XML/CSProject/CSProjectObject)
+    -  Base.[IBHoMObject](/om_documentation/oM/Framework/Base/IBHoMObject)
+    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
 
 
 ## Properties
@@ -28,8 +28,8 @@ The following properties are defined on the class
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
 | Condition | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | - | - |
-| Configuration | [Configuration](/documentation/oM/Adapter/XML/CSProject/Configuration) | - | - |
-| Platform | [Configuration](/documentation/oM/Adapter/XML/CSProject/Configuration) | - | - |
+| Configuration | [Configuration](/om_documentation/oM/Adapter/XML/CSProject/Configuration) | - | - |
+| Platform | [Configuration](/om_documentation/oM/Adapter/XML/CSProject/Configuration) | - | - |
 | ProjectGUID | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | - | - |
 | OutputType | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | - | - |
 | AppDesignerFolder | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | - | - |
@@ -55,7 +55,7 @@ The following properties are inherited from the base class of the object
 | BHoM_Guid | [Guid](https://learn.microsoft.com/en-us/dotnet/api/System.Guid?view=netstandard-2.0) | - | - |
 | CustomData | [Dictionary](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.Dictionary-2?view=netstandard-2.0)&lt;[string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0), [object](https://learn.microsoft.com/en-us/dotnet/api/System.Object?view=netstandard-2.0)&gt; | - | - |
 | Name | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | - | - |
-| Fragments | [FragmentSet](/documentation/oM/Framework/Base/FragmentSet) | - | - |
+| Fragments | [FragmentSet](/om_documentation/oM/Framework/Base/FragmentSet) | - | - |
 | Tags | [HashSet](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.HashSet-1?view=netstandard-2.0)&lt;[string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0)&gt; | - | - |
 
 

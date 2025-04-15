@@ -13,9 +13,9 @@ If the diameter of the reinforcement is set to 0, it will be assumed that no rei
 
 ???+ bhom "The PanelReinforcement in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[BHoMObject](/documentation/oM/Framework/Base/BHoMObject)
-    -  Base.[IBHoMObject](/documentation/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
+    -  Base.[BHoMObject](/om_documentation/oM/Framework/Base/BHoMObject)
+    -  Base.[IBHoMObject](/om_documentation/oM/Framework/Base/IBHoMObject)
+    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
 
 
 ## Properties
@@ -28,15 +28,15 @@ The following properties are defined on the class
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| Material | [IMaterialFragment](/documentation/oM/Analytical/Structure/MaterialFragments/IMaterialFragment) | Material of the reinforcement. | - |
-| Region | [ReinforcementRegion](/documentation/oM/Analytical/Structure/Reinforcement/ReinforcementRegion) | The region defining the area of the Panel to be reinforced. | - |
-| LongitudinalDiameter | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | The diameter of the reinforcement in the longitudinal direction, denoted by the local x direction of the ReinforcementRegion.<br>If the diameter is set 0, it will be assumed that no reinforcement is present in the longitudinal direction. | [Length](/documentation/oM/Dimensional/Quantities/Attributes/Length) [m] |
-| LongitudinalSpacing | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | The spacing of the reinforcement in the longitudinal direction, measured perpindicular to the local x direction of the ReinforcementRegion. | [Length](/documentation/oM/Dimensional/Quantities/Attributes/Length) [m] |
-| LongitudinalDepth | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | The depth of longitudinal reinforcement measured from the centre of Panel along the normal. This will be negative for bottom reinforcement. | [Length](/documentation/oM/Dimensional/Quantities/Attributes/Length) [m] |
-| TransverseDiameter | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | The diameter of the reinforcement in the transverse direction, denoted by the local y direction of the ReinforcementRegion.<br>If the diameter is set 0, it will be assumed that no reinforcement is present in the longitudinal direction. | [Length](/documentation/oM/Dimensional/Quantities/Attributes/Length) [m] |
-| TransverseSpacing | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | The spacing of the reinforcement in the transverse direction, measured perpindicular to the local y direction of the ReinforcementRegion. | [Length](/documentation/oM/Dimensional/Quantities/Attributes/Length) [m] |
-| TransverseDepth | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | The depth of transverse reinforcement measured from the centre of Panel along the normal. This will be negative for bottom reinforcement. | [Length](/documentation/oM/Dimensional/Quantities/Attributes/Length) [m] |
-| MinimumCover | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Minimum cover for the reinforcement defined in this PanelReinforcement. | [Length](/documentation/oM/Dimensional/Quantities/Attributes/Length) [m] |
+| Material | [IMaterialFragment](/om_documentation/oM/Analytical/Structure/MaterialFragments/IMaterialFragment) | Material of the reinforcement. | - |
+| Region | [ReinforcementRegion](/om_documentation/oM/Analytical/Structure/Reinforcement/ReinforcementRegion) | The region defining the area of the Panel to be reinforced. | - |
+| LongitudinalDiameter | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | The diameter of the reinforcement in the longitudinal direction, denoted by the local x direction of the ReinforcementRegion.<br>If the diameter is set 0, it will be assumed that no reinforcement is present in the longitudinal direction. | [Length](/om_documentation/oM/Dimensional/Quantities/Attributes/Length) [m] |
+| LongitudinalSpacing | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | The spacing of the reinforcement in the longitudinal direction, measured perpindicular to the local x direction of the ReinforcementRegion. | [Length](/om_documentation/oM/Dimensional/Quantities/Attributes/Length) [m] |
+| LongitudinalDepth | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | The depth of longitudinal reinforcement measured from the centre of Panel along the normal. This will be negative for bottom reinforcement. | [Length](/om_documentation/oM/Dimensional/Quantities/Attributes/Length) [m] |
+| TransverseDiameter | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | The diameter of the reinforcement in the transverse direction, denoted by the local y direction of the ReinforcementRegion.<br>If the diameter is set 0, it will be assumed that no reinforcement is present in the longitudinal direction. | [Length](/om_documentation/oM/Dimensional/Quantities/Attributes/Length) [m] |
+| TransverseSpacing | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | The spacing of the reinforcement in the transverse direction, measured perpindicular to the local y direction of the ReinforcementRegion. | [Length](/om_documentation/oM/Dimensional/Quantities/Attributes/Length) [m] |
+| TransverseDepth | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | The depth of transverse reinforcement measured from the centre of Panel along the normal. This will be negative for bottom reinforcement. | [Length](/om_documentation/oM/Dimensional/Quantities/Attributes/Length) [m] |
+| MinimumCover | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Minimum cover for the reinforcement defined in this PanelReinforcement. | [Length](/om_documentation/oM/Dimensional/Quantities/Attributes/Length) [m] |
 
 
 ### Inherited properties
@@ -46,7 +46,7 @@ The following properties are inherited from the base class of the object
 |------------------|------------------|------------------|------------------|
 | BHoM_Guid | [Guid](https://learn.microsoft.com/en-us/dotnet/api/System.Guid?view=netstandard-2.0) | - | - |
 | Name | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | - | - |
-| Fragments | [FragmentSet](/documentation/oM/Framework/Base/FragmentSet) | - | - |
+| Fragments | [FragmentSet](/om_documentation/oM/Framework/Base/FragmentSet) | - | - |
 | Tags | [HashSet](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.HashSet-1?view=netstandard-2.0)&lt;[string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0)&gt; | - | - |
 | CustomData | [Dictionary](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.Dictionary-2?view=netstandard-2.0)&lt;[string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0), [object](https://learn.microsoft.com/en-us/dotnet/api/System.Object?view=netstandard-2.0)&gt; | - | - |
 

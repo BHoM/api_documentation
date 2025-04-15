@@ -15,8 +15,8 @@ Each category added to Category needs to have CategoryDisciplineAttribute assign
 ???+ bhom "The CategoryDisciplineAttribute in inheriting from the following base type(s) and implements the following interfaces:"
 
     -  [Attribute](https://learn.microsoft.com/en-us/dotnet/api/System.Attribute?view=netstandard-2.0)
-    -  Base.[IImmutable](/documentation/oM/Framework/Base/IImmutable)
-    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
+    -  Base.[IImmutable](/om_documentation/oM/Framework/Base/IImmutable)
+    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
 
 
 ## Properties

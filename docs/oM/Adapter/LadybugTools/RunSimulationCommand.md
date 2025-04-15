@@ -12,9 +12,9 @@ Command that when executed with the LadybugTools Adapter, runs a simulation and 
 
 ???+ bhom "The RunSimulationCommand in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  LadybugTools.[ISimulationCommand](/documentation/oM/Adapter/LadybugTools/ISimulationCommand)
-    -  Adapter.[IExecuteCommand](/documentation/oM/Framework/Adapter/IExecuteCommand)
-    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
+    -  LadybugTools.[ISimulationCommand](/om_documentation/oM/Adapter/LadybugTools/ISimulationCommand)
+    -  Adapter.[IExecuteCommand](/om_documentation/oM/Framework/Adapter/IExecuteCommand)
+    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
 
 
 ## Properties
@@ -27,9 +27,9 @@ The following properties are defined on the class
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| EPWFile | [FileSettings](/documentation/oM/Framework/Adapter/FileSettings) | FileSettings for an EPW file to run the simulation with. | - |
-| GroundMaterial | [IEnergyMaterialOpaque](/documentation/oM/Adapter/LadybugTools/IEnergyMaterialOpaque) | The ground material for the simulation to use. | - |
-| ShadeMaterial | [IEnergyMaterialOpaque](/documentation/oM/Adapter/LadybugTools/IEnergyMaterialOpaque) | The shade material for the simulation to use. | - |
+| EPWFile | [FileSettings](/om_documentation/oM/Framework/Adapter/FileSettings) | FileSettings for an EPW file to run the simulation with. | - |
+| GroundMaterial | [IEnergyMaterialOpaque](/om_documentation/oM/Adapter/LadybugTools/IEnergyMaterialOpaque) | The ground material for the simulation to use. | - |
+| ShadeMaterial | [IEnergyMaterialOpaque](/om_documentation/oM/Adapter/LadybugTools/IEnergyMaterialOpaque) | The shade material for the simulation to use. | - |
 
 
 ## Code and Schema

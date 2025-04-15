@@ -12,9 +12,9 @@ Attribute to be assigned to properties of `IResult`-implementing classes. Tagged
 
 ???+ bhom "The ScenarioIdentifierAttribute in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Analytical.Results.[IdentifierAttribute](/documentation/oM/Analytical/Analytical/Results/IdentifierAttribute)
+    -  Analytical.Results.[IdentifierAttribute](/om_documentation/oM/Analytical/Analytical/Results/IdentifierAttribute)
     -  [Attribute](https://learn.microsoft.com/en-us/dotnet/api/System.Attribute?view=netstandard-2.0)
-    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
+    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
 
 
 ## Properties

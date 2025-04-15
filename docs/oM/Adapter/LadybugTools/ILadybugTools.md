@@ -12,31 +12,31 @@ title: ILadybugTools
 
 ???+ bhom "The ILadybugTools in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IBHoMObject](/documentation/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
+    -  Base.[IBHoMObject](/om_documentation/oM/Framework/Base/IBHoMObject)
+    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
 
 
 ### Interfaces implementing this interface
 
 ???+ bhom "The following interfaces are implementing this interface:"
 
-    - LadybugTools.[IEnergyMaterialOpaque](/documentation/oM/Adapter/LadybugTools/IEnergyMaterialOpaque)
+    - LadybugTools.[IEnergyMaterialOpaque](/om_documentation/oM/Adapter/LadybugTools/IEnergyMaterialOpaque)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - LadybugTools.[HourlyContinuousCollection](/documentation/oM/Adapter/LadybugTools/HourlyContinuousCollection)
-    - LadybugTools.[EnergyMaterial](/documentation/oM/Adapter/LadybugTools/EnergyMaterial)
-    - LadybugTools.[EnergyMaterialVegetation](/documentation/oM/Adapter/LadybugTools/EnergyMaterialVegetation)
-    - LadybugTools.[Shelter](/documentation/oM/Adapter/LadybugTools/Shelter)
-    - LadybugTools.[AnalysisPeriod](/documentation/oM/Adapter/LadybugTools/AnalysisPeriod)
-    - LadybugTools.[DataType](/documentation/oM/Adapter/LadybugTools/DataType)
-    - LadybugTools.[Header](/documentation/oM/Adapter/LadybugTools/Header)
-    - LadybugTools.[ExternalComfort](/documentation/oM/Adapter/LadybugTools/ExternalComfort)
-    - LadybugTools.[SimulationResult](/documentation/oM/Adapter/LadybugTools/SimulationResult)
-    - LadybugTools.[Typology](/documentation/oM/Adapter/LadybugTools/Typology)
+    - LadybugTools.[HourlyContinuousCollection](/om_documentation/oM/Adapter/LadybugTools/HourlyContinuousCollection)
+    - LadybugTools.[EnergyMaterial](/om_documentation/oM/Adapter/LadybugTools/EnergyMaterial)
+    - LadybugTools.[EnergyMaterialVegetation](/om_documentation/oM/Adapter/LadybugTools/EnergyMaterialVegetation)
+    - LadybugTools.[Shelter](/om_documentation/oM/Adapter/LadybugTools/Shelter)
+    - LadybugTools.[AnalysisPeriod](/om_documentation/oM/Adapter/LadybugTools/AnalysisPeriod)
+    - LadybugTools.[DataType](/om_documentation/oM/Adapter/LadybugTools/DataType)
+    - LadybugTools.[Header](/om_documentation/oM/Adapter/LadybugTools/Header)
+    - LadybugTools.[ExternalComfort](/om_documentation/oM/Adapter/LadybugTools/ExternalComfort)
+    - LadybugTools.[SimulationResult](/om_documentation/oM/Adapter/LadybugTools/SimulationResult)
+    - LadybugTools.[Typology](/om_documentation/oM/Adapter/LadybugTools/Typology)
 
 
 ## Properties

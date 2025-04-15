@@ -12,18 +12,18 @@ title: IEquipment
 
 ???+ bhom "The IEquipment in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IBHoMObject](/documentation/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
+    -  Base.[IBHoMObject](/om_documentation/oM/Framework/Base/IBHoMObject)
+    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - MEP.Equipment.[AirHandlingUnit](/documentation/oM/Analytical/MEP/Equipment/AirHandlingUnit)
-    - MEP.Equipment.[ElectricalEquipment](/documentation/oM/Analytical/MEP/Equipment/ElectricalEquipment)
-    - MEP.Equipment.[FanCoilUnit](/documentation/oM/Analytical/MEP/Equipment/FanCoilUnit)
-    - MEP.Equipment.[MechanicalEquipment](/documentation/oM/Analytical/MEP/Equipment/MechanicalEquipment)
+    - MEP.Equipment.[AirHandlingUnit](/om_documentation/oM/Analytical/MEP/Equipment/AirHandlingUnit)
+    - MEP.Equipment.[ElectricalEquipment](/om_documentation/oM/Analytical/MEP/Equipment/ElectricalEquipment)
+    - MEP.Equipment.[FanCoilUnit](/om_documentation/oM/Analytical/MEP/Equipment/FanCoilUnit)
+    - MEP.Equipment.[MechanicalEquipment](/om_documentation/oM/Analytical/MEP/Equipment/MechanicalEquipment)
 
 
 ## Properties

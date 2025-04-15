@@ -12,9 +12,9 @@ Fragment containing the representation extracted from Revit element represented 
 
 ???+ bhom "The RevitRepresentation in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IFragment](/documentation/oM/Framework/Base/IFragment)
-    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
-    -  Base.[IImmutable](/documentation/oM/Framework/Base/IImmutable)
+    -  Base.[IFragment](/om_documentation/oM/Framework/Base/IFragment)
+    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
+    -  Base.[IImmutable](/om_documentation/oM/Framework/Base/IImmutable)
 
 
 ## Properties
@@ -27,7 +27,7 @@ The following properties are defined on the class
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| RenderMeshes | [ReadOnlyCollection](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.ObjectModel.ReadOnlyCollection-1?view=netstandard-2.0)&lt;[RenderMesh](/documentation/oM/Graphics/Graphics/RenderMesh)&gt; | Mesh representation of Revit element represented by the BHoM object carrying this fragment. | - |
+| RenderMeshes | [ReadOnlyCollection](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.ObjectModel.ReadOnlyCollection-1?view=netstandard-2.0)&lt;[RenderMesh](/om_documentation/oM/Graphics/Graphics/RenderMesh)&gt; | Mesh representation of Revit element represented by the BHoM object carrying this fragment. | - |
 
 
 ## Code and Schema

@@ -12,17 +12,17 @@ Resulting axial strain along the bar in local coordinates.
 
 ???+ bhom "The BarStrain in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Structure.Results.[BarResult](/documentation/oM/Analytical/Structure/Results/BarResult)
-    -  Structure.Results.[IStructuralResult](/documentation/oM/Analytical/Structure/Results/IStructuralResult)
-    -  Analytical.Results.[IObjectIdResult](/documentation/oM/Analytical/Analytical/Results/IObjectIdResult)
-    -  Analytical.Results.[IResult](/documentation/oM/Analytical/Analytical/Results/IResult)
-    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
-    -  [IComparable](https://learn.microsoft.com/en-us/dotnet/api/System.IComparable-1?view=netstandard-2.0)&lt;Analytical.Results.[IResult](/documentation/oM/Analytical/Analytical/Results/IResult)&gt;
-    -  Base.[IImmutable](/documentation/oM/Framework/Base/IImmutable)
-    -  Analytical.Results.[ICasedResult](/documentation/oM/Analytical/Analytical/Results/ICasedResult)
-    -  Analytical.Results.[ITimeStepResult](/documentation/oM/Analytical/Analytical/Results/ITimeStepResult)
-    -  Analytical.Results.[IElement1DResult](/documentation/oM/Analytical/Analytical/Results/IElement1DResult)
-    -  Analytical.Results.[IResultItem](/documentation/oM/Analytical/Analytical/Results/IResultItem)
+    -  Structure.Results.[BarResult](/om_documentation/oM/Analytical/Structure/Results/BarResult)
+    -  Structure.Results.[IStructuralResult](/om_documentation/oM/Analytical/Structure/Results/IStructuralResult)
+    -  Analytical.Results.[IObjectIdResult](/om_documentation/oM/Analytical/Analytical/Results/IObjectIdResult)
+    -  Analytical.Results.[IResult](/om_documentation/oM/Analytical/Analytical/Results/IResult)
+    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
+    -  [IComparable](https://learn.microsoft.com/en-us/dotnet/api/System.IComparable-1?view=netstandard-2.0)&lt;Analytical.Results.[IResult](/om_documentation/oM/Analytical/Analytical/Results/IResult)&gt;
+    -  Base.[IImmutable](/om_documentation/oM/Framework/Base/IImmutable)
+    -  Analytical.Results.[ICasedResult](/om_documentation/oM/Analytical/Analytical/Results/ICasedResult)
+    -  Analytical.Results.[ITimeStepResult](/om_documentation/oM/Analytical/Analytical/Results/ITimeStepResult)
+    -  Analytical.Results.[IElement1DResult](/om_documentation/oM/Analytical/Analytical/Results/IElement1DResult)
+    -  Analytical.Results.[IResultItem](/om_documentation/oM/Analytical/Analytical/Results/IResultItem)
 
 
 ## Properties
@@ -35,15 +35,15 @@ The following properties are defined on the class
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| Axial | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Axial strain induced by an axial force along the Bar axis. Positive for elongation, negative for contraction. | [Strain](/documentation/oM/Dimensional/Quantities/Attributes/Strain) [-] |
-| ShearY | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Shear strain along the local y-axis. Generally minor axis shear strain. | [Strain](/documentation/oM/Dimensional/Quantities/Attributes/Strain) [-] |
-| ShearZ | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Shear strain along the local z-axis. Generally major axis shear strain. | [Strain](/documentation/oM/Dimensional/Quantities/Attributes/Strain) [-] |
-| BendingY_Top | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Strain induced by bending about the local y-axis at the 'uppermost' extreme fiber. Generally the major axis bending strains in one of the extreme fibers. | [Strain](/documentation/oM/Dimensional/Quantities/Attributes/Strain) [-] |
-| BendingY_Bot | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Strain induced by bending about the local y-axis at the 'lowermost' extreme fiber. Generally the major axis bending strains in one of the extreme fibers. | [Strain](/documentation/oM/Dimensional/Quantities/Attributes/Strain) [-] |
-| BendingZ_Top | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Strain induced by bending about the local z-axis at the 'uppermost' extreme fiber. Generally the minor axis bending strains in one of the extreme fibers. | [Strain](/documentation/oM/Dimensional/Quantities/Attributes/Strain) [-] |
-| BendingZ_Bot | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Strain induced by bending about the local z-axis at the 'lowermost' extreme fiber. Generally the minor axis bending strains in one of the extreme fibers. | [Strain](/documentation/oM/Dimensional/Quantities/Attributes/Strain) [-] |
-| CombAxialBendingPos | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Worst case elongation (axial strain) from combined axial and bending in two directions. | [Strain](/documentation/oM/Dimensional/Quantities/Attributes/Strain) [-] |
-| CombAxialBendingNeg | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Worst case contraction (axial strain) from combined axial and bending in two directions. | [Strain](/documentation/oM/Dimensional/Quantities/Attributes/Strain) [-] |
+| Axial | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Axial strain induced by an axial force along the Bar axis. Positive for elongation, negative for contraction. | [Strain](/om_documentation/oM/Dimensional/Quantities/Attributes/Strain) [-] |
+| ShearY | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Shear strain along the local y-axis. Generally minor axis shear strain. | [Strain](/om_documentation/oM/Dimensional/Quantities/Attributes/Strain) [-] |
+| ShearZ | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Shear strain along the local z-axis. Generally major axis shear strain. | [Strain](/om_documentation/oM/Dimensional/Quantities/Attributes/Strain) [-] |
+| BendingY_Top | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Strain induced by bending about the local y-axis at the 'uppermost' extreme fiber. Generally the major axis bending strains in one of the extreme fibers. | [Strain](/om_documentation/oM/Dimensional/Quantities/Attributes/Strain) [-] |
+| BendingY_Bot | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Strain induced by bending about the local y-axis at the 'lowermost' extreme fiber. Generally the major axis bending strains in one of the extreme fibers. | [Strain](/om_documentation/oM/Dimensional/Quantities/Attributes/Strain) [-] |
+| BendingZ_Top | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Strain induced by bending about the local z-axis at the 'uppermost' extreme fiber. Generally the minor axis bending strains in one of the extreme fibers. | [Strain](/om_documentation/oM/Dimensional/Quantities/Attributes/Strain) [-] |
+| BendingZ_Bot | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Strain induced by bending about the local z-axis at the 'lowermost' extreme fiber. Generally the minor axis bending strains in one of the extreme fibers. | [Strain](/om_documentation/oM/Dimensional/Quantities/Attributes/Strain) [-] |
+| CombAxialBendingPos | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Worst case elongation (axial strain) from combined axial and bending in two directions. | [Strain](/om_documentation/oM/Dimensional/Quantities/Attributes/Strain) [-] |
+| CombAxialBendingNeg | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Worst case contraction (axial strain) from combined axial and bending in two directions. | [Strain](/om_documentation/oM/Dimensional/Quantities/Attributes/Strain) [-] |
 
 
 ### Inherited properties

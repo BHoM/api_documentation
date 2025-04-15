@@ -12,10 +12,10 @@ Properties related to the analysis undertaken on the contaminant.
 
 ???+ bhom "The AnalysisProperties in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[BHoMObject](/documentation/oM/Framework/Base/BHoMObject)
-    -  Base.[IBHoMObject](/documentation/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
-    -  Ground.[IContaminantProperty](/documentation/oM/Analytical/Ground/IContaminantProperty)
+    -  Base.[BHoMObject](/om_documentation/oM/Framework/Base/BHoMObject)
+    -  Base.[IBHoMObject](/om_documentation/oM/Framework/Base/IBHoMObject)
+    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
+    -  Ground.[IContaminantProperty](/om_documentation/oM/Analytical/Ground/IContaminantProperty)
 
 
 ## Properties
@@ -32,7 +32,7 @@ The following properties are defined on the class
 | AccreditingBody | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | Accrediting body and reference number (when appropriate) (ERES_CRED). | - |
 | LabName | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | Name of testing labratory or organisation (ERES_LAB). | - |
 | PercentageRemoved | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Percentage of material removed (ERES_PERP). | - |
-| SizeRemoved | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Size of material removed prior to test. Value represents lowest sized material removed (ERES_SIZE). | [Length](/documentation/oM/Dimensional/Quantities/Attributes/Length) [m] |
+| SizeRemoved | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Size of material removed prior to test. Value represents lowest sized material removed (ERES_SIZE). | [Length](/om_documentation/oM/Dimensional/Quantities/Attributes/Length) [m] |
 | InstrumentReference | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | Instrument reference number or identifier (ERES_IREF). | - |
 | LeachateDate | [DateTime](https://learn.microsoft.com/en-us/dotnet/api/System.DateTime?view=netstandard-2.0) | Leachate preperation date and time (ERES_LDTM). | - |
 | LeachateMethod | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | Leachate preperation method (ERES_LMTH). | - |
@@ -48,7 +48,7 @@ The following properties are inherited from the base class of the object
 |------------------|------------------|------------------|------------------|
 | BHoM_Guid | [Guid](https://learn.microsoft.com/en-us/dotnet/api/System.Guid?view=netstandard-2.0) | - | - |
 | Name | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | - | - |
-| Fragments | [FragmentSet](/documentation/oM/Framework/Base/FragmentSet) | - | - |
+| Fragments | [FragmentSet](/om_documentation/oM/Framework/Base/FragmentSet) | - | - |
 | Tags | [HashSet](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.HashSet-1?view=netstandard-2.0)&lt;[string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0)&gt; | - | - |
 | CustomData | [Dictionary](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.Dictionary-2?view=netstandard-2.0)&lt;[string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0), [object](https://learn.microsoft.com/en-us/dotnet/api/System.Object?view=netstandard-2.0)&gt; | - | - |
 

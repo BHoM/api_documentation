@@ -12,9 +12,9 @@ title: DiscretePoint
 
 ???+ bhom "The DiscretePoint in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Data.Collections.[IDataStructure](/documentation/oM/Framework/Data/Collections/IDataStructure)
-    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
-    -  [IComparable](https://learn.microsoft.com/en-us/dotnet/api/System.IComparable-1?view=netstandard-2.0)&lt;Data.Collections.[DiscretePoint](/documentation/oM/Framework/Data/Collections/DiscretePoint)&gt;
+    -  Data.Collections.[IDataStructure](/om_documentation/oM/Framework/Data/Collections/IDataStructure)
+    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
+    -  [IComparable](https://learn.microsoft.com/en-us/dotnet/api/System.IComparable-1?view=netstandard-2.0)&lt;Data.Collections.[DiscretePoint](/om_documentation/oM/Framework/Data/Collections/DiscretePoint)&gt;
 
 
 ## Properties

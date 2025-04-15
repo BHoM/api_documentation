@@ -12,8 +12,8 @@ title: Eye
 
 ???+ bhom "The Eye in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Humans.Interfaces.[IPointBodyPart](/documentation/oM/Physical/Humans/Interfaces/IPointBodyPart)
-    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
+    -  Humans.Interfaces.[IPointBodyPart](/om_documentation/oM/Physical/Humans/Interfaces/IPointBodyPart)
+    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
 
 
 ## Properties
@@ -26,7 +26,7 @@ The following properties are defined on the class
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| TrackingPoint | [Point](/documentation/oM/Dimensional/Geometry/Point) | - | - |
+| TrackingPoint | [Point](/om_documentation/oM/Dimensional/Geometry/Point) | - | - |
 
 
 ## Code and Schema

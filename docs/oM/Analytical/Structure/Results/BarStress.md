@@ -12,17 +12,17 @@ Resulting stresses in local coordinates along the bar.
 
 ???+ bhom "The BarStress in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Structure.Results.[BarResult](/documentation/oM/Analytical/Structure/Results/BarResult)
-    -  Structure.Results.[IStructuralResult](/documentation/oM/Analytical/Structure/Results/IStructuralResult)
-    -  Analytical.Results.[IObjectIdResult](/documentation/oM/Analytical/Analytical/Results/IObjectIdResult)
-    -  Analytical.Results.[IResult](/documentation/oM/Analytical/Analytical/Results/IResult)
-    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
-    -  [IComparable](https://learn.microsoft.com/en-us/dotnet/api/System.IComparable-1?view=netstandard-2.0)&lt;Analytical.Results.[IResult](/documentation/oM/Analytical/Analytical/Results/IResult)&gt;
-    -  Base.[IImmutable](/documentation/oM/Framework/Base/IImmutable)
-    -  Analytical.Results.[ICasedResult](/documentation/oM/Analytical/Analytical/Results/ICasedResult)
-    -  Analytical.Results.[ITimeStepResult](/documentation/oM/Analytical/Analytical/Results/ITimeStepResult)
-    -  Analytical.Results.[IElement1DResult](/documentation/oM/Analytical/Analytical/Results/IElement1DResult)
-    -  Analytical.Results.[IResultItem](/documentation/oM/Analytical/Analytical/Results/IResultItem)
+    -  Structure.Results.[BarResult](/om_documentation/oM/Analytical/Structure/Results/BarResult)
+    -  Structure.Results.[IStructuralResult](/om_documentation/oM/Analytical/Structure/Results/IStructuralResult)
+    -  Analytical.Results.[IObjectIdResult](/om_documentation/oM/Analytical/Analytical/Results/IObjectIdResult)
+    -  Analytical.Results.[IResult](/om_documentation/oM/Analytical/Analytical/Results/IResult)
+    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
+    -  [IComparable](https://learn.microsoft.com/en-us/dotnet/api/System.IComparable-1?view=netstandard-2.0)&lt;Analytical.Results.[IResult](/om_documentation/oM/Analytical/Analytical/Results/IResult)&gt;
+    -  Base.[IImmutable](/om_documentation/oM/Framework/Base/IImmutable)
+    -  Analytical.Results.[ICasedResult](/om_documentation/oM/Analytical/Analytical/Results/ICasedResult)
+    -  Analytical.Results.[ITimeStepResult](/om_documentation/oM/Analytical/Analytical/Results/ITimeStepResult)
+    -  Analytical.Results.[IElement1DResult](/om_documentation/oM/Analytical/Analytical/Results/IElement1DResult)
+    -  Analytical.Results.[IResultItem](/om_documentation/oM/Analytical/Analytical/Results/IResultItem)
 
 
 ## Properties
@@ -35,15 +35,15 @@ The following properties are defined on the class
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| Axial | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Axial stress induced by an axial force along the Bar axis. Positive for tension, negative for compression. | [Stress](/documentation/oM/Dimensional/Quantities/Attributes/Stress) [Pa] |
-| ShearY | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Shear stress along the local y-axis. Generally minor axis shear stress. | [Stress](/documentation/oM/Dimensional/Quantities/Attributes/Stress) [Pa] |
-| ShearZ | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Shear stress along the local z-axis. Generally major axis shear stress. | [Stress](/documentation/oM/Dimensional/Quantities/Attributes/Stress) [Pa] |
-| BendingY_Top | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Stress induced by bending about the local y-axis at the 'uppermost' extreme fiber. Generally the major axis bending stresses in one of the extreme fibers. | [Stress](/documentation/oM/Dimensional/Quantities/Attributes/Stress) [Pa] |
-| BendingY_Bot | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Stress induced by bending about the local y-axis at the 'lowermost' extreme fiber. Generally the major axis bending stresses in one of the extreme fibers. | [Stress](/documentation/oM/Dimensional/Quantities/Attributes/Stress) [Pa] |
-| BendingZ_Top | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Stress induced by bending about the local z-axis at the 'uppermost' extreme fiber. Generally the minor axis bending stresses in one of the extreme fibers. | [Stress](/documentation/oM/Dimensional/Quantities/Attributes/Stress) [Pa] |
-| BendingZ_Bot | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Stress induced by bending about the local z-axis at the 'lowermost' extreme fiber. Generally the minor axis bending stresses in one of the extreme fibers. | [Stress](/documentation/oM/Dimensional/Quantities/Attributes/Stress) [Pa] |
-| CombAxialBendingPos | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Worst case tensile normal stress from combined axial and bending in two directions. | [Stress](/documentation/oM/Dimensional/Quantities/Attributes/Stress) [Pa] |
-| CombAxialBendingNeg | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Worst case compressive normal stress from combined axial and bending in two directions. | [Stress](/documentation/oM/Dimensional/Quantities/Attributes/Stress) [Pa] |
+| Axial | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Axial stress induced by an axial force along the Bar axis. Positive for tension, negative for compression. | [Stress](/om_documentation/oM/Dimensional/Quantities/Attributes/Stress) [Pa] |
+| ShearY | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Shear stress along the local y-axis. Generally minor axis shear stress. | [Stress](/om_documentation/oM/Dimensional/Quantities/Attributes/Stress) [Pa] |
+| ShearZ | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Shear stress along the local z-axis. Generally major axis shear stress. | [Stress](/om_documentation/oM/Dimensional/Quantities/Attributes/Stress) [Pa] |
+| BendingY_Top | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Stress induced by bending about the local y-axis at the 'uppermost' extreme fiber. Generally the major axis bending stresses in one of the extreme fibers. | [Stress](/om_documentation/oM/Dimensional/Quantities/Attributes/Stress) [Pa] |
+| BendingY_Bot | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Stress induced by bending about the local y-axis at the 'lowermost' extreme fiber. Generally the major axis bending stresses in one of the extreme fibers. | [Stress](/om_documentation/oM/Dimensional/Quantities/Attributes/Stress) [Pa] |
+| BendingZ_Top | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Stress induced by bending about the local z-axis at the 'uppermost' extreme fiber. Generally the minor axis bending stresses in one of the extreme fibers. | [Stress](/om_documentation/oM/Dimensional/Quantities/Attributes/Stress) [Pa] |
+| BendingZ_Bot | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Stress induced by bending about the local z-axis at the 'lowermost' extreme fiber. Generally the minor axis bending stresses in one of the extreme fibers. | [Stress](/om_documentation/oM/Dimensional/Quantities/Attributes/Stress) [Pa] |
+| CombAxialBendingPos | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Worst case tensile normal stress from combined axial and bending in two directions. | [Stress](/om_documentation/oM/Dimensional/Quantities/Attributes/Stress) [Pa] |
+| CombAxialBendingNeg | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Worst case compressive normal stress from combined axial and bending in two directions. | [Stress](/om_documentation/oM/Dimensional/Quantities/Attributes/Stress) [Pa] |
 
 
 ### Inherited properties

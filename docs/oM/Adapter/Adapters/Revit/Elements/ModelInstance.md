@@ -12,10 +12,10 @@ A generic wrapper BHoM type corresponding to any view-independent Revit element 
 
 ???+ bhom "The ModelInstance in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[BHoMObject](/documentation/oM/Framework/Base/BHoMObject)
-    -  Base.[IBHoMObject](/documentation/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
-    -  Adapters.Revit.Elements.[IInstance](/documentation/oM/Adapter/Adapters/Revit/Elements/IInstance)
+    -  Base.[BHoMObject](/om_documentation/oM/Framework/Base/BHoMObject)
+    -  Base.[IBHoMObject](/om_documentation/oM/Framework/Base/IBHoMObject)
+    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
+    -  Adapters.Revit.Elements.[IInstance](/om_documentation/oM/Adapter/Adapters/Revit/Elements/IInstance)
 
 
 ## Properties
@@ -28,9 +28,9 @@ The following properties are defined on the class
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| Properties | [InstanceProperties](/documentation/oM/Adapter/Adapters/Revit/Properties/InstanceProperties) | Information about Revit family type of the instance. | - |
-| Location | [IGeometry](/documentation/oM/Dimensional/Geometry/IGeometry) | Location of the instance in in three dimensional space. | - |
-| Orientation | [Basis](/documentation/oM/Dimensional/Geometry/Basis) | Orientation of the instance in 3 dimensional space. Applicable only to point-based ModelInstances. If null, a default orientation will be applied. | - |
+| Properties | [InstanceProperties](/om_documentation/oM/Adapter/Adapters/Revit/Properties/InstanceProperties) | Information about Revit family type of the instance. | - |
+| Location | [IGeometry](/om_documentation/oM/Dimensional/Geometry/IGeometry) | Location of the instance in in three dimensional space. | - |
+| Orientation | [Basis](/om_documentation/oM/Dimensional/Geometry/Basis) | Orientation of the instance in 3 dimensional space. Applicable only to point-based ModelInstances. If null, a default orientation will be applied. | - |
 
 
 ### Inherited properties
@@ -40,7 +40,7 @@ The following properties are inherited from the base class of the object
 |------------------|------------------|------------------|------------------|
 | BHoM_Guid | [Guid](https://learn.microsoft.com/en-us/dotnet/api/System.Guid?view=netstandard-2.0) | - | - |
 | Name | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | - | - |
-| Fragments | [FragmentSet](/documentation/oM/Framework/Base/FragmentSet) | - | - |
+| Fragments | [FragmentSet](/om_documentation/oM/Framework/Base/FragmentSet) | - | - |
 | Tags | [HashSet](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.HashSet-1?view=netstandard-2.0)&lt;[string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0)&gt; | - | - |
 | CustomData | [Dictionary](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.Dictionary-2?view=netstandard-2.0)&lt;[string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0), [object](https://learn.microsoft.com/en-us/dotnet/api/System.Object?view=netstandard-2.0)&gt; | - | - |
 

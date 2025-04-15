@@ -12,8 +12,8 @@ General settings for any Adapter, to be specified when instantiating the Adapter
 
 ???+ bhom "The AGSSettings in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Adapter.[AdapterSettings](/documentation/oM/Framework/Adapter/AdapterSettings)
-    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
+    -  Adapter.[AdapterSettings](/om_documentation/oM/Framework/Adapter/AdapterSettings)
+    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
 
 
 ## Properties
@@ -27,7 +27,7 @@ The following properties are defined on the class
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
 | BlankGeology | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | Only implemented when the BlankGeologyStrategy is set to replacement. <br>If blank geology occurs in the GEOL_GEOL columns, assign a geology to replace it e.g. Made ground. | - |
-| BlankGeologyStraegy | [BlankGeologyStrategy](/documentation/oM/Adapter/Adapters/AGS/BlankGeologyStrategy) | The strategy used to handle blank geology entries. | - |
+| BlankGeologyStraegy | [BlankGeologyStrategy](/om_documentation/oM/Adapter/Adapters/AGS/BlankGeologyStrategy) | The strategy used to handle blank geology entries. | - |
 
 
 ### Inherited properties
@@ -36,9 +36,9 @@ The following properties are inherited from the base class of the object
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
 | WrapNonBHoMObjects | [bool](https://learn.microsoft.com/en-us/dotnet/api/System.Boolean?view=netstandard-2.0) | If your Toolkit needs support for non-BHoM objects, set this to true. | - |
-| DefaultPushType | [PushType](/documentation/oM/Framework/Adapter/PushType) | If your Toolkit does not support the Full Push (FullCRUD method), you can select another behaviour here (e.g. CreateOnly). | - |
+| DefaultPushType | [PushType](/om_documentation/oM/Framework/Adapter/PushType) | If your Toolkit does not support the Full Push (FullCRUD method), you can select another behaviour here (e.g. CreateOnly). | - |
 | CloneBeforePush | [bool](https://learn.microsoft.com/en-us/dotnet/api/System.Boolean?view=netstandard-2.0) | Deep clones the objects before Pushing them.As the objects get modified during the Push (e.g. their externalId is added to them),this avoids backpropagation in visual programming environments like Grasshopper. | - |
-| DefaultPullType | [PullType](/documentation/oM/Framework/Adapter/PullType) | - | - |
+| DefaultPullType | [PullType](/om_documentation/oM/Framework/Adapter/PullType) | - | - |
 | HandleDependencies | [bool](https://learn.microsoft.com/en-us/dotnet/api/System.Boolean?view=netstandard-2.0) | If your adapter does not define DependencyTypes, this can be set to false for performance. | - |
 | HandlePriorities | [bool](https://learn.microsoft.com/en-us/dotnet/api/System.Boolean?view=netstandard-2.0) | - | - |
 | UseAdapterId | [bool](https://learn.microsoft.com/en-us/dotnet/api/System.Boolean?view=netstandard-2.0) | - | - |

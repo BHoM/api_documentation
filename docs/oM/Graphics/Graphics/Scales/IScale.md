@@ -12,15 +12,15 @@ Base interface for all graphics scales.
 
 ???+ bhom "The IScale in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
+    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Graphics.Scales.[ScaleLinear](/documentation/oM/Graphics/Graphics/Scales/ScaleLinear)
-    - Graphics.Scales.[ScaleOrdinal](/documentation/oM/Graphics/Graphics/Scales/ScaleOrdinal)
+    - Graphics.Scales.[ScaleLinear](/om_documentation/oM/Graphics/Graphics/Scales/ScaleLinear)
+    - Graphics.Scales.[ScaleOrdinal](/om_documentation/oM/Graphics/Graphics/Scales/ScaleOrdinal)
 
 
 ## Properties

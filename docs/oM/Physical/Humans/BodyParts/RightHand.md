@@ -12,9 +12,9 @@ title: RightHand
 
 ???+ bhom "The RightHand in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Humans.Interfaces.[ILineBodyPart](/documentation/oM/Physical/Humans/Interfaces/ILineBodyPart)
-    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
-    -  Humans.Interfaces.[IPointBodyPart](/documentation/oM/Physical/Humans/Interfaces/IPointBodyPart)
+    -  Humans.Interfaces.[ILineBodyPart](/om_documentation/oM/Physical/Humans/Interfaces/ILineBodyPart)
+    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
+    -  Humans.Interfaces.[IPointBodyPart](/om_documentation/oM/Physical/Humans/Interfaces/IPointBodyPart)
 
 
 ## Properties
@@ -27,9 +27,9 @@ The following properties are defined on the class
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| TrackingPoint | [Point](/documentation/oM/Dimensional/Geometry/Point) | - | - |
-| TrackingLine | [Line](/documentation/oM/Dimensional/Geometry/Line) | - | - |
-| State | [HandStateName](/documentation/oM/Physical/Humans/HandStateName) | - | - |
+| TrackingPoint | [Point](/om_documentation/oM/Dimensional/Geometry/Point) | - | - |
+| TrackingLine | [Line](/om_documentation/oM/Dimensional/Geometry/Line) | - | - |
+| State | [HandStateName](/om_documentation/oM/Physical/Humans/HandStateName) | - | - |
 
 
 ## Code and Schema

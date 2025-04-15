@@ -12,15 +12,15 @@ Interface common to all syntax nodes parameters
 
 ???+ bhom "The INodeParam in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
+    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Programming.[DataParam](/documentation/oM/Framework/Programming/DataParam)
-    - Programming.[ReceiverParam](/documentation/oM/Framework/Programming/ReceiverParam)
+    - Programming.[DataParam](/om_documentation/oM/Framework/Programming/DataParam)
+    - Programming.[ReceiverParam](/om_documentation/oM/Framework/Programming/ReceiverParam)
 
 
 ## Properties

@@ -12,9 +12,9 @@ A rigid constraint defining linkage between nodes.
 
 ???+ bhom "The RigidConstraint in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[BHoMObject](/documentation/oM/Framework/Base/BHoMObject)
-    -  Base.[IBHoMObject](/documentation/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
+    -  Base.[BHoMObject](/om_documentation/oM/Framework/Base/BHoMObject)
+    -  Base.[IBHoMObject](/om_documentation/oM/Framework/Base/IBHoMObject)
+    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
 
 
 ## Properties
@@ -27,9 +27,9 @@ The following properties are defined on the class
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| PrimaryNode | [Node](/documentation/oM/Analytical/Structure/Elements/Node) | Defines the primary node of the rigid constraint. | - |
-| ConstrainedNodes | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[Node](/documentation/oM/Analytical/Structure/Elements/Node)&gt; | Defines the constrained nodes of the rigid constraint. Can be a list of nodes. | - |
-| Type | [RigidConstraintLinkType](/documentation/oM/Adapter/Adapters/GSA/RigidConstraintLinkType) | Type of rigid constraint. | - |
+| PrimaryNode | [Node](/om_documentation/oM/Analytical/Structure/Elements/Node) | Defines the primary node of the rigid constraint. | - |
+| ConstrainedNodes | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[Node](/om_documentation/oM/Analytical/Structure/Elements/Node)&gt; | Defines the constrained nodes of the rigid constraint. Can be a list of nodes. | - |
+| Type | [RigidConstraintLinkType](/om_documentation/oM/Adapter/Adapters/GSA/RigidConstraintLinkType) | Type of rigid constraint. | - |
 
 
 ### Inherited properties
@@ -39,7 +39,7 @@ The following properties are inherited from the base class of the object
 |------------------|------------------|------------------|------------------|
 | BHoM_Guid | [Guid](https://learn.microsoft.com/en-us/dotnet/api/System.Guid?view=netstandard-2.0) | - | - |
 | Name | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | - | - |
-| Fragments | [FragmentSet](/documentation/oM/Framework/Base/FragmentSet) | - | - |
+| Fragments | [FragmentSet](/om_documentation/oM/Framework/Base/FragmentSet) | - | - |
 | Tags | [HashSet](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.HashSet-1?view=netstandard-2.0)&lt;[string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0)&gt; | - | - |
 | CustomData | [Dictionary](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.Dictionary-2?view=netstandard-2.0)&lt;[string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0), [object](https://learn.microsoft.com/en-us/dotnet/api/System.Object?view=netstandard-2.0)&gt; | - | - |
 

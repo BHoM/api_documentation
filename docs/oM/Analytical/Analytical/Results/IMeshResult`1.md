@@ -16,26 +16,26 @@ The IMeshResult contains the following generic paramters:
 
 Constrained by the following arguments:
 
-- Analytical.Results.[IMeshElementResult](/documentation/oM/Analytical/Analytical/Results/IMeshElementResult)
+- Analytical.Results.[IMeshElementResult](/om_documentation/oM/Analytical/Analytical/Results/IMeshElementResult)
 
 ### Implemented interfaces and base types
 
 ???+ bhom "The IMeshResult`1 in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Analytical.Results.[IObjectIdResult](/documentation/oM/Analytical/Analytical/Results/IObjectIdResult)
-    -  Analytical.Results.[IResult](/documentation/oM/Analytical/Analytical/Results/IResult)
-    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
-    -  [IComparable](https://learn.microsoft.com/en-us/dotnet/api/System.IComparable-1?view=netstandard-2.0)&lt;Analytical.Results.[IResult](/documentation/oM/Analytical/Analytical/Results/IResult)&gt;
-    -  Base.[IImmutable](/documentation/oM/Framework/Base/IImmutable)
-    -  Analytical.Results.[IResultCollection](/documentation/oM/Analytical/Analytical/Results/IResultCollection%601)&lt;[T](/documentation/oM/Analytical/Analytical/Results/IResultCollection%601#t)&gt;
+    -  Analytical.Results.[IObjectIdResult](/om_documentation/oM/Analytical/Analytical/Results/IObjectIdResult)
+    -  Analytical.Results.[IResult](/om_documentation/oM/Analytical/Analytical/Results/IResult)
+    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
+    -  [IComparable](https://learn.microsoft.com/en-us/dotnet/api/System.IComparable-1?view=netstandard-2.0)&lt;Analytical.Results.[IResult](/om_documentation/oM/Analytical/Analytical/Results/IResult)&gt;
+    -  Base.[IImmutable](/om_documentation/oM/Framework/Base/IImmutable)
+    -  Analytical.Results.[IResultCollection](/om_documentation/oM/Analytical/Analytical/Results/IResultCollection%601)&lt;[T](/om_documentation/oM/Analytical/Analytical/Results/IResultCollection%601#t)&gt;
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Lighting.Results.Mesh.[MeshResult](/documentation/oM/Analytical/Lighting/Results/Mesh/MeshResult)
-    - Structure.Results.[MeshResult](/documentation/oM/Analytical/Structure/Results/MeshResult)
+    - Lighting.Results.Mesh.[MeshResult](/om_documentation/oM/Analytical/Lighting/Results/Mesh/MeshResult)
+    - Structure.Results.[MeshResult](/om_documentation/oM/Analytical/Structure/Results/MeshResult)
 
 
 ## Properties

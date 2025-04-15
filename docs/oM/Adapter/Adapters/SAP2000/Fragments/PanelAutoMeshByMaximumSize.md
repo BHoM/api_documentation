@@ -12,9 +12,9 @@ Divide the panel so that elements do not exceed a maximum size.
 
 ???+ bhom "The PanelAutoMeshByMaximumSize in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Adapters.SAP2000.Fragments.[IPanelAutoMesh](/documentation/oM/Adapter/Adapters/SAP2000/Fragments/IPanelAutoMesh)
-    -  Base.[IFragment](/documentation/oM/Framework/Base/IFragment)
-    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
+    -  Adapters.SAP2000.Fragments.[IPanelAutoMesh](/om_documentation/oM/Adapter/Adapters/SAP2000/Fragments/IPanelAutoMesh)
+    -  Base.[IFragment](/om_documentation/oM/Framework/Base/IFragment)
+    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
 
 
 ## Properties
@@ -27,8 +27,8 @@ The following properties are defined on the class
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| MaxSize1 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | This is the maximum size of objects created along the edge of the meshed area object that runs from point 1 to point 2. | [Length](/documentation/oM/Dimensional/Quantities/Attributes/Length) [m] |
-| MaxSize2 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | This is the maximum size of objects created along the edge of the meshed area object that runs from point 1 to point 3. | [Length](/documentation/oM/Dimensional/Quantities/Attributes/Length) [m] |
+| MaxSize1 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | This is the maximum size of objects created along the edge of the meshed area object that runs from point 1 to point 2. | [Length](/om_documentation/oM/Dimensional/Quantities/Attributes/Length) [m] |
+| MaxSize2 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | This is the maximum size of objects created along the edge of the meshed area object that runs from point 1 to point 3. | [Length](/om_documentation/oM/Dimensional/Quantities/Attributes/Length) [m] |
 | LocalAxesOnEdge | [bool](https://learn.microsoft.com/en-us/dotnet/api/System.Boolean?view=netstandard-2.0) | - | - |
 | LocalAxesOnFace | [bool](https://learn.microsoft.com/en-us/dotnet/api/System.Boolean?view=netstandard-2.0) | - | - |
 | RestraintsOnEdge | [bool](https://learn.microsoft.com/en-us/dotnet/api/System.Boolean?view=netstandard-2.0) | - | - |

@@ -12,15 +12,15 @@ Interface common to all ProjectionFragments.
 
 ???+ bhom "The IProjectionFragment in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IFragment](/documentation/oM/Framework/Base/IFragment)
-    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
+    -  Base.[IFragment](/om_documentation/oM/Framework/Base/IFragment)
+    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Analytical.Fragments.[ProjectionFragment](/documentation/oM/Analytical/Analytical/Fragments/ProjectionFragment)
+    - Analytical.Fragments.[ProjectionFragment](/om_documentation/oM/Analytical/Analytical/Fragments/ProjectionFragment)
 
 
 ## Properties

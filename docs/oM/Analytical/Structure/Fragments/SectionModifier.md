@@ -12,8 +12,8 @@ Sets modifiers to a SectionProperty. The modifiers are used to scale one or more
 
 ???+ bhom "The SectionModifier in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IFragment](/documentation/oM/Framework/Base/IFragment)
-    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
+    -  Base.[IFragment](/om_documentation/oM/Framework/Base/IFragment)
+    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
 
 
 ## Properties
@@ -26,12 +26,12 @@ The following properties are defined on the class
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| Area | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Modifies the Area of the SectionProperty. Value of the SectionProperty is multiplied by this value, hence 1 means no scaling applied. | [Ratio](/documentation/oM/Dimensional/Quantities/Attributes/Ratio) [-] |
-| Iy | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Modifies the Moment of Inertia about the local y-Axis of the SectionProperty. Value of the SectionProperty is multiplied by this value, hence 1 means no scaling applied. | [Ratio](/documentation/oM/Dimensional/Quantities/Attributes/Ratio) [-] |
-| Iz | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Modifies the Moment of Inertia about the local z-Axis of the SectionProperty. Value of the SectionProperty is multiplied by this value, hence 1 means no scaling applied. | [Ratio](/documentation/oM/Dimensional/Quantities/Attributes/Ratio) [-] |
-| J | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Modifies the Torsion Constant of the SectionProperty. Value of the SectionProperty is multiplied by this value, hence 1 means no scaling applied. | [Ratio](/documentation/oM/Dimensional/Quantities/Attributes/Ratio) [-] |
-| Asy | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Modifies the Shear Area in the local y direction of the SectionProperty. Value of the SectionProperty is multiplied by this value, hence 1 means no scaling applied. | [Ratio](/documentation/oM/Dimensional/Quantities/Attributes/Ratio) [-] |
-| Asz | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Modifies the Shear Area in the local z direction of the SectionProperty. Value of the SectionProperty is multiplied by this value, hence 1 means no scaling applied. | [Ratio](/documentation/oM/Dimensional/Quantities/Attributes/Ratio) [-] |
+| Area | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Modifies the Area of the SectionProperty. Value of the SectionProperty is multiplied by this value, hence 1 means no scaling applied. | [Ratio](/om_documentation/oM/Dimensional/Quantities/Attributes/Ratio) [-] |
+| Iy | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Modifies the Moment of Inertia about the local y-Axis of the SectionProperty. Value of the SectionProperty is multiplied by this value, hence 1 means no scaling applied. | [Ratio](/om_documentation/oM/Dimensional/Quantities/Attributes/Ratio) [-] |
+| Iz | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Modifies the Moment of Inertia about the local z-Axis of the SectionProperty. Value of the SectionProperty is multiplied by this value, hence 1 means no scaling applied. | [Ratio](/om_documentation/oM/Dimensional/Quantities/Attributes/Ratio) [-] |
+| J | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Modifies the Torsion Constant of the SectionProperty. Value of the SectionProperty is multiplied by this value, hence 1 means no scaling applied. | [Ratio](/om_documentation/oM/Dimensional/Quantities/Attributes/Ratio) [-] |
+| Asy | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Modifies the Shear Area in the local y direction of the SectionProperty. Value of the SectionProperty is multiplied by this value, hence 1 means no scaling applied. | [Ratio](/om_documentation/oM/Dimensional/Quantities/Attributes/Ratio) [-] |
+| Asz | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Modifies the Shear Area in the local z direction of the SectionProperty. Value of the SectionProperty is multiplied by this value, hence 1 means no scaling applied. | [Ratio](/om_documentation/oM/Dimensional/Quantities/Attributes/Ratio) [-] |
 
 
 ## Code and Schema

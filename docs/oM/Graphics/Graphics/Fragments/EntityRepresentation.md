@@ -12,9 +12,9 @@ Fragment for entity representation.
 
 ???+ bhom "The EntityRepresentation in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Graphics.Fragments.[IRepresentationFragment](/documentation/oM/Graphics/Graphics/Fragments/IRepresentationFragment)
-    -  Base.[IFragment](/documentation/oM/Framework/Base/IFragment)
-    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
+    -  Graphics.Fragments.[IRepresentationFragment](/om_documentation/oM/Graphics/Graphics/Fragments/IRepresentationFragment)
+    -  Base.[IFragment](/om_documentation/oM/Framework/Base/IFragment)
+    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
 
 
 ## Properties
@@ -27,12 +27,12 @@ The following properties are defined on the class
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| Boundary | [ICurve](/documentation/oM/Dimensional/Geometry/ICurve) | - | - |
+| Boundary | [ICurve](/om_documentation/oM/Dimensional/Geometry/ICurve) | - | - |
 | Text | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | - | - |
-| TextPosition | [Point](/documentation/oM/Dimensional/Geometry/Point) | - | - |
-| TextDirection | [Vector](/documentation/oM/Dimensional/Geometry/Vector) | - | - |
-| IncomingRelationPoint | [Point](/documentation/oM/Dimensional/Geometry/Point) | - | - |
-| OutgoingRelationPoint | [Point](/documentation/oM/Dimensional/Geometry/Point) | - | - |
+| TextPosition | [Point](/om_documentation/oM/Dimensional/Geometry/Point) | - | - |
+| TextDirection | [Vector](/om_documentation/oM/Dimensional/Geometry/Vector) | - | - |
+| IncomingRelationPoint | [Point](/om_documentation/oM/Dimensional/Geometry/Point) | - | - |
+| OutgoingRelationPoint | [Point](/om_documentation/oM/Dimensional/Geometry/Point) | - | - |
 | Colour | [Color](https://learn.microsoft.com/en-us/dotnet/api/System.Drawing.Color?view=netstandard-2.0) | - | - |
 
 

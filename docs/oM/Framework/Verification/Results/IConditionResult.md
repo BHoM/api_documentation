@@ -12,20 +12,20 @@ Top interface for all condition results.
 
 ???+ bhom "The IConditionResult in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IImmutable](/documentation/oM/Framework/Base/IImmutable)
-    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
+    -  Base.[IImmutable](/om_documentation/oM/Framework/Base/IImmutable)
+    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Verification.Results.[FormulaConditionResult](/documentation/oM/Framework/Verification/Results/FormulaConditionResult)
-    - Verification.Results.[IsNotNullResult](/documentation/oM/Framework/Verification/Results/IsNotNullResult)
-    - Verification.Results.[IsOfTypeResult](/documentation/oM/Framework/Verification/Results/IsOfTypeResult)
-    - Verification.Results.[LogicalCollectionConditionResult](/documentation/oM/Framework/Verification/Results/LogicalCollectionConditionResult)
-    - Verification.Results.[SingleLogicalConditionResult](/documentation/oM/Framework/Verification/Results/SingleLogicalConditionResult)
-    - Verification.Results.[ValueConditionResult](/documentation/oM/Framework/Verification/Results/ValueConditionResult)
+    - Verification.Results.[FormulaConditionResult](/om_documentation/oM/Framework/Verification/Results/FormulaConditionResult)
+    - Verification.Results.[IsNotNullResult](/om_documentation/oM/Framework/Verification/Results/IsNotNullResult)
+    - Verification.Results.[IsOfTypeResult](/om_documentation/oM/Framework/Verification/Results/IsOfTypeResult)
+    - Verification.Results.[LogicalCollectionConditionResult](/om_documentation/oM/Framework/Verification/Results/LogicalCollectionConditionResult)
+    - Verification.Results.[SingleLogicalConditionResult](/om_documentation/oM/Framework/Verification/Results/SingleLogicalConditionResult)
+    - Verification.Results.[ValueConditionResult](/om_documentation/oM/Framework/Verification/Results/ValueConditionResult)
 
 
 ## Properties

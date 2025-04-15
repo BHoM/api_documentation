@@ -12,15 +12,15 @@ title: IOptimiser
 
 ???+ bhom "The IOptimiser in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
+    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - DeepLearning.Optimisers.[Adam](/documentation/oM/Framework/DeepLearning/Optimisers/Adam)
-    - DeepLearning.Optimisers.[SGD](/documentation/oM/Framework/DeepLearning/Optimisers/SGD)
+    - DeepLearning.Optimisers.[Adam](/om_documentation/oM/Framework/DeepLearning/Optimisers/Adam)
+    - DeepLearning.Optimisers.[SGD](/om_documentation/oM/Framework/DeepLearning/Optimisers/SGD)
 
 
 ## Properties

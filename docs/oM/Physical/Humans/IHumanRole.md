@@ -12,16 +12,16 @@ title: IHumanRole
 
 ???+ bhom "The IHumanRole in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
+    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Humans.[Employee](/documentation/oM/Physical/Humans/Employee)
-    - Humans.[Skeleton](/documentation/oM/Physical/Humans/Skeleton)
-    - Humans.ViewQuality.[Spectator](/documentation/oM/Physical/Humans/ViewQuality/Spectator)
+    - Humans.[Employee](/om_documentation/oM/Physical/Humans/Employee)
+    - Humans.[Skeleton](/om_documentation/oM/Physical/Humans/Skeleton)
+    - Humans.ViewQuality.[Spectator](/om_documentation/oM/Physical/Humans/ViewQuality/Spectator)
 
 
 ## Properties

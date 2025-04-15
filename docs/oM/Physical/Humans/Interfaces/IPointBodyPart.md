@@ -12,20 +12,20 @@ title: IPointBodyPart
 
 ???+ bhom "The IPointBodyPart in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
+    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Humans.BodyParts.[Eye](/documentation/oM/Physical/Humans/BodyParts/Eye)
-    - Humans.BodyParts.[Head](/documentation/oM/Physical/Humans/BodyParts/Head)
-    - Humans.BodyParts.[LeftHand](/documentation/oM/Physical/Humans/BodyParts/LeftHand)
-    - Humans.BodyParts.[LeftThumb](/documentation/oM/Physical/Humans/BodyParts/LeftThumb)
-    - Humans.BodyParts.[PairOfEyes](/documentation/oM/Physical/Humans/BodyParts/PairOfEyes)
-    - Humans.BodyParts.[RightHand](/documentation/oM/Physical/Humans/BodyParts/RightHand)
-    - Humans.BodyParts.[RightThumb](/documentation/oM/Physical/Humans/BodyParts/RightThumb)
+    - Humans.BodyParts.[Eye](/om_documentation/oM/Physical/Humans/BodyParts/Eye)
+    - Humans.BodyParts.[Head](/om_documentation/oM/Physical/Humans/BodyParts/Head)
+    - Humans.BodyParts.[LeftHand](/om_documentation/oM/Physical/Humans/BodyParts/LeftHand)
+    - Humans.BodyParts.[LeftThumb](/om_documentation/oM/Physical/Humans/BodyParts/LeftThumb)
+    - Humans.BodyParts.[PairOfEyes](/om_documentation/oM/Physical/Humans/BodyParts/PairOfEyes)
+    - Humans.BodyParts.[RightHand](/om_documentation/oM/Physical/Humans/BodyParts/RightHand)
+    - Humans.BodyParts.[RightThumb](/om_documentation/oM/Physical/Humans/BodyParts/RightThumb)
 
 
 ## Properties
@@ -38,7 +38,7 @@ The following properties are defined on the interface
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| TrackingPoint | [Point](/documentation/oM/Dimensional/Geometry/Point) | - | - |
+| TrackingPoint | [Point](/om_documentation/oM/Dimensional/Geometry/Point) | - | - |
 
 
 ## Code and Schema

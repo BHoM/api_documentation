@@ -12,16 +12,16 @@ A base interface for BHoM wrapper classes that can wrap Revit elements.
 
 ???+ bhom "The IInstance in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IBHoMObject](/documentation/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
+    -  Base.[IBHoMObject](/om_documentation/oM/Framework/Base/IBHoMObject)
+    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Adapters.Revit.Elements.[DraftingInstance](/documentation/oM/Adapter/Adapters/Revit/Elements/DraftingInstance)
-    - Adapters.Revit.Elements.[ModelInstance](/documentation/oM/Adapter/Adapters/Revit/Elements/ModelInstance)
+    - Adapters.Revit.Elements.[DraftingInstance](/om_documentation/oM/Adapter/Adapters/Revit/Elements/DraftingInstance)
+    - Adapters.Revit.Elements.[ModelInstance](/om_documentation/oM/Adapter/Adapters/Revit/Elements/ModelInstance)
 
 
 ## Properties
@@ -34,9 +34,9 @@ The following properties are defined on the interface
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| Properties | [InstanceProperties](/documentation/oM/Adapter/Adapters/Revit/Properties/InstanceProperties) | Information about family type of the instance. | - |
-| Location | [IGeometry](/documentation/oM/Dimensional/Geometry/IGeometry) | Location of the instance in space. | - |
-| Orientation | [Basis](/documentation/oM/Dimensional/Geometry/Basis) | Orientation of the instance in 2 or 3 dimensional space (depending on dimensionality of the instance). Applicable only to point-based instances. | - |
+| Properties | [InstanceProperties](/om_documentation/oM/Adapter/Adapters/Revit/Properties/InstanceProperties) | Information about family type of the instance. | - |
+| Location | [IGeometry](/om_documentation/oM/Dimensional/Geometry/IGeometry) | Location of the instance in space. | - |
+| Orientation | [Basis](/om_documentation/oM/Dimensional/Geometry/Basis) | Orientation of the instance in 2 or 3 dimensional space (depending on dimensionality of the instance). Applicable only to point-based instances. | - |
 
 
 ## Code and Schema

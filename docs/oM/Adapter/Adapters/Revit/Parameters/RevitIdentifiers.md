@@ -12,10 +12,10 @@ An entity containing identifiers of Revit element correspondent to the BHoM obje
 
 ???+ bhom "The RevitIdentifiers in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IPersistentAdapterId](/documentation/oM/Framework/Base/IPersistentAdapterId)
-    -  Base.[IFragment](/documentation/oM/Framework/Base/IFragment)
-    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
-    -  Base.[IImmutable](/documentation/oM/Framework/Base/IImmutable)
+    -  Base.[IPersistentAdapterId](/om_documentation/oM/Framework/Base/IPersistentAdapterId)
+    -  Base.[IFragment](/om_documentation/oM/Framework/Base/IFragment)
+    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
+    -  Base.[IImmutable](/om_documentation/oM/Framework/Base/IImmutable)
 
 
 ## Properties

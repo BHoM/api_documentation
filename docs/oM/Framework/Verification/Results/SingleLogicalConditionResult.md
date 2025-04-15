@@ -12,9 +12,9 @@ Object representing result of ISingleLogicalCondition.
 
 ???+ bhom "The SingleLogicalConditionResult in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Verification.Results.[IConditionResult](/documentation/oM/Framework/Verification/Results/IConditionResult)
-    -  Base.[IImmutable](/documentation/oM/Framework/Base/IImmutable)
-    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
+    -  Verification.Results.[IConditionResult](/om_documentation/oM/Framework/Verification/Results/IConditionResult)
+    -  Base.[IImmutable](/om_documentation/oM/Framework/Base/IImmutable)
+    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
 
 
 ## Properties
@@ -28,7 +28,7 @@ The following properties are defined on the class
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
 | Passed | [Nullable](https://learn.microsoft.com/en-us/dotnet/api/System.Nullable-1?view=netstandard-2.0)&lt;[bool](https://learn.microsoft.com/en-us/dotnet/api/System.Boolean?view=netstandard-2.0)&gt; | Information whether the object passed or failed the condition. Null means inconclusive result. | - |
-| Result | [IConditionResult](/documentation/oM/Framework/Verification/Results/IConditionResult) | Results of the nested condition. | - |
+| Result | [IConditionResult](/om_documentation/oM/Framework/Verification/Results/IConditionResult) | Results of the nested condition. | - |
 
 
 ## Code and Schema

@@ -12,8 +12,8 @@ title: WindroseData
 
 ???+ bhom "The WindroseData in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  LadybugTools.[ISimulationData](/documentation/oM/Adapter/LadybugTools/ISimulationData)
-    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
+    -  LadybugTools.[ISimulationData](/om_documentation/oM/Adapter/LadybugTools/ISimulationData)
+    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
 
 
 ## Properties

@@ -12,8 +12,8 @@ A numerical domain defined by a minimum and maximum value.
 
 ???+ bhom "The Domain in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
-    -  Base.[IImmutable](/documentation/oM/Framework/Base/IImmutable)
+    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
+    -  Base.[IImmutable](/om_documentation/oM/Framework/Base/IImmutable)
 
 
 ## Properties

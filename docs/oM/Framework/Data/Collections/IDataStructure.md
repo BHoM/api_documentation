@@ -12,30 +12,30 @@ title: IDataStructure
 
 ???+ bhom "The IDataStructure in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
+    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
 
 
 ### Interfaces implementing this interface
 
 ???+ bhom "The following interfaces are implementing this interface:"
 
-    - Data.Collections.[INode](/documentation/oM/Framework/Data/Collections/INode%601)&lt;[T](/documentation/oM/Framework/Data/Collections/INode%601#t)&gt;
+    - Data.Collections.[INode](/om_documentation/oM/Framework/Data/Collections/INode%601)&lt;[T](/om_documentation/oM/Framework/Data/Collections/INode%601#t)&gt;
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Data.Collections.[DiscretePoint](/documentation/oM/Framework/Data/Collections/DiscretePoint)
-    - Data.Collections.[DomainTree](/documentation/oM/Framework/Data/Collections/DomainTree%601)&lt;[T](/documentation/oM/Framework/Data/Collections/DomainTree%601#t)&gt;
-    - Data.Collections.[Graph](/documentation/oM/Framework/Data/Collections/Graph%601)&lt;[T](/documentation/oM/Framework/Data/Collections/Graph%601#t)&gt;
-    - Data.Collections.[GraphLink](/documentation/oM/Framework/Data/Collections/GraphLink%601)&lt;[T](/documentation/oM/Framework/Data/Collections/GraphLink%601#t)&gt;
-    - Data.Collections.[GraphNode](/documentation/oM/Framework/Data/Collections/GraphNode%601)&lt;[T](/documentation/oM/Framework/Data/Collections/GraphNode%601#t)&gt;
-    - Data.Collections.[LocalData](/documentation/oM/Framework/Data/Collections/LocalData%601)&lt;[T](/documentation/oM/Framework/Data/Collections/LocalData%601#t)&gt;
-    - Data.Collections.[PointMatrix](/documentation/oM/Framework/Data/Collections/PointMatrix%601)&lt;[T](/documentation/oM/Framework/Data/Collections/PointMatrix%601#t)&gt;
-    - Data.Collections.[PriorityQueue](/documentation/oM/Framework/Data/Collections/PriorityQueue%601)&lt;[T](/documentation/oM/Framework/Data/Collections/PriorityQueue%601#t)&gt;
-    - Data.Collections.[Tree](/documentation/oM/Framework/Data/Collections/Tree%601)&lt;[T](/documentation/oM/Framework/Data/Collections/Tree%601#t)&gt;
-    - Data.Collections.[VennDiagram](/documentation/oM/Framework/Data/Collections/VennDiagram%601)&lt;[T](/documentation/oM/Framework/Data/Collections/VennDiagram%601#t)&gt;
+    - Data.Collections.[DiscretePoint](/om_documentation/oM/Framework/Data/Collections/DiscretePoint)
+    - Data.Collections.[DomainTree](/om_documentation/oM/Framework/Data/Collections/DomainTree%601)&lt;[T](/om_documentation/oM/Framework/Data/Collections/DomainTree%601#t)&gt;
+    - Data.Collections.[Graph](/om_documentation/oM/Framework/Data/Collections/Graph%601)&lt;[T](/om_documentation/oM/Framework/Data/Collections/Graph%601#t)&gt;
+    - Data.Collections.[GraphLink](/om_documentation/oM/Framework/Data/Collections/GraphLink%601)&lt;[T](/om_documentation/oM/Framework/Data/Collections/GraphLink%601#t)&gt;
+    - Data.Collections.[GraphNode](/om_documentation/oM/Framework/Data/Collections/GraphNode%601)&lt;[T](/om_documentation/oM/Framework/Data/Collections/GraphNode%601#t)&gt;
+    - Data.Collections.[LocalData](/om_documentation/oM/Framework/Data/Collections/LocalData%601)&lt;[T](/om_documentation/oM/Framework/Data/Collections/LocalData%601#t)&gt;
+    - Data.Collections.[PointMatrix](/om_documentation/oM/Framework/Data/Collections/PointMatrix%601)&lt;[T](/om_documentation/oM/Framework/Data/Collections/PointMatrix%601#t)&gt;
+    - Data.Collections.[PriorityQueue](/om_documentation/oM/Framework/Data/Collections/PriorityQueue%601)&lt;[T](/om_documentation/oM/Framework/Data/Collections/PriorityQueue%601#t)&gt;
+    - Data.Collections.[Tree](/om_documentation/oM/Framework/Data/Collections/Tree%601)&lt;[T](/om_documentation/oM/Framework/Data/Collections/Tree%601#t)&gt;
+    - Data.Collections.[VennDiagram](/om_documentation/oM/Framework/Data/Collections/VennDiagram%601)&lt;[T](/om_documentation/oM/Framework/Data/Collections/VennDiagram%601#t)&gt;
 
 
 ## Properties

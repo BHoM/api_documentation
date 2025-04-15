@@ -12,11 +12,11 @@ Identifies a Resource (a File or Directory or other) that is locatable and holds
 
 ???+ bhom "The IContainer in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Adapters.File.[ILocatableResource](/documentation/oM/Adapter/Adapters/File/ILocatableResource)
-    -  Adapters.File.[IResource](/documentation/oM/Adapter/Adapters/File/IResource)
-    -  Base.[IBHoMObject](/documentation/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
-    -  Adapters.File.[IContainableResource](/documentation/oM/Adapter/Adapters/File/IContainableResource)
+    -  Adapters.File.[ILocatableResource](/om_documentation/oM/Adapter/Adapters/File/ILocatableResource)
+    -  Adapters.File.[IResource](/om_documentation/oM/Adapter/Adapters/File/IResource)
+    -  Base.[IBHoMObject](/om_documentation/oM/Framework/Base/IBHoMObject)
+    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
+    -  Adapters.File.[IContainableResource](/om_documentation/oM/Adapter/Adapters/File/IContainableResource)
 
 
 ## Properties

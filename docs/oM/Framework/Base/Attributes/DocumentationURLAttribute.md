@@ -13,8 +13,8 @@ title: DocumentationURLAttribute
 ???+ bhom "The DocumentationURLAttribute in inheriting from the following base type(s) and implements the following interfaces:"
 
     -  [Attribute](https://learn.microsoft.com/en-us/dotnet/api/System.Attribute?view=netstandard-2.0)
-    -  Base.[IImmutable](/documentation/oM/Framework/Base/IImmutable)
-    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
+    -  Base.[IImmutable](/om_documentation/oM/Framework/Base/IImmutable)
+    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
 
 
 ## Properties
@@ -28,7 +28,7 @@ The following properties are defined on the class
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
 | DocumentationURL | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | - | - |
-| Type | [DocumentationType](/documentation/oM/Framework/Base/Attributes/Enums/DocumentationType) | - | - |
+| Type | [DocumentationType](/om_documentation/oM/Framework/Base/Attributes/Enums/DocumentationType) | - | - |
 | Description | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | - | - |
 
 

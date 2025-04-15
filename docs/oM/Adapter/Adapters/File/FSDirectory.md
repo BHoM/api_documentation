@@ -12,15 +12,15 @@ A FileSystem-hosted Directory. It can include the content of the Directory.
 
 ???+ bhom "The FSDirectory in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[BHoMObject](/documentation/oM/Framework/Base/BHoMObject)
-    -  Base.[IBHoMObject](/documentation/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
-    -  Adapters.File.[IFSContainer](/documentation/oM/Adapter/Adapters/File/IFSContainer)
-    -  Adapters.File.[IFSInfo](/documentation/oM/Adapter/Adapters/File/IFSInfo)
-    -  Adapters.File.[IContainableResource](/documentation/oM/Adapter/Adapters/File/IContainableResource)
-    -  Adapters.File.[IResource](/documentation/oM/Adapter/Adapters/File/IResource)
-    -  Adapters.File.[IDirectory](/documentation/oM/Adapter/Adapters/File/IDirectory)
-    -  Adapters.File.[ISizeableResource](/documentation/oM/Adapter/Adapters/File/ISizeableResource)
+    -  Base.[BHoMObject](/om_documentation/oM/Framework/Base/BHoMObject)
+    -  Base.[IBHoMObject](/om_documentation/oM/Framework/Base/IBHoMObject)
+    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
+    -  Adapters.File.[IFSContainer](/om_documentation/oM/Adapter/Adapters/File/IFSContainer)
+    -  Adapters.File.[IFSInfo](/om_documentation/oM/Adapter/Adapters/File/IFSInfo)
+    -  Adapters.File.[IContainableResource](/om_documentation/oM/Adapter/Adapters/File/IContainableResource)
+    -  Adapters.File.[IResource](/om_documentation/oM/Adapter/Adapters/File/IResource)
+    -  Adapters.File.[IDirectory](/om_documentation/oM/Adapter/Adapters/File/IDirectory)
+    -  Adapters.File.[ISizeableResource](/om_documentation/oM/Adapter/Adapters/File/ISizeableResource)
 
 
 ## Properties
@@ -33,7 +33,7 @@ The following properties are defined on the class
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| ParentDirectory | [FSDirectory](/documentation/oM/Adapter/Adapters/File/FSDirectory) | Full path of parent Directory. You can also specify a string path. | - |
+| ParentDirectory | [FSDirectory](/om_documentation/oM/Adapter/Adapters/File/FSDirectory) | Full path of parent Directory. You can also specify a string path. | - |
 | Name | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | Name of the directory. | - |
 | Exists | [Nullable](https://learn.microsoft.com/en-us/dotnet/api/System.Nullable-1?view=netstandard-2.0)&lt;[bool](https://learn.microsoft.com/en-us/dotnet/api/System.Boolean?view=netstandard-2.0)&gt; | Gets a value indicating whether a file exists. | - |
 | IsReadOnly | [Nullable](https://learn.microsoft.com/en-us/dotnet/api/System.Nullable-1?view=netstandard-2.0)&lt;[bool](https://learn.microsoft.com/en-us/dotnet/api/System.Boolean?view=netstandard-2.0)&gt; | Whether the folder is read only. | - |
@@ -53,7 +53,7 @@ The following properties are inherited from the base class of the object
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
 | BHoM_Guid | [Guid](https://learn.microsoft.com/en-us/dotnet/api/System.Guid?view=netstandard-2.0) | - | - |
-| Fragments | [FragmentSet](/documentation/oM/Framework/Base/FragmentSet) | - | - |
+| Fragments | [FragmentSet](/om_documentation/oM/Framework/Base/FragmentSet) | - | - |
 | Tags | [HashSet](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.HashSet-1?view=netstandard-2.0)&lt;[string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0)&gt; | - | - |
 | CustomData | [Dictionary](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.Dictionary-2?view=netstandard-2.0)&lt;[string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0), [object](https://learn.microsoft.com/en-us/dotnet/api/System.Object?view=netstandard-2.0)&gt; | - | - |
 

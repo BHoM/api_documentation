@@ -12,15 +12,15 @@ An MEP system to determine flow types.
 
 ???+ bhom "The ISystemType in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IBHoMObject](/documentation/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
+    -  Base.[IBHoMObject](/om_documentation/oM/Framework/Base/IBHoMObject)
+    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - MEP.System.[MechanicalSystem](/documentation/oM/Analytical/MEP/System/MechanicalSystem)
+    - MEP.System.[MechanicalSystem](/om_documentation/oM/Analytical/MEP/System/MechanicalSystem)
 
 
 ## Properties

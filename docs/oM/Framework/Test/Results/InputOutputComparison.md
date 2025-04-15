@@ -12,11 +12,11 @@ title: InputOutputComparison
 
 ???+ bhom "The InputOutputComparison in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Analytical.Results.[IResultCollection](/documentation/oM/Analytical/Analytical/Results/IResultCollection%601)&lt;Test.Results.[InputOutputDifference](/documentation/oM/Framework/Test/Results/InputOutputDifference)&gt;
-    -  Analytical.Results.[IResult](/documentation/oM/Analytical/Analytical/Results/IResult)
-    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
-    -  [IComparable](https://learn.microsoft.com/en-us/dotnet/api/System.IComparable-1?view=netstandard-2.0)&lt;Analytical.Results.[IResult](/documentation/oM/Analytical/Analytical/Results/IResult)&gt;
-    -  Base.[IImmutable](/documentation/oM/Framework/Base/IImmutable)
+    -  Analytical.Results.[IResultCollection](/om_documentation/oM/Analytical/Analytical/Results/IResultCollection%601)&lt;Test.Results.[InputOutputDifference](/om_documentation/oM/Framework/Test/Results/InputOutputDifference)&gt;
+    -  Analytical.Results.[IResult](/om_documentation/oM/Analytical/Analytical/Results/IResult)
+    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
+    -  [IComparable](https://learn.microsoft.com/en-us/dotnet/api/System.IComparable-1?view=netstandard-2.0)&lt;Analytical.Results.[IResult](/om_documentation/oM/Analytical/Analytical/Results/IResult)&gt;
+    -  Base.[IImmutable](/om_documentation/oM/Framework/Base/IImmutable)
 
 
 ## Properties
@@ -32,8 +32,8 @@ The following properties are defined on the class
 | ObjectId | [IComparable](https://learn.microsoft.com/en-us/dotnet/api/System.IComparable?view=netstandard-2.0) | The hash of the item being evaluated | - |
 | ResultCase | [IComparable](https://learn.microsoft.com/en-us/dotnet/api/System.IComparable?view=netstandard-2.0) | The set the result belongs to. | - |
 | ObjectType | [Type](https://learn.microsoft.com/en-us/dotnet/api/System.Type?view=netstandard-2.0) | The type of the object being evaluated. | - |
-| ResultType | [InputOutputComparisonType](/documentation/oM/Framework/Test/Results/InputOutputComparisonType) | - | - |
-| Results | [IReadOnlyList](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IReadOnlyList-1?view=netstandard-2.0)&lt;[InputOutputDifference](/documentation/oM/Framework/Test/Results/InputOutputDifference)&gt; | Any differences between the input object and the returned object. | - |
+| ResultType | [InputOutputComparisonType](/om_documentation/oM/Framework/Test/Results/InputOutputComparisonType) | - | - |
+| Results | [IReadOnlyList](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IReadOnlyList-1?view=netstandard-2.0)&lt;[InputOutputDifference](/om_documentation/oM/Framework/Test/Results/InputOutputDifference)&gt; | Any differences between the input object and the returned object. | - |
 | TimeStep | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Time of the results creation as OADate | - |
 
 

@@ -12,8 +12,8 @@ title: LeftShoulder
 
 ???+ bhom "The LeftShoulder in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Humans.Interfaces.[ILineBodyPart](/documentation/oM/Physical/Humans/Interfaces/ILineBodyPart)
-    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
+    -  Humans.Interfaces.[ILineBodyPart](/om_documentation/oM/Physical/Humans/Interfaces/ILineBodyPart)
+    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
 
 
 ## Properties
@@ -26,7 +26,7 @@ The following properties are defined on the class
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| TrackingLine | [Line](/documentation/oM/Dimensional/Geometry/Line) | - | - |
+| TrackingLine | [Line](/om_documentation/oM/Dimensional/Geometry/Line) | - | - |
 
 
 ## Code and Schema

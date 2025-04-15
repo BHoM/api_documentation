@@ -12,7 +12,7 @@ A multidimensional domain, defined by the minimum and maximum values in each dim
 
 ???+ bhom "The DomainBox in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
+    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
 
 
 ## Properties
@@ -25,7 +25,7 @@ The following properties are defined on the class
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| Domains | [Domain[]](/documentation/oM/Framework/Data/Collections/Domain[]) | Array containing the domain for each dimension. | - |
+| Domains | [Domain[]](/om_documentation/oM/Framework/Data/Collections/Domain[]) | Array containing the domain for each dimension. | - |
 
 
 ## Code and Schema

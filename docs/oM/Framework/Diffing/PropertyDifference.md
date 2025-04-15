@@ -12,8 +12,8 @@ Represents a difference found between a Previous and Following version of an obj
 
 ???+ bhom "The PropertyDifference in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Diffing.[IPropertyDifference](/documentation/oM/Framework/Diffing/IPropertyDifference)
-    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
+    -  Diffing.[IPropertyDifference](/om_documentation/oM/Framework/Diffing/IPropertyDifference)
+    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
 
 
 ## Properties

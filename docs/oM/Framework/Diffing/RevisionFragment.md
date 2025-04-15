@@ -12,10 +12,10 @@ Stores the current and previous Hash of the parent BHoMObject, as assigned after
 
 ???+ bhom "The RevisionFragment in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IHashFragment](/documentation/oM/Framework/Base/IHashFragment)
-    -  Base.[IFragment](/documentation/oM/Framework/Base/IFragment)
-    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
-    -  Base.[IImmutable](/documentation/oM/Framework/Base/IImmutable)
+    -  Base.[IHashFragment](/om_documentation/oM/Framework/Base/IHashFragment)
+    -  Base.[IFragment](/om_documentation/oM/Framework/Base/IFragment)
+    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
+    -  Base.[IImmutable](/om_documentation/oM/Framework/Base/IImmutable)
 
 
 ## Properties

@@ -12,17 +12,17 @@ Interface for Move, Rename and Copy commands.
 
 ???+ bhom "The IMRCCommand in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Adapter.[IExecuteCommand](/documentation/oM/Framework/Adapter/IExecuteCommand)
-    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
+    -  Adapter.[IExecuteCommand](/om_documentation/oM/Framework/Adapter/IExecuteCommand)
+    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Adapters.File.[CopyCommand](/documentation/oM/Adapter/Adapters/File/CopyCommand)
-    - Adapters.File.[MoveCommand](/documentation/oM/Adapter/Adapters/File/MoveCommand)
-    - Adapters.File.[RenameCommand](/documentation/oM/Adapter/Adapters/File/RenameCommand)
+    - Adapters.File.[CopyCommand](/om_documentation/oM/Adapter/Adapters/File/CopyCommand)
+    - Adapters.File.[MoveCommand](/om_documentation/oM/Adapter/Adapters/File/MoveCommand)
+    - Adapters.File.[RenameCommand](/om_documentation/oM/Adapter/Adapters/File/RenameCommand)
 
 
 ## Properties

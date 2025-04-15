@@ -12,15 +12,15 @@ A base interface for BHoM wrapper classes that can wrap Revit views.
 
 ???+ bhom "The IView in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IBHoMObject](/documentation/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
+    -  Base.[IBHoMObject](/om_documentation/oM/Framework/Base/IBHoMObject)
+    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Adapters.Revit.Elements.[ViewPlan](/documentation/oM/Adapter/Adapters/Revit/Elements/ViewPlan)
+    - Adapters.Revit.Elements.[ViewPlan](/om_documentation/oM/Adapter/Adapters/Revit/Elements/ViewPlan)
 
 
 ## Properties
@@ -33,7 +33,7 @@ The following properties are defined on the interface
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| InstanceProperties | [InstanceProperties](/documentation/oM/Adapter/Adapters/Revit/Properties/InstanceProperties) | An entity storing the information about Revit view type. | - |
+| InstanceProperties | [InstanceProperties](/om_documentation/oM/Adapter/Adapters/Revit/Properties/InstanceProperties) | An entity storing the information about Revit view type. | - |
 
 
 ## Code and Schema
