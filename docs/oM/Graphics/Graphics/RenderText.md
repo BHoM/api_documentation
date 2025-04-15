@@ -1,0 +1,53 @@
+---
+title: RenderText
+---
+
+# Graphics.RenderText
+
+Render text at a location and orientation in space with specified height, font and colour.
+
+## Class structure
+
+### Implemented interfaces and base types
+
+???+ bhom "The RenderText in inheriting from the following base type(s) and implements the following interfaces:"
+
+    -  Graphics.[IRender](/documentation/oM/Graphics/Graphics/IRender)
+    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
+
+
+## Properties
+
+
+
+### Defining properties
+
+The following properties are defined on the class
+
+| Name             | Type             | Description      | Quantity         |
+|------------------|------------------|------------------|------------------|
+| Text | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | The text to render. | - |
+| Cartesian | [Cartesian](/documentation/oM/Dimensional/Geometry/CoordinateSystem/Cartesian) | Cartesian to locate and orientate the text. | - |
+| Height | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Height of the text. Default is 1. Units will be determined by the setting of the user interface that renders the text. | - |
+| FontName | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | Font used to render the text. Default is Arial. | - |
+| Colour | [Color](https://learn.microsoft.com/en-us/dotnet/api/System.Drawing.Color?view=netstandard-2.0) | Colour used to render the text. Default is BHoM Coral with a subtle transparency (Color.FromArgb(80, 255, 41, 105)). | - |
+
+
+### Derived properties
+
+The following properties are defined as extension methods in one of the BHoM_Engines
+
+| Name             | Type             | Description      | Quantity         | Engine           |
+|------------------|------------------|------------------|------------------|------------------|
+| IBounds | [BoundingBox](/documentation/oM/Dimensional/Geometry/BoundingBox) | Computes and returns the BoundingBox of the IRender. | - | Graphics_Engine |
+
+
+## Code and Schema
+
+### C# implementation
+
+The class is defined in C#. The class definition is available on github:
+
+- [RenderText.cs](https://github.com/BHoM/BHoM/blob/develop/Graphics_oM/Render/RenderText.cs)
+
+All history and changes of the class can be found by inspection the history.

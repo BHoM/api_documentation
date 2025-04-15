@@ -1,0 +1,55 @@
+---
+title: Acoustics
+---
+
+# Environment.SpaceCriteria.Acoustics
+
+The Acoustics object defines the noise criteria for an environments space, whether it's the prescribed ductwork velocity, the noise rating for the space or the dB level.
+
+## Class structure
+
+### Implemented interfaces and base types
+
+???+ bhom "The Acoustics in inheriting from the following base type(s) and implements the following interfaces:"
+
+    -  Base.[BHoMObject](/documentation/oM/Framework/Base/BHoMObject)
+    -  Base.[IBHoMObject](/documentation/oM/Framework/Base/IBHoMObject)
+    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
+
+
+## Properties
+
+
+
+### Defining properties
+
+The following properties are defined on the class
+
+| Name             | Type             | Description      | Quantity         |
+|------------------|------------------|------------------|------------------|
+| DuctVelocity | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | The prescribed velocity of the ductwork in the space (with more strict requirements for velocity in bedrooms and theatres (~3 m/s) | - |
+| NoiseRating | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | The noise rating (NR), also known as noise criteria (NC) in the US, is the perceived loudness of a space | - |
+| DecibelA | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | The Decibel A (dBA) is the sound pressure sensed by the human ear without sensitivity to very low and very high frequencies prescribed for a space | - |
+
+
+### Inherited properties
+The following properties are inherited from the base class of the object
+
+| Name             | Type             | Description      | Quantity         |
+|------------------|------------------|------------------|------------------|
+| BHoM_Guid | [Guid](https://learn.microsoft.com/en-us/dotnet/api/System.Guid?view=netstandard-2.0) | - | - |
+| Name | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | - | - |
+| Fragments | [FragmentSet](/documentation/oM/Framework/Base/FragmentSet) | - | - |
+| Tags | [HashSet](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.HashSet-1?view=netstandard-2.0)&lt;[string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0)&gt; | - | - |
+| CustomData | [Dictionary](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.Dictionary-2?view=netstandard-2.0)&lt;[string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0), [object](https://learn.microsoft.com/en-us/dotnet/api/System.Object?view=netstandard-2.0)&gt; | - | - |
+
+
+## Code and Schema
+
+### C# implementation
+
+The class is defined in C#. The class definition is available on github:
+
+- [Acoustics.cs](https://github.com/BHoM/BHoM/blob/develop/Environment_oM/SpaceCriteria\Acoustics.cs)
+
+All history and changes of the class can be found by inspection the history.

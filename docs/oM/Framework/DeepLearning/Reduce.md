@@ -1,0 +1,26 @@
+---
+title: Reduce
+---
+
+# DeepLearning.Reduce
+
+
+
+## Enum values
+
+| Name            | Description                                                    |
+|-----------------|----------------------------------------------------------------|
+| No |  -  |
+| Mean |  -  |
+| Sum |  -  |
+
+
+## Code and Schema
+
+### C# implementation
+
+The enum is defined in C#. The class definition is available on github:
+
+- [Reduce.cs](https://github.com/BHoM/BHoM/blob/develop/DeepLearning_oM/Enums/Reduce.cs)
+
+All history and changes of the class can be found by inspection the history.

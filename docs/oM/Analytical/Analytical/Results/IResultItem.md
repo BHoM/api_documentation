@@ -1,0 +1,129 @@
+---
+title: IResultItem
+---
+
+# Analytical.Results.IResultItem
+
+Base interface to flag that the result is a simple result line.
+A class implementing the IResultItem interface should only contain basic properties such as doubles, ints, strings, DateTime and similar.
+For instance, a class implementing this interface could be represented as a single row in a table (e.g. Excel or a SQL database) with its properties explicitly readable.
+
+## Interface structure
+
+### Implemented interfaces and base types
+
+???+ bhom "The IResultItem in inheriting from the following base type(s) and implements the following interfaces:"
+
+    -  Analytical.Results.[IResult](/documentation/oM/Analytical/Analytical/Results/IResult)
+    -  Base.[IObject](/documentation/oM/Framework/Base/IObject)
+    -  [IComparable](https://learn.microsoft.com/en-us/dotnet/api/System.IComparable-1?view=netstandard-2.0)&lt;Analytical.Results.[IResult](/documentation/oM/Analytical/Analytical/Results/IResult)&gt;
+    -  Base.[IImmutable](/documentation/oM/Framework/Base/IImmutable)
+
+
+### Interfaces implementing this interface
+
+???+ bhom "The following interfaces are implementing this interface:"
+
+    - LifeCycleAssessment.Results.[IElementResult](/documentation/oM/Analytical/LifeCycleAssessment/Results/IElementResult%601)&lt;[T](/documentation/oM/Analytical/LifeCycleAssessment/Results/IElementResult%601#t)&gt;
+    - LifeCycleAssessment.Results.[IEnvironmentalResult](/documentation/oM/Analytical/LifeCycleAssessment/Results/IEnvironmentalResult)
+    - Structure.Results.[IBarDisplacement](/documentation/oM/Analytical/Structure/Results/IBarDisplacement)
+    - Structure.Results.[IDisplacement](/documentation/oM/Analytical/Structure/Results/IDisplacement)
+    - Structure.Results.[IReaction](/documentation/oM/Analytical/Structure/Results/IReaction)
+    - Structure.Results.[IMeshDisplacement](/documentation/oM/Analytical/Structure/Results/IMeshDisplacement)
+    - Structure.Results.[INodeDisplacement](/documentation/oM/Analytical/Structure/Results/INodeDisplacement)
+
+
+### Classes implementing this interface
+
+??? bhom "The following classes are implementing this interface:"
+
+    - LifeCycleAssessment.Results.[AbioticDepletionFossilResourcesElementResult](/documentation/oM/Analytical/LifeCycleAssessment/Results/AbioticDepletionFossilResourcesElementResult)
+    - LifeCycleAssessment.Results.[AbioticDepletionMineralsAndMetalsElementResult](/documentation/oM/Analytical/LifeCycleAssessment/Results/AbioticDepletionMineralsAndMetalsElementResult)
+    - LifeCycleAssessment.Results.[AcidificationElementResult](/documentation/oM/Analytical/LifeCycleAssessment/Results/AcidificationElementResult)
+    - LifeCycleAssessment.Results.[ClimateChangeBiogenicElementResult](/documentation/oM/Analytical/LifeCycleAssessment/Results/ClimateChangeBiogenicElementResult)
+    - LifeCycleAssessment.Results.[ClimateChangeFossilElementResult](/documentation/oM/Analytical/LifeCycleAssessment/Results/ClimateChangeFossilElementResult)
+    - LifeCycleAssessment.Results.[ClimateChangeLandUseElementResult](/documentation/oM/Analytical/LifeCycleAssessment/Results/ClimateChangeLandUseElementResult)
+    - LifeCycleAssessment.Results.[ClimateChangeTotalElementResult](/documentation/oM/Analytical/LifeCycleAssessment/Results/ClimateChangeTotalElementResult)
+    - LifeCycleAssessment.Results.[ClimateChangeTotalNoBiogenicElementResult](/documentation/oM/Analytical/LifeCycleAssessment/Results/ClimateChangeTotalNoBiogenicElementResult)
+    - LifeCycleAssessment.Results.[ElementResult](/documentation/oM/Analytical/LifeCycleAssessment/Results/ElementResult%601)&lt;[T](/documentation/oM/Analytical/LifeCycleAssessment/Results/ElementResult%601#t)&gt;
+    - LifeCycleAssessment.Results.[EutrophicationAquaticFreshwaterElementResult](/documentation/oM/Analytical/LifeCycleAssessment/Results/EutrophicationAquaticFreshwaterElementResult)
+    - LifeCycleAssessment.Results.[EutrophicationAquaticMarineElementResult](/documentation/oM/Analytical/LifeCycleAssessment/Results/EutrophicationAquaticMarineElementResult)
+    - LifeCycleAssessment.Results.[EutrophicationCMLElementResult](/documentation/oM/Analytical/LifeCycleAssessment/Results/EutrophicationCMLElementResult)
+    - LifeCycleAssessment.Results.[EutrophicationTerrestrialElementResult](/documentation/oM/Analytical/LifeCycleAssessment/Results/EutrophicationTerrestrialElementResult)
+    - LifeCycleAssessment.Results.[EutrophicationTRACIElementResult](/documentation/oM/Analytical/LifeCycleAssessment/Results/EutrophicationTRACIElementResult)
+    - LifeCycleAssessment.Results.[OzoneDepletionElementResult](/documentation/oM/Analytical/LifeCycleAssessment/Results/OzoneDepletionElementResult)
+    - LifeCycleAssessment.Results.[PhotochemicalOzoneCreationCMLElementResult](/documentation/oM/Analytical/LifeCycleAssessment/Results/PhotochemicalOzoneCreationCMLElementResult)
+    - LifeCycleAssessment.Results.[PhotochemicalOzoneCreationElementResult](/documentation/oM/Analytical/LifeCycleAssessment/Results/PhotochemicalOzoneCreationElementResult)
+    - LifeCycleAssessment.Results.[PhotochemicalOzoneCreationTRACIElementResult](/documentation/oM/Analytical/LifeCycleAssessment/Results/PhotochemicalOzoneCreationTRACIElementResult)
+    - LifeCycleAssessment.Results.[WaterDeprivationElementResult](/documentation/oM/Analytical/LifeCycleAssessment/Results/WaterDeprivationElementResult)
+    - LifeCycleAssessment.Results.[AbioticDepletionFossilResourcesMaterialResult](/documentation/oM/Analytical/LifeCycleAssessment/Results/AbioticDepletionFossilResourcesMaterialResult)
+    - LifeCycleAssessment.Results.[AbioticDepletionMineralsAndMetalsMaterialResult](/documentation/oM/Analytical/LifeCycleAssessment/Results/AbioticDepletionMineralsAndMetalsMaterialResult)
+    - LifeCycleAssessment.Results.[AcidificationMaterialResult](/documentation/oM/Analytical/LifeCycleAssessment/Results/AcidificationMaterialResult)
+    - LifeCycleAssessment.Results.[ClimateChangeBiogenicMaterialResult](/documentation/oM/Analytical/LifeCycleAssessment/Results/ClimateChangeBiogenicMaterialResult)
+    - LifeCycleAssessment.Results.[ClimateChangeFossilMaterialResult](/documentation/oM/Analytical/LifeCycleAssessment/Results/ClimateChangeFossilMaterialResult)
+    - LifeCycleAssessment.Results.[ClimateChangeLandUseMaterialResult](/documentation/oM/Analytical/LifeCycleAssessment/Results/ClimateChangeLandUseMaterialResult)
+    - LifeCycleAssessment.Results.[ClimateChangeTotalMaterialResult](/documentation/oM/Analytical/LifeCycleAssessment/Results/ClimateChangeTotalMaterialResult)
+    - LifeCycleAssessment.Results.[ClimateChangeTotalNoBiogenicMaterialResult](/documentation/oM/Analytical/LifeCycleAssessment/Results/ClimateChangeTotalNoBiogenicMaterialResult)
+    - LifeCycleAssessment.Results.[EutrophicationAquaticFreshwaterMaterialResult](/documentation/oM/Analytical/LifeCycleAssessment/Results/EutrophicationAquaticFreshwaterMaterialResult)
+    - LifeCycleAssessment.Results.[EutrophicationAquaticMarineMaterialResult](/documentation/oM/Analytical/LifeCycleAssessment/Results/EutrophicationAquaticMarineMaterialResult)
+    - LifeCycleAssessment.Results.[EutrophicationCMLMaterialResult](/documentation/oM/Analytical/LifeCycleAssessment/Results/EutrophicationCMLMaterialResult)
+    - LifeCycleAssessment.Results.[EutrophicationTerrestrialMaterialResult](/documentation/oM/Analytical/LifeCycleAssessment/Results/EutrophicationTerrestrialMaterialResult)
+    - LifeCycleAssessment.Results.[EutrophicationTRACIMaterialResult](/documentation/oM/Analytical/LifeCycleAssessment/Results/EutrophicationTRACIMaterialResult)
+    - LifeCycleAssessment.Results.[MaterialResult](/documentation/oM/Analytical/LifeCycleAssessment/Results/MaterialResult)
+    - LifeCycleAssessment.Results.[OzoneDepletionMaterialResult](/documentation/oM/Analytical/LifeCycleAssessment/Results/OzoneDepletionMaterialResult)
+    - LifeCycleAssessment.Results.[PhotochemicalOzoneCreationCMLMaterialResult](/documentation/oM/Analytical/LifeCycleAssessment/Results/PhotochemicalOzoneCreationCMLMaterialResult)
+    - LifeCycleAssessment.Results.[PhotochemicalOzoneCreationMaterialResult](/documentation/oM/Analytical/LifeCycleAssessment/Results/PhotochemicalOzoneCreationMaterialResult)
+    - LifeCycleAssessment.Results.[PhotochemicalOzoneCreationTRACIMaterialResult](/documentation/oM/Analytical/LifeCycleAssessment/Results/PhotochemicalOzoneCreationTRACIMaterialResult)
+    - LifeCycleAssessment.Results.[WaterDeprivationMaterialResult](/documentation/oM/Analytical/LifeCycleAssessment/Results/WaterDeprivationMaterialResult)
+    - Structure.Results.[BarDeformation](/documentation/oM/Analytical/Structure/Results/BarDeformation)
+    - Structure.Results.[BarDisplacement](/documentation/oM/Analytical/Structure/Results/BarDisplacement)
+    - Structure.Results.[BarForce](/documentation/oM/Analytical/Structure/Results/BarForce)
+    - Structure.Results.[BarModeShape](/documentation/oM/Analytical/Structure/Results/BarModeShape)
+    - Structure.Results.[BarRequiredArea](/documentation/oM/Analytical/Structure/Results/BarRequiredArea)
+    - Structure.Results.[BarStrain](/documentation/oM/Analytical/Structure/Results/BarStrain)
+    - Structure.Results.[BarStress](/documentation/oM/Analytical/Structure/Results/BarStress)
+    - Structure.Results.[CompositeUtilisation](/documentation/oM/Analytical/Structure/Results/CompositeUtilisation)
+    - Structure.Results.[SteelUtilisation](/documentation/oM/Analytical/Structure/Results/SteelUtilisation)
+    - Structure.Results.[GlobalReactions](/documentation/oM/Analytical/Structure/Results/GlobalReactions)
+    - Structure.Results.[ModalDynamics](/documentation/oM/Analytical/Structure/Results/ModalDynamics)
+    - Structure.Results.[ModalMassAndFrequency](/documentation/oM/Analytical/Structure/Results/ModalMassAndFrequency)
+    - Structure.Results.[StoreyDrift](/documentation/oM/Analytical/Structure/Results/StoreyDrift)
+    - Structure.Results.[StructuralGlobalResult](/documentation/oM/Analytical/Structure/Results/StructuralGlobalResult)
+    - Structure.Results.[MeshDisplacement](/documentation/oM/Analytical/Structure/Results/MeshDisplacement)
+    - Structure.Results.[MeshForce](/documentation/oM/Analytical/Structure/Results/MeshForce)
+    - Structure.Results.[MeshModeShape](/documentation/oM/Analytical/Structure/Results/MeshModeShape)
+    - Structure.Results.[MeshRequiredArea](/documentation/oM/Analytical/Structure/Results/MeshRequiredArea)
+    - Structure.Results.[MeshStress](/documentation/oM/Analytical/Structure/Results/MeshStress)
+    - Structure.Results.[MeshVonMises](/documentation/oM/Analytical/Structure/Results/MeshVonMises)
+    - Structure.Results.[NodeAcceleration](/documentation/oM/Analytical/Structure/Results/NodeAcceleration)
+    - Structure.Results.[NodeDisplacement](/documentation/oM/Analytical/Structure/Results/NodeDisplacement)
+    - Structure.Results.[NodeModalMass](/documentation/oM/Analytical/Structure/Results/NodeModalMass)
+    - Structure.Results.[NodeModalResults](/documentation/oM/Analytical/Structure/Results/NodeModalResults)
+    - Structure.Results.[NodeModeShape](/documentation/oM/Analytical/Structure/Results/NodeModeShape)
+    - Structure.Results.[NodeReaction](/documentation/oM/Analytical/Structure/Results/NodeReaction)
+    - Structure.Results.[NodeVelocity](/documentation/oM/Analytical/Structure/Results/NodeVelocity)
+
+
+## Properties
+
+### Derived properties
+
+The following properties are defined as extension methods in one of the BHoM_Engines
+
+| Name             | Type             | Description      | Quantity         | Engine           |
+|------------------|------------------|------------------|------------------|------------------|
+| AllIdentifierProperties | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0)&gt; | Gets the name of all properties of the result that are of identifier types. This is all properties tagged with any IdentifierAttribute. | - | Results_Engine |
+| ObjectIdentifierProperties | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0)&gt; | Gets the name of all properties of the result that are of ObjectIdentifier types. This is all properties tagged with the ObjectIdentifierAttribute. | - | Results_Engine |
+| ResultPropertyKeys | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0)&gt; | Returns the result value carrying properties available for the result type provided. Currently only supported for IResultItem and IResultCollection&lt;IResultItem&gt; type results. | - | Results_Engine |
+| ScenarioIdentifierProperties | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0)&gt; | Gets the name of all properties of the result that are of Scenario types. This is all properties tagged with the ScenarioIdentifierAttribute. | - | Results_Engine |
+
+
+## Code and Schema
+
+### C# implementation
+
+The interface is defined in C#. The class definition is available on github:
+
+- [IResultItem.cs](https://github.com/BHoM/BHoM/blob/develop/Analytical_oM/Results\IResultItem.cs)
+
+All history and changes of the class can be found by inspection the history.

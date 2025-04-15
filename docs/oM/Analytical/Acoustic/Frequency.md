@@ -1,0 +1,33 @@
+---
+title: Frequency
+---
+
+# Acoustic.Frequency
+
+
+
+## Enum values
+
+| Name            | Description                                                    |
+|-----------------|----------------------------------------------------------------|
+| Hz63 |  -  |
+| Hz125 |  -  |
+| Hz250 |  -  |
+| Hz500 |  -  |
+| Hz1000 |  -  |
+| Hz2000 |  -  |
+| Hz4000 |  -  |
+| Hz8000 |  -  |
+| Hz16000 |  -  |
+| Sum |  -  |
+
+
+## Code and Schema
+
+### C# implementation
+
+The enum is defined in C#. The class definition is available on github:
+
+- [Frequency.cs](https://github.com/BHoM/BHoM/blob/develop/Acoustic_oM/Frequency.cs)
+
+All history and changes of the class can be found by inspection the history.
