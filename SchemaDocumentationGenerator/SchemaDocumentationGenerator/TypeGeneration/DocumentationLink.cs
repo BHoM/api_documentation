@@ -101,7 +101,7 @@ namespace SchemaDocumentationGenerator
                 string categoryPath;
                 if (Settings.AssemblyCategory.TryGetValue(type.Assembly.GetName().Name, out categoryPath))
                 {
-                    string link = $"/documentation/oM/{categoryPath}/{type.BHoMTypeFullName().Replace("`", "%60").Replace(".", "/")}";
+                    string link = $"/om_documentation/oM/{categoryPath}/{type.BHoMTypeFullName().Replace("`", "%60").Replace(".", "/")}";
                     m_docLinks[type] = link;
                     return link;
                 }
