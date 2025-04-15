@@ -1,5 +1,5 @@
 ---
-title: BHoM oM Documentation
+title: BHoM Object Model Documentation
 ---
 
 # 
@@ -10,7 +10,7 @@ title: BHoM oM Documentation
 
 <br/><br/>
 
-## BHoM oM Documentation
+## BHoM Object Model Documentation
 
 Welcome to the BHoM oM Documentation. This site contains the documentation of all the objects in the toolkits and repositories in the BHoM organisation part of the BHoM installer.
 
@@ -19,3 +19,4 @@ For access to the source code for all objects described in this page, please vis
 For latest installer please visit [BHoM homepage](https://bhom.xyz/)
 
 For general documentation please see [BHoM documentation](https://bhom.xyz/documentation)
+
