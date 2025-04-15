@@ -1,0 +1,68 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Linq;
+using System.Reflection;
+using System.Security.AccessControl;
+using System.Text;
+using System.Threading.Tasks;
+using BH.oM.Base;
+using BH.oM.Base.Attributes;
+using BH.oM.Quantities.Attributes;
+
+namespace SchemaDocumentationGenerator
+{
+    public static partial class TypeToMarkdown
+    {
+        /***************************************************/
+
+        private static string GetFilePath(this Type type, string basePath)
+        {
+            if (type.Namespace.StartsWith("BH.oM"))
+            {
+                string categoryPath;
+                if (Settings.AssemblyCategory.TryGetValue(type.Assembly.GetName().Name, out categoryPath))
+                {
+                    return @$"{basePath}\oM\{categoryPath}\{type.BHoMTypeFullName().Replace(".", "\\")}.md";
+                }
+            }
+
+            return "";
+        }
+
+        /***************************************************/
+
+        private static bool Write(string filePath, string markdown)
+        {
+            if (File.Exists(filePath))
+                File.Delete(filePath);
+
+            EnsureFolder(filePath);
+
+            File.WriteAllText(filePath, markdown);
+            return true;
+        }
+
+        /***************************************************/
+
+        private static bool EnsureFolder(string path)
+        {
+            string[] split = path.Split("\\");
+
+            string current = Path.Join(split[0], split[1]);
+
+            for (int i = 2; i < split.Length - 1; i++)
+            {
+                current = Path.Join(current, split[i]);
+                if (!Directory.Exists(current))
+                    Directory.CreateDirectory(current);
+            }
+
+            return true;
+
+        }
+
+        /***************************************************/
+
+    }
+}
