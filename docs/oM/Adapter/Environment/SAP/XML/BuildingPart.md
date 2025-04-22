@@ -12,9 +12,9 @@ title: BuildingPart
 
 ???+ bhom "The BuildingPart in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[BHoMObject](/om_documentation/oM/Framework/Base/BHoMObject)
-    -  Base.[IBHoMObject](/om_documentation/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
+    -  Base.[BHoMObject](/api_documentation/oM/Framework/Base/BHoMObject)
+    -  Base.[IBHoMObject](/api_documentation/oM/Framework/Base/IBHoMObject)
+    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
 
 
 ## Properties
@@ -31,11 +31,11 @@ The following properties are defined on the class
 | BuildingPartNumber | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | An integer value which uniquely identifies the building part in the property.  The value "1" must be assigned to the main dwelling. | - |
 | ConstructionYear | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | The year when this building part was constructed.  Not used if 'Construction-Age-Band' is used. | - |
 | ConstructionAgeBand | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | The age band when this building part was constructed.  Not used if 'Construction-Year' is used. | - |
-| FloorDimensions | [FloorDimensions](/om_documentation/oM/Adapter/Environment/SAP/XML/FloorDimensions) | Storeys that make up a particular Building-Part. | - |
-| Openings | [Openings](/om_documentation/oM/Adapter/Environment/SAP/XML/Openings) | Exposed openings that make up a particular Building-Part. | - |
-| Roofs | [Roofs](/om_documentation/oM/Adapter/Environment/SAP/XML/Roofs) | Exposed roofs that make up a particular Building - Part. | - |
-| Walls | [Walls](/om_documentation/oM/Adapter/Environment/SAP/XML/Walls) | Exposed walls that make up a particular Storey. | - |
-| ThermalBridges | [ThermalBridges](/om_documentation/oM/Adapter/Environment/SAP/XML/ThermalBridges) | Thermal bridges that make up a particular Building-Part. | - |
+| FloorDimensions | [FloorDimensions](/api_documentation/oM/Adapter/Environment/SAP/XML/FloorDimensions) | Storeys that make up a particular Building-Part. | - |
+| Openings | [Openings](/api_documentation/oM/Adapter/Environment/SAP/XML/Openings) | Exposed openings that make up a particular Building-Part. | - |
+| Roofs | [Roofs](/api_documentation/oM/Adapter/Environment/SAP/XML/Roofs) | Exposed roofs that make up a particular Building - Part. | - |
+| Walls | [Walls](/api_documentation/oM/Adapter/Environment/SAP/XML/Walls) | Exposed walls that make up a particular Storey. | - |
+| ThermalBridges | [ThermalBridges](/api_documentation/oM/Adapter/Environment/SAP/XML/ThermalBridges) | Thermal bridges that make up a particular Building-Part. | - |
 
 
 ### Inherited properties
@@ -45,7 +45,7 @@ The following properties are inherited from the base class of the object
 |------------------|------------------|------------------|------------------|
 | BHoM_Guid | [Guid](https://learn.microsoft.com/en-us/dotnet/api/System.Guid?view=netstandard-2.0) | - | - |
 | Name | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | - | - |
-| Fragments | [FragmentSet](/om_documentation/oM/Framework/Base/FragmentSet) | - | - |
+| Fragments | [FragmentSet](/api_documentation/oM/Framework/Base/FragmentSet) | - | - |
 | Tags | [HashSet](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.HashSet-1?view=netstandard-2.0)&lt;[string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0)&gt; | - | - |
 | CustomData | [Dictionary](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.Dictionary-2?view=netstandard-2.0)&lt;[string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0), [object](https://learn.microsoft.com/en-us/dotnet/api/System.Object?view=netstandard-2.0)&gt; | - | - |
 

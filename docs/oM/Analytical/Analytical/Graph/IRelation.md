@@ -12,15 +12,15 @@ Interface common to all Relation objects.
 
 ???+ bhom "The IRelation in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IBHoMObject](/om_documentation/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
+    -  Base.[IBHoMObject](/api_documentation/oM/Framework/Base/IBHoMObject)
+    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Analytical.Graph.[Relation](/om_documentation/oM/Analytical/Analytical/Graph/Relation)
+    - Analytical.Graph.[Relation](/api_documentation/oM/Analytical/Analytical/Graph/Relation)
 
 
 ## Properties
@@ -35,9 +35,9 @@ The following properties are defined on the interface
 |------------------|------------------|------------------|------------------|
 | Source | [Guid](https://learn.microsoft.com/en-us/dotnet/api/System.Guid?view=netstandard-2.0) | - | - |
 | Target | [Guid](https://learn.microsoft.com/en-us/dotnet/api/System.Guid?view=netstandard-2.0) | - | - |
-| Subgraph | [Graph](/om_documentation/oM/Analytical/Analytical/Graph/Graph) | - | - |
+| Subgraph | [Graph](/api_documentation/oM/Analytical/Analytical/Graph/Graph) | - | - |
 | Weight | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | - | - |
-| Curve | [ICurve](/om_documentation/oM/Dimensional/Geometry/ICurve) | - | - |
+| Curve | [ICurve](/api_documentation/oM/Dimensional/Geometry/ICurve) | - | - |
 
 
 ### Derived properties
@@ -46,7 +46,7 @@ The following properties are defined as extension methods in one of the BHoM_Eng
 
 | Name             | Type             | Description      | Quantity         | Engine           |
 |------------------|------------------|------------------|------------------|------------------|
-| RelationArrow | [CompositeGeometry](/om_documentation/oM/Dimensional/Geometry/CompositeGeometry) | Returns arrow geometry used to represent a Relation. | - | Analytical_Engine |
+| RelationArrow | [CompositeGeometry](/api_documentation/oM/Dimensional/Geometry/CompositeGeometry) | Returns arrow geometry used to represent a Relation. | - | Analytical_Engine |
 
 
 ## Code and Schema

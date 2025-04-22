@@ -12,15 +12,15 @@ Top interface for all kinds of Requirements.
 
 ???+ bhom "The IRequirement in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IBHoMObject](/om_documentation/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
+    -  Base.[IBHoMObject](/api_documentation/oM/Framework/Base/IBHoMObject)
+    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Verification.Requirements.[Requirement](/om_documentation/oM/Framework/Verification/Requirements/Requirement)
+    - Verification.Requirements.[Requirement](/api_documentation/oM/Framework/Verification/Requirements/Requirement)
 
 
 ## Properties
@@ -34,10 +34,10 @@ The following properties are defined on the interface
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
 | Clause | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | Human readable identifier to reference the Requirement. | - |
-| Source | [Source](/om_documentation/oM/Framework/Data/Library/Source) | Source material for this Requirement. E.g. Codes, best practices, guidelines, etc. | - |
+| Source | [Source](/api_documentation/oM/Framework/Data/Library/Source) | Source material for this Requirement. E.g. Codes, best practices, guidelines, etc. | - |
 | Comment | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | Any additional notes. | - |
 | FailureMessage | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | General, human-readable message explaining what does the failure mean to the user. | - |
-| Severity | [FailureSeverity](/om_documentation/oM/Framework/Verification/FailureSeverity) | Severity of Requirement failure, originating from the concept that not all conditions are necessarily errors. | - |
+| Severity | [FailureSeverity](/api_documentation/oM/Framework/Verification/FailureSeverity) | Severity of Requirement failure, originating from the concept that not all conditions are necessarily errors. | - |
 
 
 ## Code and Schema

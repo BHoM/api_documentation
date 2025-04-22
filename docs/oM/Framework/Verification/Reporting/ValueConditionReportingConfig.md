@@ -12,16 +12,16 @@ Config object containing settings for reporting results of checks against value 
 
 ???+ bhom "The ValueConditionReportingConfig in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Verification.Reporting.[IValueConditionReportingConfig](/om_documentation/oM/Framework/Verification/Reporting/IValueConditionReportingConfig)
-    -  Verification.Reporting.[IConditionReportingConfig](/om_documentation/oM/Framework/Verification/Reporting/IConditionReportingConfig)
-    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
+    -  Verification.Reporting.[IValueConditionReportingConfig](/api_documentation/oM/Framework/Verification/Reporting/IValueConditionReportingConfig)
+    -  Verification.Reporting.[IConditionReportingConfig](/api_documentation/oM/Framework/Verification/Reporting/IConditionReportingConfig)
+    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
 
 
 ### Classes inheriting from this class
 
 ???+ bhom "The following classes are inheriting from this class:"
 
-    - Verification.Reporting.[NumberConditionReportingConfig](/om_documentation/oM/Framework/Verification/Reporting/NumberConditionReportingConfig)
+    - Verification.Reporting.[NumberConditionReportingConfig](/api_documentation/oM/Framework/Verification/Reporting/NumberConditionReportingConfig)
 
 
 ## Properties

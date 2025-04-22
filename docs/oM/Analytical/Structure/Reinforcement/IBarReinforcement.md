@@ -12,16 +12,16 @@ Base interface for any reinforcement within a BarRebarIntent.
 
 ???+ bhom "The IBarReinforcement in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IBHoMObject](/om_documentation/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
+    -  Base.[IBHoMObject](/api_documentation/oM/Framework/Base/IBHoMObject)
+    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Structure.Reinforcement.[LongitudinalReinforcement](/om_documentation/oM/Analytical/Structure/Reinforcement/LongitudinalReinforcement)
-    - Structure.Reinforcement.[TransverseReinforcement](/om_documentation/oM/Analytical/Structure/Reinforcement/TransverseReinforcement)
+    - Structure.Reinforcement.[LongitudinalReinforcement](/api_documentation/oM/Analytical/Structure/Reinforcement/LongitudinalReinforcement)
+    - Structure.Reinforcement.[TransverseReinforcement](/api_documentation/oM/Analytical/Structure/Reinforcement/TransverseReinforcement)
 
 
 ## Properties
@@ -34,8 +34,8 @@ The following properties are defined on the interface
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| Diameter | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Diameter of a single rebar. | [Length](/om_documentation/oM/Dimensional/Quantities/Attributes/Length) [m] |
-| Material | [IMaterialFragment](/om_documentation/oM/Analytical/Structure/MaterialFragments/IMaterialFragment) | - | - |
+| Diameter | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Diameter of a single rebar. | [Length](/api_documentation/oM/Dimensional/Quantities/Attributes/Length) [m] |
+| Material | [IMaterialFragment](/api_documentation/oM/Analytical/Structure/MaterialFragments/IMaterialFragment) | - | - |
 | StartLocation | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Normalised length (0 means start, 1 means end) along the element where the rebars start. | - |
 | EndLocation | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Normalised length (0 means start, 1 means end) along the element where the rebars ends. | - |
 

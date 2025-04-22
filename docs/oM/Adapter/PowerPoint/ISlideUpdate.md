@@ -12,23 +12,23 @@ title: ISlideUpdate
 
 ???+ bhom "The ISlideUpdate in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IBHoMObject](/om_documentation/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
-    -  PowerPoint.[IExcelModification](/om_documentation/oM/Adapter/PowerPoint/IExcelModification)
-    -  PowerPoint.[IPowerPointModification](/om_documentation/oM/Adapter/PowerPoint/IPowerPointModification)
+    -  Base.[IBHoMObject](/api_documentation/oM/Framework/Base/IBHoMObject)
+    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
+    -  PowerPoint.[IExcelModification](/api_documentation/oM/Adapter/PowerPoint/IExcelModification)
+    -  PowerPoint.[IPowerPointModification](/api_documentation/oM/Adapter/PowerPoint/IPowerPointModification)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - PowerPoint.[ChartUpdate](/om_documentation/oM/Adapter/PowerPoint/ChartUpdate)
-    - PowerPoint.[ImageUpdate](/om_documentation/oM/Adapter/PowerPoint/ImageUpdate)
-    - PowerPoint.[ImageUpdateStream](/om_documentation/oM/Adapter/PowerPoint/ImageUpdateStream)
-    - PowerPoint.[MultiLineTextUpdate](/om_documentation/oM/Adapter/PowerPoint/MultiLineTextUpdate)
-    - PowerPoint.[MultiPolylineUpdate](/om_documentation/oM/Adapter/PowerPoint/MultiPolylineUpdate)
-    - PowerPoint.[ShapeColourUpdate](/om_documentation/oM/Adapter/PowerPoint/ShapeColourUpdate)
-    - PowerPoint.[SimpleTextUpdate](/om_documentation/oM/Adapter/PowerPoint/SimpleTextUpdate)
+    - PowerPoint.[ChartUpdate](/api_documentation/oM/Adapter/PowerPoint/ChartUpdate)
+    - PowerPoint.[ImageUpdate](/api_documentation/oM/Adapter/PowerPoint/ImageUpdate)
+    - PowerPoint.[ImageUpdateStream](/api_documentation/oM/Adapter/PowerPoint/ImageUpdateStream)
+    - PowerPoint.[MultiLineTextUpdate](/api_documentation/oM/Adapter/PowerPoint/MultiLineTextUpdate)
+    - PowerPoint.[MultiPolylineUpdate](/api_documentation/oM/Adapter/PowerPoint/MultiPolylineUpdate)
+    - PowerPoint.[ShapeColourUpdate](/api_documentation/oM/Adapter/PowerPoint/ShapeColourUpdate)
+    - PowerPoint.[SimpleTextUpdate](/api_documentation/oM/Adapter/PowerPoint/SimpleTextUpdate)
 
 
 ## Properties

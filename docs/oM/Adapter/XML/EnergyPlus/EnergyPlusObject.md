@@ -12,34 +12,34 @@ title: EnergyPlusObject
 
 ???+ bhom "The EnergyPlusObject in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IBHoMObject](/om_documentation/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
+    -  Base.[IBHoMObject](/api_documentation/oM/Framework/Base/IBHoMObject)
+    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
 
 
 ### Classes inheriting from this class
 
 ???+ bhom "The following classes are inheriting from this class:"
 
-    - XML.EnergyPlus.[CoolingPeakCondition](/om_documentation/oM/Adapter/XML/EnergyPlus/CoolingPeakCondition)
-    - XML.EnergyPlus.[Difference](/om_documentation/oM/Adapter/XML/EnergyPlus/Difference)
-    - XML.EnergyPlus.[EnergyPlusTabularReport](/om_documentation/oM/Adapter/XML/EnergyPlus/EnergyPlusTabularReport)
-    - XML.EnergyPlus.[EstimatedCoolingPeakLoadComponent](/om_documentation/oM/Adapter/XML/EnergyPlus/EstimatedCoolingPeakLoadComponent)
-    - XML.EnergyPlus.[EstimatedInstantDelayedSensibleLoad](/om_documentation/oM/Adapter/XML/EnergyPlus/EstimatedInstantDelayedSensibleLoad)
-    - XML.EnergyPlus.[HeatingPeakCondition](/om_documentation/oM/Adapter/XML/EnergyPlus/HeatingPeakCondition)
-    - XML.EnergyPlus.[Latent](/om_documentation/oM/Adapter/XML/EnergyPlus/Latent)
-    - XML.EnergyPlus.[OutsideDryBulbTemperature](/om_documentation/oM/Adapter/XML/EnergyPlus/OutsideDryBulbTemperature)
-    - XML.EnergyPlus.[OutsideHumidityRatioAtPeak](/om_documentation/oM/Adapter/XML/EnergyPlus/OutsideHumidityRatioAtPeak)
-    - XML.EnergyPlus.[OutsideWetBulbTemperature](/om_documentation/oM/Adapter/XML/EnergyPlus/OutsideWetBulbTemperature)
-    - XML.EnergyPlus.[PeakDesignSensibleLoad](/om_documentation/oM/Adapter/XML/EnergyPlus/PeakDesignSensibleLoad)
-    - XML.EnergyPlus.[SensibleDelayed](/om_documentation/oM/Adapter/XML/EnergyPlus/SensibleDelayed)
-    - XML.EnergyPlus.[SensibleInstant](/om_documentation/oM/Adapter/XML/EnergyPlus/SensibleInstant)
-    - XML.EnergyPlus.[SensibleReturnAir](/om_documentation/oM/Adapter/XML/EnergyPlus/SensibleReturnAir)
-    - XML.EnergyPlus.[SimulationTimestamp](/om_documentation/oM/Adapter/XML/EnergyPlus/SimulationTimestamp)
-    - XML.EnergyPlus.[Total](/om_documentation/oM/Adapter/XML/EnergyPlus/Total)
-    - XML.EnergyPlus.[ZoneComponentLoadSummary](/om_documentation/oM/Adapter/XML/EnergyPlus/ZoneComponentLoadSummary)
-    - XML.EnergyPlus.[ZoneDryBulbTemperature](/om_documentation/oM/Adapter/XML/EnergyPlus/ZoneDryBulbTemperature)
-    - XML.EnergyPlus.[ZoneHumidityRatioAtPeak](/om_documentation/oM/Adapter/XML/EnergyPlus/ZoneHumidityRatioAtPeak)
-    - XML.EnergyPlus.[ZoneRelativeHumidity](/om_documentation/oM/Adapter/XML/EnergyPlus/ZoneRelativeHumidity)
+    - XML.EnergyPlus.[CoolingPeakCondition](/api_documentation/oM/Adapter/XML/EnergyPlus/CoolingPeakCondition)
+    - XML.EnergyPlus.[Difference](/api_documentation/oM/Adapter/XML/EnergyPlus/Difference)
+    - XML.EnergyPlus.[EnergyPlusTabularReport](/api_documentation/oM/Adapter/XML/EnergyPlus/EnergyPlusTabularReport)
+    - XML.EnergyPlus.[EstimatedCoolingPeakLoadComponent](/api_documentation/oM/Adapter/XML/EnergyPlus/EstimatedCoolingPeakLoadComponent)
+    - XML.EnergyPlus.[EstimatedInstantDelayedSensibleLoad](/api_documentation/oM/Adapter/XML/EnergyPlus/EstimatedInstantDelayedSensibleLoad)
+    - XML.EnergyPlus.[HeatingPeakCondition](/api_documentation/oM/Adapter/XML/EnergyPlus/HeatingPeakCondition)
+    - XML.EnergyPlus.[Latent](/api_documentation/oM/Adapter/XML/EnergyPlus/Latent)
+    - XML.EnergyPlus.[OutsideDryBulbTemperature](/api_documentation/oM/Adapter/XML/EnergyPlus/OutsideDryBulbTemperature)
+    - XML.EnergyPlus.[OutsideHumidityRatioAtPeak](/api_documentation/oM/Adapter/XML/EnergyPlus/OutsideHumidityRatioAtPeak)
+    - XML.EnergyPlus.[OutsideWetBulbTemperature](/api_documentation/oM/Adapter/XML/EnergyPlus/OutsideWetBulbTemperature)
+    - XML.EnergyPlus.[PeakDesignSensibleLoad](/api_documentation/oM/Adapter/XML/EnergyPlus/PeakDesignSensibleLoad)
+    - XML.EnergyPlus.[SensibleDelayed](/api_documentation/oM/Adapter/XML/EnergyPlus/SensibleDelayed)
+    - XML.EnergyPlus.[SensibleInstant](/api_documentation/oM/Adapter/XML/EnergyPlus/SensibleInstant)
+    - XML.EnergyPlus.[SensibleReturnAir](/api_documentation/oM/Adapter/XML/EnergyPlus/SensibleReturnAir)
+    - XML.EnergyPlus.[SimulationTimestamp](/api_documentation/oM/Adapter/XML/EnergyPlus/SimulationTimestamp)
+    - XML.EnergyPlus.[Total](/api_documentation/oM/Adapter/XML/EnergyPlus/Total)
+    - XML.EnergyPlus.[ZoneComponentLoadSummary](/api_documentation/oM/Adapter/XML/EnergyPlus/ZoneComponentLoadSummary)
+    - XML.EnergyPlus.[ZoneDryBulbTemperature](/api_documentation/oM/Adapter/XML/EnergyPlus/ZoneDryBulbTemperature)
+    - XML.EnergyPlus.[ZoneHumidityRatioAtPeak](/api_documentation/oM/Adapter/XML/EnergyPlus/ZoneHumidityRatioAtPeak)
+    - XML.EnergyPlus.[ZoneRelativeHumidity](/api_documentation/oM/Adapter/XML/EnergyPlus/ZoneRelativeHumidity)
 
 
 ## Properties
@@ -55,7 +55,7 @@ The following properties are defined on the class
 | BHoM_Guid | [Guid](https://learn.microsoft.com/en-us/dotnet/api/System.Guid?view=netstandard-2.0) | - | - |
 | CustomData | [Dictionary](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.Dictionary-2?view=netstandard-2.0)&lt;[string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0), [object](https://learn.microsoft.com/en-us/dotnet/api/System.Object?view=netstandard-2.0)&gt; | - | - |
 | Name | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | - | - |
-| Fragments | [FragmentSet](/om_documentation/oM/Framework/Base/FragmentSet) | - | - |
+| Fragments | [FragmentSet](/api_documentation/oM/Framework/Base/FragmentSet) | - | - |
 | Tags | [HashSet](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.HashSet-1?view=netstandard-2.0)&lt;[string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0)&gt; | - | - |
 
 

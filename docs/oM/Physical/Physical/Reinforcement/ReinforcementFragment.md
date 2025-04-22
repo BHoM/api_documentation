@@ -12,8 +12,8 @@ title: ReinforcementFragment
 
 ???+ bhom "The ReinforcementFragment in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IFragment](/om_documentation/oM/Framework/Base/IFragment)
-    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
+    -  Base.[IFragment](/api_documentation/oM/Framework/Base/IFragment)
+    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
 
 
 ## Properties
@@ -26,7 +26,7 @@ The following properties are defined on the class
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| ReinforcingBars | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[IReinforcingBar](/om_documentation/oM/Physical/Physical/Reinforcement/IReinforcingBar)&gt; | - | - |
+| ReinforcingBars | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[IReinforcingBar](/api_documentation/oM/Physical/Physical/Reinforcement/IReinforcingBar)&gt; | - | - |
 
 
 ## Code and Schema

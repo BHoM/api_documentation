@@ -12,9 +12,9 @@ title: PanelOffsetByPoint
 
 ???+ bhom "The PanelOffsetByPoint in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Adapters.SAP2000.Fragments.[IPanelOffset](/om_documentation/oM/Adapter/Adapters/SAP2000/Fragments/IPanelOffset)
-    -  Base.[IFragment](/om_documentation/oM/Framework/Base/IFragment)
-    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
+    -  Adapters.SAP2000.Fragments.[IPanelOffset](/api_documentation/oM/Adapter/Adapters/SAP2000/Fragments/IPanelOffset)
+    -  Base.[IFragment](/api_documentation/oM/Framework/Base/IFragment)
+    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
 
 
 ## Properties
@@ -27,7 +27,7 @@ The following properties are defined on the class
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| Offset | [Double[]](https://learn.microsoft.com/en-us/dotnet/api/System.Double[]?view=netstandard-2.0) | This is an array of joint offsets for each of the points that define the area object. | [Length](/om_documentation/oM/Dimensional/Quantities/Attributes/Length) [m] |
+| Offset | [Double[]](https://learn.microsoft.com/en-us/dotnet/api/System.Double[]?view=netstandard-2.0) | This is an array of joint offsets for each of the points that define the area object. | [Length](/api_documentation/oM/Dimensional/Quantities/Attributes/Length) [m] |
 
 
 ## Code and Schema

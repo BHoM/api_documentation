@@ -12,7 +12,7 @@ Represents all the differences found between a Previous and Following version of
 
 ???+ bhom "The ObjectDifferences in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
+    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
 
 
 ## Properties
@@ -27,7 +27,7 @@ The following properties are defined on the class
 |------------------|------------------|------------------|------------------|
 | PastObject | [object](https://learn.microsoft.com/en-us/dotnet/api/System.Object?view=netstandard-2.0) | Older version of the object (created or modified before `FollowingObject`). | - |
 | FollowingObject | [object](https://learn.microsoft.com/en-us/dotnet/api/System.Object?view=netstandard-2.0) | Newer version of the object (created or modified after `PastObject`). | - |
-| Differences | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[IPropertyDifference](/om_documentation/oM/Framework/Diffing/IPropertyDifference)&gt; | List of all the differences found between the `past` and `following` versions of the object (under a given ComparisonConfig). | - |
+| Differences | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[IPropertyDifference](/api_documentation/oM/Framework/Diffing/IPropertyDifference)&gt; | List of all the differences found between the `past` and `following` versions of the object (under a given ComparisonConfig). | - |
 
 
 ## Code and Schema

@@ -12,14 +12,14 @@ Lux contains results for Lux analysis. Inherits from MeshElementResult which pro
 
 ???+ bhom "The Lux in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Environment.Results.Mesh.[MeshElementResult](/om_documentation/oM/Analytical/Environment/Results/Mesh/MeshElementResult)
-    -  Analytical.Results.[IObjectIdResult](/om_documentation/oM/Analytical/Analytical/Results/IObjectIdResult)
-    -  Analytical.Results.[IResult](/om_documentation/oM/Analytical/Analytical/Results/IResult)
-    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
-    -  [IComparable](https://learn.microsoft.com/en-us/dotnet/api/System.IComparable-1?view=netstandard-2.0)&lt;Analytical.Results.[IResult](/om_documentation/oM/Analytical/Analytical/Results/IResult)&gt;
-    -  Base.[IImmutable](/om_documentation/oM/Framework/Base/IImmutable)
-    -  Analytical.Results.[ICasedResult](/om_documentation/oM/Analytical/Analytical/Results/ICasedResult)
-    -  Analytical.Results.[ITimeStepResult](/om_documentation/oM/Analytical/Analytical/Results/ITimeStepResult)
+    -  Environment.Results.Mesh.[MeshElementResult](/api_documentation/oM/Analytical/Environment/Results/Mesh/MeshElementResult)
+    -  Analytical.Results.[IObjectIdResult](/api_documentation/oM/Analytical/Analytical/Results/IObjectIdResult)
+    -  Analytical.Results.[IResult](/api_documentation/oM/Analytical/Analytical/Results/IResult)
+    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
+    -  [IComparable](https://learn.microsoft.com/en-us/dotnet/api/System.IComparable-1?view=netstandard-2.0)&lt;Analytical.Results.[IResult](/api_documentation/oM/Analytical/Analytical/Results/IResult)&gt;
+    -  Base.[IImmutable](/api_documentation/oM/Framework/Base/IImmutable)
+    -  Analytical.Results.[ICasedResult](/api_documentation/oM/Analytical/Analytical/Results/ICasedResult)
+    -  Analytical.Results.[ITimeStepResult](/api_documentation/oM/Analytical/Analytical/Results/ITimeStepResult)
 
 
 ## Properties
@@ -32,7 +32,7 @@ The following properties are defined on the class
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| LuxLevel | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | The amount of lux recorded for the given analysis node | [Illuminance](/om_documentation/oM/Dimensional/Quantities/Attributes/Illuminance) [lux] |
+| LuxLevel | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | The amount of lux recorded for the given analysis node | [Illuminance](/api_documentation/oM/Dimensional/Quantities/Attributes/Illuminance) [lux] |
 
 
 ### Inherited properties

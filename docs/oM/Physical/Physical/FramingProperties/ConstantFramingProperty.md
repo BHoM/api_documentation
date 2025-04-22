@@ -12,10 +12,10 @@ title: ConstantFramingProperty
 
 ???+ bhom "The ConstantFramingProperty in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[BHoMObject](/om_documentation/oM/Framework/Base/BHoMObject)
-    -  Base.[IBHoMObject](/om_documentation/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
-    -  Physical.FramingProperties.[IFramingElementProperty](/om_documentation/oM/Physical/Physical/FramingProperties/IFramingElementProperty)
+    -  Base.[BHoMObject](/api_documentation/oM/Framework/Base/BHoMObject)
+    -  Base.[IBHoMObject](/api_documentation/oM/Framework/Base/IBHoMObject)
+    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
+    -  Physical.FramingProperties.[IFramingElementProperty](/api_documentation/oM/Physical/Physical/FramingProperties/IFramingElementProperty)
 
 
 ## Properties
@@ -28,8 +28,8 @@ The following properties are defined on the class
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| Profile | [IProfile](/om_documentation/oM/Dimensional/Spatial/ShapeProfiles/IProfile) | - | - |
-| Material | [Material](/om_documentation/oM/Physical/Physical/Materials/Material) | - | - |
+| Profile | [IProfile](/api_documentation/oM/Dimensional/Spatial/ShapeProfiles/IProfile) | - | - |
+| Material | [Material](/api_documentation/oM/Physical/Physical/Materials/Material) | - | - |
 | OrientationAngle | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | - | - |
 
 
@@ -40,7 +40,7 @@ The following properties are inherited from the base class of the object
 |------------------|------------------|------------------|------------------|
 | BHoM_Guid | [Guid](https://learn.microsoft.com/en-us/dotnet/api/System.Guid?view=netstandard-2.0) | - | - |
 | Name | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | - | - |
-| Fragments | [FragmentSet](/om_documentation/oM/Framework/Base/FragmentSet) | - | - |
+| Fragments | [FragmentSet](/api_documentation/oM/Framework/Base/FragmentSet) | - | - |
 | Tags | [HashSet](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.HashSet-1?view=netstandard-2.0)&lt;[string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0)&gt; | - | - |
 | CustomData | [Dictionary](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.Dictionary-2?view=netstandard-2.0)&lt;[string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0), [object](https://learn.microsoft.com/en-us/dotnet/api/System.Object?view=netstandard-2.0)&gt; | - | - |
 
@@ -51,8 +51,8 @@ The following properties are defined as extension methods in one of the BHoM_Eng
 
 | Name             | Type             | Description      | Quantity         | Engine           |
 |------------------|------------------|------------------|------------------|------------------|
-| AverageProfileArea | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Gets the average cross-section area of a ConstantFramingProperty in such a way that multiplying with the length of the element would give the volume | [Area](/om_documentation/oM/Dimensional/Quantities/Attributes/Area) [m²] | Physical_Engine |
-| IAverageProfileArea | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Gets the average cross-section area of a IFramingElementProperty in such a way that multiplying with the length of the element would give the volume | [Area](/om_documentation/oM/Dimensional/Quantities/Attributes/Area) [m²] | Physical_Engine |
+| AverageProfileArea | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Gets the average cross-section area of a ConstantFramingProperty in such a way that multiplying with the length of the element would give the volume | [Area](/api_documentation/oM/Dimensional/Quantities/Attributes/Area) [m²] | Physical_Engine |
+| IAverageProfileArea | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Gets the average cross-section area of a IFramingElementProperty in such a way that multiplying with the length of the element would give the volume | [Area](/api_documentation/oM/Dimensional/Quantities/Attributes/Area) [m²] | Physical_Engine |
 | IsNull | [bool](https://learn.microsoft.com/en-us/dotnet/api/System.Boolean?view=netstandard-2.0) | Checks if a IFramingElementProperty is null and outputs relevant error message. | - | Physical_Engine |
 
 

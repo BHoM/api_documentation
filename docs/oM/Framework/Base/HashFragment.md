@@ -12,9 +12,9 @@ Stores the hash of the parent BHoMObject.
 
 ???+ bhom "The HashFragment in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IHashFragment](/om_documentation/oM/Framework/Base/IHashFragment)
-    -  Base.[IFragment](/om_documentation/oM/Framework/Base/IFragment)
-    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
+    -  Base.[IHashFragment](/api_documentation/oM/Framework/Base/IHashFragment)
+    -  Base.[IFragment](/api_documentation/oM/Framework/Base/IFragment)
+    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
 
 
 ## Properties

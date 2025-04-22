@@ -16,33 +16,33 @@ The IResultCollection contains the following generic paramters:
 
 Constrained by the following arguments:
 
-- Analytical.Results.[IResult](/om_documentation/oM/Analytical/Analytical/Results/IResult)
+- Analytical.Results.[IResult](/api_documentation/oM/Analytical/Analytical/Results/IResult)
 
 ### Implemented interfaces and base types
 
 ???+ bhom "The IResultCollection`1 in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Analytical.Results.[IResult](/om_documentation/oM/Analytical/Analytical/Results/IResult)
-    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
-    -  [IComparable](https://learn.microsoft.com/en-us/dotnet/api/System.IComparable-1?view=netstandard-2.0)&lt;Analytical.Results.[IResult](/om_documentation/oM/Analytical/Analytical/Results/IResult)&gt;
-    -  Base.[IImmutable](/om_documentation/oM/Framework/Base/IImmutable)
+    -  Analytical.Results.[IResult](/api_documentation/oM/Analytical/Analytical/Results/IResult)
+    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
+    -  [IComparable](https://learn.microsoft.com/en-us/dotnet/api/System.IComparable-1?view=netstandard-2.0)&lt;Analytical.Results.[IResult](/api_documentation/oM/Analytical/Analytical/Results/IResult)&gt;
+    -  Base.[IImmutable](/api_documentation/oM/Framework/Base/IImmutable)
 
 
 ### Interfaces implementing this interface
 
 ???+ bhom "The following interfaces are implementing this interface:"
 
-    - Analytical.Results.[IMeshResult](/om_documentation/oM/Analytical/Analytical/Results/IMeshResult%601)&lt;[T](/om_documentation/oM/Analytical/Analytical/Results/IMeshResult%601#t)&gt;
+    - Analytical.Results.[IMeshResult](/api_documentation/oM/Analytical/Analytical/Results/IMeshResult%601)&lt;[T](/api_documentation/oM/Analytical/Analytical/Results/IMeshResult%601#t)&gt;
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Environment.Results.Mesh.[MeshResult](/om_documentation/oM/Analytical/Environment/Results/Mesh/MeshResult)
-    - Lighting.Results.Mesh.[MeshResult](/om_documentation/oM/Analytical/Lighting/Results/Mesh/MeshResult)
-    - Structure.Results.[MeshResult](/om_documentation/oM/Analytical/Structure/Results/MeshResult)
-    - Test.Results.[InputOutputComparison](/om_documentation/oM/Framework/Test/Results/InputOutputComparison)
+    - Environment.Results.Mesh.[MeshResult](/api_documentation/oM/Analytical/Environment/Results/Mesh/MeshResult)
+    - Lighting.Results.Mesh.[MeshResult](/api_documentation/oM/Analytical/Lighting/Results/Mesh/MeshResult)
+    - Structure.Results.[MeshResult](/api_documentation/oM/Analytical/Structure/Results/MeshResult)
+    - Test.Results.[InputOutputComparison](/api_documentation/oM/Framework/Test/Results/InputOutputComparison)
 
 
 ## Properties

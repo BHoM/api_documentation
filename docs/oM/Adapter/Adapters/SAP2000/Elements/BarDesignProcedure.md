@@ -12,8 +12,8 @@ title: BarDesignProcedure
 
 ???+ bhom "The BarDesignProcedure in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IFragment](/om_documentation/oM/Framework/Base/IFragment)
-    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
+    -  Base.[IFragment](/api_documentation/oM/Framework/Base/IFragment)
+    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
 
 
 ## Properties
@@ -26,7 +26,7 @@ The following properties are defined on the class
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| DesignProcedure | [BarDesignProcedureType](/om_documentation/oM/Adapter/Adapters/SAP2000/BarDesignProcedureType) | Design procedure based on material type. | - |
+| DesignProcedure | [BarDesignProcedureType](/api_documentation/oM/Adapter/Adapters/SAP2000/BarDesignProcedureType) | Design procedure based on material type. | - |
 
 
 ## Code and Schema

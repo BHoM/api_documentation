@@ -12,8 +12,8 @@ Settings object to be used by the Library_Engine for controling Dataset extracti
 
 ???+ bhom "The LibrarySettings in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[ISettings](/om_documentation/oM/Framework/Base/ISettings)
-    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
+    -  Base.[ISettings](/api_documentation/oM/Framework/Base/ISettings)
+    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
 
 
 ## Properties

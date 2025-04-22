@@ -12,8 +12,8 @@ An optional scope tag for any object or collection of objects being evaluated us
 
 ???+ bhom "The Scope in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IFragment](/om_documentation/oM/Framework/Base/IFragment)
-    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
+    -  Base.[IFragment](/api_documentation/oM/Framework/Base/IFragment)
+    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
 
 
 ## Properties
@@ -26,7 +26,7 @@ The following properties are defined on the class
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| ScopeType | [ScopeType](/om_documentation/oM/Analytical/LifeCycleAssessment/ScopeType) | ScopeType used to describe the objects being evaluated. | - |
+| ScopeType | [ScopeType](/api_documentation/oM/Analytical/LifeCycleAssessment/ScopeType) | ScopeType used to describe the objects being evaluated. | - |
 
 
 ## Code and Schema

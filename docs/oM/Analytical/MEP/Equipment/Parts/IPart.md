@@ -12,21 +12,21 @@ title: IPart
 
 ???+ bhom "The IPart in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IBHoMObject](/om_documentation/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
+    -  Base.[IBHoMObject](/api_documentation/oM/Framework/Base/IBHoMObject)
+    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - MEP.Equipment.Parts.[AirHandlingUnitBase](/om_documentation/oM/Analytical/MEP/Equipment/Parts/AirHandlingUnitBase)
-    - MEP.Equipment.Parts.[CoolingCoil](/om_documentation/oM/Analytical/MEP/Equipment/Parts/CoolingCoil)
-    - MEP.Equipment.Parts.[ElectricalConnector](/om_documentation/oM/Analytical/MEP/Equipment/Parts/ElectricalConnector)
-    - MEP.Equipment.Parts.[EnergyWheel](/om_documentation/oM/Analytical/MEP/Equipment/Parts/EnergyWheel)
-    - MEP.Equipment.Parts.[Fan](/om_documentation/oM/Analytical/MEP/Equipment/Parts/Fan)
-    - MEP.Equipment.Parts.[Filter](/om_documentation/oM/Analytical/MEP/Equipment/Parts/Filter)
-    - MEP.Equipment.Parts.[HeatingCoil](/om_documentation/oM/Analytical/MEP/Equipment/Parts/HeatingCoil)
+    - MEP.Equipment.Parts.[AirHandlingUnitBase](/api_documentation/oM/Analytical/MEP/Equipment/Parts/AirHandlingUnitBase)
+    - MEP.Equipment.Parts.[CoolingCoil](/api_documentation/oM/Analytical/MEP/Equipment/Parts/CoolingCoil)
+    - MEP.Equipment.Parts.[ElectricalConnector](/api_documentation/oM/Analytical/MEP/Equipment/Parts/ElectricalConnector)
+    - MEP.Equipment.Parts.[EnergyWheel](/api_documentation/oM/Analytical/MEP/Equipment/Parts/EnergyWheel)
+    - MEP.Equipment.Parts.[Fan](/api_documentation/oM/Analytical/MEP/Equipment/Parts/Fan)
+    - MEP.Equipment.Parts.[Filter](/api_documentation/oM/Analytical/MEP/Equipment/Parts/Filter)
+    - MEP.Equipment.Parts.[HeatingCoil](/api_documentation/oM/Analytical/MEP/Equipment/Parts/HeatingCoil)
 
 
 ## Properties

@@ -12,16 +12,16 @@ A results object containing energy per unit time data.
 
 ???+ bhom "The IEnergyPerUnitTimeResult in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IBHoMObject](/om_documentation/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
-    -  Environment.Results.[IAnalysisResult](/om_documentation/oM/Analytical/Environment/Results/IAnalysisResult)
+    -  Base.[IBHoMObject](/api_documentation/oM/Framework/Base/IBHoMObject)
+    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
+    -  Environment.Results.[IAnalysisResult](/api_documentation/oM/Analytical/Environment/Results/IAnalysisResult)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Environment.Results.[PowerResult](/om_documentation/oM/Analytical/Environment/Results/PowerResult)
+    - Environment.Results.[PowerResult](/api_documentation/oM/Analytical/Environment/Results/PowerResult)
 
 
 ## Properties

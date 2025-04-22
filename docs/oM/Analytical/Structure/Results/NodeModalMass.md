@@ -12,17 +12,17 @@ Modal mass for a Node.
 
 ???+ bhom "The NodeModalMass in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Structure.Results.[NodeResult](/om_documentation/oM/Analytical/Structure/Results/NodeResult)
-    -  Structure.Results.[IStructuralResult](/om_documentation/oM/Analytical/Structure/Results/IStructuralResult)
-    -  Analytical.Results.[IObjectIdResult](/om_documentation/oM/Analytical/Analytical/Results/IObjectIdResult)
-    -  Analytical.Results.[IResult](/om_documentation/oM/Analytical/Analytical/Results/IResult)
-    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
-    -  [IComparable](https://learn.microsoft.com/en-us/dotnet/api/System.IComparable-1?view=netstandard-2.0)&lt;Analytical.Results.[IResult](/om_documentation/oM/Analytical/Analytical/Results/IResult)&gt;
-    -  Base.[IImmutable](/om_documentation/oM/Framework/Base/IImmutable)
-    -  Analytical.Results.[ICasedResult](/om_documentation/oM/Analytical/Analytical/Results/ICasedResult)
-    -  Analytical.Results.[ITimeStepResult](/om_documentation/oM/Analytical/Analytical/Results/ITimeStepResult)
-    -  Analytical.Results.[IObjectResult](/om_documentation/oM/Analytical/Analytical/Results/IObjectResult)
-    -  Analytical.Results.[IResultItem](/om_documentation/oM/Analytical/Analytical/Results/IResultItem)
+    -  Structure.Results.[NodeResult](/api_documentation/oM/Analytical/Structure/Results/NodeResult)
+    -  Structure.Results.[IStructuralResult](/api_documentation/oM/Analytical/Structure/Results/IStructuralResult)
+    -  Analytical.Results.[IObjectIdResult](/api_documentation/oM/Analytical/Analytical/Results/IObjectIdResult)
+    -  Analytical.Results.[IResult](/api_documentation/oM/Analytical/Analytical/Results/IResult)
+    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
+    -  [IComparable](https://learn.microsoft.com/en-us/dotnet/api/System.IComparable-1?view=netstandard-2.0)&lt;Analytical.Results.[IResult](/api_documentation/oM/Analytical/Analytical/Results/IResult)&gt;
+    -  Base.[IImmutable](/api_documentation/oM/Framework/Base/IImmutable)
+    -  Analytical.Results.[ICasedResult](/api_documentation/oM/Analytical/Analytical/Results/ICasedResult)
+    -  Analytical.Results.[ITimeStepResult](/api_documentation/oM/Analytical/Analytical/Results/ITimeStepResult)
+    -  Analytical.Results.[IObjectResult](/api_documentation/oM/Analytical/Analytical/Results/IObjectResult)
+    -  Analytical.Results.[IResultItem](/api_documentation/oM/Analytical/Analytical/Results/IResultItem)
 
 
 ## Properties
@@ -35,9 +35,9 @@ The following properties are defined on the class
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| MassX | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Nodal modal mass in the X-direction as defined by orientation basis. | [Mass](/om_documentation/oM/Dimensional/Quantities/Attributes/Mass) [kg] |
-| MassY | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Nodal modal mass in the Y-direction as defined by orientation basis. | [Mass](/om_documentation/oM/Dimensional/Quantities/Attributes/Mass) [kg] |
-| MassZ | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Nodal modal mass in the Z-direction as defined by orientation basis. | [Mass](/om_documentation/oM/Dimensional/Quantities/Attributes/Mass) [kg] |
+| MassX | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Nodal modal mass in the X-direction as defined by orientation basis. | [Mass](/api_documentation/oM/Dimensional/Quantities/Attributes/Mass) [kg] |
+| MassY | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Nodal modal mass in the Y-direction as defined by orientation basis. | [Mass](/api_documentation/oM/Dimensional/Quantities/Attributes/Mass) [kg] |
+| MassZ | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Nodal modal mass in the Z-direction as defined by orientation basis. | [Mass](/api_documentation/oM/Dimensional/Quantities/Attributes/Mass) [kg] |
 
 
 ### Inherited properties
@@ -49,7 +49,7 @@ The following properties are inherited from the base class of the object
 | ResultCase | [IComparable](https://learn.microsoft.com/en-us/dotnet/api/System.IComparable?view=netstandard-2.0) | Identifier for the Loadcase or LoadCombination that the result belongs to. Is generally name or number of the loadcase, depending on the analysis package. | - |
 | ModeNumber | [int](https://learn.microsoft.com/en-us/dotnet/api/System.Int32?view=netstandard-2.0) | Positive index, starting at one. Only set for cases with modal outputs such as dynamic cases. | - |
 | TimeStep | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Time step for time history results. | - |
-| Orientation | [Basis](/om_documentation/oM/Dimensional/Geometry/Basis) | Defines the directionality of the results. Defaults to global XYZ. | - |
+| Orientation | [Basis](/api_documentation/oM/Dimensional/Geometry/Basis) | Defines the directionality of the results. Defaults to global XYZ. | - |
 
 
 ### Derived properties

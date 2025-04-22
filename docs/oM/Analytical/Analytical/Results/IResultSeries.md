@@ -14,18 +14,18 @@ A class implementing the IResultItem interface should not implement this interfa
 
 ???+ bhom "The IResultSeries in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Analytical.Results.[IResult](/om_documentation/oM/Analytical/Analytical/Results/IResult)
-    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
-    -  [IComparable](https://learn.microsoft.com/en-us/dotnet/api/System.IComparable-1?view=netstandard-2.0)&lt;Analytical.Results.[IResult](/om_documentation/oM/Analytical/Analytical/Results/IResult)&gt;
-    -  Base.[IImmutable](/om_documentation/oM/Framework/Base/IImmutable)
+    -  Analytical.Results.[IResult](/api_documentation/oM/Analytical/Analytical/Results/IResult)
+    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
+    -  [IComparable](https://learn.microsoft.com/en-us/dotnet/api/System.IComparable-1?view=netstandard-2.0)&lt;Analytical.Results.[IResult](/api_documentation/oM/Analytical/Analytical/Results/IResult)&gt;
+    -  Base.[IImmutable](/api_documentation/oM/Framework/Base/IImmutable)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Lighting.Results.Mesh.[MeshElementResult](/om_documentation/oM/Analytical/Lighting/Results/Mesh/MeshElementResult)
-    - Lighting.Results.Illuminance.[Lux](/om_documentation/oM/Analytical/Lighting/Results/Illuminance/Lux)
+    - Lighting.Results.Mesh.[MeshElementResult](/api_documentation/oM/Analytical/Lighting/Results/Mesh/MeshElementResult)
+    - Lighting.Results.Illuminance.[Lux](/api_documentation/oM/Analytical/Lighting/Results/Illuminance/Lux)
 
 
 ## Properties

@@ -12,14 +12,14 @@ title: IXMLConfig
 
 ???+ bhom "The IXMLConfig in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
+    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Adapters.XML.[XMLConfig](/om_documentation/oM/Adapter/Adapters/XML/XMLConfig)
+    - Adapters.XML.[XMLConfig](/api_documentation/oM/Adapter/Adapters/XML/XMLConfig)
 
 
 ## Properties
@@ -32,7 +32,7 @@ The following properties are defined on the interface
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| File | [FileSettings](/om_documentation/oM/Framework/Adapter/FileSettings) | - | - |
+| File | [FileSettings](/api_documentation/oM/Framework/Adapter/FileSettings) | - | - |
 
 
 ## Code and Schema

@@ -12,15 +12,15 @@ title: IEnum
 
 ???+ bhom "The IEnum in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  [IComparable](https://learn.microsoft.com/en-us/dotnet/api/System.IComparable-1?view=netstandard-2.0)&lt;Base.[IEnum](/om_documentation/oM/Framework/Base/IEnum)&gt;
-    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
+    -  [IComparable](https://learn.microsoft.com/en-us/dotnet/api/System.IComparable-1?view=netstandard-2.0)&lt;Base.[IEnum](/api_documentation/oM/Framework/Base/IEnum)&gt;
+    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Base.[Enumeration](/om_documentation/oM/Framework/Base/Enumeration)
+    - Base.[Enumeration](/api_documentation/oM/Framework/Base/Enumeration)
 
 
 ## Properties

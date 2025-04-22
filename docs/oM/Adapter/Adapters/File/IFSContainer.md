@@ -12,19 +12,19 @@ Identifies a FileSystem-hosted Resource (a File or Directory or other) that hold
 
 ???+ bhom "The IFSContainer in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Adapters.File.[IFSInfo](/om_documentation/oM/Adapter/Adapters/File/IFSInfo)
-    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
-    -  Adapters.File.[IContainableResource](/om_documentation/oM/Adapter/Adapters/File/IContainableResource)
-    -  Adapters.File.[IResource](/om_documentation/oM/Adapter/Adapters/File/IResource)
-    -  Base.[IBHoMObject](/om_documentation/oM/Framework/Base/IBHoMObject)
+    -  Adapters.File.[IFSInfo](/api_documentation/oM/Adapter/Adapters/File/IFSInfo)
+    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
+    -  Adapters.File.[IContainableResource](/api_documentation/oM/Adapter/Adapters/File/IContainableResource)
+    -  Adapters.File.[IResource](/api_documentation/oM/Adapter/Adapters/File/IResource)
+    -  Base.[IBHoMObject](/api_documentation/oM/Framework/Base/IBHoMObject)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Adapters.File.[FSDirectory](/om_documentation/oM/Adapter/Adapters/File/FSDirectory)
-    - Adapters.File.[FSFile](/om_documentation/oM/Adapter/Adapters/File/FSFile)
+    - Adapters.File.[FSDirectory](/api_documentation/oM/Adapter/Adapters/File/FSDirectory)
+    - Adapters.File.[FSFile](/api_documentation/oM/Adapter/Adapters/File/FSFile)
 
 
 ## Properties

@@ -12,14 +12,14 @@ Result class for resulting Abiotic depletion of fossil resources for a particula
 
 ???+ bhom "The AbioticDepletionFossilResourcesMaterialResult in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  LifeCycleAssessment.Results.[MaterialResult](/om_documentation/oM/Analytical/LifeCycleAssessment/Results/MaterialResult)
-    -  LifeCycleAssessment.Results.[IEnvironmentalResult](/om_documentation/oM/Analytical/LifeCycleAssessment/Results/IEnvironmentalResult)
-    -  Analytical.Results.[IResultItem](/om_documentation/oM/Analytical/Analytical/Results/IResultItem)
-    -  Analytical.Results.[IResult](/om_documentation/oM/Analytical/Analytical/Results/IResult)
-    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
-    -  [IComparable](https://learn.microsoft.com/en-us/dotnet/api/System.IComparable-1?view=netstandard-2.0)&lt;Analytical.Results.[IResult](/om_documentation/oM/Analytical/Analytical/Results/IResult)&gt;
-    -  Base.[IImmutable](/om_documentation/oM/Framework/Base/IImmutable)
-    -  LifeCycleAssessment.[ILifeCycleAssessmentPhaseData](/om_documentation/oM/Analytical/LifeCycleAssessment/ILifeCycleAssessmentPhaseData)
+    -  LifeCycleAssessment.Results.[MaterialResult](/api_documentation/oM/Analytical/LifeCycleAssessment/Results/MaterialResult)
+    -  LifeCycleAssessment.Results.[IEnvironmentalResult](/api_documentation/oM/Analytical/LifeCycleAssessment/Results/IEnvironmentalResult)
+    -  Analytical.Results.[IResultItem](/api_documentation/oM/Analytical/Analytical/Results/IResultItem)
+    -  Analytical.Results.[IResult](/api_documentation/oM/Analytical/Analytical/Results/IResult)
+    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
+    -  [IComparable](https://learn.microsoft.com/en-us/dotnet/api/System.IComparable-1?view=netstandard-2.0)&lt;Analytical.Results.[IResult](/api_documentation/oM/Analytical/Analytical/Results/IResult)&gt;
+    -  Base.[IImmutable](/api_documentation/oM/Framework/Base/IImmutable)
+    -  LifeCycleAssessment.[ILifeCycleAssessmentPhaseData](/api_documentation/oM/Analytical/LifeCycleAssessment/ILifeCycleAssessmentPhaseData)
 
 
 ## Properties
@@ -32,26 +32,26 @@ The following properties are defined on the class
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| A1 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Resulting Abiotic depletion of fossil resources relating to the Raw Material Supply module in the Product stage. | [Energy](/om_documentation/oM/Dimensional/Quantities/Attributes/Energy) [J] |
-| A2 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Resulting Abiotic depletion of fossil resources relating to the Transport module in the Product stage. | [Energy](/om_documentation/oM/Dimensional/Quantities/Attributes/Energy) [J] |
-| A3 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Resulting Abiotic depletion of fossil resources relating to the Manufacturing module in the Product stage. | [Energy](/om_documentation/oM/Dimensional/Quantities/Attributes/Energy) [J] |
-| A1toA3 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Resulting Abiotic depletion of fossil resources relating to the full Product stage. | [Energy](/om_documentation/oM/Dimensional/Quantities/Attributes/Energy) [J] |
-| A4 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Resulting Abiotic depletion of fossil resources relating to the Transport module in the Construction Process stage. | [Energy](/om_documentation/oM/Dimensional/Quantities/Attributes/Energy) [J] |
-| A5 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Resulting Abiotic depletion of fossil resources relating to the Construction Installation Process module in the Construction Process stage. | [Energy](/om_documentation/oM/Dimensional/Quantities/Attributes/Energy) [J] |
-| B1 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Resulting Abiotic depletion of fossil resources relating to the Use module in the Use stage. | [Energy](/om_documentation/oM/Dimensional/Quantities/Attributes/Energy) [J] |
-| B2 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Resulting Abiotic depletion of fossil resources relating to the Maintenance module in the Use stage. | [Energy](/om_documentation/oM/Dimensional/Quantities/Attributes/Energy) [J] |
-| B3 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Resulting Abiotic depletion of fossil resources relating to the Repair module in the Use stage. | [Energy](/om_documentation/oM/Dimensional/Quantities/Attributes/Energy) [J] |
-| B4 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Resulting Abiotic depletion of fossil resources relating to the Replacement module in the Use stage. | [Energy](/om_documentation/oM/Dimensional/Quantities/Attributes/Energy) [J] |
-| B5 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Resulting Abiotic depletion of fossil resources relating to the Refurbishment module in the Use stage. | [Energy](/om_documentation/oM/Dimensional/Quantities/Attributes/Energy) [J] |
-| B6 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Resulting Abiotic depletion of fossil resources relating to the Operational Energy Use module in the Use stage. | [Energy](/om_documentation/oM/Dimensional/Quantities/Attributes/Energy) [J] |
-| B7 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Resulting Abiotic depletion of fossil resources relating to the Operational Water Use module in the Use stage. | [Energy](/om_documentation/oM/Dimensional/Quantities/Attributes/Energy) [J] |
-| B1toB7 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Resulting Abiotic depletion of fossil resources relating to the full Use Stage. | [Energy](/om_documentation/oM/Dimensional/Quantities/Attributes/Energy) [J] |
-| C1 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Resulting Abiotic depletion of fossil resources relating to the De-construction Demolition module in the End of Life stage. | [Energy](/om_documentation/oM/Dimensional/Quantities/Attributes/Energy) [J] |
-| C2 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Resulting Abiotic depletion of fossil resources relating to the Transport module in the End of Life stage. | [Energy](/om_documentation/oM/Dimensional/Quantities/Attributes/Energy) [J] |
-| C3 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Resulting Abiotic depletion of fossil resources relating to the Waste Processing module in the End of Life stage. | [Energy](/om_documentation/oM/Dimensional/Quantities/Attributes/Energy) [J] |
-| C4 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Resulting Abiotic depletion of fossil resources relating to the Disposal module in the End of Life stage. | [Energy](/om_documentation/oM/Dimensional/Quantities/Attributes/Energy) [J] |
-| C1toC4 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Resulting Abiotic depletion of fossil resources relating to the full End of Life stage. | [Energy](/om_documentation/oM/Dimensional/Quantities/Attributes/Energy) [J] |
-| D | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Resulting Abiotic depletion of fossil resources relating to benefits and loads beyond the system boundary. | [Energy](/om_documentation/oM/Dimensional/Quantities/Attributes/Energy) [J] |
+| A1 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Resulting Abiotic depletion of fossil resources relating to the Raw Material Supply module in the Product stage. | [Energy](/api_documentation/oM/Dimensional/Quantities/Attributes/Energy) [J] |
+| A2 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Resulting Abiotic depletion of fossil resources relating to the Transport module in the Product stage. | [Energy](/api_documentation/oM/Dimensional/Quantities/Attributes/Energy) [J] |
+| A3 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Resulting Abiotic depletion of fossil resources relating to the Manufacturing module in the Product stage. | [Energy](/api_documentation/oM/Dimensional/Quantities/Attributes/Energy) [J] |
+| A1toA3 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Resulting Abiotic depletion of fossil resources relating to the full Product stage. | [Energy](/api_documentation/oM/Dimensional/Quantities/Attributes/Energy) [J] |
+| A4 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Resulting Abiotic depletion of fossil resources relating to the Transport module in the Construction Process stage. | [Energy](/api_documentation/oM/Dimensional/Quantities/Attributes/Energy) [J] |
+| A5 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Resulting Abiotic depletion of fossil resources relating to the Construction Installation Process module in the Construction Process stage. | [Energy](/api_documentation/oM/Dimensional/Quantities/Attributes/Energy) [J] |
+| B1 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Resulting Abiotic depletion of fossil resources relating to the Use module in the Use stage. | [Energy](/api_documentation/oM/Dimensional/Quantities/Attributes/Energy) [J] |
+| B2 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Resulting Abiotic depletion of fossil resources relating to the Maintenance module in the Use stage. | [Energy](/api_documentation/oM/Dimensional/Quantities/Attributes/Energy) [J] |
+| B3 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Resulting Abiotic depletion of fossil resources relating to the Repair module in the Use stage. | [Energy](/api_documentation/oM/Dimensional/Quantities/Attributes/Energy) [J] |
+| B4 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Resulting Abiotic depletion of fossil resources relating to the Replacement module in the Use stage. | [Energy](/api_documentation/oM/Dimensional/Quantities/Attributes/Energy) [J] |
+| B5 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Resulting Abiotic depletion of fossil resources relating to the Refurbishment module in the Use stage. | [Energy](/api_documentation/oM/Dimensional/Quantities/Attributes/Energy) [J] |
+| B6 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Resulting Abiotic depletion of fossil resources relating to the Operational Energy Use module in the Use stage. | [Energy](/api_documentation/oM/Dimensional/Quantities/Attributes/Energy) [J] |
+| B7 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Resulting Abiotic depletion of fossil resources relating to the Operational Water Use module in the Use stage. | [Energy](/api_documentation/oM/Dimensional/Quantities/Attributes/Energy) [J] |
+| B1toB7 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Resulting Abiotic depletion of fossil resources relating to the full Use Stage. | [Energy](/api_documentation/oM/Dimensional/Quantities/Attributes/Energy) [J] |
+| C1 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Resulting Abiotic depletion of fossil resources relating to the De-construction Demolition module in the End of Life stage. | [Energy](/api_documentation/oM/Dimensional/Quantities/Attributes/Energy) [J] |
+| C2 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Resulting Abiotic depletion of fossil resources relating to the Transport module in the End of Life stage. | [Energy](/api_documentation/oM/Dimensional/Quantities/Attributes/Energy) [J] |
+| C3 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Resulting Abiotic depletion of fossil resources relating to the Waste Processing module in the End of Life stage. | [Energy](/api_documentation/oM/Dimensional/Quantities/Attributes/Energy) [J] |
+| C4 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Resulting Abiotic depletion of fossil resources relating to the Disposal module in the End of Life stage. | [Energy](/api_documentation/oM/Dimensional/Quantities/Attributes/Energy) [J] |
+| C1toC4 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Resulting Abiotic depletion of fossil resources relating to the full End of Life stage. | [Energy](/api_documentation/oM/Dimensional/Quantities/Attributes/Energy) [J] |
+| D | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Resulting Abiotic depletion of fossil resources relating to benefits and loads beyond the system boundary. | [Energy](/api_documentation/oM/Dimensional/Quantities/Attributes/Energy) [J] |
 
 
 ### Inherited properties
@@ -61,7 +61,7 @@ The following properties are inherited from the base class of the object
 |------------------|------------------|------------------|------------------|
 | MaterialName | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | Name of the physical material evaluated. | - |
 | EnvironmentalProductDeclarationName | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | Name of the Environmental Product Declaration evaluated. | - |
-| MetricType | [EnvironmentalMetrics](/om_documentation/oM/Analytical/LifeCycleAssessment/EnvironmentalMetrics) | Enum indicating the metric type the object relates to. | - |
+| MetricType | [EnvironmentalMetrics](/api_documentation/oM/Analytical/LifeCycleAssessment/EnvironmentalMetrics) | Enum indicating the metric type the object relates to. | - |
 
 
 ### Derived properties

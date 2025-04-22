@@ -12,11 +12,11 @@ Describe a single iteration of U and G Values for opening types. If both values 
 
 ???+ bhom "The OpeningTypeGValueIteration in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[BHoMObject](/om_documentation/oM/Framework/Base/BHoMObject)
-    -  Base.[IBHoMObject](/om_documentation/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
-    -  Environment.SAP.[IOpeningTypeIteration](/om_documentation/oM/Adapter/Environment/SAP/IOpeningTypeIteration)
-    -  Environment.SAP.[IIteration](/om_documentation/oM/Adapter/Environment/SAP/IIteration)
+    -  Base.[BHoMObject](/api_documentation/oM/Framework/Base/BHoMObject)
+    -  Base.[IBHoMObject](/api_documentation/oM/Framework/Base/IBHoMObject)
+    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
+    -  Environment.SAP.[IOpeningTypeIteration](/api_documentation/oM/Adapter/Environment/SAP/IOpeningTypeIteration)
+    -  Environment.SAP.[IIteration](/api_documentation/oM/Adapter/Environment/SAP/IIteration)
 
 
 ## Properties
@@ -41,7 +41,7 @@ The following properties are inherited from the base class of the object
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
 | BHoM_Guid | [Guid](https://learn.microsoft.com/en-us/dotnet/api/System.Guid?view=netstandard-2.0) | - | - |
-| Fragments | [FragmentSet](/om_documentation/oM/Framework/Base/FragmentSet) | - | - |
+| Fragments | [FragmentSet](/api_documentation/oM/Framework/Base/FragmentSet) | - | - |
 | Tags | [HashSet](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.HashSet-1?view=netstandard-2.0)&lt;[string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0)&gt; | - | - |
 | CustomData | [Dictionary](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.Dictionary-2?view=netstandard-2.0)&lt;[string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0), [object](https://learn.microsoft.com/en-us/dotnet/api/System.Object?view=netstandard-2.0)&gt; | - | - |
 

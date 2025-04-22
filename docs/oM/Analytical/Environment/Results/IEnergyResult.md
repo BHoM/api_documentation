@@ -12,9 +12,9 @@ A results object containing energy data.
 
 ???+ bhom "The IEnergyResult in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IBHoMObject](/om_documentation/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
-    -  Environment.Results.[IAnalysisResult](/om_documentation/oM/Analytical/Environment/Results/IAnalysisResult)
+    -  Base.[IBHoMObject](/api_documentation/oM/Framework/Base/IBHoMObject)
+    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
+    -  Environment.Results.[IAnalysisResult](/api_documentation/oM/Analytical/Environment/Results/IAnalysisResult)
 
 
 ## Properties

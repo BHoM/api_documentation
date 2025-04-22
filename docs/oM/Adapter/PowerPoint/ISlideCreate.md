@@ -12,16 +12,16 @@ title: ISlideCreate
 
 ???+ bhom "The ISlideCreate in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IBHoMObject](/om_documentation/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
-    -  PowerPoint.[IPowerPointModification](/om_documentation/oM/Adapter/PowerPoint/IPowerPointModification)
+    -  Base.[IBHoMObject](/api_documentation/oM/Framework/Base/IBHoMObject)
+    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
+    -  PowerPoint.[IPowerPointModification](/api_documentation/oM/Adapter/PowerPoint/IPowerPointModification)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - PowerPoint.[SlideCreate](/om_documentation/oM/Adapter/PowerPoint/SlideCreate)
+    - PowerPoint.[SlideCreate](/api_documentation/oM/Adapter/PowerPoint/SlideCreate)
 
 
 ## Properties

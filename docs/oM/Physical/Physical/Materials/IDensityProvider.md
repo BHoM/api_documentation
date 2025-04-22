@@ -12,39 +12,39 @@ Interface to be added to IMaterialProperties the specifies the density of the Ma
 
 ???+ bhom "The IDensityProvider in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Physical.Materials.[IMaterialProperties](/om_documentation/oM/Physical/Physical/Materials/IMaterialProperties)
-    -  Base.[IBHoMObject](/om_documentation/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
+    -  Physical.Materials.[IMaterialProperties](/api_documentation/oM/Physical/Physical/Materials/IMaterialProperties)
+    -  Base.[IBHoMObject](/api_documentation/oM/Framework/Base/IBHoMObject)
+    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
 
 
 ### Interfaces implementing this interface
 
 ???+ bhom "The following interfaces are implementing this interface:"
 
-    - Environment.MaterialFragments.[IEnvironmentMaterial](/om_documentation/oM/Analytical/Environment/MaterialFragments/IEnvironmentMaterial)
-    - Structure.MaterialFragments.[IIsotropic](/om_documentation/oM/Analytical/Structure/MaterialFragments/IIsotropic)
-    - Structure.MaterialFragments.[IMaterialFragment](/om_documentation/oM/Analytical/Structure/MaterialFragments/IMaterialFragment)
-    - Structure.MaterialFragments.[IOrthotropic](/om_documentation/oM/Analytical/Structure/MaterialFragments/IOrthotropic)
-    - Structure.MaterialFragments.[ITimber](/om_documentation/oM/Analytical/Structure/MaterialFragments/ITimber)
+    - Environment.MaterialFragments.[IEnvironmentMaterial](/api_documentation/oM/Analytical/Environment/MaterialFragments/IEnvironmentMaterial)
+    - Structure.MaterialFragments.[IIsotropic](/api_documentation/oM/Analytical/Structure/MaterialFragments/IIsotropic)
+    - Structure.MaterialFragments.[IMaterialFragment](/api_documentation/oM/Analytical/Structure/MaterialFragments/IMaterialFragment)
+    - Structure.MaterialFragments.[IOrthotropic](/api_documentation/oM/Analytical/Structure/MaterialFragments/IOrthotropic)
+    - Structure.MaterialFragments.[ITimber](/api_documentation/oM/Analytical/Structure/MaterialFragments/ITimber)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Environment.MaterialFragments.[GasMaterial](/om_documentation/oM/Analytical/Environment/MaterialFragments/GasMaterial)
-    - Environment.MaterialFragments.[SolidMaterial](/om_documentation/oM/Analytical/Environment/MaterialFragments/SolidMaterial)
-    - Adapters.GSA.MaterialFragments.[Fabric](/om_documentation/oM/Adapter/Adapters/GSA/MaterialFragments/Fabric)
-    - Structure.MaterialFragments.[Aluminium](/om_documentation/oM/Analytical/Structure/MaterialFragments/Aluminium)
-    - Structure.MaterialFragments.[Concrete](/om_documentation/oM/Analytical/Structure/MaterialFragments/Concrete)
-    - Structure.MaterialFragments.[GenericIsotropicMaterial](/om_documentation/oM/Analytical/Structure/MaterialFragments/GenericIsotropicMaterial)
-    - Structure.MaterialFragments.[GenericOrthotropicMaterial](/om_documentation/oM/Analytical/Structure/MaterialFragments/GenericOrthotropicMaterial)
-    - Structure.MaterialFragments.[Glulam](/om_documentation/oM/Analytical/Structure/MaterialFragments/Glulam)
-    - Structure.MaterialFragments.[LaminatedVeneerLumberCrossbands](/om_documentation/oM/Analytical/Structure/MaterialFragments/LaminatedVeneerLumberCrossbands)
-    - Structure.MaterialFragments.[LaminatedVeneerLumberParallel](/om_documentation/oM/Analytical/Structure/MaterialFragments/LaminatedVeneerLumberParallel)
-    - Structure.MaterialFragments.[SawnTimber](/om_documentation/oM/Analytical/Structure/MaterialFragments/SawnTimber)
-    - Structure.MaterialFragments.[Steel](/om_documentation/oM/Analytical/Structure/MaterialFragments/Steel)
-    - Structure.MaterialFragments.[Timber](/om_documentation/oM/Analytical/Structure/MaterialFragments/Timber)
+    - Environment.MaterialFragments.[GasMaterial](/api_documentation/oM/Analytical/Environment/MaterialFragments/GasMaterial)
+    - Environment.MaterialFragments.[SolidMaterial](/api_documentation/oM/Analytical/Environment/MaterialFragments/SolidMaterial)
+    - Adapters.GSA.MaterialFragments.[Fabric](/api_documentation/oM/Adapter/Adapters/GSA/MaterialFragments/Fabric)
+    - Structure.MaterialFragments.[Aluminium](/api_documentation/oM/Analytical/Structure/MaterialFragments/Aluminium)
+    - Structure.MaterialFragments.[Concrete](/api_documentation/oM/Analytical/Structure/MaterialFragments/Concrete)
+    - Structure.MaterialFragments.[GenericIsotropicMaterial](/api_documentation/oM/Analytical/Structure/MaterialFragments/GenericIsotropicMaterial)
+    - Structure.MaterialFragments.[GenericOrthotropicMaterial](/api_documentation/oM/Analytical/Structure/MaterialFragments/GenericOrthotropicMaterial)
+    - Structure.MaterialFragments.[Glulam](/api_documentation/oM/Analytical/Structure/MaterialFragments/Glulam)
+    - Structure.MaterialFragments.[LaminatedVeneerLumberCrossbands](/api_documentation/oM/Analytical/Structure/MaterialFragments/LaminatedVeneerLumberCrossbands)
+    - Structure.MaterialFragments.[LaminatedVeneerLumberParallel](/api_documentation/oM/Analytical/Structure/MaterialFragments/LaminatedVeneerLumberParallel)
+    - Structure.MaterialFragments.[SawnTimber](/api_documentation/oM/Analytical/Structure/MaterialFragments/SawnTimber)
+    - Structure.MaterialFragments.[Steel](/api_documentation/oM/Analytical/Structure/MaterialFragments/Steel)
+    - Structure.MaterialFragments.[Timber](/api_documentation/oM/Analytical/Structure/MaterialFragments/Timber)
 
 
 ## Properties
@@ -57,7 +57,7 @@ The following properties are defined on the interface
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| Density | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | - | [Density](/om_documentation/oM/Dimensional/Quantities/Attributes/Density) [kg/m³] |
+| Density | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | - | [Density](/api_documentation/oM/Dimensional/Quantities/Attributes/Density) [kg/m³] |
 
 
 ## Code and Schema

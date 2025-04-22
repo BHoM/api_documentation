@@ -12,8 +12,8 @@ title: SolarRadiationData
 
 ???+ bhom "The SolarRadiationData in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  LadybugTools.[ISimulationData](/om_documentation/oM/Adapter/LadybugTools/ISimulationData)
-    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
+    -  LadybugTools.[ISimulationData](/api_documentation/oM/Adapter/LadybugTools/ISimulationData)
+    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
 
 
 ## Properties

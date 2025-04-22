@@ -12,9 +12,9 @@ Divide the panel based on points coincident with the panel edges.
 
 ???+ bhom "The PanelAutoMeshByPointsOnEdges in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Adapters.SAP2000.Fragments.[IPanelAutoMesh](/om_documentation/oM/Adapter/Adapters/SAP2000/Fragments/IPanelAutoMesh)
-    -  Base.[IFragment](/om_documentation/oM/Framework/Base/IFragment)
-    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
+    -  Adapters.SAP2000.Fragments.[IPanelAutoMesh](/api_documentation/oM/Adapter/Adapters/SAP2000/Fragments/IPanelAutoMesh)
+    -  Base.[IFragment](/api_documentation/oM/Framework/Base/IFragment)
+    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
 
 
 ## Properties

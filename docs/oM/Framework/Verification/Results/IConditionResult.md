@@ -12,20 +12,20 @@ Top interface for all condition results.
 
 ???+ bhom "The IConditionResult in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IImmutable](/om_documentation/oM/Framework/Base/IImmutable)
-    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
+    -  Base.[IImmutable](/api_documentation/oM/Framework/Base/IImmutable)
+    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Verification.Results.[FormulaConditionResult](/om_documentation/oM/Framework/Verification/Results/FormulaConditionResult)
-    - Verification.Results.[IsNotNullResult](/om_documentation/oM/Framework/Verification/Results/IsNotNullResult)
-    - Verification.Results.[IsOfTypeResult](/om_documentation/oM/Framework/Verification/Results/IsOfTypeResult)
-    - Verification.Results.[LogicalCollectionConditionResult](/om_documentation/oM/Framework/Verification/Results/LogicalCollectionConditionResult)
-    - Verification.Results.[SingleLogicalConditionResult](/om_documentation/oM/Framework/Verification/Results/SingleLogicalConditionResult)
-    - Verification.Results.[ValueConditionResult](/om_documentation/oM/Framework/Verification/Results/ValueConditionResult)
+    - Verification.Results.[FormulaConditionResult](/api_documentation/oM/Framework/Verification/Results/FormulaConditionResult)
+    - Verification.Results.[IsNotNullResult](/api_documentation/oM/Framework/Verification/Results/IsNotNullResult)
+    - Verification.Results.[IsOfTypeResult](/api_documentation/oM/Framework/Verification/Results/IsOfTypeResult)
+    - Verification.Results.[LogicalCollectionConditionResult](/api_documentation/oM/Framework/Verification/Results/LogicalCollectionConditionResult)
+    - Verification.Results.[SingleLogicalConditionResult](/api_documentation/oM/Framework/Verification/Results/SingleLogicalConditionResult)
+    - Verification.Results.[ValueConditionResult](/api_documentation/oM/Framework/Verification/Results/ValueConditionResult)
 
 
 ## Properties

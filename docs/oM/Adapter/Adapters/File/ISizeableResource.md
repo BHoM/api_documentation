@@ -12,17 +12,17 @@ Identifies a resource whose Size can be obtained.
 
 ???+ bhom "The ISizeableResource in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Adapters.File.[IResource](/om_documentation/oM/Adapter/Adapters/File/IResource)
-    -  Base.[IBHoMObject](/om_documentation/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
+    -  Adapters.File.[IResource](/api_documentation/oM/Adapter/Adapters/File/IResource)
+    -  Base.[IBHoMObject](/api_documentation/oM/Framework/Base/IBHoMObject)
+    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Adapters.File.[FSDirectory](/om_documentation/oM/Adapter/Adapters/File/FSDirectory)
-    - Adapters.File.[FSFile](/om_documentation/oM/Adapter/Adapters/File/FSFile)
+    - Adapters.File.[FSDirectory](/api_documentation/oM/Adapter/Adapters/File/FSDirectory)
+    - Adapters.File.[FSFile](/api_documentation/oM/Adapter/Adapters/File/FSFile)
 
 
 ## Properties

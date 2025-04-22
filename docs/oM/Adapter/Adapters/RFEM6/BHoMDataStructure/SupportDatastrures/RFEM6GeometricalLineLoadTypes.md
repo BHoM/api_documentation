@@ -12,8 +12,8 @@ title: RFEM6GeometricalLineLoadTypes
 
 ???+ bhom "The RFEM6GeometricalLineLoadTypes in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IFragment](/om_documentation/oM/Framework/Base/IFragment)
-    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
+    -  Base.[IFragment](/api_documentation/oM/Framework/Base/IFragment)
+    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
 
 
 ## Properties
@@ -26,7 +26,7 @@ The following properties are defined on the class
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| geometrialLineLoadType | [GeometricalLineLoadTypesEnum](/om_documentation/oM/Adapter/Adapters/RFEM6/Fragments/Enums/GeometricalLineLoadTypesEnum) | - | - |
+| geometrialLineLoadType | [GeometricalLineLoadTypesEnum](/api_documentation/oM/Adapter/Adapters/RFEM6/Fragments/Enums/GeometricalLineLoadTypesEnum) | - | - |
 
 
 ## Code and Schema

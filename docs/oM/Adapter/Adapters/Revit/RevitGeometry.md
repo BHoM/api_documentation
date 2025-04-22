@@ -12,9 +12,9 @@ Fragment containing the geometry extracted from Revit element represented by the
 
 ???+ bhom "The RevitGeometry in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IFragment](/om_documentation/oM/Framework/Base/IFragment)
-    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
-    -  Base.[IImmutable](/om_documentation/oM/Framework/Base/IImmutable)
+    -  Base.[IFragment](/api_documentation/oM/Framework/Base/IFragment)
+    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
+    -  Base.[IImmutable](/api_documentation/oM/Framework/Base/IImmutable)
 
 
 ## Properties
@@ -27,9 +27,9 @@ The following properties are defined on the class
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| Edges | [ReadOnlyCollection](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.ObjectModel.ReadOnlyCollection-1?view=netstandard-2.0)&lt;[ICurve](/om_documentation/oM/Dimensional/Geometry/ICurve)&gt; | Edge curves of Revit element represented by the BHoM object carrying this fragment. | - |
-| Surfaces | [ReadOnlyCollection](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.ObjectModel.ReadOnlyCollection-1?view=netstandard-2.0)&lt;[ISurface](/om_documentation/oM/Dimensional/Geometry/ISurface)&gt; | Surface geometry of Revit element represented by the BHoM object carrying this fragment. | - |
-| Meshes | [ReadOnlyCollection](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.ObjectModel.ReadOnlyCollection-1?view=netstandard-2.0)&lt;[Mesh](/om_documentation/oM/Dimensional/Geometry/Mesh)&gt; | Meshed surfaces of Revit element represented by the BHoM object carrying this fragment. | - |
+| Edges | [ReadOnlyCollection](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.ObjectModel.ReadOnlyCollection-1?view=netstandard-2.0)&lt;[ICurve](/api_documentation/oM/Dimensional/Geometry/ICurve)&gt; | Edge curves of Revit element represented by the BHoM object carrying this fragment. | - |
+| Surfaces | [ReadOnlyCollection](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.ObjectModel.ReadOnlyCollection-1?view=netstandard-2.0)&lt;[ISurface](/api_documentation/oM/Dimensional/Geometry/ISurface)&gt; | Surface geometry of Revit element represented by the BHoM object carrying this fragment. | - |
+| Meshes | [ReadOnlyCollection](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.ObjectModel.ReadOnlyCollection-1?view=netstandard-2.0)&lt;[Mesh](/api_documentation/oM/Dimensional/Geometry/Mesh)&gt; | Meshed surfaces of Revit element represented by the BHoM object carrying this fragment. | - |
 
 
 ## Code and Schema

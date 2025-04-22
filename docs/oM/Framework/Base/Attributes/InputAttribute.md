@@ -13,8 +13,8 @@ Attribute providing information about an input parameter of a method.
 ???+ bhom "The InputAttribute in inheriting from the following base type(s) and implements the following interfaces:"
 
     -  [Attribute](https://learn.microsoft.com/en-us/dotnet/api/System.Attribute?view=netstandard-2.0)
-    -  Base.[IImmutable](/om_documentation/oM/Framework/Base/IImmutable)
-    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
+    -  Base.[IImmutable](/api_documentation/oM/Framework/Base/IImmutable)
+    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
 
 
 ## Properties
@@ -29,8 +29,8 @@ The following properties are defined on the class
 |------------------|------------------|------------------|------------------|
 | Name | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | Name of the method parameter this attribute corresponds to. | - |
 | Description | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | Description of the correspondent input parameter. | - |
-| Classification | [ClassificationAttribute](/om_documentation/oM/Framework/Base/Attributes/ClassificationAttribute) | Classification of the correspondent input parameter, e.g. folder path, quantity etc. | - |
-| Exposure | [UIExposure](/om_documentation/oM/Framework/Base/Attributes/Enums/UIExposure) | Information whether the correspondent input parameter is meant to be shown in the UI or not. | - |
+| Classification | [ClassificationAttribute](/api_documentation/oM/Framework/Base/Attributes/ClassificationAttribute) | Classification of the correspondent input parameter, e.g. folder path, quantity etc. | - |
+| Exposure | [UIExposure](/api_documentation/oM/Framework/Base/Attributes/Enums/UIExposure) | Information whether the correspondent input parameter is meant to be shown in the UI or not. | - |
 
 
 ### Inherited properties

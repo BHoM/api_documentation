@@ -16,28 +16,28 @@ The IMesh contains the following generic paramters:
 
 Constrained by the following arguments:
 
-- Analytical.Elements.[INode](/om_documentation/oM/Analytical/Analytical/Elements/INode)
+- Analytical.Elements.[INode](/api_documentation/oM/Analytical/Analytical/Elements/INode)
 
 #### TFace
 
 Constrained by the following arguments:
 
-- Analytical.Elements.[IFace](/om_documentation/oM/Analytical/Analytical/Elements/IFace)
+- Analytical.Elements.[IFace](/api_documentation/oM/Analytical/Analytical/Elements/IFace)
 
 ### Implemented interfaces and base types
 
 ???+ bhom "The IMesh`2 in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IBHoMObject](/om_documentation/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
-    -  Analytical.[IAnalytical](/om_documentation/oM/Analytical/Analytical/IAnalytical)
+    -  Base.[IBHoMObject](/api_documentation/oM/Framework/Base/IBHoMObject)
+    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
+    -  Analytical.[IAnalytical](/api_documentation/oM/Analytical/Analytical/IAnalytical)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Structure.Elements.[FEMesh](/om_documentation/oM/Analytical/Structure/Elements/FEMesh)
+    - Structure.Elements.[FEMesh](/api_documentation/oM/Analytical/Structure/Elements/FEMesh)
 
 
 ## Properties

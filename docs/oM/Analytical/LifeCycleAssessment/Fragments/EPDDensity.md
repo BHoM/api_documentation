@@ -14,8 +14,8 @@ The user accepts responsibility for any changes beyond the given dataset informa
 
 ???+ bhom "The EPDDensity in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IFragment](/om_documentation/oM/Framework/Base/IFragment)
-    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
+    -  Base.[IFragment](/api_documentation/oM/Framework/Base/IFragment)
+    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
 
 
 ## Properties
@@ -28,7 +28,7 @@ The following properties are defined on the class
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| Density | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | The material density in kg/m^3. | [Density](/om_documentation/oM/Dimensional/Quantities/Attributes/Density) [kg/m³] |
+| Density | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | The material density in kg/m^3. | [Density](/api_documentation/oM/Dimensional/Quantities/Attributes/Density) [kg/m³] |
 
 
 ## Code and Schema

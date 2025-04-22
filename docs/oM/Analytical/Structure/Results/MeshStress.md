@@ -12,17 +12,17 @@ Shell and membrane stresses at a discrete location in the Panel/FEMesh.
 
 ???+ bhom "The MeshStress in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Structure.Results.[MeshElementResult](/om_documentation/oM/Analytical/Structure/Results/MeshElementResult)
-    -  Analytical.Results.[IMeshElementResult](/om_documentation/oM/Analytical/Analytical/Results/IMeshElementResult)
-    -  Analytical.Results.[IResult](/om_documentation/oM/Analytical/Analytical/Results/IResult)
-    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
-    -  [IComparable](https://learn.microsoft.com/en-us/dotnet/api/System.IComparable-1?view=netstandard-2.0)&lt;Analytical.Results.[IResult](/om_documentation/oM/Analytical/Analytical/Results/IResult)&gt;
-    -  Base.[IImmutable](/om_documentation/oM/Framework/Base/IImmutable)
-    -  Structure.Results.[IStructuralResult](/om_documentation/oM/Analytical/Structure/Results/IStructuralResult)
-    -  Analytical.Results.[IObjectIdResult](/om_documentation/oM/Analytical/Analytical/Results/IObjectIdResult)
-    -  Analytical.Results.[ICasedResult](/om_documentation/oM/Analytical/Analytical/Results/ICasedResult)
-    -  Analytical.Results.[ITimeStepResult](/om_documentation/oM/Analytical/Analytical/Results/ITimeStepResult)
-    -  Analytical.Results.[IResultItem](/om_documentation/oM/Analytical/Analytical/Results/IResultItem)
+    -  Structure.Results.[MeshElementResult](/api_documentation/oM/Analytical/Structure/Results/MeshElementResult)
+    -  Analytical.Results.[IMeshElementResult](/api_documentation/oM/Analytical/Analytical/Results/IMeshElementResult)
+    -  Analytical.Results.[IResult](/api_documentation/oM/Analytical/Analytical/Results/IResult)
+    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
+    -  [IComparable](https://learn.microsoft.com/en-us/dotnet/api/System.IComparable-1?view=netstandard-2.0)&lt;Analytical.Results.[IResult](/api_documentation/oM/Analytical/Analytical/Results/IResult)&gt;
+    -  Base.[IImmutable](/api_documentation/oM/Framework/Base/IImmutable)
+    -  Structure.Results.[IStructuralResult](/api_documentation/oM/Analytical/Structure/Results/IStructuralResult)
+    -  Analytical.Results.[IObjectIdResult](/api_documentation/oM/Analytical/Analytical/Results/IObjectIdResult)
+    -  Analytical.Results.[ICasedResult](/api_documentation/oM/Analytical/Analytical/Results/ICasedResult)
+    -  Analytical.Results.[ITimeStepResult](/api_documentation/oM/Analytical/Analytical/Results/ITimeStepResult)
+    -  Analytical.Results.[IResultItem](/api_documentation/oM/Analytical/Analytical/Results/IResultItem)
 
 
 ## Properties
@@ -35,14 +35,14 @@ The following properties are defined on the class
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| SXX | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Normal stress in x-direction. | [Stress](/om_documentation/oM/Dimensional/Quantities/Attributes/Stress) [Pa] |
-| SYY | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Normal stress in y-direction. | [Stress](/om_documentation/oM/Dimensional/Quantities/Attributes/Stress) [Pa] |
-| SXY | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Normal stress in xy-direction. | [Stress](/om_documentation/oM/Dimensional/Quantities/Attributes/Stress) [Pa] |
-| TXX | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Shear stress in x-direction. | [Stress](/om_documentation/oM/Dimensional/Quantities/Attributes/Stress) [Pa] |
-| TYY | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Shear stress in y-direction. | [Stress](/om_documentation/oM/Dimensional/Quantities/Attributes/Stress) [Pa] |
-| Principal_1 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Principal stress in first principal direction. | [Stress](/om_documentation/oM/Dimensional/Quantities/Attributes/Stress) [Pa] |
-| Principal_2 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Principal stress in second principal direction. | [Stress](/om_documentation/oM/Dimensional/Quantities/Attributes/Stress) [Pa] |
-| Principal_1_2 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Principal stress in middle principal direction. | [Stress](/om_documentation/oM/Dimensional/Quantities/Attributes/Stress) [Pa] |
+| SXX | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Normal stress in x-direction. | [Stress](/api_documentation/oM/Dimensional/Quantities/Attributes/Stress) [Pa] |
+| SYY | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Normal stress in y-direction. | [Stress](/api_documentation/oM/Dimensional/Quantities/Attributes/Stress) [Pa] |
+| SXY | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Normal stress in xy-direction. | [Stress](/api_documentation/oM/Dimensional/Quantities/Attributes/Stress) [Pa] |
+| TXX | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Shear stress in x-direction. | [Stress](/api_documentation/oM/Dimensional/Quantities/Attributes/Stress) [Pa] |
+| TYY | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Shear stress in y-direction. | [Stress](/api_documentation/oM/Dimensional/Quantities/Attributes/Stress) [Pa] |
+| Principal_1 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Principal stress in first principal direction. | [Stress](/api_documentation/oM/Dimensional/Quantities/Attributes/Stress) [Pa] |
+| Principal_2 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Principal stress in second principal direction. | [Stress](/api_documentation/oM/Dimensional/Quantities/Attributes/Stress) [Pa] |
+| Principal_1_2 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Principal stress in middle principal direction. | [Stress](/api_documentation/oM/Dimensional/Quantities/Attributes/Stress) [Pa] |
 
 
 ### Inherited properties
@@ -56,10 +56,10 @@ The following properties are inherited from the base class of the object
 | ResultCase | [IComparable](https://learn.microsoft.com/en-us/dotnet/api/System.IComparable?view=netstandard-2.0) | Identifier for the Loadcase or LoadCombination that the result belongs to. Is generally name or number of the loadcase, depending on the analysis package. | - |
 | ModeNumber | [int](https://learn.microsoft.com/en-us/dotnet/api/System.Int32?view=netstandard-2.0) | Positive index, starting at one. Only set for cases with modal outputs such as dynamic cases. | - |
 | TimeStep | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Time step for time history results. | - |
-| MeshResultLayer | [MeshResultLayer](/om_documentation/oM/Analytical/Structure/Results/MeshResultLayer) | - | - |
+| MeshResultLayer | [MeshResultLayer](/api_documentation/oM/Analytical/Structure/Results/MeshResultLayer) | - | - |
 | LayerPosition | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Position within the element thickness that result is extracted from, normalised to 1. I.e. 0 = lower surface, 0.5 = middle, 1 = top surface. | - |
-| Smoothing | [MeshResultSmoothingType](/om_documentation/oM/Analytical/Structure/Results/MeshResultSmoothingType) | - | - |
-| Orientation | [Basis](/om_documentation/oM/Dimensional/Geometry/Basis) | Vector basis required in order to report results in a particular direction, for example, for anisotropic materials. | - |
+| Smoothing | [MeshResultSmoothingType](/api_documentation/oM/Analytical/Structure/Results/MeshResultSmoothingType) | - | - |
+| Orientation | [Basis](/api_documentation/oM/Dimensional/Geometry/Basis) | Vector basis required in order to report results in a particular direction, for example, for anisotropic materials. | - |
 
 
 ### Derived properties

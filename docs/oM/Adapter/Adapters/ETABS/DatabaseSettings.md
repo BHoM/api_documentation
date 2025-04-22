@@ -12,7 +12,7 @@ title: DatabaseSettings
 
 ???+ bhom "The DatabaseSettings in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
+    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
 
 
 ## Properties
@@ -25,7 +25,7 @@ The following properties are defined on the class
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| SectionDatabase | [SectionDatabase](/om_documentation/oM/Adapter/Adapters/ETABS/SectionDatabase) | The ETABS defined section database to read sections from if the name of the sections you push share a name with one avalible in the database | - |
+| SectionDatabase | [SectionDatabase](/api_documentation/oM/Adapter/Adapters/ETABS/SectionDatabase) | The ETABS defined section database to read sections from if the name of the sections you push share a name with one avalible in the database | - |
 
 
 ## Code and Schema

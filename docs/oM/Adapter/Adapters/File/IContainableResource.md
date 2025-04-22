@@ -12,27 +12,27 @@ Identifies a general data Resource, whether a File or a Directory or other, that
 
 ???+ bhom "The IContainableResource in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Adapters.File.[IResource](/om_documentation/oM/Adapter/Adapters/File/IResource)
-    -  Base.[IBHoMObject](/om_documentation/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
+    -  Adapters.File.[IResource](/api_documentation/oM/Adapter/Adapters/File/IResource)
+    -  Base.[IBHoMObject](/api_documentation/oM/Framework/Base/IBHoMObject)
+    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
 
 
 ### Interfaces implementing this interface
 
 ???+ bhom "The following interfaces are implementing this interface:"
 
-    - Adapters.File.[IContainer](/om_documentation/oM/Adapter/Adapters/File/IContainer)
-    - Adapters.File.[IFSContainer](/om_documentation/oM/Adapter/Adapters/File/IFSContainer)
+    - Adapters.File.[IContainer](/api_documentation/oM/Adapter/Adapters/File/IContainer)
+    - Adapters.File.[IFSContainer](/api_documentation/oM/Adapter/Adapters/File/IFSContainer)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Adapters.File.[Directory](/om_documentation/oM/Adapter/Adapters/File/Directory)
-    - Adapters.File.[File](/om_documentation/oM/Adapter/Adapters/File/File)
-    - Adapters.File.[FSDirectory](/om_documentation/oM/Adapter/Adapters/File/FSDirectory)
-    - Adapters.File.[FSFile](/om_documentation/oM/Adapter/Adapters/File/FSFile)
+    - Adapters.File.[Directory](/api_documentation/oM/Adapter/Adapters/File/Directory)
+    - Adapters.File.[File](/api_documentation/oM/Adapter/Adapters/File/File)
+    - Adapters.File.[FSDirectory](/api_documentation/oM/Adapter/Adapters/File/FSDirectory)
+    - Adapters.File.[FSFile](/api_documentation/oM/Adapter/Adapters/File/FSFile)
 
 
 ## Properties

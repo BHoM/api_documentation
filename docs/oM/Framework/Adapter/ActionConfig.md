@@ -13,34 +13,34 @@ Consider that your tookit might have a more specific implementation available. T
 
 ???+ bhom "The ActionConfig in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
+    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
 
 
 ### Classes inheriting from this class
 
 ???+ bhom "The following classes are inheriting from this class:"
 
-    - Adapters.CarbonQueryDatabase.[CQDConfig](/om_documentation/oM/Adapter/Adapters/CarbonQueryDatabase/CQDConfig)
-    - Adapters.Excel.[ExcelPushConfig](/om_documentation/oM/Adapter/Adapters/Excel/ExcelPushConfig)
-    - Adapters.File.[ExecuteConfig](/om_documentation/oM/Adapter/Adapters/File/ExecuteConfig)
-    - Adapters.File.[PullConfig](/om_documentation/oM/Adapter/Adapters/File/PullConfig)
-    - Adapters.File.[PushConfig](/om_documentation/oM/Adapter/Adapters/File/PushConfig)
-    - Adapters.File.[RemoveConfig](/om_documentation/oM/Adapter/Adapters/File/RemoveConfig)
-    - Adapters.GSA.[GSAConfig](/om_documentation/oM/Adapter/Adapters/GSA/GSAConfig)
-    - Adapters.HTTP.[HTTPConfig](/om_documentation/oM/Adapter/Adapters/HTTP/HTTPConfig)
-    - Adapters.iAuditor.[iAuditorConfig](/om_documentation/oM/Adapter/Adapters/iAuditor/iAuditorConfig)
-    - Environment.IES.[PullConfigIES](/om_documentation/oM/Adapter/Environment/IES/PullConfigIES)
-    - Environment.IES.[PushConfigIES](/om_documentation/oM/Adapter/Environment/IES/PushConfigIES)
-    - LadybugTools.[LadybugConfig](/om_documentation/oM/Adapter/LadybugTools/LadybugConfig)
-    - Adapters.Revit.[RevitPullConfig](/om_documentation/oM/Adapter/Adapters/Revit/RevitPullConfig)
-    - Adapters.Revit.[RevitPushConfig](/om_documentation/oM/Adapter/Adapters/Revit/RevitPushConfig)
-    - Adapters.Revit.[RevitRemoveConfig](/om_documentation/oM/Adapter/Adapters/Revit/RevitRemoveConfig)
-    - Adapters.SAP2000.[SAP2000PushConfig](/om_documentation/oM/Adapter/Adapters/SAP2000/SAP2000PushConfig)
-    - Environment.SAP.[SAPMarkUpPullConfig](/om_documentation/oM/Adapter/Environment/SAP/SAPMarkUpPullConfig)
-    - Environment.SAP.[SAPPushConfig](/om_documentation/oM/Adapter/Environment/SAP/SAPPushConfig)
-    - Environment.SAP.[SAPReportPullConfig](/om_documentation/oM/Adapter/Environment/SAP/SAPReportPullConfig)
-    - Adapters.SQL.[PushConfig](/om_documentation/oM/Adapter/Adapters/SQL/PushConfig)
-    - Adapters.XML.[XMLConfig](/om_documentation/oM/Adapter/Adapters/XML/XMLConfig)
+    - Adapters.CarbonQueryDatabase.[CQDConfig](/api_documentation/oM/Adapter/Adapters/CarbonQueryDatabase/CQDConfig)
+    - Adapters.Excel.[ExcelPushConfig](/api_documentation/oM/Adapter/Adapters/Excel/ExcelPushConfig)
+    - Adapters.File.[ExecuteConfig](/api_documentation/oM/Adapter/Adapters/File/ExecuteConfig)
+    - Adapters.File.[PullConfig](/api_documentation/oM/Adapter/Adapters/File/PullConfig)
+    - Adapters.File.[PushConfig](/api_documentation/oM/Adapter/Adapters/File/PushConfig)
+    - Adapters.File.[RemoveConfig](/api_documentation/oM/Adapter/Adapters/File/RemoveConfig)
+    - Adapters.GSA.[GSAConfig](/api_documentation/oM/Adapter/Adapters/GSA/GSAConfig)
+    - Adapters.HTTP.[HTTPConfig](/api_documentation/oM/Adapter/Adapters/HTTP/HTTPConfig)
+    - Adapters.iAuditor.[iAuditorConfig](/api_documentation/oM/Adapter/Adapters/iAuditor/iAuditorConfig)
+    - Environment.IES.[PullConfigIES](/api_documentation/oM/Adapter/Environment/IES/PullConfigIES)
+    - Environment.IES.[PushConfigIES](/api_documentation/oM/Adapter/Environment/IES/PushConfigIES)
+    - LadybugTools.[LadybugConfig](/api_documentation/oM/Adapter/LadybugTools/LadybugConfig)
+    - Adapters.Revit.[RevitPullConfig](/api_documentation/oM/Adapter/Adapters/Revit/RevitPullConfig)
+    - Adapters.Revit.[RevitPushConfig](/api_documentation/oM/Adapter/Adapters/Revit/RevitPushConfig)
+    - Adapters.Revit.[RevitRemoveConfig](/api_documentation/oM/Adapter/Adapters/Revit/RevitRemoveConfig)
+    - Adapters.SAP2000.[SAP2000PushConfig](/api_documentation/oM/Adapter/Adapters/SAP2000/SAP2000PushConfig)
+    - Environment.SAP.[SAPMarkUpPullConfig](/api_documentation/oM/Adapter/Environment/SAP/SAPMarkUpPullConfig)
+    - Environment.SAP.[SAPPushConfig](/api_documentation/oM/Adapter/Environment/SAP/SAPPushConfig)
+    - Environment.SAP.[SAPReportPullConfig](/api_documentation/oM/Adapter/Environment/SAP/SAPReportPullConfig)
+    - Adapters.SQL.[PushConfig](/api_documentation/oM/Adapter/Adapters/SQL/PushConfig)
+    - Adapters.XML.[XMLConfig](/api_documentation/oM/Adapter/Adapters/XML/XMLConfig)
 
 
 ## Properties
@@ -55,7 +55,7 @@ The following properties are defined on the class
 |------------------|------------------|------------------|------------------|
 | WrapNonBHoMObjects | [bool](https://learn.microsoft.com/en-us/dotnet/api/System.Boolean?view=netstandard-2.0) | If true, the Push action wraps any non-BHoM type into a BH.oM.Adapter.ObjectWrapper, allowing them to make use of the full Adapter workflow. | - |
 | AllowHashForComparing | [bool](https://learn.microsoft.com/en-us/dotnet/api/System.Boolean?view=netstandard-2.0) | If true and if no specific EqualityComparer is found for the type, Diffing hashes are computed and used to compare the objects. | - |
-| DiffingConfig | [DiffingConfig](/om_documentation/oM/Framework/Diffing/DiffingConfig) | Configurations for the Diffing hashing. Requires `AllowHashForComparing` to be set to true. | - |
+| DiffingConfig | [DiffingConfig](/api_documentation/oM/Framework/Diffing/DiffingConfig) | Configurations for the Diffing hashing. Requires `AllowHashForComparing` to be set to true. | - |
 
 
 ## Code and Schema

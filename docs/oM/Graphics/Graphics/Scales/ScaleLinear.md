@@ -12,8 +12,8 @@ Scale for mapping a continuous, quantitative input domain to a continuous output
 
 ???+ bhom "The ScaleLinear in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Graphics.Scales.[IScale](/om_documentation/oM/Graphics/Graphics/Scales/IScale)
-    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
+    -  Graphics.Scales.[IScale](/api_documentation/oM/Graphics/Graphics/Scales/IScale)
+    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
 
 
 ## Properties
@@ -26,8 +26,8 @@ The following properties are defined on the class
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| Domain | [Domain](/om_documentation/oM/Framework/Data/Collections/Domain) | - | - |
-| Range | [Domain](/om_documentation/oM/Framework/Data/Collections/Domain) | - | - |
+| Domain | [Domain](/api_documentation/oM/Framework/Data/Collections/Domain) | - | - |
+| Range | [Domain](/api_documentation/oM/Framework/Data/Collections/Domain) | - | - |
 | Clamp | [bool](https://learn.microsoft.com/en-us/dotnet/api/System.Boolean?view=netstandard-2.0) | - | - |
 | Nice | [bool](https://learn.microsoft.com/en-us/dotnet/api/System.Boolean?view=netstandard-2.0) | - | - |
 | Name | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | - | - |

@@ -12,12 +12,12 @@ Water use for a particular product or material. This environmental indicator for
 
 ???+ bhom "The WaterDeprivationMetric in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  LifeCycleAssessment.MaterialFragments.[EnvironmentalMetric](/om_documentation/oM/Analytical/LifeCycleAssessment/MaterialFragments/EnvironmentalMetric)
-    -  Base.[BHoMObject](/om_documentation/oM/Framework/Base/BHoMObject)
-    -  Base.[IBHoMObject](/om_documentation/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
-    -  LifeCycleAssessment.[ILifeCycleAssessmentPhaseData](/om_documentation/oM/Analytical/LifeCycleAssessment/ILifeCycleAssessmentPhaseData)
-    -  Base.[IImmutable](/om_documentation/oM/Framework/Base/IImmutable)
+    -  LifeCycleAssessment.MaterialFragments.[EnvironmentalMetric](/api_documentation/oM/Analytical/LifeCycleAssessment/MaterialFragments/EnvironmentalMetric)
+    -  Base.[BHoMObject](/api_documentation/oM/Framework/Base/BHoMObject)
+    -  Base.[IBHoMObject](/api_documentation/oM/Framework/Base/IBHoMObject)
+    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
+    -  LifeCycleAssessment.[ILifeCycleAssessmentPhaseData](/api_documentation/oM/Analytical/LifeCycleAssessment/ILifeCycleAssessmentPhaseData)
+    -  Base.[IImmutable](/api_documentation/oM/Framework/Base/IImmutable)
 
 
 ## Properties
@@ -30,26 +30,26 @@ The following properties are defined on the class
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| A1 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Water Deprivation relating to the Raw Material Supply module in the Product stage. | [VolumePerQuantity](/om_documentation/oM/Dimensional/Quantities/Attributes/VolumePerQuantity) [m³ per unit] |
-| A2 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Water Deprivation relating to the Transport module in the Product stage. | [VolumePerQuantity](/om_documentation/oM/Dimensional/Quantities/Attributes/VolumePerQuantity) [m³ per unit] |
-| A3 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Water Deprivation relating to the Manufacturing module in the Product stage. | [VolumePerQuantity](/om_documentation/oM/Dimensional/Quantities/Attributes/VolumePerQuantity) [m³ per unit] |
-| A1toA3 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Water Deprivation relating to the full Product stage. | [VolumePerQuantity](/om_documentation/oM/Dimensional/Quantities/Attributes/VolumePerQuantity) [m³ per unit] |
-| A4 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Water Deprivation relating to the Transport module in the Construction Process stage. | [VolumePerQuantity](/om_documentation/oM/Dimensional/Quantities/Attributes/VolumePerQuantity) [m³ per unit] |
-| A5 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Water Deprivation relating to the Construction Installation Process module in the Construction Process stage. | [VolumePerQuantity](/om_documentation/oM/Dimensional/Quantities/Attributes/VolumePerQuantity) [m³ per unit] |
-| B1 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Water Deprivation relating to the Use module in the Use stage. | [VolumePerQuantity](/om_documentation/oM/Dimensional/Quantities/Attributes/VolumePerQuantity) [m³ per unit] |
-| B2 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Water Deprivation relating to the Maintenance module in the Use stage. | [VolumePerQuantity](/om_documentation/oM/Dimensional/Quantities/Attributes/VolumePerQuantity) [m³ per unit] |
-| B3 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Water Deprivation relating to the Repair module in the Use stage. | [VolumePerQuantity](/om_documentation/oM/Dimensional/Quantities/Attributes/VolumePerQuantity) [m³ per unit] |
-| B4 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Water Deprivation relating to the Replacement module in the Use stage. | [VolumePerQuantity](/om_documentation/oM/Dimensional/Quantities/Attributes/VolumePerQuantity) [m³ per unit] |
-| B5 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Water Deprivation relating to the Refurbishment module in the Use stage. | [VolumePerQuantity](/om_documentation/oM/Dimensional/Quantities/Attributes/VolumePerQuantity) [m³ per unit] |
-| B6 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Water Deprivation relating to the Operational Energy Use module in the Use stage. | [VolumePerQuantity](/om_documentation/oM/Dimensional/Quantities/Attributes/VolumePerQuantity) [m³ per unit] |
-| B7 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Water Deprivation relating to the Operational Water Use module in the Use stage. | [VolumePerQuantity](/om_documentation/oM/Dimensional/Quantities/Attributes/VolumePerQuantity) [m³ per unit] |
-| B1toB7 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Water Deprivation relating to the full Use Stage. | [VolumePerQuantity](/om_documentation/oM/Dimensional/Quantities/Attributes/VolumePerQuantity) [m³ per unit] |
-| C1 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Water Deprivation relating to the De-construction Demolition module in the End of Life stage. | [VolumePerQuantity](/om_documentation/oM/Dimensional/Quantities/Attributes/VolumePerQuantity) [m³ per unit] |
-| C2 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Water Deprivation relating to the Transport module in the End of Life stage. | [VolumePerQuantity](/om_documentation/oM/Dimensional/Quantities/Attributes/VolumePerQuantity) [m³ per unit] |
-| C3 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Water Deprivation relating to the Waste Processing module in the End of Life stage. | [VolumePerQuantity](/om_documentation/oM/Dimensional/Quantities/Attributes/VolumePerQuantity) [m³ per unit] |
-| C4 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Water Deprivation relating to the Disposal module in the End of Life stage. | [VolumePerQuantity](/om_documentation/oM/Dimensional/Quantities/Attributes/VolumePerQuantity) [m³ per unit] |
-| C1toC4 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Water Deprivation relating to the full End of Life stage. | [VolumePerQuantity](/om_documentation/oM/Dimensional/Quantities/Attributes/VolumePerQuantity) [m³ per unit] |
-| D | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Water Deprivation relating to benefits and loads beyond the system boundary. | [VolumePerQuantity](/om_documentation/oM/Dimensional/Quantities/Attributes/VolumePerQuantity) [m³ per unit] |
+| A1 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Water Deprivation relating to the Raw Material Supply module in the Product stage. | [VolumePerQuantity](/api_documentation/oM/Dimensional/Quantities/Attributes/VolumePerQuantity) [m³ per unit] |
+| A2 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Water Deprivation relating to the Transport module in the Product stage. | [VolumePerQuantity](/api_documentation/oM/Dimensional/Quantities/Attributes/VolumePerQuantity) [m³ per unit] |
+| A3 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Water Deprivation relating to the Manufacturing module in the Product stage. | [VolumePerQuantity](/api_documentation/oM/Dimensional/Quantities/Attributes/VolumePerQuantity) [m³ per unit] |
+| A1toA3 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Water Deprivation relating to the full Product stage. | [VolumePerQuantity](/api_documentation/oM/Dimensional/Quantities/Attributes/VolumePerQuantity) [m³ per unit] |
+| A4 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Water Deprivation relating to the Transport module in the Construction Process stage. | [VolumePerQuantity](/api_documentation/oM/Dimensional/Quantities/Attributes/VolumePerQuantity) [m³ per unit] |
+| A5 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Water Deprivation relating to the Construction Installation Process module in the Construction Process stage. | [VolumePerQuantity](/api_documentation/oM/Dimensional/Quantities/Attributes/VolumePerQuantity) [m³ per unit] |
+| B1 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Water Deprivation relating to the Use module in the Use stage. | [VolumePerQuantity](/api_documentation/oM/Dimensional/Quantities/Attributes/VolumePerQuantity) [m³ per unit] |
+| B2 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Water Deprivation relating to the Maintenance module in the Use stage. | [VolumePerQuantity](/api_documentation/oM/Dimensional/Quantities/Attributes/VolumePerQuantity) [m³ per unit] |
+| B3 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Water Deprivation relating to the Repair module in the Use stage. | [VolumePerQuantity](/api_documentation/oM/Dimensional/Quantities/Attributes/VolumePerQuantity) [m³ per unit] |
+| B4 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Water Deprivation relating to the Replacement module in the Use stage. | [VolumePerQuantity](/api_documentation/oM/Dimensional/Quantities/Attributes/VolumePerQuantity) [m³ per unit] |
+| B5 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Water Deprivation relating to the Refurbishment module in the Use stage. | [VolumePerQuantity](/api_documentation/oM/Dimensional/Quantities/Attributes/VolumePerQuantity) [m³ per unit] |
+| B6 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Water Deprivation relating to the Operational Energy Use module in the Use stage. | [VolumePerQuantity](/api_documentation/oM/Dimensional/Quantities/Attributes/VolumePerQuantity) [m³ per unit] |
+| B7 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Water Deprivation relating to the Operational Water Use module in the Use stage. | [VolumePerQuantity](/api_documentation/oM/Dimensional/Quantities/Attributes/VolumePerQuantity) [m³ per unit] |
+| B1toB7 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Water Deprivation relating to the full Use Stage. | [VolumePerQuantity](/api_documentation/oM/Dimensional/Quantities/Attributes/VolumePerQuantity) [m³ per unit] |
+| C1 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Water Deprivation relating to the De-construction Demolition module in the End of Life stage. | [VolumePerQuantity](/api_documentation/oM/Dimensional/Quantities/Attributes/VolumePerQuantity) [m³ per unit] |
+| C2 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Water Deprivation relating to the Transport module in the End of Life stage. | [VolumePerQuantity](/api_documentation/oM/Dimensional/Quantities/Attributes/VolumePerQuantity) [m³ per unit] |
+| C3 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Water Deprivation relating to the Waste Processing module in the End of Life stage. | [VolumePerQuantity](/api_documentation/oM/Dimensional/Quantities/Attributes/VolumePerQuantity) [m³ per unit] |
+| C4 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Water Deprivation relating to the Disposal module in the End of Life stage. | [VolumePerQuantity](/api_documentation/oM/Dimensional/Quantities/Attributes/VolumePerQuantity) [m³ per unit] |
+| C1toC4 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Water Deprivation relating to the full End of Life stage. | [VolumePerQuantity](/api_documentation/oM/Dimensional/Quantities/Attributes/VolumePerQuantity) [m³ per unit] |
+| D | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Water Deprivation relating to benefits and loads beyond the system boundary. | [VolumePerQuantity](/api_documentation/oM/Dimensional/Quantities/Attributes/VolumePerQuantity) [m³ per unit] |
 
 
 ### Inherited properties
@@ -57,10 +57,10 @@ The following properties are inherited from the base class of the object
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| MetricType | [EnvironmentalMetrics](/om_documentation/oM/Analytical/LifeCycleAssessment/EnvironmentalMetrics) | Enum indicating the metric type the object relates to. | - |
+| MetricType | [EnvironmentalMetrics](/api_documentation/oM/Analytical/LifeCycleAssessment/EnvironmentalMetrics) | Enum indicating the metric type the object relates to. | - |
 | BHoM_Guid | [Guid](https://learn.microsoft.com/en-us/dotnet/api/System.Guid?view=netstandard-2.0) | - | - |
 | Name | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | - | - |
-| Fragments | [FragmentSet](/om_documentation/oM/Framework/Base/FragmentSet) | - | - |
+| Fragments | [FragmentSet](/api_documentation/oM/Framework/Base/FragmentSet) | - | - |
 | Tags | [HashSet](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.HashSet-1?view=netstandard-2.0)&lt;[string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0)&gt; | - | - |
 | CustomData | [Dictionary](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.Dictionary-2?view=netstandard-2.0)&lt;[string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0), [object](https://learn.microsoft.com/en-us/dotnet/api/System.Object?view=netstandard-2.0)&gt; | - | - |
 

@@ -12,20 +12,20 @@ Base interface for MEP materials used by MEP properties or as a fragment of the 
 
 ???+ bhom "The IMEPMaterial in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IBHoMObject](/om_documentation/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
+    -  Base.[IBHoMObject](/api_documentation/oM/Framework/Base/IBHoMObject)
+    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - MEP.System.MaterialFragments.[CableTrayMaterial](/om_documentation/oM/Analytical/MEP/System/MaterialFragments/CableTrayMaterial)
-    - MEP.System.MaterialFragments.[DuctMaterial](/om_documentation/oM/Analytical/MEP/System/MaterialFragments/DuctMaterial)
-    - MEP.System.MaterialFragments.[InsulationMaterial](/om_documentation/oM/Analytical/MEP/System/MaterialFragments/InsulationMaterial)
-    - MEP.System.MaterialFragments.[LiningMaterial](/om_documentation/oM/Analytical/MEP/System/MaterialFragments/LiningMaterial)
-    - MEP.System.MaterialFragments.[PipeMaterial](/om_documentation/oM/Analytical/MEP/System/MaterialFragments/PipeMaterial)
-    - MEP.System.MaterialFragments.[WireMaterial](/om_documentation/oM/Analytical/MEP/System/MaterialFragments/WireMaterial)
+    - MEP.System.MaterialFragments.[CableTrayMaterial](/api_documentation/oM/Analytical/MEP/System/MaterialFragments/CableTrayMaterial)
+    - MEP.System.MaterialFragments.[DuctMaterial](/api_documentation/oM/Analytical/MEP/System/MaterialFragments/DuctMaterial)
+    - MEP.System.MaterialFragments.[InsulationMaterial](/api_documentation/oM/Analytical/MEP/System/MaterialFragments/InsulationMaterial)
+    - MEP.System.MaterialFragments.[LiningMaterial](/api_documentation/oM/Analytical/MEP/System/MaterialFragments/LiningMaterial)
+    - MEP.System.MaterialFragments.[PipeMaterial](/api_documentation/oM/Analytical/MEP/System/MaterialFragments/PipeMaterial)
+    - MEP.System.MaterialFragments.[WireMaterial](/api_documentation/oM/Analytical/MEP/System/MaterialFragments/WireMaterial)
 
 
 ## Properties

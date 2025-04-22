@@ -12,8 +12,8 @@ title: UpdateCommand
 
 ???+ bhom "The UpdateCommand in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Adapter.[IExecuteCommand](/om_documentation/oM/Framework/Adapter/IExecuteCommand)
-    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
+    -  Adapter.[IExecuteCommand](/api_documentation/oM/Framework/Adapter/IExecuteCommand)
+    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
 
 
 ## Properties

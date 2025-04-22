@@ -12,11 +12,11 @@ Point load for Nodes. This can be used to apply force as well as moment.
 
 ???+ bhom "The PointLoad in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[BHoMObject](/om_documentation/oM/Framework/Base/BHoMObject)
-    -  Base.[IBHoMObject](/om_documentation/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
-    -  Structure.Loads.[IElementLoad](/om_documentation/oM/Analytical/Structure/Loads/IElementLoad%601)&lt;Structure.Elements.[Node](/om_documentation/oM/Analytical/Structure/Elements/Node)&gt;
-    -  Structure.Loads.[ILoad](/om_documentation/oM/Analytical/Structure/Loads/ILoad)
+    -  Base.[BHoMObject](/api_documentation/oM/Framework/Base/BHoMObject)
+    -  Base.[IBHoMObject](/api_documentation/oM/Framework/Base/IBHoMObject)
+    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
+    -  Structure.Loads.[IElementLoad](/api_documentation/oM/Analytical/Structure/Loads/IElementLoad%601)&lt;Structure.Elements.[Node](/api_documentation/oM/Analytical/Structure/Elements/Node)&gt;
+    -  Structure.Loads.[ILoad](/api_documentation/oM/Analytical/Structure/Loads/ILoad)
 
 
 ## Properties
@@ -29,11 +29,11 @@ The following properties are defined on the class
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| Force | [Vector](/om_documentation/oM/Dimensional/Geometry/Vector) | - | [Force](/om_documentation/oM/Dimensional/Quantities/Attributes/Force) [N] |
-| Moment | [Vector](/om_documentation/oM/Dimensional/Geometry/Vector) | - | [Moment](/om_documentation/oM/Dimensional/Quantities/Attributes/Moment) [N.m] |
-| Loadcase | [Loadcase](/om_documentation/oM/Analytical/Structure/Loads/Loadcase) | The Loadcase in which the load is applied. | - |
-| Objects | [BHoMGroup](/om_documentation/oM/Framework/Base/BHoMGroup%601)&lt;[Node](/om_documentation/oM/Analytical/Structure/Elements/Node)&gt; | The group of Nodes that the load should be applied to. For most analysis packages the objects added here need to be pulled from the analysis package before being assigned to the load. | - |
-| Axis | [LoadAxis](/om_documentation/oM/Analytical/Structure/Loads/LoadAxis) | Defines whether the load is applied in local or global coordinates. | - |
+| Force | [Vector](/api_documentation/oM/Dimensional/Geometry/Vector) | - | [Force](/api_documentation/oM/Dimensional/Quantities/Attributes/Force) [N] |
+| Moment | [Vector](/api_documentation/oM/Dimensional/Geometry/Vector) | - | [Moment](/api_documentation/oM/Dimensional/Quantities/Attributes/Moment) [N.m] |
+| Loadcase | [Loadcase](/api_documentation/oM/Analytical/Structure/Loads/Loadcase) | The Loadcase in which the load is applied. | - |
+| Objects | [BHoMGroup](/api_documentation/oM/Framework/Base/BHoMGroup%601)&lt;[Node](/api_documentation/oM/Analytical/Structure/Elements/Node)&gt; | The group of Nodes that the load should be applied to. For most analysis packages the objects added here need to be pulled from the analysis package before being assigned to the load. | - |
+| Axis | [LoadAxis](/api_documentation/oM/Analytical/Structure/Loads/LoadAxis) | Defines whether the load is applied in local or global coordinates. | - |
 | Projected | [bool](https://learn.microsoft.com/en-us/dotnet/api/System.Boolean?view=netstandard-2.0) | If true the load is projected to the element. This means that the load will be reduced when its direction is at an angle to the element. | - |
 
 
@@ -44,7 +44,7 @@ The following properties are inherited from the base class of the object
 |------------------|------------------|------------------|------------------|
 | BHoM_Guid | [Guid](https://learn.microsoft.com/en-us/dotnet/api/System.Guid?view=netstandard-2.0) | - | - |
 | Name | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | - | - |
-| Fragments | [FragmentSet](/om_documentation/oM/Framework/Base/FragmentSet) | - | - |
+| Fragments | [FragmentSet](/api_documentation/oM/Framework/Base/FragmentSet) | - | - |
 | Tags | [HashSet](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.HashSet-1?view=netstandard-2.0)&lt;[string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0)&gt; | - | - |
 | CustomData | [Dictionary](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.Dictionary-2?view=netstandard-2.0)&lt;[string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0), [object](https://learn.microsoft.com/en-us/dotnet/api/System.Object?view=netstandard-2.0)&gt; | - | - |
 
@@ -56,8 +56,8 @@ The following properties are defined as extension methods in one of the BHoM_Eng
 | Name             | Type             | Description      | Quantity         | Engine           |
 |------------------|------------------|------------------|------------------|------------------|
 | IsNull | [bool](https://learn.microsoft.com/en-us/dotnet/api/System.Boolean?view=netstandard-2.0) | Checks if a Load is null and outputs relevant error message. | - | Structure_Engine |
-| IVisualize | [IEnumerable](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IEnumerable-1?view=netstandard-2.0)&lt;[IGeometry](/om_documentation/oM/Dimensional/Geometry/IGeometry)&gt; | Draws arrows representing the load. Visualisation will depend on the load type. | - | Structure_Engine |
-| Visualize | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[ICurve](/om_documentation/oM/Dimensional/Geometry/ICurve)&gt; | Draws arrows representing the point load at the location of the Nodes of the load. | - | Structure_Engine |
+| IVisualize | [IEnumerable](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IEnumerable-1?view=netstandard-2.0)&lt;[IGeometry](/api_documentation/oM/Dimensional/Geometry/IGeometry)&gt; | Draws arrows representing the load. Visualisation will depend on the load type. | - | Structure_Engine |
+| Visualize | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[ICurve](/api_documentation/oM/Dimensional/Geometry/ICurve)&gt; | Draws arrows representing the point load at the location of the Nodes of the load. | - | Structure_Engine |
 
 
 ## Code and Schema

@@ -12,22 +12,22 @@ title: CSProjectObject
 
 ???+ bhom "The CSProjectObject in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IBHoMObject](/om_documentation/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
+    -  Base.[IBHoMObject](/api_documentation/oM/Framework/Base/IBHoMObject)
+    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
 
 
 ### Classes inheriting from this class
 
 ???+ bhom "The following classes are inheriting from this class:"
 
-    - XML.CSProject.[Import](/om_documentation/oM/Adapter/XML/CSProject/Import)
-    - XML.CSProject.[IncludedFile](/om_documentation/oM/Adapter/XML/CSProject/IncludedFile)
-    - XML.CSProject.[ItemGroup](/om_documentation/oM/Adapter/XML/CSProject/ItemGroup)
-    - XML.CSProject.[ProjectReference](/om_documentation/oM/Adapter/XML/CSProject/ProjectReference)
-    - XML.CSProject.[Reference](/om_documentation/oM/Adapter/XML/CSProject/Reference)
-    - XML.CSProject.[Project](/om_documentation/oM/Adapter/XML/CSProject/Project)
-    - XML.CSProject.[Configuration](/om_documentation/oM/Adapter/XML/CSProject/Configuration)
-    - XML.CSProject.[PropertyGroup](/om_documentation/oM/Adapter/XML/CSProject/PropertyGroup)
+    - XML.CSProject.[Import](/api_documentation/oM/Adapter/XML/CSProject/Import)
+    - XML.CSProject.[IncludedFile](/api_documentation/oM/Adapter/XML/CSProject/IncludedFile)
+    - XML.CSProject.[ItemGroup](/api_documentation/oM/Adapter/XML/CSProject/ItemGroup)
+    - XML.CSProject.[ProjectReference](/api_documentation/oM/Adapter/XML/CSProject/ProjectReference)
+    - XML.CSProject.[Reference](/api_documentation/oM/Adapter/XML/CSProject/Reference)
+    - XML.CSProject.[Project](/api_documentation/oM/Adapter/XML/CSProject/Project)
+    - XML.CSProject.[Configuration](/api_documentation/oM/Adapter/XML/CSProject/Configuration)
+    - XML.CSProject.[PropertyGroup](/api_documentation/oM/Adapter/XML/CSProject/PropertyGroup)
 
 
 ## Properties
@@ -43,7 +43,7 @@ The following properties are defined on the class
 | BHoM_Guid | [Guid](https://learn.microsoft.com/en-us/dotnet/api/System.Guid?view=netstandard-2.0) | - | - |
 | CustomData | [Dictionary](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.Dictionary-2?view=netstandard-2.0)&lt;[string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0), [object](https://learn.microsoft.com/en-us/dotnet/api/System.Object?view=netstandard-2.0)&gt; | - | - |
 | Name | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | - | - |
-| Fragments | [FragmentSet](/om_documentation/oM/Framework/Base/FragmentSet) | - | - |
+| Fragments | [FragmentSet](/api_documentation/oM/Framework/Base/FragmentSet) | - | - |
 | Tags | [HashSet](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.HashSet-1?view=netstandard-2.0)&lt;[string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0)&gt; | - | - |
 
 

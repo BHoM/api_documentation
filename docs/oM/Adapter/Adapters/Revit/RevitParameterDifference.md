@@ -12,8 +12,8 @@ Represents a difference in terms of RevitParameters found between a Previous and
 
 ???+ bhom "The RevitParameterDifference in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Diffing.[IPropertyDifference](/om_documentation/oM/Framework/Diffing/IPropertyDifference)
-    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
+    -  Diffing.[IPropertyDifference](/api_documentation/oM/Framework/Diffing/IPropertyDifference)
+    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
 
 
 ## Properties
@@ -32,7 +32,7 @@ The following properties are defined on the class
 | FollowingValue | [object](https://learn.microsoft.com/en-us/dotnet/api/System.Object?view=netstandard-2.0) | The newer value of this RevitParameter (associated with the following version of the object). | - |
 | UnitType | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | Unit type of the Revit parameter. | - |
 | FullName | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | Full Name of the object's property that owns the RevitParameter that was different. | - |
-| DifferenceType | [RevitParameterDifferenceType](/om_documentation/oM/Adapter/Adapters/Revit/Enums/RevitParameterDifferenceType) | Whether the RevitParameter that is Different was Modified, Removed or Added with respect to the old version of the owner object. Useful for filtering. | - |
+| DifferenceType | [RevitParameterDifferenceType](/api_documentation/oM/Adapter/Adapters/Revit/Enums/RevitParameterDifferenceType) | Whether the RevitParameter that is Different was Modified, Removed or Added with respect to the old version of the owner object. Useful for filtering. | - |
 
 
 ## Code and Schema

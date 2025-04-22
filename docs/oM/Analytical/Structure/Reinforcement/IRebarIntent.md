@@ -12,16 +12,16 @@ Base interface for any rebar intent.
 
 ???+ bhom "The IRebarIntent in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IBHoMObject](/om_documentation/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
+    -  Base.[IBHoMObject](/api_documentation/oM/Framework/Base/IBHoMObject)
+    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Structure.Reinforcement.[BarRebarIntent](/om_documentation/oM/Analytical/Structure/Reinforcement/BarRebarIntent)
-    - Structure.Reinforcement.[PanelRebarIntent](/om_documentation/oM/Analytical/Structure/Reinforcement/PanelRebarIntent)
+    - Structure.Reinforcement.[BarRebarIntent](/api_documentation/oM/Analytical/Structure/Reinforcement/BarRebarIntent)
+    - Structure.Reinforcement.[PanelRebarIntent](/api_documentation/oM/Analytical/Structure/Reinforcement/PanelRebarIntent)
 
 
 ## Properties

@@ -12,10 +12,10 @@ Air Handling Units are devices which house fans, filter, coils, and energy wheel
 
 ???+ bhom "The AirHandlingUnit in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[BHoMObject](/om_documentation/oM/Framework/Base/BHoMObject)
-    -  Base.[IBHoMObject](/om_documentation/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
-    -  MEP.Equipment.[IEquipment](/om_documentation/oM/Analytical/MEP/Equipment/IEquipment)
+    -  Base.[BHoMObject](/api_documentation/oM/Framework/Base/BHoMObject)
+    -  Base.[IBHoMObject](/api_documentation/oM/Framework/Base/IBHoMObject)
+    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
+    -  MEP.Equipment.[IEquipment](/api_documentation/oM/Analytical/MEP/Equipment/IEquipment)
 
 
 ## Properties
@@ -31,7 +31,7 @@ The following properties are defined on the class
 | Type | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | Type denotes the kind of Air Handling Unit (eg heat and ventilation, energy recovery) | - |
 | TotalAirFlow | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Total Airflow accounts for the maximum amount of supply/outside air that the Air Handling Unit will be passing. This value is measured in m3/s (e.g. 2.35 m3/s (5000 CFM) of Outside Air) | - |
 | AirVelocityAcrossCoil | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Air velocity across coil denotes the maximum velocity of the air that should be passed along the Air Handling Unit's coil. This value is measured in m/s (maximum values around 2.5 m/s (500 ft/min) are considered best practice) | - |
-| Parts | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[IPart](/om_documentation/oM/Analytical/MEP/Equipment/Parts/IPart)&gt; | A collection of the parts (Air Handling Unit, Fans, Coils, Energy Wheel, Filters, Electrical Connectors) that make up the Air Handling Unit | - |
+| Parts | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[IPart](/api_documentation/oM/Analytical/MEP/Equipment/Parts/IPart)&gt; | A collection of the parts (Air Handling Unit, Fans, Coils, Energy Wheel, Filters, Electrical Connectors) that make up the Air Handling Unit | - |
 
 
 ### Inherited properties
@@ -41,7 +41,7 @@ The following properties are inherited from the base class of the object
 |------------------|------------------|------------------|------------------|
 | BHoM_Guid | [Guid](https://learn.microsoft.com/en-us/dotnet/api/System.Guid?view=netstandard-2.0) | - | - |
 | Name | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | - | - |
-| Fragments | [FragmentSet](/om_documentation/oM/Framework/Base/FragmentSet) | - | - |
+| Fragments | [FragmentSet](/api_documentation/oM/Framework/Base/FragmentSet) | - | - |
 | Tags | [HashSet](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.HashSet-1?view=netstandard-2.0)&lt;[string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0)&gt; | - | - |
 | CustomData | [Dictionary](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.Dictionary-2?view=netstandard-2.0)&lt;[string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0), [object](https://learn.microsoft.com/en-us/dotnet/api/System.Object?view=netstandard-2.0)&gt; | - | - |
 

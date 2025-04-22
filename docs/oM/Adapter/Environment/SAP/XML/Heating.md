@@ -12,9 +12,9 @@ title: Heating
 
 ???+ bhom "The Heating in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[BHoMObject](/om_documentation/oM/Framework/Base/BHoMObject)
-    -  Base.[IBHoMObject](/om_documentation/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
+    -  Base.[BHoMObject](/api_documentation/oM/Framework/Base/BHoMObject)
+    -  Base.[IBHoMObject](/api_documentation/oM/Framework/Base/IBHoMObject)
+    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
 
 
 ## Properties
@@ -27,7 +27,7 @@ The following properties are defined on the class
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| MainHeatingDetails | [MainHeatingDetails](/om_documentation/oM/Adapter/Environment/SAP/XML/MainHeatingDetails) | . | - |
+| MainHeatingDetails | [MainHeatingDetails](/api_documentation/oM/Adapter/Environment/SAP/XML/MainHeatingDetails) | . | - |
 | SecondaryHeatingCategory | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | Category of heating system for the secondary heating system. | - |
 | SecondaryHeatingDataSource | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | Source of secondary heating system data; only if secondary heating system. | - |
 | SecondaryHeatingEfficiency | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | . | - |
@@ -64,17 +64,17 @@ The following properties are defined on the class
 | IsThermalStoreOrCPSUInAiringCupboard | [Nullable](https://learn.microsoft.com/en-us/dotnet/api/System.Nullable-1?view=netstandard-2.0)&lt;[bool](https://learn.microsoft.com/en-us/dotnet/api/System.Boolean?view=netstandard-2.0)&gt; | Thermal store or CPSU in airing cupboard?  Only if (a) boiler with integrated or hot-water-only thermal store, or (b) main heating is CPSU. | - |
 | HotWaterControlsManufacturer | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | . | - |
 | HotWaterControlsModel | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | . | - |
-| CommunityHeatingSystems | [CommunityHeatingSystems](/om_documentation/oM/Adapter/Environment/SAP/XML/CommunityHeatingSystems) | Community heating systems used by the property. | - |
+| CommunityHeatingSystems | [CommunityHeatingSystems](/api_documentation/oM/Adapter/Environment/SAP/XML/CommunityHeatingSystems) | Community heating systems used by the property. | - |
 | HeatingDesignWaterUse | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | . | - |
 | MainHeatingSystemsInteraction | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | . | - |
-| SecondaryHeatingDeclaredValues | [HeatingDeclaredValues](/om_documentation/oM/Adapter/Environment/SAP/XML/HeatingDeclaredValues) | Use when manufacturer’s declared values. | - |
-| SolarHeatingDetails | [SolarHeatingDetails](/om_documentation/oM/Adapter/Environment/SAP/XML/SolarHeatingDetails) | . | - |
-| StorageWHRS | [StorageWWHRS](/om_documentation/oM/Adapter/Environment/SAP/XML/StorageWWHRS) | . | - |
+| SecondaryHeatingDeclaredValues | [HeatingDeclaredValues](/api_documentation/oM/Adapter/Environment/SAP/XML/HeatingDeclaredValues) | Use when manufacturer’s declared values. | - |
+| SolarHeatingDetails | [SolarHeatingDetails](/api_documentation/oM/Adapter/Environment/SAP/XML/SolarHeatingDetails) | . | - |
+| StorageWHRS | [StorageWWHRS](/api_documentation/oM/Adapter/Environment/SAP/XML/StorageWWHRS) | . | - |
 | HasFixedAirConditioning | [Nullable](https://learn.microsoft.com/en-us/dotnet/api/System.Nullable-1?view=netstandard-2.0)&lt;[bool](https://learn.microsoft.com/en-us/dotnet/api/System.Boolean?view=netstandard-2.0)&gt; | Fixed air conditioning?. | - |
-| ShowerOutlets | [ShowerOutlets](/om_documentation/oM/Adapter/Environment/SAP/XML/ShowerOutlets) | . | - |
+| ShowerOutlets | [ShowerOutlets](/api_documentation/oM/Adapter/Environment/SAP/XML/ShowerOutlets) | . | - |
 | NumberBaths | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | . | - |
 | NumberBathsWWHRS | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | . | - |
-| InstantaneousWHRS | [InstantaneousWWHRS](/om_documentation/oM/Adapter/Environment/SAP/XML/InstantaneousWWHRS) | Waste Water Heat Recovery System. | - |
+| InstantaneousWHRS | [InstantaneousWWHRS](/api_documentation/oM/Adapter/Environment/SAP/XML/InstantaneousWWHRS) | Waste Water Heat Recovery System. | - |
 
 
 ### Inherited properties
@@ -84,7 +84,7 @@ The following properties are inherited from the base class of the object
 |------------------|------------------|------------------|------------------|
 | BHoM_Guid | [Guid](https://learn.microsoft.com/en-us/dotnet/api/System.Guid?view=netstandard-2.0) | - | - |
 | Name | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | - | - |
-| Fragments | [FragmentSet](/om_documentation/oM/Framework/Base/FragmentSet) | - | - |
+| Fragments | [FragmentSet](/api_documentation/oM/Framework/Base/FragmentSet) | - | - |
 | Tags | [HashSet](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.HashSet-1?view=netstandard-2.0)&lt;[string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0)&gt; | - | - |
 | CustomData | [Dictionary](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.Dictionary-2?view=netstandard-2.0)&lt;[string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0), [object](https://learn.microsoft.com/en-us/dotnet/api/System.Object?view=netstandard-2.0)&gt; | - | - |
 

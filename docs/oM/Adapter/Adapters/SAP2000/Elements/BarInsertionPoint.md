@@ -12,8 +12,8 @@ title: BarInsertionPoint
 
 ???+ bhom "The BarInsertionPoint in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IFragment](/om_documentation/oM/Framework/Base/IFragment)
-    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
+    -  Base.[IFragment](/api_documentation/oM/Framework/Base/IFragment)
+    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
 
 
 ## Properties
@@ -26,7 +26,7 @@ The following properties are defined on the class
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| InsertionPoint | [BarInsertionPointLocation](/om_documentation/oM/Adapter/Adapters/SAP2000/BarInsertionPointLocation) | Bar insertion point based on cross section. | - |
+| InsertionPoint | [BarInsertionPointLocation](/api_documentation/oM/Adapter/Adapters/SAP2000/BarInsertionPointLocation) | Bar insertion point based on cross section. | - |
 | ModifyStiffness | [bool](https://learn.microsoft.com/en-us/dotnet/api/System.Boolean?view=netstandard-2.0) | Transform frame stiffness for offsets from centroid. | - |
 
 

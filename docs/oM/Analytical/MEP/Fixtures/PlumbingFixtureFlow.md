@@ -12,10 +12,10 @@ Flow properties of a plumbing fixture
 
 ???+ bhom "The PlumbingFixtureFlow in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[BHoMObject](/om_documentation/oM/Framework/Base/BHoMObject)
-    -  Base.[IBHoMObject](/om_documentation/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
-    -  MEP.Fixtures.[IFixtureFlow](/om_documentation/oM/Analytical/MEP/Fixtures/IFixtureFlow)
+    -  Base.[BHoMObject](/api_documentation/oM/Framework/Base/BHoMObject)
+    -  Base.[IBHoMObject](/api_documentation/oM/Framework/Base/IBHoMObject)
+    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
+    -  MEP.Fixtures.[IFixtureFlow](/api_documentation/oM/Analytical/MEP/Fixtures/IFixtureFlow)
 
 
 ## Properties
@@ -28,16 +28,16 @@ The following properties are defined on the class
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| ClothesWasherVolumePerUse | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Volume of fluid supplied to a clothes washer per use through the plumbing fixture. | [Volume](/om_documentation/oM/Dimensional/Quantities/Attributes/Volume) [m³] |
-| DishWasherVolumePerUse | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Volume of fluid supplied to a dish washer per use through the plumbing fixture. | [Volume](/om_documentation/oM/Dimensional/Quantities/Attributes/Volume) [m³] |
-| KitchenFaucetAssumedUse | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Duration of use measured in seconds. | [Time](/om_documentation/oM/Dimensional/Quantities/Attributes/Time) [s] |
-| KitchenFaucetVolumePerUse | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Volume of fluid supplied to a kitchen faucet per use through the plumbing fixture. | [Volume](/om_documentation/oM/Dimensional/Quantities/Attributes/Volume) [m³] |
-| LavatoryAssumedUse | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Duration of use measured in seconds. | [Time](/om_documentation/oM/Dimensional/Quantities/Attributes/Time) [s] |
-| LavatoryVolumePerUse | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Volume of fluid supplied to a lavatory per use through the plumbing fixture. | [Volume](/om_documentation/oM/Dimensional/Quantities/Attributes/Volume) [m³] |
-| ShowerVolumePerUse | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Volume of fluid supplied to a people washer per use through the plumbing fixture. | [Volume](/om_documentation/oM/Dimensional/Quantities/Attributes/Volume) [m³] |
-| ShowerAssumedUse | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Duration of use measured in seconds. | [Time](/om_documentation/oM/Dimensional/Quantities/Attributes/Time) [s] |
-| ToiletVolumePerUse | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Volume of fluid supplied to a toilet per use through the plumbing fixture. | [Volume](/om_documentation/oM/Dimensional/Quantities/Attributes/Volume) [m³] |
-| UrinalVolumePerUse | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Volume of fluid supplied to a urinal per use through the plumbing fixture. | [Volume](/om_documentation/oM/Dimensional/Quantities/Attributes/Volume) [m³] |
+| ClothesWasherVolumePerUse | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Volume of fluid supplied to a clothes washer per use through the plumbing fixture. | [Volume](/api_documentation/oM/Dimensional/Quantities/Attributes/Volume) [m³] |
+| DishWasherVolumePerUse | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Volume of fluid supplied to a dish washer per use through the plumbing fixture. | [Volume](/api_documentation/oM/Dimensional/Quantities/Attributes/Volume) [m³] |
+| KitchenFaucetAssumedUse | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Duration of use measured in seconds. | [Time](/api_documentation/oM/Dimensional/Quantities/Attributes/Time) [s] |
+| KitchenFaucetVolumePerUse | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Volume of fluid supplied to a kitchen faucet per use through the plumbing fixture. | [Volume](/api_documentation/oM/Dimensional/Quantities/Attributes/Volume) [m³] |
+| LavatoryAssumedUse | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Duration of use measured in seconds. | [Time](/api_documentation/oM/Dimensional/Quantities/Attributes/Time) [s] |
+| LavatoryVolumePerUse | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Volume of fluid supplied to a lavatory per use through the plumbing fixture. | [Volume](/api_documentation/oM/Dimensional/Quantities/Attributes/Volume) [m³] |
+| ShowerVolumePerUse | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Volume of fluid supplied to a people washer per use through the plumbing fixture. | [Volume](/api_documentation/oM/Dimensional/Quantities/Attributes/Volume) [m³] |
+| ShowerAssumedUse | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Duration of use measured in seconds. | [Time](/api_documentation/oM/Dimensional/Quantities/Attributes/Time) [s] |
+| ToiletVolumePerUse | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Volume of fluid supplied to a toilet per use through the plumbing fixture. | [Volume](/api_documentation/oM/Dimensional/Quantities/Attributes/Volume) [m³] |
+| UrinalVolumePerUse | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Volume of fluid supplied to a urinal per use through the plumbing fixture. | [Volume](/api_documentation/oM/Dimensional/Quantities/Attributes/Volume) [m³] |
 
 
 ### Inherited properties
@@ -47,7 +47,7 @@ The following properties are inherited from the base class of the object
 |------------------|------------------|------------------|------------------|
 | BHoM_Guid | [Guid](https://learn.microsoft.com/en-us/dotnet/api/System.Guid?view=netstandard-2.0) | - | - |
 | Name | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | - | - |
-| Fragments | [FragmentSet](/om_documentation/oM/Framework/Base/FragmentSet) | - | - |
+| Fragments | [FragmentSet](/api_documentation/oM/Framework/Base/FragmentSet) | - | - |
 | Tags | [HashSet](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.HashSet-1?view=netstandard-2.0)&lt;[string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0)&gt; | - | - |
 | CustomData | [Dictionary](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.Dictionary-2?view=netstandard-2.0)&lt;[string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0), [object](https://learn.microsoft.com/en-us/dotnet/api/System.Object?view=netstandard-2.0)&gt; | - | - |
 

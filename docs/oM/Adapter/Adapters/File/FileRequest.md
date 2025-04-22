@@ -12,11 +12,11 @@ Used to query Files from a Parent directory.
 
 ???+ bhom "The FileRequest in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Adapters.File.[IFileRequest](/om_documentation/oM/Adapter/Adapters/File/IFileRequest)
-    -  Adapters.File.[ISortableRequest](/om_documentation/oM/Adapter/Adapters/File/ISortableRequest)
-    -  Data.Requests.[IRequest](/om_documentation/oM/Framework/Data/Requests/IRequest)
-    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
-    -  Adapters.File.[IResourceRequest](/om_documentation/oM/Adapter/Adapters/File/IResourceRequest)
+    -  Adapters.File.[IFileRequest](/api_documentation/oM/Adapter/Adapters/File/IFileRequest)
+    -  Adapters.File.[ISortableRequest](/api_documentation/oM/Adapter/Adapters/File/ISortableRequest)
+    -  Data.Requests.[IRequest](/api_documentation/oM/Framework/Data/Requests/IRequest)
+    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
+    -  Adapters.File.[IResourceRequest](/api_documentation/oM/Adapter/Adapters/File/IResourceRequest)
 
 
 ## Properties
@@ -32,7 +32,7 @@ The following properties are defined on the class
 | Location | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | Files from this location will be queried. | - |
 | SearchSubdirectories | [bool](https://learn.microsoft.com/en-us/dotnet/api/System.Boolean?view=netstandard-2.0) | If enabled, look also in subdirectories. | - |
 | MaxNesting | [int](https://learn.microsoft.com/en-us/dotnet/api/System.Int32?view=netstandard-2.0) | If SearchSubdirectories is true, this sets the maximum subdirectiory nesting level to look in.<br>Defaults to -1 which corresponds to no limit. | - |
-| SortOrder | [SortOrder](/om_documentation/oM/Adapter/Adapters/File/SortOrder) | Sorting order of the extracted Files. | - |
+| SortOrder | [SortOrder](/api_documentation/oM/Adapter/Adapters/File/SortOrder) | Sorting order of the extracted Files. | - |
 | MaxFiles | [int](https://learn.microsoft.com/en-us/dotnet/api/System.Int32?view=netstandard-2.0) | Sets the maximum number of Files to retrieve, useful when using SearchSubdirectories.<br>Defaults to -1 which corresponds to no limit. | - |
 | IncludeFileContents | [bool](https://learn.microsoft.com/en-us/dotnet/api/System.Boolean?view=netstandard-2.0) | Whether to include the contents of the Files. | - |
 | Exclusions | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[object](https://learn.microsoft.com/en-us/dotnet/api/System.Object?view=netstandard-2.0)&gt; | These files will be excluded from the results.<br>You can also specify string Full Paths. | - |
@@ -44,7 +44,7 @@ The following properties are defined as extension methods in one of the BHoM_Eng
 
 | Name             | Type             | Description      | Quantity         | Engine           |
 |------------------|------------------|------------------|------------------|------------------|
-| Discipline | [Nullable](https://learn.microsoft.com/en-us/dotnet/api/System.Nullable-1?view=netstandard-2.0)&lt;[Discipline](/om_documentation/oM/Adapter/Adapters/Revit/Enums/Discipline)&gt; | Gets discipline enforced by the Request. If the result is different than defaultDiscipline and neither of two is Undefined, null is returned (the result discipline is conflicting with defaultDiscipline). | - | Revit_Engine |
+| Discipline | [Nullable](https://learn.microsoft.com/en-us/dotnet/api/System.Nullable-1?view=netstandard-2.0)&lt;[Discipline](/api_documentation/oM/Adapter/Adapters/Revit/Enums/Discipline)&gt; | Gets discipline enforced by the Request. If the result is different than defaultDiscipline and neither of two is Undefined, null is returned (the result discipline is conflicting with defaultDiscipline). | - | Revit_Engine |
 | IFilterDescription | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | Returns a description of the filter represented by the given IRequest. | - | Revit_Engine |
 
 

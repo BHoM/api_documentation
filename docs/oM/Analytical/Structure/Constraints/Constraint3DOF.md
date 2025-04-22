@@ -12,10 +12,10 @@ Constraint objects with three translational degrees of freedom, used for support
 
 ???+ bhom "The Constraint3DOF in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[BHoMObject](/om_documentation/oM/Framework/Base/BHoMObject)
-    -  Base.[IBHoMObject](/om_documentation/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
-    -  Structure.[IProperty](/om_documentation/oM/Analytical/Structure/IProperty)
+    -  Base.[BHoMObject](/api_documentation/oM/Framework/Base/BHoMObject)
+    -  Base.[IBHoMObject](/api_documentation/oM/Framework/Base/IBHoMObject)
+    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
+    -  Structure.[IProperty](/api_documentation/oM/Analytical/Structure/IProperty)
 
 
 ## Properties
@@ -29,12 +29,12 @@ The following properties are defined on the class
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
 | Name | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | A unique Name is required for some structural packages to create and identify the object. | - |
-| UX | [DOFType](/om_documentation/oM/Analytical/Structure/Constraints/DOFType) | Defines the translational fixity in the X-direction. | - |
-| UY | [DOFType](/om_documentation/oM/Analytical/Structure/Constraints/DOFType) | Defines the translational fixity in the Y-direction. | - |
-| Normal | [DOFType](/om_documentation/oM/Analytical/Structure/Constraints/DOFType) | Defines the translational fixity in the Z- or Normal-direction. | - |
-| KX | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Defines the stiffness in X-direction. This will only be active when corresponding degree of freedom has a DOFType with a stiffness dependency, such as Spring. | [ForcePerUnitLength](/om_documentation/oM/Dimensional/Quantities/Attributes/ForcePerUnitLength) [N/m] |
-| KY | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Defines the stiffness in Y-direction. This will only be active when corresponding degree of freedom has a DOFType with a stiffness dependency, such as Spring. | [ForcePerUnitLength](/om_documentation/oM/Dimensional/Quantities/Attributes/ForcePerUnitLength) [N/m] |
-| KNorm | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Defines the stiffness in Z- or Normal-direction. This will only be active when corresponding degree of freedom has a DOFType with a stiffness dependency, such as Spring. | [ForcePerUnitLength](/om_documentation/oM/Dimensional/Quantities/Attributes/ForcePerUnitLength) [N/m] |
+| UX | [DOFType](/api_documentation/oM/Analytical/Structure/Constraints/DOFType) | Defines the translational fixity in the X-direction. | - |
+| UY | [DOFType](/api_documentation/oM/Analytical/Structure/Constraints/DOFType) | Defines the translational fixity in the Y-direction. | - |
+| Normal | [DOFType](/api_documentation/oM/Analytical/Structure/Constraints/DOFType) | Defines the translational fixity in the Z- or Normal-direction. | - |
+| KX | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Defines the stiffness in X-direction. This will only be active when corresponding degree of freedom has a DOFType with a stiffness dependency, such as Spring. | [ForcePerUnitLength](/api_documentation/oM/Dimensional/Quantities/Attributes/ForcePerUnitLength) [N/m] |
+| KY | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Defines the stiffness in Y-direction. This will only be active when corresponding degree of freedom has a DOFType with a stiffness dependency, such as Spring. | [ForcePerUnitLength](/api_documentation/oM/Dimensional/Quantities/Attributes/ForcePerUnitLength) [N/m] |
+| KNorm | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Defines the stiffness in Z- or Normal-direction. This will only be active when corresponding degree of freedom has a DOFType with a stiffness dependency, such as Spring. | [ForcePerUnitLength](/api_documentation/oM/Dimensional/Quantities/Attributes/ForcePerUnitLength) [N/m] |
 
 
 ### Inherited properties
@@ -43,7 +43,7 @@ The following properties are inherited from the base class of the object
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
 | BHoM_Guid | [Guid](https://learn.microsoft.com/en-us/dotnet/api/System.Guid?view=netstandard-2.0) | - | - |
-| Fragments | [FragmentSet](/om_documentation/oM/Framework/Base/FragmentSet) | - | - |
+| Fragments | [FragmentSet](/api_documentation/oM/Framework/Base/FragmentSet) | - | - |
 | Tags | [HashSet](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.HashSet-1?view=netstandard-2.0)&lt;[string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0)&gt; | - | - |
 | CustomData | [Dictionary](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.Dictionary-2?view=netstandard-2.0)&lt;[string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0), [object](https://learn.microsoft.com/en-us/dotnet/api/System.Object?view=netstandard-2.0)&gt; | - | - |
 

@@ -13,9 +13,9 @@ Consider that your tookit might have a more specific implementation available. T
 
 ???+ bhom "The SAPMarkUpPullConfig in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Adapter.[ActionConfig](/om_documentation/oM/Framework/Adapter/ActionConfig)
-    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
-    -  Environment.SAP.[ISAPPullConfig](/om_documentation/oM/Adapter/Environment/SAP/ISAPPullConfig)
+    -  Adapter.[ActionConfig](/api_documentation/oM/Framework/Adapter/ActionConfig)
+    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
+    -  Environment.SAP.[ISAPPullConfig](/api_documentation/oM/Adapter/Environment/SAP/ISAPPullConfig)
 
 
 ## Properties
@@ -28,17 +28,17 @@ The following properties are defined on the class
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| SAPMarkupFile | [FileSettings](/om_documentation/oM/Framework/Adapter/FileSettings) | Set the location of the Bluebeam SAP XML markup file. | - |
-| ExcelFile | [FileSettings](/om_documentation/oM/Framework/Adapter/FileSettings) | Set the location of the Excel schedules definitions file. | - |
-| BluebeamConfig | [BluebeamConfig](/om_documentation/oM/Adapter/Environment/SAP/BluebeamConfig) | Set the Bluebeam configuration options to define how information should be pulled from the Bluebeam SAP XML markups. | - |
+| SAPMarkupFile | [FileSettings](/api_documentation/oM/Framework/Adapter/FileSettings) | Set the location of the Bluebeam SAP XML markup file. | - |
+| ExcelFile | [FileSettings](/api_documentation/oM/Framework/Adapter/FileSettings) | Set the location of the Excel schedules definitions file. | - |
+| BluebeamConfig | [BluebeamConfig](/api_documentation/oM/Adapter/Environment/SAP/BluebeamConfig) | Set the Bluebeam configuration options to define how information should be pulled from the Bluebeam SAP XML markups. | - |
 | HeatingFileDirectory | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | Set the directory where heating file template XMLs can be found. | - |
-| FloorDefinitionsRequest | [CellContentsRequest](/om_documentation/oM/Adapter/Adapters/Excel/CellContentsRequest) | Provide the location within the Excel schedules definitions files for pulling Floor Schedule information. | - |
-| RoofDefinitionsRequest | [CellContentsRequest](/om_documentation/oM/Adapter/Adapters/Excel/CellContentsRequest) | Provide the location within the Excel schedules definitions files for pulling Roof Schedule information. | - |
-| WallDefinitionsRequest | [CellContentsRequest](/om_documentation/oM/Adapter/Adapters/Excel/CellContentsRequest) | Provide the location within the Excel schedules definitions files for pulling Wall Schedule information. | - |
-| PsiValuesRequest | [CellContentsRequest](/om_documentation/oM/Adapter/Adapters/Excel/CellContentsRequest) | Provide the location within the Excel schedules definitions files for pulling PSI Value information. | - |
-| OpeningDefinitionsRequest | [CellContentsRequest](/om_documentation/oM/Adapter/Adapters/Excel/CellContentsRequest) | Provide the location within the Excel schedules definitions files for pulling Opening Schedule information. | - |
-| OpeningPsiValuesRequest | [CellContentsRequest](/om_documentation/oM/Adapter/Adapters/Excel/CellContentsRequest) | Provide the location within the Excel schedules definitions files for pulling Opening PSI Value information. | - |
-| DwellingSchedulesRequest | [CellContentsRequest](/om_documentation/oM/Adapter/Adapters/Excel/CellContentsRequest) | Provide the location within the Excel schedules definitions files for pulling Dwelling Schedule information. | - |
+| FloorDefinitionsRequest | [CellContentsRequest](/api_documentation/oM/Adapter/Adapters/Excel/CellContentsRequest) | Provide the location within the Excel schedules definitions files for pulling Floor Schedule information. | - |
+| RoofDefinitionsRequest | [CellContentsRequest](/api_documentation/oM/Adapter/Adapters/Excel/CellContentsRequest) | Provide the location within the Excel schedules definitions files for pulling Roof Schedule information. | - |
+| WallDefinitionsRequest | [CellContentsRequest](/api_documentation/oM/Adapter/Adapters/Excel/CellContentsRequest) | Provide the location within the Excel schedules definitions files for pulling Wall Schedule information. | - |
+| PsiValuesRequest | [CellContentsRequest](/api_documentation/oM/Adapter/Adapters/Excel/CellContentsRequest) | Provide the location within the Excel schedules definitions files for pulling PSI Value information. | - |
+| OpeningDefinitionsRequest | [CellContentsRequest](/api_documentation/oM/Adapter/Adapters/Excel/CellContentsRequest) | Provide the location within the Excel schedules definitions files for pulling Opening Schedule information. | - |
+| OpeningPsiValuesRequest | [CellContentsRequest](/api_documentation/oM/Adapter/Adapters/Excel/CellContentsRequest) | Provide the location within the Excel schedules definitions files for pulling Opening PSI Value information. | - |
+| DwellingSchedulesRequest | [CellContentsRequest](/api_documentation/oM/Adapter/Adapters/Excel/CellContentsRequest) | Provide the location within the Excel schedules definitions files for pulling Dwelling Schedule information. | - |
 
 
 ### Inherited properties
@@ -48,7 +48,7 @@ The following properties are inherited from the base class of the object
 |------------------|------------------|------------------|------------------|
 | WrapNonBHoMObjects | [bool](https://learn.microsoft.com/en-us/dotnet/api/System.Boolean?view=netstandard-2.0) | If true, the Push action wraps any non-BHoM type into a BH.oM.Adapter.ObjectWrapper, allowing them to make use of the full Adapter workflow. | - |
 | AllowHashForComparing | [bool](https://learn.microsoft.com/en-us/dotnet/api/System.Boolean?view=netstandard-2.0) | If true and if no specific EqualityComparer is found for the type, Diffing hashes are computed and used to compare the objects. | - |
-| DiffingConfig | [DiffingConfig](/om_documentation/oM/Framework/Diffing/DiffingConfig) | Configurations for the Diffing hashing. Requires `AllowHashForComparing` to be set to true. | - |
+| DiffingConfig | [DiffingConfig](/api_documentation/oM/Framework/Diffing/DiffingConfig) | Configurations for the Diffing hashing. Requires `AllowHashForComparing` to be set to true. | - |
 
 
 ## Code and Schema

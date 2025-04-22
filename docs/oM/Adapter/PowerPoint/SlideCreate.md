@@ -12,12 +12,12 @@ Use with a push action to create a new slide from a slide layout in the first sl
 
 ???+ bhom "The SlideCreate in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[BHoMObject](/om_documentation/oM/Framework/Base/BHoMObject)
-    -  Base.[IBHoMObject](/om_documentation/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
-    -  PowerPoint.[ISlideCreate](/om_documentation/oM/Adapter/PowerPoint/ISlideCreate)
-    -  PowerPoint.[IPowerPointModification](/om_documentation/oM/Adapter/PowerPoint/IPowerPointModification)
-    -  Base.[IImmutable](/om_documentation/oM/Framework/Base/IImmutable)
+    -  Base.[BHoMObject](/api_documentation/oM/Framework/Base/BHoMObject)
+    -  Base.[IBHoMObject](/api_documentation/oM/Framework/Base/IBHoMObject)
+    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
+    -  PowerPoint.[ISlideCreate](/api_documentation/oM/Adapter/PowerPoint/ISlideCreate)
+    -  PowerPoint.[IPowerPointModification](/api_documentation/oM/Adapter/PowerPoint/IPowerPointModification)
+    -  Base.[IImmutable](/api_documentation/oM/Framework/Base/IImmutable)
 
 
 ## Properties
@@ -33,7 +33,7 @@ The following properties are defined on the class
 | SlideMasterName | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | The name of the slide master to get the layout from. If this is blank, the first slide master in the list will be used instead. | - |
 | LayoutName | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | The name of the layout to use from the slide master. | - |
 | SlideNumber | [int](https://learn.microsoft.com/en-us/dotnet/api/System.Int32?view=netstandard-2.0) | The location to place the slide in the presentation, starting from 1. -1 to append the slide to the end of the presentation. | - |
-| SlideUpdates | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[ISlideUpdate](/om_documentation/oM/Adapter/PowerPoint/ISlideUpdate)&gt; | The slide updates to be applied to the created slide. Any set slide numbers will b | - |
+| SlideUpdates | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[ISlideUpdate](/api_documentation/oM/Adapter/PowerPoint/ISlideUpdate)&gt; | The slide updates to be applied to the created slide. Any set slide numbers will b | - |
 
 
 ### Inherited properties
@@ -43,7 +43,7 @@ The following properties are inherited from the base class of the object
 |------------------|------------------|------------------|------------------|
 | BHoM_Guid | [Guid](https://learn.microsoft.com/en-us/dotnet/api/System.Guid?view=netstandard-2.0) | - | - |
 | Name | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | - | - |
-| Fragments | [FragmentSet](/om_documentation/oM/Framework/Base/FragmentSet) | - | - |
+| Fragments | [FragmentSet](/api_documentation/oM/Framework/Base/FragmentSet) | - | - |
 | Tags | [HashSet](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.HashSet-1?view=netstandard-2.0)&lt;[string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0)&gt; | - | - |
 | CustomData | [Dictionary](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.Dictionary-2?view=netstandard-2.0)&lt;[string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0), [object](https://learn.microsoft.com/en-us/dotnet/api/System.Object?view=netstandard-2.0)&gt; | - | - |
 

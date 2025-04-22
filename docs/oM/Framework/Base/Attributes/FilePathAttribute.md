@@ -12,10 +12,10 @@ Path to a file in the client's file system.
 
 ???+ bhom "The FilePathAttribute in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.Attributes.[ClassificationAttribute](/om_documentation/oM/Framework/Base/Attributes/ClassificationAttribute)
+    -  Base.Attributes.[ClassificationAttribute](/api_documentation/oM/Framework/Base/Attributes/ClassificationAttribute)
     -  [Attribute](https://learn.microsoft.com/en-us/dotnet/api/System.Attribute?view=netstandard-2.0)
-    -  Base.[IImmutable](/om_documentation/oM/Framework/Base/IImmutable)
-    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
+    -  Base.[IImmutable](/api_documentation/oM/Framework/Base/IImmutable)
+    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
 
 
 ## Properties

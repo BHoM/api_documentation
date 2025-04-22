@@ -12,9 +12,9 @@ Definition of a single uniform load in the gravity direction (-Z), to be added t
 
 ???+ bhom "The UniformLoadSetRecord in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[BHoMObject](/om_documentation/oM/Framework/Base/BHoMObject)
-    -  Base.[IBHoMObject](/om_documentation/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
+    -  Base.[BHoMObject](/api_documentation/oM/Framework/Base/BHoMObject)
+    -  Base.[IBHoMObject](/api_documentation/oM/Framework/Base/IBHoMObject)
+    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
 
 
 ## Properties
@@ -28,8 +28,8 @@ The following properties are defined on the class
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
 | Name | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | Description of the source of this load, such as: 'Partitions', 'Occupancy', or 'MEP &amp; Ceiling' | - |
-| Loadcase | [Loadcase](/om_documentation/oM/Analytical/Structure/Loads/Loadcase) | The Loadcase in which to apply this load. | - |
-| Load | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | The magnitude of this load, generally to be applied as an AreaUniformLoad in the gravity direction (-Z) | [Pressure](/om_documentation/oM/Dimensional/Quantities/Attributes/Pressure) [Pa] |
+| Loadcase | [Loadcase](/api_documentation/oM/Analytical/Structure/Loads/Loadcase) | The Loadcase in which to apply this load. | - |
+| Load | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | The magnitude of this load, generally to be applied as an AreaUniformLoad in the gravity direction (-Z) | [Pressure](/api_documentation/oM/Dimensional/Quantities/Attributes/Pressure) [Pa] |
 
 
 ### Inherited properties
@@ -38,7 +38,7 @@ The following properties are inherited from the base class of the object
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
 | BHoM_Guid | [Guid](https://learn.microsoft.com/en-us/dotnet/api/System.Guid?view=netstandard-2.0) | - | - |
-| Fragments | [FragmentSet](/om_documentation/oM/Framework/Base/FragmentSet) | - | - |
+| Fragments | [FragmentSet](/api_documentation/oM/Framework/Base/FragmentSet) | - | - |
 | Tags | [HashSet](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.HashSet-1?view=netstandard-2.0)&lt;[string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0)&gt; | - | - |
 | CustomData | [Dictionary](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.Dictionary-2?view=netstandard-2.0)&lt;[string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0), [object](https://learn.microsoft.com/en-us/dotnet/api/System.Object?view=netstandard-2.0)&gt; | - | - |
 

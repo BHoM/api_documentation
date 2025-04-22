@@ -12,8 +12,8 @@ title: SunPathData
 
 ???+ bhom "The SunPathData in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  LadybugTools.[ISimulationData](/om_documentation/oM/Adapter/LadybugTools/ISimulationData)
-    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
+    -  LadybugTools.[ISimulationData](/api_documentation/oM/Adapter/LadybugTools/ISimulationData)
+    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
 
 
 ## Properties
@@ -26,10 +26,10 @@ The following properties are defined on the class
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| DecemberSolstice | [SunData](/om_documentation/oM/Adapter/LadybugTools/SunData) | Data describing the December (winter) solstice. | - |
-| MarchEquinox | [SunData](/om_documentation/oM/Adapter/LadybugTools/SunData) | Data describing the March (spring) equinox. | - |
-| JuneSolstice | [SunData](/om_documentation/oM/Adapter/LadybugTools/SunData) | Data describing the June (summer) solstice. | - |
-| SeptemberEquinox | [SunData](/om_documentation/oM/Adapter/LadybugTools/SunData) | Data describing the September (autumn) equinox. | - |
+| DecemberSolstice | [SunData](/api_documentation/oM/Adapter/LadybugTools/SunData) | Data describing the December (winter) solstice. | - |
+| MarchEquinox | [SunData](/api_documentation/oM/Adapter/LadybugTools/SunData) | Data describing the March (spring) equinox. | - |
+| JuneSolstice | [SunData](/api_documentation/oM/Adapter/LadybugTools/SunData) | Data describing the June (summer) solstice. | - |
+| SeptemberEquinox | [SunData](/api_documentation/oM/Adapter/LadybugTools/SunData) | Data describing the September (autumn) equinox. | - |
 
 
 ## Code and Schema

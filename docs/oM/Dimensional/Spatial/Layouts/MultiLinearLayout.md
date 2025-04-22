@@ -13,11 +13,11 @@ Starts by fitting in as many points as possible in the first layer, then generat
 
 ???+ bhom "The MultiLinearLayout in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[BHoMObject](/om_documentation/oM/Framework/Base/BHoMObject)
-    -  Base.[IBHoMObject](/om_documentation/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
-    -  Spatial.Layouts.[ILayout2D](/om_documentation/oM/Dimensional/Spatial/Layouts/ILayout2D)
-    -  Base.[IImmutable](/om_documentation/oM/Framework/Base/IImmutable)
+    -  Base.[BHoMObject](/api_documentation/oM/Framework/Base/BHoMObject)
+    -  Base.[IBHoMObject](/api_documentation/oM/Framework/Base/IBHoMObject)
+    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
+    -  Spatial.Layouts.[ILayout2D](/api_documentation/oM/Dimensional/Spatial/Layouts/ILayout2D)
+    -  Base.[IImmutable](/api_documentation/oM/Framework/Base/IImmutable)
 
 
 ## Properties
@@ -31,11 +31,11 @@ The following properties are defined on the class
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
 | NumberOfPoints | [int](https://learn.microsoft.com/en-us/dotnet/api/System.Int32?view=netstandard-2.0) | Number of points along the axis. | - |
-| ParallelMinimumSpacing | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Minimum distance between any two points in the layout along the axis layers. | [Length](/om_documentation/oM/Dimensional/Quantities/Attributes/Length) [m] |
-| PerpendicularMinimumSpacing | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Minimum distance between any two layers. | [Length](/om_documentation/oM/Dimensional/Quantities/Attributes/Length) [m] |
-| Direction | [Vector](/om_documentation/oM/Dimensional/Geometry/Vector) | Direction of the axis. Vector should lie in the XY-plane, i.e. have a Z-coordinate equal to 0. | - |
-| Offset | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Offset of the linear layout in relation to the reference point, perpendicular to the Direction vector in the XY plane.<br>A positive value will mean an offset towards the centre of the boundingbox of the host objects. | [Length](/om_documentation/oM/Dimensional/Quantities/Attributes/Length) [m] |
-| ReferencePoint | [ReferencePoint](/om_documentation/oM/Dimensional/Spatial/Layouts/ReferencePoint) | Controls which point on the host element that should be used for the layout. | - |
+| ParallelMinimumSpacing | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Minimum distance between any two points in the layout along the axis layers. | [Length](/api_documentation/oM/Dimensional/Quantities/Attributes/Length) [m] |
+| PerpendicularMinimumSpacing | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Minimum distance between any two layers. | [Length](/api_documentation/oM/Dimensional/Quantities/Attributes/Length) [m] |
+| Direction | [Vector](/api_documentation/oM/Dimensional/Geometry/Vector) | Direction of the axis. Vector should lie in the XY-plane, i.e. have a Z-coordinate equal to 0. | - |
+| Offset | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Offset of the linear layout in relation to the reference point, perpendicular to the Direction vector in the XY plane.<br>A positive value will mean an offset towards the centre of the boundingbox of the host objects. | [Length](/api_documentation/oM/Dimensional/Quantities/Attributes/Length) [m] |
+| ReferencePoint | [ReferencePoint](/api_documentation/oM/Dimensional/Spatial/Layouts/ReferencePoint) | Controls which point on the host element that should be used for the layout. | - |
 
 
 ### Inherited properties
@@ -45,7 +45,7 @@ The following properties are inherited from the base class of the object
 |------------------|------------------|------------------|------------------|
 | BHoM_Guid | [Guid](https://learn.microsoft.com/en-us/dotnet/api/System.Guid?view=netstandard-2.0) | - | - |
 | Name | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | - | - |
-| Fragments | [FragmentSet](/om_documentation/oM/Framework/Base/FragmentSet) | - | - |
+| Fragments | [FragmentSet](/api_documentation/oM/Framework/Base/FragmentSet) | - | - |
 | Tags | [HashSet](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.HashSet-1?view=netstandard-2.0)&lt;[string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0)&gt; | - | - |
 | CustomData | [Dictionary](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.Dictionary-2?view=netstandard-2.0)&lt;[string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0), [object](https://learn.microsoft.com/en-us/dotnet/api/System.Object?view=netstandard-2.0)&gt; | - | - |
 

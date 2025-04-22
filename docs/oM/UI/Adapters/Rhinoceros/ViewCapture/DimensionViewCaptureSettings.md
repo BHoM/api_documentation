@@ -12,8 +12,8 @@ View capture settings class with control over the final size of the image in pix
 
 ???+ bhom "The DimensionViewCaptureSettings in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Adapters.Rhinoceros.ViewCapture.[IViewCaptureSettings](/om_documentation/oM/UI/Adapters/Rhinoceros/ViewCapture/IViewCaptureSettings)
-    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
+    -  Adapters.Rhinoceros.ViewCapture.[IViewCaptureSettings](/api_documentation/oM/UI/Adapters/Rhinoceros/ViewCapture/IViewCaptureSettings)
+    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
 
 
 ## Properties

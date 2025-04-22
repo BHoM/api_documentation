@@ -12,35 +12,35 @@ Base class for all environmental metrics.
 
 ???+ bhom "The EnvironmentalMetric in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[BHoMObject](/om_documentation/oM/Framework/Base/BHoMObject)
-    -  Base.[IBHoMObject](/om_documentation/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
-    -  LifeCycleAssessment.[ILifeCycleAssessmentPhaseData](/om_documentation/oM/Analytical/LifeCycleAssessment/ILifeCycleAssessmentPhaseData)
-    -  Base.[IImmutable](/om_documentation/oM/Framework/Base/IImmutable)
+    -  Base.[BHoMObject](/api_documentation/oM/Framework/Base/BHoMObject)
+    -  Base.[IBHoMObject](/api_documentation/oM/Framework/Base/IBHoMObject)
+    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
+    -  LifeCycleAssessment.[ILifeCycleAssessmentPhaseData](/api_documentation/oM/Analytical/LifeCycleAssessment/ILifeCycleAssessmentPhaseData)
+    -  Base.[IImmutable](/api_documentation/oM/Framework/Base/IImmutable)
 
 
 ### Classes inheriting from this class
 
 ???+ bhom "The following classes are inheriting from this class:"
 
-    - LifeCycleAssessment.MaterialFragments.[AbioticDepletionFossilResourcesMetric](/om_documentation/oM/Analytical/LifeCycleAssessment/MaterialFragments/AbioticDepletionFossilResourcesMetric)
-    - LifeCycleAssessment.MaterialFragments.[AbioticDepletionMineralsAndMetalsMetric](/om_documentation/oM/Analytical/LifeCycleAssessment/MaterialFragments/AbioticDepletionMineralsAndMetalsMetric)
-    - LifeCycleAssessment.MaterialFragments.[AcidificationMetric](/om_documentation/oM/Analytical/LifeCycleAssessment/MaterialFragments/AcidificationMetric)
-    - LifeCycleAssessment.MaterialFragments.[ClimateChangeBiogenicMetric](/om_documentation/oM/Analytical/LifeCycleAssessment/MaterialFragments/ClimateChangeBiogenicMetric)
-    - LifeCycleAssessment.MaterialFragments.[ClimateChangeFossilMetric](/om_documentation/oM/Analytical/LifeCycleAssessment/MaterialFragments/ClimateChangeFossilMetric)
-    - LifeCycleAssessment.MaterialFragments.[ClimateChangeLandUseMetric](/om_documentation/oM/Analytical/LifeCycleAssessment/MaterialFragments/ClimateChangeLandUseMetric)
-    - LifeCycleAssessment.MaterialFragments.[ClimateChangeTotalMetric](/om_documentation/oM/Analytical/LifeCycleAssessment/MaterialFragments/ClimateChangeTotalMetric)
-    - LifeCycleAssessment.MaterialFragments.[ClimateChangeTotalNoBiogenicMetric](/om_documentation/oM/Analytical/LifeCycleAssessment/MaterialFragments/ClimateChangeTotalNoBiogenicMetric)
-    - LifeCycleAssessment.MaterialFragments.[EutrophicationAquaticFreshwaterMetric](/om_documentation/oM/Analytical/LifeCycleAssessment/MaterialFragments/EutrophicationAquaticFreshwaterMetric)
-    - LifeCycleAssessment.MaterialFragments.[EutrophicationAquaticMarineMetric](/om_documentation/oM/Analytical/LifeCycleAssessment/MaterialFragments/EutrophicationAquaticMarineMetric)
-    - LifeCycleAssessment.MaterialFragments.[EutrophicationCMLMetric](/om_documentation/oM/Analytical/LifeCycleAssessment/MaterialFragments/EutrophicationCMLMetric)
-    - LifeCycleAssessment.MaterialFragments.[EutrophicationTerrestrialMetric](/om_documentation/oM/Analytical/LifeCycleAssessment/MaterialFragments/EutrophicationTerrestrialMetric)
-    - LifeCycleAssessment.MaterialFragments.[EutrophicationTRACIMetric](/om_documentation/oM/Analytical/LifeCycleAssessment/MaterialFragments/EutrophicationTRACIMetric)
-    - LifeCycleAssessment.MaterialFragments.[OzoneDepletionMetric](/om_documentation/oM/Analytical/LifeCycleAssessment/MaterialFragments/OzoneDepletionMetric)
-    - LifeCycleAssessment.MaterialFragments.[PhotochemicalOzoneCreationCMLMetric](/om_documentation/oM/Analytical/LifeCycleAssessment/MaterialFragments/PhotochemicalOzoneCreationCMLMetric)
-    - LifeCycleAssessment.MaterialFragments.[PhotochemicalOzoneCreationMetric](/om_documentation/oM/Analytical/LifeCycleAssessment/MaterialFragments/PhotochemicalOzoneCreationMetric)
-    - LifeCycleAssessment.MaterialFragments.[PhotochemicalOzoneCreationTRACIMetric](/om_documentation/oM/Analytical/LifeCycleAssessment/MaterialFragments/PhotochemicalOzoneCreationTRACIMetric)
-    - LifeCycleAssessment.MaterialFragments.[WaterDeprivationMetric](/om_documentation/oM/Analytical/LifeCycleAssessment/MaterialFragments/WaterDeprivationMetric)
+    - LifeCycleAssessment.MaterialFragments.[AbioticDepletionFossilResourcesMetric](/api_documentation/oM/Analytical/LifeCycleAssessment/MaterialFragments/AbioticDepletionFossilResourcesMetric)
+    - LifeCycleAssessment.MaterialFragments.[AbioticDepletionMineralsAndMetalsMetric](/api_documentation/oM/Analytical/LifeCycleAssessment/MaterialFragments/AbioticDepletionMineralsAndMetalsMetric)
+    - LifeCycleAssessment.MaterialFragments.[AcidificationMetric](/api_documentation/oM/Analytical/LifeCycleAssessment/MaterialFragments/AcidificationMetric)
+    - LifeCycleAssessment.MaterialFragments.[ClimateChangeBiogenicMetric](/api_documentation/oM/Analytical/LifeCycleAssessment/MaterialFragments/ClimateChangeBiogenicMetric)
+    - LifeCycleAssessment.MaterialFragments.[ClimateChangeFossilMetric](/api_documentation/oM/Analytical/LifeCycleAssessment/MaterialFragments/ClimateChangeFossilMetric)
+    - LifeCycleAssessment.MaterialFragments.[ClimateChangeLandUseMetric](/api_documentation/oM/Analytical/LifeCycleAssessment/MaterialFragments/ClimateChangeLandUseMetric)
+    - LifeCycleAssessment.MaterialFragments.[ClimateChangeTotalMetric](/api_documentation/oM/Analytical/LifeCycleAssessment/MaterialFragments/ClimateChangeTotalMetric)
+    - LifeCycleAssessment.MaterialFragments.[ClimateChangeTotalNoBiogenicMetric](/api_documentation/oM/Analytical/LifeCycleAssessment/MaterialFragments/ClimateChangeTotalNoBiogenicMetric)
+    - LifeCycleAssessment.MaterialFragments.[EutrophicationAquaticFreshwaterMetric](/api_documentation/oM/Analytical/LifeCycleAssessment/MaterialFragments/EutrophicationAquaticFreshwaterMetric)
+    - LifeCycleAssessment.MaterialFragments.[EutrophicationAquaticMarineMetric](/api_documentation/oM/Analytical/LifeCycleAssessment/MaterialFragments/EutrophicationAquaticMarineMetric)
+    - LifeCycleAssessment.MaterialFragments.[EutrophicationCMLMetric](/api_documentation/oM/Analytical/LifeCycleAssessment/MaterialFragments/EutrophicationCMLMetric)
+    - LifeCycleAssessment.MaterialFragments.[EutrophicationTerrestrialMetric](/api_documentation/oM/Analytical/LifeCycleAssessment/MaterialFragments/EutrophicationTerrestrialMetric)
+    - LifeCycleAssessment.MaterialFragments.[EutrophicationTRACIMetric](/api_documentation/oM/Analytical/LifeCycleAssessment/MaterialFragments/EutrophicationTRACIMetric)
+    - LifeCycleAssessment.MaterialFragments.[OzoneDepletionMetric](/api_documentation/oM/Analytical/LifeCycleAssessment/MaterialFragments/OzoneDepletionMetric)
+    - LifeCycleAssessment.MaterialFragments.[PhotochemicalOzoneCreationCMLMetric](/api_documentation/oM/Analytical/LifeCycleAssessment/MaterialFragments/PhotochemicalOzoneCreationCMLMetric)
+    - LifeCycleAssessment.MaterialFragments.[PhotochemicalOzoneCreationMetric](/api_documentation/oM/Analytical/LifeCycleAssessment/MaterialFragments/PhotochemicalOzoneCreationMetric)
+    - LifeCycleAssessment.MaterialFragments.[PhotochemicalOzoneCreationTRACIMetric](/api_documentation/oM/Analytical/LifeCycleAssessment/MaterialFragments/PhotochemicalOzoneCreationTRACIMetric)
+    - LifeCycleAssessment.MaterialFragments.[WaterDeprivationMetric](/api_documentation/oM/Analytical/LifeCycleAssessment/MaterialFragments/WaterDeprivationMetric)
 
 
 ## Properties
@@ -53,7 +53,7 @@ The following properties are defined on the class
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| MetricType | [EnvironmentalMetrics](/om_documentation/oM/Analytical/LifeCycleAssessment/EnvironmentalMetrics) | Enum indicating the metric type the object relates to. | - |
+| MetricType | [EnvironmentalMetrics](/api_documentation/oM/Analytical/LifeCycleAssessment/EnvironmentalMetrics) | Enum indicating the metric type the object relates to. | - |
 | A1 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Data relating to the Raw Material Supply module in the Product stage. | - |
 | A2 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Data relating to the Transport module in the Product stage. | - |
 | A3 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Data relating to the Manufacturing module in the Product stage. | - |
@@ -83,7 +83,7 @@ The following properties are inherited from the base class of the object
 |------------------|------------------|------------------|------------------|
 | BHoM_Guid | [Guid](https://learn.microsoft.com/en-us/dotnet/api/System.Guid?view=netstandard-2.0) | - | - |
 | Name | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | - | - |
-| Fragments | [FragmentSet](/om_documentation/oM/Framework/Base/FragmentSet) | - | - |
+| Fragments | [FragmentSet](/api_documentation/oM/Framework/Base/FragmentSet) | - | - |
 | Tags | [HashSet](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.HashSet-1?view=netstandard-2.0)&lt;[string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0)&gt; | - | - |
 | CustomData | [Dictionary](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.Dictionary-2?view=netstandard-2.0)&lt;[string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0), [object](https://learn.microsoft.com/en-us/dotnet/api/System.Object?view=netstandard-2.0)&gt; | - | - |
 

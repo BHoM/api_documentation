@@ -12,8 +12,8 @@ title: PairOfEyes
 
 ???+ bhom "The PairOfEyes in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Humans.Interfaces.[IPointBodyPart](/om_documentation/oM/Physical/Humans/Interfaces/IPointBodyPart)
-    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
+    -  Humans.Interfaces.[IPointBodyPart](/api_documentation/oM/Physical/Humans/Interfaces/IPointBodyPart)
+    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
 
 
 ## Properties
@@ -26,11 +26,11 @@ The following properties are defined on the class
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| TrackingPoint | [Point](/om_documentation/oM/Dimensional/Geometry/Point) | - | - |
-| LeftEye | [Eye](/om_documentation/oM/Physical/Humans/BodyParts/Eye) | - | - |
-| RightEye | [Eye](/om_documentation/oM/Physical/Humans/BodyParts/Eye) | - | - |
-| ReferenceLocation | [Point](/om_documentation/oM/Dimensional/Geometry/Point) | - | - |
-| ViewDirection | [Vector](/om_documentation/oM/Dimensional/Geometry/Vector) | - | - |
+| TrackingPoint | [Point](/api_documentation/oM/Dimensional/Geometry/Point) | - | - |
+| LeftEye | [Eye](/api_documentation/oM/Physical/Humans/BodyParts/Eye) | - | - |
+| RightEye | [Eye](/api_documentation/oM/Physical/Humans/BodyParts/Eye) | - | - |
+| ReferenceLocation | [Point](/api_documentation/oM/Dimensional/Geometry/Point) | - | - |
+| ViewDirection | [Vector](/api_documentation/oM/Dimensional/Geometry/Vector) | - | - |
 
 
 ## Code and Schema

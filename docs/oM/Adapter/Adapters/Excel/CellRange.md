@@ -12,7 +12,7 @@ Object representing an orthogonal range between two cell in the spreadsheet.
 
 ???+ bhom "The CellRange in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
+    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
 
 
 ## Properties
@@ -25,8 +25,8 @@ The following properties are defined on the class
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| From | [CellAddress](/om_documentation/oM/Adapter/Adapters/Excel/CellAddress) | Starting (upper left) cell of the range. | - |
-| To | [CellAddress](/om_documentation/oM/Adapter/Adapters/Excel/CellAddress) | Ending (bottom right) cell of the range. | - |
+| From | [CellAddress](/api_documentation/oM/Adapter/Adapters/Excel/CellAddress) | Starting (upper left) cell of the range. | - |
+| To | [CellAddress](/api_documentation/oM/Adapter/Adapters/Excel/CellAddress) | Ending (bottom right) cell of the range. | - |
 
 
 ### Derived properties

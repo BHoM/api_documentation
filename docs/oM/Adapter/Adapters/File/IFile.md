@@ -12,17 +12,17 @@ Identifies a File.
 
 ???+ bhom "The IFile in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Adapters.File.[IResource](/om_documentation/oM/Adapter/Adapters/File/IResource)
-    -  Base.[IBHoMObject](/om_documentation/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
+    -  Adapters.File.[IResource](/api_documentation/oM/Adapter/Adapters/File/IResource)
+    -  Base.[IBHoMObject](/api_documentation/oM/Framework/Base/IBHoMObject)
+    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Adapters.File.[File](/om_documentation/oM/Adapter/Adapters/File/File)
-    - Adapters.File.[FSFile](/om_documentation/oM/Adapter/Adapters/File/FSFile)
+    - Adapters.File.[File](/api_documentation/oM/Adapter/Adapters/File/File)
+    - Adapters.File.[FSFile](/api_documentation/oM/Adapter/Adapters/File/FSFile)
 
 
 ## Properties

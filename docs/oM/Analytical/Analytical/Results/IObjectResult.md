@@ -12,51 +12,51 @@ Base interface for result classes where the values apply to the entire object re
 
 ???+ bhom "The IObjectResult in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Analytical.Results.[IResult](/om_documentation/oM/Analytical/Analytical/Results/IResult)
-    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
-    -  [IComparable](https://learn.microsoft.com/en-us/dotnet/api/System.IComparable-1?view=netstandard-2.0)&lt;Analytical.Results.[IResult](/om_documentation/oM/Analytical/Analytical/Results/IResult)&gt;
-    -  Base.[IImmutable](/om_documentation/oM/Framework/Base/IImmutable)
-    -  Analytical.Results.[IObjectIdResult](/om_documentation/oM/Analytical/Analytical/Results/IObjectIdResult)
+    -  Analytical.Results.[IResult](/api_documentation/oM/Analytical/Analytical/Results/IResult)
+    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
+    -  [IComparable](https://learn.microsoft.com/en-us/dotnet/api/System.IComparable-1?view=netstandard-2.0)&lt;Analytical.Results.[IResult](/api_documentation/oM/Analytical/Analytical/Results/IResult)&gt;
+    -  Base.[IImmutable](/api_documentation/oM/Framework/Base/IImmutable)
+    -  Analytical.Results.[IObjectIdResult](/api_documentation/oM/Analytical/Analytical/Results/IObjectIdResult)
 
 
 ### Interfaces implementing this interface
 
 ???+ bhom "The following interfaces are implementing this interface:"
 
-    - LifeCycleAssessment.Results.[IElementResult](/om_documentation/oM/Analytical/LifeCycleAssessment/Results/IElementResult%601)&lt;[T](/om_documentation/oM/Analytical/LifeCycleAssessment/Results/IElementResult%601#t)&gt;
+    - LifeCycleAssessment.Results.[IElementResult](/api_documentation/oM/Analytical/LifeCycleAssessment/Results/IElementResult%601)&lt;[T](/api_documentation/oM/Analytical/LifeCycleAssessment/Results/IElementResult%601#t)&gt;
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - LifeCycleAssessment.Results.[AbioticDepletionFossilResourcesElementResult](/om_documentation/oM/Analytical/LifeCycleAssessment/Results/AbioticDepletionFossilResourcesElementResult)
-    - LifeCycleAssessment.Results.[AbioticDepletionMineralsAndMetalsElementResult](/om_documentation/oM/Analytical/LifeCycleAssessment/Results/AbioticDepletionMineralsAndMetalsElementResult)
-    - LifeCycleAssessment.Results.[AcidificationElementResult](/om_documentation/oM/Analytical/LifeCycleAssessment/Results/AcidificationElementResult)
-    - LifeCycleAssessment.Results.[ClimateChangeBiogenicElementResult](/om_documentation/oM/Analytical/LifeCycleAssessment/Results/ClimateChangeBiogenicElementResult)
-    - LifeCycleAssessment.Results.[ClimateChangeFossilElementResult](/om_documentation/oM/Analytical/LifeCycleAssessment/Results/ClimateChangeFossilElementResult)
-    - LifeCycleAssessment.Results.[ClimateChangeLandUseElementResult](/om_documentation/oM/Analytical/LifeCycleAssessment/Results/ClimateChangeLandUseElementResult)
-    - LifeCycleAssessment.Results.[ClimateChangeTotalElementResult](/om_documentation/oM/Analytical/LifeCycleAssessment/Results/ClimateChangeTotalElementResult)
-    - LifeCycleAssessment.Results.[ClimateChangeTotalNoBiogenicElementResult](/om_documentation/oM/Analytical/LifeCycleAssessment/Results/ClimateChangeTotalNoBiogenicElementResult)
-    - LifeCycleAssessment.Results.[ElementResult](/om_documentation/oM/Analytical/LifeCycleAssessment/Results/ElementResult%601)&lt;[T](/om_documentation/oM/Analytical/LifeCycleAssessment/Results/ElementResult%601#t)&gt;
-    - LifeCycleAssessment.Results.[EutrophicationAquaticFreshwaterElementResult](/om_documentation/oM/Analytical/LifeCycleAssessment/Results/EutrophicationAquaticFreshwaterElementResult)
-    - LifeCycleAssessment.Results.[EutrophicationAquaticMarineElementResult](/om_documentation/oM/Analytical/LifeCycleAssessment/Results/EutrophicationAquaticMarineElementResult)
-    - LifeCycleAssessment.Results.[EutrophicationCMLElementResult](/om_documentation/oM/Analytical/LifeCycleAssessment/Results/EutrophicationCMLElementResult)
-    - LifeCycleAssessment.Results.[EutrophicationTerrestrialElementResult](/om_documentation/oM/Analytical/LifeCycleAssessment/Results/EutrophicationTerrestrialElementResult)
-    - LifeCycleAssessment.Results.[EutrophicationTRACIElementResult](/om_documentation/oM/Analytical/LifeCycleAssessment/Results/EutrophicationTRACIElementResult)
-    - LifeCycleAssessment.Results.[OzoneDepletionElementResult](/om_documentation/oM/Analytical/LifeCycleAssessment/Results/OzoneDepletionElementResult)
-    - LifeCycleAssessment.Results.[PhotochemicalOzoneCreationCMLElementResult](/om_documentation/oM/Analytical/LifeCycleAssessment/Results/PhotochemicalOzoneCreationCMLElementResult)
-    - LifeCycleAssessment.Results.[PhotochemicalOzoneCreationElementResult](/om_documentation/oM/Analytical/LifeCycleAssessment/Results/PhotochemicalOzoneCreationElementResult)
-    - LifeCycleAssessment.Results.[PhotochemicalOzoneCreationTRACIElementResult](/om_documentation/oM/Analytical/LifeCycleAssessment/Results/PhotochemicalOzoneCreationTRACIElementResult)
-    - LifeCycleAssessment.Results.[WaterDeprivationElementResult](/om_documentation/oM/Analytical/LifeCycleAssessment/Results/WaterDeprivationElementResult)
-    - Structure.Results.[NodeAcceleration](/om_documentation/oM/Analytical/Structure/Results/NodeAcceleration)
-    - Structure.Results.[NodeDisplacement](/om_documentation/oM/Analytical/Structure/Results/NodeDisplacement)
-    - Structure.Results.[NodeModalMass](/om_documentation/oM/Analytical/Structure/Results/NodeModalMass)
-    - Structure.Results.[NodeModalResults](/om_documentation/oM/Analytical/Structure/Results/NodeModalResults)
-    - Structure.Results.[NodeModeShape](/om_documentation/oM/Analytical/Structure/Results/NodeModeShape)
-    - Structure.Results.[NodeReaction](/om_documentation/oM/Analytical/Structure/Results/NodeReaction)
-    - Structure.Results.[NodeResult](/om_documentation/oM/Analytical/Structure/Results/NodeResult)
-    - Structure.Results.[NodeVelocity](/om_documentation/oM/Analytical/Structure/Results/NodeVelocity)
+    - LifeCycleAssessment.Results.[AbioticDepletionFossilResourcesElementResult](/api_documentation/oM/Analytical/LifeCycleAssessment/Results/AbioticDepletionFossilResourcesElementResult)
+    - LifeCycleAssessment.Results.[AbioticDepletionMineralsAndMetalsElementResult](/api_documentation/oM/Analytical/LifeCycleAssessment/Results/AbioticDepletionMineralsAndMetalsElementResult)
+    - LifeCycleAssessment.Results.[AcidificationElementResult](/api_documentation/oM/Analytical/LifeCycleAssessment/Results/AcidificationElementResult)
+    - LifeCycleAssessment.Results.[ClimateChangeBiogenicElementResult](/api_documentation/oM/Analytical/LifeCycleAssessment/Results/ClimateChangeBiogenicElementResult)
+    - LifeCycleAssessment.Results.[ClimateChangeFossilElementResult](/api_documentation/oM/Analytical/LifeCycleAssessment/Results/ClimateChangeFossilElementResult)
+    - LifeCycleAssessment.Results.[ClimateChangeLandUseElementResult](/api_documentation/oM/Analytical/LifeCycleAssessment/Results/ClimateChangeLandUseElementResult)
+    - LifeCycleAssessment.Results.[ClimateChangeTotalElementResult](/api_documentation/oM/Analytical/LifeCycleAssessment/Results/ClimateChangeTotalElementResult)
+    - LifeCycleAssessment.Results.[ClimateChangeTotalNoBiogenicElementResult](/api_documentation/oM/Analytical/LifeCycleAssessment/Results/ClimateChangeTotalNoBiogenicElementResult)
+    - LifeCycleAssessment.Results.[ElementResult](/api_documentation/oM/Analytical/LifeCycleAssessment/Results/ElementResult%601)&lt;[T](/api_documentation/oM/Analytical/LifeCycleAssessment/Results/ElementResult%601#t)&gt;
+    - LifeCycleAssessment.Results.[EutrophicationAquaticFreshwaterElementResult](/api_documentation/oM/Analytical/LifeCycleAssessment/Results/EutrophicationAquaticFreshwaterElementResult)
+    - LifeCycleAssessment.Results.[EutrophicationAquaticMarineElementResult](/api_documentation/oM/Analytical/LifeCycleAssessment/Results/EutrophicationAquaticMarineElementResult)
+    - LifeCycleAssessment.Results.[EutrophicationCMLElementResult](/api_documentation/oM/Analytical/LifeCycleAssessment/Results/EutrophicationCMLElementResult)
+    - LifeCycleAssessment.Results.[EutrophicationTerrestrialElementResult](/api_documentation/oM/Analytical/LifeCycleAssessment/Results/EutrophicationTerrestrialElementResult)
+    - LifeCycleAssessment.Results.[EutrophicationTRACIElementResult](/api_documentation/oM/Analytical/LifeCycleAssessment/Results/EutrophicationTRACIElementResult)
+    - LifeCycleAssessment.Results.[OzoneDepletionElementResult](/api_documentation/oM/Analytical/LifeCycleAssessment/Results/OzoneDepletionElementResult)
+    - LifeCycleAssessment.Results.[PhotochemicalOzoneCreationCMLElementResult](/api_documentation/oM/Analytical/LifeCycleAssessment/Results/PhotochemicalOzoneCreationCMLElementResult)
+    - LifeCycleAssessment.Results.[PhotochemicalOzoneCreationElementResult](/api_documentation/oM/Analytical/LifeCycleAssessment/Results/PhotochemicalOzoneCreationElementResult)
+    - LifeCycleAssessment.Results.[PhotochemicalOzoneCreationTRACIElementResult](/api_documentation/oM/Analytical/LifeCycleAssessment/Results/PhotochemicalOzoneCreationTRACIElementResult)
+    - LifeCycleAssessment.Results.[WaterDeprivationElementResult](/api_documentation/oM/Analytical/LifeCycleAssessment/Results/WaterDeprivationElementResult)
+    - Structure.Results.[NodeAcceleration](/api_documentation/oM/Analytical/Structure/Results/NodeAcceleration)
+    - Structure.Results.[NodeDisplacement](/api_documentation/oM/Analytical/Structure/Results/NodeDisplacement)
+    - Structure.Results.[NodeModalMass](/api_documentation/oM/Analytical/Structure/Results/NodeModalMass)
+    - Structure.Results.[NodeModalResults](/api_documentation/oM/Analytical/Structure/Results/NodeModalResults)
+    - Structure.Results.[NodeModeShape](/api_documentation/oM/Analytical/Structure/Results/NodeModeShape)
+    - Structure.Results.[NodeReaction](/api_documentation/oM/Analytical/Structure/Results/NodeReaction)
+    - Structure.Results.[NodeResult](/api_documentation/oM/Analytical/Structure/Results/NodeResult)
+    - Structure.Results.[NodeVelocity](/api_documentation/oM/Analytical/Structure/Results/NodeVelocity)
 
 
 ## Properties

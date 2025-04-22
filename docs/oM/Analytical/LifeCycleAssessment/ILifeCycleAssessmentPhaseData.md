@@ -12,78 +12,78 @@ Base interface for all envirnmental metrics.
 
 ???+ bhom "The ILifeCycleAssessmentPhaseData in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
+    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
 
 
 ### Interfaces implementing this interface
 
 ???+ bhom "The following interfaces are implementing this interface:"
 
-    - LifeCycleAssessment.Results.[IElementResult](/om_documentation/oM/Analytical/LifeCycleAssessment/Results/IElementResult%601)&lt;[T](/om_documentation/oM/Analytical/LifeCycleAssessment/Results/IElementResult%601#t)&gt;
-    - LifeCycleAssessment.Results.[IEnvironmentalResult](/om_documentation/oM/Analytical/LifeCycleAssessment/Results/IEnvironmentalResult)
+    - LifeCycleAssessment.Results.[IElementResult](/api_documentation/oM/Analytical/LifeCycleAssessment/Results/IElementResult%601)&lt;[T](/api_documentation/oM/Analytical/LifeCycleAssessment/Results/IElementResult%601#t)&gt;
+    - LifeCycleAssessment.Results.[IEnvironmentalResult](/api_documentation/oM/Analytical/LifeCycleAssessment/Results/IEnvironmentalResult)
 
 
 ### Classes implementing this interface
 
 ??? bhom "The following classes are implementing this interface:"
 
-    - LifeCycleAssessment.Results.[AbioticDepletionFossilResourcesElementResult](/om_documentation/oM/Analytical/LifeCycleAssessment/Results/AbioticDepletionFossilResourcesElementResult)
-    - LifeCycleAssessment.Results.[AbioticDepletionMineralsAndMetalsElementResult](/om_documentation/oM/Analytical/LifeCycleAssessment/Results/AbioticDepletionMineralsAndMetalsElementResult)
-    - LifeCycleAssessment.Results.[AcidificationElementResult](/om_documentation/oM/Analytical/LifeCycleAssessment/Results/AcidificationElementResult)
-    - LifeCycleAssessment.Results.[ClimateChangeBiogenicElementResult](/om_documentation/oM/Analytical/LifeCycleAssessment/Results/ClimateChangeBiogenicElementResult)
-    - LifeCycleAssessment.Results.[ClimateChangeFossilElementResult](/om_documentation/oM/Analytical/LifeCycleAssessment/Results/ClimateChangeFossilElementResult)
-    - LifeCycleAssessment.Results.[ClimateChangeLandUseElementResult](/om_documentation/oM/Analytical/LifeCycleAssessment/Results/ClimateChangeLandUseElementResult)
-    - LifeCycleAssessment.Results.[ClimateChangeTotalElementResult](/om_documentation/oM/Analytical/LifeCycleAssessment/Results/ClimateChangeTotalElementResult)
-    - LifeCycleAssessment.Results.[ClimateChangeTotalNoBiogenicElementResult](/om_documentation/oM/Analytical/LifeCycleAssessment/Results/ClimateChangeTotalNoBiogenicElementResult)
-    - LifeCycleAssessment.Results.[ElementResult](/om_documentation/oM/Analytical/LifeCycleAssessment/Results/ElementResult%601)&lt;[T](/om_documentation/oM/Analytical/LifeCycleAssessment/Results/ElementResult%601#t)&gt;
-    - LifeCycleAssessment.Results.[EutrophicationAquaticFreshwaterElementResult](/om_documentation/oM/Analytical/LifeCycleAssessment/Results/EutrophicationAquaticFreshwaterElementResult)
-    - LifeCycleAssessment.Results.[EutrophicationAquaticMarineElementResult](/om_documentation/oM/Analytical/LifeCycleAssessment/Results/EutrophicationAquaticMarineElementResult)
-    - LifeCycleAssessment.Results.[EutrophicationCMLElementResult](/om_documentation/oM/Analytical/LifeCycleAssessment/Results/EutrophicationCMLElementResult)
-    - LifeCycleAssessment.Results.[EutrophicationTerrestrialElementResult](/om_documentation/oM/Analytical/LifeCycleAssessment/Results/EutrophicationTerrestrialElementResult)
-    - LifeCycleAssessment.Results.[EutrophicationTRACIElementResult](/om_documentation/oM/Analytical/LifeCycleAssessment/Results/EutrophicationTRACIElementResult)
-    - LifeCycleAssessment.Results.[OzoneDepletionElementResult](/om_documentation/oM/Analytical/LifeCycleAssessment/Results/OzoneDepletionElementResult)
-    - LifeCycleAssessment.Results.[PhotochemicalOzoneCreationCMLElementResult](/om_documentation/oM/Analytical/LifeCycleAssessment/Results/PhotochemicalOzoneCreationCMLElementResult)
-    - LifeCycleAssessment.Results.[PhotochemicalOzoneCreationElementResult](/om_documentation/oM/Analytical/LifeCycleAssessment/Results/PhotochemicalOzoneCreationElementResult)
-    - LifeCycleAssessment.Results.[PhotochemicalOzoneCreationTRACIElementResult](/om_documentation/oM/Analytical/LifeCycleAssessment/Results/PhotochemicalOzoneCreationTRACIElementResult)
-    - LifeCycleAssessment.Results.[WaterDeprivationElementResult](/om_documentation/oM/Analytical/LifeCycleAssessment/Results/WaterDeprivationElementResult)
-    - LifeCycleAssessment.Results.[AbioticDepletionFossilResourcesMaterialResult](/om_documentation/oM/Analytical/LifeCycleAssessment/Results/AbioticDepletionFossilResourcesMaterialResult)
-    - LifeCycleAssessment.Results.[AbioticDepletionMineralsAndMetalsMaterialResult](/om_documentation/oM/Analytical/LifeCycleAssessment/Results/AbioticDepletionMineralsAndMetalsMaterialResult)
-    - LifeCycleAssessment.Results.[AcidificationMaterialResult](/om_documentation/oM/Analytical/LifeCycleAssessment/Results/AcidificationMaterialResult)
-    - LifeCycleAssessment.Results.[ClimateChangeBiogenicMaterialResult](/om_documentation/oM/Analytical/LifeCycleAssessment/Results/ClimateChangeBiogenicMaterialResult)
-    - LifeCycleAssessment.Results.[ClimateChangeFossilMaterialResult](/om_documentation/oM/Analytical/LifeCycleAssessment/Results/ClimateChangeFossilMaterialResult)
-    - LifeCycleAssessment.Results.[ClimateChangeLandUseMaterialResult](/om_documentation/oM/Analytical/LifeCycleAssessment/Results/ClimateChangeLandUseMaterialResult)
-    - LifeCycleAssessment.Results.[ClimateChangeTotalMaterialResult](/om_documentation/oM/Analytical/LifeCycleAssessment/Results/ClimateChangeTotalMaterialResult)
-    - LifeCycleAssessment.Results.[ClimateChangeTotalNoBiogenicMaterialResult](/om_documentation/oM/Analytical/LifeCycleAssessment/Results/ClimateChangeTotalNoBiogenicMaterialResult)
-    - LifeCycleAssessment.Results.[EutrophicationAquaticFreshwaterMaterialResult](/om_documentation/oM/Analytical/LifeCycleAssessment/Results/EutrophicationAquaticFreshwaterMaterialResult)
-    - LifeCycleAssessment.Results.[EutrophicationAquaticMarineMaterialResult](/om_documentation/oM/Analytical/LifeCycleAssessment/Results/EutrophicationAquaticMarineMaterialResult)
-    - LifeCycleAssessment.Results.[EutrophicationCMLMaterialResult](/om_documentation/oM/Analytical/LifeCycleAssessment/Results/EutrophicationCMLMaterialResult)
-    - LifeCycleAssessment.Results.[EutrophicationTerrestrialMaterialResult](/om_documentation/oM/Analytical/LifeCycleAssessment/Results/EutrophicationTerrestrialMaterialResult)
-    - LifeCycleAssessment.Results.[EutrophicationTRACIMaterialResult](/om_documentation/oM/Analytical/LifeCycleAssessment/Results/EutrophicationTRACIMaterialResult)
-    - LifeCycleAssessment.Results.[MaterialResult](/om_documentation/oM/Analytical/LifeCycleAssessment/Results/MaterialResult)
-    - LifeCycleAssessment.Results.[OzoneDepletionMaterialResult](/om_documentation/oM/Analytical/LifeCycleAssessment/Results/OzoneDepletionMaterialResult)
-    - LifeCycleAssessment.Results.[PhotochemicalOzoneCreationCMLMaterialResult](/om_documentation/oM/Analytical/LifeCycleAssessment/Results/PhotochemicalOzoneCreationCMLMaterialResult)
-    - LifeCycleAssessment.Results.[PhotochemicalOzoneCreationMaterialResult](/om_documentation/oM/Analytical/LifeCycleAssessment/Results/PhotochemicalOzoneCreationMaterialResult)
-    - LifeCycleAssessment.Results.[PhotochemicalOzoneCreationTRACIMaterialResult](/om_documentation/oM/Analytical/LifeCycleAssessment/Results/PhotochemicalOzoneCreationTRACIMaterialResult)
-    - LifeCycleAssessment.Results.[WaterDeprivationMaterialResult](/om_documentation/oM/Analytical/LifeCycleAssessment/Results/WaterDeprivationMaterialResult)
-    - LifeCycleAssessment.MaterialFragments.[AbioticDepletionFossilResourcesMetric](/om_documentation/oM/Analytical/LifeCycleAssessment/MaterialFragments/AbioticDepletionFossilResourcesMetric)
-    - LifeCycleAssessment.MaterialFragments.[AbioticDepletionMineralsAndMetalsMetric](/om_documentation/oM/Analytical/LifeCycleAssessment/MaterialFragments/AbioticDepletionMineralsAndMetalsMetric)
-    - LifeCycleAssessment.MaterialFragments.[AcidificationMetric](/om_documentation/oM/Analytical/LifeCycleAssessment/MaterialFragments/AcidificationMetric)
-    - LifeCycleAssessment.MaterialFragments.[ClimateChangeBiogenicMetric](/om_documentation/oM/Analytical/LifeCycleAssessment/MaterialFragments/ClimateChangeBiogenicMetric)
-    - LifeCycleAssessment.MaterialFragments.[ClimateChangeFossilMetric](/om_documentation/oM/Analytical/LifeCycleAssessment/MaterialFragments/ClimateChangeFossilMetric)
-    - LifeCycleAssessment.MaterialFragments.[ClimateChangeLandUseMetric](/om_documentation/oM/Analytical/LifeCycleAssessment/MaterialFragments/ClimateChangeLandUseMetric)
-    - LifeCycleAssessment.MaterialFragments.[ClimateChangeTotalMetric](/om_documentation/oM/Analytical/LifeCycleAssessment/MaterialFragments/ClimateChangeTotalMetric)
-    - LifeCycleAssessment.MaterialFragments.[ClimateChangeTotalNoBiogenicMetric](/om_documentation/oM/Analytical/LifeCycleAssessment/MaterialFragments/ClimateChangeTotalNoBiogenicMetric)
-    - LifeCycleAssessment.MaterialFragments.[EnvironmentalMetric](/om_documentation/oM/Analytical/LifeCycleAssessment/MaterialFragments/EnvironmentalMetric)
-    - LifeCycleAssessment.MaterialFragments.[EutrophicationAquaticFreshwaterMetric](/om_documentation/oM/Analytical/LifeCycleAssessment/MaterialFragments/EutrophicationAquaticFreshwaterMetric)
-    - LifeCycleAssessment.MaterialFragments.[EutrophicationAquaticMarineMetric](/om_documentation/oM/Analytical/LifeCycleAssessment/MaterialFragments/EutrophicationAquaticMarineMetric)
-    - LifeCycleAssessment.MaterialFragments.[EutrophicationCMLMetric](/om_documentation/oM/Analytical/LifeCycleAssessment/MaterialFragments/EutrophicationCMLMetric)
-    - LifeCycleAssessment.MaterialFragments.[EutrophicationTerrestrialMetric](/om_documentation/oM/Analytical/LifeCycleAssessment/MaterialFragments/EutrophicationTerrestrialMetric)
-    - LifeCycleAssessment.MaterialFragments.[EutrophicationTRACIMetric](/om_documentation/oM/Analytical/LifeCycleAssessment/MaterialFragments/EutrophicationTRACIMetric)
-    - LifeCycleAssessment.MaterialFragments.[OzoneDepletionMetric](/om_documentation/oM/Analytical/LifeCycleAssessment/MaterialFragments/OzoneDepletionMetric)
-    - LifeCycleAssessment.MaterialFragments.[PhotochemicalOzoneCreationCMLMetric](/om_documentation/oM/Analytical/LifeCycleAssessment/MaterialFragments/PhotochemicalOzoneCreationCMLMetric)
-    - LifeCycleAssessment.MaterialFragments.[PhotochemicalOzoneCreationMetric](/om_documentation/oM/Analytical/LifeCycleAssessment/MaterialFragments/PhotochemicalOzoneCreationMetric)
-    - LifeCycleAssessment.MaterialFragments.[PhotochemicalOzoneCreationTRACIMetric](/om_documentation/oM/Analytical/LifeCycleAssessment/MaterialFragments/PhotochemicalOzoneCreationTRACIMetric)
-    - LifeCycleAssessment.MaterialFragments.[WaterDeprivationMetric](/om_documentation/oM/Analytical/LifeCycleAssessment/MaterialFragments/WaterDeprivationMetric)
+    - LifeCycleAssessment.Results.[AbioticDepletionFossilResourcesElementResult](/api_documentation/oM/Analytical/LifeCycleAssessment/Results/AbioticDepletionFossilResourcesElementResult)
+    - LifeCycleAssessment.Results.[AbioticDepletionMineralsAndMetalsElementResult](/api_documentation/oM/Analytical/LifeCycleAssessment/Results/AbioticDepletionMineralsAndMetalsElementResult)
+    - LifeCycleAssessment.Results.[AcidificationElementResult](/api_documentation/oM/Analytical/LifeCycleAssessment/Results/AcidificationElementResult)
+    - LifeCycleAssessment.Results.[ClimateChangeBiogenicElementResult](/api_documentation/oM/Analytical/LifeCycleAssessment/Results/ClimateChangeBiogenicElementResult)
+    - LifeCycleAssessment.Results.[ClimateChangeFossilElementResult](/api_documentation/oM/Analytical/LifeCycleAssessment/Results/ClimateChangeFossilElementResult)
+    - LifeCycleAssessment.Results.[ClimateChangeLandUseElementResult](/api_documentation/oM/Analytical/LifeCycleAssessment/Results/ClimateChangeLandUseElementResult)
+    - LifeCycleAssessment.Results.[ClimateChangeTotalElementResult](/api_documentation/oM/Analytical/LifeCycleAssessment/Results/ClimateChangeTotalElementResult)
+    - LifeCycleAssessment.Results.[ClimateChangeTotalNoBiogenicElementResult](/api_documentation/oM/Analytical/LifeCycleAssessment/Results/ClimateChangeTotalNoBiogenicElementResult)
+    - LifeCycleAssessment.Results.[ElementResult](/api_documentation/oM/Analytical/LifeCycleAssessment/Results/ElementResult%601)&lt;[T](/api_documentation/oM/Analytical/LifeCycleAssessment/Results/ElementResult%601#t)&gt;
+    - LifeCycleAssessment.Results.[EutrophicationAquaticFreshwaterElementResult](/api_documentation/oM/Analytical/LifeCycleAssessment/Results/EutrophicationAquaticFreshwaterElementResult)
+    - LifeCycleAssessment.Results.[EutrophicationAquaticMarineElementResult](/api_documentation/oM/Analytical/LifeCycleAssessment/Results/EutrophicationAquaticMarineElementResult)
+    - LifeCycleAssessment.Results.[EutrophicationCMLElementResult](/api_documentation/oM/Analytical/LifeCycleAssessment/Results/EutrophicationCMLElementResult)
+    - LifeCycleAssessment.Results.[EutrophicationTerrestrialElementResult](/api_documentation/oM/Analytical/LifeCycleAssessment/Results/EutrophicationTerrestrialElementResult)
+    - LifeCycleAssessment.Results.[EutrophicationTRACIElementResult](/api_documentation/oM/Analytical/LifeCycleAssessment/Results/EutrophicationTRACIElementResult)
+    - LifeCycleAssessment.Results.[OzoneDepletionElementResult](/api_documentation/oM/Analytical/LifeCycleAssessment/Results/OzoneDepletionElementResult)
+    - LifeCycleAssessment.Results.[PhotochemicalOzoneCreationCMLElementResult](/api_documentation/oM/Analytical/LifeCycleAssessment/Results/PhotochemicalOzoneCreationCMLElementResult)
+    - LifeCycleAssessment.Results.[PhotochemicalOzoneCreationElementResult](/api_documentation/oM/Analytical/LifeCycleAssessment/Results/PhotochemicalOzoneCreationElementResult)
+    - LifeCycleAssessment.Results.[PhotochemicalOzoneCreationTRACIElementResult](/api_documentation/oM/Analytical/LifeCycleAssessment/Results/PhotochemicalOzoneCreationTRACIElementResult)
+    - LifeCycleAssessment.Results.[WaterDeprivationElementResult](/api_documentation/oM/Analytical/LifeCycleAssessment/Results/WaterDeprivationElementResult)
+    - LifeCycleAssessment.Results.[AbioticDepletionFossilResourcesMaterialResult](/api_documentation/oM/Analytical/LifeCycleAssessment/Results/AbioticDepletionFossilResourcesMaterialResult)
+    - LifeCycleAssessment.Results.[AbioticDepletionMineralsAndMetalsMaterialResult](/api_documentation/oM/Analytical/LifeCycleAssessment/Results/AbioticDepletionMineralsAndMetalsMaterialResult)
+    - LifeCycleAssessment.Results.[AcidificationMaterialResult](/api_documentation/oM/Analytical/LifeCycleAssessment/Results/AcidificationMaterialResult)
+    - LifeCycleAssessment.Results.[ClimateChangeBiogenicMaterialResult](/api_documentation/oM/Analytical/LifeCycleAssessment/Results/ClimateChangeBiogenicMaterialResult)
+    - LifeCycleAssessment.Results.[ClimateChangeFossilMaterialResult](/api_documentation/oM/Analytical/LifeCycleAssessment/Results/ClimateChangeFossilMaterialResult)
+    - LifeCycleAssessment.Results.[ClimateChangeLandUseMaterialResult](/api_documentation/oM/Analytical/LifeCycleAssessment/Results/ClimateChangeLandUseMaterialResult)
+    - LifeCycleAssessment.Results.[ClimateChangeTotalMaterialResult](/api_documentation/oM/Analytical/LifeCycleAssessment/Results/ClimateChangeTotalMaterialResult)
+    - LifeCycleAssessment.Results.[ClimateChangeTotalNoBiogenicMaterialResult](/api_documentation/oM/Analytical/LifeCycleAssessment/Results/ClimateChangeTotalNoBiogenicMaterialResult)
+    - LifeCycleAssessment.Results.[EutrophicationAquaticFreshwaterMaterialResult](/api_documentation/oM/Analytical/LifeCycleAssessment/Results/EutrophicationAquaticFreshwaterMaterialResult)
+    - LifeCycleAssessment.Results.[EutrophicationAquaticMarineMaterialResult](/api_documentation/oM/Analytical/LifeCycleAssessment/Results/EutrophicationAquaticMarineMaterialResult)
+    - LifeCycleAssessment.Results.[EutrophicationCMLMaterialResult](/api_documentation/oM/Analytical/LifeCycleAssessment/Results/EutrophicationCMLMaterialResult)
+    - LifeCycleAssessment.Results.[EutrophicationTerrestrialMaterialResult](/api_documentation/oM/Analytical/LifeCycleAssessment/Results/EutrophicationTerrestrialMaterialResult)
+    - LifeCycleAssessment.Results.[EutrophicationTRACIMaterialResult](/api_documentation/oM/Analytical/LifeCycleAssessment/Results/EutrophicationTRACIMaterialResult)
+    - LifeCycleAssessment.Results.[MaterialResult](/api_documentation/oM/Analytical/LifeCycleAssessment/Results/MaterialResult)
+    - LifeCycleAssessment.Results.[OzoneDepletionMaterialResult](/api_documentation/oM/Analytical/LifeCycleAssessment/Results/OzoneDepletionMaterialResult)
+    - LifeCycleAssessment.Results.[PhotochemicalOzoneCreationCMLMaterialResult](/api_documentation/oM/Analytical/LifeCycleAssessment/Results/PhotochemicalOzoneCreationCMLMaterialResult)
+    - LifeCycleAssessment.Results.[PhotochemicalOzoneCreationMaterialResult](/api_documentation/oM/Analytical/LifeCycleAssessment/Results/PhotochemicalOzoneCreationMaterialResult)
+    - LifeCycleAssessment.Results.[PhotochemicalOzoneCreationTRACIMaterialResult](/api_documentation/oM/Analytical/LifeCycleAssessment/Results/PhotochemicalOzoneCreationTRACIMaterialResult)
+    - LifeCycleAssessment.Results.[WaterDeprivationMaterialResult](/api_documentation/oM/Analytical/LifeCycleAssessment/Results/WaterDeprivationMaterialResult)
+    - LifeCycleAssessment.MaterialFragments.[AbioticDepletionFossilResourcesMetric](/api_documentation/oM/Analytical/LifeCycleAssessment/MaterialFragments/AbioticDepletionFossilResourcesMetric)
+    - LifeCycleAssessment.MaterialFragments.[AbioticDepletionMineralsAndMetalsMetric](/api_documentation/oM/Analytical/LifeCycleAssessment/MaterialFragments/AbioticDepletionMineralsAndMetalsMetric)
+    - LifeCycleAssessment.MaterialFragments.[AcidificationMetric](/api_documentation/oM/Analytical/LifeCycleAssessment/MaterialFragments/AcidificationMetric)
+    - LifeCycleAssessment.MaterialFragments.[ClimateChangeBiogenicMetric](/api_documentation/oM/Analytical/LifeCycleAssessment/MaterialFragments/ClimateChangeBiogenicMetric)
+    - LifeCycleAssessment.MaterialFragments.[ClimateChangeFossilMetric](/api_documentation/oM/Analytical/LifeCycleAssessment/MaterialFragments/ClimateChangeFossilMetric)
+    - LifeCycleAssessment.MaterialFragments.[ClimateChangeLandUseMetric](/api_documentation/oM/Analytical/LifeCycleAssessment/MaterialFragments/ClimateChangeLandUseMetric)
+    - LifeCycleAssessment.MaterialFragments.[ClimateChangeTotalMetric](/api_documentation/oM/Analytical/LifeCycleAssessment/MaterialFragments/ClimateChangeTotalMetric)
+    - LifeCycleAssessment.MaterialFragments.[ClimateChangeTotalNoBiogenicMetric](/api_documentation/oM/Analytical/LifeCycleAssessment/MaterialFragments/ClimateChangeTotalNoBiogenicMetric)
+    - LifeCycleAssessment.MaterialFragments.[EnvironmentalMetric](/api_documentation/oM/Analytical/LifeCycleAssessment/MaterialFragments/EnvironmentalMetric)
+    - LifeCycleAssessment.MaterialFragments.[EutrophicationAquaticFreshwaterMetric](/api_documentation/oM/Analytical/LifeCycleAssessment/MaterialFragments/EutrophicationAquaticFreshwaterMetric)
+    - LifeCycleAssessment.MaterialFragments.[EutrophicationAquaticMarineMetric](/api_documentation/oM/Analytical/LifeCycleAssessment/MaterialFragments/EutrophicationAquaticMarineMetric)
+    - LifeCycleAssessment.MaterialFragments.[EutrophicationCMLMetric](/api_documentation/oM/Analytical/LifeCycleAssessment/MaterialFragments/EutrophicationCMLMetric)
+    - LifeCycleAssessment.MaterialFragments.[EutrophicationTerrestrialMetric](/api_documentation/oM/Analytical/LifeCycleAssessment/MaterialFragments/EutrophicationTerrestrialMetric)
+    - LifeCycleAssessment.MaterialFragments.[EutrophicationTRACIMetric](/api_documentation/oM/Analytical/LifeCycleAssessment/MaterialFragments/EutrophicationTRACIMetric)
+    - LifeCycleAssessment.MaterialFragments.[OzoneDepletionMetric](/api_documentation/oM/Analytical/LifeCycleAssessment/MaterialFragments/OzoneDepletionMetric)
+    - LifeCycleAssessment.MaterialFragments.[PhotochemicalOzoneCreationCMLMetric](/api_documentation/oM/Analytical/LifeCycleAssessment/MaterialFragments/PhotochemicalOzoneCreationCMLMetric)
+    - LifeCycleAssessment.MaterialFragments.[PhotochemicalOzoneCreationMetric](/api_documentation/oM/Analytical/LifeCycleAssessment/MaterialFragments/PhotochemicalOzoneCreationMetric)
+    - LifeCycleAssessment.MaterialFragments.[PhotochemicalOzoneCreationTRACIMetric](/api_documentation/oM/Analytical/LifeCycleAssessment/MaterialFragments/PhotochemicalOzoneCreationTRACIMetric)
+    - LifeCycleAssessment.MaterialFragments.[WaterDeprivationMetric](/api_documentation/oM/Analytical/LifeCycleAssessment/MaterialFragments/WaterDeprivationMetric)
 
 
 ## Properties
@@ -96,7 +96,7 @@ The following properties are defined on the interface
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| MetricType | [EnvironmentalMetrics](/om_documentation/oM/Analytical/LifeCycleAssessment/EnvironmentalMetrics) | Enum indicating the metric type the object relates to. | - |
+| MetricType | [EnvironmentalMetrics](/api_documentation/oM/Analytical/LifeCycleAssessment/EnvironmentalMetrics) | Enum indicating the metric type the object relates to. | - |
 | A1 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Data relating to the Raw Material Supply module in the Product stage. | - |
 | A2 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Data relating to the Transport module in the Product stage. | - |
 | A3 | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Data relating to the Manufacturing module in the Product stage. | - |

@@ -12,8 +12,8 @@ Render a curve with specified colour and thickness.
 
 ???+ bhom "The RenderCurve in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Graphics.[IRender](/om_documentation/oM/Graphics/Graphics/IRender)
-    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
+    -  Graphics.[IRender](/api_documentation/oM/Graphics/Graphics/IRender)
+    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
 
 
 ## Properties
@@ -26,7 +26,7 @@ The following properties are defined on the class
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| Curve | [ICurve](/om_documentation/oM/Dimensional/Geometry/ICurve) | The curve to render. | - |
+| Curve | [ICurve](/api_documentation/oM/Dimensional/Geometry/ICurve) | The curve to render. | - |
 | Thickness | [int](https://learn.microsoft.com/en-us/dotnet/api/System.Int32?view=netstandard-2.0) | The thickness of the curve. Should be a value greater or equal to 1. | - |
 | Colour | [Color](https://learn.microsoft.com/en-us/dotnet/api/System.Drawing.Color?view=netstandard-2.0) | Colour used to render the Geometry. Default is BHoM Coral with a subtle transparency (Color.FromArgb(80, 255, 41, 105)). | - |
 
@@ -37,7 +37,7 @@ The following properties are defined as extension methods in one of the BHoM_Eng
 
 | Name             | Type             | Description      | Quantity         | Engine           |
 |------------------|------------------|------------------|------------------|------------------|
-| IBounds | [BoundingBox](/om_documentation/oM/Dimensional/Geometry/BoundingBox) | Computes and returns the BoundingBox of the IRender. | - | Graphics_Engine |
+| IBounds | [BoundingBox](/api_documentation/oM/Dimensional/Geometry/BoundingBox) | Computes and returns the BoundingBox of the IRender. | - | Graphics_Engine |
 
 
 ## Code and Schema

@@ -12,8 +12,8 @@ Class defined as per AECDeltas specification https://github.com/aecdeltas/aec-de
 
 ???+ bhom "The DeltaPayload in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
-    -  Base.[IImmutable](/om_documentation/oM/Framework/Base/IImmutable)
+    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
+    -  Base.[IImmutable](/api_documentation/oM/Framework/Base/IImmutable)
 
 
 ## Properties

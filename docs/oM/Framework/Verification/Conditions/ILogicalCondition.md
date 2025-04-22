@@ -12,25 +12,25 @@ Interface for all logical conditions (AND, OR, NOT etc.).
 
 ???+ bhom "The ILogicalCondition in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Verification.Conditions.[ICondition](/om_documentation/oM/Framework/Verification/Conditions/ICondition)
-    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
+    -  Verification.Conditions.[ICondition](/api_documentation/oM/Framework/Verification/Conditions/ICondition)
+    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
 
 
 ### Interfaces implementing this interface
 
 ???+ bhom "The following interfaces are implementing this interface:"
 
-    - Verification.Conditions.[ILogicalCollectionCondition](/om_documentation/oM/Framework/Verification/Conditions/ILogicalCollectionCondition)
-    - Verification.Conditions.[ISingleLogicalCondition](/om_documentation/oM/Framework/Verification/Conditions/ISingleLogicalCondition)
+    - Verification.Conditions.[ILogicalCollectionCondition](/api_documentation/oM/Framework/Verification/Conditions/ILogicalCollectionCondition)
+    - Verification.Conditions.[ISingleLogicalCondition](/api_documentation/oM/Framework/Verification/Conditions/ISingleLogicalCondition)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Verification.Conditions.[LogicalAndCondition](/om_documentation/oM/Framework/Verification/Conditions/LogicalAndCondition)
-    - Verification.Conditions.[LogicalNotCondition](/om_documentation/oM/Framework/Verification/Conditions/LogicalNotCondition)
-    - Verification.Conditions.[LogicalOrCondition](/om_documentation/oM/Framework/Verification/Conditions/LogicalOrCondition)
+    - Verification.Conditions.[LogicalAndCondition](/api_documentation/oM/Framework/Verification/Conditions/LogicalAndCondition)
+    - Verification.Conditions.[LogicalNotCondition](/api_documentation/oM/Framework/Verification/Conditions/LogicalNotCondition)
+    - Verification.Conditions.[LogicalOrCondition](/api_documentation/oM/Framework/Verification/Conditions/LogicalOrCondition)
 
 
 ## Properties
@@ -41,7 +41,7 @@ The following properties are defined as extension methods in one of the BHoM_Eng
 
 | Name             | Type             | Description      | Quantity         | Engine           |
 |------------------|------------------|------------------|------------------|------------------|
-| INestedConditions | [IEnumerable](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IEnumerable-1?view=netstandard-2.0)&lt;[ICondition](/om_documentation/oM/Framework/Verification/Conditions/ICondition)&gt; | Extracts the conditions nested inside a given condition, e.g. conditions nested inside logical conditions. | - | Verification_Engine |
+| INestedConditions | [IEnumerable](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IEnumerable-1?view=netstandard-2.0)&lt;[ICondition](/api_documentation/oM/Framework/Verification/Conditions/ICondition)&gt; | Extracts the conditions nested inside a given condition, e.g. conditions nested inside logical conditions. | - | Verification_Engine |
 
 
 ## Code and Schema

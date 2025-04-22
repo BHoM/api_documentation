@@ -12,9 +12,9 @@ title: MoveCommand
 
 ???+ bhom "The MoveCommand in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Adapters.File.[IMRCCommand](/om_documentation/oM/Adapter/Adapters/File/IMRCCommand)
-    -  Adapter.[IExecuteCommand](/om_documentation/oM/Framework/Adapter/IExecuteCommand)
-    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
+    -  Adapters.File.[IMRCCommand](/api_documentation/oM/Adapter/Adapters/File/IMRCCommand)
+    -  Adapter.[IExecuteCommand](/api_documentation/oM/Framework/Adapter/IExecuteCommand)
+    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
 
 
 ## Properties

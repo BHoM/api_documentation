@@ -12,27 +12,27 @@ title: IResultRequest
 
 ???+ bhom "The IResultRequest in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Data.Requests.[IRequest](/om_documentation/oM/Framework/Data/Requests/IRequest)
-    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
+    -  Data.Requests.[IRequest](/api_documentation/oM/Framework/Data/Requests/IRequest)
+    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
 
 
 ### Interfaces implementing this interface
 
 ???+ bhom "The following interfaces are implementing this interface:"
 
-    - Structure.Requests.[IStructuralResultRequest](/om_documentation/oM/Analytical/Structure/Requests/IStructuralResultRequest)
+    - Structure.Requests.[IStructuralResultRequest](/api_documentation/oM/Analytical/Structure/Requests/IStructuralResultRequest)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Adapters.ETABS.Requests.[PierAndSpandrelForceRequest](/om_documentation/oM/Adapter/Adapters/ETABS/Requests/PierAndSpandrelForceRequest)
-    - Adapters.SAP2000.Requests.[SteelUtilisationRequest](/om_documentation/oM/Adapter/Adapters/SAP2000/Requests/SteelUtilisationRequest)
-    - Structure.Requests.[BarResultRequest](/om_documentation/oM/Analytical/Structure/Requests/BarResultRequest)
-    - Structure.Requests.[GlobalResultRequest](/om_documentation/oM/Analytical/Structure/Requests/GlobalResultRequest)
-    - Structure.Requests.[MeshResultRequest](/om_documentation/oM/Analytical/Structure/Requests/MeshResultRequest)
-    - Structure.Requests.[NodeResultRequest](/om_documentation/oM/Analytical/Structure/Requests/NodeResultRequest)
+    - Adapters.ETABS.Requests.[PierAndSpandrelForceRequest](/api_documentation/oM/Adapter/Adapters/ETABS/Requests/PierAndSpandrelForceRequest)
+    - Adapters.SAP2000.Requests.[SteelUtilisationRequest](/api_documentation/oM/Adapter/Adapters/SAP2000/Requests/SteelUtilisationRequest)
+    - Structure.Requests.[BarResultRequest](/api_documentation/oM/Analytical/Structure/Requests/BarResultRequest)
+    - Structure.Requests.[GlobalResultRequest](/api_documentation/oM/Analytical/Structure/Requests/GlobalResultRequest)
+    - Structure.Requests.[MeshResultRequest](/api_documentation/oM/Analytical/Structure/Requests/MeshResultRequest)
+    - Structure.Requests.[NodeResultRequest](/api_documentation/oM/Analytical/Structure/Requests/NodeResultRequest)
 
 
 ## Properties
@@ -55,7 +55,7 @@ The following properties are defined as extension methods in one of the BHoM_Eng
 
 | Name             | Type             | Description      | Quantity         | Engine           |
 |------------------|------------------|------------------|------------------|------------------|
-| Discipline | [Nullable](https://learn.microsoft.com/en-us/dotnet/api/System.Nullable-1?view=netstandard-2.0)&lt;[Discipline](/om_documentation/oM/Adapter/Adapters/Revit/Enums/Discipline)&gt; | Gets discipline enforced by the Request. If the result is different than defaultDiscipline and neither of two is Undefined, null is returned (the result discipline is conflicting with defaultDiscipline). | - | Revit_Engine |
+| Discipline | [Nullable](https://learn.microsoft.com/en-us/dotnet/api/System.Nullable-1?view=netstandard-2.0)&lt;[Discipline](/api_documentation/oM/Adapter/Adapters/Revit/Enums/Discipline)&gt; | Gets discipline enforced by the Request. If the result is different than defaultDiscipline and neither of two is Undefined, null is returned (the result discipline is conflicting with defaultDiscipline). | - | Revit_Engine |
 | IFilterDescription | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | Returns a description of the filter represented by the given IRequest. | - | Revit_Engine |
 
 

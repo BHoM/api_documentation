@@ -12,17 +12,17 @@ An interface for opaque energy materials.
 
 ???+ bhom "The IEnergyMaterialOpaque in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  LadybugTools.[ILadybugTools](/om_documentation/oM/Adapter/LadybugTools/ILadybugTools)
-    -  Base.[IBHoMObject](/om_documentation/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
+    -  LadybugTools.[ILadybugTools](/api_documentation/oM/Adapter/LadybugTools/ILadybugTools)
+    -  Base.[IBHoMObject](/api_documentation/oM/Framework/Base/IBHoMObject)
+    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - LadybugTools.[EnergyMaterial](/om_documentation/oM/Adapter/LadybugTools/EnergyMaterial)
-    - LadybugTools.[EnergyMaterialVegetation](/om_documentation/oM/Adapter/LadybugTools/EnergyMaterialVegetation)
+    - LadybugTools.[EnergyMaterial](/api_documentation/oM/Adapter/LadybugTools/EnergyMaterial)
+    - LadybugTools.[EnergyMaterialVegetation](/api_documentation/oM/Adapter/LadybugTools/EnergyMaterialVegetation)
 
 
 ## Properties

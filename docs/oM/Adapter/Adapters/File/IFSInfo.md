@@ -13,22 +13,22 @@ Rehash of the .NET's base class 'FileSystemInfo' in BHoM flavour.
 
 ???+ bhom "The IFSInfo in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
+    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
 
 
 ### Interfaces implementing this interface
 
 ???+ bhom "The following interfaces are implementing this interface:"
 
-    - Adapters.File.[IFSContainer](/om_documentation/oM/Adapter/Adapters/File/IFSContainer)
+    - Adapters.File.[IFSContainer](/api_documentation/oM/Adapter/Adapters/File/IFSContainer)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Adapters.File.[FSDirectory](/om_documentation/oM/Adapter/Adapters/File/FSDirectory)
-    - Adapters.File.[FSFile](/om_documentation/oM/Adapter/Adapters/File/FSFile)
+    - Adapters.File.[FSDirectory](/api_documentation/oM/Adapter/Adapters/File/FSDirectory)
+    - Adapters.File.[FSFile](/api_documentation/oM/Adapter/Adapters/File/FSFile)
 
 
 ## Properties
@@ -41,7 +41,7 @@ The following properties are defined on the interface
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| ParentDirectory | [FSDirectory](/om_documentation/oM/Adapter/Adapters/File/FSDirectory) | Parent Directory of the File or Directory. | - |
+| ParentDirectory | [FSDirectory](/api_documentation/oM/Adapter/Adapters/File/FSDirectory) | Parent Directory of the File or Directory. | - |
 | Name | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | Name of the file (WITH Extension) or of the Directory. | - |
 | Exists | [Nullable](https://learn.microsoft.com/en-us/dotnet/api/System.Nullable-1?view=netstandard-2.0)&lt;[bool](https://learn.microsoft.com/en-us/dotnet/api/System.Boolean?view=netstandard-2.0)&gt; | - | - |
 | Attributes | [FileAttributes](https://learn.microsoft.com/en-us/dotnet/api/System.IO.FileAttributes?view=netstandard-2.0) | - | - |

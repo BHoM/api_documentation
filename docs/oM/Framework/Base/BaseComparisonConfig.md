@@ -12,15 +12,15 @@ Settings to determine the uniqueness of an Object, i.e. when comparing and when 
 
 ???+ bhom "The BaseComparisonConfig in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
+    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
 
 
 ### Classes inheriting from this class
 
 ???+ bhom "The following classes are inheriting from this class:"
 
-    - Base.[ComparisonConfig](/om_documentation/oM/Framework/Base/ComparisonConfig)
-    - Adapters.Revit.[RevitComparisonConfig](/om_documentation/oM/Adapter/Adapters/Revit/RevitComparisonConfig)
+    - Base.[ComparisonConfig](/api_documentation/oM/Framework/Base/ComparisonConfig)
+    - Adapters.Revit.[RevitComparisonConfig](/api_documentation/oM/Adapter/Adapters/Revit/RevitComparisonConfig)
 
 
 ## Properties
@@ -42,9 +42,9 @@ The following properties are defined on the class
 | MaxNesting | [int](https://learn.microsoft.com/en-us/dotnet/api/System.Int32?view=netstandard-2.0) | If any property is nested into the object over that level, it is ignored. Useful to limit the runtime.<br>Defaults to unlimited. | - |
 | MaxPropertyDifferences | [int](https://learn.microsoft.com/en-us/dotnet/api/System.Int32?view=netstandard-2.0) | Sets the maximum number of property differences to be determined before stopping. Useful to limit the runtime.<br>Defaults to unlimited. | - |
 | NumericTolerance | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Numeric tolerance for property values, applied to all numerical properties. Defaults to double.MinValue: no rounding applied.<br>Applies rounding for numbers smaller than this.<br>You can override on a per-property basis by using `PropertyNumericTolerances`.<br>If conflicting values/multiple matches are found among the Configurations on numerical precision, the largest approximation among all (least precise number) is registered. | - |
-| PropertyNumericTolerances | [HashSet](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.HashSet-1?view=netstandard-2.0)&lt;[NamedNumericTolerance](/om_documentation/oM/Framework/Base/NamedNumericTolerance)&gt; | Tolerance used for individual properties. When computing Hash or the property Diffing, if the analysed property name is found in this collection, the corresponding tolerance is applied.<br>Supports * wildcard in the property name matching. E.g. `StartNode.Point.*, 2`.<br>If a match is found, this take precedence over the global `NumericTolerance`.<br>If conflicting values/multiple matches are found among the Configurations on numerical precision, the largest approximation among all (least precise number) is registered. | - |
+| PropertyNumericTolerances | [HashSet](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.HashSet-1?view=netstandard-2.0)&lt;[NamedNumericTolerance](/api_documentation/oM/Framework/Base/NamedNumericTolerance)&gt; | Tolerance used for individual properties. When computing Hash or the property Diffing, if the analysed property name is found in this collection, the corresponding tolerance is applied.<br>Supports * wildcard in the property name matching. E.g. `StartNode.Point.*, 2`.<br>If a match is found, this take precedence over the global `NumericTolerance`.<br>If conflicting values/multiple matches are found among the Configurations on numerical precision, the largest approximation among all (least precise number) is registered. | - |
 | SignificantFigures | [int](https://learn.microsoft.com/en-us/dotnet/api/System.Int32?view=netstandard-2.0) | Number of significant figures allowed for numerical data.<br>Defaults to `int.MaxValue`: no approximation applied.<br>You can override on a per-property basis by using `PropertySignificantDigits`.<br>If conflicting values/multiple matches are found among the Configurations on numerical precision, the largest approximation among all (least precise number) is registered. | - |
-| PropertySignificantFigures | [HashSet](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.HashSet-1?view=netstandard-2.0)&lt;[NamedSignificantFigures](/om_documentation/oM/Framework/Base/NamedSignificantFigures)&gt; | Number of significant figures allowed for numerical data on a per-property base. <br>Supports * wildcard in the property name matching. E.g. `StartNode.Point.*, 2`.<br>If a match is found, this take precedence over the global `SignificantFigures`.<br>If conflicting values/multiple matches are found among the Configurations on numerical precision, the largest approximation among all (least precise number) is registered. | - |
+| PropertySignificantFigures | [HashSet](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.HashSet-1?view=netstandard-2.0)&lt;[NamedSignificantFigures](/api_documentation/oM/Framework/Base/NamedSignificantFigures)&gt; | Number of significant figures allowed for numerical data on a per-property base. <br>Supports * wildcard in the property name matching. E.g. `StartNode.Point.*, 2`.<br>If a match is found, this take precedence over the global `SignificantFigures`.<br>If conflicting values/multiple matches are found among the Configurations on numerical precision, the largest approximation among all (least precise number) is registered. | - |
 | UseGeometryHash | [bool](https://learn.microsoft.com/en-us/dotnet/api/System.Boolean?view=netstandard-2.0) | If true, geometric types will be identified based on the GeometryHash function. This function reduces the identity of geometry down to its most basic components, and it is faster than scouring for all its properties. See its implementation in the Geometry_Engine for more details. | - |
 
 

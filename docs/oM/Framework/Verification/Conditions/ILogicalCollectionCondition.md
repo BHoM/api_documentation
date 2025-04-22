@@ -12,17 +12,17 @@ Interface for logical conditions consisting of a collection of nested conditions
 
 ???+ bhom "The ILogicalCollectionCondition in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Verification.Conditions.[ILogicalCondition](/om_documentation/oM/Framework/Verification/Conditions/ILogicalCondition)
-    -  Verification.Conditions.[ICondition](/om_documentation/oM/Framework/Verification/Conditions/ICondition)
-    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
+    -  Verification.Conditions.[ILogicalCondition](/api_documentation/oM/Framework/Verification/Conditions/ILogicalCondition)
+    -  Verification.Conditions.[ICondition](/api_documentation/oM/Framework/Verification/Conditions/ICondition)
+    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Verification.Conditions.[LogicalAndCondition](/om_documentation/oM/Framework/Verification/Conditions/LogicalAndCondition)
-    - Verification.Conditions.[LogicalOrCondition](/om_documentation/oM/Framework/Verification/Conditions/LogicalOrCondition)
+    - Verification.Conditions.[LogicalAndCondition](/api_documentation/oM/Framework/Verification/Conditions/LogicalAndCondition)
+    - Verification.Conditions.[LogicalOrCondition](/api_documentation/oM/Framework/Verification/Conditions/LogicalOrCondition)
 
 
 ## Properties
@@ -35,7 +35,7 @@ The following properties are defined on the interface
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| Conditions | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[ICondition](/om_documentation/oM/Framework/Verification/Conditions/ICondition)&gt; | A collection of conditions to be evaluated in combination. | - |
+| Conditions | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[ICondition](/api_documentation/oM/Framework/Verification/Conditions/ICondition)&gt; | A collection of conditions to be evaluated in combination. | - |
 
 
 ### Derived properties
@@ -44,8 +44,8 @@ The following properties are defined as extension methods in one of the BHoM_Eng
 
 | Name             | Type             | Description      | Quantity         | Engine           |
 |------------------|------------------|------------------|------------------|------------------|
-| INestedConditions | [IEnumerable](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IEnumerable-1?view=netstandard-2.0)&lt;[ICondition](/om_documentation/oM/Framework/Verification/Conditions/ICondition)&gt; | Extracts the conditions nested inside a given condition, e.g. conditions nested inside logical conditions. | - | Verification_Engine |
-| NestedConditions | [IEnumerable](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IEnumerable-1?view=netstandard-2.0)&lt;[ICondition](/om_documentation/oM/Framework/Verification/Conditions/ICondition)&gt; | Extracts the conditions nested inside a given logical condition. | - | Verification_Engine |
+| INestedConditions | [IEnumerable](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IEnumerable-1?view=netstandard-2.0)&lt;[ICondition](/api_documentation/oM/Framework/Verification/Conditions/ICondition)&gt; | Extracts the conditions nested inside a given condition, e.g. conditions nested inside logical conditions. | - | Verification_Engine |
+| NestedConditions | [IEnumerable](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IEnumerable-1?view=netstandard-2.0)&lt;[ICondition](/api_documentation/oM/Framework/Verification/Conditions/ICondition)&gt; | Extracts the conditions nested inside a given logical condition. | - | Verification_Engine |
 
 
 ## Code and Schema

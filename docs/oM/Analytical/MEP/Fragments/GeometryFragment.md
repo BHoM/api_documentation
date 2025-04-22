@@ -12,8 +12,8 @@ title: GeometryFragment
 
 ???+ bhom "The GeometryFragment in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IFragment](/om_documentation/oM/Framework/Base/IFragment)
-    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
+    -  Base.[IFragment](/api_documentation/oM/Framework/Base/IFragment)
+    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
 
 
 ## Properties
@@ -26,7 +26,7 @@ The following properties are defined on the class
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| Geometry | [IGeometry](/om_documentation/oM/Dimensional/Geometry/IGeometry) | - | - |
+| Geometry | [IGeometry](/api_documentation/oM/Dimensional/Geometry/IGeometry) | - | - |
 
 
 ## Code and Schema

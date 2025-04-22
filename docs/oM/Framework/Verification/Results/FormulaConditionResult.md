@@ -12,9 +12,9 @@ Object representing result of FormulaCondition.
 
 ???+ bhom "The FormulaConditionResult in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Verification.Results.[IConditionResult](/om_documentation/oM/Framework/Verification/Results/IConditionResult)
-    -  Base.[IImmutable](/om_documentation/oM/Framework/Base/IImmutable)
-    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
+    -  Verification.Results.[IConditionResult](/api_documentation/oM/Framework/Verification/Results/IConditionResult)
+    -  Base.[IImmutable](/api_documentation/oM/Framework/Base/IImmutable)
+    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
 
 
 ## Properties

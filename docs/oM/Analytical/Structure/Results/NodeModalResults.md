@@ -12,19 +12,19 @@ Base class for all Node result classes. Stores all identifier information and ho
 
 ???+ bhom "The NodeModalResults in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Structure.Results.[NodeResult](/om_documentation/oM/Analytical/Structure/Results/NodeResult)
-    -  Structure.Results.[IStructuralResult](/om_documentation/oM/Analytical/Structure/Results/IStructuralResult)
-    -  Analytical.Results.[IObjectIdResult](/om_documentation/oM/Analytical/Analytical/Results/IObjectIdResult)
-    -  Analytical.Results.[IResult](/om_documentation/oM/Analytical/Analytical/Results/IResult)
-    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
-    -  [IComparable](https://learn.microsoft.com/en-us/dotnet/api/System.IComparable-1?view=netstandard-2.0)&lt;Analytical.Results.[IResult](/om_documentation/oM/Analytical/Analytical/Results/IResult)&gt;
-    -  Base.[IImmutable](/om_documentation/oM/Framework/Base/IImmutable)
-    -  Analytical.Results.[ICasedResult](/om_documentation/oM/Analytical/Analytical/Results/ICasedResult)
-    -  Analytical.Results.[ITimeStepResult](/om_documentation/oM/Analytical/Analytical/Results/ITimeStepResult)
-    -  Analytical.Results.[IObjectResult](/om_documentation/oM/Analytical/Analytical/Results/IObjectResult)
-    -  Structure.Results.[INodeDisplacement](/om_documentation/oM/Analytical/Structure/Results/INodeDisplacement)
-    -  Structure.Results.[IDisplacement](/om_documentation/oM/Analytical/Structure/Results/IDisplacement)
-    -  Analytical.Results.[IResultItem](/om_documentation/oM/Analytical/Analytical/Results/IResultItem)
+    -  Structure.Results.[NodeResult](/api_documentation/oM/Analytical/Structure/Results/NodeResult)
+    -  Structure.Results.[IStructuralResult](/api_documentation/oM/Analytical/Structure/Results/IStructuralResult)
+    -  Analytical.Results.[IObjectIdResult](/api_documentation/oM/Analytical/Analytical/Results/IObjectIdResult)
+    -  Analytical.Results.[IResult](/api_documentation/oM/Analytical/Analytical/Results/IResult)
+    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
+    -  [IComparable](https://learn.microsoft.com/en-us/dotnet/api/System.IComparable-1?view=netstandard-2.0)&lt;Analytical.Results.[IResult](/api_documentation/oM/Analytical/Analytical/Results/IResult)&gt;
+    -  Base.[IImmutable](/api_documentation/oM/Framework/Base/IImmutable)
+    -  Analytical.Results.[ICasedResult](/api_documentation/oM/Analytical/Analytical/Results/ICasedResult)
+    -  Analytical.Results.[ITimeStepResult](/api_documentation/oM/Analytical/Analytical/Results/ITimeStepResult)
+    -  Analytical.Results.[IObjectResult](/api_documentation/oM/Analytical/Analytical/Results/IObjectResult)
+    -  Structure.Results.[INodeDisplacement](/api_documentation/oM/Analytical/Structure/Results/INodeDisplacement)
+    -  Structure.Results.[IDisplacement](/api_documentation/oM/Analytical/Structure/Results/IDisplacement)
+    -  Analytical.Results.[IResultItem](/api_documentation/oM/Analytical/Analytical/Results/IResultItem)
 
 
 ## Properties
@@ -43,13 +43,13 @@ The following properties are defined on the class
 | RX | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Rotational component about the X-axis of the mode shape in global coordinates. | - |
 | RY | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Rotational component about the Y-axis of the mode shape in global coordinates. | - |
 | RZ | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Rotational component about the Z-axis of the mode shape in global coordinates. | - |
-| NodalMassX | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Nodal modal mass in the X-direction as defined by orientation basis. Proportional amount of the total modal mass that acts in the X-direction at the specific Node. | [Mass](/om_documentation/oM/Dimensional/Quantities/Attributes/Mass) [kg] |
-| NodalMassY | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Nodal modal mass in the Y-direction as defined by orientation basis. Proportional amount of the total modal mass that acts in the Y-direction at the specific Node. | [Mass](/om_documentation/oM/Dimensional/Quantities/Attributes/Mass) [kg] |
-| NodalMassZ | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Nodal modal mass in the Z-direction as defined by orientation basis. Proportional amount of the total modal mass that acts in the Z-direction at the specific Node. | [Mass](/om_documentation/oM/Dimensional/Quantities/Attributes/Mass) [kg] |
-| NodalRotationalMassX | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Nodal modal mass in the X-direction as defined by orientation basis. Proportional amount of the total modal mass that acts around the X-axis at the specific Node. | [Mass](/om_documentation/oM/Dimensional/Quantities/Attributes/Mass) [kg] |
-| NodalRotationalMassY | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Nodal modal mass in the Y-direction as defined by orientation basis. Proportional amount of the total modal mass that acts around the X-axis at the specific Node. | [Mass](/om_documentation/oM/Dimensional/Quantities/Attributes/Mass) [kg] |
-| NodalRotationalMassZ | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Nodal modal mass in the Z-direction as defined by orientation basis. Proportional amount of the total modal mass that acts around the X-axis at the specific Node. | [Mass](/om_documentation/oM/Dimensional/Quantities/Attributes/Mass) [kg] |
-| NormalisationProcedure | [ModalResultNormalisation](/om_documentation/oM/Analytical/Structure/Results/ModalResultNormalisation) | States if the result has been normalised based on the Eigenvector or on the Mass. | - |
+| NodalMassX | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Nodal modal mass in the X-direction as defined by orientation basis. Proportional amount of the total modal mass that acts in the X-direction at the specific Node. | [Mass](/api_documentation/oM/Dimensional/Quantities/Attributes/Mass) [kg] |
+| NodalMassY | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Nodal modal mass in the Y-direction as defined by orientation basis. Proportional amount of the total modal mass that acts in the Y-direction at the specific Node. | [Mass](/api_documentation/oM/Dimensional/Quantities/Attributes/Mass) [kg] |
+| NodalMassZ | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Nodal modal mass in the Z-direction as defined by orientation basis. Proportional amount of the total modal mass that acts in the Z-direction at the specific Node. | [Mass](/api_documentation/oM/Dimensional/Quantities/Attributes/Mass) [kg] |
+| NodalRotationalMassX | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Nodal modal mass in the X-direction as defined by orientation basis. Proportional amount of the total modal mass that acts around the X-axis at the specific Node. | [Mass](/api_documentation/oM/Dimensional/Quantities/Attributes/Mass) [kg] |
+| NodalRotationalMassY | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Nodal modal mass in the Y-direction as defined by orientation basis. Proportional amount of the total modal mass that acts around the X-axis at the specific Node. | [Mass](/api_documentation/oM/Dimensional/Quantities/Attributes/Mass) [kg] |
+| NodalRotationalMassZ | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Nodal modal mass in the Z-direction as defined by orientation basis. Proportional amount of the total modal mass that acts around the X-axis at the specific Node. | [Mass](/api_documentation/oM/Dimensional/Quantities/Attributes/Mass) [kg] |
+| NormalisationProcedure | [ModalResultNormalisation](/api_documentation/oM/Analytical/Structure/Results/ModalResultNormalisation) | States if the result has been normalised based on the Eigenvector or on the Mass. | - |
 
 
 ### Inherited properties
@@ -61,7 +61,7 @@ The following properties are inherited from the base class of the object
 | ResultCase | [IComparable](https://learn.microsoft.com/en-us/dotnet/api/System.IComparable?view=netstandard-2.0) | Identifier for the Loadcase or LoadCombination that the result belongs to. Is generally name or number of the loadcase, depending on the analysis package. | - |
 | ModeNumber | [int](https://learn.microsoft.com/en-us/dotnet/api/System.Int32?view=netstandard-2.0) | Positive index, starting at one. Only set for cases with modal outputs such as dynamic cases. | - |
 | TimeStep | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Time step for time history results. | - |
-| Orientation | [Basis](/om_documentation/oM/Dimensional/Geometry/Basis) | Defines the directionality of the results. Defaults to global XYZ. | - |
+| Orientation | [Basis](/api_documentation/oM/Dimensional/Geometry/Basis) | Defines the directionality of the results. Defaults to global XYZ. | - |
 
 
 ### Derived properties
@@ -73,9 +73,9 @@ The following properties are defined as extension methods in one of the BHoM_Eng
 | AllIdentifierProperties | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0)&gt; | Gets the name of all properties of the result that are of identifier types. This is all properties tagged with any IdentifierAttribute. | - | Results_Engine |
 | ObjectIdentifierProperties | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0)&gt; | Gets the name of all properties of the result that are of ObjectIdentifier types. This is all properties tagged with the ObjectIdentifierAttribute. | - | Results_Engine |
 | ResultPropertyKeys | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0)&gt; | Returns the result value carrying properties available for the result type provided. Currently only supported for IResultItem and IResultCollection&lt;IResultItem&gt; type results. | - | Results_Engine |
-| RTotal | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Gets the total resolved rotational displacement of the three components of the result. | [Angle](/om_documentation/oM/Dimensional/Quantities/Attributes/Angle) [rad] | Structure_Engine |
+| RTotal | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Gets the total resolved rotational displacement of the three components of the result. | [Angle](/api_documentation/oM/Dimensional/Quantities/Attributes/Angle) [rad] | Structure_Engine |
 | ScenarioIdentifierProperties | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0)&gt; | Gets the name of all properties of the result that are of Scenario types. This is all properties tagged with the ScenarioIdentifierAttribute. | - | Results_Engine |
-| UTotal | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Gets the total resolved translational displacement of the three components of the result. | [Length](/om_documentation/oM/Dimensional/Quantities/Attributes/Length) [m] | Structure_Engine |
+| UTotal | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Gets the total resolved translational displacement of the three components of the result. | [Length](/api_documentation/oM/Dimensional/Quantities/Attributes/Length) [m] | Structure_Engine |
 
 
 ## Code and Schema

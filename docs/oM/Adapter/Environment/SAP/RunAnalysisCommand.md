@@ -12,8 +12,8 @@ title: RunAnalysisCommand
 
 ???+ bhom "The RunAnalysisCommand in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Adapter.[IExecuteCommand](/om_documentation/oM/Framework/Adapter/IExecuteCommand)
-    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
+    -  Adapter.[IExecuteCommand](/api_documentation/oM/Framework/Adapter/IExecuteCommand)
+    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
 
 
 ## Properties
@@ -26,8 +26,8 @@ The following properties are defined on the class
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| FileSettingsInput | [FileSettings](/om_documentation/oM/Framework/Adapter/FileSettings) | Path to XML file that will be calculated. | - |
-| FileSettingsOutput | [FileSettings](/om_documentation/oM/Framework/Adapter/FileSettings) | Path to new file, if using txt endpoint. | - |
+| FileSettingsInput | [FileSettings](/api_documentation/oM/Framework/Adapter/FileSettings) | Path to XML file that will be calculated. | - |
+| FileSettingsOutput | [FileSettings](/api_documentation/oM/Framework/Adapter/FileSettings) | Path to new file, if using txt endpoint. | - |
 | APIKey | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | API Key for access. | - |
 | PostURL | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | Endpoint. | - |
 

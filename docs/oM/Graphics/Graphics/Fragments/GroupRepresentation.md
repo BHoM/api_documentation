@@ -12,9 +12,9 @@ Fragment for group representation.
 
 ???+ bhom "The GroupRepresentation in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Graphics.Fragments.[IRepresentationFragment](/om_documentation/oM/Graphics/Graphics/Fragments/IRepresentationFragment)
-    -  Base.[IFragment](/om_documentation/oM/Framework/Base/IFragment)
-    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
+    -  Graphics.Fragments.[IRepresentationFragment](/api_documentation/oM/Graphics/Graphics/Fragments/IRepresentationFragment)
+    -  Base.[IFragment](/api_documentation/oM/Framework/Base/IFragment)
+    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
 
 
 ## Properties
@@ -27,10 +27,10 @@ The following properties are defined on the class
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| Boundary | [ICurve](/om_documentation/oM/Dimensional/Geometry/ICurve) | - | - |
+| Boundary | [ICurve](/api_documentation/oM/Dimensional/Geometry/ICurve) | - | - |
 | Text | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | - | - |
-| TextPosition | [Point](/om_documentation/oM/Dimensional/Geometry/Point) | - | - |
-| TextDirection | [Vector](/om_documentation/oM/Dimensional/Geometry/Vector) | - | - |
+| TextPosition | [Point](/api_documentation/oM/Dimensional/Geometry/Point) | - | - |
+| TextDirection | [Vector](/api_documentation/oM/Dimensional/Geometry/Vector) | - | - |
 | Colour | [Color](https://learn.microsoft.com/en-us/dotnet/api/System.Drawing.Color?view=netstandard-2.0) | - | - |
 
 

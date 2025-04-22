@@ -12,16 +12,16 @@ Stores the hash of the parent BHoMObject.
 
 ???+ bhom "The IHashFragment in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IFragment](/om_documentation/oM/Framework/Base/IFragment)
-    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
+    -  Base.[IFragment](/api_documentation/oM/Framework/Base/IFragment)
+    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Base.[HashFragment](/om_documentation/oM/Framework/Base/HashFragment)
-    - Diffing.[RevisionFragment](/om_documentation/oM/Framework/Diffing/RevisionFragment)
+    - Base.[HashFragment](/api_documentation/oM/Framework/Base/HashFragment)
+    - Diffing.[RevisionFragment](/api_documentation/oM/Framework/Diffing/RevisionFragment)
 
 
 ## Properties

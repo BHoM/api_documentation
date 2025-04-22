@@ -22,8 +22,8 @@ Constrained by the following arguments:
 
 ???+ bhom "The PriorityQueue`1 in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Data.Collections.[IDataStructure](/om_documentation/oM/Framework/Data/Collections/IDataStructure)
-    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
+    -  Data.Collections.[IDataStructure](/api_documentation/oM/Framework/Data/Collections/IDataStructure)
+    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
 
 
 ## Properties

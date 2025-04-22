@@ -14,8 +14,8 @@ To be applied to all methods that return BH.oM.Base.Output types.
 ???+ bhom "The MultiOutputAttribute in inheriting from the following base type(s) and implements the following interfaces:"
 
     -  [Attribute](https://learn.microsoft.com/en-us/dotnet/api/System.Attribute?view=netstandard-2.0)
-    -  Base.[IImmutable](/om_documentation/oM/Framework/Base/IImmutable)
-    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
+    -  Base.[IImmutable](/api_documentation/oM/Framework/Base/IImmutable)
+    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
 
 
 ## Properties
@@ -31,7 +31,7 @@ The following properties are defined on the class
 | Index | [int](https://learn.microsoft.com/en-us/dotnet/api/System.Int32?view=netstandard-2.0) | Zero-based index of the output parameter this attribute corresponds to. | - |
 | Name | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | Name of the correspondent output parameter (to be used in the UI). | - |
 | Description | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | Description of the correspondent output parameter. | - |
-| Classification | [ClassificationAttribute](/om_documentation/oM/Framework/Base/Attributes/ClassificationAttribute) | Classification of the correspondent output parameter, e.g. folder path, quantity etc. | - |
+| Classification | [ClassificationAttribute](/api_documentation/oM/Framework/Base/Attributes/ClassificationAttribute) | Classification of the correspondent output parameter, e.g. folder path, quantity etc. | - |
 
 
 ### Inherited properties

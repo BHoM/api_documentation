@@ -12,17 +12,17 @@ Base interface for all Fixture objects. These objects are capable of containing 
 
 ???+ bhom "The IFixtureUsage in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IBHoMObject](/om_documentation/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
-    -  Base.[IImmutable](/om_documentation/oM/Framework/Base/IImmutable)
+    -  Base.[IBHoMObject](/api_documentation/oM/Framework/Base/IBHoMObject)
+    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
+    -  Base.[IImmutable](/api_documentation/oM/Framework/Base/IImmutable)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - MEP.Fixtures.[CommercialFixtureUsage](/om_documentation/oM/Analytical/MEP/Fixtures/CommercialFixtureUsage)
-    - MEP.Fixtures.[ResidentialFixtureUsage](/om_documentation/oM/Analytical/MEP/Fixtures/ResidentialFixtureUsage)
+    - MEP.Fixtures.[CommercialFixtureUsage](/api_documentation/oM/Analytical/MEP/Fixtures/CommercialFixtureUsage)
+    - MEP.Fixtures.[ResidentialFixtureUsage](/api_documentation/oM/Analytical/MEP/Fixtures/ResidentialFixtureUsage)
 
 
 ## Properties

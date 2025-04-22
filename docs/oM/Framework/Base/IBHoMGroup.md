@@ -12,15 +12,15 @@ title: IBHoMGroup
 
 ???+ bhom "The IBHoMGroup in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IBHoMObject](/om_documentation/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
+    -  Base.[IBHoMObject](/api_documentation/oM/Framework/Base/IBHoMObject)
+    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Base.[BHoMGroup](/om_documentation/oM/Framework/Base/BHoMGroup%601)&lt;[T](/om_documentation/oM/Framework/Base/BHoMGroup%601#t)&gt;
+    - Base.[BHoMGroup](/api_documentation/oM/Framework/Base/BHoMGroup%601)&lt;[T](/api_documentation/oM/Framework/Base/BHoMGroup%601#t)&gt;
 
 
 ## Properties

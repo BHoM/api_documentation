@@ -12,16 +12,16 @@ Base class for all bar result classes. Stores all identifier information and how
 
 ???+ bhom "The PierForce in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Structure.Results.[BarResult](/om_documentation/oM/Analytical/Structure/Results/BarResult)
-    -  Structure.Results.[IStructuralResult](/om_documentation/oM/Analytical/Structure/Results/IStructuralResult)
-    -  Analytical.Results.[IObjectIdResult](/om_documentation/oM/Analytical/Analytical/Results/IObjectIdResult)
-    -  Analytical.Results.[IResult](/om_documentation/oM/Analytical/Analytical/Results/IResult)
-    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
-    -  [IComparable](https://learn.microsoft.com/en-us/dotnet/api/System.IComparable-1?view=netstandard-2.0)&lt;Analytical.Results.[IResult](/om_documentation/oM/Analytical/Analytical/Results/IResult)&gt;
-    -  Base.[IImmutable](/om_documentation/oM/Framework/Base/IImmutable)
-    -  Analytical.Results.[ICasedResult](/om_documentation/oM/Analytical/Analytical/Results/ICasedResult)
-    -  Analytical.Results.[ITimeStepResult](/om_documentation/oM/Analytical/Analytical/Results/ITimeStepResult)
-    -  Analytical.Results.[IElement1DResult](/om_documentation/oM/Analytical/Analytical/Results/IElement1DResult)
+    -  Structure.Results.[BarResult](/api_documentation/oM/Analytical/Structure/Results/BarResult)
+    -  Structure.Results.[IStructuralResult](/api_documentation/oM/Analytical/Structure/Results/IStructuralResult)
+    -  Analytical.Results.[IObjectIdResult](/api_documentation/oM/Analytical/Analytical/Results/IObjectIdResult)
+    -  Analytical.Results.[IResult](/api_documentation/oM/Analytical/Analytical/Results/IResult)
+    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
+    -  [IComparable](https://learn.microsoft.com/en-us/dotnet/api/System.IComparable-1?view=netstandard-2.0)&lt;Analytical.Results.[IResult](/api_documentation/oM/Analytical/Analytical/Results/IResult)&gt;
+    -  Base.[IImmutable](/api_documentation/oM/Framework/Base/IImmutable)
+    -  Analytical.Results.[ICasedResult](/api_documentation/oM/Analytical/Analytical/Results/ICasedResult)
+    -  Analytical.Results.[ITimeStepResult](/api_documentation/oM/Analytical/Analytical/Results/ITimeStepResult)
+    -  Analytical.Results.[IElement1DResult](/api_documentation/oM/Analytical/Analytical/Results/IElement1DResult)
 
 
 ## Properties
@@ -35,12 +35,12 @@ The following properties are defined on the class
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
 | Location | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | - | - |
-| FX | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Axial force along the local x-axis. Positive for tension, negative for compression. | [Force](/om_documentation/oM/Dimensional/Quantities/Attributes/Force) [N] |
-| FY | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Shear force along the local y-axis. Generally minor axis shear force. | [Force](/om_documentation/oM/Dimensional/Quantities/Attributes/Force) [N] |
-| FZ | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Shear force along the local z-axis. Generally major axis shear force. | [Force](/om_documentation/oM/Dimensional/Quantities/Attributes/Force) [N] |
-| MX | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Torsional moment. | [Moment](/om_documentation/oM/Dimensional/Quantities/Attributes/Moment) [N.m] |
-| MY | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Bending moment about the local y-axis. Generally major axis bending moment. | [Moment](/om_documentation/oM/Dimensional/Quantities/Attributes/Moment) [N.m] |
-| MZ | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Bending moment about the local z-axis. Generally minor axis bending moment. | [Moment](/om_documentation/oM/Dimensional/Quantities/Attributes/Moment) [N.m] |
+| FX | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Axial force along the local x-axis. Positive for tension, negative for compression. | [Force](/api_documentation/oM/Dimensional/Quantities/Attributes/Force) [N] |
+| FY | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Shear force along the local y-axis. Generally minor axis shear force. | [Force](/api_documentation/oM/Dimensional/Quantities/Attributes/Force) [N] |
+| FZ | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Shear force along the local z-axis. Generally major axis shear force. | [Force](/api_documentation/oM/Dimensional/Quantities/Attributes/Force) [N] |
+| MX | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Torsional moment. | [Moment](/api_documentation/oM/Dimensional/Quantities/Attributes/Moment) [N.m] |
+| MY | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Bending moment about the local y-axis. Generally major axis bending moment. | [Moment](/api_documentation/oM/Dimensional/Quantities/Attributes/Moment) [N.m] |
+| MZ | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Bending moment about the local z-axis. Generally minor axis bending moment. | [Moment](/api_documentation/oM/Dimensional/Quantities/Attributes/Moment) [N.m] |
 
 
 ### Inherited properties

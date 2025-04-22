@@ -12,30 +12,30 @@ Interface to group iteration objects together for producing parametric studies w
 
 ???+ bhom "The IIteration in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IBHoMObject](/om_documentation/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
+    -  Base.[IBHoMObject](/api_documentation/oM/Framework/Base/IBHoMObject)
+    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
 
 
 ### Interfaces implementing this interface
 
 ???+ bhom "The following interfaces are implementing this interface:"
 
-    - Environment.SAP.[IOpeningTypeIteration](/om_documentation/oM/Adapter/Environment/SAP/IOpeningTypeIteration)
+    - Environment.SAP.[IOpeningTypeIteration](/api_documentation/oM/Adapter/Environment/SAP/IOpeningTypeIteration)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Environment.SAP.[OpeningIteration](/om_documentation/oM/Adapter/Environment/SAP/OpeningIteration)
-    - Environment.SAP.[OpeningTypeGValueIteration](/om_documentation/oM/Adapter/Environment/SAP/OpeningTypeGValueIteration)
-    - Environment.SAP.[OpeningTypeUValueIteration](/om_documentation/oM/Adapter/Environment/SAP/OpeningTypeUValueIteration)
-    - Environment.SAP.[OrientationIteration](/om_documentation/oM/Adapter/Environment/SAP/OrientationIteration)
-    - Environment.SAP.[RoofIteration](/om_documentation/oM/Adapter/Environment/SAP/RoofIteration)
-    - Environment.SAP.[ThermalBridgeIteration](/om_documentation/oM/Adapter/Environment/SAP/ThermalBridgeIteration)
-    - Environment.SAP.[WallIteration](/om_documentation/oM/Adapter/Environment/SAP/WallIteration)
-    - Environment.SAP.XML.[AirPermeabilityIteration](/om_documentation/oM/Adapter/Environment/SAP/XML/AirPermeabilityIteration)
-    - Environment.SAP.XML.[FloorIteration](/om_documentation/oM/Adapter/Environment/SAP/XML/FloorIteration)
+    - Environment.SAP.[OpeningIteration](/api_documentation/oM/Adapter/Environment/SAP/OpeningIteration)
+    - Environment.SAP.[OpeningTypeGValueIteration](/api_documentation/oM/Adapter/Environment/SAP/OpeningTypeGValueIteration)
+    - Environment.SAP.[OpeningTypeUValueIteration](/api_documentation/oM/Adapter/Environment/SAP/OpeningTypeUValueIteration)
+    - Environment.SAP.[OrientationIteration](/api_documentation/oM/Adapter/Environment/SAP/OrientationIteration)
+    - Environment.SAP.[RoofIteration](/api_documentation/oM/Adapter/Environment/SAP/RoofIteration)
+    - Environment.SAP.[ThermalBridgeIteration](/api_documentation/oM/Adapter/Environment/SAP/ThermalBridgeIteration)
+    - Environment.SAP.[WallIteration](/api_documentation/oM/Adapter/Environment/SAP/WallIteration)
+    - Environment.SAP.XML.[AirPermeabilityIteration](/api_documentation/oM/Adapter/Environment/SAP/XML/AirPermeabilityIteration)
+    - Environment.SAP.XML.[FloorIteration](/api_documentation/oM/Adapter/Environment/SAP/XML/FloorIteration)
 
 
 ## Properties

@@ -12,26 +12,26 @@ Interface common to all syntax nodes
 
 ???+ bhom "The INode in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IObject](/om_documentation/oM/Framework/Base/IObject)
+    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Programming.[BlockNode](/om_documentation/oM/Framework/Programming/BlockNode)
-    - Programming.[ClusterNode](/om_documentation/oM/Framework/Programming/ClusterNode)
-    - Programming.[ConstructorNode](/om_documentation/oM/Framework/Programming/ConstructorNode)
-    - Programming.[CustomObjectNode](/om_documentation/oM/Framework/Programming/CustomObjectNode)
-    - Programming.[ExplodeNode](/om_documentation/oM/Framework/Programming/ExplodeNode)
-    - Programming.[GetPropertyNode](/om_documentation/oM/Framework/Programming/GetPropertyNode)
-    - Programming.[InitialiserNode](/om_documentation/oM/Framework/Programming/InitialiserNode)
-    - Programming.[LibraryNode](/om_documentation/oM/Framework/Programming/LibraryNode)
-    - Programming.[LoopNode](/om_documentation/oM/Framework/Programming/LoopNode)
-    - Programming.[MethodNode](/om_documentation/oM/Framework/Programming/MethodNode)
-    - Programming.[ParamNode](/om_documentation/oM/Framework/Programming/ParamNode)
-    - Programming.[SetPropertyNode](/om_documentation/oM/Framework/Programming/SetPropertyNode)
-    - Programming.[TypeNode](/om_documentation/oM/Framework/Programming/TypeNode)
+    - Programming.[BlockNode](/api_documentation/oM/Framework/Programming/BlockNode)
+    - Programming.[ClusterNode](/api_documentation/oM/Framework/Programming/ClusterNode)
+    - Programming.[ConstructorNode](/api_documentation/oM/Framework/Programming/ConstructorNode)
+    - Programming.[CustomObjectNode](/api_documentation/oM/Framework/Programming/CustomObjectNode)
+    - Programming.[ExplodeNode](/api_documentation/oM/Framework/Programming/ExplodeNode)
+    - Programming.[GetPropertyNode](/api_documentation/oM/Framework/Programming/GetPropertyNode)
+    - Programming.[InitialiserNode](/api_documentation/oM/Framework/Programming/InitialiserNode)
+    - Programming.[LibraryNode](/api_documentation/oM/Framework/Programming/LibraryNode)
+    - Programming.[LoopNode](/api_documentation/oM/Framework/Programming/LoopNode)
+    - Programming.[MethodNode](/api_documentation/oM/Framework/Programming/MethodNode)
+    - Programming.[ParamNode](/api_documentation/oM/Framework/Programming/ParamNode)
+    - Programming.[SetPropertyNode](/api_documentation/oM/Framework/Programming/SetPropertyNode)
+    - Programming.[TypeNode](/api_documentation/oM/Framework/Programming/TypeNode)
 
 
 ## Properties
@@ -44,8 +44,8 @@ The following properties are defined on the interface
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| Inputs | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[ReceiverParam](/om_documentation/oM/Framework/Programming/ReceiverParam)&gt; | - | - |
-| Outputs | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[DataParam](/om_documentation/oM/Framework/Programming/DataParam)&gt; | - | - |
+| Inputs | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[ReceiverParam](/api_documentation/oM/Framework/Programming/ReceiverParam)&gt; | - | - |
+| Outputs | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[DataParam](/api_documentation/oM/Framework/Programming/DataParam)&gt; | - | - |
 | Description | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | - | - |
 | Name | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | - | - |
 | BHoM_Guid | [Guid](https://learn.microsoft.com/en-us/dotnet/api/System.Guid?view=netstandard-2.0) | - | - |
