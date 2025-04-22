@@ -1,7 +1,7 @@
 site_name: BHoM Object Model Documentation
 copyright: Copyright &copy; 2018 - 2024 BHoM
-site_url: https://bhom.xyz/om_documentation/
-repo_url: https://github.com/BHoM/om_documentation
+site_url: https://bhom.xyz/api_documentation/
+repo_url: https://github.com/BHoM/api_documentation
 edit_uri: edit/main/docs/
 
 theme:
@@ -18,7 +18,7 @@ theme:
   features:
     - navigation.tracking
     - navigation.top
-    - navigation.sections
+    - navigation.tabs
     - content.action.edit
     - content.action.view
     - content.tabs.link # allows to link to specific Content tab. See https://squidfunk.github.io/mkdocs-material/reference/content-tabs/#linked-content-tabs
@@ -29,8 +29,10 @@ plugins:
   - git-revision-date-localized: # Displays date created/modified on the page. The below configurations are bugged, so only date modified works.
      enable_creation_date: true
      fallback_to_build_date: true
-    
-
+  - redirects:
+      redirect_maps:
+        'index.md': 'oM/index.md'
+        'documentation/index.md': 'https://bhom.xyz/documentation/'
 
 markdown_extensions:
   - attr_list # allows to add HTML/CSS attributes to almost every Markdown element, useful for e.g. aligning an image to the left/right (can't do centre though! use md_in_html instead)
