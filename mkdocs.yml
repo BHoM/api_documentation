@@ -1,13 +1,14 @@
 site_name: BHoM Object Model Documentation
 copyright: Copyright &copy; 2018 - 2024 BHoM
-site_url: https://bhom.xyz/api_documentation/
-repo_url: https://github.com/BHoM/api_documentation
+site_url: https://bhom.xyz/api/
+repo_url: https://github.com/BHoM/api
 edit_uri: edit/main/docs/
 
 theme:
   name: material
   logo: _logos/logo.png
   favicon: _logos/favicon.ico
+  custom_dir: docs/overrides
   palette:
     primary: white
     accent: pink
@@ -32,7 +33,6 @@ plugins:
   - redirects:
       redirect_maps:
         'index.md': 'oM/index.md'
-        'documentation/index.md': 'https://bhom.xyz/documentation/'
 
 markdown_extensions:
   - attr_list # allows to add HTML/CSS attributes to almost every Markdown element, useful for e.g. aligning an image to the left/right (can't do centre though! use md_in_html instead)
