@@ -12,10 +12,10 @@ title: SAP2000Id
 
 ???+ bhom "The SAP2000Id in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IAdapterId](/api_documentation/oM/Framework/Base/IAdapterId)
-    -  Base.[IFragment](/api_documentation/oM/Framework/Base/IFragment)
-    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
-    -  Base.[IPersistentAdapterId](/api_documentation/oM/Framework/Base/IPersistentAdapterId)
+    -  Base.[IAdapterId](/api/oM/Framework/Base/IAdapterId)
+    -  Base.[IFragment](/api/oM/Framework/Base/IFragment)
+    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  Base.[IPersistentAdapterId](/api/oM/Framework/Base/IPersistentAdapterId)
 
 
 ## Properties

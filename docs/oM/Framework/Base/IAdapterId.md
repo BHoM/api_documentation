@@ -12,24 +12,24 @@ title: IAdapterId
 
 ???+ bhom "The IAdapterId in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IFragment](/api_documentation/oM/Framework/Base/IFragment)
-    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
+    -  Base.[IFragment](/api/oM/Framework/Base/IFragment)
+    -  Base.[IObject](/api/oM/Framework/Base/IObject)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Adapters.ETABS.[ETABSId](/api_documentation/oM/Adapter/Adapters/ETABS/ETABSId)
-    - Adapters.GSA.[GSAId](/api_documentation/oM/Adapter/Adapters/GSA/GSAId)
-    - Adapters.Lusas.[LusasId](/api_documentation/oM/Adapter/Adapters/Lusas/LusasId)
-    - Adapters.MidasCivil.[MidasCivilId](/api_documentation/oM/Adapter/Adapters/MidasCivil/MidasCivilId)
-    - Adapters.RAM.[RAMId](/api_documentation/oM/Adapter/Adapters/RAM/RAMId)
-    - Adapters.RFEM5.[RFEM5Id](/api_documentation/oM/Adapter/Adapters/RFEM5/RFEM5Id)
-    - Adapters.RFEM6.[RFEM6ID](/api_documentation/oM/Adapter/Adapters/RFEM6/RFEM6ID)
-    - Adapters.Robot.[RobotId](/api_documentation/oM/Adapter/Adapters/Robot/RobotId)
-    - Adapters.SAP2000.[SAP2000Id](/api_documentation/oM/Adapter/Adapters/SAP2000/SAP2000Id)
-    - Test.Adapter.[TestAdapterId](/api_documentation/oM/Framework/Test/Adapter/TestAdapterId)
+    - Adapters.ETABS.[ETABSId](/api/oM/Adapter/Adapters/ETABS/ETABSId)
+    - Adapters.GSA.[GSAId](/api/oM/Adapter/Adapters/GSA/GSAId)
+    - Adapters.Lusas.[LusasId](/api/oM/Adapter/Adapters/Lusas/LusasId)
+    - Adapters.MidasCivil.[MidasCivilId](/api/oM/Adapter/Adapters/MidasCivil/MidasCivilId)
+    - Adapters.RAM.[RAMId](/api/oM/Adapter/Adapters/RAM/RAMId)
+    - Adapters.RFEM5.[RFEM5Id](/api/oM/Adapter/Adapters/RFEM5/RFEM5Id)
+    - Adapters.RFEM6.[RFEM6ID](/api/oM/Adapter/Adapters/RFEM6/RFEM6ID)
+    - Adapters.Robot.[RobotId](/api/oM/Adapter/Adapters/Robot/RobotId)
+    - Adapters.SAP2000.[SAP2000Id](/api/oM/Adapter/Adapters/SAP2000/SAP2000Id)
+    - Test.Adapter.[TestAdapterId](/api/oM/Framework/Test/Adapter/TestAdapterId)
 
 
 ## Properties

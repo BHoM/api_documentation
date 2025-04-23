@@ -12,9 +12,9 @@ Command that, when executed with the LadybugToolsAdapter, simulates UTCI values 
 
 ???+ bhom "The UTCIHeatPlotCommand in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  LadybugTools.[ISimulationCommand](/api_documentation/oM/Adapter/LadybugTools/ISimulationCommand)
-    -  Adapter.[IExecuteCommand](/api_documentation/oM/Framework/Adapter/IExecuteCommand)
-    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
+    -  LadybugTools.[ISimulationCommand](/api/oM/Adapter/LadybugTools/ISimulationCommand)
+    -  Adapter.[IExecuteCommand](/api/oM/Framework/Adapter/IExecuteCommand)
+    -  Base.[IObject](/api/oM/Framework/Base/IObject)
 
 
 ## Properties
@@ -27,8 +27,8 @@ The following properties are defined on the class
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| EPWFile | [FileSettings](/api_documentation/oM/Framework/Adapter/FileSettings) | The path to an EPW file. | - |
-| ExternalComfort | [ExternalComfort](/api_documentation/oM/Adapter/LadybugTools/ExternalComfort) | The external comfort object containing the UTCI data to plot. If the UTCI collection is null or empty, then a simulation will be run before plotting to get these values. | - |
+| EPWFile | [FileSettings](/api/oM/Framework/Adapter/FileSettings) | The path to an EPW file. | - |
+| ExternalComfort | [ExternalComfort](/api/oM/Adapter/LadybugTools/ExternalComfort) | The external comfort object containing the UTCI data to plot. If the UTCI collection is null or empty, then a simulation will be run before plotting to get these values. | - |
 | BinColours | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[Color](https://learn.microsoft.com/en-us/dotnet/api/System.Drawing.Color?view=netstandard-2.0)&gt; | A list of 10 colours to use for each UTCI category, leave empty to use the default UTCI colours. | - |
 | OutputLocation | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | Full file path (with file name) to save the plot to. Leave blank to output a base 64 string representation of the image instead. | - |
 

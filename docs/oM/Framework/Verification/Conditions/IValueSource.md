@@ -12,15 +12,15 @@ Interface for objects defining how to extract a value from an object.
 
 ???+ bhom "The IValueSource in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
+    -  Base.[IObject](/api/oM/Framework/Base/IObject)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Adapters.Revit.Parameters.[ParameterValueSource](/api_documentation/oM/Adapter/Adapters/Revit/Parameters/ParameterValueSource)
-    - Verification.Conditions.[PropertyValueSource](/api_documentation/oM/Framework/Verification/Conditions/PropertyValueSource)
+    - Adapters.Revit.Parameters.[ParameterValueSource](/api/oM/Adapter/Adapters/Revit/Parameters/ParameterValueSource)
+    - Verification.Conditions.[PropertyValueSource](/api/oM/Framework/Verification/Conditions/PropertyValueSource)
 
 
 ## Properties

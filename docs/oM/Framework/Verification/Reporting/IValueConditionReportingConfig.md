@@ -12,16 +12,16 @@ Interface for all value condition reporting config objects.
 
 ???+ bhom "The IValueConditionReportingConfig in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Verification.Reporting.[IConditionReportingConfig](/api_documentation/oM/Framework/Verification/Reporting/IConditionReportingConfig)
-    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
+    -  Verification.Reporting.[IConditionReportingConfig](/api/oM/Framework/Verification/Reporting/IConditionReportingConfig)
+    -  Base.[IObject](/api/oM/Framework/Base/IObject)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Verification.Reporting.[NumberConditionReportingConfig](/api_documentation/oM/Framework/Verification/Reporting/NumberConditionReportingConfig)
-    - Verification.Reporting.[ValueConditionReportingConfig](/api_documentation/oM/Framework/Verification/Reporting/ValueConditionReportingConfig)
+    - Verification.Reporting.[NumberConditionReportingConfig](/api/oM/Framework/Verification/Reporting/NumberConditionReportingConfig)
+    - Verification.Reporting.[ValueConditionReportingConfig](/api/oM/Framework/Verification/Reporting/ValueConditionReportingConfig)
 
 
 ## Properties

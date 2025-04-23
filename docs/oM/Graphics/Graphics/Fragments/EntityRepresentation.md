@@ -12,9 +12,9 @@ Fragment for entity representation.
 
 ???+ bhom "The EntityRepresentation in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Graphics.Fragments.[IRepresentationFragment](/api_documentation/oM/Graphics/Graphics/Fragments/IRepresentationFragment)
-    -  Base.[IFragment](/api_documentation/oM/Framework/Base/IFragment)
-    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
+    -  Graphics.Fragments.[IRepresentationFragment](/api/oM/Graphics/Graphics/Fragments/IRepresentationFragment)
+    -  Base.[IFragment](/api/oM/Framework/Base/IFragment)
+    -  Base.[IObject](/api/oM/Framework/Base/IObject)
 
 
 ## Properties
@@ -27,12 +27,12 @@ The following properties are defined on the class
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| Boundary | [ICurve](/api_documentation/oM/Dimensional/Geometry/ICurve) | - | - |
+| Boundary | [ICurve](/api/oM/Dimensional/Geometry/ICurve) | - | - |
 | Text | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | - | - |
-| TextPosition | [Point](/api_documentation/oM/Dimensional/Geometry/Point) | - | - |
-| TextDirection | [Vector](/api_documentation/oM/Dimensional/Geometry/Vector) | - | - |
-| IncomingRelationPoint | [Point](/api_documentation/oM/Dimensional/Geometry/Point) | - | - |
-| OutgoingRelationPoint | [Point](/api_documentation/oM/Dimensional/Geometry/Point) | - | - |
+| TextPosition | [Point](/api/oM/Dimensional/Geometry/Point) | - | - |
+| TextDirection | [Vector](/api/oM/Dimensional/Geometry/Vector) | - | - |
+| IncomingRelationPoint | [Point](/api/oM/Dimensional/Geometry/Point) | - | - |
+| OutgoingRelationPoint | [Point](/api/oM/Dimensional/Geometry/Point) | - | - |
 | Colour | [Color](https://learn.microsoft.com/en-us/dotnet/api/System.Drawing.Color?view=netstandard-2.0) | - | - |
 
 

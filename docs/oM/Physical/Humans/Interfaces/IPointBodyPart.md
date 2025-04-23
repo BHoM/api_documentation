@@ -12,20 +12,20 @@ title: IPointBodyPart
 
 ???+ bhom "The IPointBodyPart in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
+    -  Base.[IObject](/api/oM/Framework/Base/IObject)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Humans.BodyParts.[Eye](/api_documentation/oM/Physical/Humans/BodyParts/Eye)
-    - Humans.BodyParts.[Head](/api_documentation/oM/Physical/Humans/BodyParts/Head)
-    - Humans.BodyParts.[LeftHand](/api_documentation/oM/Physical/Humans/BodyParts/LeftHand)
-    - Humans.BodyParts.[LeftThumb](/api_documentation/oM/Physical/Humans/BodyParts/LeftThumb)
-    - Humans.BodyParts.[PairOfEyes](/api_documentation/oM/Physical/Humans/BodyParts/PairOfEyes)
-    - Humans.BodyParts.[RightHand](/api_documentation/oM/Physical/Humans/BodyParts/RightHand)
-    - Humans.BodyParts.[RightThumb](/api_documentation/oM/Physical/Humans/BodyParts/RightThumb)
+    - Humans.BodyParts.[Eye](/api/oM/Physical/Humans/BodyParts/Eye)
+    - Humans.BodyParts.[Head](/api/oM/Physical/Humans/BodyParts/Head)
+    - Humans.BodyParts.[LeftHand](/api/oM/Physical/Humans/BodyParts/LeftHand)
+    - Humans.BodyParts.[LeftThumb](/api/oM/Physical/Humans/BodyParts/LeftThumb)
+    - Humans.BodyParts.[PairOfEyes](/api/oM/Physical/Humans/BodyParts/PairOfEyes)
+    - Humans.BodyParts.[RightHand](/api/oM/Physical/Humans/BodyParts/RightHand)
+    - Humans.BodyParts.[RightThumb](/api/oM/Physical/Humans/BodyParts/RightThumb)
 
 
 ## Properties
@@ -38,7 +38,7 @@ The following properties are defined on the interface
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| TrackingPoint | [Point](/api_documentation/oM/Dimensional/Geometry/Point) | - | - |
+| TrackingPoint | [Point](/api/oM/Dimensional/Geometry/Point) | - | - |
 
 
 ## Code and Schema

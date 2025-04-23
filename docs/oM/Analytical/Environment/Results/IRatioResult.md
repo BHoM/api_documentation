@@ -12,17 +12,17 @@ A results object containing ratio data.
 
 ???+ bhom "The IRatioResult in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IBHoMObject](/api_documentation/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
-    -  Environment.Results.[IAnalysisResult](/api_documentation/oM/Analytical/Environment/Results/IAnalysisResult)
+    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
+    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  Environment.Results.[IAnalysisResult](/api/oM/Analytical/Environment/Results/IAnalysisResult)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Environment.Results.[HumidityRatioResult](/api_documentation/oM/Analytical/Environment/Results/HumidityRatioResult)
-    - Environment.Results.[RelativeHumidityResult](/api_documentation/oM/Analytical/Environment/Results/RelativeHumidityResult)
+    - Environment.Results.[HumidityRatioResult](/api/oM/Analytical/Environment/Results/HumidityRatioResult)
+    - Environment.Results.[RelativeHumidityResult](/api/oM/Analytical/Environment/Results/RelativeHumidityResult)
 
 
 ## Properties

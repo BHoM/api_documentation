@@ -12,17 +12,17 @@ Base interface for load cases and combinations.
 
 ???+ bhom "The ICase in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IBHoMObject](/api_documentation/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
+    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
+    -  Base.[IObject](/api/oM/Framework/Base/IObject)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Structure.Loads.[ModalCase](/api_documentation/oM/Adapter/Structure/Loads/ModalCase)
-    - Structure.Loads.[Loadcase](/api_documentation/oM/Analytical/Structure/Loads/Loadcase)
-    - Structure.Loads.[LoadCombination](/api_documentation/oM/Analytical/Structure/Loads/LoadCombination)
+    - Structure.Loads.[ModalCase](/api/oM/Adapter/Structure/Loads/ModalCase)
+    - Structure.Loads.[Loadcase](/api/oM/Analytical/Structure/Loads/Loadcase)
+    - Structure.Loads.[LoadCombination](/api/oM/Analytical/Structure/Loads/LoadCombination)
 
 
 ## Properties

@@ -12,9 +12,9 @@ Fragment storing identifier information of the object in Robot.
 
 ???+ bhom "The RobotId in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IAdapterId](/api_documentation/oM/Framework/Base/IAdapterId)
-    -  Base.[IFragment](/api_documentation/oM/Framework/Base/IFragment)
-    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
+    -  Base.[IAdapterId](/api/oM/Framework/Base/IAdapterId)
+    -  Base.[IFragment](/api/oM/Framework/Base/IFragment)
+    -  Base.[IObject](/api/oM/Framework/Base/IObject)
 
 
 ## Properties

@@ -12,9 +12,9 @@ This fragment is used to define physical and thermal properties for a building s
 
 ???+ bhom "The AnalyticalConstruction in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IFragment](/api_documentation/oM/Framework/Base/IFragment)
-    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
-    -  Base.[IImmutable](/api_documentation/oM/Framework/Base/IImmutable)
+    -  Base.[IFragment](/api/oM/Framework/Base/IFragment)
+    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  Base.[IImmutable](/api/oM/Framework/Base/IImmutable)
 
 
 ## Properties

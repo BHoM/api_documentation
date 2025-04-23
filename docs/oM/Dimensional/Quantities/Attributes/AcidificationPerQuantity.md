@@ -26,11 +26,11 @@ The quantity is made up of the following [SI base units](https://en.wikipedia.or
 
 ???+ bhom "The AcidificationPerQuantity in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Quantities.Attributes.[QuantityAttribute](/api_documentation/oM/Dimensional/Quantities/Attributes/QuantityAttribute)
-    -  Base.Attributes.[ClassificationAttribute](/api_documentation/oM/Framework/Base/Attributes/ClassificationAttribute)
+    -  Quantities.Attributes.[QuantityAttribute](/api/oM/Dimensional/Quantities/Attributes/QuantityAttribute)
+    -  Base.Attributes.[ClassificationAttribute](/api/oM/Framework/Base/Attributes/ClassificationAttribute)
     -  [Attribute](https://learn.microsoft.com/en-us/dotnet/api/System.Attribute?view=netstandard-2.0)
-    -  Base.[IImmutable](/api_documentation/oM/Framework/Base/IImmutable)
-    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
+    -  Base.[IImmutable](/api/oM/Framework/Base/IImmutable)
+    -  Base.[IObject](/api/oM/Framework/Base/IObject)
 
 
 

@@ -12,16 +12,16 @@ The relative lateral displacement between consecutive floors.
 
 ???+ bhom "The StoreyDrift in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Structure.Results.[StructuralGlobalResult](/api_documentation/oM/Analytical/Structure/Results/StructuralGlobalResult)
-    -  Structure.Results.[IStructuralResult](/api_documentation/oM/Analytical/Structure/Results/IStructuralResult)
-    -  Analytical.Results.[IObjectIdResult](/api_documentation/oM/Analytical/Analytical/Results/IObjectIdResult)
-    -  Analytical.Results.[IResult](/api_documentation/oM/Analytical/Analytical/Results/IResult)
-    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
-    -  [IComparable](https://learn.microsoft.com/en-us/dotnet/api/System.IComparable-1?view=netstandard-2.0)&lt;Analytical.Results.[IResult](/api_documentation/oM/Analytical/Analytical/Results/IResult)&gt;
-    -  Base.[IImmutable](/api_documentation/oM/Framework/Base/IImmutable)
-    -  Analytical.Results.[ICasedResult](/api_documentation/oM/Analytical/Analytical/Results/ICasedResult)
-    -  Analytical.Results.[ITimeStepResult](/api_documentation/oM/Analytical/Analytical/Results/ITimeStepResult)
-    -  Analytical.Results.[IResultItem](/api_documentation/oM/Analytical/Analytical/Results/IResultItem)
+    -  Structure.Results.[StructuralGlobalResult](/api/oM/Analytical/Structure/Results/StructuralGlobalResult)
+    -  Structure.Results.[IStructuralResult](/api/oM/Analytical/Structure/Results/IStructuralResult)
+    -  Analytical.Results.[IObjectIdResult](/api/oM/Analytical/Analytical/Results/IObjectIdResult)
+    -  Analytical.Results.[IResult](/api/oM/Analytical/Analytical/Results/IResult)
+    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  [IComparable](https://learn.microsoft.com/en-us/dotnet/api/System.IComparable-1?view=netstandard-2.0)&lt;Analytical.Results.[IResult](/api/oM/Analytical/Analytical/Results/IResult)&gt;
+    -  Base.[IImmutable](/api/oM/Framework/Base/IImmutable)
+    -  Analytical.Results.[ICasedResult](/api/oM/Analytical/Analytical/Results/ICasedResult)
+    -  Analytical.Results.[ITimeStepResult](/api/oM/Analytical/Analytical/Results/ITimeStepResult)
+    -  Analytical.Results.[IResultItem](/api/oM/Analytical/Analytical/Results/IResultItem)
 
 
 ## Properties
@@ -35,8 +35,8 @@ The following properties are defined on the class
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
 | Storey | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | Storey name. | - |
-| Direction | [Vector](/api_documentation/oM/Dimensional/Geometry/Vector) | Direction of the storey lateral displacement. | - |
-| Ratio | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Ratio between the storey drift and the storey height. | [Ratio](/api_documentation/oM/Dimensional/Quantities/Attributes/Ratio) [-] |
+| Direction | [Vector](/api/oM/Dimensional/Geometry/Vector) | Direction of the storey lateral displacement. | - |
+| Ratio | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Ratio between the storey drift and the storey height. | [Ratio](/api/oM/Dimensional/Quantities/Attributes/Ratio) [-] |
 
 
 ### Inherited properties

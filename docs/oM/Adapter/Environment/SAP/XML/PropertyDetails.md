@@ -12,9 +12,9 @@ title: PropertyDetails
 
 ???+ bhom "The PropertyDetails in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[BHoMObject](/api_documentation/oM/Framework/Base/BHoMObject)
-    -  Base.[IBHoMObject](/api_documentation/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
+    -  Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
+    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
+    -  Base.[IObject](/api/oM/Framework/Base/IObject)
 
 
 ## Properties
@@ -27,11 +27,11 @@ The following properties are defined on the class
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| EnergySource | [EnergySource](/api_documentation/oM/Adapter/Environment/SAP/XML/EnergySource) | . | - |
-| Heating | [Heating](/api_documentation/oM/Adapter/Environment/SAP/XML/Heating) | . | - |
-| BuildingParts | [BuildingParts](/api_documentation/oM/Adapter/Environment/SAP/XML/BuildingParts) | Details of the significant building parts that comprise the main habitable building in the property. | - |
-| Ventilation | [Ventilation](/api_documentation/oM/Adapter/Environment/SAP/XML/Ventilation) | Details of the means by which the building is ventilated | - |
-| OpeningTypes | [OpeningTypes](/api_documentation/oM/Adapter/Environment/SAP/XML/OpeningTypes) | Types of exposed openings that make up a particular property. | - |
+| EnergySource | [EnergySource](/api/oM/Adapter/Environment/SAP/XML/EnergySource) | . | - |
+| Heating | [Heating](/api/oM/Adapter/Environment/SAP/XML/Heating) | . | - |
+| BuildingParts | [BuildingParts](/api/oM/Adapter/Environment/SAP/XML/BuildingParts) | Details of the significant building parts that comprise the main habitable building in the property. | - |
+| Ventilation | [Ventilation](/api/oM/Adapter/Environment/SAP/XML/Ventilation) | Details of the means by which the building is ventilated | - |
+| OpeningTypes | [OpeningTypes](/api/oM/Adapter/Environment/SAP/XML/OpeningTypes) | Types of exposed openings that make up a particular property. | - |
 | PropertyType | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | The type of Property, such as House, Flat, Mansion, Maisonette etc. | - |
 | BuiltForm | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | The building type of the Property e.g. Detached, Semi-Detached, Terrace etc. Together with the Property Type, the Built Form provides a structured description of the property. | - |
 | LivingArea | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | The size of the living area in square metres.  The living area is the room marked on a plan as the lounge or living room, or the largest public room (irrespective of usage by particular occupants), together with any rooms not separated from the lounge or living room by doors, and including any cupboards directly accessed from the lounge or living room. Living area does not, however, extend over more than one storey, even when stairs enter the living area directly. | - |
@@ -41,7 +41,7 @@ The following properties are defined on the class
 | WindowsOvershading | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | Average amount of overshading of windows. | - |
 | ThermalMassParameter | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | Average thermal mass parameter for the dwelling in kJ/m�K. If omitted it is calculated using the kappa values of each element. | - |
 | IsInSmokeControlArea | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | Is property in a smoke control area?  Only if a solid fuel appliance is used. | - |
-| Lighting | [Lighting](/api_documentation/oM/Adapter/Environment/SAP/XML/Lighting) | Details of the main lighting for the property | - |
+| Lighting | [Lighting](/api/oM/Adapter/Environment/SAP/XML/Lighting) | Details of the main lighting for the property | - |
 | ConservatoryType | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | Type of conservatory. | - |
 | TerrainType | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | Terrain type. Needed for wind-turbines and for applying measures. | - |
 | HasSpecialFeature | [Nullable](https://learn.microsoft.com/en-us/dotnet/api/System.Nullable-1?view=netstandard-2.0)&lt;[bool](https://learn.microsoft.com/en-us/dotnet/api/System.Boolean?view=netstandard-2.0)&gt; | For backwards compatibility only, do not use. | - |
@@ -58,11 +58,11 @@ The following properties are defined on the class
 | PVDiverter | [Nullable](https://learn.microsoft.com/en-us/dotnet/api/System.Nullable-1?view=netstandard-2.0)&lt;[bool](https://learn.microsoft.com/en-us/dotnet/api/System.Boolean?view=netstandard-2.0)&gt; | Diverter present. | - |
 | BatteryCapacity | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | Battery capacity capacity if diverter present | - |
 | IsWindTurbineConnectedToDwellingMeter | [Nullable](https://learn.microsoft.com/en-us/dotnet/api/System.Nullable-1?view=netstandard-2.0)&lt;[bool](https://learn.microsoft.com/en-us/dotnet/api/System.Boolean?view=netstandard-2.0)&gt; | Whether the wind turbine is connected to the Dwelling's meter. | - |
-| DeselectedImprovements | [DeselectedImprovements](/api_documentation/oM/Adapter/Environment/SAP/XML/DeselectedImprovements) | . | - |
-| FlatDetails | [FlatDetails](/api_documentation/oM/Adapter/Environment/SAP/XML/FlatDetails) | Detials of location of flat in building | - |
-| SpecialFeatures | [SpecialFeatures](/api_documentation/oM/Adapter/Environment/SAP/XML/SpecialFeatures) | . | - |
+| DeselectedImprovements | [DeselectedImprovements](/api/oM/Adapter/Environment/SAP/XML/DeselectedImprovements) | . | - |
+| FlatDetails | [FlatDetails](/api/oM/Adapter/Environment/SAP/XML/FlatDetails) | Detials of location of flat in building | - |
+| SpecialFeatures | [SpecialFeatures](/api/oM/Adapter/Environment/SAP/XML/SpecialFeatures) | . | - |
 | DesignWaterUse | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | Design limit for total water use. | - |
-| Cooling | [Cooling](/api_documentation/oM/Adapter/Environment/SAP/XML/Cooling) | . | - |
+| Cooling | [Cooling](/api/oM/Adapter/Environment/SAP/XML/Cooling) | . | - |
 
 
 ### Inherited properties
@@ -72,7 +72,7 @@ The following properties are inherited from the base class of the object
 |------------------|------------------|------------------|------------------|
 | BHoM_Guid | [Guid](https://learn.microsoft.com/en-us/dotnet/api/System.Guid?view=netstandard-2.0) | - | - |
 | Name | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | - | - |
-| Fragments | [FragmentSet](/api_documentation/oM/Framework/Base/FragmentSet) | - | - |
+| Fragments | [FragmentSet](/api/oM/Framework/Base/FragmentSet) | - | - |
 | Tags | [HashSet](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.HashSet-1?view=netstandard-2.0)&lt;[string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0)&gt; | - | - |
 | CustomData | [Dictionary](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.Dictionary-2?view=netstandard-2.0)&lt;[string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0), [object](https://learn.microsoft.com/en-us/dotnet/api/System.Object?view=netstandard-2.0)&gt; | - | - |
 

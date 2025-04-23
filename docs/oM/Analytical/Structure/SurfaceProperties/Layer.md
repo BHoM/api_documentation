@@ -12,9 +12,9 @@ A layer object with a given material, orientation, and thickness.
 
 ???+ bhom "The Layer in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[BHoMObject](/api_documentation/oM/Framework/Base/BHoMObject)
-    -  Base.[IBHoMObject](/api_documentation/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
+    -  Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
+    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
+    -  Base.[IObject](/api/oM/Framework/Base/IObject)
 
 
 ## Properties
@@ -27,9 +27,9 @@ The following properties are defined on the class
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| Material | [IMaterialFragment](/api_documentation/oM/Analytical/Structure/MaterialFragments/IMaterialFragment) | The material this layer is made of. | - |
-| Orientation | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | The orientation of the material in this layer. Orthotropic materials will be oriented with Z parallel to the panel normal direction, and X rotated counterclockwise about the panel normal by this angle from the panel X axis. Not relevant for isotropic materials. | [Angle](/api_documentation/oM/Dimensional/Quantities/Attributes/Angle) [rad] |
-| Thickness | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | The thickness of this material layer. | [Length](/api_documentation/oM/Dimensional/Quantities/Attributes/Length) [m] |
+| Material | [IMaterialFragment](/api/oM/Analytical/Structure/MaterialFragments/IMaterialFragment) | The material this layer is made of. | - |
+| Orientation | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | The orientation of the material in this layer. Orthotropic materials will be oriented with Z parallel to the panel normal direction, and X rotated counterclockwise about the panel normal by this angle from the panel X axis. Not relevant for isotropic materials. | [Angle](/api/oM/Dimensional/Quantities/Attributes/Angle) [rad] |
+| Thickness | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | The thickness of this material layer. | [Length](/api/oM/Dimensional/Quantities/Attributes/Length) [m] |
 
 
 ### Inherited properties
@@ -39,7 +39,7 @@ The following properties are inherited from the base class of the object
 |------------------|------------------|------------------|------------------|
 | BHoM_Guid | [Guid](https://learn.microsoft.com/en-us/dotnet/api/System.Guid?view=netstandard-2.0) | - | - |
 | Name | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | - | - |
-| Fragments | [FragmentSet](/api_documentation/oM/Framework/Base/FragmentSet) | - | - |
+| Fragments | [FragmentSet](/api/oM/Framework/Base/FragmentSet) | - | - |
 | Tags | [HashSet](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.HashSet-1?view=netstandard-2.0)&lt;[string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0)&gt; | - | - |
 | CustomData | [Dictionary](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.Dictionary-2?view=netstandard-2.0)&lt;[string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0), [object](https://learn.microsoft.com/en-us/dotnet/api/System.Object?view=netstandard-2.0)&gt; | - | - |
 

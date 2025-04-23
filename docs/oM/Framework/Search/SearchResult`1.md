@@ -20,10 +20,10 @@ Unconstrained generic type. Can be any type of object.
 
 ???+ bhom "The SearchResult`1 in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Analytical.Results.[IResult](/api_documentation/oM/Analytical/Analytical/Results/IResult)
-    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
-    -  [IComparable](https://learn.microsoft.com/en-us/dotnet/api/System.IComparable-1?view=netstandard-2.0)&lt;Analytical.Results.[IResult](/api_documentation/oM/Analytical/Analytical/Results/IResult)&gt;
-    -  Base.[IImmutable](/api_documentation/oM/Framework/Base/IImmutable)
+    -  Analytical.Results.[IResult](/api/oM/Analytical/Analytical/Results/IResult)
+    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  [IComparable](https://learn.microsoft.com/en-us/dotnet/api/System.IComparable-1?view=netstandard-2.0)&lt;Analytical.Results.[IResult](/api/oM/Analytical/Analytical/Results/IResult)&gt;
+    -  Base.[IImmutable](/api/oM/Framework/Base/IImmutable)
 
 
 ## Properties

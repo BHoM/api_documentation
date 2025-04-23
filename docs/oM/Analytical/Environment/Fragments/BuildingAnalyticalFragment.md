@@ -12,8 +12,8 @@ This fragment is used to define the north angle, GMT offset and year of construc
 
 ???+ bhom "The BuildingAnalyticalFragment in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IFragment](/api_documentation/oM/Framework/Base/IFragment)
-    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
+    -  Base.[IFragment](/api/oM/Framework/Base/IFragment)
+    -  Base.[IObject](/api/oM/Framework/Base/IObject)
 
 
 ## Properties

@@ -12,21 +12,21 @@ title: IPart
 
 ???+ bhom "The IPart in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IBHoMObject](/api_documentation/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
+    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
+    -  Base.[IObject](/api/oM/Framework/Base/IObject)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - MEP.Equipment.Parts.[AirHandlingUnitBase](/api_documentation/oM/Analytical/MEP/Equipment/Parts/AirHandlingUnitBase)
-    - MEP.Equipment.Parts.[CoolingCoil](/api_documentation/oM/Analytical/MEP/Equipment/Parts/CoolingCoil)
-    - MEP.Equipment.Parts.[ElectricalConnector](/api_documentation/oM/Analytical/MEP/Equipment/Parts/ElectricalConnector)
-    - MEP.Equipment.Parts.[EnergyWheel](/api_documentation/oM/Analytical/MEP/Equipment/Parts/EnergyWheel)
-    - MEP.Equipment.Parts.[Fan](/api_documentation/oM/Analytical/MEP/Equipment/Parts/Fan)
-    - MEP.Equipment.Parts.[Filter](/api_documentation/oM/Analytical/MEP/Equipment/Parts/Filter)
-    - MEP.Equipment.Parts.[HeatingCoil](/api_documentation/oM/Analytical/MEP/Equipment/Parts/HeatingCoil)
+    - MEP.Equipment.Parts.[AirHandlingUnitBase](/api/oM/Analytical/MEP/Equipment/Parts/AirHandlingUnitBase)
+    - MEP.Equipment.Parts.[CoolingCoil](/api/oM/Analytical/MEP/Equipment/Parts/CoolingCoil)
+    - MEP.Equipment.Parts.[ElectricalConnector](/api/oM/Analytical/MEP/Equipment/Parts/ElectricalConnector)
+    - MEP.Equipment.Parts.[EnergyWheel](/api/oM/Analytical/MEP/Equipment/Parts/EnergyWheel)
+    - MEP.Equipment.Parts.[Fan](/api/oM/Analytical/MEP/Equipment/Parts/Fan)
+    - MEP.Equipment.Parts.[Filter](/api/oM/Analytical/MEP/Equipment/Parts/Filter)
+    - MEP.Equipment.Parts.[HeatingCoil](/api/oM/Analytical/MEP/Equipment/Parts/HeatingCoil)
 
 
 ## Properties

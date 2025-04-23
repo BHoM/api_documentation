@@ -12,15 +12,15 @@ title: IShape
 
 ???+ bhom "The IShape in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
+    -  Base.[IObject](/api/oM/Framework/Base/IObject)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - DeepLearning.[Shape2d](/api_documentation/oM/Framework/DeepLearning/Shape2d)
-    - DeepLearning.[Shape3d](/api_documentation/oM/Framework/DeepLearning/Shape3d)
+    - DeepLearning.[Shape2d](/api/oM/Framework/DeepLearning/Shape2d)
+    - DeepLearning.[Shape3d](/api/oM/Framework/DeepLearning/Shape3d)
 
 
 ## Properties

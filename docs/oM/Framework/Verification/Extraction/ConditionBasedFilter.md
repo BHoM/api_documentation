@@ -12,9 +12,9 @@ Basic object defining a condition-based 'filter from' workflow.
 
 ???+ bhom "The ConditionBasedFilter in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Verification.Extraction.[IConditionBasedFilter](/api_documentation/oM/Framework/Verification/Extraction/IConditionBasedFilter)
-    -  Verification.Extraction.[IExtraction](/api_documentation/oM/Framework/Verification/Extraction/IExtraction)
-    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
+    -  Verification.Extraction.[IConditionBasedFilter](/api/oM/Framework/Verification/Extraction/IConditionBasedFilter)
+    -  Verification.Extraction.[IExtraction](/api/oM/Framework/Verification/Extraction/IExtraction)
+    -  Base.[IObject](/api/oM/Framework/Base/IObject)
 
 
 ## Properties
@@ -27,7 +27,7 @@ The following properties are defined on the class
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| Condition | [ICondition](/api_documentation/oM/Framework/Verification/Conditions/ICondition) | Filtering condition to be met for objects to be returned. | - |
+| Condition | [ICondition](/api/oM/Framework/Verification/Conditions/ICondition) | Filtering condition to be met for objects to be returned. | - |
 
 
 ## Code and Schema

@@ -12,11 +12,11 @@ title: DuctSectionProperty
 
 ???+ bhom "The DuctSectionProperty in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[BHoMObject](/api_documentation/oM/Framework/Base/BHoMObject)
-    -  Base.[IBHoMObject](/api_documentation/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
-    -  MEP.System.SectionProperties.[IFlowSectionProperty](/api_documentation/oM/Analytical/MEP/System/SectionProperties/IFlowSectionProperty)
-    -  Base.[IImmutable](/api_documentation/oM/Framework/Base/IImmutable)
+    -  Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
+    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
+    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  MEP.System.SectionProperties.[IFlowSectionProperty](/api/oM/Analytical/MEP/System/SectionProperties/IFlowSectionProperty)
+    -  Base.[IImmutable](/api/oM/Framework/Base/IImmutable)
 
 
 ## Properties
@@ -29,12 +29,12 @@ The following properties are defined on the class
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| DuctMaterial | [Material](/api_documentation/oM/Physical/Physical/Materials/Material) | The duct material is the primary material that the duct is composed of (galvanized sheet metal, aluminium) | - |
-| InsulationMaterial | [Material](/api_documentation/oM/Physical/Physical/Materials/Material) | The insulation is the layer of material outside of the duct material, meant to insulate the internal conditions of the material being conveyed. | - |
-| LiningMaterial | [Material](/api_documentation/oM/Physical/Physical/Materials/Material) | The lining is the layer of material inside of the duct material, meant to insulate the internal conditions of the material being conveyed. | - |
+| DuctMaterial | [Material](/api/oM/Physical/Physical/Materials/Material) | The duct material is the primary material that the duct is composed of (galvanized sheet metal, aluminium) | - |
+| InsulationMaterial | [Material](/api/oM/Physical/Physical/Materials/Material) | The insulation is the layer of material outside of the duct material, meant to insulate the internal conditions of the material being conveyed. | - |
+| LiningMaterial | [Material](/api/oM/Physical/Physical/Materials/Material) | The lining is the layer of material inside of the duct material, meant to insulate the internal conditions of the material being conveyed. | - |
 | HydraulicDiameter | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Hydraulic Diameter allows you to calculate the round equivalent hydraulic diameter for a non-round duct (rectangular/square). | - |
 | CircularEquivalentDiameter | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | CircularEquivalentDiameter is the equivalent size for a duct if it were to be round (for size/capacity comparison). | - |
-| SectionProfile | [SectionProfile](/api_documentation/oM/Analytical/MEP/System/SectionProperties/SectionProfile) | The section profile of the object that will determine its use within a System. | - |
+| SectionProfile | [SectionProfile](/api/oM/Analytical/MEP/System/SectionProperties/SectionProfile) | The section profile of the object that will determine its use within a System. | - |
 | ElementSolidArea | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | This area takes the element's thickness into account to determine the actual area of the 'solid' portion of the ShapeProfile. | - |
 | ElementVoidArea | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | The interior area within the element's shapeProfile. This corresponds to the actual open area less any material thickness. | - |
 | LiningSolidArea | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | The solid area of the lining within the element. This area takes into account the ElementSolidArea. | - |
@@ -50,7 +50,7 @@ The following properties are inherited from the base class of the object
 |------------------|------------------|------------------|------------------|
 | BHoM_Guid | [Guid](https://learn.microsoft.com/en-us/dotnet/api/System.Guid?view=netstandard-2.0) | - | - |
 | Name | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | - | - |
-| Fragments | [FragmentSet](/api_documentation/oM/Framework/Base/FragmentSet) | - | - |
+| Fragments | [FragmentSet](/api/oM/Framework/Base/FragmentSet) | - | - |
 | Tags | [HashSet](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.HashSet-1?view=netstandard-2.0)&lt;[string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0)&gt; | - | - |
 | CustomData | [Dictionary](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.Dictionary-2?view=netstandard-2.0)&lt;[string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0), [object](https://learn.microsoft.com/en-us/dotnet/api/System.Object?view=netstandard-2.0)&gt; | - | - |
 

@@ -12,10 +12,10 @@ Defines any longitudinal reinforcement along a Bar.
 
 ???+ bhom "The LongitudinalReinforcement in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[BHoMObject](/api_documentation/oM/Framework/Base/BHoMObject)
-    -  Base.[IBHoMObject](/api_documentation/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
-    -  Structure.Reinforcement.[IBarReinforcement](/api_documentation/oM/Analytical/Structure/Reinforcement/IBarReinforcement)
+    -  Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
+    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
+    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  Structure.Reinforcement.[IBarReinforcement](/api/oM/Analytical/Structure/Reinforcement/IBarReinforcement)
 
 
 ## Properties
@@ -28,9 +28,9 @@ The following properties are defined on the class
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| RebarLayout | [ILayout2D](/api_documentation/oM/Dimensional/Spatial/Layouts/ILayout2D) | Layout controlling the distribution of the rebars across the SectionProperty. | - |
-| Diameter | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Diameter of a single rebar. | [Length](/api_documentation/oM/Dimensional/Quantities/Attributes/Length) [m] |
-| Material | [IMaterialFragment](/api_documentation/oM/Analytical/Structure/MaterialFragments/IMaterialFragment) | - | - |
+| RebarLayout | [ILayout2D](/api/oM/Dimensional/Spatial/Layouts/ILayout2D) | Layout controlling the distribution of the rebars across the SectionProperty. | - |
+| Diameter | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Diameter of a single rebar. | [Length](/api/oM/Dimensional/Quantities/Attributes/Length) [m] |
+| Material | [IMaterialFragment](/api/oM/Analytical/Structure/MaterialFragments/IMaterialFragment) | - | - |
 | StartLocation | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Normalised length (0 means start, 1 means end) along the element where the rebars start. | - |
 | EndLocation | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Normalised length (0 means start, 1 means end) along the element where the rebars ends. | - |
 
@@ -42,7 +42,7 @@ The following properties are inherited from the base class of the object
 |------------------|------------------|------------------|------------------|
 | BHoM_Guid | [Guid](https://learn.microsoft.com/en-us/dotnet/api/System.Guid?view=netstandard-2.0) | - | - |
 | Name | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | - | - |
-| Fragments | [FragmentSet](/api_documentation/oM/Framework/Base/FragmentSet) | - | - |
+| Fragments | [FragmentSet](/api/oM/Framework/Base/FragmentSet) | - | - |
 | Tags | [HashSet](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.HashSet-1?view=netstandard-2.0)&lt;[string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0)&gt; | - | - |
 | CustomData | [Dictionary](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.Dictionary-2?view=netstandard-2.0)&lt;[string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0), [object](https://learn.microsoft.com/en-us/dotnet/api/System.Object?view=netstandard-2.0)&gt; | - | - |
 
@@ -53,7 +53,7 @@ The following properties are defined as extension methods in one of the BHoM_Eng
 
 | Name             | Type             | Description      | Quantity         | Engine           |
 |------------------|------------------|------------------|------------------|------------------|
-| Area | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Calculates the total section area of all rebars in the reinforcement object. | [Area](/api_documentation/oM/Dimensional/Quantities/Attributes/Area) [m²] | Structure_Engine |
+| Area | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Calculates the total section area of all rebars in the reinforcement object. | [Area](/api/oM/Dimensional/Quantities/Attributes/Area) [m²] | Structure_Engine |
 | IsNull | [bool](https://learn.microsoft.com/en-us/dotnet/api/System.Boolean?view=netstandard-2.0) | Checks if a BarReinforcement is null and outputs relevant error message. | - | Structure_Engine |
 | ReinforcingBarCount | [int](https://learn.microsoft.com/en-us/dotnet/api/System.Int32?view=netstandard-2.0) | Return the number of reinforcing bars in one a LongtudinalReinforcement object. | - | Structure_Engine |
 

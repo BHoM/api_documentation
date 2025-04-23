@@ -12,15 +12,15 @@ title: ITestInformation
 
 ???+ bhom "The ITestInformation in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
+    -  Base.[IObject](/api/oM/Framework/Base/IObject)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Test.Results.[EventMessage](/api_documentation/oM/Framework/Test/Results/EventMessage)
-    - Test.Results.[TestResult](/api_documentation/oM/Framework/Test/Results/TestResult)
+    - Test.Results.[EventMessage](/api/oM/Framework/Test/Results/EventMessage)
+    - Test.Results.[TestResult](/api/oM/Framework/Test/Results/TestResult)
 
 
 ## Properties
@@ -34,7 +34,7 @@ The following properties are defined on the interface
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
 | Message | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | - | - |
-| Status | [TestStatus](/api_documentation/oM/Framework/Test/TestStatus) | - | - |
+| Status | [TestStatus](/api/oM/Framework/Test/TestStatus) | - | - |
 | UTCTime | [DateTime](https://learn.microsoft.com/en-us/dotnet/api/System.DateTime?view=netstandard-2.0) | - | - |
 
 
@@ -45,9 +45,9 @@ The following properties are defined as extension methods in one of the BHoM_Eng
 | Name             | Type             | Description      | Quantity         | Engine           |
 |------------------|------------------|------------------|------------------|------------------|
 | IFullMessage | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | - | - | Test_Engine |
-| INewResultAfterCrashFix | [ITestInformation](/api_documentation/oM/Framework/Test/ITestInformation) | Gets a ITestInformation back that correspond to a situation where the reference data was showing a crash no longer present.<br>Used when comparing to TestResults against each other and information in the reference can not be found in the new data. | - | InteroperabilityTest_Engine |
-| INoReferenceFound | [ITestInformation](/api_documentation/oM/Framework/Test/ITestInformation) | Gets a ITestInformation back that correspond to no reference data was available that matching the result.<br>Used when comparing to TestResults against each other and information in the reference can not be found in the new data. | - | InteroperabilityTest_Engine |
-| IOnlyReferenceFound | [ITestInformation](/api_documentation/oM/Framework/Test/ITestInformation) | Gets a TestInformation result back that correspond to an information only found in the reference set when compared to data just run.<br>Used when comparing to TestResults against each other and information in the reference can not be found in the new data. | - | InteroperabilityTest_Engine |
+| INewResultAfterCrashFix | [ITestInformation](/api/oM/Framework/Test/ITestInformation) | Gets a ITestInformation back that correspond to a situation where the reference data was showing a crash no longer present.<br>Used when comparing to TestResults against each other and information in the reference can not be found in the new data. | - | InteroperabilityTest_Engine |
+| INoReferenceFound | [ITestInformation](/api/oM/Framework/Test/ITestInformation) | Gets a ITestInformation back that correspond to no reference data was available that matching the result.<br>Used when comparing to TestResults against each other and information in the reference can not be found in the new data. | - | InteroperabilityTest_Engine |
+| IOnlyReferenceFound | [ITestInformation](/api/oM/Framework/Test/ITestInformation) | Gets a TestInformation result back that correspond to an information only found in the reference set when compared to data just run.<br>Used when comparing to TestResults against each other and information in the reference can not be found in the new data. | - | InteroperabilityTest_Engine |
 
 
 ## Code and Schema

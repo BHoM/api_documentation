@@ -12,8 +12,8 @@ Config object containing settings for reporting results of checks against logica
 
 ???+ bhom "The SingleLogicalConditionReportingConfig in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Verification.Reporting.[IConditionReportingConfig](/api_documentation/oM/Framework/Verification/Reporting/IConditionReportingConfig)
-    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
+    -  Verification.Reporting.[IConditionReportingConfig](/api/oM/Framework/Verification/Reporting/IConditionReportingConfig)
+    -  Base.[IObject](/api/oM/Framework/Base/IObject)
 
 
 ## Properties
@@ -26,7 +26,7 @@ The following properties are defined on the class
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| NestedConfig | [IConditionReportingConfig](/api_documentation/oM/Framework/Verification/Reporting/IConditionReportingConfig) | Reporting config to be applied to format the check report of nested condition. | - |
+| NestedConfig | [IConditionReportingConfig](/api/oM/Framework/Verification/Reporting/IConditionReportingConfig) | Reporting config to be applied to format the check report of nested condition. | - |
 
 
 ## Code and Schema

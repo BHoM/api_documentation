@@ -12,10 +12,10 @@ title: Enumeration
 
 ???+ bhom "The Enumeration in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
-    -  Base.[IEnum](/api_documentation/oM/Framework/Base/IEnum)
-    -  [IComparable](https://learn.microsoft.com/en-us/dotnet/api/System.IComparable-1?view=netstandard-2.0)&lt;Base.[IEnum](/api_documentation/oM/Framework/Base/IEnum)&gt;
-    -  Base.[IImmutable](/api_documentation/oM/Framework/Base/IImmutable)
+    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  Base.[IEnum](/api/oM/Framework/Base/IEnum)
+    -  [IComparable](https://learn.microsoft.com/en-us/dotnet/api/System.IComparable-1?view=netstandard-2.0)&lt;Base.[IEnum](/api/oM/Framework/Base/IEnum)&gt;
+    -  Base.[IImmutable](/api/oM/Framework/Base/IImmutable)
 
 
 ## Properties

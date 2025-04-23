@@ -20,8 +20,8 @@ Unconstrained generic type. Can be any type of object.
 
 ???+ bhom "The Graph`1 in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Data.Collections.[IDataStructure](/api_documentation/oM/Framework/Data/Collections/IDataStructure)
-    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
+    -  Data.Collections.[IDataStructure](/api/oM/Framework/Data/Collections/IDataStructure)
+    -  Base.[IObject](/api/oM/Framework/Base/IObject)
 
 
 ## Properties
@@ -34,8 +34,8 @@ The following properties are defined on the class
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| Nodes | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[GraphNode](/api_documentation/oM/Framework/Data/Collections/GraphNode%601)&lt;[T](#t)&gt;&gt; | - | - |
-| Links | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[GraphLink](/api_documentation/oM/Framework/Data/Collections/GraphLink%601)&lt;[T](#t)&gt;&gt; | - | - |
+| Nodes | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[GraphNode](/api/oM/Framework/Data/Collections/GraphNode%601)&lt;[T](#t)&gt;&gt; | - | - |
+| Links | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[GraphLink](/api/oM/Framework/Data/Collections/GraphLink%601)&lt;[T](#t)&gt;&gt; | - | - |
 
 
 ## Code and Schema

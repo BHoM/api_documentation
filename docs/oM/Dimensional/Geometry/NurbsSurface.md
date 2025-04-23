@@ -15,10 +15,10 @@ See also BH.oM.Geometry.NurbsCurve for more info on non-uniform rational basis s
 
 ???+ bhom "The NurbsSurface in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Geometry.[ISurface](/api_documentation/oM/Dimensional/Geometry/ISurface)
-    -  Geometry.[IGeometry](/api_documentation/oM/Dimensional/Geometry/IGeometry)
-    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
-    -  Base.[IImmutable](/api_documentation/oM/Framework/Base/IImmutable)
+    -  Geometry.[ISurface](/api/oM/Dimensional/Geometry/ISurface)
+    -  Geometry.[IGeometry](/api/oM/Dimensional/Geometry/IGeometry)
+    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  Base.[IImmutable](/api/oM/Framework/Base/IImmutable)
 
 
 ## Properties
@@ -31,14 +31,14 @@ The following properties are defined on the class
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| ControlPoints | [ReadOnlyCollection](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.ObjectModel.ReadOnlyCollection-1?view=netstandard-2.0)&lt;[Point](/api_documentation/oM/Dimensional/Geometry/Point)&gt; | An ordered list of three-dimensional points defining the overall surface patch geometry. Each row of Points in the UV grid are listed sequentially as a single vector. The control point locations are approximating, as opposed to interpolating, meaning in the general case the resulting surface will not pass through the control point locations themselves. | - |
+| ControlPoints | [ReadOnlyCollection](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.ObjectModel.ReadOnlyCollection-1?view=netstandard-2.0)&lt;[Point](/api/oM/Dimensional/Geometry/Point)&gt; | An ordered list of three-dimensional points defining the overall surface patch geometry. Each row of Points in the UV grid are listed sequentially as a single vector. The control point locations are approximating, as opposed to interpolating, meaning in the general case the resulting surface will not pass through the control point locations themselves. | - |
 | Weights | [ReadOnlyCollection](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.ObjectModel.ReadOnlyCollection-1?view=netstandard-2.0)&lt;[double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0)&gt; | A list of scalar factors, one for each ControlPoint. The weights in effect add an additional degree of freedom, allowing control over the relative influence of each control point on the surface shape. | - |
 | UKnots | [ReadOnlyCollection](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.ObjectModel.ReadOnlyCollection-1?view=netstandard-2.0)&lt;[double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0)&gt; | Defines the spans and transition points of the basis functions in the U domain. See also BH.oM.Geometry.NurbsCurve for more info on Knot Vectors. | - |
 | VKnots | [ReadOnlyCollection](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.ObjectModel.ReadOnlyCollection-1?view=netstandard-2.0)&lt;[double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0)&gt; | Defines the spans and transition points of the basis functions in the V domain. See also BH.oM.Geometry.NurbsCurve for more info on Knot Vectors. | - |
 | UDegree | [int](https://learn.microsoft.com/en-us/dotnet/api/System.Int32?view=netstandard-2.0) | Sets the degree of the polynomial basis functions in the U direction of the surface patch. This ultimately defines the number of local U ControlPoints that influence a given point of the surface. | - |
 | VDegree | [int](https://learn.microsoft.com/en-us/dotnet/api/System.Int32?view=netstandard-2.0) | Sets the degree of the polynomial basis functions in the V direction of the surface patch. This ultimately defines the number of local V ControlPoints that influence a given point of the surface. | - |
-| InnerTrims | [ReadOnlyCollection](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.ObjectModel.ReadOnlyCollection-1?view=netstandard-2.0)&lt;[SurfaceTrim](/api_documentation/oM/Dimensional/Geometry/SurfaceTrim)&gt; | Allows definition of a set of free-form shapes to be cut from the underlying Surface. | - |
-| OuterTrims | [ReadOnlyCollection](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.ObjectModel.ReadOnlyCollection-1?view=netstandard-2.0)&lt;[SurfaceTrim](/api_documentation/oM/Dimensional/Geometry/SurfaceTrim)&gt; | Allows definition of free-form external perimeter to the NurbsSurface patch. | - |
+| InnerTrims | [ReadOnlyCollection](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.ObjectModel.ReadOnlyCollection-1?view=netstandard-2.0)&lt;[SurfaceTrim](/api/oM/Dimensional/Geometry/SurfaceTrim)&gt; | Allows definition of a set of free-form shapes to be cut from the underlying Surface. | - |
+| OuterTrims | [ReadOnlyCollection](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.ObjectModel.ReadOnlyCollection-1?view=netstandard-2.0)&lt;[SurfaceTrim](/api/oM/Dimensional/Geometry/SurfaceTrim)&gt; | Allows definition of free-form external perimeter to the NurbsSurface patch. | - |
 
 
 ### Derived properties
@@ -47,22 +47,22 @@ The following properties are defined as extension methods in one of the BHoM_Eng
 
 | Name             | Type             | Description      | Quantity         | Engine           |
 |------------------|------------------|------------------|------------------|------------------|
-| Bounds | [BoundingBox](/api_documentation/oM/Dimensional/Geometry/BoundingBox) | Returns the global world axis oriented BoundingBox for all control points of the NurbsSurface. Note that this is not the minimum eclosing box of the NurbsSurface. | - | Geometry_Engine |
-| Edges | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[ICurve](/api_documentation/oM/Dimensional/Geometry/ICurve)&gt; | - | - | Geometry_Engine |
+| Bounds | [BoundingBox](/api/oM/Dimensional/Geometry/BoundingBox) | Returns the global world axis oriented BoundingBox for all control points of the NurbsSurface. Note that this is not the minimum eclosing box of the NurbsSurface. | - | Geometry_Engine |
+| Edges | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[ICurve](/api/oM/Dimensional/Geometry/ICurve)&gt; | - | - | Geometry_Engine |
 | GeometryHash | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | Returns a signature of the input geometry, useful for diffing.<br>The hash is computed as a serialised array representing the coordinate of significant points taken on the geometry.<br>The number of points is reduced to the minimum essential to determine uniquely any geometry.<br>Additionally, the resulting points are transformed based on the source geometry type, to remove or minimize collisions.<br>(Any transformation so performed is translational only, in order to support geometrical tolerance, i.e. numerical distance, when comparing GeometryHashes downstream). | - | Geometry_Engine |
-| IArea | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Calculates the area of the provided geometry. | [Area](/api_documentation/oM/Dimensional/Quantities/Attributes/Area) [m²] | Geometry_Engine |
-| IBounds | [BoundingBox](/api_documentation/oM/Dimensional/Geometry/BoundingBox) | Returns the global world axis oriented enclosing BoundingBox for all points of the geometry, i.e. the box with the smallest volume within which all the points on the geometry lie. | - | Geometry_Engine |
-| IExternalEdges | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[ICurve](/api_documentation/oM/Dimensional/Geometry/ICurve)&gt; | Gets the external edge curves of the ISurface. | - | Geometry_Engine |
+| IArea | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Calculates the area of the provided geometry. | [Area](/api/oM/Dimensional/Quantities/Attributes/Area) [m²] | Geometry_Engine |
+| IBounds | [BoundingBox](/api/oM/Dimensional/Geometry/BoundingBox) | Returns the global world axis oriented enclosing BoundingBox for all points of the geometry, i.e. the box with the smallest volume within which all the points on the geometry lie. | - | Geometry_Engine |
+| IExternalEdges | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[ICurve](/api/oM/Dimensional/Geometry/ICurve)&gt; | Gets the external edge curves of the ISurface. | - | Geometry_Engine |
 | IHashArray | [Double[]](https://learn.microsoft.com/en-us/dotnet/api/System.Double[]?view=netstandard-2.0) | Returns a signature of the input geometry, useful for distance-based comparisons and diffing.<br>The hash is computed as an array representing the coordinate of significant points taken on the geometry.<br>The number of points is reduced to the minimum essential to determine uniquely any geometry.<br>Additionally, the resulting points are transformed based on the source geometry type, to remove or minimize collisions.<br>(Any transformation so performed is translational only, in order to support geometrical tolerance, i.e. numerical distance, when comparing GeometryHashes downstream). | - | Geometry_Engine |
-| IInternalEdges | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[ICurve](/api_documentation/oM/Dimensional/Geometry/ICurve)&gt; | - | - | Geometry_Engine |
+| IInternalEdges | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[ICurve](/api/oM/Dimensional/Geometry/ICurve)&gt; | - | - | Geometry_Engine |
 | IIsPlanar | [bool](https://learn.microsoft.com/en-us/dotnet/api/System.Boolean?view=netstandard-2.0) | Checks if the IGeometry is planar, i.e. all of its parts fit in a single plane. | - | Geometry_Engine |
 | IIsValid | [bool](https://learn.microsoft.com/en-us/dotnet/api/System.Boolean?view=netstandard-2.0) | - | - | Geometry_Engine |
-| INormals | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[Vector](/api_documentation/oM/Dimensional/Geometry/Vector)&gt; | Interface method that returns the list of vectors normal to any IGeometry. | - | Geometry_Engine |
+| INormals | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[Vector](/api/oM/Dimensional/Geometry/Vector)&gt; | Interface method that returns the list of vectors normal to any IGeometry. | - | Geometry_Engine |
 | IsClosed | [bool](https://learn.microsoft.com/en-us/dotnet/api/System.Boolean?view=netstandard-2.0) | Checks if the NurbsSurface is closed, i.e. forms a closed loop, in at least one direction, i.e. if one of the edges overlap fully with the edge on the oposite side in the u/v domain. | - | Geometry_Engine |
 | IsNull | [bool](https://learn.microsoft.com/en-us/dotnet/api/System.Boolean?view=netstandard-2.0) | Checks if a Geometry is null and outputs relevant error message. | - | Geometry_Engine |
 | IsPeriodic | [bool](https://learn.microsoft.com/en-us/dotnet/api/System.Boolean?view=netstandard-2.0) | - | - | Geometry_Engine |
-| ISubParts | [IEnumerable](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IEnumerable-1?view=netstandard-2.0)&lt;[ISurface](/api_documentation/oM/Dimensional/Geometry/ISurface)&gt; | - | - | Geometry_Engine |
-| ISubParts | [IEnumerable](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IEnumerable-1?view=netstandard-2.0)&lt;[IGeometry](/api_documentation/oM/Dimensional/Geometry/IGeometry)&gt; | - | - | Geometry_Engine |
+| ISubParts | [IEnumerable](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IEnumerable-1?view=netstandard-2.0)&lt;[ISurface](/api/oM/Dimensional/Geometry/ISurface)&gt; | - | - | Geometry_Engine |
+| ISubParts | [IEnumerable](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IEnumerable-1?view=netstandard-2.0)&lt;[IGeometry](/api/oM/Dimensional/Geometry/IGeometry)&gt; | - | - | Geometry_Engine |
 | IsValid | [bool](https://learn.microsoft.com/en-us/dotnet/api/System.Boolean?view=netstandard-2.0) | - | - | Geometry_Engine |
 | UVCount | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[int](https://learn.microsoft.com/en-us/dotnet/api/System.Int32?view=netstandard-2.0)&gt; | - | - | Geometry_Engine |
 

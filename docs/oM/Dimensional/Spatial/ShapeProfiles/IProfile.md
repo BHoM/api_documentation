@@ -12,33 +12,33 @@ Base interface for all shape profiles.
 
 ???+ bhom "The IProfile in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IBHoMObject](/api_documentation/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
+    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
+    -  Base.[IObject](/api/oM/Framework/Base/IObject)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Spatial.ShapeProfiles.[AngleProfile](/api_documentation/oM/Dimensional/Spatial/ShapeProfiles/AngleProfile)
-    - Spatial.ShapeProfiles.[BoxProfile](/api_documentation/oM/Dimensional/Spatial/ShapeProfiles/BoxProfile)
-    - Spatial.ShapeProfiles.[ChannelProfile](/api_documentation/oM/Dimensional/Spatial/ShapeProfiles/ChannelProfile)
-    - Spatial.ShapeProfiles.[CircleProfile](/api_documentation/oM/Dimensional/Spatial/ShapeProfiles/CircleProfile)
-    - Spatial.ShapeProfiles.[FabricatedBoxProfile](/api_documentation/oM/Dimensional/Spatial/ShapeProfiles/FabricatedBoxProfile)
-    - Spatial.ShapeProfiles.[FabricatedISectionProfile](/api_documentation/oM/Dimensional/Spatial/ShapeProfiles/FabricatedISectionProfile)
-    - Spatial.ShapeProfiles.[FreeFormProfile](/api_documentation/oM/Dimensional/Spatial/ShapeProfiles/FreeFormProfile)
-    - Spatial.ShapeProfiles.[GeneralisedFabricatedBoxProfile](/api_documentation/oM/Dimensional/Spatial/ShapeProfiles/GeneralisedFabricatedBoxProfile)
-    - Spatial.ShapeProfiles.[GeneralisedTSectionProfile](/api_documentation/oM/Dimensional/Spatial/ShapeProfiles/GeneralisedTSectionProfile)
-    - Spatial.ShapeProfiles.[ISectionProfile](/api_documentation/oM/Dimensional/Spatial/ShapeProfiles/ISectionProfile)
-    - Spatial.ShapeProfiles.[KiteProfile](/api_documentation/oM/Dimensional/Spatial/ShapeProfiles/KiteProfile)
-    - Spatial.ShapeProfiles.[RectangleProfile](/api_documentation/oM/Dimensional/Spatial/ShapeProfiles/RectangleProfile)
-    - Spatial.ShapeProfiles.[TaperedProfile](/api_documentation/oM/Dimensional/Spatial/ShapeProfiles/TaperedProfile)
-    - Spatial.ShapeProfiles.[TaperFlangeChannelProfile](/api_documentation/oM/Dimensional/Spatial/ShapeProfiles/TaperFlangeChannelProfile)
-    - Spatial.ShapeProfiles.[TaperFlangeISectionProfile](/api_documentation/oM/Dimensional/Spatial/ShapeProfiles/TaperFlangeISectionProfile)
-    - Spatial.ShapeProfiles.[TSectionProfile](/api_documentation/oM/Dimensional/Spatial/ShapeProfiles/TSectionProfile)
-    - Spatial.ShapeProfiles.[TubeProfile](/api_documentation/oM/Dimensional/Spatial/ShapeProfiles/TubeProfile)
-    - Spatial.ShapeProfiles.[VoidedISectionProfile](/api_documentation/oM/Dimensional/Spatial/ShapeProfiles/VoidedISectionProfile)
-    - Spatial.ShapeProfiles.[ZSectionProfile](/api_documentation/oM/Dimensional/Spatial/ShapeProfiles/ZSectionProfile)
+    - Spatial.ShapeProfiles.[AngleProfile](/api/oM/Dimensional/Spatial/ShapeProfiles/AngleProfile)
+    - Spatial.ShapeProfiles.[BoxProfile](/api/oM/Dimensional/Spatial/ShapeProfiles/BoxProfile)
+    - Spatial.ShapeProfiles.[ChannelProfile](/api/oM/Dimensional/Spatial/ShapeProfiles/ChannelProfile)
+    - Spatial.ShapeProfiles.[CircleProfile](/api/oM/Dimensional/Spatial/ShapeProfiles/CircleProfile)
+    - Spatial.ShapeProfiles.[FabricatedBoxProfile](/api/oM/Dimensional/Spatial/ShapeProfiles/FabricatedBoxProfile)
+    - Spatial.ShapeProfiles.[FabricatedISectionProfile](/api/oM/Dimensional/Spatial/ShapeProfiles/FabricatedISectionProfile)
+    - Spatial.ShapeProfiles.[FreeFormProfile](/api/oM/Dimensional/Spatial/ShapeProfiles/FreeFormProfile)
+    - Spatial.ShapeProfiles.[GeneralisedFabricatedBoxProfile](/api/oM/Dimensional/Spatial/ShapeProfiles/GeneralisedFabricatedBoxProfile)
+    - Spatial.ShapeProfiles.[GeneralisedTSectionProfile](/api/oM/Dimensional/Spatial/ShapeProfiles/GeneralisedTSectionProfile)
+    - Spatial.ShapeProfiles.[ISectionProfile](/api/oM/Dimensional/Spatial/ShapeProfiles/ISectionProfile)
+    - Spatial.ShapeProfiles.[KiteProfile](/api/oM/Dimensional/Spatial/ShapeProfiles/KiteProfile)
+    - Spatial.ShapeProfiles.[RectangleProfile](/api/oM/Dimensional/Spatial/ShapeProfiles/RectangleProfile)
+    - Spatial.ShapeProfiles.[TaperedProfile](/api/oM/Dimensional/Spatial/ShapeProfiles/TaperedProfile)
+    - Spatial.ShapeProfiles.[TaperFlangeChannelProfile](/api/oM/Dimensional/Spatial/ShapeProfiles/TaperFlangeChannelProfile)
+    - Spatial.ShapeProfiles.[TaperFlangeISectionProfile](/api/oM/Dimensional/Spatial/ShapeProfiles/TaperFlangeISectionProfile)
+    - Spatial.ShapeProfiles.[TSectionProfile](/api/oM/Dimensional/Spatial/ShapeProfiles/TSectionProfile)
+    - Spatial.ShapeProfiles.[TubeProfile](/api/oM/Dimensional/Spatial/ShapeProfiles/TubeProfile)
+    - Spatial.ShapeProfiles.[VoidedISectionProfile](/api/oM/Dimensional/Spatial/ShapeProfiles/VoidedISectionProfile)
+    - Spatial.ShapeProfiles.[ZSectionProfile](/api/oM/Dimensional/Spatial/ShapeProfiles/ZSectionProfile)
 
 
 ## Properties
@@ -51,8 +51,8 @@ The following properties are defined on the interface
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| Shape | [ShapeType](/api_documentation/oM/Dimensional/Spatial/ShapeProfiles/ShapeType) | - | - |
-| Edges | [ReadOnlyCollection](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.ObjectModel.ReadOnlyCollection-1?view=netstandard-2.0)&lt;[ICurve](/api_documentation/oM/Dimensional/Geometry/ICurve)&gt; | Edge curves that matches the dimensions in the global XY-plane. | - |
+| Shape | [ShapeType](/api/oM/Dimensional/Spatial/ShapeProfiles/ShapeType) | - | - |
+| Edges | [ReadOnlyCollection](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.ObjectModel.ReadOnlyCollection-1?view=netstandard-2.0)&lt;[ICurve](/api/oM/Dimensional/Geometry/ICurve)&gt; | Edge curves that matches the dimensions in the global XY-plane. | - |
 
 
 ### Derived properties
@@ -61,17 +61,17 @@ The following properties are defined as extension methods in one of the BHoM_Eng
 
 | Name             | Type             | Description      | Quantity         | Engine           |
 |------------------|------------------|------------------|------------------|------------------|
-| Area | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Gets the area of an IProfile. This assumes that the outermost curve(s) are solid. Curves inside a solid region are assumed to be openings, and curves within openings are assumed to be solid, etc. Also, for TaperedProfiles, the average area is returned. | [Area](/api_documentation/oM/Dimensional/Quantities/Attributes/Area) [m²] | Spatial_Engine |
-| Bounds | [BoundingBox](/api_documentation/oM/Dimensional/Geometry/BoundingBox) | Queries the BoundingBox of a Profile. Acts on the profile edges through the Geometry_Engine. | - | Spatial_Engine |
+| Area | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Gets the area of an IProfile. This assumes that the outermost curve(s) are solid. Curves inside a solid region are assumed to be openings, and curves within openings are assumed to be solid, etc. Also, for TaperedProfiles, the average area is returned. | [Area](/api/oM/Dimensional/Quantities/Attributes/Area) [m²] | Spatial_Engine |
+| Bounds | [BoundingBox](/api/oM/Dimensional/Geometry/BoundingBox) | Queries the BoundingBox of a Profile. Acts on the profile edges through the Geometry_Engine. | - | Spatial_Engine |
 | DescriptionOrName | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | Gets the name from a profile. If null or empty, a default description name is provided instead. | - | Structure_Engine |
-| Geometry | [CompositeGeometry](/api_documentation/oM/Dimensional/Geometry/CompositeGeometry) | Queries edge curves from an IProfile. | - | Spatial_Engine |
+| Geometry | [CompositeGeometry](/api/oM/Dimensional/Geometry/CompositeGeometry) | Queries edge curves from an IProfile. | - | Spatial_Engine |
 | ICircularEquivalentDiameter | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Returns the Circular Equivalent Diameter for elements that are non-circular, equivalent in length, fluid resistance and airflow. | - | MEP_Engine |
 | IDescription | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | Generates a default description for the Profile, based on dimensions. | - | Structure_Engine |
 | IsNull | [bool](https://learn.microsoft.com/en-us/dotnet/api/System.Boolean?view=netstandard-2.0) | Checks if an Profile is null and outputs relevant error message. | - | Spatial_Engine |
-| IThickness | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Returns the thickness of a ShapeProfile. | [Length](/api_documentation/oM/Dimensional/Quantities/Attributes/Length) [m] | Spatial_Engine |
-| ITorsionalConstant | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Calculates the torsional constant for the profile. Note that this is not the polar moment of inertia. | [TorsionConstant](/api_documentation/oM/Dimensional/Quantities/Attributes/TorsionConstant) [m⁴] | Structure_Engine |
-| IWarpingConstant | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Gets the warping constant for the profile. | [WarpingConstant](/api_documentation/oM/Dimensional/Quantities/Attributes/WarpingConstant) [m⁶] | Structure_Engine |
-| VoidArea | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Gets the void area enclosed by an IProfile. This assumes that the outermost curve(s) are solid. Curves inside a solid region are assumed to be openings, and curves within openings are assumed to be solid, etc. Also, for TaperedProfiles, the average void area is returned. | [Area](/api_documentation/oM/Dimensional/Quantities/Attributes/Area) [m²] | Spatial_Engine |
+| IThickness | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Returns the thickness of a ShapeProfile. | [Length](/api/oM/Dimensional/Quantities/Attributes/Length) [m] | Spatial_Engine |
+| ITorsionalConstant | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Calculates the torsional constant for the profile. Note that this is not the polar moment of inertia. | [TorsionConstant](/api/oM/Dimensional/Quantities/Attributes/TorsionConstant) [m⁴] | Structure_Engine |
+| IWarpingConstant | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Gets the warping constant for the profile. | [WarpingConstant](/api/oM/Dimensional/Quantities/Attributes/WarpingConstant) [m⁶] | Structure_Engine |
+| VoidArea | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Gets the void area enclosed by an IProfile. This assumes that the outermost curve(s) are solid. Curves inside a solid region are assumed to be openings, and curves within openings are assumed to be solid, etc. Also, for TaperedProfiles, the average void area is returned. | [Area](/api/oM/Dimensional/Quantities/Attributes/Area) [m²] | Spatial_Engine |
 
 
 ## Code and Schema

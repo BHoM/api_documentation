@@ -12,15 +12,15 @@ title: IPhase
 
 ???+ bhom "The IPhase in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IBHoMObject](/api_documentation/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
+    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
+    -  Base.[IObject](/api/oM/Framework/Base/IObject)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Planning.[ConstructionPhase](/api_documentation/oM/Analytical/Planning/ConstructionPhase)
+    - Planning.[ConstructionPhase](/api/oM/Analytical/Planning/ConstructionPhase)
 
 
 ## Properties

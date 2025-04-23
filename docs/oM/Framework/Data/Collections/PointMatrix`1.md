@@ -20,8 +20,8 @@ Unconstrained generic type. Can be any type of object.
 
 ???+ bhom "The PointMatrix`1 in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Data.Collections.[IDataStructure](/api_documentation/oM/Framework/Data/Collections/IDataStructure)
-    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
+    -  Data.Collections.[IDataStructure](/api/oM/Framework/Data/Collections/IDataStructure)
+    -  Base.[IObject](/api/oM/Framework/Base/IObject)
 
 
 ## Properties
@@ -35,7 +35,7 @@ The following properties are defined on the class
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
 | CellSize | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | - | - |
-| Data | [Dictionary](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.Dictionary-2?view=netstandard-2.0)&lt;[DiscretePoint](/api_documentation/oM/Framework/Data/Collections/DiscretePoint), [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[LocalData](/api_documentation/oM/Framework/Data/Collections/LocalData%601)&lt;[T](#t)&gt;&gt;&gt; | - | - |
+| Data | [Dictionary](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.Dictionary-2?view=netstandard-2.0)&lt;[DiscretePoint](/api/oM/Framework/Data/Collections/DiscretePoint), [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[LocalData](/api/oM/Framework/Data/Collections/LocalData%601)&lt;[T](#t)&gt;&gt;&gt; | - | - |
 
 
 ## Code and Schema

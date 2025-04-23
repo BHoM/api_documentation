@@ -12,7 +12,7 @@ title: SunData
 
 ???+ bhom "The SunData in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
+    -  Base.[IObject](/api/oM/Framework/Base/IObject)
 
 
 ## Properties

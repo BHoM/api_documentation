@@ -12,17 +12,17 @@ title: IFacadeObject
 
 ???+ bhom "The IFacadeObject in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IBHoMObject](/api_documentation/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
+    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
+    -  Base.[IObject](/api/oM/Framework/Base/IObject)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Facade.Elements.[CurtainWall](/api_documentation/oM/Analytical/Facade/Elements/CurtainWall)
-    - Facade.Elements.[Opening](/api_documentation/oM/Analytical/Facade/Elements/Opening)
-    - Facade.Elements.[Panel](/api_documentation/oM/Analytical/Facade/Elements/Panel)
+    - Facade.Elements.[CurtainWall](/api/oM/Analytical/Facade/Elements/CurtainWall)
+    - Facade.Elements.[Opening](/api/oM/Analytical/Facade/Elements/Opening)
+    - Facade.Elements.[Panel](/api/oM/Analytical/Facade/Elements/Panel)
 
 
 ## Properties

@@ -20,8 +20,8 @@ Unconstrained generic type. Can be any type of object.
 
 ???+ bhom "The Tree`1 in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Data.Collections.[IDataStructure](/api_documentation/oM/Framework/Data/Collections/IDataStructure)
-    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
+    -  Data.Collections.[IDataStructure](/api/oM/Framework/Data/Collections/IDataStructure)
+    -  Base.[IObject](/api/oM/Framework/Base/IObject)
 
 
 ## Properties
@@ -34,7 +34,7 @@ The following properties are defined on the class
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| Children | [Dictionary](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.Dictionary-2?view=netstandard-2.0)&lt;[string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0), [Tree](/api_documentation/oM/Framework/Data/Collections/Tree%601)&lt;[T](#t)&gt;&gt; | - | - |
+| Children | [Dictionary](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.Dictionary-2?view=netstandard-2.0)&lt;[string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0), [Tree](/api/oM/Framework/Data/Collections/Tree%601)&lt;[T](#t)&gt;&gt; | - | - |
 | Name | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | - | - |
 | Value | [T](#t) | - | - |
 

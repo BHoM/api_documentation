@@ -12,18 +12,18 @@ title: IParamUpdate
 
 ???+ bhom "The IParamUpdate in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  UI.[IUpdate](/api_documentation/oM/UI/UI/IUpdate)
-    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
+    -  UI.[IUpdate](/api/oM/UI/UI/IUpdate)
+    -  Base.[IObject](/api/oM/Framework/Base/IObject)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - UI.[ParamAdded](/api_documentation/oM/UI/UI/ParamAdded)
-    - UI.[ParamMoved](/api_documentation/oM/UI/UI/ParamMoved)
-    - UI.[ParamRemoved](/api_documentation/oM/UI/UI/ParamRemoved)
-    - UI.[ParamUpdated](/api_documentation/oM/UI/UI/ParamUpdated)
+    - UI.[ParamAdded](/api/oM/UI/UI/ParamAdded)
+    - UI.[ParamMoved](/api/oM/UI/UI/ParamMoved)
+    - UI.[ParamRemoved](/api/oM/UI/UI/ParamRemoved)
+    - UI.[ParamUpdated](/api/oM/UI/UI/ParamUpdated)
 
 
 ## Properties
@@ -36,7 +36,7 @@ The following properties are defined on the interface
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| Param | [ParamInfo](/api_documentation/oM/UI/UI/ParamInfo) | - | - |
+| Param | [ParamInfo](/api/oM/UI/UI/ParamInfo) | - | - |
 
 
 ### Derived properties

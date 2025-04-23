@@ -12,11 +12,11 @@ title: EnergyMaterialVegetation
 
 ???+ bhom "The EnergyMaterialVegetation in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[BHoMObject](/api_documentation/oM/Framework/Base/BHoMObject)
-    -  Base.[IBHoMObject](/api_documentation/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
-    -  LadybugTools.[IEnergyMaterialOpaque](/api_documentation/oM/Adapter/LadybugTools/IEnergyMaterialOpaque)
-    -  LadybugTools.[ILadybugTools](/api_documentation/oM/Adapter/LadybugTools/ILadybugTools)
+    -  Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
+    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
+    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  LadybugTools.[IEnergyMaterialOpaque](/api/oM/Adapter/LadybugTools/IEnergyMaterialOpaque)
+    -  LadybugTools.[ILadybugTools](/api/oM/Adapter/LadybugTools/ILadybugTools)
 
 
 ## Properties
@@ -30,11 +30,11 @@ The following properties are defined on the class
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
 | Name | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | The name of this EnergyMaterialVegetation. | - |
-| Thickness | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Thickness of material (m). | [Length](/api_documentation/oM/Dimensional/Quantities/Attributes/Length) [m] |
+| Thickness | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Thickness of material (m). | [Length](/api/oM/Dimensional/Quantities/Attributes/Length) [m] |
 | Conductivity | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Conductivity of material (W/mK). | - |
-| Density | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Density of material (kg/m3). | [Density](/api_documentation/oM/Dimensional/Quantities/Attributes/Density) [kg/m³] |
+| Density | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Density of material (kg/m3). | [Density](/api/oM/Dimensional/Quantities/Attributes/Density) [kg/m³] |
 | SpecificHeat | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Specific heat capacity of material (J/kgK). | - |
-| Roughness | [Roughness](/api_documentation/oM/Adapter/LadybugTools/Roughness) | The roughness of the material. | - |
+| Roughness | [Roughness](/api/oM/Adapter/LadybugTools/Roughness) | The roughness of the material. | - |
 | SoilThermalAbsorptance | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | A number between 0 and 1 for the fraction of incident long wavelength radiation that is absorbed by the soil material. | - |
 | SoilSolarAbsorptance | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | A number between 0 and 1 for the fraction of incident solar radiation absorbed by the soil material. | - |
 | SoilVisibleAbsorptance | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | A number between 0 and 1 for the fraction of incident visible wavelength radiation absorbed by the soil material. | - |
@@ -51,7 +51,7 @@ The following properties are inherited from the base class of the object
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
 | BHoM_Guid | [Guid](https://learn.microsoft.com/en-us/dotnet/api/System.Guid?view=netstandard-2.0) | - | - |
-| Fragments | [FragmentSet](/api_documentation/oM/Framework/Base/FragmentSet) | - | - |
+| Fragments | [FragmentSet](/api/oM/Framework/Base/FragmentSet) | - | - |
 | Tags | [HashSet](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.HashSet-1?view=netstandard-2.0)&lt;[string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0)&gt; | - | - |
 | CustomData | [Dictionary](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.Dictionary-2?view=netstandard-2.0)&lt;[string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0), [object](https://learn.microsoft.com/en-us/dotnet/api/System.Object?view=netstandard-2.0)&gt; | - | - |
 

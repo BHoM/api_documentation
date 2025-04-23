@@ -12,19 +12,19 @@ title: IEnvironmentMaterial
 
 ???+ bhom "The IEnvironmentMaterial in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IBHoMObject](/api_documentation/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
-    -  Physical.Materials.[IMaterialProperties](/api_documentation/oM/Physical/Physical/Materials/IMaterialProperties)
-    -  Base.[IFragment](/api_documentation/oM/Framework/Base/IFragment)
-    -  Physical.Materials.[IDensityProvider](/api_documentation/oM/Physical/Physical/Materials/IDensityProvider)
+    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
+    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  Physical.Materials.[IMaterialProperties](/api/oM/Physical/Physical/Materials/IMaterialProperties)
+    -  Base.[IFragment](/api/oM/Framework/Base/IFragment)
+    -  Physical.Materials.[IDensityProvider](/api/oM/Physical/Physical/Materials/IDensityProvider)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Environment.MaterialFragments.[GasMaterial](/api_documentation/oM/Analytical/Environment/MaterialFragments/GasMaterial)
-    - Environment.MaterialFragments.[SolidMaterial](/api_documentation/oM/Analytical/Environment/MaterialFragments/SolidMaterial)
+    - Environment.MaterialFragments.[GasMaterial](/api/oM/Analytical/Environment/MaterialFragments/GasMaterial)
+    - Environment.MaterialFragments.[SolidMaterial](/api/oM/Analytical/Environment/MaterialFragments/SolidMaterial)
 
 
 ## Properties
@@ -41,7 +41,7 @@ The following properties are defined on the interface
 | SpecificHeat | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | - | - |
 | VapourResistivity | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | - | - |
 | Description | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | - | - |
-| Roughness | [Roughness](/api_documentation/oM/Analytical/Environment/MaterialFragments/Roughness) | Required for some calculations, such as determining the convective heat transfer coefficient. Use Roughness enum | - |
+| Roughness | [Roughness](/api/oM/Analytical/Environment/MaterialFragments/Roughness) | Required for some calculations, such as determining the convective heat transfer coefficient. Use Roughness enum | - |
 | Refraction | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | - | - |
 
 

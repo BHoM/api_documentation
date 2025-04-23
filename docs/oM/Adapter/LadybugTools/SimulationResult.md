@@ -12,11 +12,11 @@ title: SimulationResult
 
 ???+ bhom "The SimulationResult in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[BHoMObject](/api_documentation/oM/Framework/Base/BHoMObject)
-    -  Base.[IBHoMObject](/api_documentation/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
-    -  LadybugTools.[ILadybugTools](/api_documentation/oM/Adapter/LadybugTools/ILadybugTools)
-    -  Base.[IImmutable](/api_documentation/oM/Framework/Base/IImmutable)
+    -  Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
+    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
+    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  LadybugTools.[ILadybugTools](/api/oM/Adapter/LadybugTools/ILadybugTools)
+    -  Base.[IImmutable](/api/oM/Framework/Base/IImmutable)
 
 
 ## Properties
@@ -29,22 +29,22 @@ The following properties are defined on the class
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| EpwFile | [FileSettings](/api_documentation/oM/Framework/Adapter/FileSettings) | The EPW file associated with this object. | - |
-| GroundMaterial | [IEnergyMaterialOpaque](/api_documentation/oM/Adapter/LadybugTools/IEnergyMaterialOpaque) | The ground material used in the processing of this object. | - |
-| ShadeMaterial | [IEnergyMaterialOpaque](/api_documentation/oM/Adapter/LadybugTools/IEnergyMaterialOpaque) | The shade material used in the processing of this object. | - |
+| EpwFile | [FileSettings](/api/oM/Framework/Adapter/FileSettings) | The EPW file associated with this object. | - |
+| GroundMaterial | [IEnergyMaterialOpaque](/api/oM/Adapter/LadybugTools/IEnergyMaterialOpaque) | The ground material used in the processing of this object. | - |
+| ShadeMaterial | [IEnergyMaterialOpaque](/api/oM/Adapter/LadybugTools/IEnergyMaterialOpaque) | The shade material used in the processing of this object. | - |
 | Name | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | The identifier used to distinguish existing results for this object. | - |
-| ShadedDownTemperature | [HourlyContinuousCollection](/api_documentation/oM/Adapter/LadybugTools/HourlyContinuousCollection) | The Shaded Down Temperature used in the processing of this object | - |
-| ShadedUpTemperature | [HourlyContinuousCollection](/api_documentation/oM/Adapter/LadybugTools/HourlyContinuousCollection) | The Shaded Up Temperature used in the processing of this object | - |
-| ShadedRadiantTemperature | [HourlyContinuousCollection](/api_documentation/oM/Adapter/LadybugTools/HourlyContinuousCollection) | The Shaded Radiant Temperature used in the processing of this object | - |
-| ShadedLongwaveMeanRadiantTemperatureDelta | [HourlyContinuousCollection](/api_documentation/oM/Adapter/LadybugTools/HourlyContinuousCollection) | The Shaded Longwave Mean Radiant Temperature Delta used in the processing of this object | - |
-| ShadedShortwaveMeanRadiantTemperatureDelta | [HourlyContinuousCollection](/api_documentation/oM/Adapter/LadybugTools/HourlyContinuousCollection) | The Shaded Shortwave Mean Radiant Temperature Delta used in the processing of this object | - |
-| ShadedMeanRadiantTemperature | [HourlyContinuousCollection](/api_documentation/oM/Adapter/LadybugTools/HourlyContinuousCollection) | The Shaded Mean Radiant Temperature used in the processing of this object | - |
-| UnshadedDownTemperature | [HourlyContinuousCollection](/api_documentation/oM/Adapter/LadybugTools/HourlyContinuousCollection) | The Unshaded Down Temperature used in the processing of this object | - |
-| UnshadedUpTemperature | [HourlyContinuousCollection](/api_documentation/oM/Adapter/LadybugTools/HourlyContinuousCollection) | The Unshaded Up Temperature used in the processing of this object | - |
-| UnshadedRadiantTemperature | [HourlyContinuousCollection](/api_documentation/oM/Adapter/LadybugTools/HourlyContinuousCollection) | The Unshaded Radiant Temperature used in the processing of this object | - |
-| UnshadedLongwaveMeanRadiantTemperatureDelta | [HourlyContinuousCollection](/api_documentation/oM/Adapter/LadybugTools/HourlyContinuousCollection) | The Unshaded Longwave Mean Radiant Temperature Delta used in the processing of this object | - |
-| UnshadedShortwaveMeanRadiantTemperatureDelta | [HourlyContinuousCollection](/api_documentation/oM/Adapter/LadybugTools/HourlyContinuousCollection) | The Unshaded Shortwave Mean Radiant Temperature Delta used in the processing of this object | - |
-| UnshadedMeanRadiantTemperature | [HourlyContinuousCollection](/api_documentation/oM/Adapter/LadybugTools/HourlyContinuousCollection) | The Unshaded Mean Radiant Temperature used in the processing of this object | - |
+| ShadedDownTemperature | [HourlyContinuousCollection](/api/oM/Adapter/LadybugTools/HourlyContinuousCollection) | The Shaded Down Temperature used in the processing of this object | - |
+| ShadedUpTemperature | [HourlyContinuousCollection](/api/oM/Adapter/LadybugTools/HourlyContinuousCollection) | The Shaded Up Temperature used in the processing of this object | - |
+| ShadedRadiantTemperature | [HourlyContinuousCollection](/api/oM/Adapter/LadybugTools/HourlyContinuousCollection) | The Shaded Radiant Temperature used in the processing of this object | - |
+| ShadedLongwaveMeanRadiantTemperatureDelta | [HourlyContinuousCollection](/api/oM/Adapter/LadybugTools/HourlyContinuousCollection) | The Shaded Longwave Mean Radiant Temperature Delta used in the processing of this object | - |
+| ShadedShortwaveMeanRadiantTemperatureDelta | [HourlyContinuousCollection](/api/oM/Adapter/LadybugTools/HourlyContinuousCollection) | The Shaded Shortwave Mean Radiant Temperature Delta used in the processing of this object | - |
+| ShadedMeanRadiantTemperature | [HourlyContinuousCollection](/api/oM/Adapter/LadybugTools/HourlyContinuousCollection) | The Shaded Mean Radiant Temperature used in the processing of this object | - |
+| UnshadedDownTemperature | [HourlyContinuousCollection](/api/oM/Adapter/LadybugTools/HourlyContinuousCollection) | The Unshaded Down Temperature used in the processing of this object | - |
+| UnshadedUpTemperature | [HourlyContinuousCollection](/api/oM/Adapter/LadybugTools/HourlyContinuousCollection) | The Unshaded Up Temperature used in the processing of this object | - |
+| UnshadedRadiantTemperature | [HourlyContinuousCollection](/api/oM/Adapter/LadybugTools/HourlyContinuousCollection) | The Unshaded Radiant Temperature used in the processing of this object | - |
+| UnshadedLongwaveMeanRadiantTemperatureDelta | [HourlyContinuousCollection](/api/oM/Adapter/LadybugTools/HourlyContinuousCollection) | The Unshaded Longwave Mean Radiant Temperature Delta used in the processing of this object | - |
+| UnshadedShortwaveMeanRadiantTemperatureDelta | [HourlyContinuousCollection](/api/oM/Adapter/LadybugTools/HourlyContinuousCollection) | The Unshaded Shortwave Mean Radiant Temperature Delta used in the processing of this object | - |
+| UnshadedMeanRadiantTemperature | [HourlyContinuousCollection](/api/oM/Adapter/LadybugTools/HourlyContinuousCollection) | The Unshaded Mean Radiant Temperature used in the processing of this object | - |
 
 
 ### Inherited properties
@@ -53,7 +53,7 @@ The following properties are inherited from the base class of the object
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
 | BHoM_Guid | [Guid](https://learn.microsoft.com/en-us/dotnet/api/System.Guid?view=netstandard-2.0) | - | - |
-| Fragments | [FragmentSet](/api_documentation/oM/Framework/Base/FragmentSet) | - | - |
+| Fragments | [FragmentSet](/api/oM/Framework/Base/FragmentSet) | - | - |
 | Tags | [HashSet](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.HashSet-1?view=netstandard-2.0)&lt;[string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0)&gt; | - | - |
 | CustomData | [Dictionary](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.Dictionary-2?view=netstandard-2.0)&lt;[string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0), [object](https://learn.microsoft.com/en-us/dotnet/api/System.Object?view=netstandard-2.0)&gt; | - | - |
 

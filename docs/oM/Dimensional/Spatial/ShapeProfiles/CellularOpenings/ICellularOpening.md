@@ -12,17 +12,17 @@ title: ICellularOpening
 
 ???+ bhom "The ICellularOpening in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IBHoMObject](/api_documentation/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
+    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
+    -  Base.[IObject](/api/oM/Framework/Base/IObject)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Spatial.ShapeProfiles.CellularOpenings.[CircularCellularOpening](/api_documentation/oM/Dimensional/Spatial/ShapeProfiles/CellularOpenings/CircularCellularOpening)
-    - Spatial.ShapeProfiles.CellularOpenings.[HexagonalCellularOpening](/api_documentation/oM/Dimensional/Spatial/ShapeProfiles/CellularOpenings/HexagonalCellularOpening)
-    - Spatial.ShapeProfiles.CellularOpenings.[SinusoidalCellularOpening](/api_documentation/oM/Dimensional/Spatial/ShapeProfiles/CellularOpenings/SinusoidalCellularOpening)
+    - Spatial.ShapeProfiles.CellularOpenings.[CircularCellularOpening](/api/oM/Dimensional/Spatial/ShapeProfiles/CellularOpenings/CircularCellularOpening)
+    - Spatial.ShapeProfiles.CellularOpenings.[HexagonalCellularOpening](/api/oM/Dimensional/Spatial/ShapeProfiles/CellularOpenings/HexagonalCellularOpening)
+    - Spatial.ShapeProfiles.CellularOpenings.[SinusoidalCellularOpening](/api/oM/Dimensional/Spatial/ShapeProfiles/CellularOpenings/SinusoidalCellularOpening)
 
 
 ## Properties
@@ -35,8 +35,8 @@ The following properties are defined on the interface
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| WidthWebPost | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Clear distance between openings. | [Length](/api_documentation/oM/Dimensional/Quantities/Attributes/Length) [m] |
-| Spacing | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Centre to centre distance between openings. | [Length](/api_documentation/oM/Dimensional/Quantities/Attributes/Length) [m] |
+| WidthWebPost | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Clear distance between openings. | [Length](/api/oM/Dimensional/Quantities/Attributes/Length) [m] |
+| Spacing | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Centre to centre distance between openings. | [Length](/api/oM/Dimensional/Quantities/Attributes/Length) [m] |
 
 
 ### Derived properties
@@ -45,8 +45,8 @@ The following properties are defined as extension methods in one of the BHoM_Eng
 
 | Name             | Type             | Description      | Quantity         | Engine           |
 |------------------|------------------|------------------|------------------|------------------|
-| IOpeningArea | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Returns the area of a single opening. | [Area](/api_documentation/oM/Dimensional/Quantities/Attributes/Area) [m²] | Spatial_Engine |
-| IOpeningCurve | [ICurve](/api_documentation/oM/Dimensional/Geometry/ICurve) | Returns the curve of a single opening in the XY plane. | - | Spatial_Engine |
+| IOpeningArea | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Returns the area of a single opening. | [Area](/api/oM/Dimensional/Quantities/Attributes/Area) [m²] | Spatial_Engine |
+| IOpeningCurve | [ICurve](/api/oM/Dimensional/Geometry/ICurve) | Returns the curve of a single opening in the XY plane. | - | Spatial_Engine |
 
 
 ## Code and Schema

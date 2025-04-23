@@ -12,8 +12,8 @@ View capture settings allowing the size of the image to be controled as a scale 
 
 ???+ bhom "The ScaleViewCaptureSettings in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Adapters.Rhinoceros.ViewCapture.[IViewCaptureSettings](/api_documentation/oM/UI/Adapters/Rhinoceros/ViewCapture/IViewCaptureSettings)
-    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
+    -  Adapters.Rhinoceros.ViewCapture.[IViewCaptureSettings](/api/oM/UI/Adapters/Rhinoceros/ViewCapture/IViewCaptureSettings)
+    -  Base.[IObject](/api/oM/Framework/Base/IObject)
 
 
 ## Properties

@@ -12,30 +12,30 @@ Base interface for results, corresponding to a discrete result at a particular p
 
 ???+ bhom "The IElement1DResult in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Analytical.Results.[IResult](/api_documentation/oM/Analytical/Analytical/Results/IResult)
-    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
-    -  [IComparable](https://learn.microsoft.com/en-us/dotnet/api/System.IComparable-1?view=netstandard-2.0)&lt;Analytical.Results.[IResult](/api_documentation/oM/Analytical/Analytical/Results/IResult)&gt;
-    -  Base.[IImmutable](/api_documentation/oM/Framework/Base/IImmutable)
-    -  Analytical.Results.[IObjectIdResult](/api_documentation/oM/Analytical/Analytical/Results/IObjectIdResult)
+    -  Analytical.Results.[IResult](/api/oM/Analytical/Analytical/Results/IResult)
+    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  [IComparable](https://learn.microsoft.com/en-us/dotnet/api/System.IComparable-1?view=netstandard-2.0)&lt;Analytical.Results.[IResult](/api/oM/Analytical/Analytical/Results/IResult)&gt;
+    -  Base.[IImmutable](/api/oM/Framework/Base/IImmutable)
+    -  Analytical.Results.[IObjectIdResult](/api/oM/Analytical/Analytical/Results/IObjectIdResult)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Adapters.ETABS.Results.[SpandrelForce](/api_documentation/oM/Adapter/Adapters/ETABS/Results/SpandrelForce)
-    - Adapters.ETABS.Results.[PierForce](/api_documentation/oM/Adapter/Adapters/ETABS/Results/PierForce)
-    - Adapters.SAP2000.Results.[AISCSteelUtilisation](/api_documentation/oM/Adapter/Adapters/SAP2000/Results/AISCSteelUtilisation)
-    - Structure.Results.[BarDeformation](/api_documentation/oM/Analytical/Structure/Results/BarDeformation)
-    - Structure.Results.[BarDisplacement](/api_documentation/oM/Analytical/Structure/Results/BarDisplacement)
-    - Structure.Results.[BarForce](/api_documentation/oM/Analytical/Structure/Results/BarForce)
-    - Structure.Results.[BarModeShape](/api_documentation/oM/Analytical/Structure/Results/BarModeShape)
-    - Structure.Results.[BarRequiredArea](/api_documentation/oM/Analytical/Structure/Results/BarRequiredArea)
-    - Structure.Results.[BarResult](/api_documentation/oM/Analytical/Structure/Results/BarResult)
-    - Structure.Results.[BarStrain](/api_documentation/oM/Analytical/Structure/Results/BarStrain)
-    - Structure.Results.[BarStress](/api_documentation/oM/Analytical/Structure/Results/BarStress)
-    - Structure.Results.[CompositeUtilisation](/api_documentation/oM/Analytical/Structure/Results/CompositeUtilisation)
-    - Structure.Results.[SteelUtilisation](/api_documentation/oM/Analytical/Structure/Results/SteelUtilisation)
+    - Adapters.ETABS.Results.[SpandrelForce](/api/oM/Adapter/Adapters/ETABS/Results/SpandrelForce)
+    - Adapters.ETABS.Results.[PierForce](/api/oM/Adapter/Adapters/ETABS/Results/PierForce)
+    - Adapters.SAP2000.Results.[AISCSteelUtilisation](/api/oM/Adapter/Adapters/SAP2000/Results/AISCSteelUtilisation)
+    - Structure.Results.[BarDeformation](/api/oM/Analytical/Structure/Results/BarDeformation)
+    - Structure.Results.[BarDisplacement](/api/oM/Analytical/Structure/Results/BarDisplacement)
+    - Structure.Results.[BarForce](/api/oM/Analytical/Structure/Results/BarForce)
+    - Structure.Results.[BarModeShape](/api/oM/Analytical/Structure/Results/BarModeShape)
+    - Structure.Results.[BarRequiredArea](/api/oM/Analytical/Structure/Results/BarRequiredArea)
+    - Structure.Results.[BarResult](/api/oM/Analytical/Structure/Results/BarResult)
+    - Structure.Results.[BarStrain](/api/oM/Analytical/Structure/Results/BarStrain)
+    - Structure.Results.[BarStress](/api/oM/Analytical/Structure/Results/BarStress)
+    - Structure.Results.[CompositeUtilisation](/api/oM/Analytical/Structure/Results/CompositeUtilisation)
+    - Structure.Results.[SteelUtilisation](/api/oM/Analytical/Structure/Results/SteelUtilisation)
 
 
 ## Properties

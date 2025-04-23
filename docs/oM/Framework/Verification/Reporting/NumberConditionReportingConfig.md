@@ -12,10 +12,10 @@ Config object containing settings for reporting results of checks against numeri
 
 ???+ bhom "The NumberConditionReportingConfig in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Verification.Reporting.[ValueConditionReportingConfig](/api_documentation/oM/Framework/Verification/Reporting/ValueConditionReportingConfig)
-    -  Verification.Reporting.[IValueConditionReportingConfig](/api_documentation/oM/Framework/Verification/Reporting/IValueConditionReportingConfig)
-    -  Verification.Reporting.[IConditionReportingConfig](/api_documentation/oM/Framework/Verification/Reporting/IConditionReportingConfig)
-    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
+    -  Verification.Reporting.[ValueConditionReportingConfig](/api/oM/Framework/Verification/Reporting/ValueConditionReportingConfig)
+    -  Verification.Reporting.[IValueConditionReportingConfig](/api/oM/Framework/Verification/Reporting/IValueConditionReportingConfig)
+    -  Verification.Reporting.[IConditionReportingConfig](/api/oM/Framework/Verification/Reporting/IConditionReportingConfig)
+    -  Base.[IObject](/api/oM/Framework/Base/IObject)
 
 
 ## Properties

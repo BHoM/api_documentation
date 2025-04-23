@@ -12,9 +12,9 @@ Object representing result of ILogicalCollectionCondition.
 
 ???+ bhom "The LogicalCollectionConditionResult in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Verification.Results.[IConditionResult](/api_documentation/oM/Framework/Verification/Results/IConditionResult)
-    -  Base.[IImmutable](/api_documentation/oM/Framework/Base/IImmutable)
-    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
+    -  Verification.Results.[IConditionResult](/api/oM/Framework/Verification/Results/IConditionResult)
+    -  Base.[IImmutable](/api/oM/Framework/Base/IImmutable)
+    -  Base.[IObject](/api/oM/Framework/Base/IObject)
 
 
 ## Properties
@@ -28,7 +28,7 @@ The following properties are defined on the class
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
 | Passed | [Nullable](https://learn.microsoft.com/en-us/dotnet/api/System.Nullable-1?view=netstandard-2.0)&lt;[bool](https://learn.microsoft.com/en-us/dotnet/api/System.Boolean?view=netstandard-2.0)&gt; | Information whether the object passed or failed the condition. Null means inconclusive result. | - |
-| Results | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[IConditionResult](/api_documentation/oM/Framework/Verification/Results/IConditionResult)&gt; | Results of all nested conditions. | - |
+| Results | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[IConditionResult](/api/oM/Framework/Verification/Results/IConditionResult)&gt; | Results of all nested conditions. | - |
 
 
 ## Code and Schema

@@ -12,7 +12,7 @@ This Config can be specified in the `ActionConfig` input of any Adapter Action (
 
 ???+ bhom "The RFEM5Settings in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
+    -  Base.[IObject](/api/oM/Framework/Base/IObject)
 
 
 ## Properties

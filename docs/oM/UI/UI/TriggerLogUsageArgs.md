@@ -13,7 +13,7 @@ title: TriggerLogUsageArgs
 ???+ bhom "The TriggerLogUsageArgs in inheriting from the following base type(s) and implements the following interfaces:"
 
     -  [EventArgs](https://learn.microsoft.com/en-us/dotnet/api/System.EventArgs?view=netstandard-2.0)
-    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
+    -  Base.[IObject](/api/oM/Framework/Base/IObject)
 
 
 ## Properties

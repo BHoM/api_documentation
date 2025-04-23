@@ -12,10 +12,10 @@ title: ElongatedCircularHollowCoreOpeningProfiles
 
 ???+ bhom "The ElongatedCircularHollowCoreOpeningProfiles in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[BHoMObject](/api_documentation/oM/Framework/Base/BHoMObject)
-    -  Base.[IBHoMObject](/api_documentation/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
-    -  Structure.SurfaceProperties.[IHollowCoreOpeningProfiles](/api_documentation/oM/Analytical/Structure/SurfaceProperties/IHollowCoreOpeningProfiles)
+    -  Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
+    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
+    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  Structure.SurfaceProperties.[IHollowCoreOpeningProfiles](/api/oM/Analytical/Structure/SurfaceProperties/IHollowCoreOpeningProfiles)
 
 
 ## Properties
@@ -28,9 +28,9 @@ The following properties are defined on the class
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| Height | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Total height of the opening. | [Length](/api_documentation/oM/Dimensional/Quantities/Attributes/Length) [m] |
-| Width | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Width of the opening. Will also be the diameter of the circular end bits of the opening. | [Length](/api_documentation/oM/Dimensional/Quantities/Attributes/Length) [m] |
-| Spacing | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Centre-centre distance between openings. | [Length](/api_documentation/oM/Dimensional/Quantities/Attributes/Length) [m] |
+| Height | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Total height of the opening. | [Length](/api/oM/Dimensional/Quantities/Attributes/Length) [m] |
+| Width | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Width of the opening. Will also be the diameter of the circular end bits of the opening. | [Length](/api/oM/Dimensional/Quantities/Attributes/Length) [m] |
+| Spacing | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Centre-centre distance between openings. | [Length](/api/oM/Dimensional/Quantities/Attributes/Length) [m] |
 
 
 ### Inherited properties
@@ -40,7 +40,7 @@ The following properties are inherited from the base class of the object
 |------------------|------------------|------------------|------------------|
 | BHoM_Guid | [Guid](https://learn.microsoft.com/en-us/dotnet/api/System.Guid?view=netstandard-2.0) | - | - |
 | Name | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | - | - |
-| Fragments | [FragmentSet](/api_documentation/oM/Framework/Base/FragmentSet) | - | - |
+| Fragments | [FragmentSet](/api/oM/Framework/Base/FragmentSet) | - | - |
 | Tags | [HashSet](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.HashSet-1?view=netstandard-2.0)&lt;[string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0)&gt; | - | - |
 | CustomData | [Dictionary](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.Dictionary-2?view=netstandard-2.0)&lt;[string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0), [object](https://learn.microsoft.com/en-us/dotnet/api/System.Object?view=netstandard-2.0)&gt; | - | - |
 

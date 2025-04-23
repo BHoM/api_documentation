@@ -12,8 +12,8 @@ title: CollectionData
 
 ???+ bhom "The CollectionData in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  LadybugTools.[ISimulationData](/api_documentation/oM/Adapter/LadybugTools/ISimulationData)
-    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
+    -  LadybugTools.[ISimulationData](/api/oM/Adapter/LadybugTools/ISimulationData)
+    -  Base.[IObject](/api/oM/Framework/Base/IObject)
 
 
 ## Properties

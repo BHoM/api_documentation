@@ -12,17 +12,17 @@ Interface common to all graph projections.
 
 ???+ bhom "The IProjection in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IBHoMObject](/api_documentation/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
+    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
+    -  Base.[IObject](/api/oM/Framework/Base/IObject)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Analytical.Graph.Projection.[GeometricProjection](/api_documentation/oM/Analytical/Analytical/Graph/Projection/GeometricProjection)
-    - Analytical.Graph.Projection.[GraphicalProjection](/api_documentation/oM/Analytical/Analytical/Graph/Projection/GraphicalProjection)
-    - Analytical.Graph.Projection.[SpatialProjection](/api_documentation/oM/Analytical/Analytical/Graph/Projection/SpatialProjection)
+    - Analytical.Graph.Projection.[GeometricProjection](/api/oM/Analytical/Analytical/Graph/Projection/GeometricProjection)
+    - Analytical.Graph.Projection.[GraphicalProjection](/api/oM/Analytical/Analytical/Graph/Projection/GraphicalProjection)
+    - Analytical.Graph.Projection.[SpatialProjection](/api/oM/Analytical/Analytical/Graph/Projection/SpatialProjection)
 
 
 ## Properties

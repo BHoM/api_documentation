@@ -12,17 +12,17 @@ Base interface for foundation objects.
 
 ???+ bhom "The IFoundation in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IBHoMObject](/api_documentation/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
+    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
+    -  Base.[IObject](/api/oM/Framework/Base/IObject)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Structure.Elements.[PadFoundation](/api_documentation/oM/Analytical/Structure/Elements/PadFoundation)
-    - Structure.Elements.[Pile](/api_documentation/oM/Analytical/Structure/Elements/Pile)
-    - Structure.Elements.[PileFoundation](/api_documentation/oM/Analytical/Structure/Elements/PileFoundation)
+    - Structure.Elements.[PadFoundation](/api/oM/Analytical/Structure/Elements/PadFoundation)
+    - Structure.Elements.[Pile](/api/oM/Analytical/Structure/Elements/Pile)
+    - Structure.Elements.[PileFoundation](/api/oM/Analytical/Structure/Elements/PileFoundation)
 
 
 ## Properties

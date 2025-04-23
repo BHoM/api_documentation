@@ -12,17 +12,17 @@ Minimum required area of reinforcement for an AreaElement.
 
 ???+ bhom "The MeshRequiredArea in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Structure.Results.[MeshElementResult](/api_documentation/oM/Analytical/Structure/Results/MeshElementResult)
-    -  Analytical.Results.[IMeshElementResult](/api_documentation/oM/Analytical/Analytical/Results/IMeshElementResult)
-    -  Analytical.Results.[IResult](/api_documentation/oM/Analytical/Analytical/Results/IResult)
-    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
-    -  [IComparable](https://learn.microsoft.com/en-us/dotnet/api/System.IComparable-1?view=netstandard-2.0)&lt;Analytical.Results.[IResult](/api_documentation/oM/Analytical/Analytical/Results/IResult)&gt;
-    -  Base.[IImmutable](/api_documentation/oM/Framework/Base/IImmutable)
-    -  Structure.Results.[IStructuralResult](/api_documentation/oM/Analytical/Structure/Results/IStructuralResult)
-    -  Analytical.Results.[IObjectIdResult](/api_documentation/oM/Analytical/Analytical/Results/IObjectIdResult)
-    -  Analytical.Results.[ICasedResult](/api_documentation/oM/Analytical/Analytical/Results/ICasedResult)
-    -  Analytical.Results.[ITimeStepResult](/api_documentation/oM/Analytical/Analytical/Results/ITimeStepResult)
-    -  Analytical.Results.[IResultItem](/api_documentation/oM/Analytical/Analytical/Results/IResultItem)
+    -  Structure.Results.[MeshElementResult](/api/oM/Analytical/Structure/Results/MeshElementResult)
+    -  Analytical.Results.[IMeshElementResult](/api/oM/Analytical/Analytical/Results/IMeshElementResult)
+    -  Analytical.Results.[IResult](/api/oM/Analytical/Analytical/Results/IResult)
+    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  [IComparable](https://learn.microsoft.com/en-us/dotnet/api/System.IComparable-1?view=netstandard-2.0)&lt;Analytical.Results.[IResult](/api/oM/Analytical/Analytical/Results/IResult)&gt;
+    -  Base.[IImmutable](/api/oM/Framework/Base/IImmutable)
+    -  Structure.Results.[IStructuralResult](/api/oM/Analytical/Structure/Results/IStructuralResult)
+    -  Analytical.Results.[IObjectIdResult](/api/oM/Analytical/Analytical/Results/IObjectIdResult)
+    -  Analytical.Results.[ICasedResult](/api/oM/Analytical/Analytical/Results/ICasedResult)
+    -  Analytical.Results.[ITimeStepResult](/api/oM/Analytical/Analytical/Results/ITimeStepResult)
+    -  Analytical.Results.[IResultItem](/api/oM/Analytical/Analytical/Results/IResultItem)
 
 
 ## Properties
@@ -35,12 +35,12 @@ The following properties are defined on the class
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| TopPrimary | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Minimum required area of reinforcement in the top layer in the local x direction of the Panel. | [AreaPerUnitLength](/api_documentation/oM/Dimensional/Quantities/Attributes/AreaPerUnitLength) [m²/m] |
-| TopSecondary | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Minimum required area of reinforcement in the top layer in the local y direction of the Panel. | [AreaPerUnitLength](/api_documentation/oM/Dimensional/Quantities/Attributes/AreaPerUnitLength) [m²/m] |
-| BottomPrimary | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Minimum required area of reinforcement in the bottom layer in the local x direction of the Panel. | [AreaPerUnitLength](/api_documentation/oM/Dimensional/Quantities/Attributes/AreaPerUnitLength) [m²/m] |
-| BottomSecondary | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Minimum required area of reinforcement in the bottom layer in the local y direction of the Panel. | [AreaPerUnitLength](/api_documentation/oM/Dimensional/Quantities/Attributes/AreaPerUnitLength) [m²/m] |
-| Shear | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Minimum required area of shear reinforcement. | [AreaPerUnitLength](/api_documentation/oM/Dimensional/Quantities/Attributes/AreaPerUnitLength) [m²/m] |
-| Torsion | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Minimum required area of torsion reinforcement. | [AreaPerUnitLength](/api_documentation/oM/Dimensional/Quantities/Attributes/AreaPerUnitLength) [m²/m] |
+| TopPrimary | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Minimum required area of reinforcement in the top layer in the local x direction of the Panel. | [AreaPerUnitLength](/api/oM/Dimensional/Quantities/Attributes/AreaPerUnitLength) [m²/m] |
+| TopSecondary | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Minimum required area of reinforcement in the top layer in the local y direction of the Panel. | [AreaPerUnitLength](/api/oM/Dimensional/Quantities/Attributes/AreaPerUnitLength) [m²/m] |
+| BottomPrimary | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Minimum required area of reinforcement in the bottom layer in the local x direction of the Panel. | [AreaPerUnitLength](/api/oM/Dimensional/Quantities/Attributes/AreaPerUnitLength) [m²/m] |
+| BottomSecondary | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Minimum required area of reinforcement in the bottom layer in the local y direction of the Panel. | [AreaPerUnitLength](/api/oM/Dimensional/Quantities/Attributes/AreaPerUnitLength) [m²/m] |
+| Shear | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Minimum required area of shear reinforcement. | [AreaPerUnitLength](/api/oM/Dimensional/Quantities/Attributes/AreaPerUnitLength) [m²/m] |
+| Torsion | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Minimum required area of torsion reinforcement. | [AreaPerUnitLength](/api/oM/Dimensional/Quantities/Attributes/AreaPerUnitLength) [m²/m] |
 | MaterialName | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | Material name for the reinforcement. | - |
 
 
@@ -55,10 +55,10 @@ The following properties are inherited from the base class of the object
 | ResultCase | [IComparable](https://learn.microsoft.com/en-us/dotnet/api/System.IComparable?view=netstandard-2.0) | Identifier for the Loadcase or LoadCombination that the result belongs to. Is generally name or number of the loadcase, depending on the analysis package. | - |
 | ModeNumber | [int](https://learn.microsoft.com/en-us/dotnet/api/System.Int32?view=netstandard-2.0) | Positive index, starting at one. Only set for cases with modal outputs such as dynamic cases. | - |
 | TimeStep | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Time step for time history results. | - |
-| MeshResultLayer | [MeshResultLayer](/api_documentation/oM/Analytical/Structure/Results/MeshResultLayer) | - | - |
+| MeshResultLayer | [MeshResultLayer](/api/oM/Analytical/Structure/Results/MeshResultLayer) | - | - |
 | LayerPosition | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Position within the element thickness that result is extracted from, normalised to 1. I.e. 0 = lower surface, 0.5 = middle, 1 = top surface. | - |
-| Smoothing | [MeshResultSmoothingType](/api_documentation/oM/Analytical/Structure/Results/MeshResultSmoothingType) | - | - |
-| Orientation | [Basis](/api_documentation/oM/Dimensional/Geometry/Basis) | Vector basis required in order to report results in a particular direction, for example, for anisotropic materials. | - |
+| Smoothing | [MeshResultSmoothingType](/api/oM/Analytical/Structure/Results/MeshResultSmoothingType) | - | - |
+| Orientation | [Basis](/api/oM/Dimensional/Geometry/Basis) | Vector basis required in order to report results in a particular direction, for example, for anisotropic materials. | - |
 
 
 ### Derived properties

@@ -12,9 +12,9 @@ Identifies a general data Resource, whether a File or a Directory or other, that
 
 ???+ bhom "The IFSResource in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Adapters.File.[IResource](/api_documentation/oM/Adapter/Adapters/File/IResource)
-    -  Base.[IBHoMObject](/api_documentation/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
+    -  Adapters.File.[IResource](/api/oM/Adapter/Adapters/File/IResource)
+    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
+    -  Base.[IObject](/api/oM/Framework/Base/IObject)
 
 
 ## Properties

@@ -12,9 +12,9 @@ title: HeatingPeakCondition
 
 ???+ bhom "The HeatingPeakCondition in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  XML.EnergyPlus.[EnergyPlusObject](/api_documentation/oM/Adapter/XML/EnergyPlus/EnergyPlusObject)
-    -  Base.[IBHoMObject](/api_documentation/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
+    -  XML.EnergyPlus.[EnergyPlusObject](/api/oM/Adapter/XML/EnergyPlus/EnergyPlusObject)
+    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
+    -  Base.[IObject](/api/oM/Framework/Base/IObject)
 
 
 ## Properties
@@ -29,15 +29,15 @@ The following properties are defined on the class
 |------------------|------------------|------------------|------------------|
 | Name | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | - | - |
 | TimeOfPeakLoad | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | - | - |
-| OutsideDryBulbTemperature | [OutsideDryBulbTemperature](/api_documentation/oM/Adapter/XML/EnergyPlus/OutsideDryBulbTemperature) | - | - |
-| OutsideWetBulbTemperature | [OutsideWetBulbTemperature](/api_documentation/oM/Adapter/XML/EnergyPlus/OutsideWetBulbTemperature) | - | - |
-| OutsideHumidityRatioAtPeak | [OutsideHumidityRatioAtPeak](/api_documentation/oM/Adapter/XML/EnergyPlus/OutsideHumidityRatioAtPeak) | - | - |
-| ZoneDryBulbTemperature | [ZoneDryBulbTemperature](/api_documentation/oM/Adapter/XML/EnergyPlus/ZoneDryBulbTemperature) | - | - |
-| ZoneRelativeHumdity | [ZoneRelativeHumidity](/api_documentation/oM/Adapter/XML/EnergyPlus/ZoneRelativeHumidity) | - | - |
-| ZoneHumidityRatioAtPeak | [ZoneHumidityRatioAtPeak](/api_documentation/oM/Adapter/XML/EnergyPlus/ZoneHumidityRatioAtPeak) | - | - |
-| PeakDesignSensibleLoad | [PeakDesignSensibleLoad](/api_documentation/oM/Adapter/XML/EnergyPlus/PeakDesignSensibleLoad) | - | - |
-| EstimatedInstantDelayedSensibleLoad | [EstimatedInstantDelayedSensibleLoad](/api_documentation/oM/Adapter/XML/EnergyPlus/EstimatedInstantDelayedSensibleLoad) | - | - |
-| Difference | [Difference](/api_documentation/oM/Adapter/XML/EnergyPlus/Difference) | - | - |
+| OutsideDryBulbTemperature | [OutsideDryBulbTemperature](/api/oM/Adapter/XML/EnergyPlus/OutsideDryBulbTemperature) | - | - |
+| OutsideWetBulbTemperature | [OutsideWetBulbTemperature](/api/oM/Adapter/XML/EnergyPlus/OutsideWetBulbTemperature) | - | - |
+| OutsideHumidityRatioAtPeak | [OutsideHumidityRatioAtPeak](/api/oM/Adapter/XML/EnergyPlus/OutsideHumidityRatioAtPeak) | - | - |
+| ZoneDryBulbTemperature | [ZoneDryBulbTemperature](/api/oM/Adapter/XML/EnergyPlus/ZoneDryBulbTemperature) | - | - |
+| ZoneRelativeHumdity | [ZoneRelativeHumidity](/api/oM/Adapter/XML/EnergyPlus/ZoneRelativeHumidity) | - | - |
+| ZoneHumidityRatioAtPeak | [ZoneHumidityRatioAtPeak](/api/oM/Adapter/XML/EnergyPlus/ZoneHumidityRatioAtPeak) | - | - |
+| PeakDesignSensibleLoad | [PeakDesignSensibleLoad](/api/oM/Adapter/XML/EnergyPlus/PeakDesignSensibleLoad) | - | - |
+| EstimatedInstantDelayedSensibleLoad | [EstimatedInstantDelayedSensibleLoad](/api/oM/Adapter/XML/EnergyPlus/EstimatedInstantDelayedSensibleLoad) | - | - |
+| Difference | [Difference](/api/oM/Adapter/XML/EnergyPlus/Difference) | - | - |
 
 
 ### Inherited properties
@@ -47,7 +47,7 @@ The following properties are inherited from the base class of the object
 |------------------|------------------|------------------|------------------|
 | BHoM_Guid | [Guid](https://learn.microsoft.com/en-us/dotnet/api/System.Guid?view=netstandard-2.0) | - | - |
 | CustomData | [Dictionary](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.Dictionary-2?view=netstandard-2.0)&lt;[string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0), [object](https://learn.microsoft.com/en-us/dotnet/api/System.Object?view=netstandard-2.0)&gt; | - | - |
-| Fragments | [FragmentSet](/api_documentation/oM/Framework/Base/FragmentSet) | - | - |
+| Fragments | [FragmentSet](/api/oM/Framework/Base/FragmentSet) | - | - |
 | Tags | [HashSet](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.HashSet-1?view=netstandard-2.0)&lt;[string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0)&gt; | - | - |
 
 

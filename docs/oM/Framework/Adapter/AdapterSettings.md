@@ -12,16 +12,16 @@ General settings for any Adapter, to be specified when instantiating the Adapter
 
 ???+ bhom "The AdapterSettings in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
+    -  Base.[IObject](/api/oM/Framework/Base/IObject)
 
 
 ### Classes inheriting from this class
 
 ???+ bhom "The following classes are inheriting from this class:"
 
-    - Adapters.AGS.[AGSSettings](/api_documentation/oM/Adapter/Adapters/AGS/AGSSettings)
-    - Adapters.Lusas.[LusasSettings](/api_documentation/oM/Adapter/Adapters/Lusas/LusasSettings)
-    - Adapters.MidasCivil.[MidasCivilSettings](/api_documentation/oM/Adapter/Adapters/MidasCivil/MidasCivilSettings)
+    - Adapters.AGS.[AGSSettings](/api/oM/Adapter/Adapters/AGS/AGSSettings)
+    - Adapters.Lusas.[LusasSettings](/api/oM/Adapter/Adapters/Lusas/LusasSettings)
+    - Adapters.MidasCivil.[MidasCivilSettings](/api/oM/Adapter/Adapters/MidasCivil/MidasCivilSettings)
 
 
 ## Properties
@@ -35,9 +35,9 @@ The following properties are defined on the class
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
 | WrapNonBHoMObjects | [bool](https://learn.microsoft.com/en-us/dotnet/api/System.Boolean?view=netstandard-2.0) | If your Toolkit needs support for non-BHoM objects, set this to true. | - |
-| DefaultPushType | [PushType](/api_documentation/oM/Framework/Adapter/PushType) | If your Toolkit does not support the Full Push (FullCRUD method), you can select another behaviour here (e.g. CreateOnly). | - |
+| DefaultPushType | [PushType](/api/oM/Framework/Adapter/PushType) | If your Toolkit does not support the Full Push (FullCRUD method), you can select another behaviour here (e.g. CreateOnly). | - |
 | CloneBeforePush | [bool](https://learn.microsoft.com/en-us/dotnet/api/System.Boolean?view=netstandard-2.0) | Deep clones the objects before Pushing them.As the objects get modified during the Push (e.g. their externalId is added to them),this avoids backpropagation in visual programming environments like Grasshopper. | - |
-| DefaultPullType | [PullType](/api_documentation/oM/Framework/Adapter/PullType) | - | - |
+| DefaultPullType | [PullType](/api/oM/Framework/Adapter/PullType) | - | - |
 | HandleDependencies | [bool](https://learn.microsoft.com/en-us/dotnet/api/System.Boolean?view=netstandard-2.0) | If your adapter does not define DependencyTypes, this can be set to false for performance. | - |
 | HandlePriorities | [bool](https://learn.microsoft.com/en-us/dotnet/api/System.Boolean?view=netstandard-2.0) | - | - |
 | UseAdapterId | [bool](https://learn.microsoft.com/en-us/dotnet/api/System.Boolean?view=netstandard-2.0) | - | - |

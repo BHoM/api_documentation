@@ -12,25 +12,25 @@ Base interface for mesh element results. This is the result for a single discret
 
 ???+ bhom "The IMeshElementResult in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Analytical.Results.[IResult](/api_documentation/oM/Analytical/Analytical/Results/IResult)
-    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
-    -  [IComparable](https://learn.microsoft.com/en-us/dotnet/api/System.IComparable-1?view=netstandard-2.0)&lt;Analytical.Results.[IResult](/api_documentation/oM/Analytical/Analytical/Results/IResult)&gt;
-    -  Base.[IImmutable](/api_documentation/oM/Framework/Base/IImmutable)
+    -  Analytical.Results.[IResult](/api/oM/Analytical/Analytical/Results/IResult)
+    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  [IComparable](https://learn.microsoft.com/en-us/dotnet/api/System.IComparable-1?view=netstandard-2.0)&lt;Analytical.Results.[IResult](/api/oM/Analytical/Analytical/Results/IResult)&gt;
+    -  Base.[IImmutable](/api/oM/Framework/Base/IImmutable)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Lighting.Results.Mesh.[MeshElementResult](/api_documentation/oM/Analytical/Lighting/Results/Mesh/MeshElementResult)
-    - Lighting.Results.Illuminance.[Lux](/api_documentation/oM/Analytical/Lighting/Results/Illuminance/Lux)
-    - Structure.Results.[MeshDisplacement](/api_documentation/oM/Analytical/Structure/Results/MeshDisplacement)
-    - Structure.Results.[MeshElementResult](/api_documentation/oM/Analytical/Structure/Results/MeshElementResult)
-    - Structure.Results.[MeshForce](/api_documentation/oM/Analytical/Structure/Results/MeshForce)
-    - Structure.Results.[MeshModeShape](/api_documentation/oM/Analytical/Structure/Results/MeshModeShape)
-    - Structure.Results.[MeshRequiredArea](/api_documentation/oM/Analytical/Structure/Results/MeshRequiredArea)
-    - Structure.Results.[MeshStress](/api_documentation/oM/Analytical/Structure/Results/MeshStress)
-    - Structure.Results.[MeshVonMises](/api_documentation/oM/Analytical/Structure/Results/MeshVonMises)
+    - Lighting.Results.Mesh.[MeshElementResult](/api/oM/Analytical/Lighting/Results/Mesh/MeshElementResult)
+    - Lighting.Results.Illuminance.[Lux](/api/oM/Analytical/Lighting/Results/Illuminance/Lux)
+    - Structure.Results.[MeshDisplacement](/api/oM/Analytical/Structure/Results/MeshDisplacement)
+    - Structure.Results.[MeshElementResult](/api/oM/Analytical/Structure/Results/MeshElementResult)
+    - Structure.Results.[MeshForce](/api/oM/Analytical/Structure/Results/MeshForce)
+    - Structure.Results.[MeshModeShape](/api/oM/Analytical/Structure/Results/MeshModeShape)
+    - Structure.Results.[MeshRequiredArea](/api/oM/Analytical/Structure/Results/MeshRequiredArea)
+    - Structure.Results.[MeshStress](/api/oM/Analytical/Structure/Results/MeshStress)
+    - Structure.Results.[MeshVonMises](/api/oM/Analytical/Structure/Results/MeshVonMises)
 
 
 ## Properties

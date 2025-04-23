@@ -12,8 +12,8 @@ Config object containing settings for reporting results of checks against formul
 
 ???+ bhom "The FormulaConditionReportingConfig in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Verification.Reporting.[IConditionReportingConfig](/api_documentation/oM/Framework/Verification/Reporting/IConditionReportingConfig)
-    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
+    -  Verification.Reporting.[IConditionReportingConfig](/api/oM/Framework/Verification/Reporting/IConditionReportingConfig)
+    -  Base.[IObject](/api/oM/Framework/Base/IObject)
 
 
 ## Properties
@@ -26,7 +26,7 @@ The following properties are defined on the class
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| ComponentConfigs | [Dictionary](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.Dictionary-2?view=netstandard-2.0)&lt;[string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0), [IValueConditionReportingConfig](/api_documentation/oM/Framework/Verification/Reporting/IValueConditionReportingConfig)&gt; | Dictionary of reporting configs (values) bound to the components, which values they are meant to format (keys). | - |
+| ComponentConfigs | [Dictionary](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.Dictionary-2?view=netstandard-2.0)&lt;[string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0), [IValueConditionReportingConfig](/api/oM/Framework/Verification/Reporting/IValueConditionReportingConfig)&gt; | Dictionary of reporting configs (values) bound to the components, which values they are meant to format (keys). | - |
 
 
 ## Code and Schema

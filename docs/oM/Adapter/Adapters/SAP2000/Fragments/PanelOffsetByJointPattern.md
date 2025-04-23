@@ -12,9 +12,9 @@ title: PanelOffsetByJointPattern
 
 ???+ bhom "The PanelOffsetByJointPattern in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Adapters.SAP2000.Fragments.[IPanelOffset](/api_documentation/oM/Adapter/Adapters/SAP2000/Fragments/IPanelOffset)
-    -  Base.[IFragment](/api_documentation/oM/Framework/Base/IFragment)
-    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
+    -  Adapters.SAP2000.Fragments.[IPanelOffset](/api/oM/Adapter/Adapters/SAP2000/Fragments/IPanelOffset)
+    -  Base.[IFragment](/api/oM/Framework/Base/IFragment)
+    -  Base.[IObject](/api/oM/Framework/Base/IObject)
 
 
 ## Properties
@@ -28,7 +28,7 @@ The following properties are defined on the class
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
 | OffsetPattern | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | This is the name of the defined joint pattern that is used to calculate the joint offsets. | - |
-| OffsetPatternSF | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | This is the scale factor applied to the joint pattern when calculating the joint offsets. | [Length](/api_documentation/oM/Dimensional/Quantities/Attributes/Length) [m] |
+| OffsetPatternSF | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | This is the scale factor applied to the joint pattern when calculating the joint offsets. | [Length](/api/oM/Dimensional/Quantities/Attributes/Length) [m] |
 
 
 ## Code and Schema

@@ -12,8 +12,8 @@ title: SearchSettings
 
 ???+ bhom "The SearchSettings in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[ISettings](/api_documentation/oM/Framework/Base/ISettings)
-    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
+    -  Base.[ISettings](/api/oM/Framework/Base/ISettings)
+    -  Base.[IObject](/api/oM/Framework/Base/IObject)
 
 
 ## Properties
@@ -26,7 +26,7 @@ The following properties are defined on the class
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| Toolkits | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[ToolkitSelectItem](/api_documentation/oM/UI/UI/ToolkitSelectItem)&gt; | - | - |
+| Toolkits | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[ToolkitSelectItem](/api/oM/UI/UI/ToolkitSelectItem)&gt; | - | - |
 
 
 ## Code and Schema

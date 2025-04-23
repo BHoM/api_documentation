@@ -12,8 +12,8 @@ title: Head
 
 ???+ bhom "The Head in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Humans.Interfaces.[IPointBodyPart](/api_documentation/oM/Physical/Humans/Interfaces/IPointBodyPart)
-    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
+    -  Humans.Interfaces.[IPointBodyPart](/api/oM/Physical/Humans/Interfaces/IPointBodyPart)
+    -  Base.[IObject](/api/oM/Framework/Base/IObject)
 
 
 ## Properties
@@ -26,8 +26,8 @@ The following properties are defined on the class
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| TrackingPoint | [Point](/api_documentation/oM/Dimensional/Geometry/Point) | - | - |
-| PairOfEyes | [PairOfEyes](/api_documentation/oM/Physical/Humans/BodyParts/PairOfEyes) | - | - |
+| TrackingPoint | [Point](/api/oM/Dimensional/Geometry/Point) | - | - |
+| PairOfEyes | [PairOfEyes](/api/oM/Physical/Humans/BodyParts/PairOfEyes) | - | - |
 
 
 ## Code and Schema

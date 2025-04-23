@@ -12,17 +12,17 @@ title: IFlowSectionProperty
 
 ???+ bhom "The IFlowSectionProperty in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IBHoMObject](/api_documentation/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
+    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
+    -  Base.[IObject](/api/oM/Framework/Base/IObject)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - MEP.System.SectionProperties.[DuctSectionProperty](/api_documentation/oM/Analytical/MEP/System/SectionProperties/DuctSectionProperty)
-    - MEP.System.SectionProperties.[PipeSectionProperty](/api_documentation/oM/Analytical/MEP/System/SectionProperties/PipeSectionProperty)
-    - MEP.System.SectionProperties.[WireSectionProperty](/api_documentation/oM/Analytical/MEP/System/SectionProperties/WireSectionProperty)
+    - MEP.System.SectionProperties.[DuctSectionProperty](/api/oM/Analytical/MEP/System/SectionProperties/DuctSectionProperty)
+    - MEP.System.SectionProperties.[PipeSectionProperty](/api/oM/Analytical/MEP/System/SectionProperties/PipeSectionProperty)
+    - MEP.System.SectionProperties.[WireSectionProperty](/api/oM/Analytical/MEP/System/SectionProperties/WireSectionProperty)
 
 
 ## Properties

@@ -12,8 +12,8 @@ The reinforcement density of an element and its material.
 
 ???+ bhom "The ReinforcementDensity in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IFragment](/api_documentation/oM/Framework/Base/IFragment)
-    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
+    -  Base.[IFragment](/api/oM/Framework/Base/IFragment)
+    -  Base.[IObject](/api/oM/Framework/Base/IObject)
 
 
 ## Properties
@@ -26,8 +26,8 @@ The following properties are defined on the class
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| Density | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | The mass of reinforcement per unit volume of the element that owns this fragment. | [Density](/api_documentation/oM/Dimensional/Quantities/Attributes/Density) [kg/m³] |
-| Material | [IMaterialFragment](/api_documentation/oM/Analytical/Structure/MaterialFragments/IMaterialFragment) | Homogeneous material of the reinforcement. | - |
+| Density | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | The mass of reinforcement per unit volume of the element that owns this fragment. | [Density](/api/oM/Dimensional/Quantities/Attributes/Density) [kg/m³] |
+| Material | [IMaterialFragment](/api/oM/Analytical/Structure/MaterialFragments/IMaterialFragment) | Homogeneous material of the reinforcement. | - |
 
 
 ### Derived properties

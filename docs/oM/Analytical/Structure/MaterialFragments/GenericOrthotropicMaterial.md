@@ -12,15 +12,15 @@ Generic orthotropic material to be used for orthotropic materials not yet explic
 
 ???+ bhom "The GenericOrthotropicMaterial in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[BHoMObject](/api_documentation/oM/Framework/Base/BHoMObject)
-    -  Base.[IBHoMObject](/api_documentation/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
-    -  Structure.MaterialFragments.[IOrthotropic](/api_documentation/oM/Analytical/Structure/MaterialFragments/IOrthotropic)
-    -  Structure.MaterialFragments.[IMaterialFragment](/api_documentation/oM/Analytical/Structure/MaterialFragments/IMaterialFragment)
-    -  Base.[IFragment](/api_documentation/oM/Framework/Base/IFragment)
-    -  Physical.Materials.[IMaterialProperties](/api_documentation/oM/Physical/Physical/Materials/IMaterialProperties)
-    -  Structure.[IProperty](/api_documentation/oM/Analytical/Structure/IProperty)
-    -  Physical.Materials.[IDensityProvider](/api_documentation/oM/Physical/Physical/Materials/IDensityProvider)
+    -  Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
+    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
+    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  Structure.MaterialFragments.[IOrthotropic](/api/oM/Analytical/Structure/MaterialFragments/IOrthotropic)
+    -  Structure.MaterialFragments.[IMaterialFragment](/api/oM/Analytical/Structure/MaterialFragments/IMaterialFragment)
+    -  Base.[IFragment](/api/oM/Framework/Base/IFragment)
+    -  Physical.Materials.[IMaterialProperties](/api/oM/Physical/Physical/Materials/IMaterialProperties)
+    -  Structure.[IProperty](/api/oM/Analytical/Structure/IProperty)
+    -  Physical.Materials.[IDensityProvider](/api/oM/Physical/Physical/Materials/IDensityProvider)
 
 
 ## Properties
@@ -34,12 +34,12 @@ The following properties are defined on the class
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
 | Name | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | A unique Name is required for some structural packages to create and identify the object. | - |
-| Density | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | - | [Density](/api_documentation/oM/Dimensional/Quantities/Attributes/Density) [kg/m³] |
-| DampingRatio | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Dynamic damping ratio, expressed as a ratio between actual damping and critical damping. For structures, typically taken as 0.02 (i.e. 2%). | [Ratio](/api_documentation/oM/Dimensional/Quantities/Attributes/Ratio) [-] |
-| YoungsModulus | [Vector](/api_documentation/oM/Dimensional/Geometry/Vector) | Modulus of elasticity of the material. Ratio between axial stress and axial strain. | [YoungsModulus](/api_documentation/oM/Dimensional/Quantities/Attributes/YoungsModulus) [Pa] |
-| PoissonsRatio | [Vector](/api_documentation/oM/Dimensional/Geometry/Vector) | Ratio between axial and transverse strain. | [Ratio](/api_documentation/oM/Dimensional/Quantities/Attributes/Ratio) [-] |
-| ThermalExpansionCoeff | [Vector](/api_documentation/oM/Dimensional/Geometry/Vector) | The strain induced in the material per unit change of temperature. | [ThermalExpansionCoefficient](/api_documentation/oM/Dimensional/Quantities/Attributes/ThermalExpansionCoefficient) [1/K] |
-| ShearModulus | [Vector](/api_documentation/oM/Dimensional/Geometry/Vector) | The shear modulus or modulus of rigidity. Defined as the ratio between shear stress and shear strain. | [ShearModulus](/api_documentation/oM/Dimensional/Quantities/Attributes/ShearModulus) [Pa] |
+| Density | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | - | [Density](/api/oM/Dimensional/Quantities/Attributes/Density) [kg/m³] |
+| DampingRatio | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Dynamic damping ratio, expressed as a ratio between actual damping and critical damping. For structures, typically taken as 0.02 (i.e. 2%). | [Ratio](/api/oM/Dimensional/Quantities/Attributes/Ratio) [-] |
+| YoungsModulus | [Vector](/api/oM/Dimensional/Geometry/Vector) | Modulus of elasticity of the material. Ratio between axial stress and axial strain. | [YoungsModulus](/api/oM/Dimensional/Quantities/Attributes/YoungsModulus) [Pa] |
+| PoissonsRatio | [Vector](/api/oM/Dimensional/Geometry/Vector) | Ratio between axial and transverse strain. | [Ratio](/api/oM/Dimensional/Quantities/Attributes/Ratio) [-] |
+| ThermalExpansionCoeff | [Vector](/api/oM/Dimensional/Geometry/Vector) | The strain induced in the material per unit change of temperature. | [ThermalExpansionCoefficient](/api/oM/Dimensional/Quantities/Attributes/ThermalExpansionCoefficient) [1/K] |
+| ShearModulus | [Vector](/api/oM/Dimensional/Geometry/Vector) | The shear modulus or modulus of rigidity. Defined as the ratio between shear stress and shear strain. | [ShearModulus](/api/oM/Dimensional/Quantities/Attributes/ShearModulus) [Pa] |
 
 
 ### Inherited properties
@@ -48,7 +48,7 @@ The following properties are inherited from the base class of the object
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
 | BHoM_Guid | [Guid](https://learn.microsoft.com/en-us/dotnet/api/System.Guid?view=netstandard-2.0) | - | - |
-| Fragments | [FragmentSet](/api_documentation/oM/Framework/Base/FragmentSet) | - | - |
+| Fragments | [FragmentSet](/api/oM/Framework/Base/FragmentSet) | - | - |
 | Tags | [HashSet](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.HashSet-1?view=netstandard-2.0)&lt;[string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0)&gt; | - | - |
 | CustomData | [Dictionary](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.Dictionary-2?view=netstandard-2.0)&lt;[string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0), [object](https://learn.microsoft.com/en-us/dotnet/api/System.Object?view=netstandard-2.0)&gt; | - | - |
 
@@ -62,9 +62,9 @@ The following properties are defined as extension methods in one of the BHoM_Eng
 | Description | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | Generates a default description for the material based on its properties. | - | Structure_Engine |
 | DescriptionOrName | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | Gets the name from a IProperty. If null or empty, a default description name is provided instead. | - | Structure_Engine |
 | IDescription | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | Generates a default description for the IProperty, based on its properties. | - | Structure_Engine |
-| IMaterialType | [MaterialType](/api_documentation/oM/Analytical/Structure/MaterialFragments/MaterialType) | Gets the material type from the MaterialFragment. | - | Structure_Engine |
+| IMaterialType | [MaterialType](/api/oM/Analytical/Structure/MaterialFragments/MaterialType) | Gets the material type from the MaterialFragment. | - | Structure_Engine |
 | IsNull | [bool](https://learn.microsoft.com/en-us/dotnet/api/System.Boolean?view=netstandard-2.0) | Checks if a MaterialFragment is null and outputs relevant error message. | - | Structure_Engine |
-| MaterialType | [MaterialType](/api_documentation/oM/Analytical/Structure/MaterialFragments/MaterialType) | Gets the material type from the MaterialFragment. For a GenericOrthotropicMaterial material this will always return type Undefined. | - | Structure_Engine |
+| MaterialType | [MaterialType](/api/oM/Analytical/Structure/MaterialFragments/MaterialType) | Gets the material type from the MaterialFragment. For a GenericOrthotropicMaterial material this will always return type Undefined. | - | Structure_Engine |
 
 
 ## Code and Schema

@@ -12,22 +12,22 @@ A results object containing temperature data.
 
 ???+ bhom "The ITemperatureResult in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IBHoMObject](/api_documentation/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
-    -  Environment.Results.[IAnalysisResult](/api_documentation/oM/Analytical/Environment/Results/IAnalysisResult)
+    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
+    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  Environment.Results.[IAnalysisResult](/api/oM/Analytical/Environment/Results/IAnalysisResult)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Environment.Results.[DewPointTemperatureResult](/api_documentation/oM/Analytical/Environment/Results/DewPointTemperatureResult)
-    - Environment.Results.[DryBulbTemperatureResult](/api_documentation/oM/Analytical/Environment/Results/DryBulbTemperatureResult)
-    - Environment.Results.[MeanRadiantTemperatureResult](/api_documentation/oM/Analytical/Environment/Results/MeanRadiantTemperatureResult)
-    - Environment.Results.[SkyTemperatureResult](/api_documentation/oM/Analytical/Environment/Results/SkyTemperatureResult)
-    - Environment.Results.[SurfaceTemperatureResult](/api_documentation/oM/Analytical/Environment/Results/SurfaceTemperatureResult)
-    - Environment.Results.[UniversalThermalClimateIndexResult](/api_documentation/oM/Analytical/Environment/Results/UniversalThermalClimateIndexResult)
-    - Environment.Results.[WetBulbTemperatureResult](/api_documentation/oM/Analytical/Environment/Results/WetBulbTemperatureResult)
+    - Environment.Results.[DewPointTemperatureResult](/api/oM/Analytical/Environment/Results/DewPointTemperatureResult)
+    - Environment.Results.[DryBulbTemperatureResult](/api/oM/Analytical/Environment/Results/DryBulbTemperatureResult)
+    - Environment.Results.[MeanRadiantTemperatureResult](/api/oM/Analytical/Environment/Results/MeanRadiantTemperatureResult)
+    - Environment.Results.[SkyTemperatureResult](/api/oM/Analytical/Environment/Results/SkyTemperatureResult)
+    - Environment.Results.[SurfaceTemperatureResult](/api/oM/Analytical/Environment/Results/SurfaceTemperatureResult)
+    - Environment.Results.[UniversalThermalClimateIndexResult](/api/oM/Analytical/Environment/Results/UniversalThermalClimateIndexResult)
+    - Environment.Results.[WetBulbTemperatureResult](/api/oM/Analytical/Environment/Results/WetBulbTemperatureResult)
 
 
 ## Properties

@@ -12,14 +12,14 @@ title: Avalue
 
 ???+ bhom "The Avalue in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Humans.ViewQuality.[ViewQualityResult](/api_documentation/oM/Physical/Humans/ViewQuality/ViewQualityResult)
-    -  Analytical.Results.[IObjectIdResult](/api_documentation/oM/Analytical/Analytical/Results/IObjectIdResult)
-    -  Analytical.Results.[IResult](/api_documentation/oM/Analytical/Analytical/Results/IResult)
-    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
-    -  [IComparable](https://learn.microsoft.com/en-us/dotnet/api/System.IComparable-1?view=netstandard-2.0)&lt;Analytical.Results.[IResult](/api_documentation/oM/Analytical/Analytical/Results/IResult)&gt;
-    -  Base.[IImmutable](/api_documentation/oM/Framework/Base/IImmutable)
-    -  Analytical.Results.[ICasedResult](/api_documentation/oM/Analytical/Analytical/Results/ICasedResult)
-    -  Analytical.Results.[ITimeStepResult](/api_documentation/oM/Analytical/Analytical/Results/ITimeStepResult)
+    -  Humans.ViewQuality.[ViewQualityResult](/api/oM/Physical/Humans/ViewQuality/ViewQualityResult)
+    -  Analytical.Results.[IObjectIdResult](/api/oM/Analytical/Analytical/Results/IObjectIdResult)
+    -  Analytical.Results.[IResult](/api/oM/Analytical/Analytical/Results/IResult)
+    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  [IComparable](https://learn.microsoft.com/en-us/dotnet/api/System.IComparable-1?view=netstandard-2.0)&lt;Analytical.Results.[IResult](/api/oM/Analytical/Analytical/Results/IResult)&gt;
+    -  Base.[IImmutable](/api/oM/Framework/Base/IImmutable)
+    -  Analytical.Results.[ICasedResult](/api/oM/Analytical/Analytical/Results/ICasedResult)
+    -  Analytical.Results.[ITimeStepResult](/api/oM/Analytical/Analytical/Results/ITimeStepResult)
 
 
 ## Properties
@@ -34,11 +34,11 @@ The following properties are defined on the class
 |------------------|------------------|------------------|------------------|
 | AValue | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Percentage of the cone of vision occupied by the clipped activity area. | - |
 | Occulsion | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Percentage of the cone of vision occupied by heads occluding the activity area. | - |
-| FullActivityArea | [Polyline](/api_documentation/oM/Dimensional/Geometry/Polyline) | Activity area projected to the spectator's viewing plane. | - |
-| ClippedActivityArea | [Polyline](/api_documentation/oM/Dimensional/Geometry/Polyline) | Resulting Polyline after clipping the full activity area with the cone of vision. | - |
-| ConeOfVision | [Polyline](/api_documentation/oM/Dimensional/Geometry/Polyline) | Effective cone of vision orientated to the spectator. | - |
-| ReferencePoint | [Point](/api_documentation/oM/Dimensional/Geometry/Point) | Point representing the spectator's singular eye reference. | - |
-| OccludingHeads | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[Polyline](/api_documentation/oM/Dimensional/Geometry/Polyline)&gt; | Polylines of the spectator heads occluding the view of the activity area. | - |
+| FullActivityArea | [Polyline](/api/oM/Dimensional/Geometry/Polyline) | Activity area projected to the spectator's viewing plane. | - |
+| ClippedActivityArea | [Polyline](/api/oM/Dimensional/Geometry/Polyline) | Resulting Polyline after clipping the full activity area with the cone of vision. | - |
+| ConeOfVision | [Polyline](/api/oM/Dimensional/Geometry/Polyline) | Effective cone of vision orientated to the spectator. | - |
+| ReferencePoint | [Point](/api/oM/Dimensional/Geometry/Point) | Point representing the spectator's singular eye reference. | - |
+| OccludingHeads | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[Polyline](/api/oM/Dimensional/Geometry/Polyline)&gt; | Polylines of the spectator heads occluding the view of the activity area. | - |
 
 
 ### Inherited properties

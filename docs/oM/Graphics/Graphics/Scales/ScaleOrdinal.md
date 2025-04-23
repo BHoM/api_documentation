@@ -12,8 +12,8 @@ Scale for mapping from a discrete input domain to a discrete output range.
 
 ???+ bhom "The ScaleOrdinal in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Graphics.Scales.[IScale](/api_documentation/oM/Graphics/Graphics/Scales/IScale)
-    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
+    -  Graphics.Scales.[IScale](/api/oM/Graphics/Graphics/Scales/IScale)
+    -  Base.[IObject](/api/oM/Framework/Base/IObject)
 
 
 ## Properties

@@ -12,18 +12,18 @@ Base interface for all 2D layouts
 
 ???+ bhom "The ILayout2D in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IBHoMObject](/api_documentation/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
+    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
+    -  Base.[IObject](/api/oM/Framework/Base/IObject)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Spatial.Layouts.[ExplicitLayout](/api_documentation/oM/Dimensional/Spatial/Layouts/ExplicitLayout)
-    - Spatial.Layouts.[LinearLayout](/api_documentation/oM/Dimensional/Spatial/Layouts/LinearLayout)
-    - Spatial.Layouts.[MultiLinearLayout](/api_documentation/oM/Dimensional/Spatial/Layouts/MultiLinearLayout)
-    - Spatial.Layouts.[PerimeterLayout](/api_documentation/oM/Dimensional/Spatial/Layouts/PerimeterLayout)
+    - Spatial.Layouts.[ExplicitLayout](/api/oM/Dimensional/Spatial/Layouts/ExplicitLayout)
+    - Spatial.Layouts.[LinearLayout](/api/oM/Dimensional/Spatial/Layouts/LinearLayout)
+    - Spatial.Layouts.[MultiLinearLayout](/api/oM/Dimensional/Spatial/Layouts/MultiLinearLayout)
+    - Spatial.Layouts.[PerimeterLayout](/api/oM/Dimensional/Spatial/Layouts/PerimeterLayout)
 
 
 ## Properties

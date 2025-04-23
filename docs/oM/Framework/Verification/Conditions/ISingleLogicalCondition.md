@@ -12,16 +12,16 @@ Interface for logical conditions consisting of a single nested condition (e.g. N
 
 ???+ bhom "The ISingleLogicalCondition in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Verification.Conditions.[ILogicalCondition](/api_documentation/oM/Framework/Verification/Conditions/ILogicalCondition)
-    -  Verification.Conditions.[ICondition](/api_documentation/oM/Framework/Verification/Conditions/ICondition)
-    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
+    -  Verification.Conditions.[ILogicalCondition](/api/oM/Framework/Verification/Conditions/ILogicalCondition)
+    -  Verification.Conditions.[ICondition](/api/oM/Framework/Verification/Conditions/ICondition)
+    -  Base.[IObject](/api/oM/Framework/Base/IObject)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Verification.Conditions.[LogicalNotCondition](/api_documentation/oM/Framework/Verification/Conditions/LogicalNotCondition)
+    - Verification.Conditions.[LogicalNotCondition](/api/oM/Framework/Verification/Conditions/LogicalNotCondition)
 
 
 ## Properties
@@ -34,7 +34,7 @@ The following properties are defined on the interface
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| Condition | [ICondition](/api_documentation/oM/Framework/Verification/Conditions/ICondition) | Nested condition to be wrapped in the ISingleLogicalCondition. | - |
+| Condition | [ICondition](/api/oM/Framework/Verification/Conditions/ICondition) | Nested condition to be wrapped in the ISingleLogicalCondition. | - |
 
 
 ### Derived properties
@@ -43,8 +43,8 @@ The following properties are defined as extension methods in one of the BHoM_Eng
 
 | Name             | Type             | Description      | Quantity         | Engine           |
 |------------------|------------------|------------------|------------------|------------------|
-| INestedConditions | [IEnumerable](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IEnumerable-1?view=netstandard-2.0)&lt;[ICondition](/api_documentation/oM/Framework/Verification/Conditions/ICondition)&gt; | Extracts the conditions nested inside a given condition, e.g. conditions nested inside logical conditions. | - | Verification_Engine |
-| NestedConditions | [IEnumerable](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IEnumerable-1?view=netstandard-2.0)&lt;[ICondition](/api_documentation/oM/Framework/Verification/Conditions/ICondition)&gt; | Extracts the conditions nested inside a given logical condition. | - | Verification_Engine |
+| INestedConditions | [IEnumerable](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IEnumerable-1?view=netstandard-2.0)&lt;[ICondition](/api/oM/Framework/Verification/Conditions/ICondition)&gt; | Extracts the conditions nested inside a given condition, e.g. conditions nested inside logical conditions. | - | Verification_Engine |
+| NestedConditions | [IEnumerable](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IEnumerable-1?view=netstandard-2.0)&lt;[ICondition](/api/oM/Framework/Verification/Conditions/ICondition)&gt; | Extracts the conditions nested inside a given logical condition. | - | Verification_Engine |
 
 
 ## Code and Schema

@@ -12,15 +12,15 @@ title: ITypeStrongRequest
 
 ???+ bhom "The ITypeStrongRequest in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
+    -  Base.[IObject](/api/oM/Framework/Base/IObject)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Adapters.SQL.[CustomRequest](/api_documentation/oM/Adapter/Adapters/SQL/CustomRequest)
-    - Adapters.SQL.[TableRequest](/api_documentation/oM/Adapter/Adapters/SQL/TableRequest)
+    - Adapters.SQL.[CustomRequest](/api/oM/Adapter/Adapters/SQL/CustomRequest)
+    - Adapters.SQL.[TableRequest](/api/oM/Adapter/Adapters/SQL/TableRequest)
 
 
 ## Properties

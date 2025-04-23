@@ -12,16 +12,16 @@ An interface for classes defining the relationship between property names of an 
 
 ???+ bhom "The IParameterLink in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IBHoMObject](/api_documentation/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
+    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
+    -  Base.[IObject](/api/oM/Framework/Base/IObject)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Adapters.Revit.Mapping.[ElementParameterLink](/api_documentation/oM/Adapter/Adapters/Revit/Mapping/ElementParameterLink)
-    - Adapters.Revit.Mapping.[ElementTypeParameterLink](/api_documentation/oM/Adapter/Adapters/Revit/Mapping/ElementTypeParameterLink)
+    - Adapters.Revit.Mapping.[ElementParameterLink](/api/oM/Adapter/Adapters/Revit/Mapping/ElementParameterLink)
+    - Adapters.Revit.Mapping.[ElementTypeParameterLink](/api/oM/Adapter/Adapters/Revit/Mapping/ElementTypeParameterLink)
 
 
 ## Properties

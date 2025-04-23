@@ -12,16 +12,16 @@ Toolkit Settings that need to be saved permanently.
 
 ???+ bhom "The ISettings in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
+    -  Base.[IObject](/api/oM/Framework/Base/IObject)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Data.Library.[LibrarySettings](/api_documentation/oM/Framework/Data/Library/LibrarySettings)
-    - Grasshopper.[UISettings](/api_documentation/oM/UI/Grasshopper/UISettings)
-    - UI.[SearchSettings](/api_documentation/oM/UI/UI/SearchSettings)
+    - Data.Library.[LibrarySettings](/api/oM/Framework/Data/Library/LibrarySettings)
+    - Grasshopper.[UISettings](/api/oM/UI/Grasshopper/UISettings)
+    - UI.[SearchSettings](/api/oM/UI/UI/SearchSettings)
 
 
 ## Properties

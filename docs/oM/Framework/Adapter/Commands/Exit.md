@@ -12,8 +12,8 @@ Used to instruct the adapter to exit the software. The adapter will generally no
 
 ???+ bhom "The Exit in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Adapter.[IExecuteCommand](/api_documentation/oM/Framework/Adapter/IExecuteCommand)
-    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
+    -  Adapter.[IExecuteCommand](/api/oM/Framework/Adapter/IExecuteCommand)
+    -  Base.[IObject](/api/oM/Framework/Base/IObject)
 
 
 ## Properties

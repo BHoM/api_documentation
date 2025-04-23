@@ -12,9 +12,9 @@ Condition that verifies if a value extracted from an object is within a certain 
 
 ???+ bhom "The IsInDomain in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Verification.Conditions.[IValueCondition](/api_documentation/oM/Framework/Verification/Conditions/IValueCondition)
-    -  Verification.Conditions.[ICondition](/api_documentation/oM/Framework/Verification/Conditions/ICondition)
-    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
+    -  Verification.Conditions.[IValueCondition](/api/oM/Framework/Verification/Conditions/IValueCondition)
+    -  Verification.Conditions.[ICondition](/api/oM/Framework/Verification/Conditions/ICondition)
+    -  Base.[IObject](/api/oM/Framework/Base/IObject)
 
 
 ## Properties
@@ -27,8 +27,8 @@ The following properties are defined on the class
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| ValueSource | [IValueSource](/api_documentation/oM/Framework/Verification/Conditions/IValueSource) | Object defining the source of a value to evaluate. | - |
-| Domain | [Domain](/api_documentation/oM/Framework/Data/Collections/Domain) | Reference value that the extracted value is compared to. | - |
+| ValueSource | [IValueSource](/api/oM/Framework/Verification/Conditions/IValueSource) | Object defining the source of a value to evaluate. | - |
+| Domain | [Domain](/api/oM/Framework/Data/Collections/Domain) | Reference value that the extracted value is compared to. | - |
 | Tolerance | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | If applicable, tolerance to be applied in the comparison. | - |
 
 
@@ -38,7 +38,7 @@ The following properties are defined as extension methods in one of the BHoM_Eng
 
 | Name             | Type             | Description      | Quantity         | Engine           |
 |------------------|------------------|------------------|------------------|------------------|
-| INestedConditions | [IEnumerable](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IEnumerable-1?view=netstandard-2.0)&lt;[ICondition](/api_documentation/oM/Framework/Verification/Conditions/ICondition)&gt; | Extracts the conditions nested inside a given condition, e.g. conditions nested inside logical conditions. | - | Verification_Engine |
+| INestedConditions | [IEnumerable](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IEnumerable-1?view=netstandard-2.0)&lt;[ICondition](/api/oM/Framework/Verification/Conditions/ICondition)&gt; | Extracts the conditions nested inside a given condition, e.g. conditions nested inside logical conditions. | - | Verification_Engine |
 | ValueSourceLabel | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | Generates a human readable label for a value source embedded in a value condition, based on provided value condition reporting config. | - | Verification_Engine |
 
 

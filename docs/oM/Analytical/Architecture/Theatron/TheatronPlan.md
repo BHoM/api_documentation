@@ -12,9 +12,9 @@ title: TheatronPlan
 
 ???+ bhom "The TheatronPlan in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[BHoMObject](/api_documentation/oM/Framework/Base/BHoMObject)
-    -  Base.[IBHoMObject](/api_documentation/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
+    -  Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
+    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
+    -  Base.[IObject](/api/oM/Framework/Base/IObject)
 
 
 ## Properties
@@ -27,17 +27,17 @@ The following properties are defined on the class
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| SectionOrigins | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[ProfileOrigin](/api_documentation/oM/Analytical/Architecture/Theatron/ProfileOrigin)&gt; | - | - |
-| ActivityArea | [ActivityArea](/api_documentation/oM/Analytical/Architecture/Theatron/ActivityArea) | Activity area is used for evaluating Avalue and Evalues | - |
-| FocalCurve | [Polyline](/api_documentation/oM/Dimensional/Geometry/Polyline) | Focal curve is used for defining Cvalue focal points | - |
-| VomitoryOrigins | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[ProfileOrigin](/api_documentation/oM/Analytical/Architecture/Theatron/ProfileOrigin)&gt; | - | - |
-| CombinedOrigins | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[ProfileOrigin](/api_documentation/oM/Analytical/Architecture/Theatron/ProfileOrigin)&gt; | - | - |
-| StructBayType | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[BayType](/api_documentation/oM/Analytical/Architecture/Theatron/BayType)&gt; | - | - |
-| SectionClosestToFocalCurve | [ProfileOrigin](/api_documentation/oM/Analytical/Architecture/Theatron/ProfileOrigin) | - | - |
+| SectionOrigins | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[ProfileOrigin](/api/oM/Analytical/Architecture/Theatron/ProfileOrigin)&gt; | - | - |
+| ActivityArea | [ActivityArea](/api/oM/Analytical/Architecture/Theatron/ActivityArea) | Activity area is used for evaluating Avalue and Evalues | - |
+| FocalCurve | [Polyline](/api/oM/Dimensional/Geometry/Polyline) | Focal curve is used for defining Cvalue focal points | - |
+| VomitoryOrigins | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[ProfileOrigin](/api/oM/Analytical/Architecture/Theatron/ProfileOrigin)&gt; | - | - |
+| CombinedOrigins | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[ProfileOrigin](/api/oM/Analytical/Architecture/Theatron/ProfileOrigin)&gt; | - | - |
+| StructBayType | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[BayType](/api/oM/Analytical/Architecture/Theatron/BayType)&gt; | - | - |
+| SectionClosestToFocalCurve | [ProfileOrigin](/api/oM/Analytical/Architecture/Theatron/ProfileOrigin) | - | - |
 | MinDistToFocalCurve | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | - | - |
-| CValueFocalPoint | [Point](/api_documentation/oM/Dimensional/Geometry/Point) | - | - |
-| TheatronFront | [ICurve](/api_documentation/oM/Dimensional/Geometry/ICurve) | - | - |
-| SeatingBlockType | [SeatingBlockType](/api_documentation/oM/Analytical/Architecture/Theatron/SeatingBlockType) | - | - |
+| CValueFocalPoint | [Point](/api/oM/Dimensional/Geometry/Point) | - | - |
+| TheatronFront | [ICurve](/api/oM/Dimensional/Geometry/ICurve) | - | - |
+| SeatingBlockType | [SeatingBlockType](/api/oM/Analytical/Architecture/Theatron/SeatingBlockType) | - | - |
 
 
 ### Inherited properties
@@ -47,7 +47,7 @@ The following properties are inherited from the base class of the object
 |------------------|------------------|------------------|------------------|
 | BHoM_Guid | [Guid](https://learn.microsoft.com/en-us/dotnet/api/System.Guid?view=netstandard-2.0) | - | - |
 | Name | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | - | - |
-| Fragments | [FragmentSet](/api_documentation/oM/Framework/Base/FragmentSet) | - | - |
+| Fragments | [FragmentSet](/api/oM/Framework/Base/FragmentSet) | - | - |
 | Tags | [HashSet](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.HashSet-1?view=netstandard-2.0)&lt;[string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0)&gt; | - | - |
 | CustomData | [Dictionary](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.Dictionary-2?view=netstandard-2.0)&lt;[string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0), [object](https://learn.microsoft.com/en-us/dotnet/api/System.Object?view=netstandard-2.0)&gt; | - | - |
 

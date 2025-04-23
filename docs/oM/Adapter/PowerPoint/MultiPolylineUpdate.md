@@ -12,12 +12,12 @@ Allows to change the geometry of a shape element.
 
 ???+ bhom "The MultiPolylineUpdate in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[BHoMObject](/api_documentation/oM/Framework/Base/BHoMObject)
-    -  Base.[IBHoMObject](/api_documentation/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
-    -  PowerPoint.[ISlideUpdate](/api_documentation/oM/Adapter/PowerPoint/ISlideUpdate)
-    -  PowerPoint.[IExcelModification](/api_documentation/oM/Adapter/PowerPoint/IExcelModification)
-    -  PowerPoint.[IPowerPointModification](/api_documentation/oM/Adapter/PowerPoint/IPowerPointModification)
+    -  Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
+    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
+    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  PowerPoint.[ISlideUpdate](/api/oM/Adapter/PowerPoint/ISlideUpdate)
+    -  PowerPoint.[IExcelModification](/api/oM/Adapter/PowerPoint/IExcelModification)
+    -  PowerPoint.[IPowerPointModification](/api/oM/Adapter/PowerPoint/IPowerPointModification)
 
 
 ## Properties
@@ -32,7 +32,7 @@ The following properties are defined on the class
 |------------------|------------------|------------------|------------------|
 | SlideNumber | [int](https://learn.microsoft.com/en-us/dotnet/api/System.Int32?view=netstandard-2.0) | Number of the slide where the update needs to happen. | - |
 | ElementName | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | Name of the shape element that needs to be updated. | - |
-| Shapes | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[PolylineData](/api_documentation/oM/Adapter/PowerPoint/PolylineData)&gt; | Shape to be updated. | - |
+| Shapes | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[PolylineData](/api/oM/Adapter/PowerPoint/PolylineData)&gt; | Shape to be updated. | - |
 | CentreShapes | [bool](https://learn.microsoft.com/en-us/dotnet/api/System.Boolean?view=netstandard-2.0) | If true, the provided shapes are centred in the template box, if false, the shapes are drawn from the top left corner. | - |
 | KeepShapeAspectRatio | [bool](https://learn.microsoft.com/en-us/dotnet/api/System.Boolean?view=netstandard-2.0) | If true, the shape aspect ratio is kept, and the shapes are made to fit the extents of the template shape. If false, the shapes are atempted to fill up the template shape as much as possible which can lead to change in aspect ratio of the provided shapes. | - |
 | GroupPolylinesWithSameProperties | [bool](https://learn.microsoft.com/en-us/dotnet/api/System.Boolean?view=netstandard-2.0) | If true, the provided shapes that share all properties in terms of colours will be added to the same shape object. If false, all PolylineData obejcts will be added to separate shape objects. | - |
@@ -46,7 +46,7 @@ The following properties are inherited from the base class of the object
 |------------------|------------------|------------------|------------------|
 | BHoM_Guid | [Guid](https://learn.microsoft.com/en-us/dotnet/api/System.Guid?view=netstandard-2.0) | - | - |
 | Name | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | - | - |
-| Fragments | [FragmentSet](/api_documentation/oM/Framework/Base/FragmentSet) | - | - |
+| Fragments | [FragmentSet](/api/oM/Framework/Base/FragmentSet) | - | - |
 | Tags | [HashSet](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.HashSet-1?view=netstandard-2.0)&lt;[string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0)&gt; | - | - |
 | CustomData | [Dictionary](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.Dictionary-2?view=netstandard-2.0)&lt;[string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0), [object](https://learn.microsoft.com/en-us/dotnet/api/System.Object?view=netstandard-2.0)&gt; | - | - |
 

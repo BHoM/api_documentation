@@ -12,26 +12,26 @@ Interface common to all syntax nodes
 
 ???+ bhom "The INode in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
+    -  Base.[IObject](/api/oM/Framework/Base/IObject)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Programming.[BlockNode](/api_documentation/oM/Framework/Programming/BlockNode)
-    - Programming.[ClusterNode](/api_documentation/oM/Framework/Programming/ClusterNode)
-    - Programming.[ConstructorNode](/api_documentation/oM/Framework/Programming/ConstructorNode)
-    - Programming.[CustomObjectNode](/api_documentation/oM/Framework/Programming/CustomObjectNode)
-    - Programming.[ExplodeNode](/api_documentation/oM/Framework/Programming/ExplodeNode)
-    - Programming.[GetPropertyNode](/api_documentation/oM/Framework/Programming/GetPropertyNode)
-    - Programming.[InitialiserNode](/api_documentation/oM/Framework/Programming/InitialiserNode)
-    - Programming.[LibraryNode](/api_documentation/oM/Framework/Programming/LibraryNode)
-    - Programming.[LoopNode](/api_documentation/oM/Framework/Programming/LoopNode)
-    - Programming.[MethodNode](/api_documentation/oM/Framework/Programming/MethodNode)
-    - Programming.[ParamNode](/api_documentation/oM/Framework/Programming/ParamNode)
-    - Programming.[SetPropertyNode](/api_documentation/oM/Framework/Programming/SetPropertyNode)
-    - Programming.[TypeNode](/api_documentation/oM/Framework/Programming/TypeNode)
+    - Programming.[BlockNode](/api/oM/Framework/Programming/BlockNode)
+    - Programming.[ClusterNode](/api/oM/Framework/Programming/ClusterNode)
+    - Programming.[ConstructorNode](/api/oM/Framework/Programming/ConstructorNode)
+    - Programming.[CustomObjectNode](/api/oM/Framework/Programming/CustomObjectNode)
+    - Programming.[ExplodeNode](/api/oM/Framework/Programming/ExplodeNode)
+    - Programming.[GetPropertyNode](/api/oM/Framework/Programming/GetPropertyNode)
+    - Programming.[InitialiserNode](/api/oM/Framework/Programming/InitialiserNode)
+    - Programming.[LibraryNode](/api/oM/Framework/Programming/LibraryNode)
+    - Programming.[LoopNode](/api/oM/Framework/Programming/LoopNode)
+    - Programming.[MethodNode](/api/oM/Framework/Programming/MethodNode)
+    - Programming.[ParamNode](/api/oM/Framework/Programming/ParamNode)
+    - Programming.[SetPropertyNode](/api/oM/Framework/Programming/SetPropertyNode)
+    - Programming.[TypeNode](/api/oM/Framework/Programming/TypeNode)
 
 
 ## Properties
@@ -44,8 +44,8 @@ The following properties are defined on the interface
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| Inputs | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[ReceiverParam](/api_documentation/oM/Framework/Programming/ReceiverParam)&gt; | - | - |
-| Outputs | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[DataParam](/api_documentation/oM/Framework/Programming/DataParam)&gt; | - | - |
+| Inputs | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[ReceiverParam](/api/oM/Framework/Programming/ReceiverParam)&gt; | - | - |
+| Outputs | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[DataParam](/api/oM/Framework/Programming/DataParam)&gt; | - | - |
 | Description | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | - | - |
 | Name | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | - | - |
 | BHoM_Guid | [Guid](https://learn.microsoft.com/en-us/dotnet/api/System.Guid?view=netstandard-2.0) | - | - |

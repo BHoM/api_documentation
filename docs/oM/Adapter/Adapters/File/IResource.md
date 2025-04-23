@@ -12,32 +12,32 @@ Identifies a general data Resource, whether a File or a Directory or other.
 
 ???+ bhom "The IResource in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IBHoMObject](/api_documentation/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
+    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
+    -  Base.[IObject](/api/oM/Framework/Base/IObject)
 
 
 ### Interfaces implementing this interface
 
 ???+ bhom "The following interfaces are implementing this interface:"
 
-    - Adapters.File.[IContainableResource](/api_documentation/oM/Adapter/Adapters/File/IContainableResource)
-    - Adapters.File.[IContainer](/api_documentation/oM/Adapter/Adapters/File/IContainer)
-    - Adapters.File.[IDirectory](/api_documentation/oM/Adapter/Adapters/File/IDirectory)
-    - Adapters.File.[IFile](/api_documentation/oM/Adapter/Adapters/File/IFile)
-    - Adapters.File.[IFSContainer](/api_documentation/oM/Adapter/Adapters/File/IFSContainer)
-    - Adapters.File.[IFSResource](/api_documentation/oM/Adapter/Adapters/File/IFSResource)
-    - Adapters.File.[ILocatableResource](/api_documentation/oM/Adapter/Adapters/File/ILocatableResource)
-    - Adapters.File.[ISizeableResource](/api_documentation/oM/Adapter/Adapters/File/ISizeableResource)
+    - Adapters.File.[IContainableResource](/api/oM/Adapter/Adapters/File/IContainableResource)
+    - Adapters.File.[IContainer](/api/oM/Adapter/Adapters/File/IContainer)
+    - Adapters.File.[IDirectory](/api/oM/Adapter/Adapters/File/IDirectory)
+    - Adapters.File.[IFile](/api/oM/Adapter/Adapters/File/IFile)
+    - Adapters.File.[IFSContainer](/api/oM/Adapter/Adapters/File/IFSContainer)
+    - Adapters.File.[IFSResource](/api/oM/Adapter/Adapters/File/IFSResource)
+    - Adapters.File.[ILocatableResource](/api/oM/Adapter/Adapters/File/ILocatableResource)
+    - Adapters.File.[ISizeableResource](/api/oM/Adapter/Adapters/File/ISizeableResource)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Adapters.File.[Directory](/api_documentation/oM/Adapter/Adapters/File/Directory)
-    - Adapters.File.[File](/api_documentation/oM/Adapter/Adapters/File/File)
-    - Adapters.File.[FSDirectory](/api_documentation/oM/Adapter/Adapters/File/FSDirectory)
-    - Adapters.File.[FSFile](/api_documentation/oM/Adapter/Adapters/File/FSFile)
+    - Adapters.File.[Directory](/api/oM/Adapter/Adapters/File/Directory)
+    - Adapters.File.[File](/api/oM/Adapter/Adapters/File/File)
+    - Adapters.File.[FSDirectory](/api/oM/Adapter/Adapters/File/FSDirectory)
+    - Adapters.File.[FSFile](/api/oM/Adapter/Adapters/File/FSFile)
 
 
 ## Properties

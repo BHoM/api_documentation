@@ -12,9 +12,9 @@ title: SAPMarkupSummary
 
 ???+ bhom "The SAPMarkupSummary in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Environment.SAP.Bluebeam.[BluebeamSAPObject](/api_documentation/oM/Adapter/Environment/SAP/Bluebeam/BluebeamSAPObject)
-    -  Base.[IBHoMObject](/api_documentation/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
+    -  Environment.SAP.Bluebeam.[BluebeamSAPObject](/api/oM/Adapter/Environment/SAP/Bluebeam/BluebeamSAPObject)
+    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
+    -  Base.[IObject](/api/oM/Framework/Base/IObject)
 
 
 ## Properties
@@ -27,7 +27,7 @@ The following properties are defined on the class
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| Markup | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[SAPMarkup](/api_documentation/oM/Adapter/Environment/SAP/Bluebeam/SAPMarkup)&gt; | - | - |
+| Markup | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[SAPMarkup](/api/oM/Adapter/Environment/SAP/Bluebeam/SAPMarkup)&gt; | - | - |
 
 
 ### Inherited properties
@@ -38,7 +38,7 @@ The following properties are inherited from the base class of the object
 | BHoM_Guid | [Guid](https://learn.microsoft.com/en-us/dotnet/api/System.Guid?view=netstandard-2.0) | - | - |
 | CustomData | [Dictionary](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.Dictionary-2?view=netstandard-2.0)&lt;[string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0), [object](https://learn.microsoft.com/en-us/dotnet/api/System.Object?view=netstandard-2.0)&gt; | - | - |
 | Name | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | - | - |
-| Fragments | [FragmentSet](/api_documentation/oM/Framework/Base/FragmentSet) | - | - |
+| Fragments | [FragmentSet](/api/oM/Framework/Base/FragmentSet) | - | - |
 | Tags | [HashSet](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.HashSet-1?view=netstandard-2.0)&lt;[string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0)&gt; | - | - |
 
 

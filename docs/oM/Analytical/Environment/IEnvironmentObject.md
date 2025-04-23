@@ -12,33 +12,33 @@ title: IEnvironmentObject
 
 ???+ bhom "The IEnvironmentObject in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IBHoMObject](/api_documentation/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
+    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
+    -  Base.[IObject](/api/oM/Framework/Base/IObject)
 
 
 ### Interfaces implementing this interface
 
 ???+ bhom "The following interfaces are implementing this interface:"
 
-    - Environment.[IClimateObject](/api_documentation/oM/Analytical/Environment/IClimateObject)
+    - Environment.[IClimateObject](/api/oM/Analytical/Environment/IClimateObject)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Environment.SpaceCriteria.[Profile](/api_documentation/oM/Analytical/Environment/SpaceCriteria/Profile)
-    - Environment.SpaceCriteria.[Thermostat](/api_documentation/oM/Analytical/Environment/SpaceCriteria/Thermostat)
-    - Environment.Elements.[BoundaryZone](/api_documentation/oM/Analytical/Environment/Elements/BoundaryZone)
-    - Environment.Elements.[Building](/api_documentation/oM/Analytical/Environment/Elements/Building)
-    - Environment.Elements.[Edge](/api_documentation/oM/Analytical/Environment/Elements/Edge)
-    - Environment.Elements.[Mesh](/api_documentation/oM/Analytical/Environment/Elements/Mesh)
-    - Environment.Elements.[Opening](/api_documentation/oM/Analytical/Environment/Elements/Opening)
-    - Environment.Elements.[Panel](/api_documentation/oM/Analytical/Environment/Elements/Panel)
-    - Environment.Elements.[Space](/api_documentation/oM/Analytical/Environment/Elements/Space)
-    - Environment.Climate.[Location](/api_documentation/oM/Analytical/Environment/Climate/Location)
-    - Environment.Climate.[Sun](/api_documentation/oM/Analytical/Environment/Climate/Sun)
-    - Environment.Climate.[Time](/api_documentation/oM/Analytical/Environment/Climate/Time)
+    - Environment.SpaceCriteria.[Profile](/api/oM/Analytical/Environment/SpaceCriteria/Profile)
+    - Environment.SpaceCriteria.[Thermostat](/api/oM/Analytical/Environment/SpaceCriteria/Thermostat)
+    - Environment.Elements.[BoundaryZone](/api/oM/Analytical/Environment/Elements/BoundaryZone)
+    - Environment.Elements.[Building](/api/oM/Analytical/Environment/Elements/Building)
+    - Environment.Elements.[Edge](/api/oM/Analytical/Environment/Elements/Edge)
+    - Environment.Elements.[Mesh](/api/oM/Analytical/Environment/Elements/Mesh)
+    - Environment.Elements.[Opening](/api/oM/Analytical/Environment/Elements/Opening)
+    - Environment.Elements.[Panel](/api/oM/Analytical/Environment/Elements/Panel)
+    - Environment.Elements.[Space](/api/oM/Analytical/Environment/Elements/Space)
+    - Environment.Climate.[Location](/api/oM/Analytical/Environment/Climate/Location)
+    - Environment.Climate.[Sun](/api/oM/Analytical/Environment/Climate/Sun)
+    - Environment.Climate.[Time](/api/oM/Analytical/Environment/Climate/Time)
 
 
 ## Properties
@@ -51,16 +51,16 @@ The following properties are defined as extension methods in one of the BHoM_Eng
 |------------------|------------------|------------------|------------------|------------------|
 | Altitude | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Returns the minimum altitude of an Environment Object as the minimum z value from the bounding box of the geometry | - | Environment_Engine |
 | AltitudeRange | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Returns the range of altitude of an Environment Object taken as the maximum z value minus minimum z value from the bounding box of the geometry | - | Environment_Engine |
-| Bottom | [ICurve](/api_documentation/oM/Dimensional/Geometry/ICurve) | Returns the bottom of a given environment object. | - | Environment_Engine |
-| ExplodeToParts | [Output](/api_documentation/oM/Framework/Base/Output%603)&lt;[List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[ICurve](/api_documentation/oM/Dimensional/Geometry/ICurve)&gt;, [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[ICurve](/api_documentation/oM/Dimensional/Geometry/ICurve)&gt;, [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[ICurve](/api_documentation/oM/Dimensional/Geometry/ICurve)&gt;&gt; | Returns the sides, top and bottom of a given environment object. | - | Environment_Engine |
+| Bottom | [ICurve](/api/oM/Dimensional/Geometry/ICurve) | Returns the bottom of a given environment object. | - | Environment_Engine |
+| ExplodeToParts | [Output](/api/oM/Framework/Base/Output%603)&lt;[List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[ICurve](/api/oM/Dimensional/Geometry/ICurve)&gt;, [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[ICurve](/api/oM/Dimensional/Geometry/ICurve)&gt;, [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[ICurve](/api/oM/Dimensional/Geometry/ICurve)&gt;&gt; | Returns the sides, top and bottom of a given environment object. | - | Environment_Engine |
 | Height | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Returns the height of a generic Environment Object | - | Environment_Engine |
 | Inclination | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Returns the inclination of a generic Environment Object | - | Environment_Engine |
 | Orientation | [Nullable](https://learn.microsoft.com/en-us/dotnet/api/System.Nullable-1?view=netstandard-2.0)&lt;[double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0)&gt; | Returns the angle to north of a given environmental object on an xyPlane | - | Environment_Engine |
-| Polyline | [Polyline](/api_documentation/oM/Dimensional/Geometry/Polyline) | Returns the external boundary from a generic Environment Object | - | Environment_Engine |
-| Sides | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[ICurve](/api_documentation/oM/Dimensional/Geometry/ICurve)&gt; | Returns the sides of a given environment object. | - | Environment_Engine |
+| Polyline | [Polyline](/api/oM/Dimensional/Geometry/Polyline) | Returns the external boundary from a generic Environment Object | - | Environment_Engine |
+| Sides | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[ICurve](/api/oM/Dimensional/Geometry/ICurve)&gt; | Returns the sides of a given environment object. | - | Environment_Engine |
 | Tilt | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Returns the tilt of an Environment Object | - | Environment_Engine |
-| ToLines | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[Line](/api_documentation/oM/Dimensional/Geometry/Line)&gt; | Returns the external boundary from a generic Environment Object | - | Environment_Engine |
-| Top | [ICurve](/api_documentation/oM/Dimensional/Geometry/ICurve) | Returns the top of a given environment object. | - | Environment_Engine |
+| ToLines | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[Line](/api/oM/Dimensional/Geometry/Line)&gt; | Returns the external boundary from a generic Environment Object | - | Environment_Engine |
+| Top | [ICurve](/api/oM/Dimensional/Geometry/ICurve) | Returns the top of a given environment object. | - | Environment_Engine |
 | Width | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Returns the width of a generic Environment Object | - | Environment_Engine |
 
 

@@ -12,16 +12,16 @@ title: ISurface
 
 ???+ bhom "The ISurface in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IBHoMObject](/api_documentation/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
-    -  Analytical.[IAnalytical](/api_documentation/oM/Analytical/Analytical/IAnalytical)
+    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
+    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  Analytical.[IAnalytical](/api/oM/Analytical/Analytical/IAnalytical)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Structure.Elements.[Surface](/api_documentation/oM/Analytical/Structure/Elements/Surface)
+    - Structure.Elements.[Surface](/api/oM/Analytical/Structure/Elements/Surface)
 
 
 ## Properties
@@ -34,7 +34,7 @@ The following properties are defined on the interface
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| Extents | [ISurface](/api_documentation/oM/Dimensional/Geometry/ISurface) | - | - |
+| Extents | [ISurface](/api/oM/Dimensional/Geometry/ISurface) | - | - |
 
 
 ### Derived properties
@@ -43,7 +43,7 @@ The following properties are defined as extension methods in one of the BHoM_Eng
 
 | Name             | Type             | Description      | Quantity         | Engine           |
 |------------------|------------------|------------------|------------------|------------------|
-| Geometry | [IGeometry](/api_documentation/oM/Dimensional/Geometry/IGeometry) | Gets the geometry of a analytical ISurface at its centre. Method required for automatic display in UI packages. | - | Analytical_Engine |
+| Geometry | [IGeometry](/api/oM/Dimensional/Geometry/IGeometry) | Gets the geometry of a analytical ISurface at its centre. Method required for automatic display in UI packages. | - | Analytical_Engine |
 
 
 ## Code and Schema

@@ -12,9 +12,9 @@ Object representing result of IsNotNull condition.
 
 ???+ bhom "The IsNotNullResult in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Verification.Results.[IConditionResult](/api_documentation/oM/Framework/Verification/Results/IConditionResult)
-    -  Base.[IImmutable](/api_documentation/oM/Framework/Base/IImmutable)
-    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
+    -  Verification.Results.[IConditionResult](/api/oM/Framework/Verification/Results/IConditionResult)
+    -  Base.[IImmutable](/api/oM/Framework/Base/IImmutable)
+    -  Base.[IObject](/api/oM/Framework/Base/IObject)
 
 
 ## Properties

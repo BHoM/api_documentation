@@ -12,7 +12,7 @@ Information about how an object's property should be included or not in a compar
 
 ???+ bhom "The ComparisonInclusion in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
+    -  Base.[IObject](/api/oM/Framework/Base/IObject)
 
 
 ## Properties

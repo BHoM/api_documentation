@@ -12,16 +12,16 @@ Base interface for all graphics view objects.
 
 ???+ bhom "The IView in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IBHoMObject](/api_documentation/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
+    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
+    -  Base.[IObject](/api/oM/Framework/Base/IObject)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Graphics.Views.[DependencyChart](/api_documentation/oM/Graphics/Graphics/Views/DependencyChart)
-    - Graphics.Views.[ViewConfig](/api_documentation/oM/Graphics/Graphics/Views/ViewConfig)
+    - Graphics.Views.[DependencyChart](/api/oM/Graphics/Graphics/Views/DependencyChart)
+    - Graphics.Views.[ViewConfig](/api/oM/Graphics/Graphics/Views/ViewConfig)
 
 
 ## Properties

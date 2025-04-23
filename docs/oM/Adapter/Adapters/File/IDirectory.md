@@ -12,17 +12,17 @@ Identifies a Directory.
 
 ???+ bhom "The IDirectory in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Adapters.File.[IResource](/api_documentation/oM/Adapter/Adapters/File/IResource)
-    -  Base.[IBHoMObject](/api_documentation/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
+    -  Adapters.File.[IResource](/api/oM/Adapter/Adapters/File/IResource)
+    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
+    -  Base.[IObject](/api/oM/Framework/Base/IObject)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Adapters.File.[Directory](/api_documentation/oM/Adapter/Adapters/File/Directory)
-    - Adapters.File.[FSDirectory](/api_documentation/oM/Adapter/Adapters/File/FSDirectory)
+    - Adapters.File.[Directory](/api/oM/Adapter/Adapters/File/Directory)
+    - Adapters.File.[FSDirectory](/api/oM/Adapter/Adapters/File/FSDirectory)
 
 
 ## Properties

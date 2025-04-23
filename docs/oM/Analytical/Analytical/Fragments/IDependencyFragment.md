@@ -12,16 +12,16 @@ Interface common to all DependencyFragments.
 
 ???+ bhom "The IDependencyFragment in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IFragment](/api_documentation/oM/Framework/Base/IFragment)
-    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
+    -  Base.[IFragment](/api/oM/Framework/Base/IFragment)
+    -  Base.[IObject](/api/oM/Framework/Base/IObject)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Analytical.Fragments.[SourcesDependencyFragment](/api_documentation/oM/Analytical/Analytical/Fragments/SourcesDependencyFragment)
-    - Analytical.Fragments.[TargetsDependencyFragment](/api_documentation/oM/Analytical/Analytical/Fragments/TargetsDependencyFragment)
+    - Analytical.Fragments.[SourcesDependencyFragment](/api/oM/Analytical/Analytical/Fragments/SourcesDependencyFragment)
+    - Analytical.Fragments.[TargetsDependencyFragment](/api/oM/Analytical/Analytical/Fragments/TargetsDependencyFragment)
 
 
 ## Properties

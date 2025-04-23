@@ -12,8 +12,8 @@ Interface for all extraction workflows based on 'extract from' or 'calculate fro
 
 ???+ bhom "The IDerivedObjectsExtraction in inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Verification.Extraction.[IExtraction](/api_documentation/oM/Framework/Verification/Extraction/IExtraction)
-    -  Base.[IObject](/api_documentation/oM/Framework/Base/IObject)
+    -  Verification.Extraction.[IExtraction](/api/oM/Framework/Verification/Extraction/IExtraction)
+    -  Base.[IObject](/api/oM/Framework/Base/IObject)
 
 
 ## Properties
