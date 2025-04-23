@@ -35,7 +35,7 @@ foreach (Assembly assembly in oMAssemblies)
     {
         if (!(type.IsAbstract && type.IsSealed) && (type.IsEnum || typeof(IObject).IsAssignableFrom(type)))
         {
-            TypeToMarkdown.WriteTypeToMarkdown(@"C:\Github\api_documentation\docs\", type, methods);
+            TypeToMarkdown.WriteTypeToMarkdown(@"C:\Github\api\docs\", type, methods);
         }
     }
 }
