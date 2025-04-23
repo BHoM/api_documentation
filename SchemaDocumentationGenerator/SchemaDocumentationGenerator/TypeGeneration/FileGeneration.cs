@@ -39,7 +39,7 @@ namespace SchemaDocumentationGenerator
 
             EnsureFolder(filePath);
 
-            File.WriteAllText(filePath, markdown);
+            File.WriteAllText(filePath, markdown.Replace("\n", Environment.NewLine));
             return true;
         }
 
