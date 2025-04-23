@@ -5,7 +5,8 @@ using SchemaDocumentationGenerator;
 using System.Reflection;
 
 Console.WriteLine("Loading Settings.");
-Settings.LoadSettings(@"C:\Users\INaslund\Buro Happold\Design & Technology - Dev Docs\00756_oM_Documentation\oM_categorisation.csv");
+
+Settings.LoadSettings(Path.Join(Environment.CurrentDirectory, "oM_categorisation.csv"));
 
 Console.WriteLine("Loading Engine assemblies.");
 List<Assembly> engineAssemblies = AssemblyLoader.LoadAllEngineAssemblies(new List<string> { "BHoM" });
