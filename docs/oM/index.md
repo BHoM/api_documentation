@@ -12,11 +12,7 @@ title: Object Model Documentation
 
 ## Object Model Documentation
 
-Welcome to the BHoM oM Documentation. This site contains the documentation of all the objects in the toolkits and repositories in the BHoM organisation part of the BHoM installer.
+Welcome to the BHoM oM Documentation.  
+This describes all the objects of the repositories included in the [_BHoM Organisation_](https://github.com/BHoM).  
 
-For access to the source code for all objects described in this page, please visit [BHoM github](https://github.com/BHoM).
-
-For latest installer please visit [BHoM homepage](https://bhom.xyz/)
-
-For general documentation please see [BHoM documentation](https://bhom.xyz/documentation)
-
+For general usage documentation, please see [BHoM documentation](https://bhom.xyz/documentation).
