@@ -2,7 +2,7 @@
 title: HashFragment
 ---
 
-# Base.HashFragment
+# <small>BH.oM.</small>**HashFragment**
 
 Stores the hash of the parent BHoMObject.
 
@@ -10,11 +10,11 @@ Stores the hash of the parent BHoMObject.
 
 ### Implemented interfaces and base types
 
-???+ bhom "The HashFragment in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The HashFragment is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IHashFragment](/api/oM/Framework/Base/IHashFragment)
-    -  Base.[IFragment](/api/oM/Framework/Base/IFragment)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.Base.[IHashFragment](/api/oM/Framework/Base/Interface/IHashFragment)
+    -  BH.oM.Base.[IFragment](/api/oM/Framework/Base/Interface/IFragment)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 ## Properties
@@ -33,6 +33,12 @@ The following properties are defined on the class
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class HashFragment : BH.oM.Base.IHashFragment, BH.oM.Base.IFragment, BH.oM.Base.IObject
+```
+
+Assembly: BHoM.dll
 
 The class is defined in C#. The class definition is available on github:
 

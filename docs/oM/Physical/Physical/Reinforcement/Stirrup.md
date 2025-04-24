@@ -2,7 +2,7 @@
 title: Stirrup
 ---
 
-# Physical.Reinforcement.Stirrup
+# <small>BH.oM.Physical.</small>**Stirrup**
 
 Defining shear reinforcement for framing elements.
 
@@ -10,12 +10,12 @@ Defining shear reinforcement for framing elements.
 
 ### Implemented interfaces and base types
 
-???+ bhom "The Stirrup in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The Stirrup is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
-    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
-    -  Physical.Reinforcement.[IReinforcingBar](/api/oM/Physical/Physical/Reinforcement/IReinforcingBar)
+    -  BH.oM.Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
+    -  BH.oM.Base.[IBHoMObject](/api/oM/Framework/Base/Interface/IBHoMObject)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
+    -  BH.oM.Physical.Reinforcement.[IReinforcingBar](/api/oM/Physical/Physical/Reinforcement/IReinforcingBar)
 
 
 ## Properties
@@ -28,7 +28,7 @@ The following properties are defined on the class
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| CentreCurve | [ICurve](/api/oM/Dimensional/Geometry/ICurve) | Centreline of the Reinforcing bar in three-dimensional space. When the BendRadius is sufficient for any kinks in the rebar, this can be defined as a polyline, ommiting any arcs in corners. | - |
+| CentreCurve | [ICurve](/api/oM/Dimensional/Geometry/Curve/ICurve) | Centreline of the Reinforcing bar in three-dimensional space. When the BendRadius is sufficient for any kinks in the rebar, this can be defined as a polyline, ommiting any arcs in corners. | - |
 | Diameter | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | - | [Length](/api/oM/Dimensional/Quantities/Attributes/Length) [m] |
 | Material | [Material](/api/oM/Physical/Physical/Materials/Material) | - | - |
 | BendRadius | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Bend radius used for any discontinuities in the CentreCurve. | [Length](/api/oM/Dimensional/Quantities/Attributes/Length) [m] |
@@ -49,6 +49,12 @@ The following properties are inherited from the base class of the object
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class Stirrup : BH.oM.Base.BHoMObject, BH.oM.Base.IBHoMObject, BH.oM.Base.IObject, BH.oM.Physical.Reinforcement.IReinforcingBar
+```
+
+Assembly: Physical_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

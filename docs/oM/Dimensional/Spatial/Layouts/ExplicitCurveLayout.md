@@ -2,7 +2,7 @@
 title: ExplicitCurveLayout
 ---
 
-# Spatial.Layouts.ExplicitCurveLayout
+# <small>BH.oM.Spatial.</small>**ExplicitCurveLayout**
 
 Layout for freeform control over the curve distribution.
 
@@ -10,13 +10,13 @@ Layout for freeform control over the curve distribution.
 
 ### Implemented interfaces and base types
 
-???+ bhom "The ExplicitCurveLayout in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The ExplicitCurveLayout is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
-    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
-    -  Spatial.Layouts.[ICurveLayout](/api/oM/Dimensional/Spatial/Layouts/ICurveLayout)
-    -  Base.[IImmutable](/api/oM/Framework/Base/IImmutable)
+    -  BH.oM.Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
+    -  BH.oM.Base.[IBHoMObject](/api/oM/Framework/Base/Interface/IBHoMObject)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
+    -  BH.oM.Spatial.Layouts.[ICurveLayout](/api/oM/Dimensional/Spatial/Layouts/ICurveLayout)
+    -  BH.oM.Base.[IImmutable](/api/oM/Framework/Base/Interface/IImmutable)
 
 
 ## Properties
@@ -29,7 +29,7 @@ The following properties are defined on the class
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| Curves | [ReadOnlyCollection](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.ObjectModel.ReadOnlyCollection-1?view=netstandard-2.0)&lt;[ICurve](/api/oM/Dimensional/Geometry/ICurve)&gt; | The explicit shape of curves in the layout. All curves should be planar curves in the global XY plane. | - |
+| Curves | [ReadOnlyCollection](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.ObjectModel.ReadOnlyCollection-1?view=netstandard-2.0)&lt;[ICurve](/api/oM/Dimensional/Geometry/Curve/ICurve)&gt; | The explicit shape of curves in the layout. All curves should be planar curves in the global XY plane. | - |
 
 
 ### Inherited properties
@@ -56,6 +56,12 @@ The following properties are defined as extension methods in one of the BHoM_Eng
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class ExplicitCurveLayout : BH.oM.Base.BHoMObject, BH.oM.Base.IBHoMObject, BH.oM.Base.IObject, BH.oM.Spatial.Layouts.ICurveLayout, BH.oM.Base.IImmutable
+```
+
+Assembly: Spatial_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

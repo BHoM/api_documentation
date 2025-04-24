@@ -2,7 +2,7 @@
 title: Triaxial
 ---
 
-# Ground.Triaxial
+# <small>BH.oM.</small>**Triaxial**
 
 A set of data related to triaxial tests carried out
 
@@ -10,12 +10,12 @@ A set of data related to triaxial tests carried out
 
 ### Implemented interfaces and base types
 
-???+ bhom "The Triaxial in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The Triaxial is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
-    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
-    -  Ground.[ITest](/api/oM/Analytical/Ground/ITest)
+    -  BH.oM.Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
+    -  BH.oM.Base.[IBHoMObject](/api/oM/Framework/Base/Interface/IBHoMObject)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
+    -  BH.oM.Ground.[ITest](/api/oM/Analytical/Ground/ITest)
 
 
 ## Properties
@@ -35,7 +35,7 @@ The following properties are defined on the class
 | SpecimenReference | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | Specimen Reference (SPEC_REF). | - |
 | UndrainedShearStrength | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Undrained shear strength at failure (TRIT_CU). | [Pressure](/api/oM/Dimensional/Quantities/Attributes/Pressure) [Pa] |
 | FailureMode | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | Mode of Failure (TRIT_MODE). | - |
-| Properties | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[ITestProperties](/api/oM/Analytical/Ground/ITestProperties)&gt; | A list of different properties including references and results. | - |
+| Properties | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[ITestProperties](/api/oM/Analytical/Ground/ITestProperties/ITestProperties)&gt; | A list of different properties including references and results. | - |
 
 
 ### Inherited properties
@@ -53,6 +53,12 @@ The following properties are inherited from the base class of the object
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class Triaxial : BH.oM.Base.BHoMObject, BH.oM.Base.IBHoMObject, BH.oM.Base.IObject, BH.oM.Ground.ITest
+```
+
+Assembly: Ground_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

@@ -2,7 +2,7 @@
 title: MechanicalEquipmentType
 ---
 
-# MEP.Enums.MechanicalEquipmentType
+# <small>BH.oM.MEP.</small>**MechanicalEquipmentType**
 
 A type of mechanical equipment (air handling unit, boiler, chiller, fan coil unit.)
 
@@ -35,6 +35,12 @@ A type of mechanical equipment (air handling unit, boiler, chiller, fan coil uni
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public enum MechanicalEquipmentType : System.Enum, System.ValueType, System.IComparable, System.ISpanFormattable, System.IFormattable, System.IConvertible
+```
+
+Assembly: MEP_oM.dll
 
 The enum is defined in C#. The class definition is available on github:
 

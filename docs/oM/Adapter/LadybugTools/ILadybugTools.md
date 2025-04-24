@@ -2,7 +2,7 @@
 title: ILadybugTools
 ---
 
-# LadybugTools.ILadybugTools
+# <small>BH.oM.</small>**ILadybugTools**
 
 
 
@@ -10,33 +10,33 @@ title: ILadybugTools
 
 ### Implemented interfaces and base types
 
-???+ bhom "The ILadybugTools in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The ILadybugTools is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.Base.[IBHoMObject](/api/oM/Framework/Base/Interface/IBHoMObject)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 ### Interfaces implementing this interface
 
 ???+ bhom "The following interfaces are implementing this interface:"
 
-    - LadybugTools.[IEnergyMaterialOpaque](/api/oM/Adapter/LadybugTools/IEnergyMaterialOpaque)
+    - BH.oM.LadybugTools.[IEnergyMaterialOpaque](/api/oM/Adapter/LadybugTools/Constructions/IEnergyMaterialOpaque)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - LadybugTools.[HourlyContinuousCollection](/api/oM/Adapter/LadybugTools/HourlyContinuousCollection)
-    - LadybugTools.[EnergyMaterial](/api/oM/Adapter/LadybugTools/EnergyMaterial)
-    - LadybugTools.[EnergyMaterialVegetation](/api/oM/Adapter/LadybugTools/EnergyMaterialVegetation)
-    - LadybugTools.[Shelter](/api/oM/Adapter/LadybugTools/Shelter)
-    - LadybugTools.[AnalysisPeriod](/api/oM/Adapter/LadybugTools/AnalysisPeriod)
-    - LadybugTools.[DataType](/api/oM/Adapter/LadybugTools/DataType)
-    - LadybugTools.[Header](/api/oM/Adapter/LadybugTools/Header)
-    - LadybugTools.[ExternalComfort](/api/oM/Adapter/LadybugTools/ExternalComfort)
-    - LadybugTools.[SimulationResult](/api/oM/Adapter/LadybugTools/SimulationResult)
-    - LadybugTools.[Typology](/api/oM/Adapter/LadybugTools/Typology)
+    - BH.oM.LadybugTools.[HourlyContinuousCollection](/api/oM/Adapter/LadybugTools/Collections/HourlyContinuousCollection)
+    - BH.oM.LadybugTools.[EnergyMaterial](/api/oM/Adapter/LadybugTools/Constructions/EnergyMaterial)
+    - BH.oM.LadybugTools.[EnergyMaterialVegetation](/api/oM/Adapter/LadybugTools/Constructions/EnergyMaterialVegetation)
+    - BH.oM.LadybugTools.[Shelter](/api/oM/Adapter/LadybugTools/Geometry/Shelter)
+    - BH.oM.LadybugTools.[AnalysisPeriod](/api/oM/Adapter/LadybugTools/MetaData/AnalysisPeriod)
+    - BH.oM.LadybugTools.[DataType](/api/oM/Adapter/LadybugTools/MetaData/DataType)
+    - BH.oM.LadybugTools.[Header](/api/oM/Adapter/LadybugTools/MetaData/Header)
+    - BH.oM.LadybugTools.[ExternalComfort](/api/oM/Adapter/LadybugTools/Simulation/ExternalComfort)
+    - BH.oM.LadybugTools.[SimulationResult](/api/oM/Adapter/LadybugTools/Simulation/SimulationResult)
+    - BH.oM.LadybugTools.[Typology](/api/oM/Adapter/LadybugTools/Simulation/Typology)
 
 
 ## Properties
@@ -44,6 +44,12 @@ title: ILadybugTools
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public interface ILadybugTools : BH.oM.Base.IBHoMObject, BH.oM.Base.IObject
+```
+
+Assembly: LadybugTools_oM.dll
 
 The interface is defined in C#. The class definition is available on github:
 

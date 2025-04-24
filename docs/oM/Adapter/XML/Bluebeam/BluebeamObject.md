@@ -2,7 +2,7 @@
 title: BluebeamObject
 ---
 
-# XML.Bluebeam.BluebeamObject
+# <small>BH.oM.XML.</small>**BluebeamObject**
 
 
 
@@ -10,18 +10,18 @@ title: BluebeamObject
 
 ### Implemented interfaces and base types
 
-???+ bhom "The BluebeamObject in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The BluebeamObject is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.Base.[IBHoMObject](/api/oM/Framework/Base/Interface/IBHoMObject)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 ### Classes inheriting from this class
 
 ???+ bhom "The following classes are inheriting from this class:"
 
-    - XML.Bluebeam.[Markup](/api/oM/Adapter/XML/Bluebeam/Markup)
-    - XML.Bluebeam.[MarkupSummary](/api/oM/Adapter/XML/Bluebeam/MarkupSummary)
+    - BH.oM.XML.Bluebeam.[Markup](/api/oM/Adapter/XML/Bluebeam/Markup)
+    - BH.oM.XML.Bluebeam.[MarkupSummary](/api/oM/Adapter/XML/Bluebeam/MarkupSummary)
 
 
 ## Properties
@@ -44,6 +44,12 @@ The following properties are defined on the class
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class BluebeamObject : BH.oM.Base.IBHoMObject, BH.oM.Base.IObject
+```
+
+Assembly: XML_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

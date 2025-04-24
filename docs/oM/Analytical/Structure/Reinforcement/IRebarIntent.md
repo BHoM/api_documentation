@@ -2,7 +2,7 @@
 title: IRebarIntent
 ---
 
-# Structure.Reinforcement.IRebarIntent
+# <small>BH.oM.Structure.</small>**IRebarIntent**
 
 Base interface for any rebar intent.
 
@@ -10,18 +10,18 @@ Base interface for any rebar intent.
 
 ### Implemented interfaces and base types
 
-???+ bhom "The IRebarIntent in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The IRebarIntent is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.Base.[IBHoMObject](/api/oM/Framework/Base/Interface/IBHoMObject)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Structure.Reinforcement.[BarRebarIntent](/api/oM/Analytical/Structure/Reinforcement/BarRebarIntent)
-    - Structure.Reinforcement.[PanelRebarIntent](/api/oM/Analytical/Structure/Reinforcement/PanelRebarIntent)
+    - BH.oM.Structure.Reinforcement.[BarRebarIntent](/api/oM/Analytical/Structure/Reinforcement/BarRebarIntent)
+    - BH.oM.Structure.Reinforcement.[PanelRebarIntent](/api/oM/Analytical/Structure/Reinforcement/PanelRebarIntent)
 
 
 ## Properties
@@ -29,6 +29,12 @@ Base interface for any rebar intent.
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public interface IRebarIntent : BH.oM.Base.IBHoMObject, BH.oM.Base.IObject
+```
+
+Assembly: Structure_oM.dll
 
 The interface is defined in C#. The class definition is available on github:
 

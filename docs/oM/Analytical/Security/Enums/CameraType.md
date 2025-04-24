@@ -2,7 +2,7 @@
 title: CameraType
 ---
 
-# Security.Enums.CameraType
+# <small>BH.oM.Security.</small>**CameraType**
 
 A camera type that describes its basic characteristcs.
 
@@ -22,6 +22,12 @@ A camera type that describes its basic characteristcs.
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public enum CameraType : System.Enum, System.ValueType, System.IComparable, System.ISpanFormattable, System.IFormattable, System.IConvertible
+```
+
+Assembly: Security_oM.dll
 
 The enum is defined in C#. The class definition is available on github:
 

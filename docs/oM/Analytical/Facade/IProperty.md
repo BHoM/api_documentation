@@ -2,7 +2,7 @@
 title: IProperty
 ---
 
-# Facade.IProperty
+# <small>BH.oM.</small>**IProperty**
 
 Base interface for all facade properties.
 
@@ -10,9 +10,9 @@ Base interface for all facade properties.
 
 ### Implemented interfaces and base types
 
-???+ bhom "The IProperty in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The IProperty is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 ## Properties
@@ -20,6 +20,12 @@ Base interface for all facade properties.
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public interface IProperty : BH.oM.Base.IObject
+```
+
+Assembly: Facade_oM.dll
 
 The interface is defined in C#. The class definition is available on github:
 

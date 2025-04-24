@@ -2,7 +2,7 @@
 title: Graph
 ---
 
-# Analytical.Graph.Graph
+# <small>BH.oM.Analytical.</small>**Graph**
 
 A set of IBHoMObject entities and the relations between them.
 
@@ -10,11 +10,11 @@ A set of IBHoMObject entities and the relations between them.
 
 ### Implemented interfaces and base types
 
-???+ bhom "The Graph in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The Graph is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
-    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
+    -  BH.oM.Base.[IBHoMObject](/api/oM/Framework/Base/Interface/IBHoMObject)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 ## Properties
@@ -27,7 +27,7 @@ The following properties are defined on the class
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| Entities | [Dictionary](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.Dictionary-2?view=netstandard-2.0)&lt;[Guid](https://learn.microsoft.com/en-us/dotnet/api/System.Guid?view=netstandard-2.0), [IBHoMObject](/api/oM/Framework/Base/IBHoMObject)&gt; | Dictionary of IBHoMObject entities. | - |
+| Entities | [Dictionary](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.Dictionary-2?view=netstandard-2.0)&lt;[Guid](https://learn.microsoft.com/en-us/dotnet/api/System.Guid?view=netstandard-2.0), [IBHoMObject](/api/oM/Framework/Base/Interface/IBHoMObject)&gt; | Dictionary of IBHoMObject entities. | - |
 | Relations | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[IRelation](/api/oM/Analytical/Analytical/Graph/IRelation)&gt; | Collection of relations between IBHoMObject entities. | - |
 
 
@@ -50,9 +50,9 @@ The following properties are defined as extension methods in one of the BHoM_Eng
 | Name             | Type             | Description      | Quantity         | Engine           |
 |------------------|------------------|------------------|------------------|------------------|
 | Adjacency | [Dictionary](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.Dictionary-2?view=netstandard-2.0)&lt;[Guid](https://learn.microsoft.com/en-us/dotnet/api/System.Guid?view=netstandard-2.0), [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[Guid](https://learn.microsoft.com/en-us/dotnet/api/System.Guid?view=netstandard-2.0)&gt;&gt; | Returns the adjacency dictionary for a Graph. | - | Analytical_Engine |
-| Entities | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)&gt; | Returns all the entities in a Graph as collection. | - | Analytical_Engine |
+| Entities | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[IBHoMObject](/api/oM/Framework/Base/Interface/IBHoMObject)&gt; | Returns all the entities in a Graph as collection. | - | Analytical_Engine |
 | EntityNeighbourhood | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[Graph](/api/oM/Analytical/Analytical/Graph/Graph)&gt; | Find all sub Graphs around all entities at maximum depth 1 within a Graph. | - | Analytical_Engine |
-| Geometry | [CompositeGeometry](/api/oM/Dimensional/Geometry/CompositeGeometry) | Gets the geometry of a Graph as its relation curve arrows. For relations between entities of IElement0D types and outmatic curve is created if it does not exist. Method required for automatic display in UI packages. | - | Analytical_Engine |
+| Geometry | [CompositeGeometry](/api/oM/Dimensional/Geometry/Misc/CompositeGeometry) | Gets the geometry of a Graph as its relation curve arrows. For relations between entities of IElement0D types and outmatic curve is created if it does not exist. Method required for automatic display in UI packages. | - | Analytical_Engine |
 | IsolatedEntities | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[Guid](https://learn.microsoft.com/en-us/dotnet/api/System.Guid?view=netstandard-2.0)&gt; | Returns the collection of entity Guids that are never used as Relation targets or sources. | - | Analytical_Engine |
 | NotSinks | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[Guid](https://learn.microsoft.com/en-us/dotnet/api/System.Guid?view=netstandard-2.0)&gt; | Returns the collection of entity Guids that are used as at least one Relation source. | - | Analytical_Engine |
 | Sinks | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[Guid](https://learn.microsoft.com/en-us/dotnet/api/System.Guid?view=netstandard-2.0)&gt; | Returns the collection of entity Guids that are never used a Relation source. | - | Analytical_Engine |
@@ -63,6 +63,12 @@ The following properties are defined as extension methods in one of the BHoM_Eng
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class Graph : BH.oM.Base.BHoMObject, BH.oM.Base.IBHoMObject, BH.oM.Base.IObject
+```
+
+Assembly: Analytical_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

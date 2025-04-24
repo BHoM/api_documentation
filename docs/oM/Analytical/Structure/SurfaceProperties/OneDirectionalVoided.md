@@ -2,7 +2,7 @@
 title: OneDirectionalVoided
 ---
 
-# Structure.SurfaceProperties.OneDirectionalVoided
+# <small>BH.oM.Structure.</small>**OneDirectionalVoided**
 
 Property for 2D analytical elements, made up of two slabs with parallel ribs running in one direction between them, all sharing the same material.
 
@@ -10,13 +10,13 @@ Property for 2D analytical elements, made up of two slabs with parallel ribs run
 
 ### Implemented interfaces and base types
 
-???+ bhom "The OneDirectionalVoided in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The OneDirectionalVoided is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
-    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
-    -  Structure.SurfaceProperties.[ISurfaceProperty](/api/oM/Analytical/Structure/SurfaceProperties/ISurfaceProperty)
-    -  Structure.[IProperty](/api/oM/Analytical/Structure/IProperty)
+    -  BH.oM.Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
+    -  BH.oM.Base.[IBHoMObject](/api/oM/Framework/Base/Interface/IBHoMObject)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
+    -  BH.oM.Structure.SurfaceProperties.[ISurfaceProperty](/api/oM/Analytical/Structure/SurfaceProperties/ISurfaceProperty)
+    -  BH.oM.Structure.[IProperty](/api/oM/Analytical/Structure/IProperty)
 
 
 ## Properties
@@ -33,11 +33,11 @@ The following properties are defined on the class
 | TopThickness | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | The thickness of the slab sitting on top of the ribs. | [Length](/api/oM/Dimensional/Quantities/Attributes/Length) [m] |
 | BottomThickness | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | The thickness of the slab sitting beneath the ribs. | [Length](/api/oM/Dimensional/Quantities/Attributes/Length) [m] |
 | Material | [IMaterialFragment](/api/oM/Analytical/Structure/MaterialFragments/IMaterialFragment) | Homogenous structural material throughout the full thickness of the element. | - |
-| Direction | [PanelDirection](/api/oM/Analytical/Structure/SurfaceProperties/PanelDirection) | Specifies if the ribs are running in local x or y direction. | - |
+| Direction | [PanelDirection](/api/oM/Analytical/Structure/SurfaceProperties/Enums/PanelDirection) | Specifies if the ribs are running in local x or y direction. | - |
 | TotalDepth | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Total depth measured from the bottom of the lower slab to the top of the upper slab | [Length](/api/oM/Dimensional/Quantities/Attributes/Length) [m] |
 | StemWidth | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Width of each rib. | [Length](/api/oM/Dimensional/Quantities/Attributes/Length) [m] |
 | Spacing | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Centre-centre distance between the ribs. Measured perpendicular to the rib direction. | [Length](/api/oM/Dimensional/Quantities/Attributes/Length) [m] |
-| PanelType | [PanelType](/api/oM/Analytical/Structure/SurfaceProperties/PanelType) | Defines what type of element this property will be used. Used by some analysis packages. | - |
+| PanelType | [PanelType](/api/oM/Analytical/Structure/SurfaceProperties/Enums/PanelType) | Defines what type of element this property will be used. Used by some analysis packages. | - |
 
 
 ### Inherited properties
@@ -69,7 +69,7 @@ The following properties are defined as extension methods in one of the BHoM_Eng
 | IsNull | [bool](https://learn.microsoft.com/en-us/dotnet/api/System.Boolean?view=netstandard-2.0) | Checks if a SurfaceProperty is null and outputs relevant error message. | - | Structure_Engine |
 | ITotalThickness | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Gets the total thickness of the surface property. | [Length](/api/oM/Dimensional/Quantities/Attributes/Length) [m] | Structure_Engine |
 | IVolumePerArea | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Gets the volume per area of the property for the purpose of calculating solid volume. | [Length](/api/oM/Dimensional/Quantities/Attributes/Length) [m] | Structure_Engine |
-| Modifiers | [Double[]](https://learn.microsoft.com/en-us/dotnet/api/System.Double[]?view=netstandard-2.0) | Gets any modifiers from a property as an array of doubles. The modifiers are used to scale one or more of the property constants for analysis. Constants are multiplied with the modifiers, hence a modifier value of 1 means no change. <br>The values returned are in the following order: FXX, FXY, FYY, MXX, MXY, MYY, VXZ, VYZ, Mass, Weight. Method returns null if no modifiers are found. | - | Structure_Engine |
+| Modifiers | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0)[] | Gets any modifiers from a property as an array of doubles. The modifiers are used to scale one or more of the property constants for analysis. Constants are multiplied with the modifiers, hence a modifier value of 1 means no change. <br>The values returned are in the following order: FXX, FXY, FYY, MXX, MXY, MYY, VXZ, VYZ, Mass, Weight. Method returns null if no modifiers are found. | - | Structure_Engine |
 | TotalThickness | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Gets the total thickness of the surface property. | [Length](/api/oM/Dimensional/Quantities/Attributes/Length) [m] | Structure_Engine |
 | VolumePerArea | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Gets the volume per area of the property for the purpose of calculating solid volume. | [Length](/api/oM/Dimensional/Quantities/Attributes/Length) [m] | Structure_Engine |
 
@@ -77,6 +77,16 @@ The following properties are defined as extension methods in one of the BHoM_Eng
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class OneDirectionalVoided : BH.oM.Base.BHoMObject,
+BH.oM.Base.IBHoMObject,
+BH.oM.Base.IObject,
+BH.oM.Structure.SurfaceProperties.ISurfaceProperty,
+BH.oM.Structure.IProperty
+```
+
+Assembly: Structure_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

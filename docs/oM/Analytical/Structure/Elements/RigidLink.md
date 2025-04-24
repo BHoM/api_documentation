@@ -2,7 +2,7 @@
 title: RigidLink
 ---
 
-# Structure.Elements.RigidLink
+# <small>BH.oM.Structure.</small>**RigidLink**
 
 A rigid link object defining rigid constraints between two or more nodes.
 
@@ -10,11 +10,11 @@ A rigid link object defining rigid constraints between two or more nodes.
 
 ### Implemented interfaces and base types
 
-???+ bhom "The RigidLink in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The RigidLink is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
-    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
+    -  BH.oM.Base.[IBHoMObject](/api/oM/Framework/Base/Interface/IBHoMObject)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 ## Properties
@@ -50,13 +50,19 @@ The following properties are defined as extension methods in one of the BHoM_Eng
 
 | Name             | Type             | Description      | Quantity         | Engine           |
 |------------------|------------------|------------------|------------------|------------------|
-| Geometry | [IGeometry](/api/oM/Dimensional/Geometry/IGeometry) | Gets the geometry of a RigidLink as a list of lines between the primary node and the secondary nodes. Method required for automatic display in UI packages. | - | Structure_Engine |
+| Geometry | [IGeometry](/api/oM/Dimensional/Geometry/Interface/IGeometry) | Gets the geometry of a RigidLink as a list of lines between the primary node and the secondary nodes. Method required for automatic display in UI packages. | - | Structure_Engine |
 | SplitRigidLink | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[RigidLink](/api/oM/Analytical/Structure/Elements/RigidLink)&gt; | Splits a RigidLink into one or more RigidLinks, each of which has exactly one SecondaryNode. | - | SAP2000_Engine |
 
 
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class RigidLink : BH.oM.Base.BHoMObject, BH.oM.Base.IBHoMObject, BH.oM.Base.IObject
+```
+
+Assembly: Structure_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

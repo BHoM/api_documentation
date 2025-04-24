@@ -2,7 +2,7 @@
 title: IFixtureFlow
 ---
 
-# MEP.Fixtures.IFixtureFlow
+# <small>BH.oM.MEP.</small>**IFixtureFlow**
 
 Base interface for all Fixture Flow objects. These objects are capable of containing a material or element that flows through the object.
 
@@ -10,17 +10,17 @@ Base interface for all Fixture Flow objects. These objects are capable of contai
 
 ### Implemented interfaces and base types
 
-???+ bhom "The IFixtureFlow in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The IFixtureFlow is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.Base.[IBHoMObject](/api/oM/Framework/Base/Interface/IBHoMObject)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - MEP.Fixtures.[PlumbingFixtureFlow](/api/oM/Analytical/MEP/Fixtures/PlumbingFixtureFlow)
+    - BH.oM.MEP.Fixtures.[PlumbingFixtureFlow](/api/oM/Analytical/MEP/Fixtures/PlumbingFixtureFlow)
 
 
 ## Properties
@@ -28,6 +28,12 @@ Base interface for all Fixture Flow objects. These objects are capable of contai
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public interface IFixtureFlow : BH.oM.Base.IBHoMObject, BH.oM.Base.IObject
+```
+
+Assembly: MEP_oM.dll
 
 The interface is defined in C#. The class definition is available on github:
 

@@ -2,7 +2,7 @@
 title: CvalueFocalMethodEnum
 ---
 
-# Humans.ViewQuality.CvalueFocalMethodEnum
+# <small>BH.oM.Humans.</small>**CvalueFocalMethodEnum**
 
 
 
@@ -20,6 +20,12 @@ title: CvalueFocalMethodEnum
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public enum CvalueFocalMethodEnum : System.Enum, System.ValueType, System.IComparable, System.ISpanFormattable, System.IFormattable, System.IConvertible
+```
+
+Assembly: Humans_oM.dll
 
 The enum is defined in C#. The class definition is available on github:
 

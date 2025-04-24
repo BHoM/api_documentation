@@ -2,7 +2,7 @@
 title: IEvaluationConfig
 ---
 
-# LifeCycleAssessment.Configs.IEvaluationConfig
+# <small>BH.oM.LifeCycleAssessment.</small>**IEvaluationConfig**
 
 Base interface for evaluation configs controling how metrics should be evaluated.
 
@@ -10,17 +10,17 @@ Base interface for evaluation configs controling how metrics should be evaluated
 
 ### Implemented interfaces and base types
 
-???+ bhom "The IEvaluationConfig in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The IEvaluationConfig is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.Base.[IBHoMObject](/api/oM/Framework/Base/Interface/IBHoMObject)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - LifeCycleAssessment.Configs.[IStructEEvaluationConfig](/api/oM/Analytical/LifeCycleAssessment/Configs/IStructEEvaluationConfig)
+    - BH.oM.LifeCycleAssessment.Configs.[IStructEEvaluationConfig](/api/oM/Analytical/LifeCycleAssessment/Configs/IStructEEvaluationConfig)
 
 
 ## Properties
@@ -28,6 +28,12 @@ Base interface for evaluation configs controling how metrics should be evaluated
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public interface IEvaluationConfig : BH.oM.Base.IBHoMObject, BH.oM.Base.IObject
+```
+
+Assembly: LifeCycleAssessment_oM.dll
 
 The interface is defined in C#. The class definition is available on github:
 

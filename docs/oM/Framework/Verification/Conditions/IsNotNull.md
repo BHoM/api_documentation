@@ -2,7 +2,7 @@
 title: IsNotNull
 ---
 
-# Verification.Conditions.IsNotNull
+# <small>BH.oM.Verification.</small>**IsNotNull**
 
 Condition that verifies whether an object is null.
 
@@ -10,10 +10,10 @@ Condition that verifies whether an object is null.
 
 ### Implemented interfaces and base types
 
-???+ bhom "The IsNotNull in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The IsNotNull is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Verification.Conditions.[ICondition](/api/oM/Framework/Verification/Conditions/ICondition)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.Verification.Conditions.[ICondition](/api/oM/Framework/Verification/Conditions/Interfaces/ICondition)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 ## Properties
@@ -24,12 +24,18 @@ The following properties are defined as extension methods in one of the BHoM_Eng
 
 | Name             | Type             | Description      | Quantity         | Engine           |
 |------------------|------------------|------------------|------------------|------------------|
-| INestedConditions | [IEnumerable](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IEnumerable-1?view=netstandard-2.0)&lt;[ICondition](/api/oM/Framework/Verification/Conditions/ICondition)&gt; | Extracts the conditions nested inside a given condition, e.g. conditions nested inside logical conditions. | - | Verification_Engine |
+| INestedConditions | [IEnumerable](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IEnumerable-1?view=netstandard-2.0)&lt;[ICondition](/api/oM/Framework/Verification/Conditions/Interfaces/ICondition)&gt; | Extracts the conditions nested inside a given condition, e.g. conditions nested inside logical conditions. | - | Verification_Engine |
 
 
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class IsNotNull : BH.oM.Verification.Conditions.ICondition, BH.oM.Base.IObject
+```
+
+Assembly: Verification_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

@@ -2,7 +2,7 @@
 title: PairOfEyes
 ---
 
-# Humans.BodyParts.PairOfEyes
+# <small>BH.oM.Humans.</small>**PairOfEyes**
 
 
 
@@ -10,10 +10,10 @@ title: PairOfEyes
 
 ### Implemented interfaces and base types
 
-???+ bhom "The PairOfEyes in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The PairOfEyes is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Humans.Interfaces.[IPointBodyPart](/api/oM/Physical/Humans/Interfaces/IPointBodyPart)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.Humans.Interfaces.[IPointBodyPart](/api/oM/Physical/Humans/Interfaces/IPointBodyPart)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 ## Properties
@@ -26,16 +26,22 @@ The following properties are defined on the class
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| TrackingPoint | [Point](/api/oM/Dimensional/Geometry/Point) | - | - |
+| TrackingPoint | [Point](/api/oM/Dimensional/Geometry/Vector/Point) | - | - |
 | LeftEye | [Eye](/api/oM/Physical/Humans/BodyParts/Eye) | - | - |
 | RightEye | [Eye](/api/oM/Physical/Humans/BodyParts/Eye) | - | - |
-| ReferenceLocation | [Point](/api/oM/Dimensional/Geometry/Point) | - | - |
-| ViewDirection | [Vector](/api/oM/Dimensional/Geometry/Vector) | - | - |
+| ReferenceLocation | [Point](/api/oM/Dimensional/Geometry/Vector/Point) | - | - |
+| ViewDirection | [Vector](/api/oM/Dimensional/Geometry/Vector/Vector) | - | - |
 
 
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class PairOfEyes : BH.oM.Humans.Interfaces.IPointBodyPart, BH.oM.Base.IObject
+```
+
+Assembly: Humans_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

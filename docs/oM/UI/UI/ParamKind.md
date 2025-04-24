@@ -2,7 +2,7 @@
 title: ParamKind
 ---
 
-# UI.ParamKind
+# <small>BH.oM.</small>**ParamKind**
 
 
 
@@ -18,6 +18,12 @@ title: ParamKind
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public enum ParamKind : System.Enum, System.ValueType, System.IComparable, System.ISpanFormattable, System.IFormattable, System.IConvertible
+```
+
+Assembly: UI_oM.dll
 
 The enum is defined in C#. The class definition is available on github:
 

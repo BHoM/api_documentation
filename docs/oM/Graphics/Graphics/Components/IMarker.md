@@ -2,7 +2,7 @@
 title: IMarker
 ---
 
-# Graphics.Components.IMarker
+# <small>BH.oM.Graphics.</small>**IMarker**
 
 Interface for arrow head markers.
 
@@ -10,17 +10,17 @@ Interface for arrow head markers.
 
 ### Implemented interfaces and base types
 
-???+ bhom "The IMarker in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The IMarker is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.Base.[IBHoMObject](/api/oM/Framework/Base/Interface/IBHoMObject)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Graphics.Components.[BasicArrowMarker](/api/oM/Graphics/Graphics/Components/BasicArrowMarker)
+    - BH.oM.Graphics.Components.[BasicArrowMarker](/api/oM/Graphics/Graphics/Components/BasicArrowMarker)
 
 
 ## Properties
@@ -28,6 +28,12 @@ Interface for arrow head markers.
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public interface IMarker : BH.oM.Base.IBHoMObject, BH.oM.Base.IObject
+```
+
+Assembly: Graphics_oM.dll
 
 The interface is defined in C#. The class definition is available on github:
 

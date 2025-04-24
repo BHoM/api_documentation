@@ -2,7 +2,7 @@
 title: InputOutputDifference
 ---
 
-# Test.Results.InputOutputDifference
+# <small>BH.oM.Test.</small>**InputOutputDifference**
 
 
 
@@ -10,15 +10,15 @@ title: InputOutputDifference
 
 ### Implemented interfaces and base types
 
-???+ bhom "The InputOutputDifference in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The InputOutputDifference is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Analytical.Results.[IObjectIdResult](/api/oM/Analytical/Analytical/Results/IObjectIdResult)
-    -  Analytical.Results.[IResult](/api/oM/Analytical/Analytical/Results/IResult)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
-    -  [IComparable](https://learn.microsoft.com/en-us/dotnet/api/System.IComparable-1?view=netstandard-2.0)&lt;Analytical.Results.[IResult](/api/oM/Analytical/Analytical/Results/IResult)&gt;
-    -  Base.[IImmutable](/api/oM/Framework/Base/IImmutable)
-    -  Analytical.Results.[ICasedResult](/api/oM/Analytical/Analytical/Results/ICasedResult)
-    -  Analytical.Results.[ITimeStepResult](/api/oM/Analytical/Analytical/Results/ITimeStepResult)
+    -  BH.oM.Analytical.Results.[IObjectIdResult](/api/oM/Analytical/Analytical/Results/IObjectIdResult)
+    -  BH.oM.Analytical.Results.[IResult](/api/oM/Analytical/Analytical/Results/IResult)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
+    -  [IComparable](https://learn.microsoft.com/en-us/dotnet/api/System.IComparable-1?view=netstandard-2.0)&lt;BH.oM.Analytical.Results.[IResult](/api/oM/Analytical/Analytical/Results/IResult)&gt;
+    -  BH.oM.Base.[IImmutable](/api/oM/Framework/Base/Interface/IImmutable)
+    -  BH.oM.Analytical.Results.[ICasedResult](/api/oM/Analytical/Analytical/Results/ICasedResult)
+    -  BH.oM.Analytical.Results.[ITimeStepResult](/api/oM/Analytical/Analytical/Results/ITimeStepResult)
 
 
 ## Properties
@@ -55,6 +55,18 @@ The following properties are defined as extension methods in one of the BHoM_Eng
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class InputOutputDifference : BH.oM.Analytical.Results.IObjectIdResult,
+BH.oM.Analytical.Results.IResult,
+BH.oM.Base.IObject,
+System.IComparable<BH.oM.Analytical.Results.IResult>,
+BH.oM.Base.IImmutable,
+BH.oM.Analytical.Results.ICasedResult,
+BH.oM.Analytical.Results.ITimeStepResult
+```
+
+Assembly: Test_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

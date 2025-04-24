@@ -2,7 +2,7 @@
 title: Graph
 ---
 
-# DeepLearning.Models.Graph
+# <small>BH.oM.DeepLearning.</small>**Graph**
 
 
 
@@ -10,11 +10,11 @@ title: Graph
 
 ### Implemented interfaces and base types
 
-???+ bhom "The Graph in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The Graph is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
-    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
+    -  BH.oM.Base.[IBHoMObject](/api/oM/Framework/Base/Interface/IBHoMObject)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 ## Properties
@@ -27,7 +27,7 @@ The following properties are defined on the class
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| Modules | [Tree](/api/oM/Framework/Data/Collections/Tree%601)&lt;[IModule](/api/oM/Framework/DeepLearning/IModule)&gt; | - | - |
+| Modules | [Tree](/api/oM/Framework/Data/Collections/Tree)&lt;[IModule](/api/oM/Framework/DeepLearning/IModule)&gt; | - | - |
 
 
 ### Inherited properties
@@ -45,6 +45,12 @@ The following properties are inherited from the base class of the object
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class Graph : BH.oM.Base.BHoMObject, BH.oM.Base.IBHoMObject, BH.oM.Base.IObject
+```
+
+Assembly: DeepLearning_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

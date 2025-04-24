@@ -2,7 +2,7 @@
 title: InputOutputComparison
 ---
 
-# Test.Results.InputOutputComparison
+# <small>BH.oM.Test.</small>**InputOutputComparison**
 
 
 
@@ -10,13 +10,13 @@ title: InputOutputComparison
 
 ### Implemented interfaces and base types
 
-???+ bhom "The InputOutputComparison in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The InputOutputComparison is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Analytical.Results.[IResultCollection](/api/oM/Analytical/Analytical/Results/IResultCollection%601)&lt;Test.Results.[InputOutputDifference](/api/oM/Framework/Test/Results/InputOutputDifference)&gt;
-    -  Analytical.Results.[IResult](/api/oM/Analytical/Analytical/Results/IResult)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
-    -  [IComparable](https://learn.microsoft.com/en-us/dotnet/api/System.IComparable-1?view=netstandard-2.0)&lt;Analytical.Results.[IResult](/api/oM/Analytical/Analytical/Results/IResult)&gt;
-    -  Base.[IImmutable](/api/oM/Framework/Base/IImmutable)
+    -  BH.oM.Analytical.Results.[IResultCollection](/api/oM/Analytical/Analytical/Results/IResultCollection)&lt;BH.oM.Test.Results.[InputOutputDifference](/api/oM/Framework/Test/Results/InputOutputDifference)&gt;
+    -  BH.oM.Analytical.Results.[IResult](/api/oM/Analytical/Analytical/Results/IResult)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
+    -  [IComparable](https://learn.microsoft.com/en-us/dotnet/api/System.IComparable-1?view=netstandard-2.0)&lt;BH.oM.Analytical.Results.[IResult](/api/oM/Analytical/Analytical/Results/IResult)&gt;
+    -  BH.oM.Base.[IImmutable](/api/oM/Framework/Base/Interface/IImmutable)
 
 
 ## Properties
@@ -32,7 +32,7 @@ The following properties are defined on the class
 | ObjectId | [IComparable](https://learn.microsoft.com/en-us/dotnet/api/System.IComparable?view=netstandard-2.0) | The hash of the item being evaluated | - |
 | ResultCase | [IComparable](https://learn.microsoft.com/en-us/dotnet/api/System.IComparable?view=netstandard-2.0) | The set the result belongs to. | - |
 | ObjectType | [Type](https://learn.microsoft.com/en-us/dotnet/api/System.Type?view=netstandard-2.0) | The type of the object being evaluated. | - |
-| ResultType | [InputOutputComparisonType](/api/oM/Framework/Test/Results/InputOutputComparisonType) | - | - |
+| ResultType | [InputOutputComparisonType](/api/oM/Framework/Test/Results/Enums/InputOutputComparisonType) | - | - |
 | Results | [IReadOnlyList](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IReadOnlyList-1?view=netstandard-2.0)&lt;[InputOutputDifference](/api/oM/Framework/Test/Results/InputOutputDifference)&gt; | Any differences between the input object and the returned object. | - |
 | TimeStep | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Time of the results creation as OADate | - |
 
@@ -52,6 +52,16 @@ The following properties are defined as extension methods in one of the BHoM_Eng
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class InputOutputComparison : BH.oM.Analytical.Results.IResultCollection<BH.oM.Test.Results.InputOutputDifference>,
+BH.oM.Analytical.Results.IResult,
+BH.oM.Base.IObject,
+System.IComparable<BH.oM.Analytical.Results.IResult>,
+BH.oM.Base.IImmutable
+```
+
+Assembly: Test_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

@@ -2,7 +2,7 @@
 title: WeatherFile
 ---
 
-# Environment.Climate.WeatherFile
+# <small>BH.oM.Environment.</small>**WeatherFile**
 
 
 
@@ -10,11 +10,11 @@ title: WeatherFile
 
 ### Implemented interfaces and base types
 
-???+ bhom "The WeatherFile in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The WeatherFile is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
-    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
+    -  BH.oM.Base.[IBHoMObject](/api/oM/Framework/Base/Interface/IBHoMObject)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 ## Properties
@@ -85,6 +85,12 @@ The following properties are inherited from the base class of the object
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class WeatherFile : BH.oM.Base.BHoMObject, BH.oM.Base.IBHoMObject, BH.oM.Base.IObject
+```
+
+Assembly: Environment_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

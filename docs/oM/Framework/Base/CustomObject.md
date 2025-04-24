@@ -2,7 +2,7 @@
 title: CustomObject
 ---
 
-# Base.CustomObject
+# <small>BH.oM.</small>**CustomObject**
 
 
 
@@ -10,11 +10,11 @@ title: CustomObject
 
 ### Implemented interfaces and base types
 
-???+ bhom "The CustomObject in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The CustomObject is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
-    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
+    -  BH.oM.Base.[IBHoMObject](/api/oM/Framework/Base/Interface/IBHoMObject)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 ## Properties
@@ -37,14 +37,20 @@ The following properties are defined as extension methods in one of the BHoM_Eng
 
 | Name             | Type             | Description      | Quantity         | Engine           |
 |------------------|------------------|------------------|------------------|------------------|
-| Geometry | [IGeometry](/api/oM/Dimensional/Geometry/IGeometry) | - | - | BHoM_Engine |
-| Geometry3D | [IGeometry](/api/oM/Dimensional/Geometry/IGeometry) | Queries a three-dimensional geometry out of each value stored in a CustomObject's CustomData dictionary.If multiple geometries are obtained, they are combined into a single CompositeGeometry. | - | BHoM_Engine |
+| Geometry | [IGeometry](/api/oM/Dimensional/Geometry/Interface/IGeometry) | - | - | BHoM_Engine |
+| Geometry3D | [IGeometry](/api/oM/Dimensional/Geometry/Interface/IGeometry) | Queries a three-dimensional geometry out of each value stored in a CustomObject's CustomData dictionary.If multiple geometries are obtained, they are combined into a single CompositeGeometry. | - | BHoM_Engine |
 | PropertyDictionary | [Dictionary](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.Dictionary-2?view=netstandard-2.0)&lt;[string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0), [object](https://learn.microsoft.com/en-us/dotnet/api/System.Object?view=netstandard-2.0)&gt; | - | - | Reflection_Engine |
 
 
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class CustomObject : BH.oM.Base.BHoMObject, BH.oM.Base.IBHoMObject, BH.oM.Base.IObject
+```
+
+Assembly: BHoM.dll
 
 The class is defined in C#. The class definition is available on github:
 

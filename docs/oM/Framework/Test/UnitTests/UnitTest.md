@@ -2,7 +2,7 @@
 title: UnitTest
 ---
 
-# Test.UnitTests.UnitTest
+# <small>BH.oM.Test.</small>**UnitTest**
 
 Defines a data-driven unit test for a specific method. Class defines inputs, method to be run and expected output.
 
@@ -10,11 +10,11 @@ Defines a data-driven unit test for a specific method. Class defines inputs, met
 
 ### Implemented interfaces and base types
 
-???+ bhom "The UnitTest in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The UnitTest is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
-    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
+    -  BH.oM.Base.[IBHoMObject](/api/oM/Framework/Base/Interface/IBHoMObject)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 ## Properties
@@ -46,6 +46,12 @@ The following properties are inherited from the base class of the object
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class UnitTest : BH.oM.Base.BHoMObject, BH.oM.Base.IBHoMObject, BH.oM.Base.IObject
+```
+
+Assembly: Test_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

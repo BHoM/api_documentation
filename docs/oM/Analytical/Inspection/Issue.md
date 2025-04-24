@@ -2,7 +2,7 @@
 title: Issue
 ---
 
-# Inspection.Issue
+# <small>BH.oM.</small>**Issue**
 
 An issue belonging to an audit
 
@@ -10,11 +10,11 @@ An issue belonging to an audit
 
 ### Implemented interfaces and base types
 
-???+ bhom "The Issue in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The Issue is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
-    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
+    -  BH.oM.Base.[IBHoMObject](/api/oM/Framework/Base/Interface/IBHoMObject)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 ## Properties
@@ -36,7 +36,7 @@ The following properties are defined on the class
 | Type | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | Issue type (eg For Information) | - |
 | Description | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | The scope and nature of the issue | - |
 | Media | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0)&gt; | Filenames of the images associated with the issue.These must include the file extension. | - |
-| Position | [Point](/api/oM/Dimensional/Geometry/Point) | Location of the issue in 3D space in terms of the project's coordinate system | - |
+| Position | [Point](/api/oM/Dimensional/Geometry/Vector/Point) | Location of the issue in 3D space in terms of the project's coordinate system | - |
 | Comments | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[Comment](/api/oM/Analytical/Inspection/Comment)&gt; | List of comments made on the issue, identifying either the nature of the issue, the actions being taken to resolve the issue, or the approval / rejection of actions taken. | - |
 | AuditID | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | Unique ID of Audit the Issue was originally recorded within. | - |
 
@@ -56,6 +56,12 @@ The following properties are inherited from the base class of the object
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class Issue : BH.oM.Base.BHoMObject, BH.oM.Base.IBHoMObject, BH.oM.Base.IObject
+```
+
+Assembly: Inspection_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

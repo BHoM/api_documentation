@@ -2,7 +2,7 @@
 title: RightUpperArm
 ---
 
-# Humans.BodyParts.RightUpperArm
+# <small>BH.oM.Humans.</small>**RightUpperArm**
 
 
 
@@ -10,10 +10,10 @@ title: RightUpperArm
 
 ### Implemented interfaces and base types
 
-???+ bhom "The RightUpperArm in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The RightUpperArm is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Humans.Interfaces.[ILineBodyPart](/api/oM/Physical/Humans/Interfaces/ILineBodyPart)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.Humans.Interfaces.[ILineBodyPart](/api/oM/Physical/Humans/Interfaces/ILineBodyPart)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 ## Properties
@@ -26,12 +26,18 @@ The following properties are defined on the class
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| TrackingLine | [Line](/api/oM/Dimensional/Geometry/Line) | - | - |
+| TrackingLine | [Line](/api/oM/Dimensional/Geometry/Curve/Line) | - | - |
 
 
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class RightUpperArm : BH.oM.Humans.Interfaces.ILineBodyPart, BH.oM.Base.IObject
+```
+
+Assembly: Humans_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

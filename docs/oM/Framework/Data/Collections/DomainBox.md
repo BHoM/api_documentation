@@ -2,7 +2,7 @@
 title: DomainBox
 ---
 
-# Data.Collections.DomainBox
+# <small>BH.oM.Data.</small>**DomainBox**
 
 A multidimensional domain, defined by the minimum and maximum values in each dimension, enclosing a hypercube.
 
@@ -10,9 +10,9 @@ A multidimensional domain, defined by the minimum and maximum values in each dim
 
 ### Implemented interfaces and base types
 
-???+ bhom "The DomainBox in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The DomainBox is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 ## Properties
@@ -25,12 +25,18 @@ The following properties are defined on the class
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| Domains | [Domain[]](/api/oM/Framework/Data/Collections/Domain[]) | Array containing the domain for each dimension. | - |
+| Domains | [Domain](/api/oM/Framework/Data/Collections/Domain)[] | Array containing the domain for each dimension. | - |
 
 
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class DomainBox : BH.oM.Base.IObject
+```
+
+Assembly: Data_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

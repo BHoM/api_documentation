@@ -2,7 +2,7 @@
 title: EventType
 ---
 
-# Base.Debugging.EventType
+# <small>BH.oM.Base.</small>**EventType**
 
 
 
@@ -19,6 +19,12 @@ title: EventType
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public enum EventType : System.Enum, System.ValueType, System.IComparable, System.ISpanFormattable, System.IFormattable, System.IConvertible
+```
+
+Assembly: BHoM.dll
 
 The enum is defined in C#. The class definition is available on github:
 

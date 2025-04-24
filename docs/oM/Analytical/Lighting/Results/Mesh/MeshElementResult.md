@@ -2,7 +2,7 @@
 title: MeshElementResult
 ---
 
-# Lighting.Results.Mesh.MeshElementResult
+# <small>BH.oM.Lighting.Results.</small>**MeshElementResult**
 
 Base class for all discrete mesh element results, that is a result for an individual node. Stores all identifier information and how to sort the results in a collection
 
@@ -10,23 +10,23 @@ Base class for all discrete mesh element results, that is a result for an indivi
 
 ### Implemented interfaces and base types
 
-???+ bhom "The MeshElementResult in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The MeshElementResult is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Analytical.Results.[IMeshElementResult](/api/oM/Analytical/Analytical/Results/IMeshElementResult)
-    -  Analytical.Results.[IResult](/api/oM/Analytical/Analytical/Results/IResult)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
-    -  [IComparable](https://learn.microsoft.com/en-us/dotnet/api/System.IComparable-1?view=netstandard-2.0)&lt;Analytical.Results.[IResult](/api/oM/Analytical/Analytical/Results/IResult)&gt;
-    -  Base.[IImmutable](/api/oM/Framework/Base/IImmutable)
-    -  Analytical.Results.[IObjectIdResult](/api/oM/Analytical/Analytical/Results/IObjectIdResult)
-    -  Analytical.Results.[ICasedResult](/api/oM/Analytical/Analytical/Results/ICasedResult)
-    -  Analytical.Results.[IResultSeries](/api/oM/Analytical/Analytical/Results/IResultSeries)
+    -  BH.oM.Analytical.Results.[IMeshElementResult](/api/oM/Analytical/Analytical/Results/IMeshElementResult)
+    -  BH.oM.Analytical.Results.[IResult](/api/oM/Analytical/Analytical/Results/IResult)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
+    -  [IComparable](https://learn.microsoft.com/en-us/dotnet/api/System.IComparable-1?view=netstandard-2.0)&lt;BH.oM.Analytical.Results.[IResult](/api/oM/Analytical/Analytical/Results/IResult)&gt;
+    -  BH.oM.Base.[IImmutable](/api/oM/Framework/Base/Interface/IImmutable)
+    -  BH.oM.Analytical.Results.[IObjectIdResult](/api/oM/Analytical/Analytical/Results/IObjectIdResult)
+    -  BH.oM.Analytical.Results.[ICasedResult](/api/oM/Analytical/Analytical/Results/ICasedResult)
+    -  BH.oM.Analytical.Results.[IResultSeries](/api/oM/Analytical/Analytical/Results/IResultSeries)
 
 
 ### Classes inheriting from this class
 
 ???+ bhom "The following classes are inheriting from this class:"
 
-    - Lighting.Results.Illuminance.[Lux](/api/oM/Analytical/Lighting/Results/Illuminance/Lux)
+    - BH.oM.Lighting.Results.Illuminance.[Lux](/api/oM/Analytical/Lighting/Results/Illuminance/Lux)
 
 
 ## Properties
@@ -61,7 +61,20 @@ The following properties are defined as extension methods in one of the BHoM_Eng
 
 ### C# implementation
 
-The class is defined in C#. The class definition is available on github:
+``` C# title="C#"
+public abstract class MeshElementResult : BH.oM.Analytical.Results.IMeshElementResult,
+BH.oM.Analytical.Results.IResult,
+BH.oM.Base.IObject,
+System.IComparable<BH.oM.Analytical.Results.IResult>,
+BH.oM.Base.IImmutable,
+BH.oM.Analytical.Results.IObjectIdResult,
+BH.oM.Analytical.Results.ICasedResult,
+BH.oM.Analytical.Results.IResultSeries
+```
+
+Assembly: Lighting_oM.dll
+
+The abstract class is defined in C#. The class definition is available on github:
 
 - [MeshElementResult.cs](https://github.com/BHoM/BHoM/blob/develop/Lighting_oM/Results\Mesh\MeshElementResult.cs)
 

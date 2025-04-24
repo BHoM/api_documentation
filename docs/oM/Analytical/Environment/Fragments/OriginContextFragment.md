@@ -2,7 +2,7 @@
 title: OriginContextFragment
 ---
 
-# Environment.Fragments.OriginContextFragment
+# <small>BH.oM.Environment.</small>**OriginContextFragment**
 
 Fragment containing the origin context property such as Element ID or Type
 
@@ -10,10 +10,10 @@ Fragment containing the origin context property such as Element ID or Type
 
 ### Implemented interfaces and base types
 
-???+ bhom "The OriginContextFragment in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The OriginContextFragment is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IFragment](/api/oM/Framework/Base/IFragment)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.Base.[IFragment](/api/oM/Framework/Base/Interface/IFragment)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 ## Properties
@@ -35,6 +35,12 @@ The following properties are defined on the class
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class OriginContextFragment : BH.oM.Base.IFragment, BH.oM.Base.IObject
+```
+
+Assembly: Environment_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

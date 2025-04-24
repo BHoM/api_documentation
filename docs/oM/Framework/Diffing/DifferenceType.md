@@ -2,7 +2,7 @@
 title: DifferenceType
 ---
 
-# Diffing.DifferenceType
+# <small>BH.oM.</small>**DifferenceType**
 
 Specifies various kinds of Differences. It can be useful to mark and filter specific implementations of IPropertyDifferences.
 
@@ -18,6 +18,12 @@ Specifies various kinds of Differences. It can be useful to mark and filter spec
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public enum DifferenceType : System.Enum, System.ValueType, System.IComparable, System.ISpanFormattable, System.IFormattable, System.IConvertible
+```
+
+Assembly: Diffing_oM.dll
 
 The enum is defined in C#. The class definition is available on github:
 

@@ -2,7 +2,7 @@
 title: DuctMaterial
 ---
 
-# MEP.System.MaterialFragments.DuctMaterial
+# <small>BH.oM.MEP.System.</small>**DuctMaterial**
 
 
 
@@ -10,13 +10,13 @@ title: DuctMaterial
 
 ### Implemented interfaces and base types
 
-???+ bhom "The DuctMaterial in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The DuctMaterial is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
-    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
-    -  MEP.System.MaterialFragments.[IMEPMaterial](/api/oM/Analytical/MEP/System/MaterialFragments/IMEPMaterial)
-    -  Physical.Materials.[IMaterialProperties](/api/oM/Physical/Physical/Materials/IMaterialProperties)
+    -  BH.oM.Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
+    -  BH.oM.Base.[IBHoMObject](/api/oM/Framework/Base/Interface/IBHoMObject)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
+    -  BH.oM.MEP.System.MaterialFragments.[IMEPMaterial](/api/oM/Analytical/MEP/System/MaterialFragments/IMEPMaterial)
+    -  BH.oM.Physical.Materials.[IMaterialProperties](/api/oM/Physical/Physical/Materials/IMaterialProperties)
 
 
 ## Properties
@@ -47,6 +47,16 @@ The following properties are inherited from the base class of the object
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class DuctMaterial : BH.oM.Base.BHoMObject,
+BH.oM.Base.IBHoMObject,
+BH.oM.Base.IObject,
+BH.oM.MEP.System.MaterialFragments.IMEPMaterial,
+BH.oM.Physical.Materials.IMaterialProperties
+```
+
+Assembly: MEP_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

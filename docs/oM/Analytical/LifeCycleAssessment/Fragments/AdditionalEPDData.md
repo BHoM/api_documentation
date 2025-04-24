@@ -2,7 +2,7 @@
 title: AdditionalEPDData
 ---
 
-# LifeCycleAssessment.Fragments.AdditionalEPDData
+# <small>BH.oM.LifeCycleAssessment.</small>**AdditionalEPDData**
 
 A data fragment containing other optional information regarding the production and documentation of any Environmental Product Declaration. 
 Use AddFragment() to combine this information with any EPD for continuous integration.
@@ -11,10 +11,10 @@ Use AddFragment() to combine this information with any EPD for continuous integr
 
 ### Implemented interfaces and base types
 
-???+ bhom "The AdditionalEPDData in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The AdditionalEPDData is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IFragment](/api/oM/Framework/Base/IFragment)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.Base.[IFragment](/api/oM/Framework/Base/Interface/IFragment)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 ## Properties
@@ -43,6 +43,12 @@ The following properties are defined on the class
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class AdditionalEPDData : BH.oM.Base.IFragment, BH.oM.Base.IObject
+```
+
+Assembly: LifeCycleAssessment_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

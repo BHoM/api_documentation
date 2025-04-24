@@ -2,7 +2,7 @@
 title: ElectricalEquipmentType
 ---
 
-# MEP.Enums.ElectricalEquipmentType
+# <small>BH.oM.MEP.</small>**ElectricalEquipmentType**
 
 A type of electrical equipment (switchgear, panelboard, transformer.)
 
@@ -24,6 +24,12 @@ A type of electrical equipment (switchgear, panelboard, transformer.)
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public enum ElectricalEquipmentType : System.Enum, System.ValueType, System.IComparable, System.ISpanFormattable, System.IFormattable, System.IConvertible
+```
+
+Assembly: MEP_oM.dll
 
 The enum is defined in C#. The class definition is available on github:
 

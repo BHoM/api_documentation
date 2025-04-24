@@ -2,7 +2,7 @@
 title: PsiGlassEdge
 ---
 
-# Facade.Fragments.PsiGlassEdge
+# <small>BH.oM.Facade.</small>**PsiGlassEdge**
 
 A Psi value representing the linear thermal bridging value in W/m2 at a glass to frame edge interface.
 
@@ -10,10 +10,10 @@ A Psi value representing the linear thermal bridging value in W/m2 at a glass to
 
 ### Implemented interfaces and base types
 
-???+ bhom "The PsiGlassEdge in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The PsiGlassEdge is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IFragment](/api/oM/Framework/Base/IFragment)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.Base.[IFragment](/api/oM/Framework/Base/Interface/IFragment)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 ## Properties
@@ -32,6 +32,12 @@ The following properties are defined on the class
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class PsiGlassEdge : BH.oM.Base.IFragment, BH.oM.Base.IObject
+```
+
+Assembly: Facade_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

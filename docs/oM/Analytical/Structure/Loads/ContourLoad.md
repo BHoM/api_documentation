@@ -2,7 +2,7 @@
 title: ContourLoad
 ---
 
-# Structure.Loads.ContourLoad
+# <small>BH.oM.Structure.</small>**ContourLoad**
 
 Load to be applied over a region defined by a closed planar Polyline.
 
@@ -10,12 +10,12 @@ Load to be applied over a region defined by a closed planar Polyline.
 
 ### Implemented interfaces and base types
 
-???+ bhom "The ContourLoad in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The ContourLoad is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
-    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
-    -  Structure.Loads.[ILoad](/api/oM/Analytical/Structure/Loads/ILoad)
+    -  BH.oM.Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
+    -  BH.oM.Base.[IBHoMObject](/api/oM/Framework/Base/Interface/IBHoMObject)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
+    -  BH.oM.Structure.Loads.[ILoad](/api/oM/Analytical/Structure/Loads/ILoad)
 
 
 ## Properties
@@ -29,10 +29,10 @@ The following properties are defined on the class
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
 | Loadcase | [Loadcase](/api/oM/Analytical/Structure/Loads/Loadcase) | The Loadcase in which the load is applied. | - |
-| Axis | [LoadAxis](/api/oM/Analytical/Structure/Loads/LoadAxis) | Defines whether the load is applied in local or global coordinates. | - |
+| Axis | [LoadAxis](/api/oM/Analytical/Structure/Loads/Enums/LoadAxis) | Defines whether the load is applied in local or global coordinates. | - |
 | Projected | [bool](https://learn.microsoft.com/en-us/dotnet/api/System.Boolean?view=netstandard-2.0) | If true the load is projected to the region. | - |
-| Force | [Vector](/api/oM/Dimensional/Geometry/Vector) | Force per area to be applied to the region. | [Pressure](/api/oM/Dimensional/Quantities/Attributes/Pressure) [Pa] |
-| Contour | [Polyline](/api/oM/Dimensional/Geometry/Polyline) | Closed planar polyline enclosing the region to be loaded. | - |
+| Force | [Vector](/api/oM/Dimensional/Geometry/Vector/Vector) | Force per area to be applied to the region. | [Pressure](/api/oM/Dimensional/Quantities/Attributes/Pressure) [Pa] |
+| Contour | [Polyline](/api/oM/Dimensional/Geometry/Curve/Polyline) | Closed planar polyline enclosing the region to be loaded. | - |
 
 
 ### Inherited properties
@@ -54,13 +54,19 @@ The following properties are defined as extension methods in one of the BHoM_Eng
 | Name             | Type             | Description      | Quantity         | Engine           |
 |------------------|------------------|------------------|------------------|------------------|
 | IsNull | [bool](https://learn.microsoft.com/en-us/dotnet/api/System.Boolean?view=netstandard-2.0) | Checks if a Load is null and outputs relevant error message. | - | Structure_Engine |
-| IVisualize | [IEnumerable](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IEnumerable-1?view=netstandard-2.0)&lt;[IGeometry](/api/oM/Dimensional/Geometry/IGeometry)&gt; | Draws arrows representing the load. Visualisation will depend on the load type. | - | Structure_Engine |
-| Visualize | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[ICurve](/api/oM/Dimensional/Geometry/ICurve)&gt; | Draws arrows representing the load along the edges of the contour of the load. | - | Structure_Engine |
+| IVisualize | [IEnumerable](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IEnumerable-1?view=netstandard-2.0)&lt;[IGeometry](/api/oM/Dimensional/Geometry/Interface/IGeometry)&gt; | Draws arrows representing the load. Visualisation will depend on the load type. | - | Structure_Engine |
+| Visualize | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[ICurve](/api/oM/Dimensional/Geometry/Curve/ICurve)&gt; | Draws arrows representing the load along the edges of the contour of the load. | - | Structure_Engine |
 
 
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class ContourLoad : BH.oM.Base.BHoMObject, BH.oM.Base.IBHoMObject, BH.oM.Base.IObject, BH.oM.Structure.Loads.ILoad
+```
+
+Assembly: Structure_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

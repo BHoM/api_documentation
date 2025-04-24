@@ -2,7 +2,7 @@
 title: ScaleOrdinal
 ---
 
-# Graphics.Scales.ScaleOrdinal
+# <small>BH.oM.Graphics.</small>**ScaleOrdinal**
 
 Scale for mapping from a discrete input domain to a discrete output range.
 
@@ -10,10 +10,10 @@ Scale for mapping from a discrete input domain to a discrete output range.
 
 ### Implemented interfaces and base types
 
-???+ bhom "The ScaleOrdinal in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The ScaleOrdinal is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Graphics.Scales.[IScale](/api/oM/Graphics/Graphics/Scales/IScale)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.Graphics.Scales.[IScale](/api/oM/Graphics/Graphics/Scales/IScale)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 ## Properties
@@ -34,6 +34,12 @@ The following properties are defined on the class
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class ScaleOrdinal : BH.oM.Graphics.Scales.IScale, BH.oM.Base.IObject
+```
+
+Assembly: Graphics_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

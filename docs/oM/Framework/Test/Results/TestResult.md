@@ -2,7 +2,7 @@
 title: TestResult
 ---
 
-# Test.Results.TestResult
+# <small>BH.oM.Test.</small>**TestResult**
 
 
 
@@ -10,10 +10,10 @@ title: TestResult
 
 ### Implemented interfaces and base types
 
-???+ bhom "The TestResult in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The TestResult is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Test.[ITestInformation](/api/oM/Framework/Test/ITestInformation)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.Test.[ITestInformation](/api/oM/Framework/Test/ITestInformation)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 ## Properties
@@ -40,7 +40,7 @@ The following properties are defined as extension methods in one of the BHoM_Eng
 
 | Name             | Type             | Description      | Quantity         | Engine           |
 |------------------|------------------|------------------|------------------|------------------|
-| ExceptionProperties | [Output](/api/oM/Framework/Base/Output%603)&lt;[List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0)&gt;, [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0)&gt;, [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0)&gt;&gt; | Finds all properties reported and dispatches to output corresponding to error, warning and passes. | - | InteroperabilityTest_Engine |
+| ExceptionProperties | [Output](/api/oM/Framework/Base/Output)&lt;[List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0)&gt;, [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0)&gt;, [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0)&gt;&gt; | Finds all properties reported and dispatches to output corresponding to error, warning and passes. | - | InteroperabilityTest_Engine |
 | ExceptionProperties | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | Finds all properties reported and groups them by status level and returns a string containing all reported properties. | - | InteroperabilityTest_Engine |
 | FullMessage | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | Returns a full concatenated message for a test result and its inner result to the target max depth, only giving messages worse or equal to the provided severity level. | - | Test_Engine |
 | IFullMessage | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | - | - | Test_Engine |
@@ -56,6 +56,12 @@ The following properties are defined as extension methods in one of the BHoM_Eng
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class TestResult : BH.oM.Test.ITestInformation, BH.oM.Base.IObject
+```
+
+Assembly: Test_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

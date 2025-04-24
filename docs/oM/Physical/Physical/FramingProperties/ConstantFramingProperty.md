@@ -2,7 +2,7 @@
 title: ConstantFramingProperty
 ---
 
-# Physical.FramingProperties.ConstantFramingProperty
+# <small>BH.oM.Physical.</small>**ConstantFramingProperty**
 
 
 
@@ -10,12 +10,12 @@ title: ConstantFramingProperty
 
 ### Implemented interfaces and base types
 
-???+ bhom "The ConstantFramingProperty in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The ConstantFramingProperty is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
-    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
-    -  Physical.FramingProperties.[IFramingElementProperty](/api/oM/Physical/Physical/FramingProperties/IFramingElementProperty)
+    -  BH.oM.Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
+    -  BH.oM.Base.[IBHoMObject](/api/oM/Framework/Base/Interface/IBHoMObject)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
+    -  BH.oM.Physical.FramingProperties.[IFramingElementProperty](/api/oM/Physical/Physical/FramingProperties/IFramingElementProperty)
 
 
 ## Properties
@@ -59,6 +59,12 @@ The following properties are defined as extension methods in one of the BHoM_Eng
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class ConstantFramingProperty : BH.oM.Base.BHoMObject, BH.oM.Base.IBHoMObject, BH.oM.Base.IObject, BH.oM.Physical.FramingProperties.IFramingElementProperty
+```
+
+Assembly: Physical_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

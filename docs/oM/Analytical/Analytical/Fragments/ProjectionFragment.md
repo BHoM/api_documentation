@@ -2,7 +2,7 @@
 title: ProjectionFragment
 ---
 
-# Analytical.Fragments.ProjectionFragment
+# <small>BH.oM.Analytical.</small>**ProjectionFragment**
 
 Fragment used to define entity projection metadata.
 
@@ -10,11 +10,11 @@ Fragment used to define entity projection metadata.
 
 ### Implemented interfaces and base types
 
-???+ bhom "The ProjectionFragment in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The ProjectionFragment is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Analytical.Fragments.[IProjectionFragment](/api/oM/Analytical/Analytical/Fragments/IProjectionFragment)
-    -  Base.[IFragment](/api/oM/Framework/Base/IFragment)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.Analytical.Fragments.[IProjectionFragment](/api/oM/Analytical/Analytical/Fragments/IProjectionFragment)
+    -  BH.oM.Base.[IFragment](/api/oM/Framework/Base/Interface/IFragment)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 ## Properties
@@ -33,6 +33,12 @@ The following properties are defined on the class
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class ProjectionFragment : BH.oM.Analytical.Fragments.IProjectionFragment, BH.oM.Base.IFragment, BH.oM.Base.IObject
+```
+
+Assembly: Analytical_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

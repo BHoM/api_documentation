@@ -2,7 +2,7 @@
 title: Specification
 ---
 
-# Verification.Specifications.Specification
+# <small>BH.oM.Verification.</small>**Specification**
 
 A top level object in verification workflow. Contains the information about the whole workflow, from extraction, to checking, to reporting.
 
@@ -10,12 +10,12 @@ A top level object in verification workflow. Contains the information about the 
 
 ### Implemented interfaces and base types
 
-???+ bhom "The Specification in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The Specification is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
-    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
-    -  Base.[ISpecification](/api/oM/Framework/Base/ISpecification)
+    -  BH.oM.Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
+    -  BH.oM.Base.[IBHoMObject](/api/oM/Framework/Base/Interface/IBHoMObject)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
+    -  BH.oM.Base.[ISpecification](/api/oM/Framework/Base/Interface/ISpecification)
 
 
 ## Properties
@@ -30,8 +30,8 @@ The following properties are defined on the class
 |------------------|------------------|------------------|------------------|
 | Clause | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | Human readable identifier to reference the Specification. | - |
 | Description | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | Description of the Specification. | - |
-| Extraction | [IExtraction](/api/oM/Framework/Verification/Extraction/IExtraction) | Object describing how to extract the objects to be verify against Requirements. | - |
-| Requirements | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[IRequirement](/api/oM/Framework/Verification/Requirements/IRequirement)&gt; | A collection of objects, each containing an atomic check together with reporting config and metadata. | - |
+| Extraction | [IExtraction](/api/oM/Framework/Verification/Extraction/Interfaces/IExtraction) | Object describing how to extract the objects to be verify against Requirements. | - |
+| Requirements | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[IRequirement](/api/oM/Framework/Verification/Requirements/Interfaces/IRequirement)&gt; | A collection of objects, each containing an atomic check together with reporting config and metadata. | - |
 
 
 ### Inherited properties
@@ -49,6 +49,12 @@ The following properties are inherited from the base class of the object
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class Specification : BH.oM.Base.BHoMObject, BH.oM.Base.IBHoMObject, BH.oM.Base.IObject, BH.oM.Base.ISpecification
+```
+
+Assembly: Verification_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

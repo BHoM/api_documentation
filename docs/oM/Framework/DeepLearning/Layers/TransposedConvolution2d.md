@@ -2,7 +2,7 @@
 title: TransposedConvolution2d
 ---
 
-# DeepLearning.Layers.TransposedConvolution2d
+# <small>BH.oM.DeepLearning.</small>**TransposedConvolution2d**
 
 
 
@@ -10,12 +10,12 @@ title: TransposedConvolution2d
 
 ### Implemented interfaces and base types
 
-???+ bhom "The TransposedConvolution2d in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The TransposedConvolution2d is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
-    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
-    -  DeepLearning.[IModule](/api/oM/Framework/DeepLearning/IModule)
+    -  BH.oM.Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
+    -  BH.oM.Base.[IBHoMObject](/api/oM/Framework/Base/Interface/IBHoMObject)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
+    -  BH.oM.DeepLearning.[IModule](/api/oM/Framework/DeepLearning/IModule)
 
 
 ## Properties
@@ -52,6 +52,12 @@ The following properties are inherited from the base class of the object
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class TransposedConvolution2d : BH.oM.Base.BHoMObject, BH.oM.Base.IBHoMObject, BH.oM.Base.IObject, BH.oM.DeepLearning.IModule
+```
+
+Assembly: DeepLearning_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

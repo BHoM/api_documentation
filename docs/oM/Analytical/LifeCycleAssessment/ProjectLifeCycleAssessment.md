@@ -2,7 +2,7 @@
 title: ProjectLifeCycleAssessment
 ---
 
-# LifeCycleAssessment.ProjectLifeCycleAssessment
+# <small>BH.oM.</small>**ProjectLifeCycleAssessment**
 
 Project LCA can be used to collect all objects used in an evaluation along with the project's specific metatdata for tracking within a user-specified database.
 
@@ -10,11 +10,11 @@ Project LCA can be used to collect all objects used in an evaluation along with 
 
 ### Implemented interfaces and base types
 
-???+ bhom "The ProjectLifeCycleAssessment in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The ProjectLifeCycleAssessment is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
-    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
+    -  BH.oM.Base.[IBHoMObject](/api/oM/Framework/Base/Interface/IBHoMObject)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 ## Properties
@@ -27,7 +27,7 @@ The following properties are defined on the class
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| LCAScope | [LifeCycleAssessmentScope](/api/oM/Analytical/LifeCycleAssessment/LifeCycleAssessmentScope) | LCA Scope metadata designed to help differentiate between project specifications. | - |
+| LCAScope | [LifeCycleAssessmentScope](/api/oM/Analytical/LifeCycleAssessment/Fragments/LifeCycleAssessmentScope) | LCA Scope metadata designed to help differentiate between project specifications. | - |
 | Elements | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[IElementM](/api/oM/Dimensional/Dimensional/IElementM)&gt; | A collection of elements you wish to include in the project LCA. | - |
 
 
@@ -46,6 +46,12 @@ The following properties are inherited from the base class of the object
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class ProjectLifeCycleAssessment : BH.oM.Base.BHoMObject, BH.oM.Base.IBHoMObject, BH.oM.Base.IObject
+```
+
+Assembly: LifeCycleAssessment_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

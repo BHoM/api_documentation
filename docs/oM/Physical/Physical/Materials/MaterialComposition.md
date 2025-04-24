@@ -2,7 +2,7 @@
 title: MaterialComposition
 ---
 
-# Physical.Materials.MaterialComposition
+# <small>BH.oM.Physical.</small>**MaterialComposition**
 
 Defines the make up of an object through a list of Materials as relative proportions of the total solid volume.
 There must be the same number of items in both lists, assigning a single Ratio for each Material.
@@ -11,13 +11,13 @@ There must be the same number of items in both lists, assigning a single Ratio f
 
 ### Implemented interfaces and base types
 
-???+ bhom "The MaterialComposition in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The MaterialComposition is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
-    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
-    -  Physical.[IPhysical](/api/oM/Physical/Physical/IPhysical)
-    -  Base.[IImmutable](/api/oM/Framework/Base/IImmutable)
+    -  BH.oM.Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
+    -  BH.oM.Base.[IBHoMObject](/api/oM/Framework/Base/Interface/IBHoMObject)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
+    -  BH.oM.Physical.[IPhysical](/api/oM/Physical/Physical/IPhysical)
+    -  BH.oM.Base.[IImmutable](/api/oM/Framework/Base/Interface/IImmutable)
 
 
 ## Properties
@@ -52,14 +52,20 @@ The following properties are defined as extension methods in one of the BHoM_Eng
 
 | Name             | Type             | Description      | Quantity         | Engine           |
 |------------------|------------------|------------------|------------------|------------------|
-| ExternalPolyline | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[Polyline](/api/oM/Dimensional/Geometry/Polyline)&gt; | Returns the External Polyline representation of a physical object (e.g. wall or window). | - | Physical_Engine |
-| InternalPolyline | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[Polyline](/api/oM/Dimensional/Geometry/Polyline)&gt; | Returns the Internal Polyline representation of a physical object (e.g. wall or window). | - | Physical_Engine |
-| Polyline | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[Polyline](/api/oM/Dimensional/Geometry/Polyline)&gt; | Returns a Polyline representation of a physical object (e.g. wall or window). | - | Physical_Engine |
+| ExternalPolyline | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[Polyline](/api/oM/Dimensional/Geometry/Curve/Polyline)&gt; | Returns the External Polyline representation of a physical object (e.g. wall or window). | - | Physical_Engine |
+| InternalPolyline | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[Polyline](/api/oM/Dimensional/Geometry/Curve/Polyline)&gt; | Returns the Internal Polyline representation of a physical object (e.g. wall or window). | - | Physical_Engine |
+| Polyline | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[Polyline](/api/oM/Dimensional/Geometry/Curve/Polyline)&gt; | Returns a Polyline representation of a physical object (e.g. wall or window). | - | Physical_Engine |
 
 
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class MaterialComposition : BH.oM.Base.BHoMObject, BH.oM.Base.IBHoMObject, BH.oM.Base.IObject, BH.oM.Physical.IPhysical, BH.oM.Base.IImmutable
+```
+
+Assembly: Physical_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

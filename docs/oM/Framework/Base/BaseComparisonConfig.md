@@ -2,7 +2,7 @@
 title: BaseComparisonConfig
 ---
 
-# Base.BaseComparisonConfig
+# <small>BH.oM.</small>**BaseComparisonConfig**
 
 Settings to determine the uniqueness of an Object, i.e. when comparing and when computing the object Hash.
 
@@ -10,17 +10,17 @@ Settings to determine the uniqueness of an Object, i.e. when comparing and when 
 
 ### Implemented interfaces and base types
 
-???+ bhom "The BaseComparisonConfig in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The BaseComparisonConfig is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 ### Classes inheriting from this class
 
 ???+ bhom "The following classes are inheriting from this class:"
 
-    - Base.[ComparisonConfig](/api/oM/Framework/Base/ComparisonConfig)
-    - Adapters.Revit.[RevitComparisonConfig](/api/oM/Adapter/Adapters/Revit/RevitComparisonConfig)
+    - BH.oM.Base.[ComparisonConfig](/api/oM/Framework/Base/ComparisonConfig)
+    - BH.oM.Adapters.Revit.[RevitComparisonConfig](/api/oM/Adapter/Adapters.Revit/Config/RevitComparisonConfig)
 
 
 ## Properties
@@ -52,7 +52,13 @@ The following properties are defined on the class
 
 ### C# implementation
 
-The class is defined in C#. The class definition is available on github:
+``` C# title="C#"
+public abstract class BaseComparisonConfig : BH.oM.Base.IObject
+```
+
+Assembly: BHoM.dll
+
+The abstract class is defined in C#. The class definition is available on github:
 
 - [BaseComparisonConfig.cs](https://github.com/BHoM/BHoM/blob/develop/BHoM/BaseComparisonConfig.cs)
 

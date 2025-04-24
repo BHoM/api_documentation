@@ -2,7 +2,7 @@
 title: SpaceTime
 ---
 
-# Environment.Climate.SpaceTime
+# <small>BH.oM.Environment.</small>**SpaceTime**
 
 Represents a specific moment in time related to a specific location of Earth geometry. Used for obtaining solar positions for specific moments in time at specific points on Earth
 
@@ -10,11 +10,11 @@ Represents a specific moment in time related to a specific location of Earth geo
 
 ### Implemented interfaces and base types
 
-???+ bhom "The SpaceTime in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The SpaceTime is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
-    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
+    -  BH.oM.Base.[IBHoMObject](/api/oM/Framework/Base/Interface/IBHoMObject)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 ## Properties
@@ -55,6 +55,12 @@ The following properties are defined as extension methods in one of the BHoM_Eng
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class SpaceTime : BH.oM.Base.BHoMObject, BH.oM.Base.IBHoMObject, BH.oM.Base.IObject
+```
+
+Assembly: Environment_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

@@ -2,7 +2,7 @@
 title: ConditionBasedFilter
 ---
 
-# Verification.Extraction.ConditionBasedFilter
+# <small>BH.oM.Verification.</small>**ConditionBasedFilter**
 
 Basic object defining a condition-based 'filter from' workflow.
 
@@ -10,11 +10,11 @@ Basic object defining a condition-based 'filter from' workflow.
 
 ### Implemented interfaces and base types
 
-???+ bhom "The ConditionBasedFilter in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The ConditionBasedFilter is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Verification.Extraction.[IConditionBasedFilter](/api/oM/Framework/Verification/Extraction/IConditionBasedFilter)
-    -  Verification.Extraction.[IExtraction](/api/oM/Framework/Verification/Extraction/IExtraction)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.Verification.Extraction.[IConditionBasedFilter](/api/oM/Framework/Verification/Extraction/Interfaces/IConditionBasedFilter)
+    -  BH.oM.Verification.Extraction.[IExtraction](/api/oM/Framework/Verification/Extraction/Interfaces/IExtraction)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 ## Properties
@@ -27,12 +27,18 @@ The following properties are defined on the class
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| Condition | [ICondition](/api/oM/Framework/Verification/Conditions/ICondition) | Filtering condition to be met for objects to be returned. | - |
+| Condition | [ICondition](/api/oM/Framework/Verification/Conditions/Interfaces/ICondition) | Filtering condition to be met for objects to be returned. | - |
 
 
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class ConditionBasedFilter : BH.oM.Verification.Extraction.IConditionBasedFilter, BH.oM.Verification.Extraction.IExtraction, BH.oM.Base.IObject
+```
+
+Assembly: Verification_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

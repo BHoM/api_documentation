@@ -2,7 +2,7 @@
 title: Head
 ---
 
-# Humans.BodyParts.Head
+# <small>BH.oM.Humans.</small>**Head**
 
 
 
@@ -10,10 +10,10 @@ title: Head
 
 ### Implemented interfaces and base types
 
-???+ bhom "The Head in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The Head is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Humans.Interfaces.[IPointBodyPart](/api/oM/Physical/Humans/Interfaces/IPointBodyPart)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.Humans.Interfaces.[IPointBodyPart](/api/oM/Physical/Humans/Interfaces/IPointBodyPart)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 ## Properties
@@ -26,13 +26,19 @@ The following properties are defined on the class
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| TrackingPoint | [Point](/api/oM/Dimensional/Geometry/Point) | - | - |
+| TrackingPoint | [Point](/api/oM/Dimensional/Geometry/Vector/Point) | - | - |
 | PairOfEyes | [PairOfEyes](/api/oM/Physical/Humans/BodyParts/PairOfEyes) | - | - |
 
 
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class Head : BH.oM.Humans.Interfaces.IPointBodyPart, BH.oM.Base.IObject
+```
+
+Assembly: Humans_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

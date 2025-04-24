@@ -2,7 +2,7 @@
 title: IFoundation
 ---
 
-# Structure.Elements.IFoundation
+# <small>BH.oM.Structure.</small>**IFoundation**
 
 Base interface for foundation objects.
 
@@ -10,19 +10,19 @@ Base interface for foundation objects.
 
 ### Implemented interfaces and base types
 
-???+ bhom "The IFoundation in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The IFoundation is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.Base.[IBHoMObject](/api/oM/Framework/Base/Interface/IBHoMObject)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Structure.Elements.[PadFoundation](/api/oM/Analytical/Structure/Elements/PadFoundation)
-    - Structure.Elements.[Pile](/api/oM/Analytical/Structure/Elements/Pile)
-    - Structure.Elements.[PileFoundation](/api/oM/Analytical/Structure/Elements/PileFoundation)
+    - BH.oM.Structure.Elements.[PadFoundation](/api/oM/Analytical/Structure/Elements/PadFoundation)
+    - BH.oM.Structure.Elements.[Pile](/api/oM/Analytical/Structure/Elements/Pile)
+    - BH.oM.Structure.Elements.[PileFoundation](/api/oM/Analytical/Structure/Elements/PileFoundation)
 
 
 ## Properties
@@ -30,6 +30,12 @@ Base interface for foundation objects.
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public interface IFoundation : BH.oM.Base.IBHoMObject, BH.oM.Base.IObject
+```
+
+Assembly: Structure_oM.dll
 
 The interface is defined in C#. The class definition is available on github:
 

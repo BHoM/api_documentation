@@ -2,7 +2,7 @@
 title: IPropertyDifference
 ---
 
-# Diffing.IPropertyDifference
+# <small>BH.oM.</small>**IPropertyDifference**
 
 Represents a difference found between a Previous and Following version of an object.
 
@@ -10,17 +10,17 @@ Represents a difference found between a Previous and Following version of an obj
 
 ### Implemented interfaces and base types
 
-???+ bhom "The IPropertyDifference in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The IPropertyDifference is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Diffing.[PropertyDifference](/api/oM/Framework/Diffing/PropertyDifference)
-    - Adapters.Revit.[RevitParameterDifference](/api/oM/Adapter/Adapters/Revit/RevitParameterDifference)
+    - BH.oM.Diffing.[PropertyDifference](/api/oM/Framework/Diffing/PropertyDifference)
+    - BH.oM.Adapters.Revit.[RevitParameterDifference](/api/oM/Adapter/Adapters.Revit/Misc/RevitParameterDifference)
 
 
 ## Properties
@@ -43,6 +43,12 @@ The following properties are defined on the interface
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public interface IPropertyDifference : BH.oM.Base.IObject
+```
+
+Assembly: Diffing_oM.dll
 
 The interface is defined in C#. The class definition is available on github:
 

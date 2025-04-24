@@ -2,7 +2,7 @@
 title: IStructuralResult
 ---
 
-# Structure.Results.IStructuralResult
+# <small>BH.oM.Structure.</small>**IStructuralResult**
 
 Base interface for all structural results. Adds ModeNumber as a property in addition to the one from the base IResult
 
@@ -10,66 +10,66 @@ Base interface for all structural results. Adds ModeNumber as a property in addi
 
 ### Implemented interfaces and base types
 
-???+ bhom "The IStructuralResult in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The IStructuralResult is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Analytical.Results.[IObjectIdResult](/api/oM/Analytical/Analytical/Results/IObjectIdResult)
-    -  Analytical.Results.[IResult](/api/oM/Analytical/Analytical/Results/IResult)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
-    -  [IComparable](https://learn.microsoft.com/en-us/dotnet/api/System.IComparable-1?view=netstandard-2.0)&lt;Analytical.Results.[IResult](/api/oM/Analytical/Analytical/Results/IResult)&gt;
-    -  Base.[IImmutable](/api/oM/Framework/Base/IImmutable)
-    -  Analytical.Results.[ICasedResult](/api/oM/Analytical/Analytical/Results/ICasedResult)
-    -  Analytical.Results.[ITimeStepResult](/api/oM/Analytical/Analytical/Results/ITimeStepResult)
+    -  BH.oM.Analytical.Results.[IObjectIdResult](/api/oM/Analytical/Analytical/Results/IObjectIdResult)
+    -  BH.oM.Analytical.Results.[IResult](/api/oM/Analytical/Analytical/Results/IResult)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
+    -  [IComparable](https://learn.microsoft.com/en-us/dotnet/api/System.IComparable-1?view=netstandard-2.0)&lt;BH.oM.Analytical.Results.[IResult](/api/oM/Analytical/Analytical/Results/IResult)&gt;
+    -  BH.oM.Base.[IImmutable](/api/oM/Framework/Base/Interface/IImmutable)
+    -  BH.oM.Analytical.Results.[ICasedResult](/api/oM/Analytical/Analytical/Results/ICasedResult)
+    -  BH.oM.Analytical.Results.[ITimeStepResult](/api/oM/Analytical/Analytical/Results/ITimeStepResult)
 
 
 ### Interfaces implementing this interface
 
 ???+ bhom "The following interfaces are implementing this interface:"
 
-    - Structure.Results.[IBarDisplacement](/api/oM/Analytical/Structure/Results/IBarDisplacement)
-    - Structure.Results.[IDisplacement](/api/oM/Analytical/Structure/Results/IDisplacement)
-    - Structure.Results.[IReaction](/api/oM/Analytical/Structure/Results/IReaction)
-    - Structure.Results.[IMeshDisplacement](/api/oM/Analytical/Structure/Results/IMeshDisplacement)
-    - Structure.Results.[INodeDisplacement](/api/oM/Analytical/Structure/Results/INodeDisplacement)
+    - BH.oM.Structure.Results.[IBarDisplacement](/api/oM/Analytical/Structure/Results/Bar Results/IBarDisplacement)
+    - BH.oM.Structure.Results.[IDisplacement](/api/oM/Analytical/Structure/Results/IDisplacement)
+    - BH.oM.Structure.Results.[IReaction](/api/oM/Analytical/Structure/Results/IReaction)
+    - BH.oM.Structure.Results.[IMeshDisplacement](/api/oM/Analytical/Structure/Results/Mesh/IMeshDisplacement)
+    - BH.oM.Structure.Results.[INodeDisplacement](/api/oM/Analytical/Structure/Results/Nodal Results/INodeDisplacement)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Adapters.ETABS.Results.[SpandrelForce](/api/oM/Adapter/Adapters/ETABS/Results/SpandrelForce)
-    - Adapters.ETABS.Results.[PierForce](/api/oM/Adapter/Adapters/ETABS/Results/PierForce)
-    - Adapters.SAP2000.Results.[AISCSteelUtilisation](/api/oM/Adapter/Adapters/SAP2000/Results/AISCSteelUtilisation)
-    - Structure.Results.[BarDeformation](/api/oM/Analytical/Structure/Results/BarDeformation)
-    - Structure.Results.[BarDisplacement](/api/oM/Analytical/Structure/Results/BarDisplacement)
-    - Structure.Results.[BarForce](/api/oM/Analytical/Structure/Results/BarForce)
-    - Structure.Results.[BarModeShape](/api/oM/Analytical/Structure/Results/BarModeShape)
-    - Structure.Results.[BarRequiredArea](/api/oM/Analytical/Structure/Results/BarRequiredArea)
-    - Structure.Results.[BarResult](/api/oM/Analytical/Structure/Results/BarResult)
-    - Structure.Results.[BarStrain](/api/oM/Analytical/Structure/Results/BarStrain)
-    - Structure.Results.[BarStress](/api/oM/Analytical/Structure/Results/BarStress)
-    - Structure.Results.[CompositeUtilisation](/api/oM/Analytical/Structure/Results/CompositeUtilisation)
-    - Structure.Results.[SteelUtilisation](/api/oM/Analytical/Structure/Results/SteelUtilisation)
-    - Structure.Results.[GlobalReactions](/api/oM/Analytical/Structure/Results/GlobalReactions)
-    - Structure.Results.[ModalDynamics](/api/oM/Analytical/Structure/Results/ModalDynamics)
-    - Structure.Results.[ModalMassAndFrequency](/api/oM/Analytical/Structure/Results/ModalMassAndFrequency)
-    - Structure.Results.[StoreyDrift](/api/oM/Analytical/Structure/Results/StoreyDrift)
-    - Structure.Results.[StructuralGlobalResult](/api/oM/Analytical/Structure/Results/StructuralGlobalResult)
-    - Structure.Results.[MeshDisplacement](/api/oM/Analytical/Structure/Results/MeshDisplacement)
-    - Structure.Results.[MeshElementResult](/api/oM/Analytical/Structure/Results/MeshElementResult)
-    - Structure.Results.[MeshForce](/api/oM/Analytical/Structure/Results/MeshForce)
-    - Structure.Results.[MeshModeShape](/api/oM/Analytical/Structure/Results/MeshModeShape)
-    - Structure.Results.[MeshRequiredArea](/api/oM/Analytical/Structure/Results/MeshRequiredArea)
-    - Structure.Results.[MeshResult](/api/oM/Analytical/Structure/Results/MeshResult)
-    - Structure.Results.[MeshStress](/api/oM/Analytical/Structure/Results/MeshStress)
-    - Structure.Results.[MeshVonMises](/api/oM/Analytical/Structure/Results/MeshVonMises)
-    - Structure.Results.[NodeAcceleration](/api/oM/Analytical/Structure/Results/NodeAcceleration)
-    - Structure.Results.[NodeDisplacement](/api/oM/Analytical/Structure/Results/NodeDisplacement)
-    - Structure.Results.[NodeModalMass](/api/oM/Analytical/Structure/Results/NodeModalMass)
-    - Structure.Results.[NodeModalResults](/api/oM/Analytical/Structure/Results/NodeModalResults)
-    - Structure.Results.[NodeModeShape](/api/oM/Analytical/Structure/Results/NodeModeShape)
-    - Structure.Results.[NodeReaction](/api/oM/Analytical/Structure/Results/NodeReaction)
-    - Structure.Results.[NodeResult](/api/oM/Analytical/Structure/Results/NodeResult)
-    - Structure.Results.[NodeVelocity](/api/oM/Analytical/Structure/Results/NodeVelocity)
+    - BH.oM.Adapters.ETABS.Results.[SpandrelForce](/api/oM/Adapter/Adapters.ETABS/Results/SpandrelForce)
+    - BH.oM.Adapters.ETABS.Results.[PierForce](/api/oM/Adapter/Adapters.ETABS/Results/PierForce)
+    - BH.oM.Adapters.SAP2000.Results.[AISCSteelUtilisation](/api/oM/Adapter/Adapters.SAP2000/Elements/AISCSteelUtilisation)
+    - BH.oM.Structure.Results.[BarDeformation](/api/oM/Analytical/Structure/Results/Bar Results/BarDeformation)
+    - BH.oM.Structure.Results.[BarDisplacement](/api/oM/Analytical/Structure/Results/Bar Results/BarDisplacement)
+    - BH.oM.Structure.Results.[BarForce](/api/oM/Analytical/Structure/Results/Bar Results/BarForce)
+    - BH.oM.Structure.Results.[BarModeShape](/api/oM/Analytical/Structure/Results/Bar Results/BarModeShape)
+    - BH.oM.Structure.Results.[BarRequiredArea](/api/oM/Analytical/Structure/Results/Bar Results/BarRequiredArea)
+    - BH.oM.Structure.Results.[BarResult](/api/oM/Analytical/Structure/Results/Bar Results/BarResult)
+    - BH.oM.Structure.Results.[BarStrain](/api/oM/Analytical/Structure/Results/Bar Results/BarStrain)
+    - BH.oM.Structure.Results.[BarStress](/api/oM/Analytical/Structure/Results/Bar Results/BarStress)
+    - BH.oM.Structure.Results.[CompositeUtilisation](/api/oM/Analytical/Structure/Results/Bar Results/CompositeUtilisation)
+    - BH.oM.Structure.Results.[SteelUtilisation](/api/oM/Analytical/Structure/Results/Bar Results/SteelUtilisation)
+    - BH.oM.Structure.Results.[GlobalReactions](/api/oM/Analytical/Structure/Results/Global Results/GlobalReactions)
+    - BH.oM.Structure.Results.[ModalDynamics](/api/oM/Analytical/Structure/Results/Global Results/ModalDynamics)
+    - BH.oM.Structure.Results.[ModalMassAndFrequency](/api/oM/Analytical/Structure/Results/Global Results/ModalMassAndFrequency)
+    - BH.oM.Structure.Results.[StoreyDrift](/api/oM/Analytical/Structure/Results/Global Results/StoreyDrift)
+    - BH.oM.Structure.Results.[StructuralGlobalResult](/api/oM/Analytical/Structure/Results/Global Results/StructuralGlobalResult)
+    - BH.oM.Structure.Results.[MeshDisplacement](/api/oM/Analytical/Structure/Results/Mesh/MeshDisplacement)
+    - BH.oM.Structure.Results.[MeshElementResult](/api/oM/Analytical/Structure/Results/Mesh/MeshElementResult)
+    - BH.oM.Structure.Results.[MeshForce](/api/oM/Analytical/Structure/Results/Mesh/MeshForce)
+    - BH.oM.Structure.Results.[MeshModeShape](/api/oM/Analytical/Structure/Results/Mesh/MeshModeShape)
+    - BH.oM.Structure.Results.[MeshRequiredArea](/api/oM/Analytical/Structure/Results/Mesh/MeshRequiredArea)
+    - BH.oM.Structure.Results.[MeshResult](/api/oM/Analytical/Structure/Results/Mesh/MeshResult)
+    - BH.oM.Structure.Results.[MeshStress](/api/oM/Analytical/Structure/Results/Mesh/MeshStress)
+    - BH.oM.Structure.Results.[MeshVonMises](/api/oM/Analytical/Structure/Results/Mesh/MeshVonMises)
+    - BH.oM.Structure.Results.[NodeAcceleration](/api/oM/Analytical/Structure/Results/Nodal Results/NodeAcceleration)
+    - BH.oM.Structure.Results.[NodeDisplacement](/api/oM/Analytical/Structure/Results/Nodal Results/NodeDisplacement)
+    - BH.oM.Structure.Results.[NodeModalMass](/api/oM/Analytical/Structure/Results/Nodal Results/NodeModalMass)
+    - BH.oM.Structure.Results.[NodeModalResults](/api/oM/Analytical/Structure/Results/Nodal Results/NodeModalResults)
+    - BH.oM.Structure.Results.[NodeModeShape](/api/oM/Analytical/Structure/Results/Nodal Results/NodeModeShape)
+    - BH.oM.Structure.Results.[NodeReaction](/api/oM/Analytical/Structure/Results/Nodal Results/NodeReaction)
+    - BH.oM.Structure.Results.[NodeResult](/api/oM/Analytical/Structure/Results/Nodal Results/NodeResult)
+    - BH.oM.Structure.Results.[NodeVelocity](/api/oM/Analytical/Structure/Results/Nodal Results/NodeVelocity)
 
 
 ## Properties
@@ -100,6 +100,18 @@ The following properties are defined as extension methods in one of the BHoM_Eng
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public interface IStructuralResult : BH.oM.Analytical.Results.IObjectIdResult,
+BH.oM.Analytical.Results.IResult,
+BH.oM.Base.IObject,
+System.IComparable<BH.oM.Analytical.Results.IResult>,
+BH.oM.Base.IImmutable,
+BH.oM.Analytical.Results.ICasedResult,
+BH.oM.Analytical.Results.ITimeStepResult
+```
+
+Assembly: Structure_oM.dll
 
 The interface is defined in C#. The class definition is available on github:
 

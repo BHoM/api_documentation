@@ -2,7 +2,7 @@
 title: PlumbingFixtureType
 ---
 
-# MEP.Enums.PlumbingFixtureType
+# <small>BH.oM.MEP.</small>**PlumbingFixtureType**
 
 A type of plumbing fixture (water closet (toilet), lavatory, urinal.)
 
@@ -25,6 +25,12 @@ A type of plumbing fixture (water closet (toilet), lavatory, urinal.)
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public enum PlumbingFixtureType : System.Enum, System.ValueType, System.IComparable, System.ISpanFormattable, System.IFormattable, System.IConvertible
+```
+
+Assembly: MEP_oM.dll
 
 The enum is defined in C#. The class definition is available on github:
 

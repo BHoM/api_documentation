@@ -2,7 +2,7 @@
 title: UIExposure
 ---
 
-# Base.Attributes.Enums.UIExposure
+# <small>BH.oM.Base.Attributes.</small>**UIExposure**
 
 Setting to determine whether an element using this enum should be displayed on a User Interface (UI).
 
@@ -17,6 +17,12 @@ Setting to determine whether an element using this enum should be displayed on a
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public enum UIExposure : System.Enum, System.ValueType, System.IComparable, System.ISpanFormattable, System.IFormattable, System.IConvertible
+```
+
+Assembly: BHoM.dll
 
 The enum is defined in C#. The class definition is available on github:
 

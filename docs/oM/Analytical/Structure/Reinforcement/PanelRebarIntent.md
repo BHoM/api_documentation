@@ -2,7 +2,7 @@
 title: PanelRebarIntent
 ---
 
-# Structure.Reinforcement.PanelRebarIntent
+# <small>BH.oM.Structure.</small>**PanelRebarIntent**
 
 A collection of PanelReinforcement objects that represent the rebar intent. 
 This is stored as layers of reinforcement amongst regions within the Panel.
@@ -11,13 +11,13 @@ This is stored as layers of reinforcement amongst regions within the Panel.
 
 ### Implemented interfaces and base types
 
-???+ bhom "The PanelRebarIntent in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The PanelRebarIntent is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
-    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
-    -  Base.[IFragment](/api/oM/Framework/Base/IFragment)
-    -  Structure.Reinforcement.[IRebarIntent](/api/oM/Analytical/Structure/Reinforcement/IRebarIntent)
+    -  BH.oM.Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
+    -  BH.oM.Base.[IBHoMObject](/api/oM/Framework/Base/Interface/IBHoMObject)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
+    -  BH.oM.Base.[IFragment](/api/oM/Framework/Base/Interface/IFragment)
+    -  BH.oM.Structure.Reinforcement.[IRebarIntent](/api/oM/Analytical/Structure/Reinforcement/IRebarIntent)
 
 
 ## Properties
@@ -57,6 +57,16 @@ The following properties are defined as extension methods in one of the BHoM_Eng
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class PanelRebarIntent : BH.oM.Base.BHoMObject,
+BH.oM.Base.IBHoMObject,
+BH.oM.Base.IObject,
+BH.oM.Base.IFragment,
+BH.oM.Structure.Reinforcement.IRebarIntent
+```
+
+Assembly: Structure_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

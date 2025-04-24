@@ -2,7 +2,7 @@
 title: Plumbing
 ---
 
-# Environment.SpaceCriteria.Plumbing
+# <small>BH.oM.Environment.</small>**Plumbing**
 
 The plumbing attributes of a space are indicative of the amount of cold water, hot water and waste required by a space, as well as requirements for vent, floor drains, hose bibs or natural gas
 
@@ -10,11 +10,11 @@ The plumbing attributes of a space are indicative of the amount of cold water, h
 
 ### Implemented interfaces and base types
 
-???+ bhom "The Plumbing in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The Plumbing is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
-    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
+    -  BH.oM.Base.[IBHoMObject](/api/oM/Framework/Base/Interface/IBHoMObject)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 ## Properties
@@ -51,6 +51,12 @@ The following properties are inherited from the base class of the object
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class Plumbing : BH.oM.Base.BHoMObject, BH.oM.Base.IBHoMObject, BH.oM.Base.IObject
+```
+
+Assembly: Environment_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

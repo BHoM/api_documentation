@@ -2,7 +2,7 @@
 title: ContourLoadSet
 ---
 
-# Structure.Loads.ContourLoadSet
+# <small>BH.oM.Structure.</small>**ContourLoadSet**
 
 A set of uniform loads to be applied in the gravity direction over a region defined by a closed planar Polyline.
 
@@ -10,11 +10,11 @@ A set of uniform loads to be applied in the gravity direction over a region defi
 
 ### Implemented interfaces and base types
 
-???+ bhom "The ContourLoadSet in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The ContourLoadSet is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
-    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
+    -  BH.oM.Base.[IBHoMObject](/api/oM/Framework/Base/Interface/IBHoMObject)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 ## Properties
@@ -28,7 +28,7 @@ The following properties are defined on the class
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
 | UniformLoadSet | [UniformLoadSet](/api/oM/Analytical/Structure/Loads/UniformLoadSet) | A UniformLoadSet containing a list of uniform loads to be applied in the gravity direction | - |
-| Contour | [Polyline](/api/oM/Dimensional/Geometry/Polyline) | Closed planar polyline enclosing the region to be loaded. | - |
+| Contour | [Polyline](/api/oM/Dimensional/Geometry/Curve/Polyline) | Closed planar polyline enclosing the region to be loaded. | - |
 
 
 ### Inherited properties
@@ -46,6 +46,12 @@ The following properties are inherited from the base class of the object
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class ContourLoadSet : BH.oM.Base.BHoMObject, BH.oM.Base.IBHoMObject, BH.oM.Base.IObject
+```
+
+Assembly: Structure_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

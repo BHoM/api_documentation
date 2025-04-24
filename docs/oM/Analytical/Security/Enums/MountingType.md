@@ -2,7 +2,7 @@
 title: MountingType
 ---
 
-# Security.Enums.MountingType
+# <small>BH.oM.Security.</small>**MountingType**
 
 A mounting type that describes how a fitting is installed.
 
@@ -23,6 +23,12 @@ A mounting type that describes how a fitting is installed.
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public enum MountingType : System.Enum, System.ValueType, System.IComparable, System.ISpanFormattable, System.IFormattable, System.IConvertible
+```
+
+Assembly: Security_oM.dll
 
 The enum is defined in C#. The class definition is available on github:
 

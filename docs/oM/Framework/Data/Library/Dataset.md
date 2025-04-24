@@ -2,7 +2,7 @@
 title: Dataset
 ---
 
-# Data.Library.Dataset
+# <small>BH.oM.Data.</small>**Dataset**
 
 
 
@@ -10,11 +10,11 @@ title: Dataset
 
 ### Implemented interfaces and base types
 
-???+ bhom "The Dataset in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The Dataset is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
-    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
+    -  BH.oM.Base.[IBHoMObject](/api/oM/Framework/Base/Interface/IBHoMObject)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 ## Properties
@@ -29,7 +29,7 @@ The following properties are defined on the class
 |------------------|------------------|------------------|------------------|
 | SourceInformation | [Source](/api/oM/Framework/Data/Library/Source) | - | - |
 | TimeOfCreation | [DateTime](https://learn.microsoft.com/en-us/dotnet/api/System.DateTime?view=netstandard-2.0) | - | - |
-| Data | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)&gt; | - | - |
+| Data | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[IBHoMObject](/api/oM/Framework/Base/Interface/IBHoMObject)&gt; | - | - |
 
 
 ### Inherited properties
@@ -50,12 +50,18 @@ The following properties are defined as extension methods in one of the BHoM_Eng
 
 | Name             | Type             | Description      | Quantity         | Engine           |
 |------------------|------------------|------------------|------------------|------------------|
-| FilterByCheckStatus | [Output](/api/oM/Framework/Base/Output%604)&lt;[List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[UnitTest](/api/oM/Framework/Test/UnitTests/UnitTest)&gt;, [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[TestResult](/api/oM/Framework/Test/Results/TestResult)&gt;, [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[UnitTest](/api/oM/Framework/Test/UnitTests/UnitTest)&gt;, [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[TestResult](/api/oM/Framework/Test/Results/TestResult)&gt;&gt; | Runs and checks all provided UnitTests in the provided Dataset and provides the ones that has a the provided status. | - | UnitTest_Engine |
+| FilterByCheckStatus | [Output](/api/oM/Framework/Base/Output)&lt;[List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[UnitTest](/api/oM/Framework/Test/UnitTests/UnitTest)&gt;, [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[TestResult](/api/oM/Framework/Test/Results/TestResult)&gt;, [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[UnitTest](/api/oM/Framework/Test/UnitTests/UnitTest)&gt;, [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[TestResult](/api/oM/Framework/Test/Results/TestResult)&gt;&gt; | Runs and checks all provided UnitTests in the provided Dataset and provides the ones that has a the provided status. | - | UnitTest_Engine |
 
 
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class Dataset : BH.oM.Base.BHoMObject, BH.oM.Base.IBHoMObject, BH.oM.Base.IObject
+```
+
+Assembly: Data_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

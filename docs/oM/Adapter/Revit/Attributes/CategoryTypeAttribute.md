@@ -2,7 +2,7 @@
 title: CategoryTypeAttribute
 ---
 
-# Revit.Attributes.CategoryTypeAttribute
+# <small>BH.oM.Revit.</small>**CategoryTypeAttribute**
 
 Attribute that defines Revit category type as defined in Visibility &amp; Graphics window.
 Allowed values of Type property are: 'Model', 'Annotation', 'Analytical' and 'Internal'.
@@ -12,11 +12,11 @@ Each category added to Category needs to have CategoryTypeAttribute assigned to 
 
 ### Implemented interfaces and base types
 
-???+ bhom "The CategoryTypeAttribute in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The CategoryTypeAttribute is inheriting from the following base type(s) and implements the following interfaces:"
 
     -  [Attribute](https://learn.microsoft.com/en-us/dotnet/api/System.Attribute?view=netstandard-2.0)
-    -  Base.[IImmutable](/api/oM/Framework/Base/IImmutable)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.Base.[IImmutable](/api/oM/Framework/Base/Interface/IImmutable)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 ## Properties
@@ -43,6 +43,12 @@ The following properties are inherited from the base class of the object
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class CategoryTypeAttribute : System.Attribute, BH.oM.Base.IImmutable, BH.oM.Base.IObject
+```
+
+Assembly: Revit_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

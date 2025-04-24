@@ -2,7 +2,7 @@
 title: MeshResult
 ---
 
-# Environment.Results.Mesh.MeshResult
+# <small>BH.oM.Environment.Results.</small>**MeshResult**
 
 Full collection of discrete results for an AnalysisGrid for a specific Analysis.
 
@@ -10,16 +10,16 @@ Full collection of discrete results for an AnalysisGrid for a specific Analysis.
 
 ### Implemented interfaces and base types
 
-???+ bhom "The MeshResult in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The MeshResult is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Analytical.Results.[IObjectIdResult](/api/oM/Analytical/Analytical/Results/IObjectIdResult)
-    -  Analytical.Results.[IResult](/api/oM/Analytical/Analytical/Results/IResult)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
-    -  [IComparable](https://learn.microsoft.com/en-us/dotnet/api/System.IComparable-1?view=netstandard-2.0)&lt;Analytical.Results.[IResult](/api/oM/Analytical/Analytical/Results/IResult)&gt;
-    -  Base.[IImmutable](/api/oM/Framework/Base/IImmutable)
-    -  Analytical.Results.[ICasedResult](/api/oM/Analytical/Analytical/Results/ICasedResult)
-    -  Analytical.Results.[ITimeStepResult](/api/oM/Analytical/Analytical/Results/ITimeStepResult)
-    -  Analytical.Results.[IResultCollection](/api/oM/Analytical/Analytical/Results/IResultCollection%601)&lt;Environment.Results.Mesh.[MeshElementResult](/api/oM/Analytical/Environment/Results/Mesh/MeshElementResult)&gt;
+    -  BH.oM.Analytical.Results.[IObjectIdResult](/api/oM/Analytical/Analytical/Results/IObjectIdResult)
+    -  BH.oM.Analytical.Results.[IResult](/api/oM/Analytical/Analytical/Results/IResult)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
+    -  [IComparable](https://learn.microsoft.com/en-us/dotnet/api/System.IComparable-1?view=netstandard-2.0)&lt;BH.oM.Analytical.Results.[IResult](/api/oM/Analytical/Analytical/Results/IResult)&gt;
+    -  BH.oM.Base.[IImmutable](/api/oM/Framework/Base/Interface/IImmutable)
+    -  BH.oM.Analytical.Results.[ICasedResult](/api/oM/Analytical/Analytical/Results/ICasedResult)
+    -  BH.oM.Analytical.Results.[ITimeStepResult](/api/oM/Analytical/Analytical/Results/ITimeStepResult)
+    -  BH.oM.Analytical.Results.[IResultCollection](/api/oM/Analytical/Analytical/Results/IResultCollection)&lt;BH.oM.Environment.Results.Mesh.[MeshElementResult](/api/oM/Analytical/Environment/Results/Mesh/MeshElementResult)&gt;
 
 
 ## Properties
@@ -53,6 +53,19 @@ The following properties are defined as extension methods in one of the BHoM_Eng
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class MeshResult : BH.oM.Analytical.Results.IObjectIdResult,
+BH.oM.Analytical.Results.IResult,
+BH.oM.Base.IObject,
+System.IComparable<BH.oM.Analytical.Results.IResult>,
+BH.oM.Base.IImmutable,
+BH.oM.Analytical.Results.ICasedResult,
+BH.oM.Analytical.Results.ITimeStepResult,
+BH.oM.Analytical.Results.IResultCollection<BH.oM.Environment.Results.Mesh.MeshElementResult>
+```
+
+Assembly: Environment_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

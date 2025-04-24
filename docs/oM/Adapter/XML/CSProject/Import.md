@@ -2,7 +2,7 @@
 title: Import
 ---
 
-# XML.CSProject.Import
+# <small>BH.oM.XML.</small>**Import**
 
 
 
@@ -10,11 +10,11 @@ title: Import
 
 ### Implemented interfaces and base types
 
-???+ bhom "The Import in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The Import is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  XML.CSProject.[CSProjectObject](/api/oM/Adapter/XML/CSProject/CSProjectObject)
-    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.XML.CSProject.[CSProjectObject](/api/oM/Adapter/XML/CSProject/CSProjectObject)
+    -  BH.oM.Base.[IBHoMObject](/api/oM/Framework/Base/Interface/IBHoMObject)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 ## Properties
@@ -46,6 +46,12 @@ The following properties are inherited from the base class of the object
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class Import : BH.oM.XML.CSProject.CSProjectObject, BH.oM.Base.IBHoMObject, BH.oM.Base.IObject
+```
+
+Assembly: XML_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

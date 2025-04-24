@@ -2,7 +2,7 @@
 title: Frequency
 ---
 
-# Acoustic.Frequency
+# <small>BH.oM.</small>**Frequency**
 
 
 
@@ -25,6 +25,12 @@ title: Frequency
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public enum Frequency : System.Enum, System.ValueType, System.IComparable, System.ISpanFormattable, System.IFormattable, System.IConvertible
+```
+
+Assembly: Acoustic_oM.dll
 
 The enum is defined in C#. The class definition is available on github:
 

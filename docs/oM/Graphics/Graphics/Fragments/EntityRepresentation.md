@@ -2,7 +2,7 @@
 title: EntityRepresentation
 ---
 
-# Graphics.Fragments.EntityRepresentation
+# <small>BH.oM.Graphics.</small>**EntityRepresentation**
 
 Fragment for entity representation.
 
@@ -10,11 +10,11 @@ Fragment for entity representation.
 
 ### Implemented interfaces and base types
 
-???+ bhom "The EntityRepresentation in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The EntityRepresentation is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Graphics.Fragments.[IRepresentationFragment](/api/oM/Graphics/Graphics/Fragments/IRepresentationFragment)
-    -  Base.[IFragment](/api/oM/Framework/Base/IFragment)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.Graphics.Fragments.[IRepresentationFragment](/api/oM/Graphics/Graphics/Fragments/IRepresentationFragment)
+    -  BH.oM.Base.[IFragment](/api/oM/Framework/Base/Interface/IFragment)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 ## Properties
@@ -27,18 +27,24 @@ The following properties are defined on the class
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| Boundary | [ICurve](/api/oM/Dimensional/Geometry/ICurve) | - | - |
+| Boundary | [ICurve](/api/oM/Dimensional/Geometry/Curve/ICurve) | - | - |
 | Text | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | - | - |
-| TextPosition | [Point](/api/oM/Dimensional/Geometry/Point) | - | - |
-| TextDirection | [Vector](/api/oM/Dimensional/Geometry/Vector) | - | - |
-| IncomingRelationPoint | [Point](/api/oM/Dimensional/Geometry/Point) | - | - |
-| OutgoingRelationPoint | [Point](/api/oM/Dimensional/Geometry/Point) | - | - |
+| TextPosition | [Point](/api/oM/Dimensional/Geometry/Vector/Point) | - | - |
+| TextDirection | [Vector](/api/oM/Dimensional/Geometry/Vector/Vector) | - | - |
+| IncomingRelationPoint | [Point](/api/oM/Dimensional/Geometry/Vector/Point) | - | - |
+| OutgoingRelationPoint | [Point](/api/oM/Dimensional/Geometry/Vector/Point) | - | - |
 | Colour | [Color](https://learn.microsoft.com/en-us/dotnet/api/System.Drawing.Color?view=netstandard-2.0) | - | - |
 
 
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class EntityRepresentation : BH.oM.Graphics.Fragments.IRepresentationFragment, BH.oM.Base.IFragment, BH.oM.Base.IObject
+```
+
+Assembly: Graphics_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

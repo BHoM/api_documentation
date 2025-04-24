@@ -2,7 +2,7 @@
 title: GeometricalLineLoad
 ---
 
-# Structure.Loads.GeometricalLineLoad
+# <small>BH.oM.Structure.</small>**GeometricalLineLoad**
 
 Distributed load to be applied over a line.
 
@@ -10,21 +10,21 @@ Distributed load to be applied over a line.
 
 ### Implemented interfaces and base types
 
-???+ bhom "The GeometricalLineLoad in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The GeometricalLineLoad is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
-    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
-    -  Structure.Loads.[IElementLoad](/api/oM/Analytical/Structure/Loads/IElementLoad%601)&lt;Structure.Elements.[IAreaElement](/api/oM/Analytical/Structure/Elements/IAreaElement)&gt;
-    -  Structure.Loads.[ILoad](/api/oM/Analytical/Structure/Loads/ILoad)
+    -  BH.oM.Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
+    -  BH.oM.Base.[IBHoMObject](/api/oM/Framework/Base/Interface/IBHoMObject)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
+    -  BH.oM.Structure.Loads.[IElementLoad](/api/oM/Analytical/Structure/Loads/IElementLoad)&lt;BH.oM.Structure.Elements.[IAreaElement](/api/oM/Analytical/Structure/Elements/IAreaElement)&gt;
+    -  BH.oM.Structure.Loads.[ILoad](/api/oM/Analytical/Structure/Loads/ILoad)
 
 
 ### Classes inheriting from this class
 
 ???+ bhom "The following classes are inheriting from this class:"
 
-    - Adapters.RFEM6.IntermediateDatastructure.Geometry.[RFEMFreeLineLoad](/api/oM/Adapter/Adapters/RFEM6/IntermediateDatastructure/Geometry/RFEMFreeLineLoad)
-    - Adapters.RFEM6.IntermediateDatastructure.Geometry.[RFEMNonFreeLineLoad](/api/oM/Adapter/Adapters/RFEM6/IntermediateDatastructure/Geometry/RFEMNonFreeLineLoad)
+    - BH.oM.Adapters.RFEM6.IntermediateDatastructure.Geometry.[RFEMFreeLineLoad](/api/oM/Adapter/Adapters.RFEM6/IntermediateDatastructure/Loading/RFEMFreeLineLoad)
+    - BH.oM.Adapters.RFEM6.IntermediateDatastructure.Geometry.[RFEMNonFreeLineLoad](/api/oM/Adapter/Adapters.RFEM6/IntermediateDatastructure/Loading/RFEMNonFreeLineLoad)
 
 
 ## Properties
@@ -38,14 +38,14 @@ The following properties are defined on the class
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
 | Loadcase | [Loadcase](/api/oM/Analytical/Structure/Loads/Loadcase) | The Loadcase in which the load is applied. | - |
-| Axis | [LoadAxis](/api/oM/Analytical/Structure/Loads/LoadAxis) | Defines whether the load is applied in local or global coordinates. | - |
+| Axis | [LoadAxis](/api/oM/Analytical/Structure/Loads/Enums/LoadAxis) | Defines whether the load is applied in local or global coordinates. | - |
 | Projected | [bool](https://learn.microsoft.com/en-us/dotnet/api/System.Boolean?view=netstandard-2.0) | If true the load is projected to the region. | - |
-| ForceA | [Vector](/api/oM/Dimensional/Geometry/Vector) | Force per unit length at the start of the line. | [ForcePerUnitLength](/api/oM/Dimensional/Quantities/Attributes/ForcePerUnitLength) [N/m] |
-| ForceB | [Vector](/api/oM/Dimensional/Geometry/Vector) | Force per unit length at the end of the line. | [ForcePerUnitLength](/api/oM/Dimensional/Quantities/Attributes/ForcePerUnitLength) [N/m] |
-| MomentA | [Vector](/api/oM/Dimensional/Geometry/Vector) | Moment per unit length at the start of the line. | [MomentPerUnitLength](/api/oM/Dimensional/Quantities/Attributes/MomentPerUnitLength) [N.m/m] |
-| MomentB | [Vector](/api/oM/Dimensional/Geometry/Vector) | Moment per unit length at the end of the line. | [MomentPerUnitLength](/api/oM/Dimensional/Quantities/Attributes/MomentPerUnitLength) [N.m/m] |
-| Location | [Line](/api/oM/Dimensional/Geometry/Line) | Line defining the location of the load. | - |
-| Objects | [BHoMGroup](/api/oM/Framework/Base/BHoMGroup%601)&lt;[IAreaElement](/api/oM/Analytical/Structure/Elements/IAreaElement)&gt; | A collection of IAreaElements (e.g. Panels) to apply the line load to. These are not required for all adapters. | - |
+| ForceA | [Vector](/api/oM/Dimensional/Geometry/Vector/Vector) | Force per unit length at the start of the line. | [ForcePerUnitLength](/api/oM/Dimensional/Quantities/Attributes/ForcePerUnitLength) [N/m] |
+| ForceB | [Vector](/api/oM/Dimensional/Geometry/Vector/Vector) | Force per unit length at the end of the line. | [ForcePerUnitLength](/api/oM/Dimensional/Quantities/Attributes/ForcePerUnitLength) [N/m] |
+| MomentA | [Vector](/api/oM/Dimensional/Geometry/Vector/Vector) | Moment per unit length at the start of the line. | [MomentPerUnitLength](/api/oM/Dimensional/Quantities/Attributes/MomentPerUnitLength) [N.m/m] |
+| MomentB | [Vector](/api/oM/Dimensional/Geometry/Vector/Vector) | Moment per unit length at the end of the line. | [MomentPerUnitLength](/api/oM/Dimensional/Quantities/Attributes/MomentPerUnitLength) [N.m/m] |
+| Location | [Line](/api/oM/Dimensional/Geometry/Curve/Line) | Line defining the location of the load. | - |
+| Objects | [BHoMGroup](/api/oM/Framework/Base/BHoMGroup)&lt;[IAreaElement](/api/oM/Analytical/Structure/Elements/IAreaElement)&gt; | A collection of IAreaElements (e.g. Panels) to apply the line load to. These are not required for all adapters. | - |
 
 
 ### Inherited properties
@@ -67,13 +67,23 @@ The following properties are defined as extension methods in one of the BHoM_Eng
 | Name             | Type             | Description      | Quantity         | Engine           |
 |------------------|------------------|------------------|------------------|------------------|
 | IsNull | [bool](https://learn.microsoft.com/en-us/dotnet/api/System.Boolean?view=netstandard-2.0) | Checks if a Load is null and outputs relevant error message. | - | Structure_Engine |
-| IVisualize | [IEnumerable](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IEnumerable-1?view=netstandard-2.0)&lt;[IGeometry](/api/oM/Dimensional/Geometry/IGeometry)&gt; | Draws arrows representing the load. Visualisation will depend on the load type. | - | Structure_Engine |
-| Visualize | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[ICurve](/api/oM/Dimensional/Geometry/ICurve)&gt; | Draws arrows representing the load along the length of the line of the load. | - | Structure_Engine |
+| IVisualize | [IEnumerable](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IEnumerable-1?view=netstandard-2.0)&lt;[IGeometry](/api/oM/Dimensional/Geometry/Interface/IGeometry)&gt; | Draws arrows representing the load. Visualisation will depend on the load type. | - | Structure_Engine |
+| Visualize | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[ICurve](/api/oM/Dimensional/Geometry/Curve/ICurve)&gt; | Draws arrows representing the load along the length of the line of the load. | - | Structure_Engine |
 
 
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class GeometricalLineLoad : BH.oM.Base.BHoMObject,
+BH.oM.Base.IBHoMObject,
+BH.oM.Base.IObject,
+BH.oM.Structure.Loads.IElementLoad<BH.oM.Structure.Elements.IAreaElement>,
+BH.oM.Structure.Loads.ILoad
+```
+
+Assembly: Structure_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

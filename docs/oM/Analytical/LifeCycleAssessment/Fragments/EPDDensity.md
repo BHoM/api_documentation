@@ -2,7 +2,7 @@
 title: EPDDensity
 ---
 
-# LifeCycleAssessment.Fragments.EPDDensity
+# <small>BH.oM.LifeCycleAssessment.</small>**EPDDensity**
 
 A data fragment used to store Density values if provided from the EPD source. 
 Density is a required property for all Evaluations of EPDs with Mass-QuantityType.Density can be changed by the user by adding this fragment to an EPD. 
@@ -12,10 +12,10 @@ The user accepts responsibility for any changes beyond the given dataset informa
 
 ### Implemented interfaces and base types
 
-???+ bhom "The EPDDensity in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The EPDDensity is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IFragment](/api/oM/Framework/Base/IFragment)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.Base.[IFragment](/api/oM/Framework/Base/Interface/IFragment)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 ## Properties
@@ -34,6 +34,12 @@ The following properties are defined on the class
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class EPDDensity : BH.oM.Base.IFragment, BH.oM.Base.IObject
+```
+
+Assembly: LifeCycleAssessment_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

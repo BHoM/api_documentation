@@ -2,7 +2,7 @@
 title: ITestInformation
 ---
 
-# Test.ITestInformation
+# <small>BH.oM.</small>**ITestInformation**
 
 
 
@@ -10,17 +10,17 @@ title: ITestInformation
 
 ### Implemented interfaces and base types
 
-???+ bhom "The ITestInformation in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The ITestInformation is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Test.Results.[EventMessage](/api/oM/Framework/Test/Results/EventMessage)
-    - Test.Results.[TestResult](/api/oM/Framework/Test/Results/TestResult)
+    - BH.oM.Test.Results.[EventMessage](/api/oM/Framework/Test/Results/EventMessage)
+    - BH.oM.Test.Results.[TestResult](/api/oM/Framework/Test/Results/TestResult)
 
 
 ## Properties
@@ -53,6 +53,12 @@ The following properties are defined as extension methods in one of the BHoM_Eng
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public interface ITestInformation : BH.oM.Base.IObject
+```
+
+Assembly: Test_oM.dll
 
 The interface is defined in C#. The class definition is available on github:
 

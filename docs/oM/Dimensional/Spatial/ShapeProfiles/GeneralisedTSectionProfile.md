@@ -2,7 +2,7 @@
 title: GeneralisedTSectionProfile
 ---
 
-# Spatial.ShapeProfiles.GeneralisedTSectionProfile
+# <small>BH.oM.Spatial.</small>**GeneralisedTSectionProfile**
 
 T-shaped profile that allows for different outsand widths and thicknesses. Outstands with different thicknesses are aligned by their top edge.
 The full width of the top flange can be calculated as LeftOutstandWidth + WebThickness + RightOutstandWidth.
@@ -11,13 +11,13 @@ The full width of the top flange can be calculated as LeftOutstandWidth + WebThi
 
 ### Implemented interfaces and base types
 
-???+ bhom "The GeneralisedTSectionProfile in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The GeneralisedTSectionProfile is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
-    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
-    -  Spatial.ShapeProfiles.[IProfile](/api/oM/Dimensional/Spatial/ShapeProfiles/IProfile)
-    -  Base.[IImmutable](/api/oM/Framework/Base/IImmutable)
+    -  BH.oM.Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
+    -  BH.oM.Base.[IBHoMObject](/api/oM/Framework/Base/Interface/IBHoMObject)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
+    -  BH.oM.Spatial.ShapeProfiles.[IProfile](/api/oM/Dimensional/Spatial/ShapeProfiles/IProfile)
+    -  BH.oM.Base.[IImmutable](/api/oM/Framework/Base/Interface/IImmutable)
 
 
 ## Properties
@@ -30,7 +30,7 @@ The following properties are defined on the class
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| Shape | [ShapeType](/api/oM/Dimensional/Spatial/ShapeProfiles/ShapeType) | - | - |
+| Shape | [ShapeType](/api/oM/Dimensional/Spatial/ShapeProfiles/Enums/ShapeType) | - | - |
 | Height | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Full depth between the extreme fibre of the outstand and the web. | [Length](/api/oM/Dimensional/Quantities/Attributes/Length) [m] |
 | WebThickness | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | - | [Length](/api/oM/Dimensional/Quantities/Attributes/Length) [m] |
 | LeftOutstandWidth | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Outstand width on the left side, measured from the outside edge of the web. | [Length](/api/oM/Dimensional/Quantities/Attributes/Length) [m] |
@@ -38,7 +38,7 @@ The following properties are defined on the class
 | RightOutstandWidth | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Outstand width on the right side, measured from the outside edge of the web. | [Length](/api/oM/Dimensional/Quantities/Attributes/Length) [m] |
 | RightOutstandThickness | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | - | - |
 | MirrorAboutLocalY | [bool](https://learn.microsoft.com/en-us/dotnet/api/System.Boolean?view=netstandard-2.0) | If true, the section is mirrored about its local y-axis, resulting in upside down T-shape. | - |
-| Edges | [ReadOnlyCollection](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.ObjectModel.ReadOnlyCollection-1?view=netstandard-2.0)&lt;[ICurve](/api/oM/Dimensional/Geometry/ICurve)&gt; | Edge curves that matches the dimensions in the global XY-plane. | - |
+| Edges | [ReadOnlyCollection](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.ObjectModel.ReadOnlyCollection-1?view=netstandard-2.0)&lt;[ICurve](/api/oM/Dimensional/Geometry/Curve/ICurve)&gt; | Edge curves that matches the dimensions in the global XY-plane. | - |
 
 
 ### Inherited properties
@@ -60,10 +60,10 @@ The following properties are defined as extension methods in one of the BHoM_Eng
 | Name             | Type             | Description      | Quantity         | Engine           |
 |------------------|------------------|------------------|------------------|------------------|
 | Area | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Gets the area of an IProfile. This assumes that the outermost curve(s) are solid. Curves inside a solid region are assumed to be openings, and curves within openings are assumed to be solid, etc. Also, for TaperedProfiles, the average area is returned. | [Area](/api/oM/Dimensional/Quantities/Attributes/Area) [m²] | Spatial_Engine |
-| Bounds | [BoundingBox](/api/oM/Dimensional/Geometry/BoundingBox) | Queries the BoundingBox of a Profile. Acts on the profile edges through the Geometry_Engine. | - | Spatial_Engine |
+| Bounds | [BoundingBox](/api/oM/Dimensional/Geometry/Misc/BoundingBox) | Queries the BoundingBox of a Profile. Acts on the profile edges through the Geometry_Engine. | - | Spatial_Engine |
 | Description | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | Generates a default description for the profile as 'GenT  Height x WebThickness x LeftOutstandWidth x LeftOutstandThickness x RightOutstandWidth x RightOutstandThickness'. | - | Structure_Engine |
 | DescriptionOrName | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | Gets the name from a profile. If null or empty, a default description name is provided instead. | - | Structure_Engine |
-| Geometry | [CompositeGeometry](/api/oM/Dimensional/Geometry/CompositeGeometry) | Queries edge curves from an IProfile. | - | Spatial_Engine |
+| Geometry | [CompositeGeometry](/api/oM/Dimensional/Geometry/Misc/CompositeGeometry) | Queries edge curves from an IProfile. | - | Spatial_Engine |
 | ICircularEquivalentDiameter | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Returns the Circular Equivalent Diameter for elements that are non-circular, equivalent in length, fluid resistance and airflow. | - | MEP_Engine |
 | IDescription | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | Generates a default description for the Profile, based on dimensions. | - | Structure_Engine |
 | IsNull | [bool](https://learn.microsoft.com/en-us/dotnet/api/System.Boolean?view=netstandard-2.0) | Checks if an Profile is null and outputs relevant error message. | - | Spatial_Engine |
@@ -77,6 +77,12 @@ The following properties are defined as extension methods in one of the BHoM_Eng
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class GeneralisedTSectionProfile : BH.oM.Base.BHoMObject, BH.oM.Base.IBHoMObject, BH.oM.Base.IObject, BH.oM.Spatial.ShapeProfiles.IProfile, BH.oM.Base.IImmutable
+```
+
+Assembly: Spatial_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

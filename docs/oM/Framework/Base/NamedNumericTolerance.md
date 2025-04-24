@@ -2,7 +2,7 @@
 title: NamedNumericTolerance
 ---
 
-# Base.NamedNumericTolerance
+# <small>BH.oM.</small>**NamedNumericTolerance**
 
 Tolerance used for specific numerical objects or properties with a specific name.When computing Hash or the property Diffing, if the analysed object or property name is found in this collection, the corresponding tolerance is considered.
 
@@ -10,9 +10,9 @@ Tolerance used for specific numerical objects or properties with a specific name
 
 ### Implemented interfaces and base types
 
-???+ bhom "The NamedNumericTolerance in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The NamedNumericTolerance is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 ## Properties
@@ -32,6 +32,12 @@ The following properties are defined on the class
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class NamedNumericTolerance : BH.oM.Base.IObject
+```
+
+Assembly: BHoM.dll
 
 The class is defined in C#. The class definition is available on github:
 

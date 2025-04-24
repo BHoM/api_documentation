@@ -2,7 +2,7 @@
 title: IFacadeObject
 ---
 
-# Facade.IFacadeObject
+# <small>BH.oM.</small>**IFacadeObject**
 
 
 
@@ -10,19 +10,19 @@ title: IFacadeObject
 
 ### Implemented interfaces and base types
 
-???+ bhom "The IFacadeObject in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The IFacadeObject is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.Base.[IBHoMObject](/api/oM/Framework/Base/Interface/IBHoMObject)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Facade.Elements.[CurtainWall](/api/oM/Analytical/Facade/Elements/CurtainWall)
-    - Facade.Elements.[Opening](/api/oM/Analytical/Facade/Elements/Opening)
-    - Facade.Elements.[Panel](/api/oM/Analytical/Facade/Elements/Panel)
+    - BH.oM.Facade.Elements.[CurtainWall](/api/oM/Analytical/Facade/Elements/CurtainWall)
+    - BH.oM.Facade.Elements.[Opening](/api/oM/Analytical/Facade/Elements/Opening)
+    - BH.oM.Facade.Elements.[Panel](/api/oM/Analytical/Facade/Elements/Panel)
 
 
 ## Properties
@@ -30,6 +30,12 @@ title: IFacadeObject
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public interface IFacadeObject : BH.oM.Base.IBHoMObject, BH.oM.Base.IObject
+```
+
+Assembly: Facade_oM.dll
 
 The interface is defined in C#. The class definition is available on github:
 

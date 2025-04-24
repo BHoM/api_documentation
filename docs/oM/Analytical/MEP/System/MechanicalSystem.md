@@ -2,7 +2,7 @@
 title: MechanicalSystem
 ---
 
-# MEP.System.MechanicalSystem
+# <small>BH.oM.MEP.</small>**MechanicalSystem**
 
 Mechanical systems are qualified by their ability to convey air, water, etc to a building/room/area
 
@@ -10,12 +10,12 @@ Mechanical systems are qualified by their ability to convey air, water, etc to a
 
 ### Implemented interfaces and base types
 
-???+ bhom "The MechanicalSystem in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The MechanicalSystem is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
-    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
-    -  MEP.System.[ISystemType](/api/oM/Analytical/MEP/System/ISystemType)
+    -  BH.oM.Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
+    -  BH.oM.Base.[IBHoMObject](/api/oM/Framework/Base/Interface/IBHoMObject)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
+    -  BH.oM.MEP.System.[ISystemType](/api/oM/Analytical/MEP/System/ISystemType)
 
 
 ## Properties
@@ -49,6 +49,12 @@ The following properties are inherited from the base class of the object
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class MechanicalSystem : BH.oM.Base.BHoMObject, BH.oM.Base.IBHoMObject, BH.oM.Base.IObject, BH.oM.MEP.System.ISystemType
+```
+
+Assembly: MEP_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

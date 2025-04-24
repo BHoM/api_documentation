@@ -2,7 +2,7 @@
 title: FEMeshFace
 ---
 
-# Structure.Elements.FEMeshFace
+# <small>BH.oM.Structure.</small>**FEMeshFace**
 
 Face of an FEMesh. The face is defined by the indices of its nodes in the node list. Geometrical information about position in space is stored on the host FEMesh.
 
@@ -10,13 +10,13 @@ Face of an FEMesh. The face is defined by the indices of its nodes in the node l
 
 ### Implemented interfaces and base types
 
-???+ bhom "The FEMeshFace in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The FEMeshFace is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
-    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
-    -  Analytical.Elements.[IFace](/api/oM/Analytical/Analytical/Elements/IFace)
-    -  Analytical.[IAnalytical](/api/oM/Analytical/Analytical/IAnalytical)
+    -  BH.oM.Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
+    -  BH.oM.Base.[IBHoMObject](/api/oM/Framework/Base/Interface/IBHoMObject)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
+    -  BH.oM.Analytical.Elements.[IFace](/api/oM/Analytical/Analytical/Elements/IFace)
+    -  BH.oM.Analytical.[IAnalytical](/api/oM/Analytical/Analytical/IAnalytical)
 
 
 ## Properties
@@ -51,13 +51,19 @@ The following properties are defined as extension methods in one of the BHoM_Eng
 
 | Name             | Type             | Description      | Quantity         | Engine           |
 |------------------|------------------|------------------|------------------|------------------|
-| Geometry | [Face](/api/oM/Dimensional/Geometry/Face) | Gets the geometry of a analytical IFace as a geometrical Mesh's Face. A geometrical mesh face only supports 3 and 4 nodes faces, while a FEMeshFace does not have this limitation. For FEMeshFaces with more than 4 nodes or less than 3 this operation is therefore not possible. Method required for automatic display in UI packages. | - | Analytical_Engine |
+| Geometry | [Face](/api/oM/Dimensional/Geometry/Mesh/Face) | Gets the geometry of a analytical IFace as a geometrical Mesh's Face. A geometrical mesh face only supports 3 and 4 nodes faces, while a FEMeshFace does not have this limitation. For FEMeshFaces with more than 4 nodes or less than 3 this operation is therefore not possible. Method required for automatic display in UI packages. | - | Analytical_Engine |
 | IsNull | [bool](https://learn.microsoft.com/en-us/dotnet/api/System.Boolean?view=netstandard-2.0) | Checks if an FEMeshFace or its defining properties are null and outputs relevant error message. | - | Structure_Engine |
 
 
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class FEMeshFace : BH.oM.Base.BHoMObject, BH.oM.Base.IBHoMObject, BH.oM.Base.IObject, BH.oM.Analytical.Elements.IFace, BH.oM.Analytical.IAnalytical
+```
+
+Assembly: Structure_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

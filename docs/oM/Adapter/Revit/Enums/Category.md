@@ -2,7 +2,7 @@
 title: Category
 ---
 
-# Revit.Enums.Category
+# <small>BH.oM.Revit.</small>**Category**
 
 A collection of Revit categories supported by BHoM (UI, filtering etc.).
 
@@ -366,6 +366,12 @@ A collection of Revit categories supported by BHoM (UI, filtering etc.).
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public enum Category : System.Enum, System.ValueType, System.IComparable, System.ISpanFormattable, System.IFormattable, System.IConvertible
+```
+
+Assembly: Revit_oM.dll
 
 The enum is defined in C#. The class definition is available on github:
 

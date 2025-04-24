@@ -1,0 +1,61 @@
+---
+title: PsiValueSchedule
+---
+
+# <small>BH.oM.Environment.SAP.</small>**PsiValueSchedule**
+
+A thermal bridge between two thermal elements of the dwelling.
+
+## Class structure
+
+### Implemented interfaces and base types
+
+???+ bhom "The PsiValueSchedule is inheriting from the following base type(s) and implements the following interfaces:"
+
+    -  BH.oM.Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
+    -  BH.oM.Base.[IBHoMObject](/api/oM/Framework/Base/Interface/IBHoMObject)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
+
+
+## Properties
+
+
+
+### Defining properties
+
+The following properties are defined on the class
+
+| Name             | Type             | Description      | Quantity         |
+|------------------|------------------|------------------|------------------|
+| Type | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | The thermal bridge type reference according to Table K1 in SAP 2012. | - |
+| ThermalBridgeName | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | The length of the thermal bridge. | - |
+| PsiValue | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | The psi-value (heat loss per linear metre) to be applied to the thermal bridge. | - |
+
+
+### Inherited properties
+The following properties are inherited from the base class of the object
+
+| Name             | Type             | Description      | Quantity         |
+|------------------|------------------|------------------|------------------|
+| BHoM_Guid | [Guid](https://learn.microsoft.com/en-us/dotnet/api/System.Guid?view=netstandard-2.0) | - | - |
+| Name | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | - | - |
+| Fragments | [FragmentSet](/api/oM/Framework/Base/FragmentSet) | - | - |
+| Tags | [HashSet](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.HashSet-1?view=netstandard-2.0)&lt;[string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0)&gt; | - | - |
+| CustomData | [Dictionary](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.Dictionary-2?view=netstandard-2.0)&lt;[string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0), [object](https://learn.microsoft.com/en-us/dotnet/api/System.Object?view=netstandard-2.0)&gt; | - | - |
+
+
+## Code and Schema
+
+### C# implementation
+
+``` C# title="C#"
+public class PsiValueSchedule : BH.oM.Base.BHoMObject, BH.oM.Base.IBHoMObject, BH.oM.Base.IObject
+```
+
+Assembly: SAP_oM.dll
+
+The class is defined in C#. The class definition is available on github:
+
+- [PsiValueSchedule.cs](https://github.com/BHoM/SAP_Toolkit/blob/develop/SAP_oM/Excel\PsiValueSchedule.cs)
+
+All history and changes of the class can be found by inspection the history.

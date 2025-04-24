@@ -2,7 +2,7 @@
 title: ICase
 ---
 
-# Structure.Loads.ICase
+# <small>BH.oM.Structure.</small>**ICase**
 
 Base interface for load cases and combinations.
 
@@ -10,19 +10,19 @@ Base interface for load cases and combinations.
 
 ### Implemented interfaces and base types
 
-???+ bhom "The ICase in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The ICase is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.Base.[IBHoMObject](/api/oM/Framework/Base/Interface/IBHoMObject)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Structure.Loads.[ModalCase](/api/oM/Adapter/Structure/Loads/ModalCase)
-    - Structure.Loads.[Loadcase](/api/oM/Analytical/Structure/Loads/Loadcase)
-    - Structure.Loads.[LoadCombination](/api/oM/Analytical/Structure/Loads/LoadCombination)
+    - BH.oM.Structure.Loads.[ModalCase](/api/oM/Adapter/Structure/Loads/ModalCase)
+    - BH.oM.Structure.Loads.[Loadcase](/api/oM/Analytical/Structure/Loads/Loadcase)
+    - BH.oM.Structure.Loads.[LoadCombination](/api/oM/Analytical/Structure/Loads/LoadCombination)
 
 
 ## Properties
@@ -50,6 +50,12 @@ The following properties are defined as extension methods in one of the BHoM_Eng
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public interface ICase : BH.oM.Base.IBHoMObject, BH.oM.Base.IObject
+```
+
+Assembly: Structure_oM.dll
 
 The interface is defined in C#. The class definition is available on github:
 

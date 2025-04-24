@@ -2,7 +2,7 @@
 title: LibrarySettings
 ---
 
-# Data.Library.LibrarySettings
+# <small>BH.oM.Data.</small>**LibrarySettings**
 
 Settings object to be used by the Library_Engine for controling Dataset extraction.
 
@@ -10,10 +10,10 @@ Settings object to be used by the Library_Engine for controling Dataset extracti
 
 ### Implemented interfaces and base types
 
-???+ bhom "The LibrarySettings in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The LibrarySettings is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[ISettings](/api/oM/Framework/Base/ISettings)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.Base.[ISettings](/api/oM/Framework/Base/Interface/ISettings)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 ## Properties
@@ -32,6 +32,12 @@ The following properties are defined on the class
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class LibrarySettings : BH.oM.Base.ISettings, BH.oM.Base.IObject
+```
+
+Assembly: Data_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

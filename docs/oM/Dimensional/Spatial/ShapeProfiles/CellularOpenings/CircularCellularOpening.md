@@ -2,7 +2,7 @@
 title: CircularCellularOpening
 ---
 
-# Spatial.ShapeProfiles.CellularOpenings.CircularCellularOpening
+# <small>BH.oM.Spatial.ShapeProfiles.</small>**CircularCellularOpening**
 
 
 
@@ -10,13 +10,13 @@ title: CircularCellularOpening
 
 ### Implemented interfaces and base types
 
-???+ bhom "The CircularCellularOpening in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The CircularCellularOpening is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
-    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
-    -  Spatial.ShapeProfiles.CellularOpenings.[ICellularOpening](/api/oM/Dimensional/Spatial/ShapeProfiles/CellularOpenings/ICellularOpening)
-    -  Base.[IImmutable](/api/oM/Framework/Base/IImmutable)
+    -  BH.oM.Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
+    -  BH.oM.Base.[IBHoMObject](/api/oM/Framework/Base/Interface/IBHoMObject)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
+    -  BH.oM.Spatial.ShapeProfiles.CellularOpenings.[ICellularOpening](/api/oM/Dimensional/Spatial/ShapeProfiles/CellularOpenings/ICellularOpening)
+    -  BH.oM.Base.[IImmutable](/api/oM/Framework/Base/Interface/IImmutable)
 
 
 ## Properties
@@ -53,14 +53,24 @@ The following properties are defined as extension methods in one of the BHoM_Eng
 | Name             | Type             | Description      | Quantity         | Engine           |
 |------------------|------------------|------------------|------------------|------------------|
 | IOpeningArea | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Returns the area of a single opening. | [Area](/api/oM/Dimensional/Quantities/Attributes/Area) [m²] | Spatial_Engine |
-| IOpeningCurve | [ICurve](/api/oM/Dimensional/Geometry/ICurve) | Returns the curve of a single opening in the XY plane. | - | Spatial_Engine |
+| IOpeningCurve | [ICurve](/api/oM/Dimensional/Geometry/Curve/ICurve) | Returns the curve of a single opening in the XY plane. | - | Spatial_Engine |
 | OpeningArea | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Returns the area of a single opening. | [Area](/api/oM/Dimensional/Quantities/Attributes/Area) [m²] | Spatial_Engine |
-| OpeningCurve | [ICurve](/api/oM/Dimensional/Geometry/ICurve) | Returns the curve of a single opening in the XY plane. | - | Spatial_Engine |
+| OpeningCurve | [ICurve](/api/oM/Dimensional/Geometry/Curve/ICurve) | Returns the curve of a single opening in the XY plane. | - | Spatial_Engine |
 
 
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class CircularCellularOpening : BH.oM.Base.BHoMObject,
+BH.oM.Base.IBHoMObject,
+BH.oM.Base.IObject,
+BH.oM.Spatial.ShapeProfiles.CellularOpenings.ICellularOpening,
+BH.oM.Base.IImmutable
+```
+
+Assembly: Spatial_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

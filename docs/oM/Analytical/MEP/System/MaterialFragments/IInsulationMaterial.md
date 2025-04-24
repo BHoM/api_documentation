@@ -2,7 +2,7 @@
 title: IInsulationMaterial
 ---
 
-# MEP.System.MaterialFragments.IInsulationMaterial
+# <small>BH.oM.MEP.System.</small>**IInsulationMaterial**
 
 Insulation is the material surrounding a duct, pipe or wire which mitigates the loss of the internal conditions of the fluid within the object.
 
@@ -10,20 +10,20 @@ Insulation is the material surrounding a duct, pipe or wire which mitigates the 
 
 ### Implemented interfaces and base types
 
-???+ bhom "The IInsulationMaterial in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The IInsulationMaterial is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IFragment](/api/oM/Framework/Base/IFragment)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
-    -  Physical.Materials.[IMaterialProperties](/api/oM/Physical/Physical/Materials/IMaterialProperties)
-    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
+    -  BH.oM.Base.[IFragment](/api/oM/Framework/Base/Interface/IFragment)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
+    -  BH.oM.Physical.Materials.[IMaterialProperties](/api/oM/Physical/Physical/Materials/IMaterialProperties)
+    -  BH.oM.Base.[IBHoMObject](/api/oM/Framework/Base/Interface/IBHoMObject)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - MEP.System.MaterialFragments.[InsulationMaterial](/api/oM/Analytical/MEP/System/MaterialFragments/InsulationMaterial)
-    - MEP.System.MaterialFragments.[LiningMaterial](/api/oM/Analytical/MEP/System/MaterialFragments/LiningMaterial)
+    - BH.oM.MEP.System.MaterialFragments.[InsulationMaterial](/api/oM/Analytical/MEP/System/MaterialFragments/InsulationMaterial)
+    - BH.oM.MEP.System.MaterialFragments.[LiningMaterial](/api/oM/Analytical/MEP/System/MaterialFragments/LiningMaterial)
 
 
 ## Properties
@@ -43,6 +43,12 @@ The following properties are defined on the interface
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public interface IInsulationMaterial : BH.oM.Base.IFragment, BH.oM.Base.IObject, BH.oM.Physical.Materials.IMaterialProperties, BH.oM.Base.IBHoMObject
+```
+
+Assembly: MEP_oM.dll
 
 The interface is defined in C#. The class definition is available on github:
 

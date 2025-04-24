@@ -2,7 +2,7 @@
 title: Spine
 ---
 
-# Humans.BodyParts.Spine
+# <small>BH.oM.Humans.</small>**Spine**
 
 
 
@@ -10,10 +10,10 @@ title: Spine
 
 ### Implemented interfaces and base types
 
-???+ bhom "The Spine in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The Spine is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Humans.Interfaces.[ILineBodyPart](/api/oM/Physical/Humans/Interfaces/ILineBodyPart)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.Humans.Interfaces.[ILineBodyPart](/api/oM/Physical/Humans/Interfaces/ILineBodyPart)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 ## Properties
@@ -26,12 +26,18 @@ The following properties are defined on the class
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| TrackingLine | [Line](/api/oM/Dimensional/Geometry/Line) | - | - |
+| TrackingLine | [Line](/api/oM/Dimensional/Geometry/Curve/Line) | - | - |
 
 
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class Spine : BH.oM.Humans.Interfaces.ILineBodyPart, BH.oM.Base.IObject
+```
+
+Assembly: Humans_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

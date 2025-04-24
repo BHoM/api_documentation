@@ -2,7 +2,7 @@
 title: ResultFilter
 ---
 
-# Analytical.Results.ResultFilter
+# <small>BH.oM.Analytical.</small>**ResultFilter**
 
 Object to support filtering of results
 
@@ -10,9 +10,9 @@ Object to support filtering of results
 
 ### Implemented interfaces and base types
 
-???+ bhom "The ResultFilter in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The ResultFilter is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 ## Properties
@@ -36,6 +36,12 @@ The following properties are defined on the class
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class ResultFilter : BH.oM.Base.IObject
+```
+
+Assembly: Analytical_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

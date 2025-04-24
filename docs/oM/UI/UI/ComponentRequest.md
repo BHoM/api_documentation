@@ -2,7 +2,7 @@
 title: ComponentRequest
 ---
 
-# UI.ComponentRequest
+# <small>BH.oM.</small>**ComponentRequest**
 
 
 
@@ -10,11 +10,11 @@ title: ComponentRequest
 
 ### Implemented interfaces and base types
 
-???+ bhom "The ComponentRequest in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The ComponentRequest is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
-    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
+    -  BH.oM.Base.[IBHoMObject](/api/oM/Framework/Base/Interface/IBHoMObject)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 ## Properties
@@ -29,7 +29,7 @@ The following properties are defined on the class
 |------------------|------------------|------------------|------------------|
 | CallerType | [Type](https://learn.microsoft.com/en-us/dotnet/api/System.Type?view=netstandard-2.0) | - | - |
 | SelectedItem | [object](https://learn.microsoft.com/en-us/dotnet/api/System.Object?view=netstandard-2.0) | - | - |
-| Location | [Point](/api/oM/Dimensional/Geometry/Point) | - | - |
+| Location | [Point](/api/oM/Dimensional/Geometry/Vector/Point) | - | - |
 
 
 ### Inherited properties
@@ -47,6 +47,12 @@ The following properties are inherited from the base class of the object
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class ComponentRequest : BH.oM.Base.BHoMObject, BH.oM.Base.IBHoMObject, BH.oM.Base.IObject
+```
+
+Assembly: UI_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

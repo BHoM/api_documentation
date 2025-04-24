@@ -2,7 +2,7 @@
 title: NegativeLogLikelihood
 ---
 
-# DeepLearning.Losses.NegativeLogLikelihood
+# <small>BH.oM.DeepLearning.</small>**NegativeLogLikelihood**
 
 
 
@@ -10,12 +10,12 @@ title: NegativeLogLikelihood
 
 ### Implemented interfaces and base types
 
-???+ bhom "The NegativeLogLikelihood in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The NegativeLogLikelihood is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
-    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
-    -  DeepLearning.[IModule](/api/oM/Framework/DeepLearning/IModule)
+    -  BH.oM.Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
+    -  BH.oM.Base.[IBHoMObject](/api/oM/Framework/Base/Interface/IBHoMObject)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
+    -  BH.oM.DeepLearning.[IModule](/api/oM/Framework/DeepLearning/IModule)
 
 
 ## Properties
@@ -28,7 +28,7 @@ The following properties are defined on the class
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| Reduce | [Reduce](/api/oM/Framework/DeepLearning/Reduce) | - | - |
+| Reduce | [Reduce](/api/oM/Framework/DeepLearning/Enums/Reduce) | - | - |
 | ClassWeights | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0)&gt; | - | - |
 
 
@@ -47,6 +47,12 @@ The following properties are inherited from the base class of the object
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class NegativeLogLikelihood : BH.oM.Base.BHoMObject, BH.oM.Base.IBHoMObject, BH.oM.Base.IObject, BH.oM.DeepLearning.IModule
+```
+
+Assembly: DeepLearning_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

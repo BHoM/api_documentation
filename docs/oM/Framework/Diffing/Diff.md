@@ -2,7 +2,7 @@
 title: Diff
 ---
 
-# Diffing.Diff
+# <small>BH.oM.</small>**Diff**
 
 Represents the differences between two sets of objects.
 
@@ -10,10 +10,10 @@ Represents the differences between two sets of objects.
 
 ### Implemented interfaces and base types
 
-???+ bhom "The Diff in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The Diff is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
-    -  Base.[IImmutable](/api/oM/Framework/Base/IImmutable)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
+    -  BH.oM.Base.[IImmutable](/api/oM/Framework/Base/Interface/IImmutable)
 
 
 ## Properties
@@ -37,6 +37,12 @@ The following properties are defined on the class
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class Diff : BH.oM.Base.IObject, BH.oM.Base.IImmutable
+```
+
+Assembly: Diffing_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

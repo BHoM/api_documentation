@@ -2,7 +2,7 @@
 title: IProjection
 ---
 
-# Analytical.Graph.Projection.IProjection
+# <small>BH.oM.Analytical.Graph.</small>**IProjection**
 
 Interface common to all graph projections.
 
@@ -10,19 +10,19 @@ Interface common to all graph projections.
 
 ### Implemented interfaces and base types
 
-???+ bhom "The IProjection in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The IProjection is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.Base.[IBHoMObject](/api/oM/Framework/Base/Interface/IBHoMObject)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Analytical.Graph.Projection.[GeometricProjection](/api/oM/Analytical/Analytical/Graph/Projection/GeometricProjection)
-    - Analytical.Graph.Projection.[GraphicalProjection](/api/oM/Analytical/Analytical/Graph/Projection/GraphicalProjection)
-    - Analytical.Graph.Projection.[SpatialProjection](/api/oM/Analytical/Analytical/Graph/Projection/SpatialProjection)
+    - BH.oM.Analytical.Graph.Projection.[GeometricProjection](/api/oM/Analytical/Analytical/Graph/Projection/GeometricProjection)
+    - BH.oM.Analytical.Graph.Projection.[GraphicalProjection](/api/oM/Analytical/Analytical/Graph/Projection/GraphicalProjection)
+    - BH.oM.Analytical.Graph.Projection.[SpatialProjection](/api/oM/Analytical/Analytical/Graph/Projection/SpatialProjection)
 
 
 ## Properties
@@ -30,6 +30,12 @@ Interface common to all graph projections.
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public interface IProjection : BH.oM.Base.IBHoMObject, BH.oM.Base.IObject
+```
+
+Assembly: Analytical_oM.dll
 
 The interface is defined in C#. The class definition is available on github:
 

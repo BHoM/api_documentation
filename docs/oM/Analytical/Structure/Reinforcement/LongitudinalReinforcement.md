@@ -2,7 +2,7 @@
 title: LongitudinalReinforcement
 ---
 
-# Structure.Reinforcement.LongitudinalReinforcement
+# <small>BH.oM.Structure.</small>**LongitudinalReinforcement**
 
 Defines any longitudinal reinforcement along a Bar.
 
@@ -10,12 +10,12 @@ Defines any longitudinal reinforcement along a Bar.
 
 ### Implemented interfaces and base types
 
-???+ bhom "The LongitudinalReinforcement in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The LongitudinalReinforcement is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
-    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
-    -  Structure.Reinforcement.[IBarReinforcement](/api/oM/Analytical/Structure/Reinforcement/IBarReinforcement)
+    -  BH.oM.Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
+    -  BH.oM.Base.[IBHoMObject](/api/oM/Framework/Base/Interface/IBHoMObject)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
+    -  BH.oM.Structure.Reinforcement.[IBarReinforcement](/api/oM/Analytical/Structure/Reinforcement/IBarReinforcement)
 
 
 ## Properties
@@ -61,6 +61,12 @@ The following properties are defined as extension methods in one of the BHoM_Eng
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class LongitudinalReinforcement : BH.oM.Base.BHoMObject, BH.oM.Base.IBHoMObject, BH.oM.Base.IObject, BH.oM.Structure.Reinforcement.IBarReinforcement
+```
+
+Assembly: Structure_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

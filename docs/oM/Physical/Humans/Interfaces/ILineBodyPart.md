@@ -2,7 +2,7 @@
 title: ILineBodyPart
 ---
 
-# Humans.Interfaces.ILineBodyPart
+# <small>BH.oM.Humans.</small>**ILineBodyPart**
 
 
 
@@ -10,35 +10,35 @@ title: ILineBodyPart
 
 ### Implemented interfaces and base types
 
-???+ bhom "The ILineBodyPart in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The ILineBodyPart is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Humans.BodyParts.[LeftFoot](/api/oM/Physical/Humans/BodyParts/LeftFoot)
-    - Humans.BodyParts.[LeftHand](/api/oM/Physical/Humans/BodyParts/LeftHand)
-    - Humans.BodyParts.[LeftHip](/api/oM/Physical/Humans/BodyParts/LeftHip)
-    - Humans.BodyParts.[LeftLowerArm](/api/oM/Physical/Humans/BodyParts/LeftLowerArm)
-    - Humans.BodyParts.[LeftLowerLeg](/api/oM/Physical/Humans/BodyParts/LeftLowerLeg)
-    - Humans.BodyParts.[LeftShoulder](/api/oM/Physical/Humans/BodyParts/LeftShoulder)
-    - Humans.BodyParts.[LeftThumb](/api/oM/Physical/Humans/BodyParts/LeftThumb)
-    - Humans.BodyParts.[LeftUpperArm](/api/oM/Physical/Humans/BodyParts/LeftUpperArm)
-    - Humans.BodyParts.[LeftUpperLeg](/api/oM/Physical/Humans/BodyParts/LeftUpperLeg)
-    - Humans.BodyParts.[Neck](/api/oM/Physical/Humans/BodyParts/Neck)
-    - Humans.BodyParts.[RightFoot](/api/oM/Physical/Humans/BodyParts/RightFoot)
-    - Humans.BodyParts.[RightHand](/api/oM/Physical/Humans/BodyParts/RightHand)
-    - Humans.BodyParts.[RightHip](/api/oM/Physical/Humans/BodyParts/RightHip)
-    - Humans.BodyParts.[RightLowerArm](/api/oM/Physical/Humans/BodyParts/RightLowerArm)
-    - Humans.BodyParts.[RightLowerLeg](/api/oM/Physical/Humans/BodyParts/RightLowerLeg)
-    - Humans.BodyParts.[RightShoulder](/api/oM/Physical/Humans/BodyParts/RightShoulder)
-    - Humans.BodyParts.[RightThumb](/api/oM/Physical/Humans/BodyParts/RightThumb)
-    - Humans.BodyParts.[RightUpperArm](/api/oM/Physical/Humans/BodyParts/RightUpperArm)
-    - Humans.BodyParts.[RightUpperLeg](/api/oM/Physical/Humans/BodyParts/RightUpperLeg)
-    - Humans.BodyParts.[Spine](/api/oM/Physical/Humans/BodyParts/Spine)
+    - BH.oM.Humans.BodyParts.[LeftFoot](/api/oM/Physical/Humans/BodyParts/LeftFoot)
+    - BH.oM.Humans.BodyParts.[LeftHand](/api/oM/Physical/Humans/BodyParts/LeftHand)
+    - BH.oM.Humans.BodyParts.[LeftHip](/api/oM/Physical/Humans/BodyParts/LeftHip)
+    - BH.oM.Humans.BodyParts.[LeftLowerArm](/api/oM/Physical/Humans/BodyParts/LeftLowerArm)
+    - BH.oM.Humans.BodyParts.[LeftLowerLeg](/api/oM/Physical/Humans/BodyParts/LeftLowerLeg)
+    - BH.oM.Humans.BodyParts.[LeftShoulder](/api/oM/Physical/Humans/BodyParts/LeftShoulder)
+    - BH.oM.Humans.BodyParts.[LeftThumb](/api/oM/Physical/Humans/BodyParts/LeftThumb)
+    - BH.oM.Humans.BodyParts.[LeftUpperArm](/api/oM/Physical/Humans/BodyParts/LeftUpperArm)
+    - BH.oM.Humans.BodyParts.[LeftUpperLeg](/api/oM/Physical/Humans/BodyParts/LeftUpperLeg)
+    - BH.oM.Humans.BodyParts.[Neck](/api/oM/Physical/Humans/BodyParts/Neck)
+    - BH.oM.Humans.BodyParts.[RightFoot](/api/oM/Physical/Humans/BodyParts/RightFoot)
+    - BH.oM.Humans.BodyParts.[RightHand](/api/oM/Physical/Humans/BodyParts/RightHand)
+    - BH.oM.Humans.BodyParts.[RightHip](/api/oM/Physical/Humans/BodyParts/RightHip)
+    - BH.oM.Humans.BodyParts.[RightLowerArm](/api/oM/Physical/Humans/BodyParts/RightLowerArm)
+    - BH.oM.Humans.BodyParts.[RightLowerLeg](/api/oM/Physical/Humans/BodyParts/RightLowerLeg)
+    - BH.oM.Humans.BodyParts.[RightShoulder](/api/oM/Physical/Humans/BodyParts/RightShoulder)
+    - BH.oM.Humans.BodyParts.[RightThumb](/api/oM/Physical/Humans/BodyParts/RightThumb)
+    - BH.oM.Humans.BodyParts.[RightUpperArm](/api/oM/Physical/Humans/BodyParts/RightUpperArm)
+    - BH.oM.Humans.BodyParts.[RightUpperLeg](/api/oM/Physical/Humans/BodyParts/RightUpperLeg)
+    - BH.oM.Humans.BodyParts.[Spine](/api/oM/Physical/Humans/BodyParts/Spine)
 
 
 ## Properties
@@ -51,12 +51,18 @@ The following properties are defined on the interface
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| TrackingLine | [Line](/api/oM/Dimensional/Geometry/Line) | - | - |
+| TrackingLine | [Line](/api/oM/Dimensional/Geometry/Curve/Line) | - | - |
 
 
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public interface ILineBodyPart : BH.oM.Base.IObject
+```
+
+Assembly: Humans_oM.dll
 
 The interface is defined in C#. The class definition is available on github:
 

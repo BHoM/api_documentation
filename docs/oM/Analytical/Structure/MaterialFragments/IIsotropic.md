@@ -2,7 +2,7 @@
 title: IIsotropic
 ---
 
-# Structure.MaterialFragments.IIsotropic
+# <small>BH.oM.Structure.</small>**IIsotropic**
 
 Base interface for isotropic structural materials.
 
@@ -10,25 +10,25 @@ Base interface for isotropic structural materials.
 
 ### Implemented interfaces and base types
 
-???+ bhom "The IIsotropic in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The IIsotropic is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Structure.MaterialFragments.[IMaterialFragment](/api/oM/Analytical/Structure/MaterialFragments/IMaterialFragment)
-    -  Base.[IFragment](/api/oM/Framework/Base/IFragment)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
-    -  Physical.Materials.[IMaterialProperties](/api/oM/Physical/Physical/Materials/IMaterialProperties)
-    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
-    -  Structure.[IProperty](/api/oM/Analytical/Structure/IProperty)
-    -  Physical.Materials.[IDensityProvider](/api/oM/Physical/Physical/Materials/IDensityProvider)
+    -  BH.oM.Structure.MaterialFragments.[IMaterialFragment](/api/oM/Analytical/Structure/MaterialFragments/IMaterialFragment)
+    -  BH.oM.Base.[IFragment](/api/oM/Framework/Base/Interface/IFragment)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
+    -  BH.oM.Physical.Materials.[IMaterialProperties](/api/oM/Physical/Physical/Materials/IMaterialProperties)
+    -  BH.oM.Base.[IBHoMObject](/api/oM/Framework/Base/Interface/IBHoMObject)
+    -  BH.oM.Structure.[IProperty](/api/oM/Analytical/Structure/IProperty)
+    -  BH.oM.Physical.Materials.[IDensityProvider](/api/oM/Physical/Physical/Materials/IDensityProvider)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Structure.MaterialFragments.[Aluminium](/api/oM/Analytical/Structure/MaterialFragments/Aluminium)
-    - Structure.MaterialFragments.[Concrete](/api/oM/Analytical/Structure/MaterialFragments/Concrete)
-    - Structure.MaterialFragments.[GenericIsotropicMaterial](/api/oM/Analytical/Structure/MaterialFragments/GenericIsotropicMaterial)
-    - Structure.MaterialFragments.[Steel](/api/oM/Analytical/Structure/MaterialFragments/Steel)
+    - BH.oM.Structure.MaterialFragments.[Aluminium](/api/oM/Analytical/Structure/MaterialFragments/Aluminium)
+    - BH.oM.Structure.MaterialFragments.[Concrete](/api/oM/Analytical/Structure/MaterialFragments/Concrete)
+    - BH.oM.Structure.MaterialFragments.[GenericIsotropicMaterial](/api/oM/Analytical/Structure/MaterialFragments/GenericIsotropicMaterial)
+    - BH.oM.Structure.MaterialFragments.[Steel](/api/oM/Analytical/Structure/MaterialFragments/Steel)
 
 
 ## Properties
@@ -54,7 +54,7 @@ The following properties are defined as extension methods in one of the BHoM_Eng
 |------------------|------------------|------------------|------------------|------------------|
 | DescriptionOrName | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | Gets the name from a IProperty. If null or empty, a default description name is provided instead. | - | Structure_Engine |
 | IDescription | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | Generates a default description for the IProperty, based on its properties. | - | Structure_Engine |
-| IMaterialType | [MaterialType](/api/oM/Analytical/Structure/MaterialFragments/MaterialType) | Gets the material type from the MaterialFragment. | - | Structure_Engine |
+| IMaterialType | [MaterialType](/api/oM/Analytical/Structure/MaterialFragments/Enums/MaterialType) | Gets the material type from the MaterialFragment. | - | Structure_Engine |
 | IsNull | [bool](https://learn.microsoft.com/en-us/dotnet/api/System.Boolean?view=netstandard-2.0) | Checks if a MaterialFragment is null and outputs relevant error message. | - | Structure_Engine |
 | ShearModulus | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Shear modulus of the isotropic material fragment. Evaluated based on YoungsModulus and PoissonsRatio as G = E/2(1+ν). | [ShearModulus](/api/oM/Dimensional/Quantities/Attributes/ShearModulus) [Pa] | Structure_Engine |
 
@@ -62,6 +62,18 @@ The following properties are defined as extension methods in one of the BHoM_Eng
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public interface IIsotropic : BH.oM.Structure.MaterialFragments.IMaterialFragment,
+BH.oM.Base.IFragment,
+BH.oM.Base.IObject,
+BH.oM.Physical.Materials.IMaterialProperties,
+BH.oM.Base.IBHoMObject,
+BH.oM.Structure.IProperty,
+BH.oM.Physical.Materials.IDensityProvider
+```
+
+Assembly: Structure_oM.dll
 
 The interface is defined in C#. The class definition is available on github:
 

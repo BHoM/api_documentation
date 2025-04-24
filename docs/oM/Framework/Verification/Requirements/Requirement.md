@@ -2,7 +2,7 @@
 title: Requirement
 ---
 
-# Verification.Requirements.Requirement
+# <small>BH.oM.Verification.</small>**Requirement**
 
 Object representing a single, condition-based requirement to run against each object in a set filtered based on Specification.ExtractionAlso contains the config required to represent the verification results in a human friendly form.
 
@@ -10,12 +10,12 @@ Object representing a single, condition-based requirement to run against each ob
 
 ### Implemented interfaces and base types
 
-???+ bhom "The Requirement in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The Requirement is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
-    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
-    -  Verification.Requirements.[IRequirement](/api/oM/Framework/Verification/Requirements/IRequirement)
+    -  BH.oM.Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
+    -  BH.oM.Base.[IBHoMObject](/api/oM/Framework/Base/Interface/IBHoMObject)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
+    -  BH.oM.Verification.Requirements.[IRequirement](/api/oM/Framework/Verification/Requirements/Interfaces/IRequirement)
 
 
 ## Properties
@@ -32,9 +32,9 @@ The following properties are defined on the class
 | Source | [Source](/api/oM/Framework/Data/Library/Source) | Source material for this Requirement. E.g. Codes, best practices, guidelines, etc. | - |
 | Comment | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | Any additional notes. | - |
 | FailureMessage | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | General, human-readable message explaining what does the failure mean to the user. | - |
-| Severity | [FailureSeverity](/api/oM/Framework/Verification/FailureSeverity) | Severity of Requirement failure, originating from the concept that not all conditions are necessarily errors. | - |
-| Condition | [ICondition](/api/oM/Framework/Verification/Conditions/ICondition) | Condition to be met for an object to pass a Requirement. | - |
-| ReportingConfig | [IConditionReportingConfig](/api/oM/Framework/Verification/Reporting/IConditionReportingConfig) | Reporting config containing settings needed to present the verification results in a human friendly form. | - |
+| Severity | [FailureSeverity](/api/oM/Framework/Verification/Enums/FailureSeverity) | Severity of Requirement failure, originating from the concept that not all conditions are necessarily errors. | - |
+| Condition | [ICondition](/api/oM/Framework/Verification/Conditions/Interfaces/ICondition) | Condition to be met for an object to pass a Requirement. | - |
+| ReportingConfig | [IConditionReportingConfig](/api/oM/Framework/Verification/Reporting/Interfaces/IConditionReportingConfig) | Reporting config containing settings needed to present the verification results in a human friendly form. | - |
 
 
 ### Inherited properties
@@ -52,6 +52,12 @@ The following properties are inherited from the base class of the object
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class Requirement : BH.oM.Base.BHoMObject, BH.oM.Base.IBHoMObject, BH.oM.Base.IObject, BH.oM.Verification.Requirements.IRequirement
+```
+
+Assembly: Verification_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

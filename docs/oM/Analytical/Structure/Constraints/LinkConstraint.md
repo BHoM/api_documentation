@@ -2,7 +2,7 @@
 title: LinkConstraint
 ---
 
-# Structure.Constraints.LinkConstraint
+# <small>BH.oM.Structure.</small>**LinkConstraint**
 
 Defines the rigid connectivity between a primary and set of secondary nodes.
 
@@ -10,12 +10,12 @@ Defines the rigid connectivity between a primary and set of secondary nodes.
 
 ### Implemented interfaces and base types
 
-???+ bhom "The LinkConstraint in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The LinkConstraint is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
-    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
-    -  Structure.[IProperty](/api/oM/Analytical/Structure/IProperty)
+    -  BH.oM.Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
+    -  BH.oM.Base.[IBHoMObject](/api/oM/Framework/Base/Interface/IBHoMObject)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
+    -  BH.oM.Structure.[IProperty](/api/oM/Analytical/Structure/IProperty)
 
 
 ## Properties
@@ -68,6 +68,12 @@ The following properties are defined as extension methods in one of the BHoM_Eng
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class LinkConstraint : BH.oM.Base.BHoMObject, BH.oM.Base.IBHoMObject, BH.oM.Base.IObject, BH.oM.Structure.IProperty
+```
+
+Assembly: Structure_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

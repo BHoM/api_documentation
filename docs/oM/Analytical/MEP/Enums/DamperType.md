@@ -2,7 +2,7 @@
 title: DamperType
 ---
 
-# MEP.Enums.DamperType
+# <small>BH.oM.MEP.</small>**DamperType**
 
 A type of damper used in ductwork (volume damper, fire smoke damper, etc.)
 
@@ -21,6 +21,12 @@ A type of damper used in ductwork (volume damper, fire smoke damper, etc.)
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public enum DamperType : System.Enum, System.ValueType, System.IComparable, System.ISpanFormattable, System.IFormattable, System.IConvertible
+```
+
+Assembly: MEP_oM.dll
 
 The enum is defined in C#. The class definition is available on github:
 

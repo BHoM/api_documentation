@@ -2,7 +2,7 @@
 title: GradientCenteringOptions
 ---
 
-# Graphics.Enums.GradientCenteringOptions
+# <small>BH.oM.Graphics.</small>**GradientCenteringOptions**
 
 Either do not centre the range of the gradient, extend the range to be centred around 0, or make 0 the midpoint of the gradient while keeping UpperBound and LowerBound as the ends.
 
@@ -18,6 +18,12 @@ Either do not centre the range of the gradient, extend the range to be centred a
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public enum GradientCenteringOptions : System.Enum, System.ValueType, System.IComparable, System.ISpanFormattable, System.IFormattable, System.IConvertible
+```
+
+Assembly: Graphics_oM.dll
 
 The enum is defined in C#. The class definition is available on github:
 

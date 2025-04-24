@@ -2,7 +2,7 @@
 title: IConstruction
 ---
 
-# Physical.Constructions.IConstruction
+# <small>BH.oM.Physical.</small>**IConstruction**
 
 
 
@@ -10,17 +10,17 @@ title: IConstruction
 
 ### Implemented interfaces and base types
 
-???+ bhom "The IConstruction in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The IConstruction is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.Base.[IBHoMObject](/api/oM/Framework/Base/Interface/IBHoMObject)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Physical.Constructions.[Construction](/api/oM/Physical/Physical/Constructions/Construction)
+    - BH.oM.Physical.Constructions.[Construction](/api/oM/Physical/Physical/Constructions/Construction)
 
 
 ## Properties
@@ -41,6 +41,12 @@ The following properties are defined as extension methods in one of the BHoM_Eng
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public interface IConstruction : BH.oM.Base.IBHoMObject, BH.oM.Base.IObject
+```
+
+Assembly: Physical_oM.dll
 
 The interface is defined in C#. The class definition is available on github:
 

@@ -2,7 +2,7 @@
 title: Constraint4DOF
 ---
 
-# Structure.Constraints.Constraint4DOF
+# <small>BH.oM.Structure.</small>**Constraint4DOF**
 
 Constraint objects with four degrees of freedom, three translational and one rotational. Used for support or release of 1D analytical elements of 2D analytical objects. The Rotational DOF will correspond to rotation about the axis of the object.
 
@@ -10,12 +10,12 @@ Constraint objects with four degrees of freedom, three translational and one rot
 
 ### Implemented interfaces and base types
 
-???+ bhom "The Constraint4DOF in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The Constraint4DOF is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
-    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
-    -  Structure.[IProperty](/api/oM/Analytical/Structure/IProperty)
+    -  BH.oM.Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
+    -  BH.oM.Base.[IBHoMObject](/api/oM/Framework/Base/Interface/IBHoMObject)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
+    -  BH.oM.Structure.[IProperty](/api/oM/Analytical/Structure/IProperty)
 
 
 ## Properties
@@ -29,10 +29,10 @@ The following properties are defined on the class
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
 | Name | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | A unique Name is required for some structural packages to create and identify the object. | - |
-| TranslationX | [DOFType](/api/oM/Analytical/Structure/Constraints/DOFType) | Defines the translational fixity in the X-direction. | - |
-| TranslationY | [DOFType](/api/oM/Analytical/Structure/Constraints/DOFType) | Defines the translational fixity in the Y-direction. | - |
-| TranslationZ | [DOFType](/api/oM/Analytical/Structure/Constraints/DOFType) | Defines the translational fixity in the Z-direction. | - |
-| RotationX | [DOFType](/api/oM/Analytical/Structure/Constraints/DOFType) | Defines the rotational fixity about the axis of the element. | - |
+| TranslationX | [DOFType](/api/oM/Analytical/Structure/Constraints/Enums/DOFType) | Defines the translational fixity in the X-direction. | - |
+| TranslationY | [DOFType](/api/oM/Analytical/Structure/Constraints/Enums/DOFType) | Defines the translational fixity in the Y-direction. | - |
+| TranslationZ | [DOFType](/api/oM/Analytical/Structure/Constraints/Enums/DOFType) | Defines the translational fixity in the Z-direction. | - |
+| RotationX | [DOFType](/api/oM/Analytical/Structure/Constraints/Enums/DOFType) | Defines the rotational fixity about the axis of the element. | - |
 | TranslationalStiffnessX | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Defines the stiffness in X-direction. This will only be active when corresponding degree of freedom has a DOFType with a stiffness dependency, such as Spring. | [ForcePerUnitLength](/api/oM/Dimensional/Quantities/Attributes/ForcePerUnitLength) [N/m] |
 | TranslationalStiffnessY | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Defines the stiffness in Y-direction. This will only be active when corresponding degree of freedom has a DOFType with a stiffness dependency, such as Spring. | [ForcePerUnitLength](/api/oM/Dimensional/Quantities/Attributes/ForcePerUnitLength) [N/m] |
 | TranslationalStiffnessZ | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Defines the stiffness in Z-direction. This will only be active when corresponding degree of freedom has a DOFType with a stiffness dependency, such as Spring. | [ForcePerUnitLength](/api/oM/Dimensional/Quantities/Attributes/ForcePerUnitLength) [N/m] |
@@ -66,6 +66,12 @@ The following properties are defined as extension methods in one of the BHoM_Eng
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class Constraint4DOF : BH.oM.Base.BHoMObject, BH.oM.Base.IBHoMObject, BH.oM.Base.IObject, BH.oM.Structure.IProperty
+```
+
+Assembly: Structure_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

@@ -2,7 +2,7 @@
 title: SPT
 ---
 
-# Ground.SPT
+# <small>BH.oM.</small>**SPT**
 
 A set of data related to Standard Penetration Tests (SPT) carried out.
 
@@ -10,12 +10,12 @@ A set of data related to Standard Penetration Tests (SPT) carried out.
 
 ### Implemented interfaces and base types
 
-???+ bhom "The SPT in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The SPT is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
-    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
-    -  Ground.[ITest](/api/oM/Analytical/Ground/ITest)
+    -  BH.oM.Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
+    -  BH.oM.Base.[IBHoMObject](/api/oM/Framework/Base/Interface/IBHoMObject)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
+    -  BH.oM.Ground.[ITest](/api/oM/Analytical/Ground/ITest)
 
 
 ## Properties
@@ -34,7 +34,7 @@ The following properties are defined on the class
 | EnergyRatio | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Energy Ratio of Hammer (ISPT_ERAT). | [Ratio](/api/oM/Dimensional/Quantities/Attributes/Ratio) [-] |
 | MainTestDrive | [int](https://learn.microsoft.com/en-us/dotnet/api/System.Int32?view=netstandard-2.0) | Number of blows for main test drive (ISPT_MAIN). | - |
 | TotalPenetration | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Total Penetration for seating drive and test drive (ISPT_NPEN). | [Length](/api/oM/Dimensional/Quantities/Attributes/Length) [m] |
-| Properties | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[ITestProperties](/api/oM/Analytical/Ground/ITestProperties)&gt; | A list of different properties including references, tests, analysis, results and detection. | - |
+| Properties | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[ITestProperties](/api/oM/Analytical/Ground/ITestProperties/ITestProperties)&gt; | A list of different properties including references, tests, analysis, results and detection. | - |
 
 
 ### Inherited properties
@@ -52,6 +52,12 @@ The following properties are inherited from the base class of the object
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class SPT : BH.oM.Base.BHoMObject, BH.oM.Base.IBHoMObject, BH.oM.Base.IObject, BH.oM.Ground.ITest
+```
+
+Assembly: Ground_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

@@ -2,7 +2,7 @@
 title: ContaminantSample
 ---
 
-# Ground.ContaminantSample
+# <small>BH.oM.</small>**ContaminantSample**
 
 A representation of a contaminant sample defined by the depth of the sample, the chemical code and name based on the AGS schema.
 
@@ -10,11 +10,11 @@ A representation of a contaminant sample defined by the depth of the sample, the
 
 ### Implemented interfaces and base types
 
-???+ bhom "The ContaminantSample in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The ContaminantSample is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
-    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
+    -  BH.oM.Base.[IBHoMObject](/api/oM/Framework/Base/Interface/IBHoMObject)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 ## Properties
@@ -33,7 +33,7 @@ The following properties are defined on the class
 | Result | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | The amount of the chemical present (ERES_RTXT). | [MassFraction](/api/oM/Dimensional/Quantities/Attributes/MassFraction) [kg/kg] |
 | Type | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | The type of sample (SAMP_TYPE). | - |
 | ResultQuantity | [Type](https://learn.microsoft.com/en-us/dotnet/api/System.Type?view=netstandard-2.0) | The quantity of the Result as a QuantityType such as Concentration, Molality, Molarity. | - |
-| ContaminantProperties | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[IContaminantProperty](/api/oM/Analytical/Ground/IContaminantProperty)&gt; | A list of different properties including references, tests, analysis, results and detection. | - |
+| ContaminantProperties | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[IContaminantProperty](/api/oM/Analytical/Ground/ContaminantProperties/IContaminantProperty)&gt; | A list of different properties including references, tests, analysis, results and detection. | - |
 
 
 ### Inherited properties
@@ -60,6 +60,12 @@ The following properties are defined as extension methods in one of the BHoM_Eng
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class ContaminantSample : BH.oM.Base.BHoMObject, BH.oM.Base.IBHoMObject, BH.oM.Base.IObject
+```
+
+Assembly: Ground_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

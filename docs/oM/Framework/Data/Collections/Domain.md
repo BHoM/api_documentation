@@ -2,7 +2,7 @@
 title: Domain
 ---
 
-# Data.Collections.Domain
+# <small>BH.oM.Data.</small>**Domain**
 
 A numerical domain defined by a minimum and maximum value.
 
@@ -10,10 +10,10 @@ A numerical domain defined by a minimum and maximum value.
 
 ### Implemented interfaces and base types
 
-???+ bhom "The Domain in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The Domain is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
-    -  Base.[IImmutable](/api/oM/Framework/Base/IImmutable)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
+    -  BH.oM.Base.[IImmutable](/api/oM/Framework/Base/Interface/IImmutable)
 
 
 ## Properties
@@ -33,6 +33,12 @@ The following properties are defined on the class
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class Domain : BH.oM.Base.IObject, BH.oM.Base.IImmutable
+```
+
+Assembly: Data_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

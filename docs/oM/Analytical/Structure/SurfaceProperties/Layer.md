@@ -2,7 +2,7 @@
 title: Layer
 ---
 
-# Structure.SurfaceProperties.Layer
+# <small>BH.oM.Structure.</small>**Layer**
 
 A layer object with a given material, orientation, and thickness.
 
@@ -10,11 +10,11 @@ A layer object with a given material, orientation, and thickness.
 
 ### Implemented interfaces and base types
 
-???+ bhom "The Layer in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The Layer is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
-    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
+    -  BH.oM.Base.[IBHoMObject](/api/oM/Framework/Base/Interface/IBHoMObject)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 ## Properties
@@ -47,6 +47,12 @@ The following properties are inherited from the base class of the object
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class Layer : BH.oM.Base.BHoMObject, BH.oM.Base.IBHoMObject, BH.oM.Base.IObject
+```
+
+Assembly: Structure_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

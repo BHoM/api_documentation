@@ -2,7 +2,7 @@
 title: Molarity
 ---
 
-# Quantities.Attributes.Molarity
+# <small>BH.oM.Quantities.</small>**Molarity**
 
 Dimensional quantity as defined by the International System of Quantities
 
@@ -26,13 +26,13 @@ The quantity is made up of the following [SI base units](https://en.wikipedia.or
 
 ### Implemented interfaces and base types
 
-???+ bhom "The Molarity in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The Molarity is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Quantities.Attributes.[QuantityAttribute](/api/oM/Dimensional/Quantities/Attributes/QuantityAttribute)
-    -  Base.Attributes.[ClassificationAttribute](/api/oM/Framework/Base/Attributes/ClassificationAttribute)
+    -  BH.oM.Quantities.Attributes.[QuantityAttribute](/api/oM/Dimensional/Quantities/Attributes/Abstract/QuantityAttribute)
+    -  BH.oM.Base.Attributes.[ClassificationAttribute](/api/oM/Framework/Base/Attributes/ClassificationAttribute)
     -  [Attribute](https://learn.microsoft.com/en-us/dotnet/api/System.Attribute?view=netstandard-2.0)
-    -  Base.[IImmutable](/api/oM/Framework/Base/IImmutable)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.Base.[IImmutable](/api/oM/Framework/Base/Interface/IImmutable)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 
@@ -40,6 +40,16 @@ The quantity is made up of the following [SI base units](https://en.wikipedia.or
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class Molarity : BH.oM.Quantities.Attributes.QuantityAttribute,
+BH.oM.Base.Attributes.ClassificationAttribute,
+System.Attribute,
+BH.oM.Base.IImmutable,
+BH.oM.Base.IObject
+```
+
+Assembly: Quantities_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

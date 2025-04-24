@@ -2,7 +2,7 @@
 title: IResultSeries
 ---
 
-# Analytical.Results.IResultSeries
+# <small>BH.oM.Analytical.</small>**IResultSeries**
 
 Base interface to flag that the result contains a series of results, for example values across each hour of the year and were the amount of data means memory usage is an issue.
 A class inplementing this interface is assumed to have the result values stored on a property that implements the IReadOnlyList&lt;double&gt;.
@@ -12,20 +12,20 @@ A class implementing the IResultItem interface should not implement this interfa
 
 ### Implemented interfaces and base types
 
-???+ bhom "The IResultSeries in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The IResultSeries is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Analytical.Results.[IResult](/api/oM/Analytical/Analytical/Results/IResult)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
-    -  [IComparable](https://learn.microsoft.com/en-us/dotnet/api/System.IComparable-1?view=netstandard-2.0)&lt;Analytical.Results.[IResult](/api/oM/Analytical/Analytical/Results/IResult)&gt;
-    -  Base.[IImmutable](/api/oM/Framework/Base/IImmutable)
+    -  BH.oM.Analytical.Results.[IResult](/api/oM/Analytical/Analytical/Results/IResult)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
+    -  [IComparable](https://learn.microsoft.com/en-us/dotnet/api/System.IComparable-1?view=netstandard-2.0)&lt;BH.oM.Analytical.Results.[IResult](/api/oM/Analytical/Analytical/Results/IResult)&gt;
+    -  BH.oM.Base.[IImmutable](/api/oM/Framework/Base/Interface/IImmutable)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Lighting.Results.Mesh.[MeshElementResult](/api/oM/Analytical/Lighting/Results/Mesh/MeshElementResult)
-    - Lighting.Results.Illuminance.[Lux](/api/oM/Analytical/Lighting/Results/Illuminance/Lux)
+    - BH.oM.Lighting.Results.Mesh.[MeshElementResult](/api/oM/Analytical/Lighting/Results/Mesh/MeshElementResult)
+    - BH.oM.Lighting.Results.Illuminance.[Lux](/api/oM/Analytical/Lighting/Results/Illuminance/Lux)
 
 
 ## Properties
@@ -45,6 +45,15 @@ The following properties are defined as extension methods in one of the BHoM_Eng
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public interface IResultSeries : BH.oM.Analytical.Results.IResult,
+BH.oM.Base.IObject,
+System.IComparable<BH.oM.Analytical.Results.IResult>,
+BH.oM.Base.IImmutable
+```
+
+Assembly: Analytical_oM.dll
 
 The interface is defined in C#. The class definition is available on github:
 

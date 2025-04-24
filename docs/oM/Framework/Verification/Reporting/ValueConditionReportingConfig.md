@@ -2,7 +2,7 @@
 title: ValueConditionReportingConfig
 ---
 
-# Verification.Reporting.ValueConditionReportingConfig
+# <small>BH.oM.Verification.</small>**ValueConditionReportingConfig**
 
 Config object containing settings for reporting results of checks against value conditions.
 
@@ -10,18 +10,18 @@ Config object containing settings for reporting results of checks against value 
 
 ### Implemented interfaces and base types
 
-???+ bhom "The ValueConditionReportingConfig in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The ValueConditionReportingConfig is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Verification.Reporting.[IValueConditionReportingConfig](/api/oM/Framework/Verification/Reporting/IValueConditionReportingConfig)
-    -  Verification.Reporting.[IConditionReportingConfig](/api/oM/Framework/Verification/Reporting/IConditionReportingConfig)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.Verification.Reporting.[IValueConditionReportingConfig](/api/oM/Framework/Verification/Reporting/Interfaces/IValueConditionReportingConfig)
+    -  BH.oM.Verification.Reporting.[IConditionReportingConfig](/api/oM/Framework/Verification/Reporting/Interfaces/IConditionReportingConfig)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 ### Classes inheriting from this class
 
 ???+ bhom "The following classes are inheriting from this class:"
 
-    - Verification.Reporting.[NumberConditionReportingConfig](/api/oM/Framework/Verification/Reporting/NumberConditionReportingConfig)
+    - BH.oM.Verification.Reporting.[NumberConditionReportingConfig](/api/oM/Framework/Verification/Reporting/NumberConditionReportingConfig)
 
 
 ## Properties
@@ -40,6 +40,14 @@ The following properties are defined on the class
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class ValueConditionReportingConfig : BH.oM.Verification.Reporting.IValueConditionReportingConfig,
+BH.oM.Verification.Reporting.IConditionReportingConfig,
+BH.oM.Base.IObject
+```
+
+Assembly: Verification_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

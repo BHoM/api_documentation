@@ -2,7 +2,7 @@
 title: ComparisonInclusion
 ---
 
-# Base.ComparisonInclusion
+# <small>BH.oM.</small>**ComparisonInclusion**
 
 Information about how an object's property should be included or not in a comparison (i.e. when computing an object's Hash or Diffing).A ComparisonInclusion object is returned by the extension method of the same name (which is invoked automatically when Hashing or Diffing).The ComparisonInclusion() method can be implemented in specific Toolkits/namespaces to customise the comparison (i.e. with Toolkit-specific information which would be otherwise unavailable to the base Hash/Diffing).See the wiki for examples of this.
 
@@ -10,9 +10,9 @@ Information about how an object's property should be included or not in a compar
 
 ### Implemented interfaces and base types
 
-???+ bhom "The ComparisonInclusion in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The ComparisonInclusion is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 ## Properties
@@ -32,6 +32,12 @@ The following properties are defined on the class
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class ComparisonInclusion : BH.oM.Base.IObject
+```
+
+Assembly: BHoM.dll
 
 The class is defined in C#. The class definition is available on github:
 

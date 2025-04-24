@@ -2,7 +2,7 @@
 title: Markup
 ---
 
-# XML.Bluebeam.Markup
+# <small>BH.oM.XML.</small>**Markup**
 
 
 
@@ -10,11 +10,11 @@ title: Markup
 
 ### Implemented interfaces and base types
 
-???+ bhom "The Markup in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The Markup is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  XML.Bluebeam.[BluebeamObject](/api/oM/Adapter/XML/Bluebeam/BluebeamObject)
-    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.XML.Bluebeam.[BluebeamObject](/api/oM/Adapter/XML/Bluebeam/BluebeamObject)
+    -  BH.oM.Base.[IBHoMObject](/api/oM/Framework/Base/Interface/IBHoMObject)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 ## Properties
@@ -65,6 +65,12 @@ The following properties are defined as extension methods in one of the BHoM_Eng
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class Markup : BH.oM.XML.Bluebeam.BluebeamObject, BH.oM.Base.IBHoMObject, BH.oM.Base.IObject
+```
+
+Assembly: XML_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

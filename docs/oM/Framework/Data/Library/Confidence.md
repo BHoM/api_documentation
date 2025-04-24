@@ -2,7 +2,7 @@
 title: Confidence
 ---
 
-# Data.Library.Confidence
+# <small>BH.oM.Data.</small>**Confidence**
 
 Level of confidence for the serialized DataSet, outlining both the reliability of the source and the fidelity of the dataset to that source.
 
@@ -20,6 +20,12 @@ Level of confidence for the serialized DataSet, outlining both the reliability o
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public enum Confidence : System.Enum, System.ValueType, System.IComparable, System.ISpanFormattable, System.IFormattable, System.IConvertible
+```
+
+Assembly: Data_oM.dll
 
 The enum is defined in C#. The class definition is available on github:
 

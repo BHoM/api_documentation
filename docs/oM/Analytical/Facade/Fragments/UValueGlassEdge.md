@@ -2,7 +2,7 @@
 title: UValueGlassEdge
 ---
 
-# Facade.Fragments.UValueGlassEdge
+# <small>BH.oM.Facade.</small>**UValueGlassEdge**
 
 A U-Value representing the effective U-Value of the edge region of an opening.
 
@@ -10,10 +10,10 @@ A U-Value representing the effective U-Value of the edge region of an opening.
 
 ### Implemented interfaces and base types
 
-???+ bhom "The UValueGlassEdge in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The UValueGlassEdge is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IFragment](/api/oM/Framework/Base/IFragment)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.Base.[IFragment](/api/oM/Framework/Base/Interface/IFragment)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 ## Properties
@@ -32,6 +32,12 @@ The following properties are defined on the class
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class UValueGlassEdge : BH.oM.Base.IFragment, BH.oM.Base.IObject
+```
+
+Assembly: Facade_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

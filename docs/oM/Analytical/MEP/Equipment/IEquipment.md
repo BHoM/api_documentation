@@ -2,7 +2,7 @@
 title: IEquipment
 ---
 
-# MEP.Equipment.IEquipment
+# <small>BH.oM.MEP.</small>**IEquipment**
 
 
 
@@ -10,20 +10,20 @@ title: IEquipment
 
 ### Implemented interfaces and base types
 
-???+ bhom "The IEquipment in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The IEquipment is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.Base.[IBHoMObject](/api/oM/Framework/Base/Interface/IBHoMObject)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - MEP.Equipment.[AirHandlingUnit](/api/oM/Analytical/MEP/Equipment/AirHandlingUnit)
-    - MEP.Equipment.[ElectricalEquipment](/api/oM/Analytical/MEP/Equipment/ElectricalEquipment)
-    - MEP.Equipment.[FanCoilUnit](/api/oM/Analytical/MEP/Equipment/FanCoilUnit)
-    - MEP.Equipment.[MechanicalEquipment](/api/oM/Analytical/MEP/Equipment/MechanicalEquipment)
+    - BH.oM.MEP.Equipment.[AirHandlingUnit](/api/oM/Analytical/MEP/Equipment/AirHandlingUnit)
+    - BH.oM.MEP.Equipment.[ElectricalEquipment](/api/oM/Analytical/MEP/Equipment/ElectricalEquipment)
+    - BH.oM.MEP.Equipment.[FanCoilUnit](/api/oM/Analytical/MEP/Equipment/FanCoilUnit)
+    - BH.oM.MEP.Equipment.[MechanicalEquipment](/api/oM/Analytical/MEP/Equipment/MechanicalEquipment)
 
 
 ## Properties
@@ -31,6 +31,12 @@ title: IEquipment
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public interface IEquipment : BH.oM.Base.IBHoMObject, BH.oM.Base.IObject
+```
+
+Assembly: MEP_oM.dll
 
 The interface is defined in C#. The class definition is available on github:
 

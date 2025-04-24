@@ -2,7 +2,7 @@
 title: GeometryFragment
 ---
 
-# MEP.Fragments.GeometryFragment
+# <small>BH.oM.MEP.</small>**GeometryFragment**
 
 
 
@@ -10,10 +10,10 @@ title: GeometryFragment
 
 ### Implemented interfaces and base types
 
-???+ bhom "The GeometryFragment in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The GeometryFragment is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IFragment](/api/oM/Framework/Base/IFragment)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.Base.[IFragment](/api/oM/Framework/Base/Interface/IFragment)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 ## Properties
@@ -26,12 +26,18 @@ The following properties are defined on the class
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| Geometry | [IGeometry](/api/oM/Dimensional/Geometry/IGeometry) | - | - |
+| Geometry | [IGeometry](/api/oM/Dimensional/Geometry/Interface/IGeometry) | - | - |
 
 
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class GeometryFragment : BH.oM.Base.IFragment, BH.oM.Base.IObject
+```
+
+Assembly: MEP_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

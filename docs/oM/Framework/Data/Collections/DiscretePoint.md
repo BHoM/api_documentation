@@ -2,7 +2,7 @@
 title: DiscretePoint
 ---
 
-# Data.Collections.DiscretePoint
+# <small>BH.oM.Data.</small>**DiscretePoint**
 
 
 
@@ -10,11 +10,11 @@ title: DiscretePoint
 
 ### Implemented interfaces and base types
 
-???+ bhom "The DiscretePoint in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The DiscretePoint is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Data.Collections.[IDataStructure](/api/oM/Framework/Data/Collections/IDataStructure)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
-    -  [IComparable](https://learn.microsoft.com/en-us/dotnet/api/System.IComparable-1?view=netstandard-2.0)&lt;Data.Collections.[DiscretePoint](/api/oM/Framework/Data/Collections/DiscretePoint)&gt;
+    -  BH.oM.Data.Collections.[IDataStructure](/api/oM/Framework/Data/Collections/IDataStructure)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
+    -  [IComparable](https://learn.microsoft.com/en-us/dotnet/api/System.IComparable-1?view=netstandard-2.0)&lt;BH.oM.Data.Collections.[DiscretePoint](/api/oM/Framework/Data/Collections/DiscretePoint)&gt;
 
 
 ## Properties
@@ -35,6 +35,12 @@ The following properties are defined on the class
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class DiscretePoint : BH.oM.Data.Collections.IDataStructure, BH.oM.Base.IObject, System.IComparable<BH.oM.Data.Collections.DiscretePoint>
+```
+
+Assembly: Data_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

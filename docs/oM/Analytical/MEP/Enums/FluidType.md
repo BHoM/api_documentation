@@ -2,7 +2,7 @@
 title: FluidType
 ---
 
-# MEP.Enums.FluidType
+# <small>BH.oM.MEP.</small>**FluidType**
 
 A fluid type that flows within any system's flow objects.
 
@@ -21,6 +21,12 @@ A fluid type that flows within any system's flow objects.
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public enum FluidType : System.Enum, System.ValueType, System.IComparable, System.ISpanFormattable, System.IFormattable, System.IConvertible
+```
+
+Assembly: MEP_oM.dll
 
 The enum is defined in C#. The class definition is available on github:
 

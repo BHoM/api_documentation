@@ -2,7 +2,7 @@
 title: Delta
 ---
 
-# Diffing.Delta
+# <small>BH.oM.</small>**Delta**
 
 Contains the Diff plus context information: parent Stream, Timestamp, etc.
 
@@ -10,10 +10,10 @@ Contains the Diff plus context information: parent Stream, Timestamp, etc.
 
 ### Implemented interfaces and base types
 
-???+ bhom "The Delta in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The Delta is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
-    -  Base.[IImmutable](/api/oM/Framework/Base/IImmutable)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
+    -  BH.oM.Base.[IImmutable](/api/oM/Framework/Base/Interface/IImmutable)
 
 
 ## Properties
@@ -38,6 +38,12 @@ The following properties are defined on the class
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class Delta : BH.oM.Base.IObject, BH.oM.Base.IImmutable
+```
+
+Assembly: Diffing_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

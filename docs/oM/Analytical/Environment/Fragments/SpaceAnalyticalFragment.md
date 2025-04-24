@@ -2,7 +2,7 @@
 title: SpaceAnalyticalFragment
 ---
 
-# Environment.Fragments.SpaceAnalyticalFragment
+# <small>BH.oM.Environment.</small>**SpaceAnalyticalFragment**
 
 Fragment containing space analytical properties (e.g. domestic hot water supply, daylight factor, heating and cooling sizing method)
 
@@ -10,10 +10,10 @@ Fragment containing space analytical properties (e.g. domestic hot water supply,
 
 ### Implemented interfaces and base types
 
-???+ bhom "The SpaceAnalyticalFragment in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The SpaceAnalyticalFragment is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IFragment](/api/oM/Framework/Base/IFragment)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.Base.[IFragment](/api/oM/Framework/Base/Interface/IFragment)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 ## Properties
@@ -30,14 +30,20 @@ The following properties are defined on the class
 | DaylightFactor | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | - | - |
 | FacadeLength | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | The length of the space enclsoure that is adjacent to the outdoors | - |
 | FixedConvectionCoefficient | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | - | - |
-| SizeCoolingMethod | [SizingMethod](/api/oM/Analytical/Environment/Fragments/SizingMethod) | The cooling size method of the space. Use SizingMethod enum | - |
-| SizeHeatingMethod | [SizingMethod](/api/oM/Analytical/Environment/Fragments/SizingMethod) | The heating size method of the space. Use SizingMethod enum | - |
+| SizeCoolingMethod | [SizingMethod](/api/oM/Analytical/Environment/Fragments/Enums/SizingMethod) | The cooling size method of the space. Use SizingMethod enum | - |
+| SizeHeatingMethod | [SizingMethod](/api/oM/Analytical/Environment/Fragments/Enums/SizingMethod) | The heating size method of the space. Use SizingMethod enum | - |
 | RadiantProportion | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | - | - |
 
 
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class SpaceAnalyticalFragment : BH.oM.Base.IFragment, BH.oM.Base.IObject
+```
+
+Assembly: Environment_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

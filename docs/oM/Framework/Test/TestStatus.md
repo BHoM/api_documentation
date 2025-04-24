@@ -2,7 +2,7 @@
 title: TestStatus
 ---
 
-# Test.TestStatus
+# <small>BH.oM.</small>**TestStatus**
 
 Defines the status of the Test Information. Designed to be very clear, concrete statuses, with minimal ambiguity.
 
@@ -18,6 +18,12 @@ Defines the status of the Test Information. Designed to be very clear, concrete 
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public enum TestStatus : System.Enum, System.ValueType, System.IComparable, System.ISpanFormattable, System.IFormattable, System.IConvertible
+```
+
+Assembly: Test_oM.dll
 
 The enum is defined in C#. The class definition is available on github:
 

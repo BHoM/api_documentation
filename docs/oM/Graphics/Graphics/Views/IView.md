@@ -2,7 +2,7 @@
 title: IView
 ---
 
-# Graphics.Views.IView
+# <small>BH.oM.Graphics.</small>**IView**
 
 Base interface for all graphics view objects.
 
@@ -10,18 +10,18 @@ Base interface for all graphics view objects.
 
 ### Implemented interfaces and base types
 
-???+ bhom "The IView in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The IView is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.Base.[IBHoMObject](/api/oM/Framework/Base/Interface/IBHoMObject)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Graphics.Views.[DependencyChart](/api/oM/Graphics/Graphics/Views/DependencyChart)
-    - Graphics.Views.[ViewConfig](/api/oM/Graphics/Graphics/Views/ViewConfig)
+    - BH.oM.Graphics.Views.[DependencyChart](/api/oM/Graphics/Graphics/Views/DependencyChart)
+    - BH.oM.Graphics.Views.[ViewConfig](/api/oM/Graphics/Graphics/Views/ViewConfig)
 
 
 ## Properties
@@ -29,6 +29,12 @@ Base interface for all graphics view objects.
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public interface IView : BH.oM.Base.IBHoMObject, BH.oM.Base.IObject
+```
+
+Assembly: Graphics_oM.dll
 
 The interface is defined in C#. The class definition is available on github:
 

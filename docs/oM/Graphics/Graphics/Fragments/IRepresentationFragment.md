@@ -2,7 +2,7 @@
 title: IRepresentationFragment
 ---
 
-# Graphics.Fragments.IRepresentationFragment
+# <small>BH.oM.Graphics.</small>**IRepresentationFragment**
 
 Base interface for representation fragments.
 
@@ -10,20 +10,20 @@ Base interface for representation fragments.
 
 ### Implemented interfaces and base types
 
-???+ bhom "The IRepresentationFragment in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The IRepresentationFragment is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IFragment](/api/oM/Framework/Base/IFragment)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.Base.[IFragment](/api/oM/Framework/Base/Interface/IFragment)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Graphics.Fragments.[EntityRepresentation](/api/oM/Graphics/Graphics/Fragments/EntityRepresentation)
-    - Graphics.Fragments.[GraphRepresentation](/api/oM/Graphics/Graphics/Fragments/GraphRepresentation)
-    - Graphics.Fragments.[GroupRepresentation](/api/oM/Graphics/Graphics/Fragments/GroupRepresentation)
-    - Graphics.Fragments.[RelationRepresentation](/api/oM/Graphics/Graphics/Fragments/RelationRepresentation)
+    - BH.oM.Graphics.Fragments.[EntityRepresentation](/api/oM/Graphics/Graphics/Fragments/EntityRepresentation)
+    - BH.oM.Graphics.Fragments.[GraphRepresentation](/api/oM/Graphics/Graphics/Fragments/GraphRepresentation)
+    - BH.oM.Graphics.Fragments.[GroupRepresentation](/api/oM/Graphics/Graphics/Fragments/GroupRepresentation)
+    - BH.oM.Graphics.Fragments.[RelationRepresentation](/api/oM/Graphics/Graphics/Fragments/RelationRepresentation)
 
 
 ## Properties
@@ -31,6 +31,12 @@ Base interface for representation fragments.
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public interface IRepresentationFragment : BH.oM.Base.IFragment, BH.oM.Base.IObject
+```
+
+Assembly: Graphics_oM.dll
 
 The interface is defined in C#. The class definition is available on github:
 

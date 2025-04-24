@@ -2,7 +2,7 @@
 title: GradientOptions
 ---
 
-# Graphics.Colours.GradientOptions
+# <small>BH.oM.Graphics.</small>**GradientOptions**
 
 Defines options for range and centering for a Gradient.
 
@@ -10,11 +10,11 @@ Defines options for range and centering for a Gradient.
 
 ### Implemented interfaces and base types
 
-???+ bhom "The GradientOptions in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The GradientOptions is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
-    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
+    -  BH.oM.Base.[IBHoMObject](/api/oM/Framework/Base/Interface/IBHoMObject)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 ## Properties
@@ -28,7 +28,7 @@ The following properties are defined on the class
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
 | Name | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | Name of the GradientOption. Will be displayed for Gradient legends. | - |
-| Gradient | [IGradient](/api/oM/Graphics/Graphics/IGradient) | The Gradient to colour by. | - |
+| Gradient | [IGradient](/api/oM/Graphics/Graphics/Colours/IGradient) | The Gradient to colour by. | - |
 | LowerBound | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | The lower bound of the Gradient. Leave empty to allow other methods to set automatically. | - |
 | UpperBound | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | The upper bound of the Gradient. Leave empty to allow other methods to set automatically. | - |
 | GradientCenteringOptions | [GradientCenteringOptions](/api/oM/Graphics/Graphics/Enums/GradientCenteringOptions) | A GradientCenteringOptions enum to set centering options. Defaults to no centering. | - |
@@ -51,12 +51,18 @@ The following properties are defined as extension methods in one of the BHoM_Eng
 
 | Name             | Type             | Description      | Quantity         | Engine           |
 |------------------|------------------|------------------|------------------|------------------|
-| GradientLegend | [Output](/api/oM/Framework/Base/Output%603)&lt;[RenderMesh](/api/oM/Graphics/Graphics/RenderMesh), [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[RenderText](/api/oM/Graphics/Graphics/RenderText)&gt;, [RenderText](/api/oM/Graphics/Graphics/RenderText)&gt; | Constructs a RenderMesh corresponding to the GradientOption with text markers corresponding to the numbers on the gradient markers. | - | Graphics_Engine |
+| GradientLegend | [Output](/api/oM/Framework/Base/Output)&lt;[RenderMesh](/api/oM/Graphics/Graphics/Render/RenderMesh), [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[RenderText](/api/oM/Graphics/Graphics/Render/RenderText)&gt;, [RenderText](/api/oM/Graphics/Graphics/Render/RenderText)&gt; | Constructs a RenderMesh corresponding to the GradientOption with text markers corresponding to the numbers on the gradient markers. | - | Graphics_Engine |
 
 
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class GradientOptions : BH.oM.Base.BHoMObject, BH.oM.Base.IBHoMObject, BH.oM.Base.IObject
+```
+
+Assembly: Graphics_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

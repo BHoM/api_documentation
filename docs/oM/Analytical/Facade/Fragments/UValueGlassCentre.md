@@ -2,7 +2,7 @@
 title: UValueGlassCentre
 ---
 
-# Facade.Fragments.UValueGlassCentre
+# <small>BH.oM.Facade.</small>**UValueGlassCentre**
 
 A U-Value representing the effective U-Value of the centre region of this opening.
 
@@ -10,10 +10,10 @@ A U-Value representing the effective U-Value of the centre region of this openin
 
 ### Implemented interfaces and base types
 
-???+ bhom "The UValueGlassCentre in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The UValueGlassCentre is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IFragment](/api/oM/Framework/Base/IFragment)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.Base.[IFragment](/api/oM/Framework/Base/Interface/IFragment)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 ## Properties
@@ -32,6 +32,12 @@ The following properties are defined on the class
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class UValueGlassCentre : BH.oM.Base.IFragment, BH.oM.Base.IObject
+```
+
+Assembly: Facade_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

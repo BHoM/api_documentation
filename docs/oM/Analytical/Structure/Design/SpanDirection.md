@@ -2,7 +2,7 @@
 title: SpanDirection
 ---
 
-# Structure.Design.SpanDirection
+# <small>BH.oM.Structure.</small>**SpanDirection**
 
 
 
@@ -20,6 +20,12 @@ title: SpanDirection
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public enum SpanDirection : System.Enum, System.ValueType, System.IComparable, System.ISpanFormattable, System.IFormattable, System.IConvertible
+```
+
+Assembly: Structure_oM.dll
 
 The enum is defined in C#. The class definition is available on github:
 

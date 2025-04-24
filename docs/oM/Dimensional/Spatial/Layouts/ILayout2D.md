@@ -2,7 +2,7 @@
 title: ILayout2D
 ---
 
-# Spatial.Layouts.ILayout2D
+# <small>BH.oM.Spatial.</small>**ILayout2D**
 
 Base interface for all 2D layouts
 
@@ -10,20 +10,20 @@ Base interface for all 2D layouts
 
 ### Implemented interfaces and base types
 
-???+ bhom "The ILayout2D in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The ILayout2D is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.Base.[IBHoMObject](/api/oM/Framework/Base/Interface/IBHoMObject)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Spatial.Layouts.[ExplicitLayout](/api/oM/Dimensional/Spatial/Layouts/ExplicitLayout)
-    - Spatial.Layouts.[LinearLayout](/api/oM/Dimensional/Spatial/Layouts/LinearLayout)
-    - Spatial.Layouts.[MultiLinearLayout](/api/oM/Dimensional/Spatial/Layouts/MultiLinearLayout)
-    - Spatial.Layouts.[PerimeterLayout](/api/oM/Dimensional/Spatial/Layouts/PerimeterLayout)
+    - BH.oM.Spatial.Layouts.[ExplicitLayout](/api/oM/Dimensional/Spatial/Layouts/ExplicitLayout)
+    - BH.oM.Spatial.Layouts.[LinearLayout](/api/oM/Dimensional/Spatial/Layouts/LinearLayout)
+    - BH.oM.Spatial.Layouts.[MultiLinearLayout](/api/oM/Dimensional/Spatial/Layouts/MultiLinearLayout)
+    - BH.oM.Spatial.Layouts.[PerimeterLayout](/api/oM/Dimensional/Spatial/Layouts/PerimeterLayout)
 
 
 ## Properties
@@ -40,6 +40,12 @@ The following properties are defined as extension methods in one of the BHoM_Eng
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public interface ILayout2D : BH.oM.Base.IBHoMObject, BH.oM.Base.IObject
+```
+
+Assembly: Spatial_oM.dll
 
 The interface is defined in C#. The class definition is available on github:
 

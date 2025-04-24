@@ -2,7 +2,7 @@
 title: FrameExtensionBox
 ---
 
-# Facade.Fragments.FrameExtensionBox
+# <small>BH.oM.Facade.</small>**FrameExtensionBox**
 
 Fragment containing a curve enclosing the portion of a mullion cross section that will be extruded by Facade_Engine method that changes mullion profile depth.
 
@@ -10,10 +10,10 @@ Fragment containing a curve enclosing the portion of a mullion cross section tha
 
 ### Implemented interfaces and base types
 
-???+ bhom "The FrameExtensionBox in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The FrameExtensionBox is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IFragment](/api/oM/Framework/Base/IFragment)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.Base.[IFragment](/api/oM/Framework/Base/Interface/IFragment)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 ## Properties
@@ -26,12 +26,18 @@ The following properties are defined on the class
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| BoundingBoxCurve | [ICurve](/api/oM/Dimensional/Geometry/ICurve) | ICurve representing the mullion bounding box. | - |
+| BoundingBoxCurve | [ICurve](/api/oM/Dimensional/Geometry/Curve/ICurve) | ICurve representing the mullion bounding box. | - |
 
 
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class FrameExtensionBox : BH.oM.Base.IFragment, BH.oM.Base.IObject
+```
+
+Assembly: Facade_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

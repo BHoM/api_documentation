@@ -2,7 +2,7 @@
 title: ComparisonConfig
 ---
 
-# Base.ComparisonConfig
+# <small>BH.oM.</small>**ComparisonConfig**
 
 Settings to determine the uniqueness of an Object, i.e. when comparing and when computing the object Hash.
 
@@ -10,10 +10,10 @@ Settings to determine the uniqueness of an Object, i.e. when comparing and when 
 
 ### Implemented interfaces and base types
 
-???+ bhom "The ComparisonConfig in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The ComparisonConfig is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[BaseComparisonConfig](/api/oM/Framework/Base/BaseComparisonConfig)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.Base.[BaseComparisonConfig](/api/oM/Framework/Base/BaseComparisonConfig)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 ## Properties
@@ -41,6 +41,12 @@ The following properties are inherited from the base class of the object
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class ComparisonConfig : BH.oM.Base.BaseComparisonConfig, BH.oM.Base.IObject
+```
+
+Assembly: BHoM.dll
 
 The class is defined in C#. The class definition is available on github:
 

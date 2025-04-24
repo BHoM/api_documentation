@@ -2,7 +2,7 @@
 title: IRelation
 ---
 
-# Analytical.Graph.IRelation
+# <small>BH.oM.Analytical.</small>**IRelation**
 
 Interface common to all Relation objects.
 
@@ -10,17 +10,17 @@ Interface common to all Relation objects.
 
 ### Implemented interfaces and base types
 
-???+ bhom "The IRelation in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The IRelation is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.Base.[IBHoMObject](/api/oM/Framework/Base/Interface/IBHoMObject)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Analytical.Graph.[Relation](/api/oM/Analytical/Analytical/Graph/Relation)
+    - BH.oM.Analytical.Graph.[Relation](/api/oM/Analytical/Analytical/Graph/Relation)
 
 
 ## Properties
@@ -37,7 +37,7 @@ The following properties are defined on the interface
 | Target | [Guid](https://learn.microsoft.com/en-us/dotnet/api/System.Guid?view=netstandard-2.0) | - | - |
 | Subgraph | [Graph](/api/oM/Analytical/Analytical/Graph/Graph) | - | - |
 | Weight | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | - | - |
-| Curve | [ICurve](/api/oM/Dimensional/Geometry/ICurve) | - | - |
+| Curve | [ICurve](/api/oM/Dimensional/Geometry/Curve/ICurve) | - | - |
 
 
 ### Derived properties
@@ -46,12 +46,18 @@ The following properties are defined as extension methods in one of the BHoM_Eng
 
 | Name             | Type             | Description      | Quantity         | Engine           |
 |------------------|------------------|------------------|------------------|------------------|
-| RelationArrow | [CompositeGeometry](/api/oM/Dimensional/Geometry/CompositeGeometry) | Returns arrow geometry used to represent a Relation. | - | Analytical_Engine |
+| RelationArrow | [CompositeGeometry](/api/oM/Dimensional/Geometry/Misc/CompositeGeometry) | Returns arrow geometry used to represent a Relation. | - | Analytical_Engine |
 
 
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public interface IRelation : BH.oM.Base.IBHoMObject, BH.oM.Base.IObject
+```
+
+Assembly: Analytical_oM.dll
 
 The interface is defined in C#. The class definition is available on github:
 

@@ -2,7 +2,7 @@
 title: Eye
 ---
 
-# Humans.BodyParts.Eye
+# <small>BH.oM.Humans.</small>**Eye**
 
 
 
@@ -10,10 +10,10 @@ title: Eye
 
 ### Implemented interfaces and base types
 
-???+ bhom "The Eye in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The Eye is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Humans.Interfaces.[IPointBodyPart](/api/oM/Physical/Humans/Interfaces/IPointBodyPart)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.Humans.Interfaces.[IPointBodyPart](/api/oM/Physical/Humans/Interfaces/IPointBodyPart)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 ## Properties
@@ -26,12 +26,18 @@ The following properties are defined on the class
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| TrackingPoint | [Point](/api/oM/Dimensional/Geometry/Point) | - | - |
+| TrackingPoint | [Point](/api/oM/Dimensional/Geometry/Vector/Point) | - | - |
 
 
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class Eye : BH.oM.Humans.Interfaces.IPointBodyPart, BH.oM.Base.IObject
+```
+
+Assembly: Humans_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

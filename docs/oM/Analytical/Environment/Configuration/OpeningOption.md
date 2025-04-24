@@ -2,7 +2,7 @@
 title: OpeningOption
 ---
 
-# Environment.Configuration.OpeningOption
+# <small>BH.oM.Environment.</small>**OpeningOption**
 
 Defines the design options for Openings.
 
@@ -10,11 +10,11 @@ Defines the design options for Openings.
 
 ### Implemented interfaces and base types
 
-???+ bhom "The OpeningOption in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The OpeningOption is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
-    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
+    -  BH.oM.Base.[IBHoMObject](/api/oM/Framework/Base/Interface/IBHoMObject)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 ## Properties
@@ -30,7 +30,7 @@ The following properties are defined on the class
 | Height | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Defines the height the opening should be. | [Length](/api/oM/Dimensional/Quantities/Attributes/Length) [m] |
 | Width | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Defines the width the opening should be. | [Length](/api/oM/Dimensional/Quantities/Attributes/Length) [m] |
 | SillHeight | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | The distance between the base of the panel and the bottom of the opening. | [Length](/api/oM/Dimensional/Quantities/Attributes/Length) [m] |
-| Type | [OpeningType](/api/oM/Analytical/Environment/Elements/OpeningType) | The type of opening that should be created from this opening configuration. | - |
+| Type | [OpeningType](/api/oM/Analytical/Environment/Elements/Enums/OpeningType) | The type of opening that should be created from this opening configuration. | - |
 
 
 ### Inherited properties
@@ -48,6 +48,12 @@ The following properties are inherited from the base class of the object
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class OpeningOption : BH.oM.Base.BHoMObject, BH.oM.Base.IBHoMObject, BH.oM.Base.IObject
+```
+
+Assembly: Environment_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

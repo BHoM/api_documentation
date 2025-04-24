@@ -2,7 +2,7 @@
 title: ElectricalFixtureType
 ---
 
-# MEP.Enums.ElectricalFixtureType
+# <small>BH.oM.MEP.</small>**ElectricalFixtureType**
 
 A type of electrical fixture (duplex/quad socket/receptacle, floor box, or disconnect/isolator switch.)
 
@@ -24,6 +24,12 @@ A type of electrical fixture (duplex/quad socket/receptacle, floor box, or disco
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public enum ElectricalFixtureType : System.Enum, System.ValueType, System.IComparable, System.ISpanFormattable, System.IFormattable, System.IConvertible
+```
+
+Assembly: MEP_oM.dll
 
 The enum is defined in C#. The class definition is available on github:
 

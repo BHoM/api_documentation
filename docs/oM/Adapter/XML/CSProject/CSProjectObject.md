@@ -2,7 +2,7 @@
 title: CSProjectObject
 ---
 
-# XML.CSProject.CSProjectObject
+# <small>BH.oM.XML.</small>**CSProjectObject**
 
 
 
@@ -10,24 +10,24 @@ title: CSProjectObject
 
 ### Implemented interfaces and base types
 
-???+ bhom "The CSProjectObject in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The CSProjectObject is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.Base.[IBHoMObject](/api/oM/Framework/Base/Interface/IBHoMObject)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 ### Classes inheriting from this class
 
 ???+ bhom "The following classes are inheriting from this class:"
 
-    - XML.CSProject.[Import](/api/oM/Adapter/XML/CSProject/Import)
-    - XML.CSProject.[IncludedFile](/api/oM/Adapter/XML/CSProject/IncludedFile)
-    - XML.CSProject.[ItemGroup](/api/oM/Adapter/XML/CSProject/ItemGroup)
-    - XML.CSProject.[ProjectReference](/api/oM/Adapter/XML/CSProject/ProjectReference)
-    - XML.CSProject.[Reference](/api/oM/Adapter/XML/CSProject/Reference)
-    - XML.CSProject.[Project](/api/oM/Adapter/XML/CSProject/Project)
-    - XML.CSProject.[Configuration](/api/oM/Adapter/XML/CSProject/Configuration)
-    - XML.CSProject.[PropertyGroup](/api/oM/Adapter/XML/CSProject/PropertyGroup)
+    - BH.oM.XML.CSProject.[Import](/api/oM/Adapter/XML/CSProject/Import)
+    - BH.oM.XML.CSProject.[IncludedFile](/api/oM/Adapter/XML/CSProject/ItemGroup/IncludedFile)
+    - BH.oM.XML.CSProject.[ItemGroup](/api/oM/Adapter/XML/CSProject/ItemGroup/ItemGroup)
+    - BH.oM.XML.CSProject.[ProjectReference](/api/oM/Adapter/XML/CSProject/ItemGroup/ProjectReference)
+    - BH.oM.XML.CSProject.[Reference](/api/oM/Adapter/XML/CSProject/ItemGroup/Reference)
+    - BH.oM.XML.CSProject.[Project](/api/oM/Adapter/XML/CSProject/Project)
+    - BH.oM.XML.CSProject.[Configuration](/api/oM/Adapter/XML/CSProject/PropertyGroup/Configuration)
+    - BH.oM.XML.CSProject.[PropertyGroup](/api/oM/Adapter/XML/CSProject/PropertyGroup/PropertyGroup)
 
 
 ## Properties
@@ -50,6 +50,12 @@ The following properties are defined on the class
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class CSProjectObject : BH.oM.Base.IBHoMObject, BH.oM.Base.IObject
+```
+
+Assembly: XML_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

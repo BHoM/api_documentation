@@ -2,7 +2,7 @@
 title: CableTrayMaterial
 ---
 
-# MEP.System.MaterialFragments.CableTrayMaterial
+# <small>BH.oM.MEP.System.</small>**CableTrayMaterial**
 
 
 
@@ -10,12 +10,12 @@ title: CableTrayMaterial
 
 ### Implemented interfaces and base types
 
-???+ bhom "The CableTrayMaterial in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The CableTrayMaterial is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
-    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
-    -  MEP.System.MaterialFragments.[IMEPMaterial](/api/oM/Analytical/MEP/System/MaterialFragments/IMEPMaterial)
+    -  BH.oM.Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
+    -  BH.oM.Base.[IBHoMObject](/api/oM/Framework/Base/Interface/IBHoMObject)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
+    -  BH.oM.MEP.System.MaterialFragments.[IMEPMaterial](/api/oM/Analytical/MEP/System/MaterialFragments/IMEPMaterial)
 
 
 ## Properties
@@ -35,6 +35,12 @@ The following properties are inherited from the base class of the object
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class CableTrayMaterial : BH.oM.Base.BHoMObject, BH.oM.Base.IBHoMObject, BH.oM.Base.IObject, BH.oM.MEP.System.MaterialFragments.IMEPMaterial
+```
+
+Assembly: MEP_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

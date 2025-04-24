@@ -2,7 +2,7 @@
 title: UValueContinuous
 ---
 
-# Facade.Fragments.UValueContinuous
+# <small>BH.oM.Facade.</small>**UValueContinuous**
 
 A U-Value representing the effective U-Value of continuous insulation and/or layers (not affected by thermal bridging due to frame u-value).
 
@@ -10,10 +10,10 @@ A U-Value representing the effective U-Value of continuous insulation and/or lay
 
 ### Implemented interfaces and base types
 
-???+ bhom "The UValueContinuous in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The UValueContinuous is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IFragment](/api/oM/Framework/Base/IFragment)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.Base.[IFragment](/api/oM/Framework/Base/Interface/IFragment)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 ## Properties
@@ -32,6 +32,12 @@ The following properties are defined on the class
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class UValueContinuous : BH.oM.Base.IFragment, BH.oM.Base.IObject
+```
+
+Assembly: Facade_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

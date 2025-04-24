@@ -2,7 +2,7 @@
 title: GraphRepresentation
 ---
 
-# Graphics.Fragments.GraphRepresentation
+# <small>BH.oM.Graphics.</small>**GraphRepresentation**
 
 Fragment for graph representation.
 
@@ -10,11 +10,11 @@ Fragment for graph representation.
 
 ### Implemented interfaces and base types
 
-???+ bhom "The GraphRepresentation in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The GraphRepresentation is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Graphics.Fragments.[IRepresentationFragment](/api/oM/Graphics/Graphics/Fragments/IRepresentationFragment)
-    -  Base.[IFragment](/api/oM/Framework/Base/IFragment)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.Graphics.Fragments.[IRepresentationFragment](/api/oM/Graphics/Graphics/Fragments/IRepresentationFragment)
+    -  BH.oM.Base.[IFragment](/api/oM/Framework/Base/Interface/IFragment)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 ## Properties
@@ -29,14 +29,20 @@ The following properties are defined on the class
 |------------------|------------------|------------------|------------------|
 | Groups | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[GroupRepresentation](/api/oM/Graphics/Graphics/Fragments/GroupRepresentation)&gt; | - | - |
 | Text | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | - | - |
-| TextPosition | [Point](/api/oM/Dimensional/Geometry/Point) | - | - |
-| TextDirection | [Vector](/api/oM/Dimensional/Geometry/Vector) | - | - |
+| TextPosition | [Point](/api/oM/Dimensional/Geometry/Vector/Point) | - | - |
+| TextDirection | [Vector](/api/oM/Dimensional/Geometry/Vector/Vector) | - | - |
 | Colour | [Color](https://learn.microsoft.com/en-us/dotnet/api/System.Drawing.Color?view=netstandard-2.0) | - | - |
 
 
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class GraphRepresentation : BH.oM.Graphics.Fragments.IRepresentationFragment, BH.oM.Base.IFragment, BH.oM.Base.IObject
+```
+
+Assembly: Graphics_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

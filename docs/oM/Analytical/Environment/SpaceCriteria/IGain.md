@@ -2,7 +2,7 @@
 title: IGain
 ---
 
-# Environment.SpaceCriteria.IGain
+# <small>BH.oM.Environment.</small>**IGain**
 
 
 
@@ -10,22 +10,22 @@ title: IGain
 
 ### Implemented interfaces and base types
 
-???+ bhom "The IGain in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The IGain is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.Base.[IBHoMObject](/api/oM/Framework/Base/Interface/IBHoMObject)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Environment.SpaceCriteria.[Equipment](/api/oM/Analytical/Environment/SpaceCriteria/Equipment)
-    - Environment.SpaceCriteria.[Infiltration](/api/oM/Analytical/Environment/SpaceCriteria/Infiltration)
-    - Environment.SpaceCriteria.[Lighting](/api/oM/Analytical/Environment/SpaceCriteria/Lighting)
-    - Environment.SpaceCriteria.[People](/api/oM/Analytical/Environment/SpaceCriteria/People)
-    - Environment.SpaceCriteria.[Plug](/api/oM/Analytical/Environment/SpaceCriteria/Plug)
-    - Environment.SpaceCriteria.[Pollutant](/api/oM/Analytical/Environment/SpaceCriteria/Pollutant)
+    - BH.oM.Environment.SpaceCriteria.[Equipment](/api/oM/Analytical/Environment/SpaceCriteria/Equipment)
+    - BH.oM.Environment.SpaceCriteria.[Infiltration](/api/oM/Analytical/Environment/SpaceCriteria/Infiltration)
+    - BH.oM.Environment.SpaceCriteria.[Lighting](/api/oM/Analytical/Environment/SpaceCriteria/Lighting)
+    - BH.oM.Environment.SpaceCriteria.[People](/api/oM/Analytical/Environment/SpaceCriteria/People)
+    - BH.oM.Environment.SpaceCriteria.[Plug](/api/oM/Analytical/Environment/SpaceCriteria/Plug)
+    - BH.oM.Environment.SpaceCriteria.[Pollutant](/api/oM/Analytical/Environment/SpaceCriteria/Pollutant)
 
 
 ## Properties
@@ -33,6 +33,12 @@ title: IGain
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public interface IGain : BH.oM.Base.IBHoMObject, BH.oM.Base.IObject
+```
+
+Assembly: Environment_oM.dll
 
 The interface is defined in C#. The class definition is available on github:
 

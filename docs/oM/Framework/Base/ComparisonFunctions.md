@@ -2,7 +2,7 @@
 title: ComparisonFunctions
 ---
 
-# Base.ComparisonFunctions
+# <small>BH.oM.</small>**ComparisonFunctions**
 
 Additional functions that can be specified as delegates and that will be executed while determining the uniqueness of an object, i.e. when comparing and when computing the object Hash.
 
@@ -10,9 +10,9 @@ Additional functions that can be specified as delegates and that will be execute
 
 ### Implemented interfaces and base types
 
-???+ bhom "The ComparisonFunctions in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The ComparisonFunctions is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 ## Properties
@@ -34,6 +34,12 @@ The following properties are defined on the class
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class ComparisonFunctions : BH.oM.Base.IObject
+```
+
+Assembly: BHoM.dll
 
 The class is defined in C#. The class definition is available on github:
 

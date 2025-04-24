@@ -2,7 +2,7 @@
 title: IShape
 ---
 
-# DeepLearning.IShape
+# <small>BH.oM.</small>**IShape**
 
 
 
@@ -10,17 +10,17 @@ title: IShape
 
 ### Implemented interfaces and base types
 
-???+ bhom "The IShape in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The IShape is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - DeepLearning.[Shape2d](/api/oM/Framework/DeepLearning/Shape2d)
-    - DeepLearning.[Shape3d](/api/oM/Framework/DeepLearning/Shape3d)
+    - BH.oM.DeepLearning.[Shape2d](/api/oM/Framework/DeepLearning/Shape2d)
+    - BH.oM.DeepLearning.[Shape3d](/api/oM/Framework/DeepLearning/Shape3d)
 
 
 ## Properties
@@ -28,6 +28,12 @@ title: IShape
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public interface IShape : BH.oM.Base.IObject
+```
+
+Assembly: DeepLearning_oM.dll
 
 The interface is defined in C#. The class definition is available on github:
 

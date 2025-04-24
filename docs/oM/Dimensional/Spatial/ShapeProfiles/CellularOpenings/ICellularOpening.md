@@ -2,7 +2,7 @@
 title: ICellularOpening
 ---
 
-# Spatial.ShapeProfiles.CellularOpenings.ICellularOpening
+# <small>BH.oM.Spatial.ShapeProfiles.</small>**ICellularOpening**
 
 
 
@@ -10,19 +10,19 @@ title: ICellularOpening
 
 ### Implemented interfaces and base types
 
-???+ bhom "The ICellularOpening in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The ICellularOpening is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.Base.[IBHoMObject](/api/oM/Framework/Base/Interface/IBHoMObject)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Spatial.ShapeProfiles.CellularOpenings.[CircularCellularOpening](/api/oM/Dimensional/Spatial/ShapeProfiles/CellularOpenings/CircularCellularOpening)
-    - Spatial.ShapeProfiles.CellularOpenings.[HexagonalCellularOpening](/api/oM/Dimensional/Spatial/ShapeProfiles/CellularOpenings/HexagonalCellularOpening)
-    - Spatial.ShapeProfiles.CellularOpenings.[SinusoidalCellularOpening](/api/oM/Dimensional/Spatial/ShapeProfiles/CellularOpenings/SinusoidalCellularOpening)
+    - BH.oM.Spatial.ShapeProfiles.CellularOpenings.[CircularCellularOpening](/api/oM/Dimensional/Spatial/ShapeProfiles/CellularOpenings/CircularCellularOpening)
+    - BH.oM.Spatial.ShapeProfiles.CellularOpenings.[HexagonalCellularOpening](/api/oM/Dimensional/Spatial/ShapeProfiles/CellularOpenings/HexagonalCellularOpening)
+    - BH.oM.Spatial.ShapeProfiles.CellularOpenings.[SinusoidalCellularOpening](/api/oM/Dimensional/Spatial/ShapeProfiles/CellularOpenings/SinusoidalCellularOpening)
 
 
 ## Properties
@@ -46,12 +46,18 @@ The following properties are defined as extension methods in one of the BHoM_Eng
 | Name             | Type             | Description      | Quantity         | Engine           |
 |------------------|------------------|------------------|------------------|------------------|
 | IOpeningArea | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Returns the area of a single opening. | [Area](/api/oM/Dimensional/Quantities/Attributes/Area) [m²] | Spatial_Engine |
-| IOpeningCurve | [ICurve](/api/oM/Dimensional/Geometry/ICurve) | Returns the curve of a single opening in the XY plane. | - | Spatial_Engine |
+| IOpeningCurve | [ICurve](/api/oM/Dimensional/Geometry/Curve/ICurve) | Returns the curve of a single opening in the XY plane. | - | Spatial_Engine |
 
 
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public interface ICellularOpening : BH.oM.Base.IBHoMObject, BH.oM.Base.IObject
+```
+
+Assembly: Spatial_oM.dll
 
 The interface is defined in C#. The class definition is available on github:
 

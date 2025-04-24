@@ -2,7 +2,7 @@
 title: ModalCase
 ---
 
-# Structure.Loads.ModalCase
+# <small>BH.oM.Structure.</small>**ModalCase**
 
 
 
@@ -10,12 +10,12 @@ title: ModalCase
 
 ### Implemented interfaces and base types
 
-???+ bhom "The ModalCase in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The ModalCase is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
-    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
-    -  Structure.Loads.[ICase](/api/oM/Analytical/Structure/Loads/ICase)
+    -  BH.oM.Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
+    -  BH.oM.Base.[IBHoMObject](/api/oM/Framework/Base/Interface/IBHoMObject)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
+    -  BH.oM.Structure.Loads.[ICase](/api/oM/Analytical/Structure/Loads/ICase)
 
 
 ## Properties
@@ -58,6 +58,12 @@ The following properties are defined as extension methods in one of the BHoM_Eng
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class ModalCase : BH.oM.Base.BHoMObject, BH.oM.Base.IBHoMObject, BH.oM.Base.IObject, BH.oM.Structure.Loads.ICase
+```
+
+Assembly: ETABS_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

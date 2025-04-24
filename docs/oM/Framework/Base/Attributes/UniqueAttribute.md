@@ -2,7 +2,7 @@
 title: UniqueAttribute
 ---
 
-# Base.Attributes.UniqueAttribute
+# <small>BH.oM.Base.</small>**UniqueAttribute**
 
 Means that there can only be one instance of that type in a collection. This is currently used specifically for the case of fragments.
 
@@ -10,10 +10,10 @@ Means that there can only be one instance of that type in a collection. This is 
 
 ### Implemented interfaces and base types
 
-???+ bhom "The UniqueAttribute in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The UniqueAttribute is inheriting from the following base type(s) and implements the following interfaces:"
 
     -  [Attribute](https://learn.microsoft.com/en-us/dotnet/api/System.Attribute?view=netstandard-2.0)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 ## Properties
@@ -29,6 +29,12 @@ The following properties are inherited from the base class of the object
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class UniqueAttribute : System.Attribute, BH.oM.Base.IObject
+```
+
+Assembly: BHoM.dll
 
 The class is defined in C#. The class definition is available on github:
 

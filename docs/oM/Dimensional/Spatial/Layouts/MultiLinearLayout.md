@@ -2,7 +2,7 @@
 title: MultiLinearLayout
 ---
 
-# Spatial.Layouts.MultiLinearLayout
+# <small>BH.oM.Spatial.</small>**MultiLinearLayout**
 
 Linear distribution of points along multiple linear parallel axes, defined along a vector from one side of the perimeter of the host object to the other. 
 Starts by fitting in as many points as possible in the first layer, then generates a new one and repeats.
@@ -11,13 +11,13 @@ Starts by fitting in as many points as possible in the first layer, then generat
 
 ### Implemented interfaces and base types
 
-???+ bhom "The MultiLinearLayout in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The MultiLinearLayout is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
-    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
-    -  Spatial.Layouts.[ILayout2D](/api/oM/Dimensional/Spatial/Layouts/ILayout2D)
-    -  Base.[IImmutable](/api/oM/Framework/Base/IImmutable)
+    -  BH.oM.Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
+    -  BH.oM.Base.[IBHoMObject](/api/oM/Framework/Base/Interface/IBHoMObject)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
+    -  BH.oM.Spatial.Layouts.[ILayout2D](/api/oM/Dimensional/Spatial/Layouts/ILayout2D)
+    -  BH.oM.Base.[IImmutable](/api/oM/Framework/Base/Interface/IImmutable)
 
 
 ## Properties
@@ -33,9 +33,9 @@ The following properties are defined on the class
 | NumberOfPoints | [int](https://learn.microsoft.com/en-us/dotnet/api/System.Int32?view=netstandard-2.0) | Number of points along the axis. | - |
 | ParallelMinimumSpacing | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Minimum distance between any two points in the layout along the axis layers. | [Length](/api/oM/Dimensional/Quantities/Attributes/Length) [m] |
 | PerpendicularMinimumSpacing | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Minimum distance between any two layers. | [Length](/api/oM/Dimensional/Quantities/Attributes/Length) [m] |
-| Direction | [Vector](/api/oM/Dimensional/Geometry/Vector) | Direction of the axis. Vector should lie in the XY-plane, i.e. have a Z-coordinate equal to 0. | - |
+| Direction | [Vector](/api/oM/Dimensional/Geometry/Vector/Vector) | Direction of the axis. Vector should lie in the XY-plane, i.e. have a Z-coordinate equal to 0. | - |
 | Offset | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Offset of the linear layout in relation to the reference point, perpendicular to the Direction vector in the XY plane.<br>A positive value will mean an offset towards the centre of the boundingbox of the host objects. | [Length](/api/oM/Dimensional/Quantities/Attributes/Length) [m] |
-| ReferencePoint | [ReferencePoint](/api/oM/Dimensional/Spatial/Layouts/ReferencePoint) | Controls which point on the host element that should be used for the layout. | - |
+| ReferencePoint | [ReferencePoint](/api/oM/Dimensional/Spatial/Layouts/Enums/ReferencePoint) | Controls which point on the host element that should be used for the layout. | - |
 
 
 ### Inherited properties
@@ -62,6 +62,12 @@ The following properties are defined as extension methods in one of the BHoM_Eng
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class MultiLinearLayout : BH.oM.Base.BHoMObject, BH.oM.Base.IBHoMObject, BH.oM.Base.IObject, BH.oM.Spatial.Layouts.ILayout2D, BH.oM.Base.IImmutable
+```
+
+Assembly: Spatial_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

@@ -2,7 +2,7 @@
 title: ToBeRemovedAttribute
 ---
 
-# Base.Attributes.ToBeRemovedAttribute
+# <small>BH.oM.Base.</small>**ToBeRemovedAttribute**
 
 
 
@@ -10,11 +10,11 @@ title: ToBeRemovedAttribute
 
 ### Implemented interfaces and base types
 
-???+ bhom "The ToBeRemovedAttribute in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The ToBeRemovedAttribute is inheriting from the following base type(s) and implements the following interfaces:"
 
     -  [Attribute](https://learn.microsoft.com/en-us/dotnet/api/System.Attribute?view=netstandard-2.0)
-    -  Base.[IImmutable](/api/oM/Framework/Base/IImmutable)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.Base.[IImmutable](/api/oM/Framework/Base/Interface/IImmutable)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 ## Properties
@@ -42,6 +42,12 @@ The following properties are inherited from the base class of the object
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class ToBeRemovedAttribute : System.Attribute, BH.oM.Base.IImmutable, BH.oM.Base.IObject
+```
+
+Assembly: BHoM.dll
 
 The class is defined in C#. The class definition is available on github:
 

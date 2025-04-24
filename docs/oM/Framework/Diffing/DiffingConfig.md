@@ -2,7 +2,7 @@
 title: DiffingConfig
 ---
 
-# Diffing.DiffingConfig
+# <small>BH.oM.</small>**DiffingConfig**
 
 General configurations for the Diffing process, including settings for the Hash computation.
 
@@ -10,9 +10,9 @@ General configurations for the Diffing process, including settings for the Hash 
 
 ### Implemented interfaces and base types
 
-???+ bhom "The DiffingConfig in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The DiffingConfig is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 ## Properties
@@ -35,6 +35,12 @@ The following properties are defined on the class
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class DiffingConfig : BH.oM.Base.IObject
+```
+
+Assembly: Diffing_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

@@ -2,7 +2,7 @@
 title: TakeoffItem
 ---
 
-# Physical.Materials.TakeoffItem
+# <small>BH.oM.Physical.</small>**TakeoffItem**
 
 Class storing takeoff values of relevant quantities corresponding to a particular material.
 
@@ -10,9 +10,9 @@ Class storing takeoff values of relevant quantities corresponding to a particula
 
 ### Implemented interfaces and base types
 
-???+ bhom "The TakeoffItem in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The TakeoffItem is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 ## Properties
@@ -40,6 +40,12 @@ The following properties are defined on the class
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class TakeoffItem : BH.oM.Base.IObject
+```
+
+Assembly: Physical_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

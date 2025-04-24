@@ -2,7 +2,7 @@
 title: FittingType
 ---
 
-# MEP.Enums.FittingType
+# <small>BH.oM.MEP.</small>**FittingType**
 
 A type of fitting used to transition from one segment of linear MEP object to another.
 
@@ -29,6 +29,12 @@ A type of fitting used to transition from one segment of linear MEP object to an
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public enum FittingType : System.Enum, System.ValueType, System.IComparable, System.ISpanFormattable, System.IFormattable, System.IConvertible
+```
+
+Assembly: MEP_oM.dll
 
 The enum is defined in C#. The class definition is available on github:
 

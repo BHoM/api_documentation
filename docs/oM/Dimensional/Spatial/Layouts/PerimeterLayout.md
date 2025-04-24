@@ -2,7 +2,7 @@
 title: PerimeterLayout
 ---
 
-# Spatial.Layouts.PerimeterLayout
+# <small>BH.oM.Spatial.</small>**PerimeterLayout**
 
 Linear distribution of points along the perimeter of the host object.
 
@@ -10,12 +10,12 @@ Linear distribution of points along the perimeter of the host object.
 
 ### Implemented interfaces and base types
 
-???+ bhom "The PerimeterLayout in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The PerimeterLayout is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
-    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
-    -  Spatial.Layouts.[ILayout2D](/api/oM/Dimensional/Spatial/Layouts/ILayout2D)
+    -  BH.oM.Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
+    -  BH.oM.Base.[IBHoMObject](/api/oM/Framework/Base/Interface/IBHoMObject)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
+    -  BH.oM.Spatial.Layouts.[ILayout2D](/api/oM/Dimensional/Spatial/Layouts/ILayout2D)
 
 
 ## Properties
@@ -56,6 +56,12 @@ The following properties are defined as extension methods in one of the BHoM_Eng
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class PerimeterLayout : BH.oM.Base.BHoMObject, BH.oM.Base.IBHoMObject, BH.oM.Base.IObject, BH.oM.Spatial.Layouts.ILayout2D
+```
+
+Assembly: Spatial_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

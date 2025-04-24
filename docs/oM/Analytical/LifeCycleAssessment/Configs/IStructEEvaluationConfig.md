@@ -2,7 +2,7 @@
 title: IStructEEvaluationConfig
 ---
 
-# LifeCycleAssessment.Configs.IStructEEvaluationConfig
+# <small>BH.oM.LifeCycleAssessment.</small>**IStructEEvaluationConfig**
 
 Config for evaluation of climate change metrics using methodology from IStructE.
 
@@ -10,12 +10,12 @@ Config for evaluation of climate change metrics using methodology from IStructE.
 
 ### Implemented interfaces and base types
 
-???+ bhom "The IStructEEvaluationConfig in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The IStructEEvaluationConfig is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
-    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
-    -  LifeCycleAssessment.Configs.[IEvaluationConfig](/api/oM/Analytical/LifeCycleAssessment/Configs/IEvaluationConfig)
+    -  BH.oM.Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
+    -  BH.oM.Base.[IBHoMObject](/api/oM/Framework/Base/Interface/IBHoMObject)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
+    -  BH.oM.LifeCycleAssessment.Configs.[IEvaluationConfig](/api/oM/Analytical/LifeCycleAssessment/Configs/IEvaluationConfig)
 
 
 ## Properties
@@ -50,6 +50,12 @@ The following properties are inherited from the base class of the object
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class IStructEEvaluationConfig : BH.oM.Base.BHoMObject, BH.oM.Base.IBHoMObject, BH.oM.Base.IObject, BH.oM.LifeCycleAssessment.Configs.IEvaluationConfig
+```
+
+Assembly: LifeCycleAssessment_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

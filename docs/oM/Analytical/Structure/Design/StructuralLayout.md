@@ -2,7 +2,7 @@
 title: StructuralLayout
 ---
 
-# Structure.Design.StructuralLayout
+# <small>BH.oM.Structure.</small>**StructuralLayout**
 
 
 
@@ -10,12 +10,12 @@ title: StructuralLayout
 
 ### Implemented interfaces and base types
 
-???+ bhom "The StructuralLayout in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The StructuralLayout is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
-    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
-    -  Structure.Design.[IDesignable](/api/oM/Analytical/Structure/Design/IDesignable)
+    -  BH.oM.Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
+    -  BH.oM.Base.[IBHoMObject](/api/oM/Framework/Base/Interface/IBHoMObject)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
+    -  BH.oM.Structure.Design.[IDesignable](/api/oM/Analytical/Structure/Design/IDesignable)
 
 
 ## Properties
@@ -32,7 +32,7 @@ The following properties are defined on the class
 | MajorAxisSpans | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[Span](/api/oM/Analytical/Structure/Design/Span)&gt; | - | - |
 | MinorAxisSpans | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[Span](/api/oM/Analytical/Structure/Design/Span)&gt; | - | - |
 | LateralTorsionalSpans | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[Span](/api/oM/Analytical/Structure/Design/Span)&gt; | - | - |
-| StructuralUsage | [StructuralUsage1D](/api/oM/Analytical/Structure/Elements/StructuralUsage1D) | - | - |
+| StructuralUsage | [StructuralUsage1D](/api/oM/Analytical/Structure/Elements/Enums/StructuralUsage1d) | - | - |
 
 
 ### Inherited properties
@@ -50,6 +50,12 @@ The following properties are inherited from the base class of the object
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class StructuralLayout : BH.oM.Base.BHoMObject, BH.oM.Base.IBHoMObject, BH.oM.Base.IObject, BH.oM.Structure.Design.IDesignable
+```
+
+Assembly: Structure_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

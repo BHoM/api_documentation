@@ -2,7 +2,7 @@
 title: RevisionFragment
 ---
 
-# Diffing.RevisionFragment
+# <small>BH.oM.</small>**RevisionFragment**
 
 Stores the current and previous Hash of the parent BHoMObject, as assigned after the inclusion in a Revision.
 
@@ -10,12 +10,12 @@ Stores the current and previous Hash of the parent BHoMObject, as assigned after
 
 ### Implemented interfaces and base types
 
-???+ bhom "The RevisionFragment in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The RevisionFragment is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IHashFragment](/api/oM/Framework/Base/IHashFragment)
-    -  Base.[IFragment](/api/oM/Framework/Base/IFragment)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
-    -  Base.[IImmutable](/api/oM/Framework/Base/IImmutable)
+    -  BH.oM.Base.[IHashFragment](/api/oM/Framework/Base/Interface/IHashFragment)
+    -  BH.oM.Base.[IFragment](/api/oM/Framework/Base/Interface/IFragment)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
+    -  BH.oM.Base.[IImmutable](/api/oM/Framework/Base/Interface/IImmutable)
 
 
 ## Properties
@@ -35,6 +35,12 @@ The following properties are defined on the class
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class RevisionFragment : BH.oM.Base.IHashFragment, BH.oM.Base.IFragment, BH.oM.Base.IObject, BH.oM.Base.IImmutable
+```
+
+Assembly: Diffing_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

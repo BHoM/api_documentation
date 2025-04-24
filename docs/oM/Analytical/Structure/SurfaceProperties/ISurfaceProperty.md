@@ -2,7 +2,7 @@
 title: ISurfaceProperty
 ---
 
-# Structure.SurfaceProperties.ISurfaceProperty
+# <small>BH.oM.Structure.</small>**ISurfaceProperty**
 
 Base interface for properties for 2D finite element structural objects such as Panels and FEMeshes.
 
@@ -10,32 +10,32 @@ Base interface for properties for 2D finite element structural objects such as P
 
 ### Implemented interfaces and base types
 
-???+ bhom "The ISurfaceProperty in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The ISurfaceProperty is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
-    -  Structure.[IProperty](/api/oM/Analytical/Structure/IProperty)
+    -  BH.oM.Base.[IBHoMObject](/api/oM/Framework/Base/Interface/IBHoMObject)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
+    -  BH.oM.Structure.[IProperty](/api/oM/Analytical/Structure/IProperty)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Adapters.GSA.SurfaceProperties.[FabricPanelProperty](/api/oM/Adapter/Adapters/GSA/SurfaceProperties/FabricPanelProperty)
-    - Structure.SurfaceProperties.[BiDirectionalVoided](/api/oM/Analytical/Structure/SurfaceProperties/BiDirectionalVoided)
-    - Structure.SurfaceProperties.[BuiltUpDoubleRibbed](/api/oM/Analytical/Structure/SurfaceProperties/BuiltUpDoubleRibbed)
-    - Structure.SurfaceProperties.[BuiltUpRibbed](/api/oM/Analytical/Structure/SurfaceProperties/BuiltUpRibbed)
-    - Structure.SurfaceProperties.[Cassette](/api/oM/Analytical/Structure/SurfaceProperties/Cassette)
-    - Structure.SurfaceProperties.[ConstantThickness](/api/oM/Analytical/Structure/SurfaceProperties/ConstantThickness)
-    - Structure.SurfaceProperties.[CorrugatedDeck](/api/oM/Analytical/Structure/SurfaceProperties/CorrugatedDeck)
-    - Structure.SurfaceProperties.[HollowCore](/api/oM/Analytical/Structure/SurfaceProperties/HollowCore)
-    - Structure.SurfaceProperties.[Layered](/api/oM/Analytical/Structure/SurfaceProperties/Layered)
-    - Structure.SurfaceProperties.[LoadingPanelProperty](/api/oM/Analytical/Structure/SurfaceProperties/LoadingPanelProperty)
-    - Structure.SurfaceProperties.[OneDirectionalVoided](/api/oM/Analytical/Structure/SurfaceProperties/OneDirectionalVoided)
-    - Structure.SurfaceProperties.[Ribbed](/api/oM/Analytical/Structure/SurfaceProperties/Ribbed)
-    - Structure.SurfaceProperties.[SlabOnDeck](/api/oM/Analytical/Structure/SurfaceProperties/SlabOnDeck)
-    - Structure.SurfaceProperties.[ToppedSlab](/api/oM/Analytical/Structure/SurfaceProperties/ToppedSlab)
-    - Structure.SurfaceProperties.[Waffle](/api/oM/Analytical/Structure/SurfaceProperties/Waffle)
+    - BH.oM.Adapters.GSA.SurfaceProperties.[FabricPanelProperty](/api/oM/Adapter/Adapters.GSA/SurfaceProperties/FabricPanelProperty)
+    - BH.oM.Structure.SurfaceProperties.[BiDirectionalVoided](/api/oM/Analytical/Structure/SurfaceProperties/BiDirectionalVoided)
+    - BH.oM.Structure.SurfaceProperties.[BuiltUpDoubleRibbed](/api/oM/Analytical/Structure/SurfaceProperties/BuiltUpDoubleRibbed)
+    - BH.oM.Structure.SurfaceProperties.[BuiltUpRibbed](/api/oM/Analytical/Structure/SurfaceProperties/BuiltUpRibbed)
+    - BH.oM.Structure.SurfaceProperties.[Cassette](/api/oM/Analytical/Structure/SurfaceProperties/Cassette)
+    - BH.oM.Structure.SurfaceProperties.[ConstantThickness](/api/oM/Analytical/Structure/SurfaceProperties/ConstantThickness)
+    - BH.oM.Structure.SurfaceProperties.[CorrugatedDeck](/api/oM/Analytical/Structure/SurfaceProperties/CorrugatedDeck)
+    - BH.oM.Structure.SurfaceProperties.[HollowCore](/api/oM/Analytical/Structure/SurfaceProperties/HollowCore)
+    - BH.oM.Structure.SurfaceProperties.[Layered](/api/oM/Analytical/Structure/SurfaceProperties/Layered)
+    - BH.oM.Structure.SurfaceProperties.[LoadingPanelProperty](/api/oM/Analytical/Structure/SurfaceProperties/LoadingPanelProperty)
+    - BH.oM.Structure.SurfaceProperties.[OneDirectionalVoided](/api/oM/Analytical/Structure/SurfaceProperties/OneDirectionalVoided)
+    - BH.oM.Structure.SurfaceProperties.[Ribbed](/api/oM/Analytical/Structure/SurfaceProperties/Ribbed)
+    - BH.oM.Structure.SurfaceProperties.[SlabOnDeck](/api/oM/Analytical/Structure/SurfaceProperties/SlabOnDeck)
+    - BH.oM.Structure.SurfaceProperties.[ToppedSlab](/api/oM/Analytical/Structure/SurfaceProperties/ToppedSlab)
+    - BH.oM.Structure.SurfaceProperties.[Waffle](/api/oM/Analytical/Structure/SurfaceProperties/Waffle)
 
 
 ## Properties
@@ -69,12 +69,18 @@ The following properties are defined as extension methods in one of the BHoM_Eng
 | IsNull | [bool](https://learn.microsoft.com/en-us/dotnet/api/System.Boolean?view=netstandard-2.0) | Checks if a SurfaceProperty is null and outputs relevant error message. | - | Structure_Engine |
 | ITotalThickness | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Gets the total thickness of the surface property. | [Length](/api/oM/Dimensional/Quantities/Attributes/Length) [m] | Structure_Engine |
 | IVolumePerArea | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Gets the volume per area of the property for the purpose of calculating solid volume. | [Length](/api/oM/Dimensional/Quantities/Attributes/Length) [m] | Structure_Engine |
-| Modifiers | [Double[]](https://learn.microsoft.com/en-us/dotnet/api/System.Double[]?view=netstandard-2.0) | Gets any modifiers from a property as an array of doubles. The modifiers are used to scale one or more of the property constants for analysis. Constants are multiplied with the modifiers, hence a modifier value of 1 means no change. <br>The values returned are in the following order: FXX, FXY, FYY, MXX, MXY, MYY, VXZ, VYZ, Mass, Weight. Method returns null if no modifiers are found. | - | Structure_Engine |
+| Modifiers | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0)[] | Gets any modifiers from a property as an array of doubles. The modifiers are used to scale one or more of the property constants for analysis. Constants are multiplied with the modifiers, hence a modifier value of 1 means no change. <br>The values returned are in the following order: FXX, FXY, FYY, MXX, MXY, MYY, VXZ, VYZ, Mass, Weight. Method returns null if no modifiers are found. | - | Structure_Engine |
 
 
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public interface ISurfaceProperty : BH.oM.Base.IBHoMObject, BH.oM.Base.IObject, BH.oM.Structure.IProperty
+```
+
+Assembly: Structure_oM.dll
 
 The interface is defined in C#. The class definition is available on github:
 

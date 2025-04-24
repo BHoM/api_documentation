@@ -2,7 +2,7 @@
 title: IScale
 ---
 
-# Graphics.Scales.IScale
+# <small>BH.oM.Graphics.</small>**IScale**
 
 Base interface for all graphics scales.
 
@@ -10,17 +10,17 @@ Base interface for all graphics scales.
 
 ### Implemented interfaces and base types
 
-???+ bhom "The IScale in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The IScale is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Graphics.Scales.[ScaleLinear](/api/oM/Graphics/Graphics/Scales/ScaleLinear)
-    - Graphics.Scales.[ScaleOrdinal](/api/oM/Graphics/Graphics/Scales/ScaleOrdinal)
+    - BH.oM.Graphics.Scales.[ScaleLinear](/api/oM/Graphics/Graphics/Scales/ScaleLinear)
+    - BH.oM.Graphics.Scales.[ScaleOrdinal](/api/oM/Graphics/Graphics/Scales/ScaleOrdinal)
 
 
 ## Properties
@@ -39,6 +39,12 @@ The following properties are defined on the interface
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public interface IScale : BH.oM.Base.IObject
+```
+
+Assembly: Graphics_oM.dll
 
 The interface is defined in C#. The class definition is available on github:
 

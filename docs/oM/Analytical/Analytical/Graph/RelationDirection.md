@@ -2,7 +2,7 @@
 title: RelationDirection
 ---
 
-# Analytical.Graph.RelationDirection
+# <small>BH.oM.Analytical.</small>**RelationDirection**
 
 
 
@@ -18,6 +18,12 @@ title: RelationDirection
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public enum RelationDirection : System.Enum, System.ValueType, System.IComparable, System.ISpanFormattable, System.IFormattable, System.IConvertible
+```
+
+Assembly: Analytical_oM.dll
 
 The enum is defined in C#. The class definition is available on github:
 

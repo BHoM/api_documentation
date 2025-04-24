@@ -2,7 +2,7 @@
 title: SurfacePropertyModifier
 ---
 
-# Structure.Fragments.SurfacePropertyModifier
+# <small>BH.oM.Structure.</small>**SurfacePropertyModifier**
 
 Sets modifiers to a SurfaceProperty. The modifiers are used to scale one or more of the property constants for analysis. Constants are multiplied with the modifiers, hence a modifier value of 1 means no change.
 
@@ -10,10 +10,10 @@ Sets modifiers to a SurfaceProperty. The modifiers are used to scale one or more
 
 ### Implemented interfaces and base types
 
-???+ bhom "The SurfacePropertyModifier in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The SurfacePropertyModifier is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IFragment](/api/oM/Framework/Base/IFragment)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.Base.[IFragment](/api/oM/Framework/Base/Interface/IFragment)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 ## Properties
@@ -41,6 +41,12 @@ The following properties are defined on the class
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class SurfacePropertyModifier : BH.oM.Base.IFragment, BH.oM.Base.IObject
+```
+
+Assembly: Structure_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

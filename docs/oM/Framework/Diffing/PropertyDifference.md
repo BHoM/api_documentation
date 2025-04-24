@@ -2,7 +2,7 @@
 title: PropertyDifference
 ---
 
-# Diffing.PropertyDifference
+# <small>BH.oM.</small>**PropertyDifference**
 
 Represents a difference found between a Previous and Following version of an object.
 
@@ -10,10 +10,10 @@ Represents a difference found between a Previous and Following version of an obj
 
 ### Implemented interfaces and base types
 
-???+ bhom "The PropertyDifference in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The PropertyDifference is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Diffing.[IPropertyDifference](/api/oM/Framework/Diffing/IPropertyDifference)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.Diffing.[IPropertyDifference](/api/oM/Framework/Diffing/IPropertyDifference)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 ## Properties
@@ -36,6 +36,12 @@ The following properties are defined on the class
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class PropertyDifference : BH.oM.Diffing.IPropertyDifference, BH.oM.Base.IObject
+```
+
+Assembly: Diffing_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

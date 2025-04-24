@@ -2,7 +2,7 @@
 title: TriggerLogUsageArgs
 ---
 
-# UI.TriggerLogUsageArgs
+# <small>BH.oM.</small>**TriggerLogUsageArgs**
 
 
 
@@ -10,10 +10,10 @@ title: TriggerLogUsageArgs
 
 ### Implemented interfaces and base types
 
-???+ bhom "The TriggerLogUsageArgs in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The TriggerLogUsageArgs is inheriting from the following base type(s) and implements the following interfaces:"
 
     -  [EventArgs](https://learn.microsoft.com/en-us/dotnet/api/System.EventArgs?view=netstandard-2.0)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 ## Properties
@@ -39,6 +39,12 @@ The following properties are defined on the class
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class TriggerLogUsageArgs : System.EventArgs, BH.oM.Base.IObject
+```
+
+Assembly: UI_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

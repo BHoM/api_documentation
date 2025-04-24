@@ -2,7 +2,7 @@
 title: Relation
 ---
 
-# Analytical.Graph.Relation
+# <small>BH.oM.Analytical.</small>**Relation**
 
 Base class for all Relation classes.
 
@@ -10,12 +10,12 @@ Base class for all Relation classes.
 
 ### Implemented interfaces and base types
 
-???+ bhom "The Relation in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The Relation is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
-    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
-    -  Analytical.Graph.[IRelation](/api/oM/Analytical/Analytical/Graph/IRelation)
+    -  BH.oM.Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
+    -  BH.oM.Base.[IBHoMObject](/api/oM/Framework/Base/Interface/IBHoMObject)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
+    -  BH.oM.Analytical.Graph.[IRelation](/api/oM/Analytical/Analytical/Graph/IRelation)
 
 
 ## Properties
@@ -32,7 +32,7 @@ The following properties are defined on the class
 | Target | [Guid](https://learn.microsoft.com/en-us/dotnet/api/System.Guid?view=netstandard-2.0) | Reference Guid to target entity. | - |
 | Subgraph | [Graph](/api/oM/Analytical/Analytical/Graph/Graph) | This Relation's sub Graph. | - |
 | Weight | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Weight of the Relation. | - |
-| Curve | [ICurve](/api/oM/Dimensional/Geometry/ICurve) | Curve that represents the link between the source and target entities. | - |
+| Curve | [ICurve](/api/oM/Dimensional/Geometry/Curve/ICurve) | Curve that represents the link between the source and target entities. | - |
 
 
 ### Inherited properties
@@ -53,12 +53,18 @@ The following properties are defined as extension methods in one of the BHoM_Eng
 
 | Name             | Type             | Description      | Quantity         | Engine           |
 |------------------|------------------|------------------|------------------|------------------|
-| RelationArrow | [CompositeGeometry](/api/oM/Dimensional/Geometry/CompositeGeometry) | Returns arrow geometry used to represent a Relation. | - | Analytical_Engine |
+| RelationArrow | [CompositeGeometry](/api/oM/Dimensional/Geometry/Misc/CompositeGeometry) | Returns arrow geometry used to represent a Relation. | - | Analytical_Engine |
 
 
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class Relation : BH.oM.Base.BHoMObject, BH.oM.Base.IBHoMObject, BH.oM.Base.IObject, BH.oM.Analytical.Graph.IRelation
+```
+
+Assembly: Analytical_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

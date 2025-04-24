@@ -2,7 +2,7 @@
 title: ICurveLayout
 ---
 
-# Spatial.Layouts.ICurveLayout
+# <small>BH.oM.Spatial.</small>**ICurveLayout**
 
 Base interface for all curve layouts.
 
@@ -10,18 +10,18 @@ Base interface for all curve layouts.
 
 ### Implemented interfaces and base types
 
-???+ bhom "The ICurveLayout in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The ICurveLayout is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.Base.[IBHoMObject](/api/oM/Framework/Base/Interface/IBHoMObject)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Spatial.Layouts.[ExplicitCurveLayout](/api/oM/Dimensional/Spatial/Layouts/ExplicitCurveLayout)
-    - Spatial.Layouts.[OffsetCurveLayout](/api/oM/Dimensional/Spatial/Layouts/OffsetCurveLayout)
+    - BH.oM.Spatial.Layouts.[ExplicitCurveLayout](/api/oM/Dimensional/Spatial/Layouts/ExplicitCurveLayout)
+    - BH.oM.Spatial.Layouts.[OffsetCurveLayout](/api/oM/Dimensional/Spatial/Layouts/OffsetCurveLayout)
 
 
 ## Properties
@@ -38,6 +38,12 @@ The following properties are defined as extension methods in one of the BHoM_Eng
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public interface ICurveLayout : BH.oM.Base.IBHoMObject, BH.oM.Base.IObject
+```
+
+Assembly: Spatial_oM.dll
 
 The interface is defined in C#. The class definition is available on github:
 

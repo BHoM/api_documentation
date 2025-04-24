@@ -2,7 +2,7 @@
 title: EnvironmentalProductDeclaration
 ---
 
-# LifeCycleAssessment.MaterialFragments.EnvironmentalProductDeclaration
+# <small>BH.oM.LifeCycleAssessment.</small>**EnvironmentalProductDeclaration**
 
 An Environmental Product Declaration or EPD is an independently verified and registered document that communicates transparent and comparable information about the life-cycle environmental impact of products in a credible way. 
 More information can be found on the Environdec website (environdec.com/all-about-epds0/all-about-epds.) 
@@ -13,12 +13,12 @@ For additional comments, questions, or feature requests, please visit the LifeCy
 
 ### Implemented interfaces and base types
 
-???+ bhom "The EnvironmentalProductDeclaration in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The EnvironmentalProductDeclaration is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
-    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
-    -  Physical.Materials.[IMaterialProperties](/api/oM/Physical/Physical/Materials/IMaterialProperties)
+    -  BH.oM.Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
+    -  BH.oM.Base.[IBHoMObject](/api/oM/Framework/Base/Interface/IBHoMObject)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
+    -  BH.oM.Physical.Materials.[IMaterialProperties](/api/oM/Physical/Physical/Materials/IMaterialProperties)
 
 
 ## Properties
@@ -31,9 +31,9 @@ The following properties are defined on the class
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| Type | [EPDType](/api/oM/Analytical/LifeCycleAssessment/EPDType) | The Type of Environmental Product Declaration. | - |
-| EnvironmentalMetrics | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[EnvironmentalMetric](/api/oM/Analytical/LifeCycleAssessment/MaterialFragments/EnvironmentalMetric)&gt; | An Environmental Metric to describe the type and quantity of a specified metric. These metrics are used in all LCA calculations. | - |
-| QuantityType | [QuantityType](/api/oM/Analytical/LifeCycleAssessment/QuantityType) | Note that any EPD that does not contain this parameter will not be evaluated. <br>This metric is based on the declared unit of the reference EPD, i.e. a declared unit of kg refers to QuantityType of mass, a declared unit of m3 refers to a QuantityType of volume, etc. <br>All data should be normalized to metric declared units before integration in the BHoM. <br>The quantity type is a key metric for evaluation methods to function. <br>This property determines how the material is to be evaluated, based on Mass, Volume, Area, Item, or Length. | - |
+| Type | [EPDType](/api/oM/Analytical/LifeCycleAssessment/Enums/EPDType) | The Type of Environmental Product Declaration. | - |
+| EnvironmentalMetrics | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[EnvironmentalMetric](/api/oM/Analytical/LifeCycleAssessment/MaterialFragments/EnvironmentalMetrics/EnvironmentalMetric)&gt; | An Environmental Metric to describe the type and quantity of a specified metric. These metrics are used in all LCA calculations. | - |
+| QuantityType | [QuantityType](/api/oM/Analytical/LifeCycleAssessment/Enums/QuantityType) | Note that any EPD that does not contain this parameter will not be evaluated. <br>This metric is based on the declared unit of the reference EPD, i.e. a declared unit of kg refers to QuantityType of mass, a declared unit of m3 refers to a QuantityType of volume, etc. <br>All data should be normalized to metric declared units before integration in the BHoM. <br>The quantity type is a key metric for evaluation methods to function. <br>This property determines how the material is to be evaluated, based on Mass, Volume, Area, Item, or Length. | - |
 
 
 ### Inherited properties
@@ -54,13 +54,19 @@ The following properties are defined as extension methods in one of the BHoM_Eng
 
 | Name             | Type             | Description      | Quantity         | Engine           |
 |------------------|------------------|------------------|------------------|------------------|
-| FilteredMetrics | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[EnvironmentalMetric](/api/oM/Analytical/LifeCycleAssessment/MaterialFragments/EnvironmentalMetric)&gt; | Filters out the metrics on the EPD based on the provided metric types. If no types are provided, then all metrics on the EPD are returned. | - | LifeCycleAssessment_Engine |
+| FilteredMetrics | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[EnvironmentalMetric](/api/oM/Analytical/LifeCycleAssessment/MaterialFragments/EnvironmentalMetrics/EnvironmentalMetric)&gt; | Filters out the metrics on the EPD based on the provided metric types. If no types are provided, then all metrics on the EPD are returned. | - | LifeCycleAssessment_Engine |
 | MaterialEndOfLifeTreatment | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | Returns End of Life processing information contained within an EPD dataset. | - | LifeCycleAssessment_Engine |
 
 
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class EnvironmentalProductDeclaration : BH.oM.Base.BHoMObject, BH.oM.Base.IBHoMObject, BH.oM.Base.IObject, BH.oM.Physical.Materials.IMaterialProperties
+```
+
+Assembly: LifeCycleAssessment_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

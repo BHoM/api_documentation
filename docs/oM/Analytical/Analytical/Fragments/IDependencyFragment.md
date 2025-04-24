@@ -2,7 +2,7 @@
 title: IDependencyFragment
 ---
 
-# Analytical.Fragments.IDependencyFragment
+# <small>BH.oM.Analytical.</small>**IDependencyFragment**
 
 Interface common to all DependencyFragments.
 
@@ -10,18 +10,18 @@ Interface common to all DependencyFragments.
 
 ### Implemented interfaces and base types
 
-???+ bhom "The IDependencyFragment in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The IDependencyFragment is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IFragment](/api/oM/Framework/Base/IFragment)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.Base.[IFragment](/api/oM/Framework/Base/Interface/IFragment)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Analytical.Fragments.[SourcesDependencyFragment](/api/oM/Analytical/Analytical/Fragments/SourcesDependencyFragment)
-    - Analytical.Fragments.[TargetsDependencyFragment](/api/oM/Analytical/Analytical/Fragments/TargetsDependencyFragment)
+    - BH.oM.Analytical.Fragments.[SourcesDependencyFragment](/api/oM/Analytical/Analytical/Fragments/SourcesDependencyFragment)
+    - BH.oM.Analytical.Fragments.[TargetsDependencyFragment](/api/oM/Analytical/Analytical/Fragments/TargetsDependencyFragment)
 
 
 ## Properties
@@ -29,6 +29,12 @@ Interface common to all DependencyFragments.
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public interface IDependencyFragment : BH.oM.Base.IFragment, BH.oM.Base.IObject
+```
+
+Assembly: Analytical_oM.dll
 
 The interface is defined in C#. The class definition is available on github:
 

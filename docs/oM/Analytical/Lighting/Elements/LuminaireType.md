@@ -2,7 +2,7 @@
 title: LuminaireType
 ---
 
-# Lighting.Elements.LuminaireType
+# <small>BH.oM.Lighting.</small>**LuminaireType**
 
 A LuminaireType containing manufacturer, dimensional, and other property data applied to a Luminaire.
 
@@ -10,11 +10,11 @@ A LuminaireType containing manufacturer, dimensional, and other property data ap
 
 ### Implemented interfaces and base types
 
-???+ bhom "The LuminaireType in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The LuminaireType is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
-    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
+    -  BH.oM.Base.[IBHoMObject](/api/oM/Framework/Base/Interface/IBHoMObject)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 ## Properties
@@ -28,7 +28,7 @@ The following properties are defined on the class
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
 | Manufacturer | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | Name of the Manufacturer of this LuminaireType | - |
-| LuminaireGeometry | [BoundaryRepresentation](/api/oM/Dimensional/Geometry/BoundaryRepresentation) | Boundary Representation of the LuminaireType's Geometry | - |
+| LuminaireGeometry | [BoundaryRepresentation](/api/oM/Dimensional/Geometry/Solid/BoundaryRepresentation) | Boundary Representation of the LuminaireType's Geometry | - |
 | Load | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Total Load of the LuminaireType | - |
 | Flux | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Total Flux of the LuminaireType | - |
 | NumberOfLamps | [int](https://learn.microsoft.com/en-us/dotnet/api/System.Int32?view=netstandard-2.0) | Number of lamps included in this LuminaireType | - |
@@ -52,6 +52,12 @@ The following properties are inherited from the base class of the object
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class LuminaireType : BH.oM.Base.BHoMObject, BH.oM.Base.IBHoMObject, BH.oM.Base.IObject
+```
+
+Assembly: Lighting_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

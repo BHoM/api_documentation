@@ -2,7 +2,7 @@
 title: FireAlarmDeviceType
 ---
 
-# MEP.Enums.FireAlarmDeviceType
+# <small>BH.oM.MEP.</small>**FireAlarmDeviceType**
 
 A type of fire alarm device (smoke detector, heat detector, speaker strobe.)
 
@@ -34,6 +34,12 @@ A type of fire alarm device (smoke detector, heat detector, speaker strobe.)
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public enum FireAlarmDeviceType : System.Enum, System.ValueType, System.IComparable, System.ISpanFormattable, System.IFormattable, System.IConvertible
+```
+
+Assembly: MEP_oM.dll
 
 The enum is defined in C#. The class definition is available on github:
 

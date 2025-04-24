@@ -2,7 +2,7 @@
 title: Constraint3DOF
 ---
 
-# Structure.Constraints.Constraint3DOF
+# <small>BH.oM.Structure.</small>**Constraint3DOF**
 
 Constraint objects with three translational degrees of freedom, used for support of 2D analytical objects.
 
@@ -10,12 +10,12 @@ Constraint objects with three translational degrees of freedom, used for support
 
 ### Implemented interfaces and base types
 
-???+ bhom "The Constraint3DOF in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The Constraint3DOF is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
-    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
-    -  Structure.[IProperty](/api/oM/Analytical/Structure/IProperty)
+    -  BH.oM.Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
+    -  BH.oM.Base.[IBHoMObject](/api/oM/Framework/Base/Interface/IBHoMObject)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
+    -  BH.oM.Structure.[IProperty](/api/oM/Analytical/Structure/IProperty)
 
 
 ## Properties
@@ -29,9 +29,9 @@ The following properties are defined on the class
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
 | Name | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | A unique Name is required for some structural packages to create and identify the object. | - |
-| UX | [DOFType](/api/oM/Analytical/Structure/Constraints/DOFType) | Defines the translational fixity in the X-direction. | - |
-| UY | [DOFType](/api/oM/Analytical/Structure/Constraints/DOFType) | Defines the translational fixity in the Y-direction. | - |
-| Normal | [DOFType](/api/oM/Analytical/Structure/Constraints/DOFType) | Defines the translational fixity in the Z- or Normal-direction. | - |
+| UX | [DOFType](/api/oM/Analytical/Structure/Constraints/Enums/DOFType) | Defines the translational fixity in the X-direction. | - |
+| UY | [DOFType](/api/oM/Analytical/Structure/Constraints/Enums/DOFType) | Defines the translational fixity in the Y-direction. | - |
+| Normal | [DOFType](/api/oM/Analytical/Structure/Constraints/Enums/DOFType) | Defines the translational fixity in the Z- or Normal-direction. | - |
 | KX | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Defines the stiffness in X-direction. This will only be active when corresponding degree of freedom has a DOFType with a stiffness dependency, such as Spring. | [ForcePerUnitLength](/api/oM/Dimensional/Quantities/Attributes/ForcePerUnitLength) [N/m] |
 | KY | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Defines the stiffness in Y-direction. This will only be active when corresponding degree of freedom has a DOFType with a stiffness dependency, such as Spring. | [ForcePerUnitLength](/api/oM/Dimensional/Quantities/Attributes/ForcePerUnitLength) [N/m] |
 | KNorm | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Defines the stiffness in Z- or Normal-direction. This will only be active when corresponding degree of freedom has a DOFType with a stiffness dependency, such as Spring. | [ForcePerUnitLength](/api/oM/Dimensional/Quantities/Attributes/ForcePerUnitLength) [N/m] |
@@ -64,6 +64,12 @@ The following properties are defined as extension methods in one of the BHoM_Eng
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class Constraint3DOF : BH.oM.Base.BHoMObject, BH.oM.Base.IBHoMObject, BH.oM.Base.IObject, BH.oM.Structure.IProperty
+```
+
+Assembly: Structure_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

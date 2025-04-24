@@ -2,7 +2,7 @@
 title: MarkupSummary
 ---
 
-# XML.Bluebeam.MarkupSummary
+# <small>BH.oM.XML.</small>**MarkupSummary**
 
 
 
@@ -10,11 +10,11 @@ title: MarkupSummary
 
 ### Implemented interfaces and base types
 
-???+ bhom "The MarkupSummary in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The MarkupSummary is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  XML.Bluebeam.[BluebeamObject](/api/oM/Adapter/XML/Bluebeam/BluebeamObject)
-    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.XML.Bluebeam.[BluebeamObject](/api/oM/Adapter/XML/Bluebeam/BluebeamObject)
+    -  BH.oM.Base.[IBHoMObject](/api/oM/Framework/Base/Interface/IBHoMObject)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 ## Properties
@@ -45,6 +45,12 @@ The following properties are inherited from the base class of the object
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class MarkupSummary : BH.oM.XML.Bluebeam.BluebeamObject, BH.oM.Base.IBHoMObject, BH.oM.Base.IObject
+```
+
+Assembly: XML_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

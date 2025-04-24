@@ -2,7 +2,7 @@
 title: ViewConfig
 ---
 
-# Graphics.Views.ViewConfig
+# <small>BH.oM.Graphics.</small>**ViewConfig**
 
 Configuration properties for view objects.
 
@@ -10,12 +10,12 @@ Configuration properties for view objects.
 
 ### Implemented interfaces and base types
 
-???+ bhom "The ViewConfig in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The ViewConfig is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
-    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
-    -  Graphics.Views.[IView](/api/oM/Graphics/Graphics/Views/IView)
+    -  BH.oM.Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
+    -  BH.oM.Base.[IBHoMObject](/api/oM/Framework/Base/Interface/IBHoMObject)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
+    -  BH.oM.Graphics.Views.[IView](/api/oM/Graphics/Graphics/Views/IView)
 
 
 ## Properties
@@ -48,6 +48,12 @@ The following properties are inherited from the base class of the object
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class ViewConfig : BH.oM.Base.BHoMObject, BH.oM.Base.IBHoMObject, BH.oM.Base.IObject, BH.oM.Graphics.Views.IView
+```
+
+Assembly: Graphics_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

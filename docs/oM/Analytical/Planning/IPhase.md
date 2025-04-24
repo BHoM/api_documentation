@@ -2,7 +2,7 @@
 title: IPhase
 ---
 
-# Planning.IPhase
+# <small>BH.oM.</small>**IPhase**
 
 
 
@@ -10,17 +10,17 @@ title: IPhase
 
 ### Implemented interfaces and base types
 
-???+ bhom "The IPhase in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The IPhase is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.Base.[IBHoMObject](/api/oM/Framework/Base/Interface/IBHoMObject)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Planning.[ConstructionPhase](/api/oM/Analytical/Planning/ConstructionPhase)
+    - BH.oM.Planning.[ConstructionPhase](/api/oM/Analytical/Planning/Construction/ConstructionPhase)
 
 
 ## Properties
@@ -40,6 +40,12 @@ The following properties are defined on the interface
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public interface IPhase : BH.oM.Base.IBHoMObject, BH.oM.Base.IObject
+```
+
+Assembly: Planning_oM.dll
 
 The interface is defined in C#. The class definition is available on github:
 

@@ -2,7 +2,7 @@
 title: IBarReinforcement
 ---
 
-# Structure.Reinforcement.IBarReinforcement
+# <small>BH.oM.Structure.</small>**IBarReinforcement**
 
 Base interface for any reinforcement within a BarRebarIntent.
 
@@ -10,18 +10,18 @@ Base interface for any reinforcement within a BarRebarIntent.
 
 ### Implemented interfaces and base types
 
-???+ bhom "The IBarReinforcement in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The IBarReinforcement is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.Base.[IBHoMObject](/api/oM/Framework/Base/Interface/IBHoMObject)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Structure.Reinforcement.[LongitudinalReinforcement](/api/oM/Analytical/Structure/Reinforcement/LongitudinalReinforcement)
-    - Structure.Reinforcement.[TransverseReinforcement](/api/oM/Analytical/Structure/Reinforcement/TransverseReinforcement)
+    - BH.oM.Structure.Reinforcement.[LongitudinalReinforcement](/api/oM/Analytical/Structure/Reinforcement/LongitudinalReinforcement)
+    - BH.oM.Structure.Reinforcement.[TransverseReinforcement](/api/oM/Analytical/Structure/Reinforcement/TransverseReinforcement)
 
 
 ## Properties
@@ -52,6 +52,12 @@ The following properties are defined as extension methods in one of the BHoM_Eng
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public interface IBarReinforcement : BH.oM.Base.IBHoMObject, BH.oM.Base.IObject
+```
+
+Assembly: Structure_oM.dll
 
 The interface is defined in C#. The class definition is available on github:
 

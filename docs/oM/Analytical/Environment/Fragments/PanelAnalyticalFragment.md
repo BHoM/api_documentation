@@ -2,7 +2,7 @@
 title: PanelAnalyticalFragment
 ---
 
-# Environment.Fragments.PanelAnalyticalFragment
+# <small>BH.oM.Environment.</small>**PanelAnalyticalFragment**
 
 Fragment containing geometric and thermal properties of a panel
 
@@ -10,10 +10,10 @@ Fragment containing geometric and thermal properties of a panel
 
 ### Implemented interfaces and base types
 
-???+ bhom "The PanelAnalyticalFragment in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The PanelAnalyticalFragment is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IFragment](/api/oM/Framework/Base/IFragment)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.Base.[IFragment](/api/oM/Framework/Base/Interface/IFragment)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 ## Properties
@@ -55,6 +55,12 @@ The following properties are defined on the class
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class PanelAnalyticalFragment : BH.oM.Base.IFragment, BH.oM.Base.IObject
+```
+
+Assembly: Environment_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

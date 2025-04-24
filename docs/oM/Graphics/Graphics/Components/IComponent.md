@@ -2,7 +2,7 @@
 title: IComponent
 ---
 
-# Graphics.Components.IComponent
+# <small>BH.oM.Graphics.</small>**IComponent**
 
 Interface for all component objects.
 
@@ -10,18 +10,18 @@ Interface for all component objects.
 
 ### Implemented interfaces and base types
 
-???+ bhom "The IComponent in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The IComponent is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.Base.[IBHoMObject](/api/oM/Framework/Base/Interface/IBHoMObject)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Graphics.Components.[Boxes](/api/oM/Graphics/Graphics/Components/Boxes)
-    - Graphics.Components.[Links](/api/oM/Graphics/Graphics/Components/Links)
+    - BH.oM.Graphics.Components.[Boxes](/api/oM/Graphics/Graphics/Components/Boxes)
+    - BH.oM.Graphics.Components.[Links](/api/oM/Graphics/Graphics/Components/Links)
 
 
 ## Properties
@@ -29,6 +29,12 @@ Interface for all component objects.
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public interface IComponent : BH.oM.Base.IBHoMObject, BH.oM.Base.IObject
+```
+
+Assembly: Graphics_oM.dll
 
 The interface is defined in C#. The class definition is available on github:
 

@@ -2,7 +2,7 @@
 title: DeleteSlides
 ---
 
-# PowerPoint.DeleteSlides
+# <small>BH.oM.</small>**DeleteSlides**
 
 Allows for deletion of a specific slide.
 
@@ -10,13 +10,13 @@ Allows for deletion of a specific slide.
 
 ### Implemented interfaces and base types
 
-???+ bhom "The DeleteSlides in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The DeleteSlides is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
-    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
-    -  PowerPoint.[IExcelModification](/api/oM/Adapter/PowerPoint/IExcelModification)
-    -  PowerPoint.[IPowerPointModification](/api/oM/Adapter/PowerPoint/IPowerPointModification)
+    -  BH.oM.Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
+    -  BH.oM.Base.[IBHoMObject](/api/oM/Framework/Base/Interface/IBHoMObject)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
+    -  BH.oM.PowerPoint.[IExcelModification](/api/oM/Adapter/PowerPoint/IExcelModification)
+    -  BH.oM.PowerPoint.[IPowerPointModification](/api/oM/Adapter/PowerPoint/IPowerPointModification)
 
 
 ## Properties
@@ -47,6 +47,16 @@ The following properties are inherited from the base class of the object
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class DeleteSlides : BH.oM.Base.BHoMObject,
+BH.oM.Base.IBHoMObject,
+BH.oM.Base.IObject,
+BH.oM.PowerPoint.IExcelModification,
+BH.oM.PowerPoint.IPowerPointModification
+```
+
+Assembly: PowerPoint_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

@@ -2,7 +2,7 @@
 title: AirHandlingUnitBase
 ---
 
-# MEP.Equipment.Parts.AirHandlingUnitBase
+# <small>BH.oM.MEP.Equipment.</small>**AirHandlingUnitBase**
 
 Air Handling Units are devices which house fans, filter, coils, and energy wheels which produce heated and cooled fresh/partially recirculated air to a building
 
@@ -10,12 +10,12 @@ Air Handling Units are devices which house fans, filter, coils, and energy wheel
 
 ### Implemented interfaces and base types
 
-???+ bhom "The AirHandlingUnitBase in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The AirHandlingUnitBase is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
-    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
-    -  MEP.Equipment.Parts.[IPart](/api/oM/Analytical/MEP/Equipment/Parts/IPart)
+    -  BH.oM.Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
+    -  BH.oM.Base.[IBHoMObject](/api/oM/Framework/Base/Interface/IBHoMObject)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
+    -  BH.oM.MEP.Equipment.Parts.[IPart](/api/oM/Analytical/MEP/Equipment/Parts/IPart)
 
 
 ## Properties
@@ -56,6 +56,12 @@ The following properties are inherited from the base class of the object
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class AirHandlingUnitBase : BH.oM.Base.BHoMObject, BH.oM.Base.IBHoMObject, BH.oM.Base.IObject, BH.oM.MEP.Equipment.Parts.IPart
+```
+
+Assembly: MEP_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

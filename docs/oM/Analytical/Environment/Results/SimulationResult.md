@@ -2,7 +2,7 @@
 title: SimulationResult
 ---
 
-# Environment.Results.SimulationResult
+# <small>BH.oM.Environment.</small>**SimulationResult**
 
 An Environment Simulation Result object
 
@@ -10,11 +10,11 @@ An Environment Simulation Result object
 
 ### Implemented interfaces and base types
 
-???+ bhom "The SimulationResult in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The SimulationResult is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
-    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
+    -  BH.oM.Base.[IBHoMObject](/api/oM/Framework/Base/Interface/IBHoMObject)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 ## Properties
@@ -27,7 +27,7 @@ The following properties are defined on the class
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| SimulationResultType | [SimulationResultType](/api/oM/Analytical/Environment/Results/SimulationResultType) | The type of simulation result from the Simulation Result enum | - |
+| SimulationResultType | [SimulationResultType](/api/oM/Analytical/Environment/Results/Enums/SimulationResultType) | The type of simulation result from the Simulation Result enum | - |
 | SimulationResults | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[ProfileResult](/api/oM/Analytical/Environment/Results/ProfileResult)&gt; | A collection of profile results that make up this simulation result | - |
 
 
@@ -46,6 +46,12 @@ The following properties are inherited from the base class of the object
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class SimulationResult : BH.oM.Base.BHoMObject, BH.oM.Base.IBHoMObject, BH.oM.Base.IObject
+```
+
+Assembly: Environment_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

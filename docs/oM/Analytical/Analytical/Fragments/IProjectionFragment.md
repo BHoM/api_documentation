@@ -2,7 +2,7 @@
 title: IProjectionFragment
 ---
 
-# Analytical.Fragments.IProjectionFragment
+# <small>BH.oM.Analytical.</small>**IProjectionFragment**
 
 Interface common to all ProjectionFragments.
 
@@ -10,17 +10,17 @@ Interface common to all ProjectionFragments.
 
 ### Implemented interfaces and base types
 
-???+ bhom "The IProjectionFragment in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The IProjectionFragment is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IFragment](/api/oM/Framework/Base/IFragment)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.Base.[IFragment](/api/oM/Framework/Base/Interface/IFragment)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Analytical.Fragments.[ProjectionFragment](/api/oM/Analytical/Analytical/Fragments/ProjectionFragment)
+    - BH.oM.Analytical.Fragments.[ProjectionFragment](/api/oM/Analytical/Analytical/Fragments/ProjectionFragment)
 
 
 ## Properties
@@ -28,6 +28,12 @@ Interface common to all ProjectionFragments.
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public interface IProjectionFragment : BH.oM.Base.IFragment, BH.oM.Base.IObject
+```
+
+Assembly: Analytical_oM.dll
 
 The interface is defined in C#. The class definition is available on github:
 

@@ -2,7 +2,7 @@
 title: IFlowSectionProperty
 ---
 
-# MEP.System.SectionProperties.IFlowSectionProperty
+# <small>BH.oM.MEP.System.</small>**IFlowSectionProperty**
 
 
 
@@ -10,19 +10,19 @@ title: IFlowSectionProperty
 
 ### Implemented interfaces and base types
 
-???+ bhom "The IFlowSectionProperty in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The IFlowSectionProperty is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.Base.[IBHoMObject](/api/oM/Framework/Base/Interface/IBHoMObject)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - MEP.System.SectionProperties.[DuctSectionProperty](/api/oM/Analytical/MEP/System/SectionProperties/DuctSectionProperty)
-    - MEP.System.SectionProperties.[PipeSectionProperty](/api/oM/Analytical/MEP/System/SectionProperties/PipeSectionProperty)
-    - MEP.System.SectionProperties.[WireSectionProperty](/api/oM/Analytical/MEP/System/SectionProperties/WireSectionProperty)
+    - BH.oM.MEP.System.SectionProperties.[DuctSectionProperty](/api/oM/Analytical/MEP/System/SectionProperties/DuctSectionProperty)
+    - BH.oM.MEP.System.SectionProperties.[PipeSectionProperty](/api/oM/Analytical/MEP/System/SectionProperties/PipeSectionProperty)
+    - BH.oM.MEP.System.SectionProperties.[WireSectionProperty](/api/oM/Analytical/MEP/System/SectionProperties/WireSectionProperty)
 
 
 ## Properties
@@ -30,6 +30,12 @@ title: IFlowSectionProperty
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public interface IFlowSectionProperty : BH.oM.Base.IBHoMObject, BH.oM.Base.IObject
+```
+
+Assembly: MEP_oM.dll
 
 The interface is defined in C#. The class definition is available on github:
 

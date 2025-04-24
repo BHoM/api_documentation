@@ -2,7 +2,7 @@
 title: IEnvironmentMaterial
 ---
 
-# Environment.MaterialFragments.IEnvironmentMaterial
+# <small>BH.oM.Environment.</small>**IEnvironmentMaterial**
 
 
 
@@ -10,21 +10,21 @@ title: IEnvironmentMaterial
 
 ### Implemented interfaces and base types
 
-???+ bhom "The IEnvironmentMaterial in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The IEnvironmentMaterial is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
-    -  Physical.Materials.[IMaterialProperties](/api/oM/Physical/Physical/Materials/IMaterialProperties)
-    -  Base.[IFragment](/api/oM/Framework/Base/IFragment)
-    -  Physical.Materials.[IDensityProvider](/api/oM/Physical/Physical/Materials/IDensityProvider)
+    -  BH.oM.Base.[IBHoMObject](/api/oM/Framework/Base/Interface/IBHoMObject)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
+    -  BH.oM.Physical.Materials.[IMaterialProperties](/api/oM/Physical/Physical/Materials/IMaterialProperties)
+    -  BH.oM.Base.[IFragment](/api/oM/Framework/Base/Interface/IFragment)
+    -  BH.oM.Physical.Materials.[IDensityProvider](/api/oM/Physical/Physical/Materials/IDensityProvider)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Environment.MaterialFragments.[GasMaterial](/api/oM/Analytical/Environment/MaterialFragments/GasMaterial)
-    - Environment.MaterialFragments.[SolidMaterial](/api/oM/Analytical/Environment/MaterialFragments/SolidMaterial)
+    - BH.oM.Environment.MaterialFragments.[GasMaterial](/api/oM/Analytical/Environment/MaterialFragments/GasMaterial)
+    - BH.oM.Environment.MaterialFragments.[SolidMaterial](/api/oM/Analytical/Environment/MaterialFragments/SolidMaterial)
 
 
 ## Properties
@@ -41,13 +41,23 @@ The following properties are defined on the interface
 | SpecificHeat | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | - | - |
 | VapourResistivity | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | - | - |
 | Description | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | - | - |
-| Roughness | [Roughness](/api/oM/Analytical/Environment/MaterialFragments/Roughness) | Required for some calculations, such as determining the convective heat transfer coefficient. Use Roughness enum | - |
+| Roughness | [Roughness](/api/oM/Analytical/Environment/MaterialFragments/Enums/Roughness) | Required for some calculations, such as determining the convective heat transfer coefficient. Use Roughness enum | - |
 | Refraction | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | - | - |
 
 
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public interface IEnvironmentMaterial : BH.oM.Base.IBHoMObject,
+BH.oM.Base.IObject,
+BH.oM.Physical.Materials.IMaterialProperties,
+BH.oM.Base.IFragment,
+BH.oM.Physical.Materials.IDensityProvider
+```
+
+Assembly: Environment_oM.dll
 
 The interface is defined in C#. The class definition is available on github:
 

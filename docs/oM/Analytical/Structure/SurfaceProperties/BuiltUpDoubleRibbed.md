@@ -2,7 +2,7 @@
 title: BuiltUpDoubleRibbed
 ---
 
-# Structure.SurfaceProperties.BuiltUpDoubleRibbed
+# <small>BH.oM.Structure.</small>**BuiltUpDoubleRibbed**
 
 Property for 2D analytical elements, made up of one slab supported by double parallel ribs running in one direction beneath them. Ribs and slab can all be made up of different materials.
 
@@ -10,13 +10,13 @@ Property for 2D analytical elements, made up of one slab supported by double par
 
 ### Implemented interfaces and base types
 
-???+ bhom "The BuiltUpDoubleRibbed in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The BuiltUpDoubleRibbed is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
-    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
-    -  Structure.SurfaceProperties.[ISurfaceProperty](/api/oM/Analytical/Structure/SurfaceProperties/ISurfaceProperty)
-    -  Structure.[IProperty](/api/oM/Analytical/Structure/IProperty)
+    -  BH.oM.Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
+    -  BH.oM.Base.[IBHoMObject](/api/oM/Framework/Base/Interface/IBHoMObject)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
+    -  BH.oM.Structure.SurfaceProperties.[ISurfaceProperty](/api/oM/Analytical/Structure/SurfaceProperties/ISurfaceProperty)
+    -  BH.oM.Structure.[IProperty](/api/oM/Analytical/Structure/IProperty)
 
 
 ## Properties
@@ -37,8 +37,8 @@ The following properties are defined on the class
 | RibInnerSpacing | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Distance between the double ribs, measured from the side of one to the side of the other. Measured perpendicular to the rib direction. | [Length](/api/oM/Dimensional/Quantities/Attributes/Length) [m] |
 | Material | [IMaterialFragment](/api/oM/Analytical/Structure/MaterialFragments/IMaterialFragment) | Structural material of the top slab. If no material is provided for the ribs then this material is used for them as well. | - |
 | RibMaterial | [IMaterialFragment](/api/oM/Analytical/Structure/MaterialFragments/IMaterialFragment) | Structural material of the ribs. If nothing is provided, the Material will be used instead. | - |
-| Direction | [PanelDirection](/api/oM/Analytical/Structure/SurfaceProperties/PanelDirection) | Specifies if the ribs are running in local x or y direction. | - |
-| PanelType | [PanelType](/api/oM/Analytical/Structure/SurfaceProperties/PanelType) | Defines what type of element this property will be used. Used by some analysis packages. | - |
+| Direction | [PanelDirection](/api/oM/Analytical/Structure/SurfaceProperties/Enums/PanelDirection) | Specifies if the ribs are running in local x or y direction. | - |
+| PanelType | [PanelType](/api/oM/Analytical/Structure/SurfaceProperties/Enums/PanelType) | Defines what type of element this property will be used. Used by some analysis packages. | - |
 
 
 ### Inherited properties
@@ -73,7 +73,7 @@ The following properties are defined as extension methods in one of the BHoM_Eng
 | IVolumePerArea | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Gets the volume per area of the property for the purpose of calculating solid volume. | [Length](/api/oM/Dimensional/Quantities/Attributes/Length) [m] | Structure_Engine |
 | MassPerArea | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Gets the mass per area for a BuiltUpRibbed. | [MassPerUnitArea](/api/oM/Dimensional/Quantities/Attributes/MassPerUnitArea) [kg/m²] | Structure_Engine |
 | MaterialComposition | [MaterialComposition](/api/oM/Physical/Physical/Materials/MaterialComposition) | Returns a SurfaceProperty's MaterialComposition. | - | Structure_Engine |
-| Modifiers | [Double[]](https://learn.microsoft.com/en-us/dotnet/api/System.Double[]?view=netstandard-2.0) | Gets any modifiers from a property as an array of doubles. The modifiers are used to scale one or more of the property constants for analysis. Constants are multiplied with the modifiers, hence a modifier value of 1 means no change. <br>The values returned are in the following order: FXX, FXY, FYY, MXX, MXY, MYY, VXZ, VYZ, Mass, Weight. Method returns null if no modifiers are found. | - | Structure_Engine |
+| Modifiers | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0)[] | Gets any modifiers from a property as an array of doubles. The modifiers are used to scale one or more of the property constants for analysis. Constants are multiplied with the modifiers, hence a modifier value of 1 means no change. <br>The values returned are in the following order: FXX, FXY, FYY, MXX, MXY, MYY, VXZ, VYZ, Mass, Weight. Method returns null if no modifiers are found. | - | Structure_Engine |
 | TotalThickness | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Gets the total thickness of the SurfaceProperty. | [Length](/api/oM/Dimensional/Quantities/Attributes/Length) [m] | Structure_Engine |
 | VolumePerArea | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Gets the volume per area of the property for the purpose of calculating solid volume. | [Length](/api/oM/Dimensional/Quantities/Attributes/Length) [m] | Structure_Engine |
 
@@ -81,6 +81,16 @@ The following properties are defined as extension methods in one of the BHoM_Eng
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class BuiltUpDoubleRibbed : BH.oM.Base.BHoMObject,
+BH.oM.Base.IBHoMObject,
+BH.oM.Base.IObject,
+BH.oM.Structure.SurfaceProperties.ISurfaceProperty,
+BH.oM.Structure.IProperty
+```
+
+Assembly: Structure_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

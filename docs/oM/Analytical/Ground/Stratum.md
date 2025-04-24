@@ -2,7 +2,7 @@
 title: Stratum
 ---
 
-# Ground.Stratum
+# <small>BH.oM.</small>**Stratum**
 
 A stratum containing the geological information based on the AGS schema.
 
@@ -10,11 +10,11 @@ A stratum containing the geological information based on the AGS schema.
 
 ### Implemented interfaces and base types
 
-???+ bhom "The Stratum in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The Stratum is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
-    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
+    -  BH.oM.Base.[IBHoMObject](/api/oM/Framework/Base/Interface/IBHoMObject)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 ## Properties
@@ -35,7 +35,7 @@ The following properties are defined on the class
 | ObservedGeology | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | The observed geology expressed as a GeologicalUnit (GEOL_GEOL). | - |
 | InterpretedGeology | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | The interpreted geology expressed as an engineering material (GEOL_GEO2). | - |
 | OptionalInterpretedGeology | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | The optional interpreted geology expressed as an engineering material (GEOL_GEO3). | - |
-| Properties | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[IStratumProperty](/api/oM/Analytical/Ground/IStratumProperty)&gt; | The optional stratum properties. | - |
+| Properties | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[IStratumProperty](/api/oM/Analytical/Ground/StratumProperties/IStratumProperty)&gt; | The optional stratum properties. | - |
 
 
 ### Inherited properties
@@ -62,6 +62,12 @@ The following properties are defined as extension methods in one of the BHoM_Eng
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class Stratum : BH.oM.Base.BHoMObject, BH.oM.Base.IBHoMObject, BH.oM.Base.IObject
+```
+
+Assembly: Ground_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

@@ -2,7 +2,7 @@
 title: TargetsDependencyFragment
 ---
 
-# Analytical.Fragments.TargetsDependencyFragment
+# <small>BH.oM.Analytical.</small>**TargetsDependencyFragment**
 
 Dependency fragment used to define one or more Relations that terminate at the specified targets and use the IBHoMObject owning this fragment as the source.
 
@@ -10,11 +10,11 @@ Dependency fragment used to define one or more Relations that terminate at the s
 
 ### Implemented interfaces and base types
 
-???+ bhom "The TargetsDependencyFragment in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The TargetsDependencyFragment is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Analytical.Fragments.[IDependencyFragment](/api/oM/Analytical/Analytical/Fragments/IDependencyFragment)
-    -  Base.[IFragment](/api/oM/Framework/Base/IFragment)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.Analytical.Fragments.[IDependencyFragment](/api/oM/Analytical/Analytical/Fragments/IDependencyFragment)
+    -  BH.oM.Base.[IFragment](/api/oM/Framework/Base/Interface/IFragment)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 ## Properties
@@ -28,12 +28,18 @@ The following properties are defined on the class
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
 | Targets | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[Guid](https://learn.microsoft.com/en-us/dotnet/api/System.Guid?view=netstandard-2.0)&gt; | Collection of Guids of entities that are targets for Relations where the IBHoMObject owning this fragment is the source. | - |
-| Curves | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[ICurve](/api/oM/Dimensional/Geometry/ICurve)&gt; | Collection of ICurves used to represent the Relations. | - |
+| Curves | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[ICurve](/api/oM/Dimensional/Geometry/Curve/ICurve)&gt; | Collection of ICurves used to represent the Relations. | - |
 
 
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class TargetsDependencyFragment : BH.oM.Analytical.Fragments.IDependencyFragment, BH.oM.Base.IFragment, BH.oM.Base.IObject
+```
+
+Assembly: Analytical_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

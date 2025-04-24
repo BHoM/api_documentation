@@ -2,7 +2,7 @@
 title: AnalyticalConstruction
 ---
 
-# Environment.Fragments.AnalyticalConstruction
+# <small>BH.oM.Environment.</small>**AnalyticalConstruction**
 
 This fragment is used to define physical and thermal properties for a building surface
 
@@ -10,11 +10,11 @@ This fragment is used to define physical and thermal properties for a building s
 
 ### Implemented interfaces and base types
 
-???+ bhom "The AnalyticalConstruction in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The AnalyticalConstruction is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IFragment](/api/oM/Framework/Base/IFragment)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
-    -  Base.[IImmutable](/api/oM/Framework/Base/IImmutable)
+    -  BH.oM.Base.[IFragment](/api/oM/Framework/Base/Interface/IFragment)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
+    -  BH.oM.Base.[IImmutable](/api/oM/Framework/Base/Interface/IImmutable)
 
 
 ## Properties
@@ -45,6 +45,12 @@ The following properties are defined on the class
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class AnalyticalConstruction : BH.oM.Base.IFragment, BH.oM.Base.IObject, BH.oM.Base.IImmutable
+```
+
+Assembly: Environment_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

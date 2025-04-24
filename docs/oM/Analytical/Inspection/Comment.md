@@ -2,7 +2,7 @@
 title: Comment
 ---
 
-# Inspection.Comment
+# <small>BH.oM.</small>**Comment**
 
 A comment on an Issue typically identifying either the nature of the issue, the actions being taken to resolve the issue, or the approval / rejection of actions taken.
 
@@ -10,11 +10,11 @@ A comment on an Issue typically identifying either the nature of the issue, the 
 
 ### Implemented interfaces and base types
 
-???+ bhom "The Comment in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The Comment is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
-    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
+    -  BH.oM.Base.[IBHoMObject](/api/oM/Framework/Base/Interface/IBHoMObject)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 ## Properties
@@ -47,6 +47,12 @@ The following properties are inherited from the base class of the object
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class Comment : BH.oM.Base.BHoMObject, BH.oM.Base.IBHoMObject, BH.oM.Base.IObject
+```
+
+Assembly: Inspection_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

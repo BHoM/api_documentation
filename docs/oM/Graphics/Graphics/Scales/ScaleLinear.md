@@ -2,7 +2,7 @@
 title: ScaleLinear
 ---
 
-# Graphics.Scales.ScaleLinear
+# <small>BH.oM.Graphics.</small>**ScaleLinear**
 
 Scale for mapping a continuous, quantitative input domain to a continuous output range.
 
@@ -10,10 +10,10 @@ Scale for mapping a continuous, quantitative input domain to a continuous output
 
 ### Implemented interfaces and base types
 
-???+ bhom "The ScaleLinear in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The ScaleLinear is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Graphics.Scales.[IScale](/api/oM/Graphics/Graphics/Scales/IScale)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.Graphics.Scales.[IScale](/api/oM/Graphics/Graphics/Scales/IScale)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 ## Properties
@@ -36,6 +36,12 @@ The following properties are defined on the class
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class ScaleLinear : BH.oM.Graphics.Scales.IScale, BH.oM.Base.IObject
+```
+
+Assembly: Graphics_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

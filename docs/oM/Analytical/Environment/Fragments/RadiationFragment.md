@@ -2,7 +2,7 @@
 title: RadiationFragment
 ---
 
-# Environment.Fragments.RadiationFragment
+# <small>BH.oM.Environment.</small>**RadiationFragment**
 
 Fragment containing the lighting, occupant and equipment radiation amount
 
@@ -10,10 +10,10 @@ Fragment containing the lighting, occupant and equipment radiation amount
 
 ### Implemented interfaces and base types
 
-???+ bhom "The RadiationFragment in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The RadiationFragment is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IFragment](/api/oM/Framework/Base/IFragment)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.Base.[IFragment](/api/oM/Framework/Base/Interface/IFragment)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 ## Properties
@@ -34,6 +34,12 @@ The following properties are defined on the class
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class RadiationFragment : BH.oM.Base.IFragment, BH.oM.Base.IObject
+```
+
+Assembly: Environment_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

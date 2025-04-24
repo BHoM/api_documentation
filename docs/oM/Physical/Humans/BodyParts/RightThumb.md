@@ -2,7 +2,7 @@
 title: RightThumb
 ---
 
-# Humans.BodyParts.RightThumb
+# <small>BH.oM.Humans.</small>**RightThumb**
 
 
 
@@ -10,11 +10,11 @@ title: RightThumb
 
 ### Implemented interfaces and base types
 
-???+ bhom "The RightThumb in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The RightThumb is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Humans.Interfaces.[ILineBodyPart](/api/oM/Physical/Humans/Interfaces/ILineBodyPart)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
-    -  Humans.Interfaces.[IPointBodyPart](/api/oM/Physical/Humans/Interfaces/IPointBodyPart)
+    -  BH.oM.Humans.Interfaces.[ILineBodyPart](/api/oM/Physical/Humans/Interfaces/ILineBodyPart)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
+    -  BH.oM.Humans.Interfaces.[IPointBodyPart](/api/oM/Physical/Humans/Interfaces/IPointBodyPart)
 
 
 ## Properties
@@ -27,13 +27,19 @@ The following properties are defined on the class
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| TrackingPoint | [Point](/api/oM/Dimensional/Geometry/Point) | - | - |
-| TrackingLine | [Line](/api/oM/Dimensional/Geometry/Line) | - | - |
+| TrackingPoint | [Point](/api/oM/Dimensional/Geometry/Vector/Point) | - | - |
+| TrackingLine | [Line](/api/oM/Dimensional/Geometry/Curve/Line) | - | - |
 
 
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class RightThumb : BH.oM.Humans.Interfaces.ILineBodyPart, BH.oM.Base.IObject, BH.oM.Humans.Interfaces.IPointBodyPart
+```
+
+Assembly: Humans_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

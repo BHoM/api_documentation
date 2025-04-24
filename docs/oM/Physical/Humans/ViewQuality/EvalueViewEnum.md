@@ -2,7 +2,7 @@
 title: EvalueViewEnum
 ---
 
-# Humans.ViewQuality.EvalueViewEnum
+# <small>BH.oM.Humans.</small>**EvalueViewEnum**
 
 
 
@@ -18,6 +18,12 @@ title: EvalueViewEnum
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public enum EvalueViewEnum : System.Enum, System.ValueType, System.IComparable, System.ISpanFormattable, System.IFormattable, System.IConvertible
+```
+
+Assembly: Humans_oM.dll
 
 The enum is defined in C#. The class definition is available on github:
 

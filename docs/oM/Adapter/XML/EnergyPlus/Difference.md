@@ -2,7 +2,7 @@
 title: Difference
 ---
 
-# XML.EnergyPlus.Difference
+# <small>BH.oM.XML.</small>**Difference**
 
 
 
@@ -10,11 +10,11 @@ title: Difference
 
 ### Implemented interfaces and base types
 
-???+ bhom "The Difference in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The Difference is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  XML.EnergyPlus.[EnergyPlusObject](/api/oM/Adapter/XML/EnergyPlus/EnergyPlusObject)
-    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.XML.EnergyPlus.[EnergyPlusObject](/api/oM/Adapter/XML/EnergyPlus/EnergyPlusObject)
+    -  BH.oM.Base.[IBHoMObject](/api/oM/Framework/Base/Interface/IBHoMObject)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 ## Properties
@@ -46,6 +46,12 @@ The following properties are inherited from the base class of the object
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class Difference : BH.oM.XML.EnergyPlus.EnergyPlusObject, BH.oM.Base.IBHoMObject, BH.oM.Base.IObject
+```
+
+Assembly: XML_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

@@ -2,7 +2,7 @@
 title: IPointBodyPart
 ---
 
-# Humans.Interfaces.IPointBodyPart
+# <small>BH.oM.Humans.</small>**IPointBodyPart**
 
 
 
@@ -10,22 +10,22 @@ title: IPointBodyPart
 
 ### Implemented interfaces and base types
 
-???+ bhom "The IPointBodyPart in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The IPointBodyPart is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Humans.BodyParts.[Eye](/api/oM/Physical/Humans/BodyParts/Eye)
-    - Humans.BodyParts.[Head](/api/oM/Physical/Humans/BodyParts/Head)
-    - Humans.BodyParts.[LeftHand](/api/oM/Physical/Humans/BodyParts/LeftHand)
-    - Humans.BodyParts.[LeftThumb](/api/oM/Physical/Humans/BodyParts/LeftThumb)
-    - Humans.BodyParts.[PairOfEyes](/api/oM/Physical/Humans/BodyParts/PairOfEyes)
-    - Humans.BodyParts.[RightHand](/api/oM/Physical/Humans/BodyParts/RightHand)
-    - Humans.BodyParts.[RightThumb](/api/oM/Physical/Humans/BodyParts/RightThumb)
+    - BH.oM.Humans.BodyParts.[Eye](/api/oM/Physical/Humans/BodyParts/Eye)
+    - BH.oM.Humans.BodyParts.[Head](/api/oM/Physical/Humans/BodyParts/Head)
+    - BH.oM.Humans.BodyParts.[LeftHand](/api/oM/Physical/Humans/BodyParts/LeftHand)
+    - BH.oM.Humans.BodyParts.[LeftThumb](/api/oM/Physical/Humans/BodyParts/LeftThumb)
+    - BH.oM.Humans.BodyParts.[PairOfEyes](/api/oM/Physical/Humans/BodyParts/PairOfEyes)
+    - BH.oM.Humans.BodyParts.[RightHand](/api/oM/Physical/Humans/BodyParts/RightHand)
+    - BH.oM.Humans.BodyParts.[RightThumb](/api/oM/Physical/Humans/BodyParts/RightThumb)
 
 
 ## Properties
@@ -38,12 +38,18 @@ The following properties are defined on the interface
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| TrackingPoint | [Point](/api/oM/Dimensional/Geometry/Point) | - | - |
+| TrackingPoint | [Point](/api/oM/Dimensional/Geometry/Vector/Point) | - | - |
 
 
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public interface IPointBodyPart : BH.oM.Base.IObject
+```
+
+Assembly: Humans_oM.dll
 
 The interface is defined in C#. The class definition is available on github:
 

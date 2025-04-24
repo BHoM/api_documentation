@@ -2,7 +2,7 @@
 title: Project
 ---
 
-# XML.CSProject.Project
+# <small>BH.oM.XML.</small>**Project**
 
 
 
@@ -10,11 +10,11 @@ title: Project
 
 ### Implemented interfaces and base types
 
-???+ bhom "The Project in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The Project is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  XML.CSProject.[CSProjectObject](/api/oM/Adapter/XML/CSProject/CSProjectObject)
-    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.XML.CSProject.[CSProjectObject](/api/oM/Adapter/XML/CSProject/CSProjectObject)
+    -  BH.oM.Base.[IBHoMObject](/api/oM/Framework/Base/Interface/IBHoMObject)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 ## Properties
@@ -31,8 +31,8 @@ The following properties are defined on the class
 | DefaultTargets | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | - | - |
 | XMLNamespace | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | - | - |
 | Imports | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[Import](/api/oM/Adapter/XML/CSProject/Import)&gt; | - | - |
-| PropertyGroups | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[PropertyGroup](/api/oM/Adapter/XML/CSProject/PropertyGroup)&gt; | - | - |
-| ItemGroups | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[ItemGroup](/api/oM/Adapter/XML/CSProject/ItemGroup)&gt; | - | - |
+| PropertyGroups | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[PropertyGroup](/api/oM/Adapter/XML/CSProject/PropertyGroup/PropertyGroup)&gt; | - | - |
+| ItemGroups | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[ItemGroup](/api/oM/Adapter/XML/CSProject/ItemGroup/ItemGroup)&gt; | - | - |
 
 
 ### Inherited properties
@@ -50,6 +50,12 @@ The following properties are inherited from the base class of the object
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class Project : BH.oM.XML.CSProject.CSProjectObject, BH.oM.Base.IBHoMObject, BH.oM.Base.IObject
+```
+
+Assembly: XML_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

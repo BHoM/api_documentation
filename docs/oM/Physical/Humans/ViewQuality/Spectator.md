@@ -2,7 +2,7 @@
 title: Spectator
 ---
 
-# Humans.ViewQuality.Spectator
+# <small>BH.oM.Humans.</small>**Spectator**
 
 
 
@@ -10,12 +10,12 @@ title: Spectator
 
 ### Implemented interfaces and base types
 
-???+ bhom "The Spectator in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The Spectator is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
-    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
-    -  Humans.[IHumanRole](/api/oM/Physical/Humans/IHumanRole)
+    -  BH.oM.Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
+    -  BH.oM.Base.[IBHoMObject](/api/oM/Framework/Base/Interface/IBHoMObject)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
+    -  BH.oM.Humans.[IHumanRole](/api/oM/Physical/Humans/Interfaces/IHumanRole)
 
 
 ## Properties
@@ -29,7 +29,7 @@ The following properties are defined on the class
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
 | Head | [Head](/api/oM/Physical/Humans/BodyParts/Head) | - | - |
-| HeadOutline | [Polyline](/api/oM/Dimensional/Geometry/Polyline) | - | - |
+| HeadOutline | [Polyline](/api/oM/Dimensional/Geometry/Curve/Polyline) | - | - |
 
 
 ### Inherited properties
@@ -56,6 +56,12 @@ The following properties are defined as extension methods in one of the BHoM_Eng
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class Spectator : BH.oM.Base.BHoMObject, BH.oM.Base.IBHoMObject, BH.oM.Base.IObject, BH.oM.Humans.IHumanRole
+```
+
+Assembly: Humans_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

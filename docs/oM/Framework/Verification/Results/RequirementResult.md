@@ -2,7 +2,7 @@
 title: RequirementResult
 ---
 
-# Verification.Results.RequirementResult
+# <small>BH.oM.Verification.</small>**RequirementResult**
 
 Object representing result of verification of an object against a Requirement.
 
@@ -10,10 +10,10 @@ Object representing result of verification of an object against a Requirement.
 
 ### Implemented interfaces and base types
 
-???+ bhom "The RequirementResult in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The RequirementResult is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IImmutable](/api/oM/Framework/Base/IImmutable)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.Base.[IImmutable](/api/oM/Framework/Base/Interface/IImmutable)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 ## Properties
@@ -28,12 +28,18 @@ The following properties are defined on the class
 |------------------|------------------|------------------|------------------|
 | RequirementId | [IComparable](https://learn.microsoft.com/en-us/dotnet/api/System.IComparable?view=netstandard-2.0) | BHoM_Guid of Requirement object this result was based on. | - |
 | ObjectId | [IComparable](https://learn.microsoft.com/en-us/dotnet/api/System.IComparable?view=netstandard-2.0) | Identifier of an object this result was based on. In case of IBHoMObjects it is their BHoM_Guid. | - |
-| VerificationResult | [IConditionResult](/api/oM/Framework/Verification/Results/IConditionResult) | Result of object verification against the condition specified in the Requirement. | - |
+| VerificationResult | [IConditionResult](/api/oM/Framework/Verification/Results/Conditions/IConditionResult) | Result of object verification against the condition specified in the Requirement. | - |
 
 
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class RequirementResult : BH.oM.Base.IImmutable, BH.oM.Base.IObject
+```
+
+Assembly: Verification_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

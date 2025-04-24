@@ -2,7 +2,7 @@
 title: IDesignable
 ---
 
-# Structure.Design.IDesignable
+# <small>BH.oM.Structure.</small>**IDesignable**
 
 
 
@@ -10,16 +10,16 @@ title: IDesignable
 
 ### Implemented interfaces and base types
 
-???+ bhom "The IDesignable in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The IDesignable is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Structure.Design.[StructuralLayout](/api/oM/Analytical/Structure/Design/StructuralLayout)
+    - BH.oM.Structure.Design.[StructuralLayout](/api/oM/Analytical/Structure/Design/StructuralLayout)
 
 
 ## Properties
@@ -27,6 +27,12 @@ title: IDesignable
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public interface IDesignable : BH.oM.Base.IObject
+```
+
+Assembly: Structure_oM.dll
 
 The interface is defined in C#. The class definition is available on github:
 

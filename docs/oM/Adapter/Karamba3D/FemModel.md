@@ -2,7 +2,7 @@
 title: FemModel
 ---
 
-# Karamba3D.FemModel
+# <small>BH.oM.</small>**FemModel**
 
 Container of the BHoMObjects converted from the Karamba model.
 
@@ -10,10 +10,10 @@ Container of the BHoMObjects converted from the Karamba model.
 
 ### Implemented interfaces and base types
 
-???+ bhom "The FemModel in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The FemModel is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IContainer](/api/oM/Framework/Base/IContainer)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.Base.[IContainer](/api/oM/Framework/Base/Interface/IContainer)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 ## Properties
@@ -40,12 +40,18 @@ The following properties are defined as extension methods in one of the BHoM_Eng
 
 | Name             | Type             | Description      | Quantity         | Engine           |
 |------------------|------------------|------------------|------------------|------------------|
-| Unpack | [IEnumerable](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IEnumerable-1?view=netstandard-2.0)&lt;[IObject](/api/oM/Framework/Base/IObject)&gt; | Unpacks the contents of the input IContainer. The contents are flattened into a list of objects.The flattening supports properties of IContainer that are Lists, List of Lists, Dictionaries (the values are flattened) and Dictionaries with a Value that is a list (the list is flattened).Any other nested datastructure has its elements returned as-is. | - | BHoM_Engine |
+| Unpack | [IEnumerable](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IEnumerable-1?view=netstandard-2.0)&lt;[IObject](/api/oM/Framework/Base/Interface/IObject)&gt; | Unpacks the contents of the input IContainer. The contents are flattened into a list of objects.The flattening supports properties of IContainer that are Lists, List of Lists, Dictionaries (the values are flattened) and Dictionaries with a Value that is a list (the list is flattened).Any other nested datastructure has its elements returned as-is. | - | BHoM_Engine |
 
 
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class FemModel : BH.oM.Base.IContainer, BH.oM.Base.IObject
+```
+
+Assembly: Karamba3D_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

@@ -2,7 +2,7 @@
 title: ServiceClassification
 ---
 
-# MEP.Enums.ServiceClassification
+# <small>BH.oM.MEP.</small>**ServiceClassification**
 
 A service classification of the MEP object.
 
@@ -20,6 +20,12 @@ A service classification of the MEP object.
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public enum ServiceClassification : System.Enum, System.ValueType, System.IComparable, System.ISpanFormattable, System.IFormattable, System.IConvertible
+```
+
+Assembly: MEP_oM.dll
 
 The enum is defined in C#. The class definition is available on github:
 

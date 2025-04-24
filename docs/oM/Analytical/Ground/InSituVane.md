@@ -2,7 +2,7 @@
 title: InSituVane
 ---
 
-# Ground.InSituVane
+# <small>BH.oM.</small>**InSituVane**
 
 A representation of an in-situ vane test defined by the borehole where the test was carried out and the result.
 
@@ -10,12 +10,12 @@ A representation of an in-situ vane test defined by the borehole where the test 
 
 ### Implemented interfaces and base types
 
-???+ bhom "The InSituVane in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The InSituVane is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
-    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
-    -  Ground.[ITest](/api/oM/Analytical/Ground/ITest)
+    -  BH.oM.Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
+    -  BH.oM.Base.[IBHoMObject](/api/oM/Framework/Base/Interface/IBHoMObject)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
+    -  BH.oM.Ground.[ITest](/api/oM/Analytical/Ground/ITest)
 
 
 ## Properties
@@ -30,7 +30,7 @@ The following properties are defined on the class
 |------------------|------------------|------------------|------------------|
 | Id | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | Location identifier relating the borehole to the test (LOCA_ID). | - |
 | Top | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Depth to the top of the sample, measured from the top of the borehole (IVAN_DEPTH). | [Length](/api/oM/Dimensional/Quantities/Attributes/Length) [m] |
-| Properties | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[ITestProperties](/api/oM/Analytical/Ground/ITestProperties)&gt; | A list of different properties including references, tests, analysis, results and detection. | - |
+| Properties | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[ITestProperties](/api/oM/Analytical/Ground/ITestProperties/ITestProperties)&gt; | A list of different properties including references, tests, analysis, results and detection. | - |
 | Result | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Vane Test Result (IVAN_IVAN). | [Pressure](/api/oM/Dimensional/Quantities/Attributes/Pressure) [Pa] |
 
 
@@ -49,6 +49,12 @@ The following properties are inherited from the base class of the object
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class InSituVane : BH.oM.Base.BHoMObject, BH.oM.Base.IBHoMObject, BH.oM.Base.IObject, BH.oM.Ground.ITest
+```
+
+Assembly: Ground_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

@@ -2,7 +2,7 @@
 title: IExcelModification
 ---
 
-# PowerPoint.IExcelModification
+# <small>BH.oM.</small>**IExcelModification**
 
 
 
@@ -10,31 +10,31 @@ title: IExcelModification
 
 ### Implemented interfaces and base types
 
-???+ bhom "The IExcelModification in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The IExcelModification is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.Base.[IBHoMObject](/api/oM/Framework/Base/Interface/IBHoMObject)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 ### Interfaces implementing this interface
 
 ???+ bhom "The following interfaces are implementing this interface:"
 
-    - PowerPoint.[ISlideUpdate](/api/oM/Adapter/PowerPoint/ISlideUpdate)
+    - BH.oM.PowerPoint.[ISlideUpdate](/api/oM/Adapter/PowerPoint/Update/ISlideUpdate)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - PowerPoint.[DeleteSlides](/api/oM/Adapter/PowerPoint/DeleteSlides)
-    - PowerPoint.[ChartUpdate](/api/oM/Adapter/PowerPoint/ChartUpdate)
-    - PowerPoint.[ImageUpdate](/api/oM/Adapter/PowerPoint/ImageUpdate)
-    - PowerPoint.[ImageUpdateStream](/api/oM/Adapter/PowerPoint/ImageUpdateStream)
-    - PowerPoint.[MultiLineTextUpdate](/api/oM/Adapter/PowerPoint/MultiLineTextUpdate)
-    - PowerPoint.[MultiPolylineUpdate](/api/oM/Adapter/PowerPoint/MultiPolylineUpdate)
-    - PowerPoint.[ShapeColourUpdate](/api/oM/Adapter/PowerPoint/ShapeColourUpdate)
-    - PowerPoint.[SimpleTextUpdate](/api/oM/Adapter/PowerPoint/SimpleTextUpdate)
+    - BH.oM.PowerPoint.[DeleteSlides](/api/oM/Adapter/PowerPoint/DeleteSlides)
+    - BH.oM.PowerPoint.[ChartUpdate](/api/oM/Adapter/PowerPoint/Update/ChartUpdate)
+    - BH.oM.PowerPoint.[ImageUpdate](/api/oM/Adapter/PowerPoint/Update/ImageUpdate)
+    - BH.oM.PowerPoint.[ImageUpdateStream](/api/oM/Adapter/PowerPoint/Update/ImageUpdateStream)
+    - BH.oM.PowerPoint.[MultiLineTextUpdate](/api/oM/Adapter/PowerPoint/Update/MultiLineTextUpdate)
+    - BH.oM.PowerPoint.[MultiPolylineUpdate](/api/oM/Adapter/PowerPoint/Update/MultiPolylineUpdate)
+    - BH.oM.PowerPoint.[ShapeColourUpdate](/api/oM/Adapter/PowerPoint/Update/ShapeColourUpdate)
+    - BH.oM.PowerPoint.[SimpleTextUpdate](/api/oM/Adapter/PowerPoint/Update/SimpleTextUpdate)
 
 
 ## Properties
@@ -42,6 +42,12 @@ title: IExcelModification
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public interface IExcelModification : BH.oM.Base.IBHoMObject, BH.oM.Base.IObject
+```
+
+Assembly: PowerPoint_oM.dll
 
 The interface is defined in C#. The class definition is available on github:
 

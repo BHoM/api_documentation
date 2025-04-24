@@ -2,7 +2,7 @@
 title: PanelReinforcement
 ---
 
-# Structure.Reinforcement.PanelReinforcement
+# <small>BH.oM.Structure.</small>**PanelReinforcement**
 
 Defines the  reinforcement of a Panel in the longitudinal and transverse direction specified by the Basis of the ReinforcementRegion.
 If the diameter of the reinforcement is set to 0, it will be assumed that no reinforcement is present in this direction.
@@ -11,11 +11,11 @@ If the diameter of the reinforcement is set to 0, it will be assumed that no rei
 
 ### Implemented interfaces and base types
 
-???+ bhom "The PanelReinforcement in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The PanelReinforcement is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
-    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
+    -  BH.oM.Base.[IBHoMObject](/api/oM/Framework/Base/Interface/IBHoMObject)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 ## Properties
@@ -63,6 +63,12 @@ The following properties are defined as extension methods in one of the BHoM_Eng
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class PanelReinforcement : BH.oM.Base.BHoMObject, BH.oM.Base.IBHoMObject, BH.oM.Base.IObject
+```
+
+Assembly: Structure_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

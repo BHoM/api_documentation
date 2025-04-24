@@ -2,7 +2,7 @@
 title: UValueCavity
 ---
 
-# Facade.Fragments.UValueCavity
+# <small>BH.oM.Facade.</small>**UValueCavity**
 
 A U-Value representing the effective U-Value of cavity insulation. This does not include derating effects from any frame u-values but should be derated for any thermal bridges not modeled.
 
@@ -10,10 +10,10 @@ A U-Value representing the effective U-Value of cavity insulation. This does not
 
 ### Implemented interfaces and base types
 
-???+ bhom "The UValueCavity in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The UValueCavity is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IFragment](/api/oM/Framework/Base/IFragment)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.Base.[IFragment](/api/oM/Framework/Base/Interface/IFragment)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 ## Properties
@@ -32,6 +32,12 @@ The following properties are defined on the class
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class UValueCavity : BH.oM.Base.IFragment, BH.oM.Base.IObject
+```
+
+Assembly: Facade_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

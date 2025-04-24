@@ -2,7 +2,7 @@
 title: ISystemType
 ---
 
-# MEP.System.ISystemType
+# <small>BH.oM.MEP.</small>**ISystemType**
 
 An MEP system to determine flow types.
 
@@ -10,17 +10,17 @@ An MEP system to determine flow types.
 
 ### Implemented interfaces and base types
 
-???+ bhom "The ISystemType in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The ISystemType is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.Base.[IBHoMObject](/api/oM/Framework/Base/Interface/IBHoMObject)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - MEP.System.[MechanicalSystem](/api/oM/Analytical/MEP/System/MechanicalSystem)
+    - BH.oM.MEP.System.[MechanicalSystem](/api/oM/Analytical/MEP/System/MechanicalSystem)
 
 
 ## Properties
@@ -28,6 +28,12 @@ An MEP system to determine flow types.
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public interface ISystemType : BH.oM.Base.IBHoMObject, BH.oM.Base.IObject
+```
+
+Assembly: MEP_oM.dll
 
 The interface is defined in C#. The class definition is available on github:
 

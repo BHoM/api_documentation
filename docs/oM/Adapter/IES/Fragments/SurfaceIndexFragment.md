@@ -2,7 +2,7 @@
 title: SurfaceIndexFragment
 ---
 
-# IES.Fragments.SurfaceIndexFragment
+# <small>BH.oM.IES.</small>**SurfaceIndexFragment**
 
 Fragment containing the surface index from IES
 
@@ -10,10 +10,10 @@ Fragment containing the surface index from IES
 
 ### Implemented interfaces and base types
 
-???+ bhom "The SurfaceIndexFragment in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The SurfaceIndexFragment is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IFragment](/api/oM/Framework/Base/IFragment)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.Base.[IFragment](/api/oM/Framework/Base/Interface/IFragment)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 ## Properties
@@ -32,6 +32,12 @@ The following properties are defined on the class
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class SurfaceIndexFragment : BH.oM.Base.IFragment, BH.oM.Base.IObject
+```
+
+Assembly: IES_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

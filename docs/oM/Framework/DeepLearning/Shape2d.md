@@ -2,7 +2,7 @@
 title: Shape2d
 ---
 
-# DeepLearning.Shape2d
+# <small>BH.oM.</small>**Shape2d**
 
 
 
@@ -10,12 +10,12 @@ title: Shape2d
 
 ### Implemented interfaces and base types
 
-???+ bhom "The Shape2d in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The Shape2d is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
-    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
-    -  DeepLearning.[IShape](/api/oM/Framework/DeepLearning/IShape)
+    -  BH.oM.Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
+    -  BH.oM.Base.[IBHoMObject](/api/oM/Framework/Base/Interface/IBHoMObject)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
+    -  BH.oM.DeepLearning.[IShape](/api/oM/Framework/DeepLearning/IShape)
 
 
 ## Properties
@@ -47,6 +47,12 @@ The following properties are inherited from the base class of the object
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class Shape2d : BH.oM.Base.BHoMObject, BH.oM.Base.IBHoMObject, BH.oM.Base.IObject, BH.oM.DeepLearning.IShape
+```
+
+Assembly: DeepLearning_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

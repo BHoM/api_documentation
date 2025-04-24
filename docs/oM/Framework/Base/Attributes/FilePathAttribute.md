@@ -2,7 +2,7 @@
 title: FilePathAttribute
 ---
 
-# Base.Attributes.FilePathAttribute
+# <small>BH.oM.Base.</small>**FilePathAttribute**
 
 Path to a file in the client's file system.
 
@@ -10,12 +10,12 @@ Path to a file in the client's file system.
 
 ### Implemented interfaces and base types
 
-???+ bhom "The FilePathAttribute in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The FilePathAttribute is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.Attributes.[ClassificationAttribute](/api/oM/Framework/Base/Attributes/ClassificationAttribute)
+    -  BH.oM.Base.Attributes.[ClassificationAttribute](/api/oM/Framework/Base/Attributes/ClassificationAttribute)
     -  [Attribute](https://learn.microsoft.com/en-us/dotnet/api/System.Attribute?view=netstandard-2.0)
-    -  Base.[IImmutable](/api/oM/Framework/Base/IImmutable)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.Base.[IImmutable](/api/oM/Framework/Base/Interface/IImmutable)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 ## Properties
@@ -28,7 +28,7 @@ The following properties are defined on the class
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| FileExtensions | [String[]](https://learn.microsoft.com/en-us/dotnet/api/System.String[]?view=netstandard-2.0) | Collection of file extensions allowed for a member this attribute corresponds to. Any extension is allowed if null or empty. | - |
+| FileExtensions | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0)[] | Collection of file extensions allowed for a member this attribute corresponds to. Any extension is allowed if null or empty. | - |
 
 
 ### Inherited properties
@@ -53,6 +53,12 @@ The following properties are defined as extension methods in one of the BHoM_Eng
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class FilePathAttribute : BH.oM.Base.Attributes.ClassificationAttribute, System.Attribute, BH.oM.Base.IImmutable, BH.oM.Base.IObject
+```
+
+Assembly: BHoM.dll
 
 The class is defined in C#. The class definition is available on github:
 

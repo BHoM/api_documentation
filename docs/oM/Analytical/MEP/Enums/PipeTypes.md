@@ -2,7 +2,7 @@
 title: PipeTypes
 ---
 
-# MEP.Enums.PipeTypes
+# <small>BH.oM.MEP.</small>**PipeTypes**
 
 The type of pipe (e.g. Sanitary, Storm, Domestic Cold Water)
 
@@ -36,6 +36,12 @@ The type of pipe (e.g. Sanitary, Storm, Domestic Cold Water)
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public enum PipeTypes : System.Enum, System.ValueType, System.IComparable, System.ISpanFormattable, System.IFormattable, System.IConvertible
+```
+
+Assembly: MEP_oM.dll
 
 The enum is defined in C#. The class definition is available on github:
 

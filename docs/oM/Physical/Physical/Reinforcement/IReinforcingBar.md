@@ -2,7 +2,7 @@
 title: IReinforcingBar
 ---
 
-# Physical.Reinforcement.IReinforcingBar
+# <small>BH.oM.Physical.</small>**IReinforcingBar**
 
 Base interface for all reinforcement bars.
 
@@ -10,18 +10,18 @@ Base interface for all reinforcement bars.
 
 ### Implemented interfaces and base types
 
-???+ bhom "The IReinforcingBar in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The IReinforcingBar is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.Base.[IBHoMObject](/api/oM/Framework/Base/Interface/IBHoMObject)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - Physical.Reinforcement.[PrimaryReinforcingBar](/api/oM/Physical/Physical/Reinforcement/PrimaryReinforcingBar)
-    - Physical.Reinforcement.[Stirrup](/api/oM/Physical/Physical/Reinforcement/Stirrup)
+    - BH.oM.Physical.Reinforcement.[PrimaryReinforcingBar](/api/oM/Physical/Physical/Reinforcement/PrimaryReinforcingBar)
+    - BH.oM.Physical.Reinforcement.[Stirrup](/api/oM/Physical/Physical/Reinforcement/Stirrup)
 
 
 ## Properties
@@ -34,7 +34,7 @@ The following properties are defined on the interface
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| CentreCurve | [ICurve](/api/oM/Dimensional/Geometry/ICurve) | Centreline of the reinforcement bar in three-dimensional space. When the BendRadius is sufficient for any kinks in the rebar, this can be defined as a polyline, ommiting any arcs in corners. | - |
+| CentreCurve | [ICurve](/api/oM/Dimensional/Geometry/Curve/ICurve) | Centreline of the reinforcement bar in three-dimensional space. When the BendRadius is sufficient for any kinks in the rebar, this can be defined as a polyline, ommiting any arcs in corners. | - |
 | Diameter | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | - | [Length](/api/oM/Dimensional/Quantities/Attributes/Length) [m] |
 | Material | [Material](/api/oM/Physical/Physical/Materials/Material) | - | - |
 | BendRadius | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Bend radius used for any discontinuities in the CentreCurve. | [Length](/api/oM/Dimensional/Quantities/Attributes/Length) [m] |
@@ -43,6 +43,12 @@ The following properties are defined on the interface
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public interface IReinforcingBar : BH.oM.Base.IBHoMObject, BH.oM.Base.IObject
+```
+
+Assembly: Physical_oM.dll
 
 The interface is defined in C#. The class definition is available on github:
 

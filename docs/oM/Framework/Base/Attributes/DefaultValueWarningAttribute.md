@@ -2,7 +2,7 @@
 title: DefaultValueWarningAttribute
 ---
 
-# Base.Attributes.DefaultValueWarningAttribute
+# <small>BH.oM.Base.</small>**DefaultValueWarningAttribute**
 
 Warning to be generated when an instance of the containing class is generated with this property set to its default value.
 
@@ -10,11 +10,11 @@ Warning to be generated when an instance of the containing class is generated wi
 
 ### Implemented interfaces and base types
 
-???+ bhom "The DefaultValueWarningAttribute in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The DefaultValueWarningAttribute is inheriting from the following base type(s) and implements the following interfaces:"
 
     -  [Attribute](https://learn.microsoft.com/en-us/dotnet/api/System.Attribute?view=netstandard-2.0)
-    -  Base.[IImmutable](/api/oM/Framework/Base/IImmutable)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.Base.[IImmutable](/api/oM/Framework/Base/Interface/IImmutable)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 ## Properties
@@ -41,6 +41,12 @@ The following properties are inherited from the base class of the object
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class DefaultValueWarningAttribute : System.Attribute, BH.oM.Base.IImmutable, BH.oM.Base.IObject
+```
+
+Assembly: BHoM.dll
 
 The class is defined in C#. The class definition is available on github:
 

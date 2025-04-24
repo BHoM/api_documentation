@@ -2,7 +2,7 @@
 title: SpecificationResult
 ---
 
-# Verification.Results.SpecificationResult
+# <small>BH.oM.Verification.</small>**SpecificationResult**
 
 Object representing result of verification of a Specification.
 
@@ -10,10 +10,10 @@ Object representing result of verification of a Specification.
 
 ### Implemented interfaces and base types
 
-???+ bhom "The SpecificationResult in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The SpecificationResult is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IImmutable](/api/oM/Framework/Base/IImmutable)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.Base.[IImmutable](/api/oM/Framework/Base/Interface/IImmutable)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 ## Properties
@@ -34,6 +34,12 @@ The following properties are defined on the class
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class SpecificationResult : BH.oM.Base.IImmutable, BH.oM.Base.IObject
+```
+
+Assembly: Verification_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

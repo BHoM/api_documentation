@@ -2,7 +2,7 @@
 title: LogicalCollectionConditionReportingConfig
 ---
 
-# Verification.Reporting.LogicalCollectionConditionReportingConfig
+# <small>BH.oM.Verification.</small>**LogicalCollectionConditionReportingConfig**
 
 Config object containing settings for reporting results of checks against logical conditions with a collection of nested conditions.
 
@@ -10,10 +10,10 @@ Config object containing settings for reporting results of checks against logica
 
 ### Implemented interfaces and base types
 
-???+ bhom "The LogicalCollectionConditionReportingConfig in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The LogicalCollectionConditionReportingConfig is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Verification.Reporting.[IConditionReportingConfig](/api/oM/Framework/Verification/Reporting/IConditionReportingConfig)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.Verification.Reporting.[IConditionReportingConfig](/api/oM/Framework/Verification/Reporting/Interfaces/IConditionReportingConfig)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 ## Properties
@@ -26,12 +26,18 @@ The following properties are defined on the class
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| NestedConfigs | [Dictionary](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.Dictionary-2?view=netstandard-2.0)&lt;[ICondition](/api/oM/Framework/Verification/Conditions/ICondition), [IConditionReportingConfig](/api/oM/Framework/Verification/Reporting/IConditionReportingConfig)&gt; | Dictionary of reporting configs (values) bound to the conditions, which results they are meant to format (keys). | - |
+| NestedConfigs | [Dictionary](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.Dictionary-2?view=netstandard-2.0)&lt;[ICondition](/api/oM/Framework/Verification/Conditions/Interfaces/ICondition), [IConditionReportingConfig](/api/oM/Framework/Verification/Reporting/Interfaces/IConditionReportingConfig)&gt; | Dictionary of reporting configs (values) bound to the conditions, which results they are meant to format (keys). | - |
 
 
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class LogicalCollectionConditionReportingConfig : BH.oM.Verification.Reporting.IConditionReportingConfig, BH.oM.Base.IObject
+```
+
+Assembly: Verification_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

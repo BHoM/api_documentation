@@ -2,7 +2,7 @@
 title: IPart
 ---
 
-# MEP.Equipment.Parts.IPart
+# <small>BH.oM.MEP.Equipment.</small>**IPart**
 
 
 
@@ -10,23 +10,23 @@ title: IPart
 
 ### Implemented interfaces and base types
 
-???+ bhom "The IPart in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The IPart is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.Base.[IBHoMObject](/api/oM/Framework/Base/Interface/IBHoMObject)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 ### Classes implementing this interface
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - MEP.Equipment.Parts.[AirHandlingUnitBase](/api/oM/Analytical/MEP/Equipment/Parts/AirHandlingUnitBase)
-    - MEP.Equipment.Parts.[CoolingCoil](/api/oM/Analytical/MEP/Equipment/Parts/CoolingCoil)
-    - MEP.Equipment.Parts.[ElectricalConnector](/api/oM/Analytical/MEP/Equipment/Parts/ElectricalConnector)
-    - MEP.Equipment.Parts.[EnergyWheel](/api/oM/Analytical/MEP/Equipment/Parts/EnergyWheel)
-    - MEP.Equipment.Parts.[Fan](/api/oM/Analytical/MEP/Equipment/Parts/Fan)
-    - MEP.Equipment.Parts.[Filter](/api/oM/Analytical/MEP/Equipment/Parts/Filter)
-    - MEP.Equipment.Parts.[HeatingCoil](/api/oM/Analytical/MEP/Equipment/Parts/HeatingCoil)
+    - BH.oM.MEP.Equipment.Parts.[AirHandlingUnitBase](/api/oM/Analytical/MEP/Equipment/Parts/AirHandlingUnitBase)
+    - BH.oM.MEP.Equipment.Parts.[CoolingCoil](/api/oM/Analytical/MEP/Equipment/Parts/CoolingCoil)
+    - BH.oM.MEP.Equipment.Parts.[ElectricalConnector](/api/oM/Analytical/MEP/Equipment/Parts/ElectricalConnector)
+    - BH.oM.MEP.Equipment.Parts.[EnergyWheel](/api/oM/Analytical/MEP/Equipment/Parts/EnergyWheel)
+    - BH.oM.MEP.Equipment.Parts.[Fan](/api/oM/Analytical/MEP/Equipment/Parts/Fan)
+    - BH.oM.MEP.Equipment.Parts.[Filter](/api/oM/Analytical/MEP/Equipment/Parts/Filter)
+    - BH.oM.MEP.Equipment.Parts.[HeatingCoil](/api/oM/Analytical/MEP/Equipment/Parts/HeatingCoil)
 
 
 ## Properties
@@ -34,6 +34,12 @@ title: IPart
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public interface IPart : BH.oM.Base.IBHoMObject, BH.oM.Base.IObject
+```
+
+Assembly: MEP_oM.dll
 
 The interface is defined in C#. The class definition is available on github:
 

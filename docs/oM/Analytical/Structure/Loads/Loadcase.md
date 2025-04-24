@@ -2,7 +2,7 @@
 title: Loadcase
 ---
 
-# Structure.Loads.Loadcase
+# <small>BH.oM.Structure.</small>**Loadcase**
 
 Basic load case class. All load classes need to point to one Loadcase.
 
@@ -10,12 +10,12 @@ Basic load case class. All load classes need to point to one Loadcase.
 
 ### Implemented interfaces and base types
 
-???+ bhom "The Loadcase in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The Loadcase is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
-    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
-    -  Structure.Loads.[ICase](/api/oM/Analytical/Structure/Loads/ICase)
+    -  BH.oM.Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
+    -  BH.oM.Base.[IBHoMObject](/api/oM/Framework/Base/Interface/IBHoMObject)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
+    -  BH.oM.Structure.Loads.[ICase](/api/oM/Analytical/Structure/Loads/ICase)
 
 
 ## Properties
@@ -29,7 +29,7 @@ The following properties are defined on the class
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
 | Name | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | A unique Name is required for some structural packages to create and identify the object. | - |
-| Nature | [LoadNature](/api/oM/Analytical/Structure/Loads/LoadNature) | - | - |
+| Nature | [LoadNature](/api/oM/Analytical/Structure/Loads/Enums/LoadNature) | - | - |
 | Number | [int](https://learn.microsoft.com/en-us/dotnet/api/System.Int32?view=netstandard-2.0) | Unique numeric identifier of the Loadcase. | - |
 
 
@@ -56,6 +56,12 @@ The following properties are defined as extension methods in one of the BHoM_Eng
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class Loadcase : BH.oM.Base.BHoMObject, BH.oM.Base.IBHoMObject, BH.oM.Base.IObject, BH.oM.Structure.Loads.ICase
+```
+
+Assembly: Structure_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

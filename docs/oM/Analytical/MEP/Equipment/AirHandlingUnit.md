@@ -2,7 +2,7 @@
 title: AirHandlingUnit
 ---
 
-# MEP.Equipment.AirHandlingUnit
+# <small>BH.oM.MEP.</small>**AirHandlingUnit**
 
 Air Handling Units are devices which house fans, filter, coils, and energy wheels which produce heated and cooled fresh/partially recirculated air to a building
 
@@ -10,12 +10,12 @@ Air Handling Units are devices which house fans, filter, coils, and energy wheel
 
 ### Implemented interfaces and base types
 
-???+ bhom "The AirHandlingUnit in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The AirHandlingUnit is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
-    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
-    -  MEP.Equipment.[IEquipment](/api/oM/Analytical/MEP/Equipment/IEquipment)
+    -  BH.oM.Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
+    -  BH.oM.Base.[IBHoMObject](/api/oM/Framework/Base/Interface/IBHoMObject)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
+    -  BH.oM.MEP.Equipment.[IEquipment](/api/oM/Analytical/MEP/Equipment/IEquipment)
 
 
 ## Properties
@@ -58,6 +58,12 @@ The following properties are defined as extension methods in one of the BHoM_Eng
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class AirHandlingUnit : BH.oM.Base.BHoMObject, BH.oM.Base.IBHoMObject, BH.oM.Base.IObject, BH.oM.MEP.Equipment.IEquipment
+```
+
+Assembly: MEP_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

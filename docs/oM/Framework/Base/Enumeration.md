@@ -2,7 +2,7 @@
 title: Enumeration
 ---
 
-# Base.Enumeration
+# <small>BH.oM.</small>**Enumeration**
 
 
 
@@ -10,12 +10,12 @@ title: Enumeration
 
 ### Implemented interfaces and base types
 
-???+ bhom "The Enumeration in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The Enumeration is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
-    -  Base.[IEnum](/api/oM/Framework/Base/IEnum)
-    -  [IComparable](https://learn.microsoft.com/en-us/dotnet/api/System.IComparable-1?view=netstandard-2.0)&lt;Base.[IEnum](/api/oM/Framework/Base/IEnum)&gt;
-    -  Base.[IImmutable](/api/oM/Framework/Base/IImmutable)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
+    -  BH.oM.Base.[IEnum](/api/oM/Framework/Base/Interface/IEnum)
+    -  [IComparable](https://learn.microsoft.com/en-us/dotnet/api/System.IComparable-1?view=netstandard-2.0)&lt;BH.oM.Base.[IEnum](/api/oM/Framework/Base/Interface/IEnum)&gt;
+    -  BH.oM.Base.[IImmutable](/api/oM/Framework/Base/Interface/IImmutable)
 
 
 ## Properties
@@ -36,7 +36,13 @@ The following properties are defined on the class
 
 ### C# implementation
 
-The class is defined in C#. The class definition is available on github:
+``` C# title="C#"
+public abstract class Enumeration : BH.oM.Base.IObject, BH.oM.Base.IEnum, System.IComparable<BH.oM.Base.IEnum>, BH.oM.Base.IImmutable
+```
+
+Assembly: BHoM.dll
+
+The abstract class is defined in C#. The class definition is available on github:
 
 - [Enumeration.cs](https://github.com/BHoM/BHoM/blob/develop/BHoM/Enumeration.cs)
 

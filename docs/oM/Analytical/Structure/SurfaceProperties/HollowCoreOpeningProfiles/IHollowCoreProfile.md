@@ -1,0 +1,43 @@
+---
+title: IHollowCoreOpeningProfiles
+---
+
+# <small>BH.oM.Structure.</small>**IHollowCoreOpeningProfiles**
+
+
+
+## Interface structure
+
+### Implemented interfaces and base types
+
+???+ bhom "The IHollowCoreOpeningProfiles is inheriting from the following base type(s) and implements the following interfaces:"
+
+    -  BH.oM.Base.[IBHoMObject](/api/oM/Framework/Base/Interface/IBHoMObject)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
+
+
+### Classes implementing this interface
+
+???+ bhom "The following classes are implementing this interface:"
+
+    - BH.oM.Structure.SurfaceProperties.[CircularHollowCoreOpeningProfiles](/api/oM/Analytical/Structure/SurfaceProperties/HollowCoreOpeningProfiles/CircularHollowCoreOpeningProfiles)
+    - BH.oM.Structure.SurfaceProperties.[ElongatedCircularHollowCoreOpeningProfiles](/api/oM/Analytical/Structure/SurfaceProperties/HollowCoreOpeningProfiles/ElongatedCircularHollowCoreOpeningProfiles)
+
+
+## Properties
+
+## Code and Schema
+
+### C# implementation
+
+``` C# title="C#"
+public interface IHollowCoreOpeningProfiles : BH.oM.Base.IBHoMObject, BH.oM.Base.IObject
+```
+
+Assembly: Structure_oM.dll
+
+The interface is defined in C#. The class definition is available on github:
+
+- [IHollowCoreOpeningProfiles.cs](https://github.com/BHoM/BHoM/blob/develop/Structure_oM/SurfaceProperties\HollowCoreOpeningProfiles\IHollowCoreProfile.cs)
+
+All history and changes of the class can be found by inspection the history.

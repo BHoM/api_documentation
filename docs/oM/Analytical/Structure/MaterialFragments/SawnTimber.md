@@ -2,7 +2,7 @@
 title: SawnTimber
 ---
 
-# Structure.MaterialFragments.SawnTimber
+# <small>BH.oM.Structure.</small>**SawnTimber**
 
 Structural material of standard construction Timber to be used on structural elements and properties, or as a fragment of the physical material.
 
@@ -10,18 +10,18 @@ Structural material of standard construction Timber to be used on structural ele
 
 ### Implemented interfaces and base types
 
-???+ bhom "The SawnTimber in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The SawnTimber is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
-    -  Base.[IBHoMObject](/api/oM/Framework/Base/IBHoMObject)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
-    -  Structure.MaterialFragments.[ITimber](/api/oM/Analytical/Structure/MaterialFragments/ITimber)
-    -  Structure.MaterialFragments.[IOrthotropic](/api/oM/Analytical/Structure/MaterialFragments/IOrthotropic)
-    -  Structure.MaterialFragments.[IMaterialFragment](/api/oM/Analytical/Structure/MaterialFragments/IMaterialFragment)
-    -  Base.[IFragment](/api/oM/Framework/Base/IFragment)
-    -  Physical.Materials.[IMaterialProperties](/api/oM/Physical/Physical/Materials/IMaterialProperties)
-    -  Structure.[IProperty](/api/oM/Analytical/Structure/IProperty)
-    -  Physical.Materials.[IDensityProvider](/api/oM/Physical/Physical/Materials/IDensityProvider)
+    -  BH.oM.Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
+    -  BH.oM.Base.[IBHoMObject](/api/oM/Framework/Base/Interface/IBHoMObject)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
+    -  BH.oM.Structure.MaterialFragments.[ITimber](/api/oM/Analytical/Structure/MaterialFragments/ITimber)
+    -  BH.oM.Structure.MaterialFragments.[IOrthotropic](/api/oM/Analytical/Structure/MaterialFragments/IOrthotropic)
+    -  BH.oM.Structure.MaterialFragments.[IMaterialFragment](/api/oM/Analytical/Structure/MaterialFragments/IMaterialFragment)
+    -  BH.oM.Base.[IFragment](/api/oM/Framework/Base/Interface/IFragment)
+    -  BH.oM.Physical.Materials.[IMaterialProperties](/api/oM/Physical/Physical/Materials/IMaterialProperties)
+    -  BH.oM.Structure.[IProperty](/api/oM/Analytical/Structure/IProperty)
+    -  BH.oM.Physical.Materials.[IDensityProvider](/api/oM/Physical/Physical/Materials/IDensityProvider)
 
 
 ## Properties
@@ -38,10 +38,10 @@ The following properties are defined on the class
 | Density | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Mean Density. Used to calculate mass. Called ρmean in Eurocode. | [Density](/api/oM/Dimensional/Quantities/Attributes/Density) [kg/m³] |
 | DensityCharacteristic | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Characteristic Density. Used to calculate other mechanical properties (not mass). Called ρk in Eurocode. | [Density](/api/oM/Dimensional/Quantities/Attributes/Density) [kg/m³] |
 | DampingRatio | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Dynamic Damping Ratio. Ratio between actual damping and critical damping. | [Ratio](/api/oM/Dimensional/Quantities/Attributes/Ratio) [-] |
-| YoungsModulus | [Vector](/api/oM/Dimensional/Geometry/Vector) | Modulus Of Elasticity of the material to be used for Analysis. Ratio between stress and strain in all directions.<br>Values can be automatically populated based on material parameters by calling the SetAnalysisParameters method.<br>Vector defines stiffnesses as follows:<br>X - Stiffness along the local x-axis of the element (Ex). For most cases this will be the parallel stiffness.<br>Y - Stiffness along the local y-axis of the element (Ey). For most cases this will be the perpendicular stiffness.<br>Z - Stiffness along the local z-axis of the element (Ez). For most cases this will be the perpendicular stiffness. | [YoungsModulus](/api/oM/Dimensional/Quantities/Attributes/YoungsModulus) [Pa] |
-| ShearModulus | [Vector](/api/oM/Dimensional/Geometry/Vector) | Shear Modulus or Modulus of Rigidity of the material to be used for Analysis. Ratio between shear stress and shear strain.<br>Values can be automatically populated based on material parameters by calling the SetAnalysisParameters method.<br>Vector components defined as:<br>X - Shear Modulus in the local xy-plane (Gxy).<br>Y - Shear Modulus in the local yz-plane (Gyz), generally referred to as rolling shear.<br>Z - Shear Modulus in the local zx-plane (Gzx). | [ShearModulus](/api/oM/Dimensional/Quantities/Attributes/ShearModulus) [Pa] |
-| PoissonsRatio | [Vector](/api/oM/Dimensional/Geometry/Vector) | Poisson's Ratio. Ratio between axial and transverse strain. Typically taken as 0.4 for X and Y component (νxy and νyz) and as 0.4*E_90/E_0 for the Z component, though value varies depending on timber species.<br>Vector components made up of:<br>X - Poisson's ratio for strain in the local y direction generated by unit strain in x direction (νxy). Generally strain in perpendicular direction caused by strain in longitudinal direction.<br>Y - Poisson's ratio for strain in the local z direction generated by unit strain in y direction (νyz). Generally strain in perpendicular direction caused by strain in other perpendicular direction.<br>Z - Poisson's ratio for strain in the local x direction generated by unit strain in z direction (νzx). Generally strain in longitudinal direction caused by strain in perpendicular direction. Note that this value generally is significantly lower than values for the other two components. | [Ratio](/api/oM/Dimensional/Quantities/Attributes/Ratio) [-] |
-| ThermalExpansionCoeff | [Vector](/api/oM/Dimensional/Geometry/Vector) | Thermal Expansion Coefficeint. Strain induced in the material per unit change of temperature. Typically taken as 5x10^-6 in all directions, though value varies depending on timber species and grain orientation.<br>Vector defines stiffnesses as follows:<br>X - Thermal expansion along the local x-axis of the element (αx).<br>Y - Thermal expansion along the local y-axis of the element (αy).<br>Z - Thermal expansion along the local z-axis of the element (αz). | [ThermalExpansionCoefficient](/api/oM/Dimensional/Quantities/Attributes/ThermalExpansionCoefficient) [1/K] |
+| YoungsModulus | [Vector](/api/oM/Dimensional/Geometry/Vector/Vector) | Modulus Of Elasticity of the material to be used for Analysis. Ratio between stress and strain in all directions.<br>Values can be automatically populated based on material parameters by calling the SetAnalysisParameters method.<br>Vector defines stiffnesses as follows:<br>X - Stiffness along the local x-axis of the element (Ex). For most cases this will be the parallel stiffness.<br>Y - Stiffness along the local y-axis of the element (Ey). For most cases this will be the perpendicular stiffness.<br>Z - Stiffness along the local z-axis of the element (Ez). For most cases this will be the perpendicular stiffness. | [YoungsModulus](/api/oM/Dimensional/Quantities/Attributes/YoungsModulus) [Pa] |
+| ShearModulus | [Vector](/api/oM/Dimensional/Geometry/Vector/Vector) | Shear Modulus or Modulus of Rigidity of the material to be used for Analysis. Ratio between shear stress and shear strain.<br>Values can be automatically populated based on material parameters by calling the SetAnalysisParameters method.<br>Vector components defined as:<br>X - Shear Modulus in the local xy-plane (Gxy).<br>Y - Shear Modulus in the local yz-plane (Gyz), generally referred to as rolling shear.<br>Z - Shear Modulus in the local zx-plane (Gzx). | [ShearModulus](/api/oM/Dimensional/Quantities/Attributes/ShearModulus) [Pa] |
+| PoissonsRatio | [Vector](/api/oM/Dimensional/Geometry/Vector/Vector) | Poisson's Ratio. Ratio between axial and transverse strain. Typically taken as 0.4 for X and Y component (νxy and νyz) and as 0.4*E_90/E_0 for the Z component, though value varies depending on timber species.<br>Vector components made up of:<br>X - Poisson's ratio for strain in the local y direction generated by unit strain in x direction (νxy). Generally strain in perpendicular direction caused by strain in longitudinal direction.<br>Y - Poisson's ratio for strain in the local z direction generated by unit strain in y direction (νyz). Generally strain in perpendicular direction caused by strain in other perpendicular direction.<br>Z - Poisson's ratio for strain in the local x direction generated by unit strain in z direction (νzx). Generally strain in longitudinal direction caused by strain in perpendicular direction. Note that this value generally is significantly lower than values for the other two components. | [Ratio](/api/oM/Dimensional/Quantities/Attributes/Ratio) [-] |
+| ThermalExpansionCoeff | [Vector](/api/oM/Dimensional/Geometry/Vector/Vector) | Thermal Expansion Coefficeint. Strain induced in the material per unit change of temperature. Typically taken as 5x10^-6 in all directions, though value varies depending on timber species and grain orientation.<br>Vector defines stiffnesses as follows:<br>X - Thermal expansion along the local x-axis of the element (αx).<br>Y - Thermal expansion along the local y-axis of the element (αy).<br>Z - Thermal expansion along the local z-axis of the element (αz). | [ThermalExpansionCoefficient](/api/oM/Dimensional/Quantities/Attributes/ThermalExpansionCoefficient) [1/K] |
 | E_0_Mean | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Mean modulus of elasticity parallel bending, Em,0,mean in Eurocode. | [YoungsModulus](/api/oM/Dimensional/Quantities/Attributes/YoungsModulus) [Pa] |
 | E_0_k | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | 5 percentile modulus of elasticity parallel bending, Em,0,k in Eurocode. | [YoungsModulus](/api/oM/Dimensional/Quantities/Attributes/YoungsModulus) [Pa] |
 | E_90_Mean | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Mean modulus of elasticity perpendicular, Em,90,mean in Eurocode. | [YoungsModulus](/api/oM/Dimensional/Quantities/Attributes/YoungsModulus) [Pa] |
@@ -74,13 +74,28 @@ The following properties are defined as extension methods in one of the BHoM_Eng
 | Description | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | Generates a default description for the material based on its properties. | - | Structure_Engine |
 | DescriptionOrName | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | Gets the name from a IProperty. If null or empty, a default description name is provided instead. | - | Structure_Engine |
 | IDescription | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | Generates a default description for the IProperty, based on its properties. | - | Structure_Engine |
-| IMaterialType | [MaterialType](/api/oM/Analytical/Structure/MaterialFragments/MaterialType) | Gets the material type from the MaterialFragment. | - | Structure_Engine |
+| IMaterialType | [MaterialType](/api/oM/Analytical/Structure/MaterialFragments/Enums/MaterialType) | Gets the material type from the MaterialFragment. | - | Structure_Engine |
 | IsNull | [bool](https://learn.microsoft.com/en-us/dotnet/api/System.Boolean?view=netstandard-2.0) | Checks if a MaterialFragment is null and outputs relevant error message. | - | Structure_Engine |
 
 
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class SawnTimber : BH.oM.Base.BHoMObject,
+BH.oM.Base.IBHoMObject,
+BH.oM.Base.IObject,
+BH.oM.Structure.MaterialFragments.ITimber,
+BH.oM.Structure.MaterialFragments.IOrthotropic,
+BH.oM.Structure.MaterialFragments.IMaterialFragment,
+BH.oM.Base.IFragment,
+BH.oM.Physical.Materials.IMaterialProperties,
+BH.oM.Structure.IProperty,
+BH.oM.Physical.Materials.IDensityProvider
+```
+
+Assembly: Structure_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 

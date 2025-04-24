@@ -2,7 +2,7 @@
 title: IsInSet
 ---
 
-# Verification.Conditions.IsInSet
+# <small>BH.oM.Verification.</small>**IsInSet**
 
 Condition that verifies if a value extracted from an object is included in the given set of values.
 
@@ -10,11 +10,11 @@ Condition that verifies if a value extracted from an object is included in the g
 
 ### Implemented interfaces and base types
 
-???+ bhom "The IsInSet in inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The IsInSet is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  Verification.Conditions.[IValueCondition](/api/oM/Framework/Verification/Conditions/IValueCondition)
-    -  Verification.Conditions.[ICondition](/api/oM/Framework/Verification/Conditions/ICondition)
-    -  Base.[IObject](/api/oM/Framework/Base/IObject)
+    -  BH.oM.Verification.Conditions.[IValueCondition](/api/oM/Framework/Verification/Conditions/Interfaces/IValueCondition)
+    -  BH.oM.Verification.Conditions.[ICondition](/api/oM/Framework/Verification/Conditions/Interfaces/ICondition)
+    -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
 ## Properties
@@ -27,7 +27,7 @@ The following properties are defined on the class
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| ValueSource | [IValueSource](/api/oM/Framework/Verification/Conditions/IValueSource) | Object defining the source of a value to evaluate. | - |
+| ValueSource | [IValueSource](/api/oM/Framework/Verification/Conditions/Interfaces/IValueSource) | Object defining the source of a value to evaluate. | - |
 | Set | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[object](https://learn.microsoft.com/en-us/dotnet/api/System.Object?view=netstandard-2.0)&gt; | Set of values for the extracted value to compare against. | - |
 | ComparisonConfig | [ComparisonConfig](/api/oM/Framework/Base/ComparisonConfig) | Options as per how the comparison is computed. | - |
 
@@ -38,13 +38,19 @@ The following properties are defined as extension methods in one of the BHoM_Eng
 
 | Name             | Type             | Description      | Quantity         | Engine           |
 |------------------|------------------|------------------|------------------|------------------|
-| INestedConditions | [IEnumerable](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IEnumerable-1?view=netstandard-2.0)&lt;[ICondition](/api/oM/Framework/Verification/Conditions/ICondition)&gt; | Extracts the conditions nested inside a given condition, e.g. conditions nested inside logical conditions. | - | Verification_Engine |
+| INestedConditions | [IEnumerable](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IEnumerable-1?view=netstandard-2.0)&lt;[ICondition](/api/oM/Framework/Verification/Conditions/Interfaces/ICondition)&gt; | Extracts the conditions nested inside a given condition, e.g. conditions nested inside logical conditions. | - | Verification_Engine |
 | ValueSourceLabel | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | Generates a human readable label for a value source embedded in a value condition, based on provided value condition reporting config. | - | Verification_Engine |
 
 
 ## Code and Schema
 
 ### C# implementation
+
+``` C# title="C#"
+public class IsInSet : BH.oM.Verification.Conditions.IValueCondition, BH.oM.Verification.Conditions.ICondition, BH.oM.Base.IObject
+```
+
+Assembly: Verification_oM.dll
 
 The class is defined in C#. The class definition is available on github:
 
