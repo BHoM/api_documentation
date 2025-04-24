@@ -61,7 +61,7 @@ namespace SchemaDocumentationGenerator
             if (BaseTypes.TryGetValue(type, out baseTypes) && baseTypes.Count > 0)
             {
                 markdown += $"### Implemented interfaces and base types\n\n";
-                markdown += AdmonitionStart(false, $"The {type.Name} in inheriting from the following base type(s) and implements the following interfaces:");
+                markdown += AdmonitionStart(false, $"The {type.Name} is inheriting from the following base type(s) and implements the following interfaces:");
                 foreach (Type baseType in baseTypes)
                 {
                     markdown += $"    -  {GetNameAsLink(baseType, true)}\n";
