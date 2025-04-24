@@ -215,7 +215,11 @@ namespace SchemaDocumentationGenerator
             markdown += $"title: {type.TitleName(false)}\n";
             markdown += "---\n\n";
 
-            markdown += $"# {type.TitleName(true)}";
+            string title = type.TitleName(true);
+            string[] split = title.Split('.');
+            string nameSpace = string.Join('.', split.Take(split.Length - 2));
+            string name = split[split.Length - 1];
+            markdown += $"# <small>{nameSpace}.</small>**{name}**";
             markdown += "\n\n";
 
             markdown += type.SafeDescString("", false, true) + "\n\n";
@@ -232,7 +236,7 @@ namespace SchemaDocumentationGenerator
 
             string name;
             if (includeNameSpace)
-                name = type.FullName.Replace("BH.oM.", "");
+                name = type.FullName;
             else
                 name = type.Name;
 
