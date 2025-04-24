@@ -20,7 +20,7 @@ namespace SchemaDocumentationGenerator
         {
             if (type.IsGenericTypeParameter)
             {
-                if(isTypeStructure && !string.IsNullOrEmpty(owner))
+                if (isTypeStructure && !string.IsNullOrEmpty(owner))
                     return $"[{type.Name}]({owner}#{type.Name.ToLower()})";    //for a T type, link to the definition on the same page
                 else
                     return $"[{type.Name}](#{type.Name.ToLower()})";    //for a T type, link to the definition on the same page
@@ -37,6 +37,10 @@ namespace SchemaDocumentationGenerator
                 }
 
                 return $"{genType}&lt;{string.Join(", ", args)}&gt;";   //&lt; is the same as < and &gt; is the same as >. If simply typing < it will be treated as html and cause issues.
+            }
+            else if (type.IsArray)
+            {
+                return $"{type.GetElementType().GetNameAsLink(false, "")}[{string.Join("", Enumerable.Repeat(',', type.GetArrayRank() - 1))}]";
             }
             else
             {
