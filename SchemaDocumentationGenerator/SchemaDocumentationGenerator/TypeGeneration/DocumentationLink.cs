@@ -54,7 +54,7 @@ namespace SchemaDocumentationGenerator
             if (!includeNamespace || type.IsSystemNamespace())
                 return nameWithLink;
 
-            string fullName = type.BHoMTypeFullName();
+            string fullName = type.FullName;
             string[] fullNameSplit = fullName.Split('.');
             fullNameSplit[fullNameSplit.Length - 1] = nameWithLink;
             return string.Join(".", fullNameSplit);
@@ -91,7 +91,7 @@ namespace SchemaDocumentationGenerator
 
         /***************************************************/
 
-        private static string GetDocumentLink(this Type type)
+        public static string GetDocumentLink(this Type type)
         {
             if (m_docLinks.ContainsKey(type))
                 return m_docLinks[type];
@@ -99,9 +99,10 @@ namespace SchemaDocumentationGenerator
             if (type.Namespace.StartsWith("BH.oM"))
             {
                 string categoryPath;
-                if (Settings.AssemblyCategory.TryGetValue(type.Assembly.GetName().Name, out categoryPath))
+                if (Settings.AssemblyCategory.TryGetValue(type.Assembly.GetName().Name, out categoryPath) && TryGetFileLink(type, out string fileLink))
                 {
-                    string link = $"/api/oM/{categoryPath}/{type.BHoMTypeFullName().Replace("`", "%60").Replace(".", "/")}";
+                    string partLink = fileLink.Split('.')[0].Replace('\\', '/');
+                    string link = $"/api/oM/{categoryPath}/{type.BHoMMainNameSpace()}/{partLink}";
                     m_docLinks[type] = link;
                     return link;
                 }
@@ -116,6 +117,22 @@ namespace SchemaDocumentationGenerator
             }
 
             return "";
+        }
+
+        /***************************************************/
+
+        private static string BHoMMainNameSpace(this Type type)
+        {
+            string fullName = type.Namespace;
+            string[] split = fullName.Split('.');
+            if (split.Length < 3)
+                return "";
+
+            IEnumerable<string> parts;
+            if (split[2] == "Adapters")
+                return $"{split[2]}.{split[3]}";
+            else
+                return split[2];
         }
 
         /***************************************************/

@@ -20,10 +20,10 @@ namespace SchemaDocumentationGenerator
         {
             if (type.Namespace.StartsWith("BH.oM"))
             {
-                string categoryPath;
-                if (Settings.AssemblyCategory.TryGetValue(type.Assembly.GetName().Name, out categoryPath))
+                string link = type.GetDocumentLink();
+                if (!string.IsNullOrEmpty(link))
                 {
-                    return @$"{basePath}\oM\{categoryPath}\{type.BHoMTypeFullName().Replace(".", "\\")}.md";
+                    return $"{link.Replace("/api/", basePath).Replace("/", "\\")}.md";
                 }
             }
 
