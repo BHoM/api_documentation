@@ -2,7 +2,7 @@
 title: Plane
 ---
 
-# <small>BH.oM.</small>**Plane**
+# <small>BH.oM.Geometry.</small>**Plane**
 
 Defines a flat infinite two-dimensional surface
 

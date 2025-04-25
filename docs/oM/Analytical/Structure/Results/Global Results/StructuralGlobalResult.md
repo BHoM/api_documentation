@@ -2,7 +2,7 @@
 title: StructuralGlobalResult
 ---
 
-# <small>BH.oM.Structure.</small>**StructuralGlobalResult**
+# <small>BH.oM.Structure.Results.</small>**StructuralGlobalResult**
 
 Base class for all structural results affecting the entire structure.
 

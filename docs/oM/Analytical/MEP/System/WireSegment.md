@@ -2,7 +2,7 @@
 title: WireSegment
 ---
 
-# <small>BH.oM.MEP.</small>**WireSegment**
+# <small>BH.oM.MEP.System.</small>**WireSegment**
 
 An object containing a collection of Wires to work within an MEP systems.
 

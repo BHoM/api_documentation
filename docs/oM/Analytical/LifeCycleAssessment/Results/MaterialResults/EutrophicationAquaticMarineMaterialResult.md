@@ -2,7 +2,7 @@
 title: EutrophicationAquaticMarineMaterialResult
 ---
 
-# <small>BH.oM.LifeCycleAssessment.</small>**EutrophicationAquaticMarineMaterialResult**
+# <small>BH.oM.LifeCycleAssessment.Results.</small>**EutrophicationAquaticMarineMaterialResult**
 
 Result class for resulting Eutrophication - aquatic marine for a particular Material and EPD.
 

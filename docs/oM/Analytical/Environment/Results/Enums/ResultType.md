@@ -2,7 +2,7 @@
 title: ResultType
 ---
 
-# <small>BH.oM.Environment.</small>**ResultType**
+# <small>BH.oM.Environment.Results.</small>**ResultType**
 
 
 

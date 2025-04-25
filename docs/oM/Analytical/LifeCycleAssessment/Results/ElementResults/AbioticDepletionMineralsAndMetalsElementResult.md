@@ -2,7 +2,7 @@
 title: AbioticDepletionMineralsAndMetalsElementResult
 ---
 
-# <small>BH.oM.LifeCycleAssessment.</small>**AbioticDepletionMineralsAndMetalsElementResult**
+# <small>BH.oM.LifeCycleAssessment.Results.</small>**AbioticDepletionMineralsAndMetalsElementResult**
 
 Result class for resulting Abiotic depletion - minerals &amp; metals for a particular Element.
 

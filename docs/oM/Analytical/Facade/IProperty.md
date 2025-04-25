@@ -2,7 +2,7 @@
 title: IProperty
 ---
 
-# <small>BH.oM.</small>**IProperty**
+# <small>BH.oM.Facade.</small>**IProperty**
 
 Base interface for all facade properties.
 

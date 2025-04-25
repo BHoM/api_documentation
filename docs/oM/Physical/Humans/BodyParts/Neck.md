@@ -2,7 +2,7 @@
 title: Neck
 ---
 
-# <small>BH.oM.Humans.</small>**Neck**
+# <small>BH.oM.Humans.BodyParts.</small>**Neck**
 
 
 

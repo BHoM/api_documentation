@@ -2,7 +2,7 @@
 title: PropertyValueSource
 ---
 
-# <small>BH.oM.Verification.</small>**PropertyValueSource**
+# <small>BH.oM.Verification.Conditions.</small>**PropertyValueSource**
 
 Object pointing at a property as the source of a value to extract.
 

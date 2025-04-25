@@ -2,7 +2,7 @@
 title: PileFoundation
 ---
 
-# <small>BH.oM.Physical.</small>**PileFoundation**
+# <small>BH.oM.Physical.Elements.</small>**PileFoundation**
 
 A composite object representing a pile foundation. This object contains physical representations of a pile cap and collection of piles.
 

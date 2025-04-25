@@ -2,7 +2,7 @@
 title: DiffuseHorizontalRadiationResult
 ---
 
-# <small>BH.oM.Environment.</small>**DiffuseHorizontalRadiationResult**
+# <small>BH.oM.Environment.Results.</small>**DiffuseHorizontalRadiationResult**
 
 A results object containing diffuse horizontal radiation data.
 

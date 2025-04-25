@@ -2,7 +2,7 @@
 title: BoxProfile
 ---
 
-# <small>BH.oM.Spatial.</small>**BoxProfile**
+# <small>BH.oM.Spatial.ShapeProfiles.</small>**BoxProfile**
 
 Rectangular hollow profile with constant thickness and optional corner radii.
 

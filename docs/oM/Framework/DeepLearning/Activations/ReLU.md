@@ -2,7 +2,7 @@
 title: ReLU
 ---
 
-# <small>BH.oM.DeepLearning.</small>**ReLU**
+# <small>BH.oM.DeepLearning.Activations.</small>**ReLU**
 
 
 

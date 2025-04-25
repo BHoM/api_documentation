@@ -2,7 +2,7 @@
 title: BurnerControlCode
 ---
 
-# <small>BH.oM.Environment.</small>**BurnerControlCode**
+# <small>BH.oM.Environment.SAP.</small>**BurnerControlCode**
 
 .
 

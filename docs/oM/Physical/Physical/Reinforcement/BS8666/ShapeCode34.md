@@ -2,7 +2,7 @@
 title: ShapeCode34
 ---
 
-# <small>BH.oM.Physical.Reinforcement.</small>**ShapeCode34**
+# <small>BH.oM.Physical.Reinforcement.BS8666.</small>**ShapeCode34**
 
 A reinforcement bar with shape code 34 to BS 8666:2020 in the XY Plane with the free end of the A segment starting at the Origin aligned the X axis, the C/F parameters aligned with the X axis and the D/E parameters aligned with the Y axis.
 

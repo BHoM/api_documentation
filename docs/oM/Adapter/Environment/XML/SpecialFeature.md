@@ -2,7 +2,7 @@
 title: SpecialFeature
 ---
 
-# <small>BH.oM.Environment.SAP.</small>**SpecialFeature**
+# <small>BH.oM.Environment.SAP.XML.</small>**SpecialFeature**
 
 
 

@@ -2,7 +2,7 @@
 title: ProfileType
 ---
 
-# <small>BH.oM.Environment.</small>**ProfileType**
+# <small>BH.oM.Environment.SpaceCriteria.</small>**ProfileType**
 
 
 

@@ -2,7 +2,7 @@
 title: EPWKey
 ---
 
-# <small>BH.oM.</small>**EPWKey**
+# <small>BH.oM.LadybugTools.</small>**EPWKey**
 
 An enum for keys that frequently appear in epw files.
 

@@ -2,7 +2,7 @@
 title: Property
 ---
 
-# <small>BH.oM.Environment.SAP.</small>**Property**
+# <small>BH.oM.Environment.SAP.XML.</small>**Property**
 
 
 

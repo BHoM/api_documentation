@@ -2,7 +2,7 @@
 title: ExternalWallPerformance
 ---
 
-# <small>BH.oM.</small>**ExternalWallPerformance**
+# <small>BH.oM.dKoP.</small>**ExternalWallPerformance**
 
 
 

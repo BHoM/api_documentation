@@ -2,7 +2,7 @@
 title: MaterialType
 ---
 
-# <small>BH.oM.Structure.</small>**MaterialType**
+# <small>BH.oM.Structure.MaterialFragments.</small>**MaterialType**
 
 
 

@@ -2,7 +2,7 @@
 title: NodeVelocity
 ---
 
-# <small>BH.oM.Structure.</small>**NodeVelocity**
+# <small>BH.oM.Structure.Results.</small>**NodeVelocity**
 
 Resulting velocity and angular velocity for a Node.
 

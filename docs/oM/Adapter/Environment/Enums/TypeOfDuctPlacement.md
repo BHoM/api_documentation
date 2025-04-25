@@ -2,7 +2,7 @@
 title: TypeOfDuctPlacement
 ---
 
-# <small>BH.oM.Environment.</small>**TypeOfDuctPlacement**
+# <small>BH.oM.Environment.SAP.</small>**TypeOfDuctPlacement**
 
 Code which indicates the duct placement.
 

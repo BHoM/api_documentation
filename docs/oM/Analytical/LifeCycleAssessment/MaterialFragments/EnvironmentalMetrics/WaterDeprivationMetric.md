@@ -2,7 +2,7 @@
 title: WaterDeprivationMetric
 ---
 
-# <small>BH.oM.LifeCycleAssessment.</small>**WaterDeprivationMetric**
+# <small>BH.oM.LifeCycleAssessment.MaterialFragments.</small>**WaterDeprivationMetric**
 
 Water use for a particular product or material. This environmental indicator forms part of an Environmental Product Declaration and should be evaluated based on the Quantity Type stated on the Environmental Product Declaration.
 

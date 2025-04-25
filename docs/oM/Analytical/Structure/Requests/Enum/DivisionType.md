@@ -2,7 +2,7 @@
 title: DivisionType
 ---
 
-# <small>BH.oM.Structure.</small>**DivisionType**
+# <small>BH.oM.Structure.Requests.</small>**DivisionType**
 
 
 

@@ -2,7 +2,7 @@
 title: MeshDisplacement
 ---
 
-# <small>BH.oM.Structure.</small>**MeshDisplacement**
+# <small>BH.oM.Structure.Results.</small>**MeshDisplacement**
 
 Displacements and rotations at a discrete location in the Panel/FEMesh.
 

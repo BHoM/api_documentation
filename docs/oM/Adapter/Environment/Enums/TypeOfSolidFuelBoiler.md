@@ -2,7 +2,7 @@
 title: TypeOfSolidFuelBoiler
 ---
 
-# <small>BH.oM.Environment.</small>**TypeOfSolidFuelBoiler**
+# <small>BH.oM.Environment.SAP.</small>**TypeOfSolidFuelBoiler**
 
 Code which indicates the type of boiler for the case where the fuel is solid.
 

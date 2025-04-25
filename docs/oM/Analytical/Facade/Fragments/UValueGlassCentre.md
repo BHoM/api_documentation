@@ -2,7 +2,7 @@
 title: UValueGlassCentre
 ---
 
-# <small>BH.oM.Facade.</small>**UValueGlassCentre**
+# <small>BH.oM.Facade.Fragments.</small>**UValueGlassCentre**
 
 A U-Value representing the effective U-Value of the centre region of this opening.
 

@@ -2,7 +2,7 @@
 title: MeshResultLayer
 ---
 
-# <small>BH.oM.Structure.</small>**MeshResultLayer**
+# <small>BH.oM.Structure.Results.</small>**MeshResultLayer**
 
 Specifies which layer the results are extracted from or if it is a maxima/minima of the layers.
 

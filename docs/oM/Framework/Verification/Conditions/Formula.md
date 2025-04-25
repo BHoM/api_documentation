@@ -2,7 +2,7 @@
 title: Formula
 ---
 
-# <small>BH.oM.Verification.</small>**Formula**
+# <small>BH.oM.Verification.Conditions.</small>**Formula**
 
 Formula in a form of a string in a specific convention, used to calculate values in verification workflows.
 

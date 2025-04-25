@@ -2,7 +2,7 @@
 title: Line
 ---
 
-# <small>BH.oM.</small>**Line**
+# <small>BH.oM.Geometry.</small>**Line**
 
 A straight segment in space defining the shortest distance between two points in three-dimensional Euclidean geometry.
 The Vector from Start to End defines the Line direction, which can be important for some applications.

@@ -2,7 +2,7 @@
 title: RenewableHeatIncentive
 ---
 
-# <small>BH.oM.Environment.SAP.</small>**RenewableHeatIncentive**
+# <small>BH.oM.Environment.SAP.XML.</small>**RenewableHeatIncentive**
 
 
 

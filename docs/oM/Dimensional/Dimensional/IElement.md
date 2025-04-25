@@ -2,7 +2,7 @@
 title: IElement
 ---
 
-# <small>BH.oM.</small>**IElement**
+# <small>BH.oM.Dimensional.</small>**IElement**
 
 The common base interface for all the Spatial Dimensional Objects.This interface should not be implemented directly, only through its sub-interfaces.Methods operating on IElement assume a specific implementation of one or other of the sub-interfaces (i.e. IElement0D, IElement1D, IElement2D)
 
@@ -69,7 +69,7 @@ The common base interface for all the Spatial Dimensional Objects.This interface
     - BH.oM.Geometry.[PlanarSurface](/api/oM/Dimensional/Geometry/Surface/PlanarSurface)
     - BH.oM.Geometry.[Point](/api/oM/Dimensional/Geometry/Vector/Point)
     - BH.oM.Graphics.[RenderPoint](/api/oM/Graphics/Graphics/Render/RenderPoint)
-    - BH.oM.Adapters.GSA.Elements.[Spacer](/api/oM/Adapter/Adapters.GSA/Elements/Spacer)
+    - BH.oM.Adapters.GSA.Elements.[Spacer](/api/oM/Adapter/Adapters/GSA/Elements/Spacer)
     - BH.oM.Lighting.Elements.[Luminaire](/api/oM/Analytical/Lighting/Elements/Luminaire)
     - BH.oM.Lighting.Analysis.[Node](/api/oM/Analytical/Lighting/Analysis/Node)
     - BH.oM.MEP.System.[CableTray](/api/oM/Analytical/MEP/System/CableTray)

@@ -2,7 +2,7 @@
 title: RightHip
 ---
 
-# <small>BH.oM.Humans.</small>**RightHip**
+# <small>BH.oM.Humans.BodyParts.</small>**RightHip**
 
 
 

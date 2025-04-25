@@ -2,7 +2,7 @@
 title: ClimateChangeFossilMetric
 ---
 
-# <small>BH.oM.LifeCycleAssessment.</small>**ClimateChangeFossilMetric**
+# <small>BH.oM.LifeCycleAssessment.MaterialFragments.</small>**ClimateChangeFossilMetric**
 
 Climate Change - Fossil, measured in kg CO2 eq (Carbon Dioxide equivalent, also referred to as embodied carbon), refers to fossil fuel based compounds (formed from the decomposition of carbon based organisms) that contribute to global warming. This environmental indicator forms part of an Environmental Product Declaration and should be evaluated based on the Quantity Type stated on the Environmental Product Declaration.
 

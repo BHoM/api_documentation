@@ -2,7 +2,7 @@
 title: TopInterfaceType
 ---
 
-# <small>BH.oM.</small>**TopInterfaceType**
+# <small>BH.oM.dKoP.</small>**TopInterfaceType**
 
 
 

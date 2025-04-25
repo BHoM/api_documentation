@@ -2,7 +2,7 @@
 title: PanelType
 ---
 
-# <small>BH.oM.Structure.</small>**PanelType**
+# <small>BH.oM.Structure.SurfaceProperties.</small>**PanelType**
 
 
 

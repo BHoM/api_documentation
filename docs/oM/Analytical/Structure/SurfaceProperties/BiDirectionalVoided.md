@@ -2,7 +2,7 @@
 title: BiDirectionalVoided
 ---
 
-# <small>BH.oM.Structure.</small>**BiDirectionalVoided**
+# <small>BH.oM.Structure.SurfaceProperties.</small>**BiDirectionalVoided**
 
 Property for 2D analytical elements, made up of two slabs with parallel ribs running in two directions between them, all sharing the same material.
 

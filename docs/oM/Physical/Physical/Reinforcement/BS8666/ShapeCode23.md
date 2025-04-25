@@ -2,7 +2,7 @@
 title: ShapeCode23
 ---
 
-# <small>BH.oM.Physical.Reinforcement.</small>**ShapeCode23**
+# <small>BH.oM.Physical.Reinforcement.BS8666.</small>**ShapeCode23**
 
 A reinforcement bar with shape code 23 to BS 8666:2020 with the free end of the A segment at the Origin aligned with the Y axis, the C parameter aligned with the Y axis and the B parameter aligned with the X axis. When ZBar is toggled true, the bar will be rotated90 degrees to form a Z bar.
 

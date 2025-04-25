@@ -2,7 +2,7 @@
 title: PolySurface
 ---
 
-# <small>BH.oM.</small>**PolySurface**
+# <small>BH.oM.Geometry.</small>**PolySurface**
 
 A composite surface constructed by combining a collection of surfaces of any type. Whole PolySurface integrity, continuity and closure is not guaranteed at creation. Discontinuous and/or multi-region definitions are possible, although validity of some engine methods may vary depending on the PolySurface form.
 

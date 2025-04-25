@@ -2,7 +2,7 @@
 title: LinearLayout
 ---
 
-# <small>BH.oM.Spatial.</small>**LinearLayout**
+# <small>BH.oM.Spatial.Layouts.</small>**LinearLayout**
 
 Linear distribution of points along a vector from one side of the perimeter of the host object to the other.
 

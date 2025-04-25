@@ -2,7 +2,7 @@
 title: LeftHip
 ---
 
-# <small>BH.oM.Humans.</small>**LeftHip**
+# <small>BH.oM.Humans.BodyParts.</small>**LeftHip**
 
 
 

@@ -2,7 +2,7 @@
 title: NurbsCurve
 ---
 
-# <small>BH.oM.</small>**NurbsCurve**
+# <small>BH.oM.Geometry.</small>**NurbsCurve**
 
 A non-uniform rational basis spline (or B-spline). Enables definition of smooth and continuous curves as piece-wise polynomial basis functions evaluated from discrete geometrical ControlPoints.
 A NurbsCurve, through its use of ControlPoint Weightings, has the ability to precisely represent the conic sections, such as the circle and parabolas etc.

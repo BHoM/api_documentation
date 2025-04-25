@@ -2,7 +2,7 @@
 title: ModalResultNormalisation
 ---
 
-# <small>BH.oM.Structure.</small>**ModalResultNormalisation**
+# <small>BH.oM.Structure.Results.</small>**ModalResultNormalisation**
 
 
 

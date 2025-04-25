@@ -2,7 +2,7 @@
 title: ServiceClassification
 ---
 
-# <small>BH.oM.MEP.</small>**ServiceClassification**
+# <small>BH.oM.MEP.Enums.</small>**ServiceClassification**
 
 A service classification of the MEP object.
 

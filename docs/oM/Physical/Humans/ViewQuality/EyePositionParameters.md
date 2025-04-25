@@ -2,7 +2,7 @@
 title: EyePositionParameters
 ---
 
-# <small>BH.oM.Humans.</small>**EyePositionParameters**
+# <small>BH.oM.Humans.ViewQuality.</small>**EyePositionParameters**
 
 
 

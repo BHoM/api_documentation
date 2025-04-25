@@ -2,7 +2,7 @@
 title: TypeOfTerrain
 ---
 
-# <small>BH.oM.Environment.</small>**TypeOfTerrain**
+# <small>BH.oM.Environment.SAP.</small>**TypeOfTerrain**
 
 Code which indicates the type of terrain.
 

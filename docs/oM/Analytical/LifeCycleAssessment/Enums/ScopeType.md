@@ -2,7 +2,7 @@
 title: ScopeType
 ---
 
-# <small>BH.oM.</small>**ScopeType**
+# <small>BH.oM.LifeCycleAssessment.</small>**ScopeType**
 
 The scope of the collection of object you would like to evaluate.
 

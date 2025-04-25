@@ -2,7 +2,7 @@
 title: DryBulbTemperatureResult
 ---
 
-# <small>BH.oM.Environment.</small>**DryBulbTemperatureResult**
+# <small>BH.oM.Environment.Results.</small>**DryBulbTemperatureResult**
 
 A results object containing dry bulb temperature data.
 

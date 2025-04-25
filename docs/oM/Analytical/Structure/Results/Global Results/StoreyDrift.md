@@ -2,7 +2,7 @@
 title: StoreyDrift
 ---
 
-# <small>BH.oM.Structure.</small>**StoreyDrift**
+# <small>BH.oM.Structure.Results.</small>**StoreyDrift**
 
 The relative lateral displacement between consecutive floors.
 

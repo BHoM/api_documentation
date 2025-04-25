@@ -2,7 +2,7 @@
 title: Velocity
 ---
 
-# <small>BH.oM.Quantities.</small>**Velocity**
+# <small>BH.oM.Quantities.Attributes.</small>**Velocity**
 
 Dimensional quantity as defined by the International System of Quantities
 

@@ -2,7 +2,7 @@
 title: Constraint3DOF
 ---
 
-# <small>BH.oM.Structure.</small>**Constraint3DOF**
+# <small>BH.oM.Structure.Constraints.</small>**Constraint3DOF**
 
 Constraint objects with three translational degrees of freedom, used for support of 2D analytical objects.
 

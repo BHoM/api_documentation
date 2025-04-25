@@ -2,7 +2,7 @@
 title: BarPointLoad
 ---
 
-# <small>BH.oM.Structure.</small>**BarPointLoad**
+# <small>BH.oM.Structure.Loads.</small>**BarPointLoad**
 
 Point load to be applied for Bars, positioned a set distance from the StartNode.
 

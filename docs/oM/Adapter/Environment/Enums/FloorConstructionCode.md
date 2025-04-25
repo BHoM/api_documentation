@@ -2,7 +2,7 @@
 title: FloorConstructionCode
 ---
 
-# <small>BH.oM.Environment.</small>**FloorConstructionCode**
+# <small>BH.oM.Environment.SAP.</small>**FloorConstructionCode**
 
 Code which indicates the type of floor construction.
 

@@ -2,7 +2,7 @@
 title: TestAdapterId
 ---
 
-# <small>BH.oM.Test.</small>**TestAdapterId**
+# <small>BH.oM.Test.Adapter.</small>**TestAdapterId**
 
 Class to use for tests requiring an IAdapterId to be assigned to objects being tested.
 

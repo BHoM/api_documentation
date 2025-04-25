@@ -2,7 +2,7 @@
 title: TimberAnalysisDominantLoadCondition
 ---
 
-# <small>BH.oM.Structure.</small>**TimberAnalysisDominantLoadCondition**
+# <small>BH.oM.Structure.MaterialFragments.</small>**TimberAnalysisDominantLoadCondition**
 
 Enum for controlling if analysis parameters of the Timber material should be assigned based on values for bending or axial stiffness.
 Only relevant for some engineered timber products.

@@ -2,7 +2,7 @@
 title: CompositeSection
 ---
 
-# <small>BH.oM.Structure.</small>**CompositeSection**
+# <small>BH.oM.Structure.SectionProperties.</small>**CompositeSection**
 
 A steel-concrete composite section to be used on bars. Defined by a steel and a concrete section. Not yet fully implemented/Supported.
 

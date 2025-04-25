@@ -2,7 +2,7 @@
 title: SkyTemperatureResult
 ---
 
-# <small>BH.oM.Environment.</small>**SkyTemperatureResult**
+# <small>BH.oM.Environment.Results.</small>**SkyTemperatureResult**
 
 A results object containing sky temperature data.
 

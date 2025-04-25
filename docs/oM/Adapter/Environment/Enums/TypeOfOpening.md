@@ -2,7 +2,7 @@
 title: TypeOfOpening
 ---
 
-# <small>BH.oM.Environment.</small>**TypeOfOpening**
+# <small>BH.oM.Environment.SAP.</small>**TypeOfOpening**
 
 Code which indicates the type of opening.
 

@@ -2,7 +2,7 @@
 title: ProfileResultUnit
 ---
 
-# <small>BH.oM.Environment.</small>**ProfileResultUnit**
+# <small>BH.oM.Environment.Results.</small>**ProfileResultUnit**
 
 
 

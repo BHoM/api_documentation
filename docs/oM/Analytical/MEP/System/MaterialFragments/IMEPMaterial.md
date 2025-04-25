@@ -2,7 +2,7 @@
 title: IMEPMaterial
 ---
 
-# <small>BH.oM.MEP.System.</small>**IMEPMaterial**
+# <small>BH.oM.MEP.System.MaterialFragments.</small>**IMEPMaterial**
 
 Base interface for MEP materials used by MEP properties or as a fragment of the physical material.
 

@@ -2,7 +2,7 @@
 title: BarDeformation
 ---
 
-# <small>BH.oM.Structure.</small>**BarDeformation**
+# <small>BH.oM.Structure.Results.</small>**BarDeformation**
 
 Resulting local deformation of the Bar in local coordinates. This is disregarding rigid body motion and/or rotation of the Bar.
 

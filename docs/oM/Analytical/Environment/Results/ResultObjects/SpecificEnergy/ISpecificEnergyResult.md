@@ -2,7 +2,7 @@
 title: ISpecificEnergyResult
 ---
 
-# <small>BH.oM.Environment.</small>**ISpecificEnergyResult**
+# <small>BH.oM.Environment.Results.</small>**ISpecificEnergyResult**
 
 A results object containing specific energy data.
 

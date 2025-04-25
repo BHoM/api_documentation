@@ -2,7 +2,7 @@
 title: Frequency
 ---
 
-# <small>BH.oM.Quantities.</small>**Frequency**
+# <small>BH.oM.Quantities.Attributes.</small>**Frequency**
 
 Dimensional quantity as defined by the International System of Quantities
 

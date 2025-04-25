@@ -2,7 +2,7 @@
 title: ClimateChangeBiogenicElementResult
 ---
 
-# <small>BH.oM.LifeCycleAssessment.</small>**ClimateChangeBiogenicElementResult**
+# <small>BH.oM.LifeCycleAssessment.Results.</small>**ClimateChangeBiogenicElementResult**
 
 Result class for resulting Climate change - biogenic for a particular Element.
 

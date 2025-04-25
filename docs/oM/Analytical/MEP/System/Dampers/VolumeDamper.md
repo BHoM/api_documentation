@@ -2,7 +2,7 @@
 title: VolumeDamper
 ---
 
-# <small>BH.oM.MEP.System.</small>**VolumeDamper**
+# <small>BH.oM.MEP.System.Dampers.</small>**VolumeDamper**
 
 A type of damper used to control the flow of air in a mechanical system.
 

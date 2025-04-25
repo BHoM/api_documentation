@@ -2,7 +2,7 @@
 title: ExplodeNode
 ---
 
-# <small>BH.oM.</small>**ExplodeNode**
+# <small>BH.oM.Programming.</small>**ExplodeNode**
 
 A syntax node corresponding to a call to the BHoM Explode method/component.
 

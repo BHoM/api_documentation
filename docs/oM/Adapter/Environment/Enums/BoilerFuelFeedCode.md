@@ -2,7 +2,7 @@
 title: BoilerFuelFeedCode
 ---
 
-# <small>BH.oM.Environment.</small>**BoilerFuelFeedCode**
+# <small>BH.oM.Environment.SAP.</small>**BoilerFuelFeedCode**
 
 Code which indicates the type of boiler fuel feed.
 

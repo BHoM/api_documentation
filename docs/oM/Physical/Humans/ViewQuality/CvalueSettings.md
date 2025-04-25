@@ -2,7 +2,7 @@
 title: CvalueSettings
 ---
 
-# <small>BH.oM.Humans.</small>**CvalueSettings**
+# <small>BH.oM.Humans.ViewQuality.</small>**CvalueSettings**
 
 
 

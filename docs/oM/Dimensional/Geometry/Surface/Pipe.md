@@ -2,7 +2,7 @@
 title: Pipe
 ---
 
-# <small>BH.oM.</small>**Pipe**
+# <small>BH.oM.Geometry.</small>**Pipe**
 
 A constant circular cross section surface, following a defined curve path.
 

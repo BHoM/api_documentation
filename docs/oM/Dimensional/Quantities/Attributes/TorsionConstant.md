@@ -2,7 +2,7 @@
 title: TorsionConstant
 ---
 
-# <small>BH.oM.Quantities.</small>**TorsionConstant**
+# <small>BH.oM.Quantities.Attributes.</small>**TorsionConstant**
 
 Dimensional quantity as defined by the International System of Quantities
 

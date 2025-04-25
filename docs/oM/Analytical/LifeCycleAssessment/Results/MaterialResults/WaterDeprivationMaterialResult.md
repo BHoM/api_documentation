@@ -2,7 +2,7 @@
 title: WaterDeprivationMaterialResult
 ---
 
-# <small>BH.oM.LifeCycleAssessment.</small>**WaterDeprivationMaterialResult**
+# <small>BH.oM.LifeCycleAssessment.Results.</small>**WaterDeprivationMaterialResult**
 
 Result class for resulting Water Deprivation for a particular Material and EPD.
 

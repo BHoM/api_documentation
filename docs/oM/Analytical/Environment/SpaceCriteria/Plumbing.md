@@ -2,7 +2,7 @@
 title: Plumbing
 ---
 
-# <small>BH.oM.Environment.</small>**Plumbing**
+# <small>BH.oM.Environment.SpaceCriteria.</small>**Plumbing**
 
 The plumbing attributes of a space are indicative of the amount of cold water, hot water and waste required by a space, as well as requirements for vent, floor drains, hose bibs or natural gas
 

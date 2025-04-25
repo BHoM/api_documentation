@@ -2,7 +2,7 @@
 title: GeometryFragment
 ---
 
-# <small>BH.oM.MEP.</small>**GeometryFragment**
+# <small>BH.oM.MEP.Fragments.</small>**GeometryFragment**
 
 
 

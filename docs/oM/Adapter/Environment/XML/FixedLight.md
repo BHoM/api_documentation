@@ -2,7 +2,7 @@
 title: FixedLight
 ---
 
-# <small>BH.oM.Environment.SAP.</small>**FixedLight**
+# <small>BH.oM.Environment.SAP.XML.</small>**FixedLight**
 
 
 

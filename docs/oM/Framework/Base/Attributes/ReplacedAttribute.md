@@ -2,7 +2,7 @@
 title: ReplacedAttribute
 ---
 
-# <small>BH.oM.Base.</small>**ReplacedAttribute**
+# <small>BH.oM.Base.Attributes.</small>**ReplacedAttribute**
 
 
 

@@ -2,7 +2,7 @@
 title: IShapeCode
 ---
 
-# <small>BH.oM.Physical.</small>**IShapeCode**
+# <small>BH.oM.Physical.Reinforcement.</small>**IShapeCode**
 
 Base interface for all ShapeCode objects.
 

@@ -2,7 +2,7 @@
 title: Delta
 ---
 
-# <small>BH.oM.</small>**Delta**
+# <small>BH.oM.Diffing.</small>**Delta**
 
 Contains the Diff plus context information: parent Stream, Timestamp, etc.
 

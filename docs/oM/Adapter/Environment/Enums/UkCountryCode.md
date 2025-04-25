@@ -2,7 +2,7 @@
 title: UKCountryCode
 ---
 
-# <small>BH.oM.Environment.</small>**UKCountryCode**
+# <small>BH.oM.Environment.SAP.</small>**UKCountryCode**
 
 Code which indicates the country within the UK, taken from BS 6879.
 

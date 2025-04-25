@@ -2,7 +2,7 @@
 title: EutrophicationTerrestrialElementResult
 ---
 
-# <small>BH.oM.LifeCycleAssessment.</small>**EutrophicationTerrestrialElementResult**
+# <small>BH.oM.LifeCycleAssessment.Results.</small>**EutrophicationTerrestrialElementResult**
 
 Result class for resulting Eutrophication - terrestrial for a particular Element.
 

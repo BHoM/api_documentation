@@ -2,7 +2,7 @@
 title: SensibleDelayed
 ---
 
-# <small>BH.oM.XML.</small>**SensibleDelayed**
+# <small>BH.oM.XML.EnergyPlus.</small>**SensibleDelayed**
 
 
 

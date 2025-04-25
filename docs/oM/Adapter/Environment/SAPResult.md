@@ -2,7 +2,7 @@
 title: SAPResult
 ---
 
-# <small>BH.oM.Environment.</small>**SAPResult**
+# <small>BH.oM.Environment.SAP.</small>**SAPResult**
 
 An individual result for a single iteration of a SAP analysis on a dwelling.
 

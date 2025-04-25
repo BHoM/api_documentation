@@ -2,7 +2,7 @@
 title: SawnTimber
 ---
 
-# <small>BH.oM.Structure.</small>**SawnTimber**
+# <small>BH.oM.Structure.MaterialFragments.</small>**SawnTimber**
 
 Structural material of standard construction Timber to be used on structural elements and properties, or as a fragment of the physical material.
 

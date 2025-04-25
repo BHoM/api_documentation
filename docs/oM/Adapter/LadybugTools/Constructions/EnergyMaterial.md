@@ -2,7 +2,7 @@
 title: EnergyMaterial
 ---
 
-# <small>BH.oM.</small>**EnergyMaterial**
+# <small>BH.oM.LadybugTools.</small>**EnergyMaterial**
 
 
 

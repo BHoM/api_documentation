@@ -2,7 +2,7 @@
 title: Head
 ---
 
-# <small>BH.oM.Humans.</small>**Head**
+# <small>BH.oM.Humans.BodyParts.</small>**Head**
 
 
 

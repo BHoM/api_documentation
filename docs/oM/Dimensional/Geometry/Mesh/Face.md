@@ -2,7 +2,7 @@
 title: Face
 ---
 
-# <small>BH.oM.</small>**Face**
+# <small>BH.oM.Geometry.</small>**Face**
 
 A triangular or quadrilateral shape forming the basis of a polygon Mesh. Defined by corner vertices referencing indices of a Point list. See BH.oM.Geometry.Mesh object for usage.
 A value of -1 for the fourth vertex D indicates the Face is triangular.

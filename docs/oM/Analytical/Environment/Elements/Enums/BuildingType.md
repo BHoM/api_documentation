@@ -2,7 +2,7 @@
 title: BuildingType
 ---
 
-# <small>BH.oM.Environment.</small>**BuildingType**
+# <small>BH.oM.Environment.Elements.</small>**BuildingType**
 
 The main classification for a building (e.g. Office, Residential)
 

@@ -2,7 +2,7 @@
 title: OneDirectionalVoided
 ---
 
-# <small>BH.oM.Structure.</small>**OneDirectionalVoided**
+# <small>BH.oM.Structure.SurfaceProperties.</small>**OneDirectionalVoided**
 
 Property for 2D analytical elements, made up of two slabs with parallel ribs running in one direction between them, all sharing the same material.
 

@@ -2,7 +2,7 @@
 title: AvgPooling2d
 ---
 
-# <small>BH.oM.DeepLearning.</small>**AvgPooling2d**
+# <small>BH.oM.DeepLearning.Layers.</small>**AvgPooling2d**
 
 
 

@@ -2,7 +2,7 @@
 title: EutrophicationTRACIMetric
 ---
 
-# <small>BH.oM.LifeCycleAssessment.</small>**EutrophicationTRACIMetric**
+# <small>BH.oM.LifeCycleAssessment.MaterialFragments.</small>**EutrophicationTRACIMetric**
 
 Eutrophication (Version 1 North American standard) for a particular product or material. Forms part of an EPD, and should be evaluated based on the QuantityType stated on the EPD.
 

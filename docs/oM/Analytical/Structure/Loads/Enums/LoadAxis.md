@@ -2,7 +2,7 @@
 title: LoadAxis
 ---
 
-# <small>BH.oM.Structure.</small>**LoadAxis**
+# <small>BH.oM.Structure.Loads.</small>**LoadAxis**
 
 
 

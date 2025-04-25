@@ -2,7 +2,7 @@
 title: HasValue
 ---
 
-# <small>BH.oM.Verification.</small>**HasValue**
+# <small>BH.oM.Verification.Conditions.</small>**HasValue**
 
 
 

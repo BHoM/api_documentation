@@ -2,7 +2,7 @@
 title: LightReflectanceFragment
 ---
 
-# <small>BH.oM.Environment.</small>**LightReflectanceFragment**
+# <small>BH.oM.Environment.Fragments.</small>**LightReflectanceFragment**
 
 Fragment containing red, green and blue light reflectance property
 

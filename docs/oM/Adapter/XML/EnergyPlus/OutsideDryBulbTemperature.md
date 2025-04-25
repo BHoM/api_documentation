@@ -2,7 +2,7 @@
 title: OutsideDryBulbTemperature
 ---
 
-# <small>BH.oM.XML.</small>**OutsideDryBulbTemperature**
+# <small>BH.oM.XML.EnergyPlus.</small>**OutsideDryBulbTemperature**
 
 
 

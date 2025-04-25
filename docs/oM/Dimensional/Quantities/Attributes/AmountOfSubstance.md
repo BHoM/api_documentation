@@ -2,7 +2,7 @@
 title: AmountOfSubstance
 ---
 
-# <small>BH.oM.Quantities.</small>**AmountOfSubstance**
+# <small>BH.oM.Quantities.Attributes.</small>**AmountOfSubstance**
 
 Dimensional quantity as defined by the International System of Quantities
 

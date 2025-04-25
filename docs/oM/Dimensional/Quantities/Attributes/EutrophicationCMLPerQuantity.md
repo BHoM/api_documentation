@@ -2,7 +2,7 @@
 title: EutrophicationCMLPerQuantity
 ---
 
-# <small>BH.oM.Quantities.</small>**EutrophicationCMLPerQuantity**
+# <small>BH.oM.Quantities.Attributes.</small>**EutrophicationCMLPerQuantity**
 
 Quantity type for Eutrophication Potential for version 1 of list of indicators as defined in EN 15804+A1.
 

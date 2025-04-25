@@ -2,7 +2,7 @@
 title: RightThumb
 ---
 
-# <small>BH.oM.Humans.</small>**RightThumb**
+# <small>BH.oM.Humans.BodyParts.</small>**RightThumb**
 
 
 

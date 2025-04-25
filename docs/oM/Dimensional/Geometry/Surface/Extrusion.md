@@ -2,7 +2,7 @@
 title: Extrusion
 ---
 
-# <small>BH.oM.</small>**Extrusion**
+# <small>BH.oM.Geometry.</small>**Extrusion**
 
 A constant cross section surface, defined by a single profile curve and a linear axis.
 

@@ -2,7 +2,7 @@
 title: Wall
 ---
 
-# <small>BH.oM.Physical.</small>**Wall**
+# <small>BH.oM.Physical.Elements.</small>**Wall**
 
 
 

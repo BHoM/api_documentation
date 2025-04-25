@@ -2,7 +2,7 @@
 title: IModule
 ---
 
-# <small>BH.oM.</small>**IModule**
+# <small>BH.oM.DeepLearning.</small>**IModule**
 
 
 

@@ -2,7 +2,7 @@
 title: NodeDisplacement
 ---
 
-# <small>BH.oM.Structure.</small>**NodeDisplacement**
+# <small>BH.oM.Structure.Results.</small>**NodeDisplacement**
 
 Resulting displacements and rotations for a Node.
 

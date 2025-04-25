@@ -2,7 +2,7 @@
 title: BarStress
 ---
 
-# <small>BH.oM.Structure.</small>**BarStress**
+# <small>BH.oM.Structure.Results.</small>**BarStress**
 
 Resulting stresses in local coordinates along the bar.
 

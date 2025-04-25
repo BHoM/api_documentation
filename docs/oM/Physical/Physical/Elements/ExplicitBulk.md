@@ -2,7 +2,7 @@
 title: ExplicitBulk
 ---
 
-# <small>BH.oM.Physical.</small>**ExplicitBulk**
+# <small>BH.oM.Physical.Elements.</small>**ExplicitBulk**
 
 
 

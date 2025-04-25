@@ -2,7 +2,7 @@
 title: ClimateChangePerQuantity
 ---
 
-# <small>BH.oM.Quantities.</small>**ClimateChangePerQuantity**
+# <small>BH.oM.Quantities.Attributes.</small>**ClimateChangePerQuantity**
 
 Quantity type for climate change per quantity.
 

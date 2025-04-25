@@ -2,7 +2,7 @@
 title: TaperFlangeChannelProfile
 ---
 
-# <small>BH.oM.Spatial.</small>**TaperFlangeChannelProfile**
+# <small>BH.oM.Spatial.ShapeProfiles.</small>**TaperFlangeChannelProfile**
 
 C-shaped profile with tapered flanges of the same length and thickness.
 

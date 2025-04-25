@@ -2,7 +2,7 @@
 title: UnderlyingType
 ---
 
-# <small>BH.oM.Base.</small>**UnderlyingType**
+# <small>BH.oM.Base.Reflection.</small>**UnderlyingType**
 
 
 

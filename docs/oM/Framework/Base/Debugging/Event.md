@@ -2,7 +2,7 @@
 title: Event
 ---
 
-# <small>BH.oM.Base.</small>**Event**
+# <small>BH.oM.Base.Debugging.</small>**Event**
 
 
 

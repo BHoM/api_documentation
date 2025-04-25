@@ -2,7 +2,7 @@
 title: FittingType
 ---
 
-# <small>BH.oM.MEP.</small>**FittingType**
+# <small>BH.oM.MEP.Enums.</small>**FittingType**
 
 A type of fitting used to transition from one segment of linear MEP object to another.
 

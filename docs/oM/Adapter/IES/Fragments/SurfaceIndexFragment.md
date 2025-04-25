@@ -2,7 +2,7 @@
 title: SurfaceIndexFragment
 ---
 
-# <small>BH.oM.IES.</small>**SurfaceIndexFragment**
+# <small>BH.oM.IES.Fragments.</small>**SurfaceIndexFragment**
 
 Fragment containing the surface index from IES
 

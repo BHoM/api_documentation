@@ -2,7 +2,7 @@
 title: Stem
 ---
 
-# <small>BH.oM.Structure.</small>**Stem**
+# <small>BH.oM.Structure.Elements.</small>**Stem**
 
 
 

@@ -2,7 +2,7 @@
 title: DocumentationURLAttribute
 ---
 
-# <small>BH.oM.Base.</small>**DocumentationURLAttribute**
+# <small>BH.oM.Base.Attributes.</small>**DocumentationURLAttribute**
 
 
 

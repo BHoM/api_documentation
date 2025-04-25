@@ -2,7 +2,7 @@
 title: LaminatedVeneerLumberCrossbands
 ---
 
-# <small>BH.oM.Structure.</small>**LaminatedVeneerLumberCrossbands**
+# <small>BH.oM.Structure.MaterialFragments.</small>**LaminatedVeneerLumberCrossbands**
 
 Structural timber material of type Laminated Veneer Lumber with crossband veneers. To be used on structural elements and properties, or as a fragment of the physical material.
 Note: Properties for LVL are not part of a harmonised standard and therefore vary between manufacturers and products.

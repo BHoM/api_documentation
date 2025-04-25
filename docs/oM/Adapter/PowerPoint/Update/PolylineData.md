@@ -2,7 +2,7 @@
 title: PolylineData
 ---
 
-# <small>BH.oM.</small>**PolylineData**
+# <small>BH.oM.PowerPoint.</small>**PolylineData**
 
 Data corresponding to polylinear data and style properties.
 

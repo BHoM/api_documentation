@@ -2,7 +2,7 @@
 title: MassPerUnitArea
 ---
 
-# <small>BH.oM.Quantities.</small>**MassPerUnitArea**
+# <small>BH.oM.Quantities.Attributes.</small>**MassPerUnitArea**
 
 Dimensional quantity as defined by the International System of Quantities
 

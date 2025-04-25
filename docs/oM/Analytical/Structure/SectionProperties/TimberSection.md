@@ -2,7 +2,7 @@
 title: TimberSection
 ---
 
-# <small>BH.oM.Structure.</small>**TimberSection**
+# <small>BH.oM.Structure.SectionProperties.</small>**TimberSection**
 
 Timber section to be used on Bars. Defined by a section profile.
 

@@ -2,7 +2,7 @@
 title: Moment
 ---
 
-# <small>BH.oM.Quantities.</small>**Moment**
+# <small>BH.oM.Quantities.Attributes.</small>**Moment**
 
 Dimensional quantity as defined by the International System of Quantities
 

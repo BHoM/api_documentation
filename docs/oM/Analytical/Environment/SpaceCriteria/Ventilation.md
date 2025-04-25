@@ -2,7 +2,7 @@
 title: Ventilation
 ---
 
-# <small>BH.oM.Environment.</small>**Ventilation**
+# <small>BH.oM.Environment.SpaceCriteria.</small>**Ventilation**
 
 Ventilation defines the amount of outside air that should be introduced to a space, which is typically based on the number of occupants breathing the air and the area of the space.
 

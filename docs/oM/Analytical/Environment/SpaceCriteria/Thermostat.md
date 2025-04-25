@@ -2,7 +2,7 @@
 title: Thermostat
 ---
 
-# <small>BH.oM.Environment.</small>**Thermostat**
+# <small>BH.oM.Environment.SpaceCriteria.</small>**Thermostat**
 
 
 

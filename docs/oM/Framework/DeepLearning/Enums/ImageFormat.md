@@ -2,7 +2,7 @@
 title: ImageFormat
 ---
 
-# <small>BH.oM.</small>**ImageFormat**
+# <small>BH.oM.DeepLearning.</small>**ImageFormat**
 
 
 

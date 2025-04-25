@@ -2,7 +2,7 @@
 title: Openings
 ---
 
-# <small>BH.oM.Environment.SAP.</small>**Openings**
+# <small>BH.oM.Environment.SAP.XML.</small>**Openings**
 
 
 

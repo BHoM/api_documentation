@@ -2,7 +2,7 @@
 title: CommunityHeatSources
 ---
 
-# <small>BH.oM.Environment.SAP.</small>**CommunityHeatSources**
+# <small>BH.oM.Environment.SAP.XML.</small>**CommunityHeatSources**
 
 
 

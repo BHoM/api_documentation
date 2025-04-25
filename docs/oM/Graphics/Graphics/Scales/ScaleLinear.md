@@ -2,7 +2,7 @@
 title: ScaleLinear
 ---
 
-# <small>BH.oM.Graphics.</small>**ScaleLinear**
+# <small>BH.oM.Graphics.Scales.</small>**ScaleLinear**
 
 Scale for mapping a continuous, quantitative input domain to a continuous output range.
 

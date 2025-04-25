@@ -2,7 +2,7 @@
 title: FrameEdge
 ---
 
-# <small>BH.oM.Facade.</small>**FrameEdge**
+# <small>BH.oM.Facade.Elements.</small>**FrameEdge**
 
 A frame edge (eg mullion, window jamb, curtain wall sill, etc)
 

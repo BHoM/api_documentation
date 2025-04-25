@@ -2,7 +2,7 @@
 title: INode
 ---
 
-# <small>BH.oM.</small>**INode**
+# <small>BH.oM.Programming.</small>**INode**
 
 Interface common to all syntax nodes
 

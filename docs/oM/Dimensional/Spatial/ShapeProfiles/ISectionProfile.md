@@ -2,7 +2,7 @@
 title: ISectionProfile
 ---
 
-# <small>BH.oM.Spatial.</small>**ISectionProfile**
+# <small>BH.oM.Spatial.ShapeProfiles.</small>**ISectionProfile**
 
 I-shaped profile with parallel flanges with equal thickness.
 

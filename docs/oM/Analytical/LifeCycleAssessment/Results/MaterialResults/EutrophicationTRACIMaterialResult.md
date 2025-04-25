@@ -2,7 +2,7 @@
 title: EutrophicationTRACIMaterialResult
 ---
 
-# <small>BH.oM.LifeCycleAssessment.</small>**EutrophicationTRACIMaterialResult**
+# <small>BH.oM.LifeCycleAssessment.Results.</small>**EutrophicationTRACIMaterialResult**
 
 Result class for resulting Eutrophication (Version 1 North American standard) for a particular Material and EPD.
 

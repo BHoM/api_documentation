@@ -2,7 +2,7 @@
 title: NodeGroup
 ---
 
-# <small>BH.oM.</small>**NodeGroup**
+# <small>BH.oM.Programming.</small>**NodeGroup**
 
 A group of syntax nodes referenced by their Guid.
 

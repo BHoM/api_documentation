@@ -2,7 +2,7 @@
 title: Glulam
 ---
 
-# <small>BH.oM.Structure.</small>**Glulam**
+# <small>BH.oM.Structure.MaterialFragments.</small>**Glulam**
 
 Structural timber material of type Glued Laminated Timber to be used on structural elements and properties, or as a fragment of the physical material.
 

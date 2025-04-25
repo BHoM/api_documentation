@@ -2,7 +2,7 @@
 title: ClimateChangeLandUseMaterialResult
 ---
 
-# <small>BH.oM.LifeCycleAssessment.</small>**ClimateChangeLandUseMaterialResult**
+# <small>BH.oM.LifeCycleAssessment.Results.</small>**ClimateChangeLandUseMaterialResult**
 
 Result class for resulting Climate change - Land Use and Land Use Change for a particular Material and EPD.
 

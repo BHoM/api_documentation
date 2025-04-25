@@ -2,7 +2,7 @@
 title: ParameterPoint
 ---
 
-# <small>BH.oM.</small>**ParameterPoint**
+# <small>BH.oM.dKoP.</small>**ParameterPoint**
 
 
 

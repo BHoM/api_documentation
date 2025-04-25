@@ -2,7 +2,7 @@
 title: EutrophicationTRACIElementResult
 ---
 
-# <small>BH.oM.LifeCycleAssessment.</small>**EutrophicationTRACIElementResult**
+# <small>BH.oM.LifeCycleAssessment.Results.</small>**EutrophicationTRACIElementResult**
 
 Result class for resulting Eutrophication (Version 1 North American standard) for a particular Element.
 

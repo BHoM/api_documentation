@@ -2,7 +2,7 @@
 title: ProjectReference
 ---
 
-# <small>BH.oM.XML.</small>**ProjectReference**
+# <small>BH.oM.XML.CSProject.</small>**ProjectReference**
 
 
 

@@ -2,7 +2,7 @@
 title: EnergyFeature
 ---
 
-# <small>BH.oM.Environment.SAP.</small>**EnergyFeature**
+# <small>BH.oM.Environment.SAP.XML.</small>**EnergyFeature**
 
 
 

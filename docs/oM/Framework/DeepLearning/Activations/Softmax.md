@@ -2,7 +2,7 @@
 title: Softmax
 ---
 
-# <small>BH.oM.DeepLearning.</small>**Softmax**
+# <small>BH.oM.DeepLearning.Activations.</small>**Softmax**
 
 
 

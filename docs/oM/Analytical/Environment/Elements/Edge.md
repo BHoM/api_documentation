@@ -2,7 +2,7 @@
 title: Edge
 ---
 
-# <small>BH.oM.Environment.</small>**Edge**
+# <small>BH.oM.Environment.Elements.</small>**Edge**
 
 An environment object used to define an edge of an external boundary (e.g. the edge of an environmental panel or opening)
 

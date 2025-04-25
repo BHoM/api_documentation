@@ -2,7 +2,7 @@
 title: SPT
 ---
 
-# <small>BH.oM.</small>**SPT**
+# <small>BH.oM.Ground.</small>**SPT**
 
 A set of data related to Standard Penetration Tests (SPT) carried out.
 

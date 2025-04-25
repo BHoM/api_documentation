@@ -2,7 +2,7 @@
 title: Material
 ---
 
-# <small>BH.oM.Physical.</small>**Material**
+# <small>BH.oM.Physical.Materials.</small>**Material**
 
 Physical material to be used for Takeoffs and asigned to Physical elements. Material is capable of storing discipline specific data in Properties.
 

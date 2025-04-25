@@ -2,7 +2,7 @@
 title: PhotochemicalOzoneCreationCMLMetric
 ---
 
-# <small>BH.oM.LifeCycleAssessment.</small>**PhotochemicalOzoneCreationCMLMetric**
+# <small>BH.oM.LifeCycleAssessment.MaterialFragments.</small>**PhotochemicalOzoneCreationCMLMetric**
 
 Photochemical Ozone Creation as defined by the CML standard for a particular product or material. Forms part of an EPD, and should be evaluated based on the QuantityType stated on the EPD.
 

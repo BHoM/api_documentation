@@ -2,7 +2,7 @@
 title: WindTurbine
 ---
 
-# <small>BH.oM.Environment.SAP.</small>**WindTurbine**
+# <small>BH.oM.Environment.SAP.XML.</small>**WindTurbine**
 
 
 

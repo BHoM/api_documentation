@@ -2,7 +2,7 @@
 title: Sphere
 ---
 
-# <small>BH.oM.</small>**Sphere**
+# <small>BH.oM.Geometry.</small>**Sphere**
 
 Standard sphere defining the closed bounding surface of constant distance from a point, its Centre
 

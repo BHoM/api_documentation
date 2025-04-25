@@ -2,7 +2,7 @@
 title: IdKopObject
 ---
 
-# <small>BH.oM.</small>**IdKopObject**
+# <small>BH.oM.dKoP.</small>**IdKopObject**
 
 
 

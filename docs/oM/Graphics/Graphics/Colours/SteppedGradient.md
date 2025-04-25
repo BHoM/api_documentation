@@ -2,7 +2,7 @@
 title: SteppedGradient
 ---
 
-# <small>BH.oM.</small>**SteppedGradient**
+# <small>BH.oM.Graphics.</small>**SteppedGradient**
 
 Gradient for extracting colours in specific range bands, this is, a single colour for a specific range.
 

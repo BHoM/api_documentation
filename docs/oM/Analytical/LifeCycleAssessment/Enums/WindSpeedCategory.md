@@ -2,7 +2,7 @@
 title: WindSpeedCategory
 ---
 
-# <small>BH.oM.</small>**WindSpeedCategory**
+# <small>BH.oM.LifeCycleAssessment.</small>**WindSpeedCategory**
 
 Wind speed category is in reference to the Beaufort Scale of wind speeds, and are used only to represent an average site-based, wind condition. Specific information on categorisation can be found at https://www.spc.noaa.gov/faq/tornado/beaufort.html
 

@@ -2,7 +2,7 @@
 title: InputAttribute
 ---
 
-# <small>BH.oM.Base.</small>**InputAttribute**
+# <small>BH.oM.Base.Attributes.</small>**InputAttribute**
 
 Attribute providing information about an input parameter of a method.
 

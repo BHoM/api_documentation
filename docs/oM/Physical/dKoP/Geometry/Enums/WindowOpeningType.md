@@ -2,7 +2,7 @@
 title: WindowOpeningType
 ---
 
-# <small>BH.oM.</small>**WindowOpeningType**
+# <small>BH.oM.dKoP.</small>**WindowOpeningType**
 
 
 

@@ -2,7 +2,7 @@
 title: IsInSet
 ---
 
-# <small>BH.oM.Verification.</small>**IsInSet**
+# <small>BH.oM.Verification.Conditions.</small>**IsInSet**
 
 Condition that verifies if a value extracted from an object is included in the given set of values.
 

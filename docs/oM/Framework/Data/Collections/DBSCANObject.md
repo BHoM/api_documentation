@@ -2,7 +2,7 @@
 title: DBSCANObject&lt;T&gt;
 ---
 
-# <small>BH.oM.Data.</small>**DBSCANObject&lt;T&gt;**
+# <small>BH.oM.Data.Collections.</small>**DBSCANObject&lt;T&gt;**
 
 
 

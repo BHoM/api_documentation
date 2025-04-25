@@ -2,7 +2,7 @@
 title: ToolkitSelectItem
 ---
 
-# <small>BH.oM.</small>**ToolkitSelectItem**
+# <small>BH.oM.UI.</small>**ToolkitSelectItem**
 
 For each toolkit in BHoM, allocate a boolean flag for whether it should appear in search results or not.
 

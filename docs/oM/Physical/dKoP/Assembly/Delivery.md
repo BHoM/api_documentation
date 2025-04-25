@@ -2,7 +2,7 @@
 title: Delivery
 ---
 
-# <small>BH.oM.</small>**Delivery**
+# <small>BH.oM.dKoP.</small>**Delivery**
 
 
 

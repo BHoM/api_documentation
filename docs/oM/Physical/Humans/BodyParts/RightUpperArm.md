@@ -2,7 +2,7 @@
 title: RightUpperArm
 ---
 
-# <small>BH.oM.Humans.</small>**RightUpperArm**
+# <small>BH.oM.Humans.BodyParts.</small>**RightUpperArm**
 
 
 

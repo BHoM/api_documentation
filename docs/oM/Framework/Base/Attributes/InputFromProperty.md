@@ -2,7 +2,7 @@
 title: InputFromProperty
 ---
 
-# <small>BH.oM.Base.</small>**InputFromProperty**
+# <small>BH.oM.Base.Attributes.</small>**InputFromProperty**
 
 
 

@@ -2,7 +2,7 @@
 title: Column
 ---
 
-# <small>BH.oM.Physical.</small>**Column**
+# <small>BH.oM.Physical.Elements.</small>**Column**
 
 
 

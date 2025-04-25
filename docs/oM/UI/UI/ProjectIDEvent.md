@@ -2,7 +2,7 @@
 title: ProjectIDEvent
 ---
 
-# <small>BH.oM.</small>**ProjectIDEvent**
+# <small>BH.oM.UI.</small>**ProjectIDEvent**
 
 
 

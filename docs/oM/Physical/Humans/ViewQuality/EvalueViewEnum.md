@@ -2,7 +2,7 @@
 title: EvalueViewEnum
 ---
 
-# <small>BH.oM.Humans.</small>**EvalueViewEnum**
+# <small>BH.oM.Humans.ViewQuality.</small>**EvalueViewEnum**
 
 
 

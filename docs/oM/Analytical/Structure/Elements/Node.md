@@ -2,7 +2,7 @@
 title: Node
 ---
 
-# <small>BH.oM.Structure.</small>**Node**
+# <small>BH.oM.Structure.Elements.</small>**Node**
 
 0D finite element for structural analysis. Node class contains positional information as well as orientation and support.
 

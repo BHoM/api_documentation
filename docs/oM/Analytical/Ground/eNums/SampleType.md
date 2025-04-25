@@ -2,7 +2,7 @@
 title: SampleType
 ---
 
-# <small>BH.oM.</small>**SampleType**
+# <small>BH.oM.Ground.</small>**SampleType**
 
 Sample type description based on the AGS schema v4.1.
 

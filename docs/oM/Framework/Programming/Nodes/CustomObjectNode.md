@@ -2,7 +2,7 @@
 title: CustomObjectNode
 ---
 
-# <small>BH.oM.</small>**CustomObjectNode**
+# <small>BH.oM.Programming.</small>**CustomObjectNode**
 
 A syntax node representing the creation of a BHoM Custom object.
 

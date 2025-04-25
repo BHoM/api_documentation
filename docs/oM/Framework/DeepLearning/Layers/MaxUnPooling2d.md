@@ -2,7 +2,7 @@
 title: MaxUnPooling2d
 ---
 
-# <small>BH.oM.DeepLearning.</small>**MaxUnPooling2d**
+# <small>BH.oM.DeepLearning.Layers.</small>**MaxUnPooling2d**
 
 
 

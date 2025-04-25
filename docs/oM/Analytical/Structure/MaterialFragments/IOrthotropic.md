@@ -2,7 +2,7 @@
 title: IOrthotropic
 ---
 
-# <small>BH.oM.Structure.</small>**IOrthotropic**
+# <small>BH.oM.Structure.MaterialFragments.</small>**IOrthotropic**
 
 Base interface for orthotropic structural materials.
 

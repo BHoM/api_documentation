@@ -2,7 +2,7 @@
 title: ZoneHumidityRatioAtPeak
 ---
 
-# <small>BH.oM.XML.</small>**ZoneHumidityRatioAtPeak**
+# <small>BH.oM.XML.EnergyPlus.</small>**ZoneHumidityRatioAtPeak**
 
 
 

@@ -2,7 +2,7 @@
 title: IPolyline
 ---
 
-# <small>BH.oM.</small>**IPolyline**
+# <small>BH.oM.Geometry.</small>**IPolyline**
 
 Base interface for curves built up of a series of connected line segments, defined by a collection of Points.
 

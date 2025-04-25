@@ -2,7 +2,7 @@
 title: Cone
 ---
 
-# <small>BH.oM.</small>**Cone**
+# <small>BH.oM.Geometry.</small>**Cone**
 
 A solid circular right angled cone
 

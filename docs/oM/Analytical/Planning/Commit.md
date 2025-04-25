@@ -2,7 +2,7 @@
 title: Commit
 ---
 
-# <small>BH.oM.</small>**Commit**
+# <small>BH.oM.Planning.</small>**Commit**
 
 
 

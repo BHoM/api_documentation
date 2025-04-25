@@ -2,7 +2,7 @@
 title: BoundingBox
 ---
 
-# <small>BH.oM.</small>**BoundingBox**
+# <small>BH.oM.Geometry.</small>**BoundingBox**
 
 An axis aligned cuboid, which describes the smallest volume Box, oriented with the global coordinate system, that fully encompases a set of geometry.
 Defined by its two extreme corner Points, these six coordinate values of Min and Max X, Y and Z are combined to specify all eight Box corners.

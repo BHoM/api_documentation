@@ -2,7 +2,7 @@
 title: WarpingConstant
 ---
 
-# <small>BH.oM.Quantities.</small>**WarpingConstant**
+# <small>BH.oM.Quantities.Attributes.</small>**WarpingConstant**
 
 Dimensional quantity as defined by the International System of Quantities
 

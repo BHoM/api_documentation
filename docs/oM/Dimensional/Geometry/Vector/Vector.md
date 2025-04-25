@@ -2,7 +2,7 @@
 title: Vector
 ---
 
-# <small>BH.oM.</small>**Vector**
+# <small>BH.oM.Geometry.</small>**Vector**
 
 Defines a direction and magnitude in three-dimensional Euclidean space.
 

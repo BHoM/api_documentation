@@ -2,7 +2,7 @@
 title: UniformLoadSetRecord
 ---
 
-# <small>BH.oM.Structure.</small>**UniformLoadSetRecord**
+# <small>BH.oM.Structure.Loads.</small>**UniformLoadSetRecord**
 
 Definition of a single uniform load in the gravity direction (-Z), to be added to a UniformLoadSet.
 

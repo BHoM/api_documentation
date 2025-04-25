@@ -2,7 +2,7 @@
 title: Panel
 ---
 
-# <small>BH.oM.Structure.</small>**Panel**
+# <small>BH.oM.Structure.Elements.</small>**Panel**
 
 2D element for structural analysis. 
 The Panel is a planar surface object defined by a list of planar 'Edges' (curves with properties) for both external and internal edges (openings).
@@ -63,7 +63,7 @@ The following properties are defined as extension methods in one of the BHoM_Eng
 | Centroid | [Point](/api/oM/Dimensional/Geometry/Vector/Point) | Queries the centre of area for a IElement2Ds surface representation. For an IElement2D with homogeneous material and thickness this will also be the centre of weight. | - | Spatial_Engine |
 | ControlPoints | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[Point](/api/oM/Dimensional/Geometry/Vector/Point)&gt; | Queries the control points of the element curve representation of the IElement2D. | - | Spatial_Engine |
 | CoordinateSystem | [Cartesian](/api/oM/Dimensional/Geometry/CoordinateSystem/Cartesian) | Get the Cartesian coordinate system describing the position and local orientation of the Panel in the global coordinate system where the z-axis is the normal of the Panel and the x and y axes are the directions of the local in-plane axes. | - | Structure_Engine |
-| Diaphragm | [Diaphragm](/api/oM/Adapter/Adapters.ETABS/Elements/Diaphragm) | - | - | ETABS_Engine |
+| Diaphragm | [Diaphragm](/api/oM/Adapter/Adapters/ETABS/Elements/Diaphragm) | - | - | ETABS_Engine |
 | DominantVector | [Vector](/api/oM/Dimensional/Geometry/Vector/Vector) | Gets the the dominant vector (orientation) of an Element2D based on its lines lengths. | - | Spatial_Engine |
 | ElementCurves | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[ICurve](/api/oM/Dimensional/Geometry/Curve/ICurve)&gt; | Queries the geometricly defining curves of the IElement2Ds surface. | - | Spatial_Engine |
 | ElementEmbodiedCarbon | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[IElementResult](/api/oM/Analytical/LifeCycleAssessment/Results/ElementResults/IElementResult)&lt;[MaterialResult](/api/oM/Analytical/LifeCycleAssessment/Results/MaterialResults/MaterialResult)&gt;&gt; | Evaluates the embodied carbon on the provided element based on IStructE methodology of evaluation.<br>If you would like to evaluate other EPD metrics, please use one of the Query.EnvironmentalResults methods. <br>TemplateMaterials can be provided helping with picking the correct EPD corresponding to each material on the element. Please note that this evaluation method only support mass-based EPDs. | - | LifeCycleAssessment_Engine |
@@ -107,14 +107,14 @@ The following properties are defined as extension methods in one of the BHoM_Eng
 | MaterialComposition | [MaterialComposition](/api/oM/Physical/Physical/Materials/MaterialComposition) | Returns an AreaElement's homogeneous MaterialComposition. | - | Structure_Engine |
 | Normal | [Vector](/api/oM/Dimensional/Geometry/Vector/Vector) | Returns the normal to the IElement2D which is perpendicular to its plane and oriented according to the right hand rule in relation to the outline curve. | - | Spatial_Engine |
 | OutlineCurve | [PolyCurve](/api/oM/Dimensional/Geometry/Curve/PolyCurve) | Returns a single polycurve outline created from the external elements. | - | Spatial_Engine |
-| PanelAutoMesh | [IPanelAutoMesh](/api/oM/Adapter/Adapters.SAP2000/Fragments/IPanelAutoMesh) | Returns the SAP2000 PanelAutoMesh settings for a panel. You can also use the method FindFragment() with the type IPanelAutoMesh as an argument. | - | SAP2000_Engine |
-| PanelEdgeConstraint | [PanelEdgeConstraint](/api/oM/Adapter/Adapters.SAP2000/Fragments/PanelEdgeConstraint) | Returns the SAP2000 PanelEdgeConstraint settings for a panel. You can also use the method FindFragment() with the type PanelEdgeConstraint as an argument. | - | SAP2000_Engine |
-| PanelOffset | [IPanelOffset](/api/oM/Adapter/Adapters.SAP2000/Fragments/IPanelOffset) | Returns the SAP2000 PanelOffset settings for a panel. You can also use the method FindFragment() with the type IPanelOffset as an argument. | - | SAP2000_Engine |
-| Pier | [Pier](/api/oM/Adapter/Adapters.ETABS/Elements/Pier) | - | - | ETABS_Engine |
+| PanelAutoMesh | [IPanelAutoMesh](/api/oM/Adapter/Adapters/SAP2000/Fragments/IPanelAutoMesh) | Returns the SAP2000 PanelAutoMesh settings for a panel. You can also use the method FindFragment() with the type IPanelAutoMesh as an argument. | - | SAP2000_Engine |
+| PanelEdgeConstraint | [PanelEdgeConstraint](/api/oM/Adapter/Adapters/SAP2000/Fragments/PanelEdgeConstraint) | Returns the SAP2000 PanelEdgeConstraint settings for a panel. You can also use the method FindFragment() with the type PanelEdgeConstraint as an argument. | - | SAP2000_Engine |
+| PanelOffset | [IPanelOffset](/api/oM/Adapter/Adapters/SAP2000/Fragments/IPanelOffset) | Returns the SAP2000 PanelOffset settings for a panel. You can also use the method FindFragment() with the type IPanelOffset as an argument. | - | SAP2000_Engine |
+| Pier | [Pier](/api/oM/Adapter/Adapters/ETABS/Elements/Pier) | - | - | ETABS_Engine |
 | PointGrid | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[Point](/api/oM/Dimensional/Geometry/Vector/Point)&gt; | Generates a rectangular grid of points on the Panel, scaled depending on Panel size. Used for load visualisation. | - | Structure_Engine |
 | QuantityTypes | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[QuantityType](/api/oM/Analytical/LifeCycleAssessment/Enums/QuantityType)&gt; | Query the QuantityType values from any IElementM object's MaterialComposition. | - | LifeCycleAssessment_Engine |
 | SolidVolume | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Returns a IAreaElement's solid volume as the area of the element times the average thickness of its SurfaceProperty. The average thickness is evaluated as if it was applied to an infinite plane. | [Volume](/api/oM/Dimensional/Quantities/Attributes/Volume) [m³] | Structure_Engine |
-| Spandrel | [Spandrel](/api/oM/Adapter/Adapters.ETABS/Elements/Spandrel) | - | - | ETABS_Engine |
+| Spandrel | [Spandrel](/api/oM/Adapter/Adapters/ETABS/Elements/Spandrel) | - | - | ETABS_Engine |
 
 
 ## Code and Schema

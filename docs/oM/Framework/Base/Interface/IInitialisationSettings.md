@@ -2,7 +2,7 @@
 title: IInitialisationSettings
 ---
 
-# <small>BH.oM.</small>**IInitialisationSettings**
+# <small>BH.oM.Base.</small>**IInitialisationSettings**
 
 Toolkit Settings that contain an initialisation method to be ran when the UI starts.
 

@@ -2,7 +2,7 @@
 title: FireAlarmDevice
 ---
 
-# <small>BH.oM.MEP.</small>**FireAlarmDevice**
+# <small>BH.oM.MEP.Fixtures.</small>**FireAlarmDevice**
 
 A device used to warn building occupants of emergencies (smoke, fire, carbon monoxide) by means of audio or visual appliances (smoke detectors, speaker strobes, heat detectors.)
 

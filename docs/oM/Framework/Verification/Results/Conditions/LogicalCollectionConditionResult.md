@@ -2,7 +2,7 @@
 title: LogicalCollectionConditionResult
 ---
 
-# <small>BH.oM.Verification.</small>**LogicalCollectionConditionResult**
+# <small>BH.oM.Verification.Results.</small>**LogicalCollectionConditionResult**
 
 Object representing result of ILogicalCollectionCondition.
 

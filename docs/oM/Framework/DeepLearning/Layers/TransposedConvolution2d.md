@@ -2,7 +2,7 @@
 title: TransposedConvolution2d
 ---
 
-# <small>BH.oM.DeepLearning.</small>**TransposedConvolution2d**
+# <small>BH.oM.DeepLearning.Layers.</small>**TransposedConvolution2d**
 
 
 

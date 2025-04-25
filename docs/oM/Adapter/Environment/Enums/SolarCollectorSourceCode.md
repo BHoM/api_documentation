@@ -2,7 +2,7 @@
 title: SolarCollectorSourceCode
 ---
 
-# <small>BH.oM.Environment.</small>**SolarCollectorSourceCode**
+# <small>BH.oM.Environment.SAP.</small>**SolarCollectorSourceCode**
 
 Code which indicates the source of solar collector data.
 

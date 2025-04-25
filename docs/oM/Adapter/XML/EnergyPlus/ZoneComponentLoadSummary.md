@@ -2,7 +2,7 @@
 title: ZoneComponentLoadSummary
 ---
 
-# <small>BH.oM.XML.</small>**ZoneComponentLoadSummary**
+# <small>BH.oM.XML.EnergyPlus.</small>**ZoneComponentLoadSummary**
 
 
 

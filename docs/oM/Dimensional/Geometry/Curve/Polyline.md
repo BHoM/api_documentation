@@ -2,7 +2,7 @@
 title: Polyline
 ---
 
-# <small>BH.oM.</small>**Polyline**
+# <small>BH.oM.Geometry.</small>**Polyline**
 
 A curve consisting of a continuous chain of straight line segments. The Polyline is considered closed if the first and last ControlPoints are coincident.
 

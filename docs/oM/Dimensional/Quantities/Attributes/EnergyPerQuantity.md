@@ -2,7 +2,7 @@
 title: EnergyPerQuantity
 ---
 
-# <small>BH.oM.Quantities.</small>**EnergyPerQuantity**
+# <small>BH.oM.Quantities.Attributes.</small>**EnergyPerQuantity**
 
 Dimensional quantity as defined by the International System of Quantities
 

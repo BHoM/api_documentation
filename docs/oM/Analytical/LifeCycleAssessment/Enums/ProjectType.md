@@ -2,7 +2,7 @@
 title: ProjectType
 ---
 
-# <small>BH.oM.</small>**ProjectType**
+# <small>BH.oM.LifeCycleAssessment.</small>**ProjectType**
 
 
 

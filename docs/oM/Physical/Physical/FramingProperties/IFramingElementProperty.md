@@ -2,7 +2,7 @@
 title: IFramingElementProperty
 ---
 
-# <small>BH.oM.Physical.</small>**IFramingElementProperty**
+# <small>BH.oM.Physical.FramingProperties.</small>**IFramingElementProperty**
 
 
 

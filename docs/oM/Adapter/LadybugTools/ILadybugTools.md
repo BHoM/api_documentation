@@ -2,7 +2,7 @@
 title: ILadybugTools
 ---
 
-# <small>BH.oM.</small>**ILadybugTools**
+# <small>BH.oM.LadybugTools.</small>**ILadybugTools**
 
 
 

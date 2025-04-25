@@ -2,7 +2,7 @@
 title: WindroseData
 ---
 
-# <small>BH.oM.</small>**WindroseData**
+# <small>BH.oM.LadybugTools.</small>**WindroseData**
 
 
 

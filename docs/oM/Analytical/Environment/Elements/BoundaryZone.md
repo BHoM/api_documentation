@@ -2,7 +2,7 @@
 title: BoundaryZone
 ---
 
-# <small>BH.oM.Environment.</small>**BoundaryZone**
+# <small>BH.oM.Environment.Elements.</small>**BoundaryZone**
 
 A zone of the external faces of an Environment Mesh.
 

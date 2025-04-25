@@ -2,7 +2,7 @@
 title: IWallOpening
 ---
 
-# <small>BH.oM.</small>**IWallOpening**
+# <small>BH.oM.dKoP.</small>**IWallOpening**
 
 
 

@@ -2,7 +2,7 @@
 title: CableTrayMaterial
 ---
 
-# <small>BH.oM.MEP.System.</small>**CableTrayMaterial**
+# <small>BH.oM.MEP.System.MaterialFragments.</small>**CableTrayMaterial**
 
 
 

@@ -2,7 +2,7 @@
 title: Basis
 ---
 
-# <small>BH.oM.</small>**Basis**
+# <small>BH.oM.Geometry.</small>**Basis**
 
 An ordered set of mutually orthogonal unit vectors defining three-dimensional orientation in space
 

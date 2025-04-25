@@ -2,7 +2,7 @@
 title: SimulationDayType
 ---
 
-# <small>BH.oM.Environment.</small>**SimulationDayType**
+# <small>BH.oM.Environment.SpaceCriteria.</small>**SimulationDayType**
 
 
 

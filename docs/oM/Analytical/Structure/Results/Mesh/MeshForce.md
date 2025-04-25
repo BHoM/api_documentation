@@ -2,7 +2,7 @@
 title: MeshForce
 ---
 
-# <small>BH.oM.Structure.</small>**MeshForce**
+# <small>BH.oM.Structure.Results.</small>**MeshForce**
 
 Gives a full set of shell and membrane forces at a discrete location in the Panel/FEMesh.
 

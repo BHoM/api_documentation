@@ -2,7 +2,7 @@
 title: HollowCore
 ---
 
-# <small>BH.oM.Structure.</small>**HollowCore**
+# <small>BH.oM.Structure.SurfaceProperties.</small>**HollowCore**
 
 Property for 2D analytical elements, made up of a fixed thickness slab of homogenous material, with a series of parallel holes through it in a particular direction.
 

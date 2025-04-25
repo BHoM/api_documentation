@@ -2,7 +2,7 @@
 title: FireProtection
 ---
 
-# <small>BH.oM.Environment.</small>**FireProtection**
+# <small>BH.oM.Environment.SpaceCriteria.</small>**FireProtection**
 
 The fire protection attributes of a space are indicative of the hazard level of the space (which influences the sprinkler count), the sprinkler system type required, and the presence of combustible materials or sloped ceilings.
 

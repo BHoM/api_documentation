@@ -2,7 +2,7 @@
 title: TypeOfImmersion
 ---
 
-# <small>BH.oM.Environment.</small>**TypeOfImmersion**
+# <small>BH.oM.Environment.SAP.</small>**TypeOfImmersion**
 
 Code which indicates the type of immersion heater.
 

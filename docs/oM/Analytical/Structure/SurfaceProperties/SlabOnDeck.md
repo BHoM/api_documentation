@@ -2,7 +2,7 @@
 title: SlabOnDeck
 ---
 
-# <small>BH.oM.Structure.</small>**SlabOnDeck**
+# <small>BH.oM.Structure.SurfaceProperties.</small>**SlabOnDeck**
 
 Property for 2D analytical elements representing a slab on a corrugated deck. Generally used to represent concrete on metal deck.
 

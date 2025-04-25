@@ -2,7 +2,7 @@
 title: RunType
 ---
 
-# <small>BH.oM.</small>**RunType**
+# <small>BH.oM.Ground.</small>**RunType**
 
 Run type description based on the AGS schema v4.1.
 

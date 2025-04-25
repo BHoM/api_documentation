@@ -2,7 +2,7 @@
 title: PlumbingFixtureFlow
 ---
 
-# <small>BH.oM.MEP.</small>**PlumbingFixtureFlow**
+# <small>BH.oM.MEP.Fixtures.</small>**PlumbingFixtureFlow**
 
 Flow properties of a plumbing fixture
 

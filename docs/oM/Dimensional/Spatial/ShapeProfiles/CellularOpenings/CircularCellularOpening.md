@@ -2,7 +2,7 @@
 title: CircularCellularOpening
 ---
 
-# <small>BH.oM.Spatial.ShapeProfiles.</small>**CircularCellularOpening**
+# <small>BH.oM.Spatial.ShapeProfiles.CellularOpenings.</small>**CircularCellularOpening**
 
 
 

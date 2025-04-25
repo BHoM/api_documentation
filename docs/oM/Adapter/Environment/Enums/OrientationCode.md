@@ -2,7 +2,7 @@
 title: OrientationCode
 ---
 
-# <small>BH.oM.Environment.</small>**OrientationCode**
+# <small>BH.oM.Environment.SAP.</small>**OrientationCode**
 
 Code which indicates the compass direction.
 

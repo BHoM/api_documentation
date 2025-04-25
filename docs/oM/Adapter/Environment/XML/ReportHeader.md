@@ -2,7 +2,7 @@
 title: ReportHeader
 ---
 
-# <small>BH.oM.Environment.SAP.</small>**ReportHeader**
+# <small>BH.oM.Environment.SAP.XML.</small>**ReportHeader**
 
 
 

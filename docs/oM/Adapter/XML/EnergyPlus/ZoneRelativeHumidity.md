@@ -2,7 +2,7 @@
 title: ZoneRelativeHumidity
 ---
 
-# <small>BH.oM.XML.</small>**ZoneRelativeHumidity**
+# <small>BH.oM.XML.EnergyPlus.</small>**ZoneRelativeHumidity**
 
 
 

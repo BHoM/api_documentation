@@ -2,7 +2,7 @@
 title: IPersistentAdapterId
 ---
 
-# <small>BH.oM.</small>**IPersistentAdapterId**
+# <small>BH.oM.Base.</small>**IPersistentAdapterId**
 
 Requires a Fragment to contain a PersistentId, imported through an Adapter, that can be used to track an object.
 
@@ -20,9 +20,9 @@ Requires a Fragment to contain a PersistentId, imported through an Adapter, that
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - BH.oM.Adapters.ETABS.[ETABSId](/api/oM/Adapter/Adapters.ETABS/Fragments/ETABSId)
-    - BH.oM.Adapters.Revit.Parameters.[RevitIdentifiers](/api/oM/Adapter/Adapters.Revit/Parameters/RevitIdentifiers)
-    - BH.oM.Adapters.SAP2000.[SAP2000Id](/api/oM/Adapter/Adapters.SAP2000/Fragments/SAP2000Id)
+    - BH.oM.Adapters.ETABS.[ETABSId](/api/oM/Adapter/Adapters/ETABS/Fragments/ETABSId)
+    - BH.oM.Adapters.Revit.Parameters.[RevitIdentifiers](/api/oM/Adapter/Adapters/Revit/Parameters/RevitIdentifiers)
+    - BH.oM.Adapters.SAP2000.[SAP2000Id](/api/oM/Adapter/Adapters/SAP2000/Fragments/SAP2000Id)
 
 
 ## Properties

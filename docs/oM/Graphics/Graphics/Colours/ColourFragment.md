@@ -2,7 +2,7 @@
 title: ColourFragment
 ---
 
-# <small>BH.oM.</small>**ColourFragment**
+# <small>BH.oM.Graphics.</small>**ColourFragment**
 
 Indicates a colour associable with a BHoMObject.
 

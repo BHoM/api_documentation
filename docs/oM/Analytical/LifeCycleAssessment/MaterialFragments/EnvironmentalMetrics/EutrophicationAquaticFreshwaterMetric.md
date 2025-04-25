@@ -2,7 +2,7 @@
 title: EutrophicationAquaticFreshwaterMetric
 ---
 
-# <small>BH.oM.LifeCycleAssessment.</small>**EutrophicationAquaticFreshwaterMetric**
+# <small>BH.oM.LifeCycleAssessment.MaterialFragments.</small>**EutrophicationAquaticFreshwaterMetric**
 
 Eutrophication - Aquatic Freshwater, measured in kg P eq, refers to the natural process that results from accumulation of nutrients in fresh bodies of water. This environmental indicator forms part of an Environmental Product Declaration and should be evaluated based on the Quantity Type stated on the Environmental Product Declaration.
 

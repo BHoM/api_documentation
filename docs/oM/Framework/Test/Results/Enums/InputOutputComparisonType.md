@@ -2,7 +2,7 @@
 title: InputOutputComparisonType
 ---
 
-# <small>BH.oM.Test.</small>**InputOutputComparisonType**
+# <small>BH.oM.Test.Results.</small>**InputOutputComparisonType**
 
 Type of difference or error of the result.
 

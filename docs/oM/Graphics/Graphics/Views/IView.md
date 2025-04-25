@@ -2,7 +2,7 @@
 title: IView
 ---
 
-# <small>BH.oM.Graphics.</small>**IView**
+# <small>BH.oM.Graphics.Views.</small>**IView**
 
 Base interface for all graphics view objects.
 

@@ -2,7 +2,7 @@
 title: Latent
 ---
 
-# <small>BH.oM.XML.</small>**Latent**
+# <small>BH.oM.XML.EnergyPlus.</small>**Latent**
 
 
 

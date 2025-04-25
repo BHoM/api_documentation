@@ -2,7 +2,7 @@
 title: Aluminium
 ---
 
-# <small>BH.oM.Structure.</small>**Aluminium**
+# <small>BH.oM.Structure.MaterialFragments.</small>**Aluminium**
 
 Structural aluminium material to be used on structural elements and properties or as a fragment of the physical material.
 

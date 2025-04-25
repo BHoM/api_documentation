@@ -2,7 +2,7 @@
 title: CommercialFixtureUsage
 ---
 
-# <small>BH.oM.MEP.</small>**CommercialFixtureUsage**
+# <small>BH.oM.MEP.Fixtures.</small>**CommercialFixtureUsage**
 
 Fixture Usage data for commercial plumbing fixtures.
 

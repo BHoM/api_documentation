@@ -2,7 +2,7 @@
 title: BarFEAType
 ---
 
-# <small>BH.oM.Structure.</small>**BarFEAType**
+# <small>BH.oM.Structure.Elements.</small>**BarFEAType**
 
 Defines the finite element type of the bar and what forces the bar can accommodate, i.e. if the bar should be treated as a bending element or axial only in analysis packages.
 

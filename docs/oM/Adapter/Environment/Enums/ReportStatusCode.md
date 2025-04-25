@@ -2,7 +2,7 @@
 title: ReportStatusCode
 ---
 
-# <small>BH.oM.Environment.</small>**ReportStatusCode**
+# <small>BH.oM.Environment.SAP.</small>**ReportStatusCode**
 
 .
 

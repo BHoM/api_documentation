@@ -2,7 +2,7 @@
 title: HexagonalCellularOpening
 ---
 
-# <small>BH.oM.Spatial.ShapeProfiles.</small>**HexagonalCellularOpening**
+# <small>BH.oM.Spatial.ShapeProfiles.CellularOpenings.</small>**HexagonalCellularOpening**
 
 
 

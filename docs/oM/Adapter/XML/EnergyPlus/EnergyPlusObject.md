@@ -2,7 +2,7 @@
 title: EnergyPlusObject
 ---
 
-# <small>BH.oM.XML.</small>**EnergyPlusObject**
+# <small>BH.oM.XML.EnergyPlus.</small>**EnergyPlusObject**
 
 
 

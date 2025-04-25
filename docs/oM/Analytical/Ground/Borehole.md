@@ -2,7 +2,7 @@
 title: Borehole
 ---
 
-# <small>BH.oM.</small>**Borehole**
+# <small>BH.oM.Ground.</small>**Borehole**
 
 A representation of a borehole defined by a coordinate system, start point and end point based on the AGS schema.
 

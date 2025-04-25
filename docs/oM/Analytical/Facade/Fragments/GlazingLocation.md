@@ -2,7 +2,7 @@
 title: GlazingLocation
 ---
 
-# <small>BH.oM.Facade.</small>**GlazingLocation**
+# <small>BH.oM.Facade.Fragments.</small>**GlazingLocation**
 
 Fragment containing the offset distance from the section property origin to the edge of glazing.
 

@@ -2,7 +2,7 @@
 title: WallBaseInterface
 ---
 
-# <small>BH.oM.</small>**WallBaseInterface**
+# <small>BH.oM.dKoP.</small>**WallBaseInterface**
 
 
 

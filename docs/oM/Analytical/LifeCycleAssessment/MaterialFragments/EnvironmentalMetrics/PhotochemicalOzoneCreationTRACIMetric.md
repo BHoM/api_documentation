@@ -2,7 +2,7 @@
 title: PhotochemicalOzoneCreationTRACIMetric
 ---
 
-# <small>BH.oM.LifeCycleAssessment.</small>**PhotochemicalOzoneCreationTRACIMetric**
+# <small>BH.oM.LifeCycleAssessment.MaterialFragments.</small>**PhotochemicalOzoneCreationTRACIMetric**
 
 Photochemical Ozone Creation as defined by the TRACI standard for a particular product or material. Forms part of an EPD, and should be evaluated based on the QuantityType stated on the EPD.
 

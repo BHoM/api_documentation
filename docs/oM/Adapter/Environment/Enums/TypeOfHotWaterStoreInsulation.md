@@ -2,7 +2,7 @@
 title: TypeOfHotWaterStoreInsulation
 ---
 
-# <small>BH.oM.Environment.</small>**TypeOfHotWaterStoreInsulation**
+# <small>BH.oM.Environment.SAP.</small>**TypeOfHotWaterStoreInsulation**
 
 Code which indicates the type of hot water storage insulation.
 

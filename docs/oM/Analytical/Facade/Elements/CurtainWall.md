@@ -2,7 +2,7 @@
 title: CurtainWall
 ---
 
-# <small>BH.oM.Facade.</small>**CurtainWall**
+# <small>BH.oM.Facade.Elements.</small>**CurtainWall**
 
 A facade object used to define a curtain wall made up of multiple openings.
 

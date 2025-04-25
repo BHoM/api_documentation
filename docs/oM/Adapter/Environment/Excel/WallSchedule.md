@@ -2,7 +2,7 @@
 title: WallSchedule
 ---
 
-# <small>BH.oM.Environment.SAP.</small>**WallSchedule**
+# <small>BH.oM.Environment.SAP.Excel.</small>**WallSchedule**
 
 The details of walls from the users excel input.
 

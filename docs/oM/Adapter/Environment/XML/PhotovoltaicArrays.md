@@ -2,7 +2,7 @@
 title: PhotovoltaicArrays
 ---
 
-# <small>BH.oM.Environment.SAP.</small>**PhotovoltaicArrays**
+# <small>BH.oM.Environment.SAP.XML.</small>**PhotovoltaicArrays**
 
 
 

@@ -2,7 +2,7 @@
 title: BarUniformlyDistributedLoad
 ---
 
-# <small>BH.oM.Structure.</small>**BarUniformlyDistributedLoad**
+# <small>BH.oM.Structure.Loads.</small>**BarUniformlyDistributedLoad**
 
 Uniformly distributed load applied to Bars. Can be used to apply force and/or moments.
 

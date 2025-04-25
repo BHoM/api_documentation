@@ -2,7 +2,7 @@
 title: EstimatedInstantDelayedSensibleLoad
 ---
 
-# <small>BH.oM.XML.</small>**EstimatedInstantDelayedSensibleLoad**
+# <small>BH.oM.XML.EnergyPlus.</small>**EstimatedInstantDelayedSensibleLoad**
 
 
 

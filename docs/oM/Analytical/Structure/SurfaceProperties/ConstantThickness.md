@@ -2,7 +2,7 @@
 title: ConstantThickness
 ---
 
-# <small>BH.oM.Structure.</small>**ConstantThickness**
+# <small>BH.oM.Structure.SurfaceProperties.</small>**ConstantThickness**
 
 Simplest property for 2D analytical elements with a constant thickness and homogenous material across the whole element.
 

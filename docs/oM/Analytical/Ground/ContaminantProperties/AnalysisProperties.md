@@ -2,7 +2,7 @@
 title: AnalysisProperties
 ---
 
-# <small>BH.oM.</small>**AnalysisProperties**
+# <small>BH.oM.Ground.</small>**AnalysisProperties**
 
 Properties related to the analysis undertaken on the contaminant.
 

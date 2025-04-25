@@ -2,7 +2,7 @@
 title: TypeOfGasOrOilBoiler
 ---
 
-# <small>BH.oM.Environment.</small>**TypeOfGasOrOilBoiler**
+# <small>BH.oM.Environment.SAP.</small>**TypeOfGasOrOilBoiler**
 
 Code which indicates the type of boiler for the case where the fuel is gas or oil.
 

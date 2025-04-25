@@ -2,7 +2,7 @@
 title: SolidBulk
 ---
 
-# <small>BH.oM.Physical.</small>**SolidBulk**
+# <small>BH.oM.Physical.Elements.</small>**SolidBulk**
 
 
 

@@ -2,7 +2,7 @@
 title: TypeOfVentilation
 ---
 
-# <small>BH.oM.Environment.</small>**TypeOfVentilation**
+# <small>BH.oM.Environment.SAP.</small>**TypeOfVentilation**
 
 Code which indicates the type of ventilation.
 

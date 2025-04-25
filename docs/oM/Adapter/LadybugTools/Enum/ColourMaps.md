@@ -2,7 +2,7 @@
 title: ColourMap
 ---
 
-# <small>BH.oM.</small>**ColourMap**
+# <small>BH.oM.LadybugTools.</small>**ColourMap**
 
 Matplotlib standard colourmaps. This is not an exhaustive list of possible maps.
 

@@ -2,7 +2,7 @@
 title: PrimaryReinforcingBar
 ---
 
-# <small>BH.oM.Physical.</small>**PrimaryReinforcingBar**
+# <small>BH.oM.Physical.Reinforcement.</small>**PrimaryReinforcingBar**
 
 Defining reinforcement running along the element.
 

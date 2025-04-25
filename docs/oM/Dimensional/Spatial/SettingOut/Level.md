@@ -2,7 +2,7 @@
 title: Level
 ---
 
-# <small>BH.oM.Spatial.</small>**Level**
+# <small>BH.oM.Spatial.SettingOut.</small>**Level**
 
 Defines a horizontal plane, or infinite flat two-dimensional surface, based on a height measured along the global Z axis and origin.
 

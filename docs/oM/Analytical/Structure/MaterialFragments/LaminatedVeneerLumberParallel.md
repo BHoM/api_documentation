@@ -2,7 +2,7 @@
 title: LaminatedVeneerLumberParallel
 ---
 
-# <small>BH.oM.Structure.</small>**LaminatedVeneerLumberParallel**
+# <small>BH.oM.Structure.MaterialFragments.</small>**LaminatedVeneerLumberParallel**
 
 Structural timber material of type Laminated Veneer Lumber without crossband veneers. To be used on structural elements and properties, or as a fragment of the physical material.
 Generally only applicable for use in beam elements.

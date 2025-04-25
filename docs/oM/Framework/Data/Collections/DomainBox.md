@@ -2,7 +2,7 @@
 title: DomainBox
 ---
 
-# <small>BH.oM.Data.</small>**DomainBox**
+# <small>BH.oM.Data.Collections.</small>**DomainBox**
 
 A multidimensional domain, defined by the minimum and maximum values in each dimension, enclosing a hypercube.
 

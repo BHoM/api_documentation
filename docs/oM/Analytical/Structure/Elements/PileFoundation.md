@@ -2,7 +2,7 @@
 title: PileFoundation
 ---
 
-# <small>BH.oM.Structure.</small>**PileFoundation**
+# <small>BH.oM.Structure.Elements.</small>**PileFoundation**
 
 A composite object representing a pile foundation. This object contains a pile cap and list of piles which can be used for structural analysis.
 

@@ -2,7 +2,7 @@
 title: WindLoad
 ---
 
-# <small>BH.oM.</small>**WindLoad**
+# <small>BH.oM.dKoP.</small>**WindLoad**
 
 
 

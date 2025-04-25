@@ -2,7 +2,7 @@
 title: LibrarySettings
 ---
 
-# <small>BH.oM.Data.</small>**LibrarySettings**
+# <small>BH.oM.Data.Library.</small>**LibrarySettings**
 
 Settings object to be used by the Library_Engine for controling Dataset extraction.
 

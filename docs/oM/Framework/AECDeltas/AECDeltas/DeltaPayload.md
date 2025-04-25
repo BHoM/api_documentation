@@ -2,7 +2,7 @@
 title: DeltaPayload
 ---
 
-# <small>BH.oM.</small>**DeltaPayload**
+# <small>BH.oM.AECDeltas.</small>**DeltaPayload**
 
 Class defined as per AECDeltas specification https://github.com/aecdeltas/aec-deltas-spec/wiki/Delta-Container-Specification#payload
 

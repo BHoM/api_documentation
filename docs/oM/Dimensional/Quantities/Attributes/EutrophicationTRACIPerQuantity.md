@@ -2,7 +2,7 @@
 title: EutrophicationTRACIPerQuantity
 ---
 
-# <small>BH.oM.Quantities.</small>**EutrophicationTRACIPerQuantity**
+# <small>BH.oM.Quantities.Attributes.</small>**EutrophicationTRACIPerQuantity**
 
 Quantity type for Eutrophication Potential for version 1 of list of indicators as defined in North American standards.
 

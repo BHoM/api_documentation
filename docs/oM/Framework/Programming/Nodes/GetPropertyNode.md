@@ -2,7 +2,7 @@
 title: GetPropertyNode
 ---
 
-# <small>BH.oM.</small>**GetPropertyNode**
+# <small>BH.oM.Programming.</small>**GetPropertyNode**
 
 A syntax node corresponding to a call to the BHoM GetProperty method/component.
 

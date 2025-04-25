@@ -2,7 +2,7 @@
 title: ImageUpdateStream
 ---
 
-# <small>BH.oM.</small>**ImageUpdateStream**
+# <small>BH.oM.PowerPoint.</small>**ImageUpdateStream**
 
 Allows to replace the image content of an image element.
 

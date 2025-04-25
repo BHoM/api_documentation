@@ -2,7 +2,7 @@
 title: OpeningSchedule
 ---
 
-# <small>BH.oM.Environment.SAP.</small>**OpeningSchedule**
+# <small>BH.oM.Environment.SAP.Excel.</small>**OpeningSchedule**
 
 The details of roofs from the users excel input.
 

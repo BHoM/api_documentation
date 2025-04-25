@@ -2,7 +2,7 @@
 title: IEnum
 ---
 
-# <small>BH.oM.</small>**IEnum**
+# <small>BH.oM.Base.</small>**IEnum**
 
 
 

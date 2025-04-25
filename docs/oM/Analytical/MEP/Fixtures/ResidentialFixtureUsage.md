@@ -2,7 +2,7 @@
 title: ResidentialFixtureUsage
 ---
 
-# <small>BH.oM.MEP.</small>**ResidentialFixtureUsage**
+# <small>BH.oM.MEP.Fixtures.</small>**ResidentialFixtureUsage**
 
 Fixture Usage data for residential plumbing fixtures.
 

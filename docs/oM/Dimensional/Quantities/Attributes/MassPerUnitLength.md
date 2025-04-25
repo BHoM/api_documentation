@@ -2,7 +2,7 @@
 title: MassPerUnitLength
 ---
 
-# <small>BH.oM.Quantities.</small>**MassPerUnitLength**
+# <small>BH.oM.Quantities.Attributes.</small>**MassPerUnitLength**
 
 Dimensional quantity as defined by the International System of Quantities
 

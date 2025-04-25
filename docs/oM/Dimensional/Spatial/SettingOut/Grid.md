@@ -2,7 +2,7 @@
 title: Grid
 ---
 
-# <small>BH.oM.Spatial.</small>**Grid**
+# <small>BH.oM.Spatial.SettingOut.</small>**Grid**
 
 An individual Grid 'line' - can be curved or free-form as well as simple linear line segments. 
 Useful for coordination and setting out of spatial objects for transdisciplinary workflows.

@@ -2,7 +2,7 @@
 title: TubeProfile
 ---
 
-# <small>BH.oM.Spatial.</small>**TubeProfile**
+# <small>BH.oM.Spatial.ShapeProfiles.</small>**TubeProfile**
 
 Circular hollow profile.
 

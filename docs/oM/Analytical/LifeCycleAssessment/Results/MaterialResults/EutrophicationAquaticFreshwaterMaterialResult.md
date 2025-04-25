@@ -2,7 +2,7 @@
 title: EutrophicationAquaticFreshwaterMaterialResult
 ---
 
-# <small>BH.oM.LifeCycleAssessment.</small>**EutrophicationAquaticFreshwaterMaterialResult**
+# <small>BH.oM.LifeCycleAssessment.Results.</small>**EutrophicationAquaticFreshwaterMaterialResult**
 
 Result class for resulting Eutrophication - aquatic freshwater for a particular Material and EPD.
 

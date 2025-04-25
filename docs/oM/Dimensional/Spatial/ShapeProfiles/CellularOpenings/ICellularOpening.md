@@ -2,7 +2,7 @@
 title: ICellularOpening
 ---
 
-# <small>BH.oM.Spatial.ShapeProfiles.</small>**ICellularOpening**
+# <small>BH.oM.Spatial.ShapeProfiles.CellularOpenings.</small>**ICellularOpening**
 
 
 

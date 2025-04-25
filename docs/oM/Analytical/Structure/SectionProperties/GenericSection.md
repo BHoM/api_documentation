@@ -2,7 +2,7 @@
 title: GenericSection
 ---
 
-# <small>BH.oM.Structure.</small>**GenericSection**
+# <small>BH.oM.Structure.SectionProperties.</small>**GenericSection**
 
 Material agnostic section. To be used for sections of material types not yet explicitly supported.
 

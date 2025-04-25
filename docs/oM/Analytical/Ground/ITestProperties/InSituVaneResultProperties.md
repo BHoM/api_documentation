@@ -2,7 +2,7 @@
 title: InSituVaneResultProperties
 ---
 
-# <small>BH.oM.</small>**InSituVaneResultProperties**
+# <small>BH.oM.Ground.</small>**InSituVaneResultProperties**
 
 Properties related to the results based on the in situ hand vane tests.
 

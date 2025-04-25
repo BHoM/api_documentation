@@ -2,7 +2,7 @@
 title: VolumetricMaterialTakeoff
 ---
 
-# <small>BH.oM.Physical.</small>**VolumetricMaterialTakeoff**
+# <small>BH.oM.Physical.Materials.</small>**VolumetricMaterialTakeoff**
 
 Defines the make up of an object through a list of Materials and their corresponding volumes.
 There must be the same number of items in both lists, assigning a single Volume for each Material.

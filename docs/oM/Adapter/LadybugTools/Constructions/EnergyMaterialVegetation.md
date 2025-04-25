@@ -2,7 +2,7 @@
 title: EnergyMaterialVegetation
 ---
 
-# <small>BH.oM.</small>**EnergyMaterialVegetation**
+# <small>BH.oM.LadybugTools.</small>**EnergyMaterialVegetation**
 
 
 

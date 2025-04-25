@@ -2,7 +2,7 @@
 title: FabricatedBoxProfile
 ---
 
-# <small>BH.oM.Spatial.</small>**FabricatedBoxProfile**
+# <small>BH.oM.Spatial.ShapeProfiles.</small>**FabricatedBoxProfile**
 
 Rectangular hollow profile that allows for different thicknesses of the webs, top flange and bottom flange.
 

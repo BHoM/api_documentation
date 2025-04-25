@@ -2,7 +2,7 @@
 title: WaterDeprivationElementResult
 ---
 
-# <small>BH.oM.LifeCycleAssessment.</small>**WaterDeprivationElementResult**
+# <small>BH.oM.LifeCycleAssessment.Results.</small>**WaterDeprivationElementResult**
 
 Result class for resulting Water Deprivation for a particular Element.
 

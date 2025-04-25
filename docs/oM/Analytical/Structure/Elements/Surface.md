@@ -2,7 +2,7 @@
 title: Surface
 ---
 
-# <small>BH.oM.Structure.</small>**Surface**
+# <small>BH.oM.Structure.Elements.</small>**Surface**
 
 2D element for structural analysis. 
 The Surface is a freeform surface object defined by a geometrical surface. For planar elements, the Panel is recommended, as it is generally better supported in analysis packages.

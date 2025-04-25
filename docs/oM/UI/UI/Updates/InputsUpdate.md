@@ -2,7 +2,7 @@
 title: InputsUpdate
 ---
 
-# <small>BH.oM.</small>**InputsUpdate**
+# <small>BH.oM.UI.</small>**InputsUpdate**
 
 
 

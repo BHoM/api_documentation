@@ -2,7 +2,7 @@
 title: TypeOfCombiBoiler
 ---
 
-# <small>BH.oM.Environment.</small>**TypeOfCombiBoiler**
+# <small>BH.oM.Environment.SAP.</small>**TypeOfCombiBoiler**
 
 Code which indicates the type of combi boiler.
 

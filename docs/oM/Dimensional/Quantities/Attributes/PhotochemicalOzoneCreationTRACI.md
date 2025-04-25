@@ -2,7 +2,7 @@
 title: PhotochemicalOzoneCreationTRACI
 ---
 
-# <small>BH.oM.Quantities.</small>**PhotochemicalOzoneCreationTRACI**
+# <small>BH.oM.Quantities.Attributes.</small>**PhotochemicalOzoneCreationTRACI**
 
 Quantity type for Photochemical Ozone Creation Potential accordign to the TRACI standard.
 

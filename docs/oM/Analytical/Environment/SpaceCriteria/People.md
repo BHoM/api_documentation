@@ -2,7 +2,7 @@
 title: People
 ---
 
-# <small>BH.oM.Environment.</small>**People**
+# <small>BH.oM.Environment.SpaceCriteria.</small>**People**
 
 People gains are defined as the amount of both latent and sensible heat contributed by people based on their assumed activity level within the space (dancing, sitting, etc)
 

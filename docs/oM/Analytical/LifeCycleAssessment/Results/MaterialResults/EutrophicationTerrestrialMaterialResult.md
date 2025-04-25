@@ -2,7 +2,7 @@
 title: EutrophicationTerrestrialMaterialResult
 ---
 
-# <small>BH.oM.LifeCycleAssessment.</small>**EutrophicationTerrestrialMaterialResult**
+# <small>BH.oM.LifeCycleAssessment.Results.</small>**EutrophicationTerrestrialMaterialResult**
 
 Result class for resulting Eutrophication - terrestrial for a particular Material and EPD.
 

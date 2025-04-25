@@ -2,7 +2,7 @@
 title: PropertyGroup
 ---
 
-# <small>BH.oM.XML.</small>**PropertyGroup**
+# <small>BH.oM.XML.CSProject.</small>**PropertyGroup**
 
 
 

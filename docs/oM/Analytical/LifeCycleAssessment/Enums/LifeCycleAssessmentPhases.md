@@ -2,7 +2,7 @@
 title: LifeCycleAssessmentPhases
 ---
 
-# <small>BH.oM.</small>**LifeCycleAssessmentPhases**
+# <small>BH.oM.LifeCycleAssessment.</small>**LifeCycleAssessmentPhases**
 
 
 

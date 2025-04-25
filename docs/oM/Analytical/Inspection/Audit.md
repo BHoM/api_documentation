@@ -2,7 +2,7 @@
 title: Audit
 ---
 
-# <small>BH.oM.</small>**Audit**
+# <small>BH.oM.Inspection.</small>**Audit**
 
 An audit that covers all information associated with a single inspection. This includes issues, areas inspected, project information, construction progress, and distribution information.
 

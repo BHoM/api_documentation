@@ -2,7 +2,7 @@
 title: MeshElementResult
 ---
 
-# <small>BH.oM.Lighting.Results.</small>**MeshElementResult**
+# <small>BH.oM.Lighting.Results.Mesh.</small>**MeshElementResult**
 
 Base class for all discrete mesh element results, that is a result for an individual node. Stores all identifier information and how to sort the results in a collection
 

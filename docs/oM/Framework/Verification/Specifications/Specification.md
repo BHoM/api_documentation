@@ -2,7 +2,7 @@
 title: Specification
 ---
 
-# <small>BH.oM.Verification.</small>**Specification**
+# <small>BH.oM.Verification.Specifications.</small>**Specification**
 
 A top level object in verification workflow. Contains the information about the whole workflow, from extraction, to checking, to reporting.
 

@@ -2,7 +2,7 @@
 title: SAPReportPullConfig
 ---
 
-# <small>BH.oM.Environment.</small>**SAPReportPullConfig**
+# <small>BH.oM.Environment.SAP.</small>**SAPReportPullConfig**
 
 Configurations specific for an Adapter Action (Push, Pull, etc).
 Consider that your tookit might have a more specific implementation available. Try to look for [your toolkit name]ActionConfig.

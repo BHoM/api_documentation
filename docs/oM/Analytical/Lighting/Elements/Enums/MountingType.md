@@ -2,7 +2,7 @@
 title: MountingType
 ---
 
-# <small>BH.oM.Lighting.</small>**MountingType**
+# <small>BH.oM.Lighting.Enums.</small>**MountingType**
 
 The mounting method used for a specific luminaire type (eg CeilingMounted, Recessed, Pendant, etc) 
 

@@ -2,7 +2,7 @@
 title: Waffle
 ---
 
-# <small>BH.oM.Structure.</small>**Waffle**
+# <small>BH.oM.Structure.SurfaceProperties.</small>**Waffle**
 
 Property for 2D analytical elements, made up of a slab on top of parallel ribs running in two directions, all sharing the same material.
 

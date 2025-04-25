@@ -2,7 +2,7 @@
 title: IBarDisplacement
 ---
 
-# <small>BH.oM.Structure.</small>**IBarDisplacement**
+# <small>BH.oM.Structure.Results.</small>**IBarDisplacement**
 
 Base interface for bar displacements
 

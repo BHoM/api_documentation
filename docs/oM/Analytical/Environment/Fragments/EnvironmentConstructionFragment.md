@@ -2,7 +2,7 @@
 title: EnvironmentConstructionFragment
 ---
 
-# <small>BH.oM.Environment.</small>**EnvironmentConstructionFragment**
+# <small>BH.oM.Environment.Fragments.</small>**EnvironmentConstructionFragment**
 
 Fragment containing the F-factor and additional heat transfer construction property
 

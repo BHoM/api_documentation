@@ -2,7 +2,7 @@
 title: ChartUpdate
 ---
 
-# <small>BH.oM.</small>**ChartUpdate**
+# <small>BH.oM.PowerPoint.</small>**ChartUpdate**
 
 Allows to update the content of chart element.
 

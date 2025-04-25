@@ -2,7 +2,7 @@
 title: RepresentationOptions
 ---
 
-# <small>BH.oM.</small>**RepresentationOptions**
+# <small>BH.oM.Graphics.</small>**RepresentationOptions**
 
 Defines options for the Representation of BHoM Objects.
 

@@ -2,7 +2,7 @@
 title: Opening
 ---
 
-# <small>BH.oM.Environment.</small>**Opening**
+# <small>BH.oM.Environment.Elements.</small>**Opening**
 
 A cutout or hole in a building surface/panel (e.g. Window, Door, Rooflight)
 

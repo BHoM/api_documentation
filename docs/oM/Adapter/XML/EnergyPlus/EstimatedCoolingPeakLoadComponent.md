@@ -2,7 +2,7 @@
 title: EstimatedCoolingPeakLoadComponent
 ---
 
-# <small>BH.oM.XML.</small>**EstimatedCoolingPeakLoadComponent**
+# <small>BH.oM.XML.EnergyPlus.</small>**EstimatedCoolingPeakLoadComponent**
 
 
 

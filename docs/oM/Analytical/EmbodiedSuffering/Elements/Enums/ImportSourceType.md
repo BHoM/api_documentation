@@ -2,7 +2,7 @@
 title: ImportSourceType
 ---
 
-# <small>BH.oM.EmbodiedSuffering.</small>**ImportSourceType**
+# <small>BH.oM.EmbodiedSuffering.Elements.</small>**ImportSourceType**
 
 Enum describing if the ratios for datasets used should be by mass or by cost.
 

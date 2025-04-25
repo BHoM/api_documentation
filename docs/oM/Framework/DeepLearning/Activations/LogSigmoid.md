@@ -2,7 +2,7 @@
 title: LogSigmoid
 ---
 
-# <small>BH.oM.DeepLearning.</small>**LogSigmoid**
+# <small>BH.oM.DeepLearning.Activations.</small>**LogSigmoid**
 
 
 

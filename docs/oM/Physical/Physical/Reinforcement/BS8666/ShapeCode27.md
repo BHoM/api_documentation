@@ -2,7 +2,7 @@
 title: ShapeCode27
 ---
 
-# <small>BH.oM.Physical.Reinforcement.</small>**ShapeCode27**
+# <small>BH.oM.Physical.Reinforcement.BS8666.</small>**ShapeCode27**
 
 A reinforcement bar with shape code 27 to BS 8666:2020 in the XY Plane with the free end of C segment starting at the Origin, the B/E parameters aligned with the X axis and the C/D parameters aligned with the Y axis.
 

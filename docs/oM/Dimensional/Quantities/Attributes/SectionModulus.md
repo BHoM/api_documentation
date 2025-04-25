@@ -2,7 +2,7 @@
 title: SectionModulus
 ---
 
-# <small>BH.oM.Quantities.</small>**SectionModulus**
+# <small>BH.oM.Quantities.Attributes.</small>**SectionModulus**
 
 Dimensional quantity as defined by the International System of Quantities
 

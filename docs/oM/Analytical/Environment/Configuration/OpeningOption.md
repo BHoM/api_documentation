@@ -2,7 +2,7 @@
 title: OpeningOption
 ---
 
-# <small>BH.oM.Environment.</small>**OpeningOption**
+# <small>BH.oM.Environment.Configuration.</small>**OpeningOption**
 
 Defines the design options for Openings.
 

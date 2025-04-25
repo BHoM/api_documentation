@@ -2,7 +2,7 @@
 title: Panel
 ---
 
-# <small>BH.oM.Facade.</small>**Panel**
+# <small>BH.oM.Facade.Elements.</small>**Panel**
 
 A facade object used to define planar surfaces such as walls
 

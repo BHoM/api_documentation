@@ -2,7 +2,7 @@
 title: WalkabilityPlotCommand
 ---
 
-# <small>BH.oM.</small>**WalkabilityPlotCommand**
+# <small>BH.oM.LadybugTools.</small>**WalkabilityPlotCommand**
 
 
 

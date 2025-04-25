@@ -2,7 +2,7 @@
 title: IPressureResult
 ---
 
-# <small>BH.oM.Environment.</small>**IPressureResult**
+# <small>BH.oM.Environment.Results.</small>**IPressureResult**
 
 A results object containing pressure data.
 

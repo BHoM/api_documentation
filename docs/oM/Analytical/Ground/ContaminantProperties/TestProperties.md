@@ -2,7 +2,7 @@
 title: TestProperties
 ---
 
-# <small>BH.oM.</small>**TestProperties**
+# <small>BH.oM.Ground.</small>**TestProperties**
 
 Properties related to the tests undertaken on the contaminant.
 

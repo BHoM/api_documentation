@@ -2,7 +2,7 @@
 title: TypeOfProduct
 ---
 
-# <small>BH.oM.Environment.</small>**TypeOfProduct**
+# <small>BH.oM.Environment.SAP.</small>**TypeOfProduct**
 
 Product type to query from database.
 

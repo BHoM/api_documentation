@@ -2,7 +2,7 @@
 title: TypeOfMainHeatingInteraction
 ---
 
-# <small>BH.oM.Environment.</small>**TypeOfMainHeatingInteraction**
+# <small>BH.oM.Environment.SAP.</small>**TypeOfMainHeatingInteraction**
 
 .
 

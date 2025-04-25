@@ -2,7 +2,7 @@
 title: Milestone
 ---
 
-# <small>BH.oM.</small>**Milestone**
+# <small>BH.oM.Planning.</small>**Milestone**
 
 
 

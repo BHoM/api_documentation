@@ -2,7 +2,7 @@
 title: HasLoadOrWeatherCompensation
 ---
 
-# <small>BH.oM.Environment.</small>**HasLoadOrWeatherCompensation**
+# <small>BH.oM.Environment.SAP.</small>**HasLoadOrWeatherCompensation**
 
 Code which indicates the type of flue.
 

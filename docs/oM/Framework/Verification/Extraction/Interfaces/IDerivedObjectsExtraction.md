@@ -2,7 +2,7 @@
 title: IDerivedObjectsExtraction
 ---
 
-# <small>BH.oM.Verification.</small>**IDerivedObjectsExtraction**
+# <small>BH.oM.Verification.Extraction.</small>**IDerivedObjectsExtraction**
 
 Interface for all extraction workflows based on 'extract from' or 'calculate from' modes.
 

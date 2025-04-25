@@ -2,7 +2,7 @@
 title: HandStateName
 ---
 
-# <small>BH.oM.</small>**HandStateName**
+# <small>BH.oM.Humans.</small>**HandStateName**
 
 
 

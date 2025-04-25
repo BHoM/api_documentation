@@ -2,7 +2,7 @@
 title: BasicArrowMarker
 ---
 
-# <small>BH.oM.Graphics.</small>**BasicArrowMarker**
+# <small>BH.oM.Graphics.Components.</small>**BasicArrowMarker**
 
 Basic arrow head marker.
 

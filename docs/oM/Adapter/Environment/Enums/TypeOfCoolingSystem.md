@@ -2,7 +2,7 @@
 title: TypeOfCoolingSystem
 ---
 
-# <small>BH.oM.Environment.</small>**TypeOfCoolingSystem**
+# <small>BH.oM.Environment.SAP.</small>**TypeOfCoolingSystem**
 
 .
 

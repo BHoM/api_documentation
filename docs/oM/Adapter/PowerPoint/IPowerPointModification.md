@@ -2,7 +2,7 @@
 title: IPowerPointModification
 ---
 
-# <small>BH.oM.</small>**IPowerPointModification**
+# <small>BH.oM.PowerPoint.</small>**IPowerPointModification**
 
 
 

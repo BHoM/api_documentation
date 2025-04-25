@@ -2,7 +2,7 @@
 title: RightFoot
 ---
 
-# <small>BH.oM.Humans.</small>**RightFoot**
+# <small>BH.oM.Humans.BodyParts.</small>**RightFoot**
 
 
 

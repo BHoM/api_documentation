@@ -2,7 +2,7 @@
 title: LiftingPoints
 ---
 
-# <small>BH.oM.</small>**LiftingPoints**
+# <small>BH.oM.dKoP.</small>**LiftingPoints**
 
 
 

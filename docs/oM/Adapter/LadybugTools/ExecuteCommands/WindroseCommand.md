@@ -2,7 +2,7 @@
 title: WindroseCommand
 ---
 
-# <small>BH.oM.</small>**WindroseCommand**
+# <small>BH.oM.LadybugTools.</small>**WindroseCommand**
 
 Command that, when executed with the LadybugToolsAdapter, generates a windrose from the epw file using the given parameters.
 Outputs a string file path if the OutputLocation is given, or the base64 string representation of the image if no path is given.

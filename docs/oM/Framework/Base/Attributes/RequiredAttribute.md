@@ -2,7 +2,7 @@
 title: RequiredAttribute
 ---
 
-# <small>BH.oM.Base.</small>**RequiredAttribute**
+# <small>BH.oM.Base.Attributes.</small>**RequiredAttribute**
 
 Marks a property as mandatory input when creating an instance of its containing class.
 

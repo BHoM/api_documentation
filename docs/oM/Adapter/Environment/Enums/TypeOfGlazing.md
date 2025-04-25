@@ -2,7 +2,7 @@
 title: TypeOfGlazing
 ---
 
-# <small>BH.oM.Environment.</small>**TypeOfGlazing**
+# <small>BH.oM.Environment.SAP.</small>**TypeOfGlazing**
 
 Code which indicates the type of glazing; if U-value is from BFRC or manufacturer declaration, give as one of: single, double, triple.
 

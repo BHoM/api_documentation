@@ -2,7 +2,7 @@
 title: IElement1D
 ---
 
-# <small>BH.oM.</small>**IElement1D**
+# <small>BH.oM.Dimensional.</small>**IElement1D**
 
 Enables geometrical operations to be performed on a Curve based spatial element, whilst preserving all other object properties as unchanged. /nObjects implementing this interface will be required to implement some base methods for getting and setting data in a way that maintains the object's other properties.
 
@@ -47,7 +47,7 @@ Enables geometrical operations to be performed on a Curve based spatial element,
     - BH.oM.Geometry.[PolyCurve](/api/oM/Dimensional/Geometry/Curve/PolyCurve)
     - BH.oM.Geometry.[Polygon](/api/oM/Dimensional/Geometry/Curve/Polygon)
     - BH.oM.Geometry.[Polyline](/api/oM/Dimensional/Geometry/Curve/Polyline)
-    - BH.oM.Adapters.GSA.Elements.[Spacer](/api/oM/Adapter/Adapters.GSA/Elements/Spacer)
+    - BH.oM.Adapters.GSA.Elements.[Spacer](/api/oM/Adapter/Adapters/GSA/Elements/Spacer)
     - BH.oM.MEP.System.[CableTray](/api/oM/Analytical/MEP/System/CableTray)
     - BH.oM.MEP.System.[Duct](/api/oM/Analytical/MEP/System/Duct)
     - BH.oM.MEP.System.[FlowSystem](/api/oM/Analytical/MEP/System/FlowSystem)

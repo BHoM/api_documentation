@@ -2,7 +2,7 @@
 title: OverallUValue
 ---
 
-# <small>BH.oM.Facade.</small>**OverallUValue**
+# <small>BH.oM.Facade.Results.</small>**OverallUValue**
 
 An overall thermal transmittance result representing the effective U-Value of an object or collection of objects.
 

@@ -2,7 +2,7 @@
 title: InsuranceDetails
 ---
 
-# <small>BH.oM.Environment.SAP.</small>**InsuranceDetails**
+# <small>BH.oM.Environment.SAP.XML.</small>**InsuranceDetails**
 
 
 

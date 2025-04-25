@@ -2,7 +2,7 @@
 title: ProcessResultsCommand
 ---
 
-# <small>BH.oM.Environment.</small>**ProcessResultsCommand**
+# <small>BH.oM.Environment.SAP.</small>**ProcessResultsCommand**
 
 
 

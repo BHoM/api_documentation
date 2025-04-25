@@ -2,7 +2,7 @@
 title: ContaminantReference
 ---
 
-# <small>BH.oM.</small>**ContaminantReference**
+# <small>BH.oM.Ground.</small>**ContaminantReference**
 
 References to associated files, remarks and batchcodes.
 

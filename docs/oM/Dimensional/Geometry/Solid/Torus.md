@@ -2,7 +2,7 @@
 title: Torus
 ---
 
-# <small>BH.oM.</small>**Torus**
+# <small>BH.oM.Geometry.</small>**Torus**
 
 A standard solid circular ring torus, formed as a surface of revolution of a circle about an axis.
 

@@ -2,7 +2,7 @@
 title: IConditionReportingConfig
 ---
 
-# <small>BH.oM.Verification.</small>**IConditionReportingConfig**
+# <small>BH.oM.Verification.Reporting.</small>**IConditionReportingConfig**
 
 Top interface for all condition reporting config objects.
 

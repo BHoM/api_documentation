@@ -2,7 +2,7 @@
 title: Tree&lt;T&gt;
 ---
 
-# <small>BH.oM.Data.</small>**Tree&lt;T&gt;**
+# <small>BH.oM.Data.Collections.</small>**Tree&lt;T&gt;**
 
 
 

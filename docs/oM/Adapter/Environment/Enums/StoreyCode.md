@@ -2,7 +2,7 @@
 title: StoreyCode
 ---
 
-# <small>BH.oM.Environment.</small>**StoreyCode**
+# <small>BH.oM.Environment.SAP.</small>**StoreyCode**
 
 Code which identifies a particular storey in a building part.
 

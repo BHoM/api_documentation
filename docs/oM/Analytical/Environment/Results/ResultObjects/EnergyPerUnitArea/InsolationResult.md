@@ -2,7 +2,7 @@
 title: InsolationResult
 ---
 
-# <small>BH.oM.Environment.</small>**InsolationResult**
+# <small>BH.oM.Environment.Results.</small>**InsolationResult**
 
 A results object containing insolation data.
 

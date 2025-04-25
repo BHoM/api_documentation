@@ -2,7 +2,7 @@
 title: Log
 ---
 
-# <small>BH.oM.Base.</small>**Log**
+# <small>BH.oM.Base.Debugging.</small>**Log**
 
 
 

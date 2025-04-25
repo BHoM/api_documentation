@@ -2,7 +2,7 @@
 title: OpeningFinishMaterial
 ---
 
-# <small>BH.oM.</small>**OpeningFinishMaterial**
+# <small>BH.oM.dKoP.</small>**OpeningFinishMaterial**
 
 
 

@@ -2,7 +2,7 @@
 title: ShapeCode52
 ---
 
-# <small>BH.oM.Physical.Reinforcement.</small>**ShapeCode52**
+# <small>BH.oM.Physical.Reinforcement.BS8666.</small>**ShapeCode52**
 
 A reinforcement bar with shape code 52 to BS 8666:2020 in the XY Plane centred on the Origin, the A parameter aligned with the Y axis and the B parameter aligned the X axis.
 

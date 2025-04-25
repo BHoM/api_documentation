@@ -2,7 +2,7 @@
 title: VerticalPitchCode
 ---
 
-# <small>BH.oM.Environment.</small>**VerticalPitchCode**
+# <small>BH.oM.Environment.SAP.</small>**VerticalPitchCode**
 
 Code which indicates the vertical pitch (angle).
 

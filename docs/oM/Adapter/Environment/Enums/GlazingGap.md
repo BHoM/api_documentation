@@ -2,7 +2,7 @@
 title: GlazingGap
 ---
 
-# <small>BH.oM.Environment.</small>**GlazingGap**
+# <small>BH.oM.Environment.SAP.</small>**GlazingGap**
 
 Code which indicates the type of glazing; if U-value is from BFRC or manufacturer declaration, give as one of: single, double, triple.
 

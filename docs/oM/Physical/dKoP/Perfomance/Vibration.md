@@ -2,7 +2,7 @@
 title: Vibration
 ---
 
-# <small>BH.oM.</small>**Vibration**
+# <small>BH.oM.dKoP.</small>**Vibration**
 
 
 

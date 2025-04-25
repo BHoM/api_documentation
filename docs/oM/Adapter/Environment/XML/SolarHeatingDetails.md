@@ -2,7 +2,7 @@
 title: SolarHeatingDetails
 ---
 
-# <small>BH.oM.Environment.SAP.</small>**SolarHeatingDetails**
+# <small>BH.oM.Environment.SAP.XML.</small>**SolarHeatingDetails**
 
 
 

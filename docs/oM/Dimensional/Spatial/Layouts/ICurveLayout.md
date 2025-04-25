@@ -2,7 +2,7 @@
 title: ICurveLayout
 ---
 
-# <small>BH.oM.Spatial.</small>**ICurveLayout**
+# <small>BH.oM.Spatial.Layouts.</small>**ICurveLayout**
 
 Base interface for all curve layouts.
 

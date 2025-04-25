@@ -2,7 +2,7 @@
 title: LoadingPanelProperty
 ---
 
-# <small>BH.oM.Structure.</small>**LoadingPanelProperty**
+# <small>BH.oM.Structure.SurfaceProperties.</small>**LoadingPanelProperty**
 
 Property for 2D analytical elements used to distribute load, without any structural stiffness.
 

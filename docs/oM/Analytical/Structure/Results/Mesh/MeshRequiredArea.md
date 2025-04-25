@@ -2,7 +2,7 @@
 title: MeshRequiredArea
 ---
 
-# <small>BH.oM.Structure.</small>**MeshRequiredArea**
+# <small>BH.oM.Structure.Results.</small>**MeshRequiredArea**
 
 Minimum required area of reinforcement for an AreaElement.
 

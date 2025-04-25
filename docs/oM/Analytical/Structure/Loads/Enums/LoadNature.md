@@ -2,7 +2,7 @@
 title: LoadNature
 ---
 
-# <small>BH.oM.Structure.</small>**LoadNature**
+# <small>BH.oM.Structure.Loads.</small>**LoadNature**
 
 
 

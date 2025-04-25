@@ -2,7 +2,7 @@
 title: PointAcceleration
 ---
 
-# <small>BH.oM.Structure.</small>**PointAcceleration**
+# <small>BH.oM.Structure.Loads.</small>**PointAcceleration**
 
 Point acceleration load for Nodes. This can be used to apply translational as well as angular acceleration.
 

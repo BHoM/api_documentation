@@ -2,7 +2,7 @@
 title: IFacadeObject
 ---
 
-# <small>BH.oM.</small>**IFacadeObject**
+# <small>BH.oM.Facade.</small>**IFacadeObject**
 
 
 

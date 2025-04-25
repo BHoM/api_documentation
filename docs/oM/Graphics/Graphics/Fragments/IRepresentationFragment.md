@@ -2,7 +2,7 @@
 title: IRepresentationFragment
 ---
 
-# <small>BH.oM.Graphics.</small>**IRepresentationFragment**
+# <small>BH.oM.Graphics.Fragments.</small>**IRepresentationFragment**
 
 Base interface for representation fragments.
 

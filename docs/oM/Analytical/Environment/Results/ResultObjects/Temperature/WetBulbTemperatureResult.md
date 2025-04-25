@@ -2,7 +2,7 @@
 title: WetBulbTemperatureResult
 ---
 
-# <small>BH.oM.Environment.</small>**WetBulbTemperatureResult**
+# <small>BH.oM.Environment.Results.</small>**WetBulbTemperatureResult**
 
 A results object containing wet bulb temperature data.
 

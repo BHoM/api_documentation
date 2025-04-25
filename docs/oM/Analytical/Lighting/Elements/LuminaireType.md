@@ -2,7 +2,7 @@
 title: LuminaireType
 ---
 
-# <small>BH.oM.Lighting.</small>**LuminaireType**
+# <small>BH.oM.Lighting.Elements.</small>**LuminaireType**
 
 A LuminaireType containing manufacturer, dimensional, and other property data applied to a Luminaire.
 

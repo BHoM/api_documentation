@@ -2,7 +2,7 @@
 title: IFixtureUsage
 ---
 
-# <small>BH.oM.MEP.</small>**IFixtureUsage**
+# <small>BH.oM.MEP.Fixtures.</small>**IFixtureUsage**
 
 Base interface for all Fixture objects. These objects are capable of containing a material or element that flows through the object.
 

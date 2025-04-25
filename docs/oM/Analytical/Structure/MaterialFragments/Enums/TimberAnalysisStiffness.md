@@ -2,7 +2,7 @@
 title: TimberAnalysisStiffness
 ---
 
-# <small>BH.oM.Structure.</small>**TimberAnalysisStiffness**
+# <small>BH.oM.Structure.MaterialFragments.</small>**TimberAnalysisStiffness**
 
 Enum for controling if analysis parameters of the Timber material should be assigned based on Characteristic or Mean stiffness parameters.
 Refer to design codes and guidance literature to determine when each set of properties is applicable.

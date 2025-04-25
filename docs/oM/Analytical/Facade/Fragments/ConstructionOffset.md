@@ -2,7 +2,7 @@
 title: ConstructionOffset
 ---
 
-# <small>BH.oM.Facade.</small>**ConstructionOffset**
+# <small>BH.oM.Facade.Fragments.</small>**ConstructionOffset**
 
 Fragment containing the offset distance of a construction type from the facade center line
 

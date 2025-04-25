@@ -2,7 +2,7 @@
 title: IPhysical
 ---
 
-# <small>BH.oM.</small>**IPhysical**
+# <small>BH.oM.Physical.</small>**IPhysical**
 
 
 

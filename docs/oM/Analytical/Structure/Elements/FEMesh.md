@@ -2,7 +2,7 @@
 title: FEMesh
 ---
 
-# <small>BH.oM.Structure.</small>**FEMesh**
+# <small>BH.oM.Structure.Elements.</small>**FEMesh**
 
 2D finite element mesh for structural analysis. Defined by a list of nodes and faces.
 

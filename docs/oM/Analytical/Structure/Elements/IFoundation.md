@@ -2,7 +2,7 @@
 title: IFoundation
 ---
 
-# <small>BH.oM.Structure.</small>**IFoundation**
+# <small>BH.oM.Structure.Elements.</small>**IFoundation**
 
 Base interface for foundation objects.
 

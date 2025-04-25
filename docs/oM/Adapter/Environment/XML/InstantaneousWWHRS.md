@@ -2,7 +2,7 @@
 title: InstantaneousWWHRS
 ---
 
-# <small>BH.oM.Environment.SAP.</small>**InstantaneousWWHRS**
+# <small>BH.oM.Environment.SAP.XML.</small>**InstantaneousWWHRS**
 
 
 

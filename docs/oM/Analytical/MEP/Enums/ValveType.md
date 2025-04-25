@@ -2,7 +2,7 @@
 title: ValveType
 ---
 
-# <small>BH.oM.MEP.</small>**ValveType**
+# <small>BH.oM.MEP.Enums.</small>**ValveType**
 
 A type of piping valve (gate valve, globe valve, check valve, etc.)
 

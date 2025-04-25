@@ -2,7 +2,7 @@
 title: IContaminantProperty
 ---
 
-# <small>BH.oM.</small>**IContaminantProperty**
+# <small>BH.oM.Ground.</small>**IContaminantProperty**
 
 Base interface for contaminant properties.
 

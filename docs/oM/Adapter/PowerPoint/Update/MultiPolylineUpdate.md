@@ -2,7 +2,7 @@
 title: MultiPolylineUpdate
 ---
 
-# <small>BH.oM.</small>**MultiPolylineUpdate**
+# <small>BH.oM.PowerPoint.</small>**MultiPolylineUpdate**
 
 Allows to change the geometry of a shape element.
 

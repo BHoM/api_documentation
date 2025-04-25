@@ -2,7 +2,7 @@
 title: EnvironmentalMetric
 ---
 
-# <small>BH.oM.LifeCycleAssessment.</small>**EnvironmentalMetric**
+# <small>BH.oM.LifeCycleAssessment.MaterialFragments.</small>**EnvironmentalMetric**
 
 Base class for all environmental metrics.
 

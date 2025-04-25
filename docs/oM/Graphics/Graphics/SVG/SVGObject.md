@@ -2,7 +2,7 @@
 title: SVGObject
 ---
 
-# <small>BH.oM.</small>**SVGObject**
+# <small>BH.oM.Graphics.</small>**SVGObject**
 
 
 

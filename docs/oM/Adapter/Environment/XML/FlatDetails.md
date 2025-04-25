@@ -2,7 +2,7 @@
 title: FlatDetails
 ---
 
-# <small>BH.oM.Environment.SAP.</small>**FlatDetails**
+# <small>BH.oM.Environment.SAP.XML.</small>**FlatDetails**
 
 
 

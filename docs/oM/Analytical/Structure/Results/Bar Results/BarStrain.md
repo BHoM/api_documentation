@@ -2,7 +2,7 @@
 title: BarStrain
 ---
 
-# <small>BH.oM.Structure.</small>**BarStrain**
+# <small>BH.oM.Structure.Results.</small>**BarStrain**
 
 Resulting axial strain along the bar in local coordinates.
 

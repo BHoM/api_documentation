@@ -2,7 +2,7 @@
 title: ElectricityTariffCode
 ---
 
-# <small>BH.oM.Environment.</small>**ElectricityTariffCode**
+# <small>BH.oM.Environment.SAP.</small>**ElectricityTariffCode**
 
 Code which indicates the type of electricity tariff.
 

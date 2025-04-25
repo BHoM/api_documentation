@@ -2,7 +2,7 @@
 title: PadFoundation
 ---
 
-# <small>BH.oM.Physical.</small>**PadFoundation**
+# <small>BH.oM.Physical.Elements.</small>**PadFoundation**
 
 Physical representation of a flat pad foundation (parallel top and bottom faces).
 

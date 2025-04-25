@@ -2,7 +2,7 @@
 title: TypeOfThermalBridge
 ---
 
-# <small>BH.oM.Environment.</small>**TypeOfThermalBridge**
+# <small>BH.oM.Environment.SAP.</small>**TypeOfThermalBridge**
 
 Code which indicates a particular type of thermal bridge.
 

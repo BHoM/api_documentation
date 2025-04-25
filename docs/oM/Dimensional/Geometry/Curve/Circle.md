@@ -2,7 +2,7 @@
 title: Circle
 ---
 
-# <small>BH.oM.</small>**Circle**
+# <small>BH.oM.Geometry.</small>**Circle**
 
 A plane curve. Standard circle defining a curve of constant distance from a point, its Centre.
 

@@ -2,7 +2,7 @@
 title: StreamPointer
 ---
 
-# <small>BH.oM.</small>**StreamPointer**
+# <small>BH.oM.Diffing.</small>**StreamPointer**
 
 Points to a specific Stream. Can be used to generate a new Stream and StreamId.
 

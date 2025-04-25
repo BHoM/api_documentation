@@ -2,7 +2,7 @@
 title: IOptimiser
 ---
 
-# <small>BH.oM.DeepLearning.</small>**IOptimiser**
+# <small>BH.oM.DeepLearning.Optimisers.</small>**IOptimiser**
 
 
 

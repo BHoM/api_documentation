@@ -2,7 +2,7 @@
 title: ElectricConductance
 ---
 
-# <small>BH.oM.Quantities.</small>**ElectricConductance**
+# <small>BH.oM.Quantities.Attributes.</small>**ElectricConductance**
 
 Dimensional quantity as defined by the International System of Quantities
 

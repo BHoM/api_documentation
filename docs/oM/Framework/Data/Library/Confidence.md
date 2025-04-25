@@ -2,7 +2,7 @@
 title: Confidence
 ---
 
-# <small>BH.oM.Data.</small>**Confidence**
+# <small>BH.oM.Data.Library.</small>**Confidence**
 
 Level of confidence for the serialized DataSet, outlining both the reliability of the source and the fidelity of the dataset to that source.
 

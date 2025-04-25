@@ -2,7 +2,7 @@
 title: FlowSystem
 ---
 
-# <small>BH.oM.MEP.</small>**FlowSystem**
+# <small>BH.oM.MEP.System.</small>**FlowSystem**
 
 A collection of IFlow Objects to be utilised throughout a defined system.
 

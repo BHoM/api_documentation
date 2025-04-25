@@ -2,7 +2,7 @@
 title: ThermalBridge
 ---
 
-# <small>BH.oM.Environment.SAP.</small>**ThermalBridge**
+# <small>BH.oM.Environment.SAP.XML.</small>**ThermalBridge**
 
 
 

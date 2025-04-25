@@ -2,7 +2,7 @@
 title: TypeNode
 ---
 
-# <small>BH.oM.</small>**TypeNode**
+# <small>BH.oM.Programming.</small>**TypeNode**
 
 A syntax node representing the creation of an object Type.
 

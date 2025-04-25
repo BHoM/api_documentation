@@ -2,7 +2,7 @@
 title: IEnvironmentalResult
 ---
 
-# <small>BH.oM.LifeCycleAssessment.</small>**IEnvironmentalResult**
+# <small>BH.oM.LifeCycleAssessment.Results.</small>**IEnvironmentalResult**
 
 Base interface for all Life Cycle Assessment results.
 

@@ -2,7 +2,7 @@
 title: PhotochemicalOzoneCreationCMLMaterialResult
 ---
 
-# <small>BH.oM.LifeCycleAssessment.</small>**PhotochemicalOzoneCreationCMLMaterialResult**
+# <small>BH.oM.LifeCycleAssessment.Results.</small>**PhotochemicalOzoneCreationCMLMaterialResult**
 
 Result class for resulting Photochemical Ozone Creation as defined by the CML standard for a particular Material and EPD.
 

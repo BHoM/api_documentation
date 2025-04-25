@@ -2,7 +2,7 @@
 title: IntegrationSlice
 ---
 
-# <small>BH.oM.</small>**IntegrationSlice**
+# <small>BH.oM.Geometry.</small>**IntegrationSlice**
 
 Describes a discrete finite slice of an area. Used for numerical approximation of an integration.
 

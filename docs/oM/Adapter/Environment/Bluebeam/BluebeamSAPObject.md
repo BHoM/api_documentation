@@ -2,7 +2,7 @@
 title: BluebeamSAPObject
 ---
 
-# <small>BH.oM.Environment.SAP.</small>**BluebeamSAPObject**
+# <small>BH.oM.Environment.SAP.Bluebeam.</small>**BluebeamSAPObject**
 
 
 

@@ -2,7 +2,7 @@
 title: IConditionBasedFilter
 ---
 
-# <small>BH.oM.Verification.</small>**IConditionBasedFilter**
+# <small>BH.oM.Verification.Extraction.</small>**IConditionBasedFilter**
 
 Interface for all extraction workflows based on 'filter by' modes.
 

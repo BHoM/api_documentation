@@ -2,7 +2,7 @@
 title: OffsetOptions
 ---
 
-# <small>BH.oM.</small>**OffsetOptions**
+# <small>BH.oM.Geometry.</small>**OffsetOptions**
 
 Options for curve offset operations.
 

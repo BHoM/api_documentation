@@ -2,7 +2,7 @@
 title: ILogicalCollectionCondition
 ---
 
-# <small>BH.oM.Verification.</small>**ILogicalCollectionCondition**
+# <small>BH.oM.Verification.Conditions.</small>**ILogicalCollectionCondition**
 
 Interface for logical conditions consisting of a collection of nested conditions to be evaluated in combination (AND, OR etc.).
 

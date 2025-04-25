@@ -2,7 +2,7 @@
 title: IFramingElement
 ---
 
-# <small>BH.oM.Physical.</small>**IFramingElement**
+# <small>BH.oM.Physical.Elements.</small>**IFramingElement**
 
 
 

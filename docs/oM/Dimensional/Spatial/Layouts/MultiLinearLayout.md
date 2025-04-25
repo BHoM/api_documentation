@@ -2,7 +2,7 @@
 title: MultiLinearLayout
 ---
 
-# <small>BH.oM.Spatial.</small>**MultiLinearLayout**
+# <small>BH.oM.Spatial.Layouts.</small>**MultiLinearLayout**
 
 Linear distribution of points along multiple linear parallel axes, defined along a vector from one side of the perimeter of the host object to the other. 
 Starts by fitting in as many points as possible in the first layer, then generates a new one and repeats.

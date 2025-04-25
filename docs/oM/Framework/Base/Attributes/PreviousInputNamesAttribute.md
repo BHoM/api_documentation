@@ -2,7 +2,7 @@
 title: PreviousInputNamesAttribute
 ---
 
-# <small>BH.oM.Base.</small>**PreviousInputNamesAttribute**
+# <small>BH.oM.Base.Attributes.</small>**PreviousInputNamesAttribute**
 
 Provides the names that were previously used for a given input. If multiple names, use a ',' to separate them.
 

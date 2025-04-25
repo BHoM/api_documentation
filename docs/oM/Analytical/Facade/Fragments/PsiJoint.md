@@ -2,7 +2,7 @@
 title: PsiJoint
 ---
 
-# <small>BH.oM.Facade.</small>**PsiJoint**
+# <small>BH.oM.Facade.Fragments.</small>**PsiJoint**
 
 A Psi value representing the linear joint thermal transmittance in W/m2 along the centerline of a frame edge.
 

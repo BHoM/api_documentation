@@ -2,7 +2,7 @@
 title: SPTResultProperties
 ---
 
-# <small>BH.oM.</small>**SPTResultProperties**
+# <small>BH.oM.Ground.</small>**SPTResultProperties**
 
 Properties related to the results of the standard penetration test.
 

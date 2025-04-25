@@ -2,7 +2,7 @@
 title: ItemGroup
 ---
 
-# <small>BH.oM.XML.</small>**ItemGroup**
+# <small>BH.oM.XML.CSProject.</small>**ItemGroup**
 
 
 

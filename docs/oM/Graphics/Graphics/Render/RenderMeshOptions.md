@@ -2,7 +2,7 @@
 title: RenderMeshOptions
 ---
 
-# <small>BH.oM.</small>**RenderMeshOptions**
+# <small>BH.oM.Graphics.</small>**RenderMeshOptions**
 
 Defines options for the Meshing of BHoM Objects.
 

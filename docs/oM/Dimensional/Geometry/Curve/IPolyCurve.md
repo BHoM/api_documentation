@@ -2,7 +2,7 @@
 title: IPolyCurve
 ---
 
-# <small>BH.oM.</small>**IPolyCurve**
+# <small>BH.oM.Geometry.</small>**IPolyCurve**
 
 Base interface for curve types build up of a collection of sub curves.
 

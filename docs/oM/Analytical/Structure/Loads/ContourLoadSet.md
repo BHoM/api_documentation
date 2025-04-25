@@ -2,7 +2,7 @@
 title: ContourLoadSet
 ---
 
-# <small>BH.oM.Structure.</small>**ContourLoadSet**
+# <small>BH.oM.Structure.Loads.</small>**ContourLoadSet**
 
 A set of uniform loads to be applied in the gravity direction over a region defined by a closed planar Polyline.
 

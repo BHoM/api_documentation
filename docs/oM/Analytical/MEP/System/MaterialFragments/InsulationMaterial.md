@@ -2,7 +2,7 @@
 title: InsulationMaterial
 ---
 
-# <small>BH.oM.MEP.System.</small>**InsulationMaterial**
+# <small>BH.oM.MEP.System.MaterialFragments.</small>**InsulationMaterial**
 
 
 

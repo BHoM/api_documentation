@@ -2,7 +2,7 @@
 title: CameraDevice
 ---
 
-# <small>BH.oM.Security.</small>**CameraDevice**
+# <small>BH.oM.Security.Elements.</small>**CameraDevice**
 
 A camera object is a electronic security device typically used in closed-circuit television (CCTV) systems.
 

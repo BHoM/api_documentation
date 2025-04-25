@@ -2,7 +2,7 @@
 title: BarRebarIntent
 ---
 
-# <small>BH.oM.Structure.</small>**BarRebarIntent**
+# <small>BH.oM.Structure.Reinforcement.</small>**BarRebarIntent**
 
 A collection of reinforcement for a Bar and minimum cover.
 

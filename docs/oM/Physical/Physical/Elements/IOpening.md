@@ -2,7 +2,7 @@
 title: IOpening
 ---
 
-# <small>BH.oM.Physical.</small>**IOpening**
+# <small>BH.oM.Physical.Elements.</small>**IOpening**
 
 
 

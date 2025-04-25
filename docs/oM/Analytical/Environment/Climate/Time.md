@@ -2,7 +2,7 @@
 title: Time
 ---
 
-# <small>BH.oM.Environment.</small>**Time**
+# <small>BH.oM.Environment.Climate.</small>**Time**
 
 An environment object used to describe time for climate analysis
 

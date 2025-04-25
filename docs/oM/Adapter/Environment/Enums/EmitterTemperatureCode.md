@@ -2,7 +2,7 @@
 title: EmitterTemperatureCode
 ---
 
-# <small>BH.oM.Environment.</small>**EmitterTemperatureCode**
+# <small>BH.oM.Environment.SAP.</small>**EmitterTemperatureCode**
 
 Code which specifies the emitter temperature.
 

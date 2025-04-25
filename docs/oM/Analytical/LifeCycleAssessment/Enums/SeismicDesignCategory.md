@@ -2,7 +2,7 @@
 title: SeismicDesignCategory
 ---
 
-# <small>BH.oM.</small>**SeismicDesignCategory**
+# <small>BH.oM.LifeCycleAssessment.</small>**SeismicDesignCategory**
 
 Seismic Design Category is a classification assigned to a structure based on it's occupancy category, and the severity of the design earthquake ground motion. These categories are in reference to ASCE 7-05.
 

@@ -2,7 +2,7 @@
 title: BarResultType
 ---
 
-# <small>BH.oM.Structure.</small>**BarResultType**
+# <small>BH.oM.Structure.Requests.</small>**BarResultType**
 
 Defines the type of results that should be extracted for BarResultRequests.
 

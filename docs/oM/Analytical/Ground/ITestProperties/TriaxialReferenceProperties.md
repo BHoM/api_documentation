@@ -2,7 +2,7 @@
 title: TriaxialReferenceProperties
 ---
 
-# <small>BH.oM.</small>**TriaxialReferenceProperties**
+# <small>BH.oM.Ground.</small>**TriaxialReferenceProperties**
 
 Properties related to the reference/location of the triaxial tests.
 

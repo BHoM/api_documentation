@@ -2,7 +2,7 @@
 title: SingleLogicalConditionResult
 ---
 
-# <small>BH.oM.Verification.</small>**SingleLogicalConditionResult**
+# <small>BH.oM.Verification.Results.</small>**SingleLogicalConditionResult**
 
 Object representing result of ISingleLogicalCondition.
 

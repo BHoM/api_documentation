@@ -2,7 +2,7 @@
 title: IConditionResult
 ---
 
-# <small>BH.oM.Verification.</small>**IConditionResult**
+# <small>BH.oM.Verification.Results.</small>**IConditionResult**
 
 Top interface for all condition results.
 

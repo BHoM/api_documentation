@@ -2,7 +2,7 @@
 title: SprinklerSystemType
 ---
 
-# <small>BH.oM.Environment.</small>**SprinklerSystemType**
+# <small>BH.oM.Environment.SpaceCriteria.</small>**SprinklerSystemType**
 
 
 

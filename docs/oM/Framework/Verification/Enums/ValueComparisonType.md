@@ -2,7 +2,7 @@
 title: ValueComparisonType
 ---
 
-# <small>BH.oM.</small>**ValueComparisonType**
+# <small>BH.oM.Verification.</small>**ValueComparisonType**
 
 Specifies the requirement to be met by a value in relation to a reference value to consider the check as passed.
 

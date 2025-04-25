@@ -2,7 +2,7 @@
 title: IExcelModification
 ---
 
-# <small>BH.oM.</small>**IExcelModification**
+# <small>BH.oM.PowerPoint.</small>**IExcelModification**
 
 
 

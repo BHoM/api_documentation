@@ -2,7 +2,7 @@
 title: AreaDifferentialTemperatureLoad
 ---
 
-# <small>BH.oM.Structure.</small>**AreaDifferentialTemperatureLoad**
+# <small>BH.oM.Structure.Loads.</small>**AreaDifferentialTemperatureLoad**
 
 Vertical differential temperature load for area elements such as Panels and FEMeshes.
 

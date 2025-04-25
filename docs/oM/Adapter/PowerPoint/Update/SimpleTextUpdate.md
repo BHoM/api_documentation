@@ -2,7 +2,7 @@
 title: SimpleTextUpdate
 ---
 
-# <small>BH.oM.</small>**SimpleTextUpdate**
+# <small>BH.oM.PowerPoint.</small>**SimpleTextUpdate**
 
 Allows to update the text content of a shape
 

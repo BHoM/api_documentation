@@ -2,7 +2,7 @@
 title: ShapeCode48
 ---
 
-# <small>BH.oM.Physical.Reinforcement.</small>**ShapeCode48**
+# <small>BH.oM.Physical.Reinforcement.BS8666.</small>**ShapeCode48**
 
 A reinforcement bar with shape code 48 to BS 8666:2020 in the XY Plane centred on the Origin with the A parameter aligned with the Y axis and the B segment aligned with the X axis.
 

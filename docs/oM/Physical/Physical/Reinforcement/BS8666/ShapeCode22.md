@@ -2,7 +2,7 @@
 title: ShapeCode22
 ---
 
-# <small>BH.oM.Physical.Reinforcement.</small>**ShapeCode22**
+# <small>BH.oM.Physical.Reinforcement.BS8666.</small>**ShapeCode22**
 
 A reinforcement bar with shape code 22 to BS 8666:2020 in the XY Plane with the free end of the A segment at the Origin aligned with the Y axis, the C parameter aligned with the Y axis and the B/D parameters aligned with the X axis.
 

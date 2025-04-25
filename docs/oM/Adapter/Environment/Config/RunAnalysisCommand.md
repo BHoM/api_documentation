@@ -2,7 +2,7 @@
 title: RunAnalysisCommand
 ---
 
-# <small>BH.oM.Environment.</small>**RunAnalysisCommand**
+# <small>BH.oM.Environment.SAP.</small>**RunAnalysisCommand**
 
 
 

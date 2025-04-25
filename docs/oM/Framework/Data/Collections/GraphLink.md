@@ -2,7 +2,7 @@
 title: GraphLink&lt;T&gt;
 ---
 
-# <small>BH.oM.Data.</small>**GraphLink&lt;T&gt;**
+# <small>BH.oM.Data.Collections.</small>**GraphLink&lt;T&gt;**
 
 
 

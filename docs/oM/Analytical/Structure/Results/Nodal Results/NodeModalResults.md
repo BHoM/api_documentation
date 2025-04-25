@@ -2,7 +2,7 @@
 title: NodeModalResults
 ---
 
-# <small>BH.oM.Structure.</small>**NodeModalResults**
+# <small>BH.oM.Structure.Results.</small>**NodeModalResults**
 
 Base class for all Node result classes. Stores all identifier information and how to sort the results in a collection.
 

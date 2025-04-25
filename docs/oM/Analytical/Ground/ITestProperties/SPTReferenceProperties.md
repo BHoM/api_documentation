@@ -2,7 +2,7 @@
 title: SPTReferenceProperties
 ---
 
-# <small>BH.oM.</small>**SPTReferenceProperties**
+# <small>BH.oM.Ground.</small>**SPTReferenceProperties**
 
 Properties related references and location of the standard penetration test.
 

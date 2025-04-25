@@ -2,7 +2,7 @@
 title: ElectricalEquipmentType
 ---
 
-# <small>BH.oM.MEP.</small>**ElectricalEquipmentType**
+# <small>BH.oM.MEP.Enums.</small>**ElectricalEquipmentType**
 
 A type of electrical equipment (switchgear, panelboard, transformer.)
 

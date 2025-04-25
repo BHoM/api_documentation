@@ -2,7 +2,7 @@
 title: MeshElement
 ---
 
-# <small>BH.oM.Physical.</small>**MeshElement**
+# <small>BH.oM.Physical.Elements.</small>**MeshElement**
 
 Object representing a physical element, defined by a geometrical mesh that represents that element in 3-dimensional space.
 Can commonly store properties and parameters in fragments corresponding to the software from which the element was extracted.

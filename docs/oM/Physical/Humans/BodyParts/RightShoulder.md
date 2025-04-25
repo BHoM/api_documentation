@@ -2,7 +2,7 @@
 title: RightShoulder
 ---
 
-# <small>BH.oM.Humans.</small>**RightShoulder**
+# <small>BH.oM.Humans.BodyParts.</small>**RightShoulder**
 
 
 

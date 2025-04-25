@@ -2,7 +2,7 @@
 title: MaterialComposition
 ---
 
-# <small>BH.oM.Physical.</small>**MaterialComposition**
+# <small>BH.oM.Physical.Materials.</small>**MaterialComposition**
 
 Defines the make up of an object through a list of Materials as relative proportions of the total solid volume.
 There must be the same number of items in both lists, assigning a single Ratio for each Material.

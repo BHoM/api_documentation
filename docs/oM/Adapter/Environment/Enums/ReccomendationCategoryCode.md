@@ -2,7 +2,7 @@
 title: RecommendationCategoryCode
 ---
 
-# <small>BH.oM.Environment.</small>**RecommendationCategoryCode**
+# <small>BH.oM.Environment.SAP.</small>**RecommendationCategoryCode**
 
 .
 

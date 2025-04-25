@@ -2,7 +2,7 @@
 title: ISpecification
 ---
 
-# <small>BH.oM.</small>**ISpecification**
+# <small>BH.oM.Base.</small>**ISpecification**
 
 
 

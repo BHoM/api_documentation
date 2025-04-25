@@ -2,7 +2,7 @@
 title: ClimateChangeTotalElementResult
 ---
 
-# <small>BH.oM.LifeCycleAssessment.</small>**ClimateChangeTotalElementResult**
+# <small>BH.oM.LifeCycleAssessment.Results.</small>**ClimateChangeTotalElementResult**
 
 Result class for resulting Climate change - total for a particular Element.
 

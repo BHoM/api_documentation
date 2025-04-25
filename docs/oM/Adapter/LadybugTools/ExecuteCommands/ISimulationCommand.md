@@ -2,7 +2,7 @@
 title: ISimulationCommand
 ---
 
-# <small>BH.oM.</small>**ISimulationCommand**
+# <small>BH.oM.LadybugTools.</small>**ISimulationCommand**
 
 
 

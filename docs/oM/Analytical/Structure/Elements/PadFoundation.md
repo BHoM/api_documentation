@@ -2,7 +2,7 @@
 title: PadFoundation
 ---
 
-# <small>BH.oM.Structure.</small>**PadFoundation**
+# <small>BH.oM.Structure.Elements.</small>**PadFoundation**
 
 2D element representing a pad foundation for structural analysis. The PadFoundation is a planar surface object defined by edges and an ISurfaceProperty.
 

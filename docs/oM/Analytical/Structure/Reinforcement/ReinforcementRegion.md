@@ -2,7 +2,7 @@
 title: ReinforcementRegion
 ---
 
-# <small>BH.oM.Structure.</small>**ReinforcementRegion**
+# <small>BH.oM.Structure.Reinforcement.</small>**ReinforcementRegion**
 
 A region defining the area of a Panel to be reinforced. The curve must exist within the 2D region outlined by ExternalEdges of the Panel.
 

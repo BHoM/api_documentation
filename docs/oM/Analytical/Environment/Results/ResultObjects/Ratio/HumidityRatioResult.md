@@ -2,7 +2,7 @@
 title: HumidityRatioResult
 ---
 
-# <small>BH.oM.Environment.</small>**HumidityRatioResult**
+# <small>BH.oM.Environment.Results.</small>**HumidityRatioResult**
 
 A results object containing humidity ratio data.
 

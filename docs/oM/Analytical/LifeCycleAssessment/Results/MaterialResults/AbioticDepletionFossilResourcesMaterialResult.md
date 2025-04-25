@@ -2,7 +2,7 @@
 title: AbioticDepletionFossilResourcesMaterialResult
 ---
 
-# <small>BH.oM.LifeCycleAssessment.</small>**AbioticDepletionFossilResourcesMaterialResult**
+# <small>BH.oM.LifeCycleAssessment.Results.</small>**AbioticDepletionFossilResourcesMaterialResult**
 
 Result class for resulting Abiotic depletion of fossil resources for a particular Material and EPD.
 

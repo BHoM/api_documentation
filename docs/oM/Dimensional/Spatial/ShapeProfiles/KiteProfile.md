@@ -2,7 +2,7 @@
 title: KiteProfile
 ---
 
-# <small>BH.oM.Spatial.</small>**KiteProfile**
+# <small>BH.oM.Spatial.ShapeProfiles.</small>**KiteProfile**
 
 
 

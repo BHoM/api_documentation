@@ -2,7 +2,7 @@
 title: TypeOfTransaction
 ---
 
-# <small>BH.oM.Environment.</small>**TypeOfTransaction**
+# <small>BH.oM.Environment.SAP.</small>**TypeOfTransaction**
 
 .
 

@@ -2,7 +2,7 @@
 title: IDensityProvider
 ---
 
-# <small>BH.oM.Physical.</small>**IDensityProvider**
+# <small>BH.oM.Physical.Materials.</small>**IDensityProvider**
 
 Interface to be added to IMaterialProperties the specifies the density of the Material the proeprty is attached to.
 
@@ -34,7 +34,7 @@ Interface to be added to IMaterialProperties the specifies the density of the Ma
 
     - BH.oM.Environment.MaterialFragments.[GasMaterial](/api/oM/Analytical/Environment/MaterialFragments/GasMaterial)
     - BH.oM.Environment.MaterialFragments.[SolidMaterial](/api/oM/Analytical/Environment/MaterialFragments/SolidMaterial)
-    - BH.oM.Adapters.GSA.MaterialFragments.[Fabric](/api/oM/Adapter/Adapters.GSA/MaterialFragments/Fabric)
+    - BH.oM.Adapters.GSA.MaterialFragments.[Fabric](/api/oM/Adapter/Adapters/GSA/MaterialFragments/Fabric)
     - BH.oM.Structure.MaterialFragments.[Aluminium](/api/oM/Analytical/Structure/MaterialFragments/Aluminium)
     - BH.oM.Structure.MaterialFragments.[Concrete](/api/oM/Analytical/Structure/MaterialFragments/Concrete)
     - BH.oM.Structure.MaterialFragments.[GenericIsotropicMaterial](/api/oM/Analytical/Structure/MaterialFragments/GenericIsotropicMaterial)

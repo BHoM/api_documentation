@@ -2,7 +2,7 @@
 title: Table
 ---
 
-# <small>BH.oM.Data.</small>**Table**
+# <small>BH.oM.Data.Collections.</small>**Table**
 
 
 

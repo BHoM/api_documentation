@@ -2,7 +2,7 @@
 title: BlockNode
 ---
 
-# <small>BH.oM.</small>**BlockNode**
+# <small>BH.oM.Programming.</small>**BlockNode**
 
 Represents a group of syntax nodes covered by a common description. This is equivalent to a block of code inside a method.
 

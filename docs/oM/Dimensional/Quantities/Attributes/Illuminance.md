@@ -2,7 +2,7 @@
 title: Illuminance
 ---
 
-# <small>BH.oM.Quantities.</small>**Illuminance**
+# <small>BH.oM.Quantities.Attributes.</small>**Illuminance**
 
 Dimensional quantity as defined by the International System of Quantities
 

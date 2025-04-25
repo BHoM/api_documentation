@@ -2,7 +2,7 @@
 title: BaseInterfaceType
 ---
 
-# <small>BH.oM.</small>**BaseInterfaceType**
+# <small>BH.oM.dKoP.</small>**BaseInterfaceType**
 
 
 

@@ -2,7 +2,7 @@
 title: DataType
 ---
 
-# <small>BH.oM.</small>**DataType**
+# <small>BH.oM.LadybugTools.</small>**DataType**
 
 
 

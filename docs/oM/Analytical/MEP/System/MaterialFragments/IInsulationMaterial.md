@@ -2,7 +2,7 @@
 title: IInsulationMaterial
 ---
 
-# <small>BH.oM.MEP.System.</small>**IInsulationMaterial**
+# <small>BH.oM.MEP.System.MaterialFragments.</small>**IInsulationMaterial**
 
 Insulation is the material surrounding a duct, pipe or wire which mitigates the loss of the internal conditions of the fluid within the object.
 

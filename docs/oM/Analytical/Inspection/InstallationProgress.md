@@ -2,7 +2,7 @@
 title: InstallationProgress
 ---
 
-# <small>BH.oM.</small>**InstallationProgress**
+# <small>BH.oM.Inspection.</small>**InstallationProgress**
 
 Installation progress in a specific area associated with an audit, including image filepaths as applicable
 

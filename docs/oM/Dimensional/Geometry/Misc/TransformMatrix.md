@@ -2,7 +2,7 @@
 title: TransformMatrix
 ---
 
-# <small>BH.oM.</small>**TransformMatrix**
+# <small>BH.oM.Geometry.</small>**TransformMatrix**
 
 A 4x4 matrix describing linear tranformations in three-dimensional space, such as translations, rotations, reflections, scaling and shearing.
 

@@ -2,7 +2,7 @@
 title: BuildingParts
 ---
 
-# <small>BH.oM.Environment.SAP.</small>**BuildingParts**
+# <small>BH.oM.Environment.SAP.XML.</small>**BuildingParts**
 
 
 

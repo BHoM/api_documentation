@@ -2,7 +2,7 @@
 title: LifeCycleAssessmentScope
 ---
 
-# <small>BH.oM.</small>**LifeCycleAssessmentScope**
+# <small>BH.oM.LifeCycleAssessment.</small>**LifeCycleAssessmentScope**
 
 The Life Cycle Assessment Scope fragment intends to provide a method of reporting project criteria (name, area, type, location). This object may be used for studies at any stage of development and can serve as a true means of 'apples to apples' comparison when catalogued. The information provided within this object is utilised for database construction and organisation only, therefore all values will not effect the overall life cycle assessment results.
 

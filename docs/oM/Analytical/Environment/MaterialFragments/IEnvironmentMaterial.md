@@ -2,7 +2,7 @@
 title: IEnvironmentMaterial
 ---
 
-# <small>BH.oM.Environment.</small>**IEnvironmentMaterial**
+# <small>BH.oM.Environment.MaterialFragments.</small>**IEnvironmentMaterial**
 
 
 

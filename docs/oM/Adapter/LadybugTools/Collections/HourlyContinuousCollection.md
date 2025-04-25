@@ -2,7 +2,7 @@
 title: HourlyContinuousCollection
 ---
 
-# <small>BH.oM.</small>**HourlyContinuousCollection**
+# <small>BH.oM.LadybugTools.</small>**HourlyContinuousCollection**
 
 
 

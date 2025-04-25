@@ -2,7 +2,7 @@
 title: IsOfType
 ---
 
-# <small>BH.oM.Verification.</small>**IsOfType**
+# <small>BH.oM.Verification.Conditions.</small>**IsOfType**
 
 Condition that verifies whether an object is of a given type.
 

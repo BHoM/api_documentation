@@ -2,7 +2,7 @@
 title: MechanicalEquipment
 ---
 
-# <small>BH.oM.MEP.</small>**MechanicalEquipment**
+# <small>BH.oM.MEP.Equipment.</small>**MechanicalEquipment**
 
 
 

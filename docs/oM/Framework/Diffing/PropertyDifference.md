@@ -2,7 +2,7 @@
 title: PropertyDifference
 ---
 
-# <small>BH.oM.</small>**PropertyDifference**
+# <small>BH.oM.Diffing.</small>**PropertyDifference**
 
 Represents a difference found between a Previous and Following version of an object.
 

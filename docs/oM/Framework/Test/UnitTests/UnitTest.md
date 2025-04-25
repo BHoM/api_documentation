@@ -2,7 +2,7 @@
 title: UnitTest
 ---
 
-# <small>BH.oM.Test.</small>**UnitTest**
+# <small>BH.oM.Test.UnitTests.</small>**UnitTest**
 
 Defines a data-driven unit test for a specific method. Class defines inputs, method to be run and expected output.
 

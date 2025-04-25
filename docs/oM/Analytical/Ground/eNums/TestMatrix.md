@@ -2,7 +2,7 @@
 title: TestMatrix
 ---
 
-# <small>BH.oM.</small>**TestMatrix**
+# <small>BH.oM.Ground.</small>**TestMatrix**
 
 Test matrix description based on the AGS schema v4.1.
 

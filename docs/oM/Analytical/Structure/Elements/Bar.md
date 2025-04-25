@@ -2,7 +2,7 @@
 title: Bar
 ---
 
-# <small>BH.oM.Structure.</small>**Bar**
+# <small>BH.oM.Structure.Elements.</small>**Bar**
 
 1D finite element for structural analysis. Linear 2-noded element defined by a start and end node.For structural conventions and orientation of the bar please see the [documentation](https://bhom.xyz/documentation/BHoM_oM/Structure_oM/BHoM-Structural-Conventions/).
 
@@ -60,10 +60,10 @@ The following properties are defined as extension methods in one of the BHoM_Eng
 
 | Name             | Type             | Description      | Quantity         | Engine           |
 |------------------|------------------|------------------|------------------|------------------|
-| AutoLengthOffset | [AutoLengthOffset](/api/oM/Adapter/Adapters.ETABS/Fragments/AutoLengthOffset) | - | - | ETABS_Engine |
-| BarAutoMesh | [BarAutoMesh](/api/oM/Adapter/Adapters.SAP2000/Fragments/BarAutoMesh) | Returns the SAP2000 BarAutoMesh settings for a bar. You can also use the method FindFragment() with the type BarAutoMesh as an argument. | - | SAP2000_Engine |
-| BarDesignProcedure | [BarDesignProcedure](/api/oM/Adapter/Adapters.SAP2000/Fragments/BarDesignProcedure) | Returns the SAP2000 BarDesignProcedure settings for a bar. You can also use the method FindFragment() with the type BarDesignProcedure as an argument. | - | SAP2000_Engine |
-| BarInsertionPoint | [BarInsertionPointLocation](/api/oM/Adapter/Adapters.SAP2000/Enums/BarInsertionPointLocation) | Returns the SAP2000 BarInsertionPointLocation settings for a bar. You can also use the method FindFragment() with the type BarInsertionPoint as an argument. | - | SAP2000_Engine |
+| AutoLengthOffset | [AutoLengthOffset](/api/oM/Adapter/Adapters/ETABS/Fragments/AutoLengthOffset) | - | - | ETABS_Engine |
+| BarAutoMesh | [BarAutoMesh](/api/oM/Adapter/Adapters/SAP2000/Fragments/BarAutoMesh) | Returns the SAP2000 BarAutoMesh settings for a bar. You can also use the method FindFragment() with the type BarAutoMesh as an argument. | - | SAP2000_Engine |
+| BarDesignProcedure | [BarDesignProcedure](/api/oM/Adapter/Adapters/SAP2000/Fragments/BarDesignProcedure) | Returns the SAP2000 BarDesignProcedure settings for a bar. You can also use the method FindFragment() with the type BarDesignProcedure as an argument. | - | SAP2000_Engine |
+| BarInsertionPoint | [BarInsertionPointLocation](/api/oM/Adapter/Adapters/SAP2000/Enums/BarInsertionPointLocation) | Returns the SAP2000 BarInsertionPointLocation settings for a bar. You can also use the method FindFragment() with the type BarInsertionPoint as an argument. | - | SAP2000_Engine |
 | BarModifyStiffnessInsertionPoint | [bool](https://learn.microsoft.com/en-us/dotnet/api/System.Boolean?view=netstandard-2.0) | Checks if SAP2000 is set to modify the stiffness of a bar based on its insertion point. You can also use the method FindFragment() with the type BarInsertionPoint as an argument, and check the ModifyStiffness property of that fragment. | - | SAP2000_Engine |
 | BarSectionTranformation | [TransformMatrix](/api/oM/Dimensional/Geometry/Misc/TransformMatrix) | Constructs the transformation matrix needed to move the section curves of the Bar from the default drawing position around the global origin to the start of the Bar and aligned with its tangent. | - | Structure_Engine |
 | Bounds | [BoundingBox](/api/oM/Dimensional/Geometry/Misc/BoundingBox) | Queries the IElement1Ds BoundingBox. Acts on the ICurve definition of the IElement1D through the Geometry_Engine. | - | Spatial_Engine |
@@ -97,7 +97,7 @@ The following properties are defined as extension methods in one of the BHoM_Eng
 | IIsPlanar | [bool](https://learn.microsoft.com/en-us/dotnet/api/System.Boolean?view=netstandard-2.0) | Checks whether all control points of an element lie in a single plane. | - | Spatial_Engine |
 | IIsSelfIntersecting | [bool](https://learn.microsoft.com/en-us/dotnet/api/System.Boolean?view=netstandard-2.0) | Checks if any of the curves defining an IElement is closer to itself than the tolerance at any two points (is self intersecting). In case of IElement2D, does not check for intersections between external and internal curves, or between different internal curves. | - | Spatial_Engine |
 | IMaterialComposition | [MaterialComposition](/api/oM/Physical/Physical/Materials/MaterialComposition) | Gets the unique Materials along with their relative proportions defining an object's make-up. | - | Matter_Engine |
-| InsertionPoint | [BarInsertionPoint](/api/oM/Adapter/Adapters.ETABS/Enums/BarInsertionPoint) | - | - | ETABS_Engine |
+| InsertionPoint | [BarInsertionPoint](/api/oM/Adapter/Adapters/ETABS/Enums/BarInsertionPoint) | - | - | ETABS_Engine |
 | IPrimaryPropertyName | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | Returns the name of an elements primary defining property | - | Facade_Engine |
 | IsNull | [bool](https://learn.microsoft.com/en-us/dotnet/api/System.Boolean?view=netstandard-2.0) | Checks if a Bar or its defining properties are null and outputs relevant error message. | - | Structure_Engine |
 | ISolidVolume | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Returns an element's solid volume, i.e. the the volume of the element that had any materiality, excluding cavities, openings and voids. | [Volume](/api/oM/Dimensional/Quantities/Attributes/Volume) [m³] | Matter_Engine |

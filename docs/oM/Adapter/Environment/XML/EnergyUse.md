@@ -2,7 +2,7 @@
 title: EnergyUse
 ---
 
-# <small>BH.oM.Environment.SAP.</small>**EnergyUse**
+# <small>BH.oM.Environment.SAP.XML.</small>**EnergyUse**
 
 
 

@@ -2,7 +2,7 @@
 title: Beam
 ---
 
-# <small>BH.oM.Physical.</small>**Beam**
+# <small>BH.oM.Physical.Elements.</small>**Beam**
 
 
 

@@ -2,7 +2,7 @@
 title: FailureSeverity
 ---
 
-# <small>BH.oM.</small>**FailureSeverity**
+# <small>BH.oM.Verification.</small>**FailureSeverity**
 
 Specifies severity of a requirement failure.
 

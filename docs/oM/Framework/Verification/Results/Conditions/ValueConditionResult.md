@@ -2,7 +2,7 @@
 title: ValueConditionResult
 ---
 
-# <small>BH.oM.Verification.</small>**ValueConditionResult**
+# <small>BH.oM.Verification.Results.</small>**ValueConditionResult**
 
 Object representing result of IValueCondition.
 

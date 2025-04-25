@@ -2,7 +2,7 @@
 title: SolarRadiationPlotCommand
 ---
 
-# <small>BH.oM.</small>**SolarRadiationPlotCommand**
+# <small>BH.oM.LadybugTools.</small>**SolarRadiationPlotCommand**
 
 Command to use in conjunction with the LadybugToolsAdapter, that simulates a range of angles that a PV panel could rest at, and measures the amount of radiation (and by extension the energy that the panels create) at that angle.
 

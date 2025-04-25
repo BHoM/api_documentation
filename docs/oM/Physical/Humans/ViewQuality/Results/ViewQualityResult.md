@@ -2,7 +2,7 @@
 title: ViewQualityResult
 ---
 
-# <small>BH.oM.Humans.</small>**ViewQualityResult**
+# <small>BH.oM.Humans.ViewQuality.</small>**ViewQualityResult**
 
 
 

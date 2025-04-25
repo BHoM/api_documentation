@@ -2,7 +2,7 @@
 title: HealthProductDeclaration
 ---
 
-# <small>BH.oM.</small>**HealthProductDeclaration**
+# <small>BH.oM.LifeCycleAssessment.</small>**HealthProductDeclaration**
 
 
 

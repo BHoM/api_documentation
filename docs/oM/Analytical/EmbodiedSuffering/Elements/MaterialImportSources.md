@@ -2,7 +2,7 @@
 title: MaterialImportSources
 ---
 
-# <small>BH.oM.EmbodiedSuffering.</small>**MaterialImportSources**
+# <small>BH.oM.EmbodiedSuffering.Elements.</small>**MaterialImportSources**
 
 An Embodied Suffering object used for defining the import ratios per country for a particular material, utilised in a specific country (e.g. the United States gets all of its timber from Brazil, or that it is 50% from Brazil and 50% from Vietnam.)
 

@@ -2,7 +2,7 @@
 title: IrradianceType
 ---
 
-# <small>BH.oM.</small>**IrradianceType**
+# <small>BH.oM.LadybugTools.</small>**IrradianceType**
 
 
 

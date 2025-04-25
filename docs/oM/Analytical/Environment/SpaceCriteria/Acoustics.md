@@ -2,7 +2,7 @@
 title: Acoustics
 ---
 
-# <small>BH.oM.Environment.</small>**Acoustics**
+# <small>BH.oM.Environment.SpaceCriteria.</small>**Acoustics**
 
 The Acoustics object defines the noise criteria for an environments space, whether it's the prescribed ductwork velocity, the noise rating for the space or the dB level.
 

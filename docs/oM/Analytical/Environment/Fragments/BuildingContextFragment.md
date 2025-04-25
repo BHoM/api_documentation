@@ -2,7 +2,7 @@
 title: BuildingContextFragment
 ---
 
-# <small>BH.oM.Environment.</small>**BuildingContextFragment**
+# <small>BH.oM.Environment.Fragments.</small>**BuildingContextFragment**
 
 Fragment containing the place (city) and name of the nearest weather station
 

@@ -2,7 +2,7 @@
 title: ShapeCode35
 ---
 
-# <small>BH.oM.Physical.Reinforcement.</small>**ShapeCode35**
+# <small>BH.oM.Physical.Reinforcement.BS8666.</small>**ShapeCode35**
 
 A reinforcement bar with shape code 35 to BS 8666:2020 in the XY Plane with the free end of the A segment starting at the Origin aligned with X axis, the C/F parameters aligned with the X axis and the D/E parameters aligned with the Y axis.
 

@@ -2,7 +2,7 @@
 title: EutrophicationTerrestrialPerQuantity
 ---
 
-# <small>BH.oM.Quantities.</small>**EutrophicationTerrestrialPerQuantity**
+# <small>BH.oM.Quantities.Attributes.</small>**EutrophicationTerrestrialPerQuantity**
 
 Quantity type for Eutrophication Potential Terrestrial per quantity.
 

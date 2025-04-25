@@ -2,7 +2,7 @@
 title: IContainer
 ---
 
-# <small>BH.oM.</small>**IContainer**
+# <small>BH.oM.Base.</small>**IContainer**
 
 Identifies Container objects that can contain other interrelated objects in multiple properties. The container can be unpacked to get all of its objects as a flat list.
 

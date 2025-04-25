@@ -2,7 +2,7 @@
 title: BarUniformTemperatureLoad
 ---
 
-# <small>BH.oM.Structure.</small>**BarUniformTemperatureLoad**
+# <small>BH.oM.Structure.Loads.</small>**BarUniformTemperatureLoad**
 
 Uniform temperature load for Bars.
 

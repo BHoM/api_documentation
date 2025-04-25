@@ -2,7 +2,7 @@
 title: EnvironmentalProductDeclaration
 ---
 
-# <small>BH.oM.LifeCycleAssessment.</small>**EnvironmentalProductDeclaration**
+# <small>BH.oM.LifeCycleAssessment.MaterialFragments.</small>**EnvironmentalProductDeclaration**
 
 An Environmental Product Declaration or EPD is an independently verified and registered document that communicates transparent and comparable information about the life-cycle environmental impact of products in a credible way. 
 More information can be found on the Environdec website (environdec.com/all-about-epds0/all-about-epds.) 

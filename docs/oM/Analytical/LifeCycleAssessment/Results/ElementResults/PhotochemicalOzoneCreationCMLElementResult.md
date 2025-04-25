@@ -2,7 +2,7 @@
 title: PhotochemicalOzoneCreationCMLElementResult
 ---
 
-# <small>BH.oM.LifeCycleAssessment.</small>**PhotochemicalOzoneCreationCMLElementResult**
+# <small>BH.oM.LifeCycleAssessment.Results.</small>**PhotochemicalOzoneCreationCMLElementResult**
 
 Result class for resulting Photochemical Ozone Creation as defined by the CML standard for a particular Element.
 

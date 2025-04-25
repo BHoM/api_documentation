@@ -2,7 +2,7 @@
 title: EventType
 ---
 
-# <small>BH.oM.Base.</small>**EventType**
+# <small>BH.oM.Base.Debugging.</small>**EventType**
 
 
 

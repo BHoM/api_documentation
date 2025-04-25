@@ -2,7 +2,7 @@
 title: ISurface
 ---
 
-# <small>BH.oM.</small>**ISurface**
+# <small>BH.oM.Geometry.</small>**ISurface**
 
 The interface for two-dimensional geometrical objects.
 

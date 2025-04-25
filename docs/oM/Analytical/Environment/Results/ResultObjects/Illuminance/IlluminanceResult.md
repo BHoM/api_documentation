@@ -2,7 +2,7 @@
 title: IlluminanceResult
 ---
 
-# <small>BH.oM.Environment.</small>**IlluminanceResult**
+# <small>BH.oM.Environment.Results.</small>**IlluminanceResult**
 
 A results object containing illuminance data.
 

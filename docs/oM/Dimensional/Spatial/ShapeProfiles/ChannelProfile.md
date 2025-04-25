@@ -2,7 +2,7 @@
 title: ChannelProfile
 ---
 
-# <small>BH.oM.Spatial.</small>**ChannelProfile**
+# <small>BH.oM.Spatial.ShapeProfiles.</small>**ChannelProfile**
 
 C-shaped profile with parallel flanges of the same length and thickness.
 

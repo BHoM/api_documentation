@@ -2,7 +2,7 @@
 title: CSProjectObject
 ---
 
-# <small>BH.oM.XML.</small>**CSProjectObject**
+# <small>BH.oM.XML.CSProject.</small>**CSProjectObject**
 
 
 

@@ -2,7 +2,7 @@
 title: EPDDensity
 ---
 
-# <small>BH.oM.LifeCycleAssessment.</small>**EPDDensity**
+# <small>BH.oM.LifeCycleAssessment.Fragments.</small>**EPDDensity**
 
 A data fragment used to store Density values if provided from the EPD source. 
 Density is a required property for all Evaluations of EPDs with Mass-QuantityType.Density can be changed by the user by adding this fragment to an EPD. 

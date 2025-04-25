@@ -2,7 +2,7 @@
 title: ShapeCode75
 ---
 
-# <small>BH.oM.Physical.Reinforcement.</small>**ShapeCode75**
+# <small>BH.oM.Physical.Reinforcement.BS8666.</small>**ShapeCode75**
 
 A reinforcement bar with shape code 75 to BS 8666:2020 in the XY Plane centred on the Origin. The circle starts at the lowest point of the circle (Y axis) once laps have been accounted for.
 

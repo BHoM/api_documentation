@@ -2,7 +2,7 @@
 title: NodeResultType
 ---
 
-# <small>BH.oM.Structure.</small>**NodeResultType**
+# <small>BH.oM.Structure.Requests.</small>**NodeResultType**
 
 
 

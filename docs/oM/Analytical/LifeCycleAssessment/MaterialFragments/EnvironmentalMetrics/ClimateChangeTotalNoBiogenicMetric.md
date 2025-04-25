@@ -2,7 +2,7 @@
 title: ClimateChangeTotalNoBiogenicMetric
 ---
 
-# <small>BH.oM.LifeCycleAssessment.</small>**ClimateChangeTotalNoBiogenicMetric**
+# <small>BH.oM.LifeCycleAssessment.MaterialFragments.</small>**ClimateChangeTotalNoBiogenicMetric**
 
 Climate Change - Total, measured in kg CO2 eq (Carbon Dioxide equivalent, also referred to as embodied carbon), refers to the total Land Use and Fossil resources, disregarding impacts of Biogenic carbon, which contribute to global warming. This environmental indicator forms part of an Environmental Product Declaration and should be evaluated based on the Quantity Type stated on the Environmental Product Declaration.
 

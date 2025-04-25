@@ -2,7 +2,7 @@
 title: ConcreteSection
 ---
 
-# <small>BH.oM.Structure.</small>**ConcreteSection**
+# <small>BH.oM.Structure.SectionProperties.</small>**ConcreteSection**
 
 Concrete section to be used on Bars. Defined by a section profile. Note that all section constants are assuming an uncracked section and are disregarding reinforcement.
 

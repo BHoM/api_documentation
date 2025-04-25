@@ -2,7 +2,7 @@
 title: InitialiserNode
 ---
 
-# <small>BH.oM.</small>**InitialiserNode**
+# <small>BH.oM.Programming.</small>**InitialiserNode**
 
 A syntax node representing the initialisation of an object. 
 In C#, this would be equivalent to something like 'new Point {X = x, Y = y }'

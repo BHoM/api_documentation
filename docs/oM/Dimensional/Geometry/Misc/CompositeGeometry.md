@@ -2,7 +2,7 @@
 title: CompositeGeometry
 ---
 
-# <small>BH.oM.</small>**CompositeGeometry**
+# <small>BH.oM.Geometry.</small>**CompositeGeometry**
 
 A collection of multiple sets of Geometry of any or mixed type. Integrity, continuity and closure is not guaranteed. Discontinuous and/or mixed type definitions are possible, with no restrictions placed on how geometry can be combined.
 

@@ -2,7 +2,7 @@
 title: AnalysisGrid
 ---
 
-# <small>BH.oM.Environment.</small>**AnalysisGrid**
+# <small>BH.oM.Environment.Analysis.</small>**AnalysisGrid**
 
 An AnalysisGrid is used to define an area in 3D space that should be analysed for a given set of results, e.g. daylighting levels, wind levels, heat indexes, etc. - an AnalysisGrid can be used to represent a measurable bit of the environment, including a void in a space, or it can be used to represent a mesh on a panel for analysis
 

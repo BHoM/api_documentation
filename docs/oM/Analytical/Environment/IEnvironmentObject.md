@@ -2,7 +2,7 @@
 title: IEnvironmentObject
 ---
 
-# <small>BH.oM.</small>**IEnvironmentObject**
+# <small>BH.oM.Environment.</small>**IEnvironmentObject**
 
 
 

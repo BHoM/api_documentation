@@ -2,7 +2,7 @@
 title: Constraint4DOF
 ---
 
-# <small>BH.oM.Structure.</small>**Constraint4DOF**
+# <small>BH.oM.Structure.Constraints.</small>**Constraint4DOF**
 
 Constraint objects with four degrees of freedom, three translational and one rotational. Used for support or release of 1D analytical elements of 2D analytical objects. The Rotational DOF will correspond to rotation about the axis of the object.
 

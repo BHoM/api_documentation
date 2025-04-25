@@ -2,7 +2,7 @@
 title: ShapeCode00
 ---
 
-# <small>BH.oM.Physical.Reinforcement.</small>**ShapeCode00**
+# <small>BH.oM.Physical.Reinforcement.BS8666.</small>**ShapeCode00**
 
 A reinforcement bar with shape code 00 to BS 8666:2020 in the XY Plane centred on the Origin and the A parameter aligned with the X axis.
 

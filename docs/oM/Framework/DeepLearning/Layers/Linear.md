@@ -2,7 +2,7 @@
 title: Linear
 ---
 
-# <small>BH.oM.DeepLearning.</small>**Linear**
+# <small>BH.oM.DeepLearning.Layers.</small>**Linear**
 
 
 

@@ -2,7 +2,7 @@
 title: SolarRadiationData
 ---
 
-# <small>BH.oM.</small>**SolarRadiationData**
+# <small>BH.oM.LadybugTools.</small>**SolarRadiationData**
 
 
 

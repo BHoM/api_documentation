@@ -2,7 +2,7 @@
 title: ICase
 ---
 
-# <small>BH.oM.Structure.</small>**ICase**
+# <small>BH.oM.Structure.Loads.</small>**ICase**
 
 Base interface for load cases and combinations.
 

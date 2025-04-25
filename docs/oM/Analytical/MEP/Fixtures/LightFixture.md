@@ -2,7 +2,7 @@
 title: LightFixture
 ---
 
-# <small>BH.oM.MEP.</small>**LightFixture**
+# <small>BH.oM.MEP.Fixtures.</small>**LightFixture**
 
 A light fixture is an electrical device that provides illumination.
 

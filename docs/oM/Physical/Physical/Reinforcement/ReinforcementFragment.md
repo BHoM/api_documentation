@@ -2,7 +2,7 @@
 title: ReinforcementFragment
 ---
 
-# <small>BH.oM.Physical.</small>**ReinforcementFragment**
+# <small>BH.oM.Physical.Reinforcement.</small>**ReinforcementFragment**
 
 
 

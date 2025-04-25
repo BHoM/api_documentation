@@ -2,7 +2,7 @@
 title: PsiValueSchedule
 ---
 
-# <small>BH.oM.Environment.SAP.</small>**PsiValueSchedule**
+# <small>BH.oM.Environment.SAP.Excel.</small>**PsiValueSchedule**
 
 A thermal bridge between two thermal elements of the dwelling.
 

@@ -2,7 +2,7 @@
 title: MomentPerUnitAngle
 ---
 
-# <small>BH.oM.Quantities.</small>**MomentPerUnitAngle**
+# <small>BH.oM.Quantities.Attributes.</small>**MomentPerUnitAngle**
 
 Dimensional quantity as defined by the International System of Quantities
 

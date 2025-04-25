@@ -2,7 +2,7 @@
 title: Comment
 ---
 
-# <small>BH.oM.</small>**Comment**
+# <small>BH.oM.Inspection.</small>**Comment**
 
 A comment on an Issue typically identifying either the nature of the issue, the actions being taken to resolve the issue, or the approval / rejection of actions taken.
 

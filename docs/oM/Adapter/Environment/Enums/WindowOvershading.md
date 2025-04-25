@@ -2,7 +2,7 @@
 title: WindowOvershading
 ---
 
-# <small>BH.oM.Environment.</small>**WindowOvershading**
+# <small>BH.oM.Environment.SAP.</small>**WindowOvershading**
 
 Code which indicates the amount of window overshading.
 

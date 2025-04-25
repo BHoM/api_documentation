@@ -2,7 +2,7 @@
 title: DateTimeIndex
 ---
 
-# <small>BH.oM.Environment.</small>**DateTimeIndex**
+# <small>BH.oM.Environment.Results.</small>**DateTimeIndex**
 
 A collection of DateTimes associated with a time-series result.
 

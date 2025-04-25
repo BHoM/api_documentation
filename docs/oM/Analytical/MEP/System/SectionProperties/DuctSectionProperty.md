@@ -2,7 +2,7 @@
 title: DuctSectionProperty
 ---
 
-# <small>BH.oM.MEP.System.</small>**DuctSectionProperty**
+# <small>BH.oM.MEP.System.SectionProperties.</small>**DuctSectionProperty**
 
 
 

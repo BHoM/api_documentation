@@ -2,7 +2,7 @@
 title: PointMatrix&lt;T&gt;
 ---
 
-# <small>BH.oM.Data.</small>**PointMatrix&lt;T&gt;**
+# <small>BH.oM.Data.Collections.</small>**PointMatrix&lt;T&gt;**
 
 
 

@@ -2,7 +2,7 @@
 title: TargetsAttribute
 ---
 
-# <small>BH.oM.Base.</small>**TargetsAttribute**
+# <small>BH.oM.Base.Attributes.</small>**TargetsAttribute**
 
 Defines the list of types that are a valid target for this.
 

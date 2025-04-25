@@ -2,7 +2,7 @@
 title: RelatedPartyDisclosure
 ---
 
-# <small>BH.oM.Environment.SAP.</small>**RelatedPartyDisclosure**
+# <small>BH.oM.Environment.SAP.XML.</small>**RelatedPartyDisclosure**
 
 
 

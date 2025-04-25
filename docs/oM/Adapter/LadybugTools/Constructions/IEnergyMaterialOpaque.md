@@ -2,7 +2,7 @@
 title: IEnergyMaterialOpaque
 ---
 
-# <small>BH.oM.</small>**IEnergyMaterialOpaque**
+# <small>BH.oM.LadybugTools.</small>**IEnergyMaterialOpaque**
 
 An interface for opaque energy materials.
 

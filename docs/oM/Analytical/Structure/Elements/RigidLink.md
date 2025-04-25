@@ -2,7 +2,7 @@
 title: RigidLink
 ---
 
-# <small>BH.oM.Structure.</small>**RigidLink**
+# <small>BH.oM.Structure.Elements.</small>**RigidLink**
 
 A rigid link object defining rigid constraints between two or more nodes.
 

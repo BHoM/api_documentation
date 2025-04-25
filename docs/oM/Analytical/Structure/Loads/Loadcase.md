@@ -2,7 +2,7 @@
 title: Loadcase
 ---
 
-# <small>BH.oM.Structure.</small>**Loadcase**
+# <small>BH.oM.Structure.Loads.</small>**Loadcase**
 
 Basic load case class. All load classes need to point to one Loadcase.
 

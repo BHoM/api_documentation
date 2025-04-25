@@ -2,7 +2,7 @@
 title: RetainingWall
 ---
 
-# <small>BH.oM.Structure.</small>**RetainingWall**
+# <small>BH.oM.Structure.Elements.</small>**RetainingWall**
 
 
 

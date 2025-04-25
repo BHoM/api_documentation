@@ -2,7 +2,7 @@
 title: ThermalBridgeIteration
 ---
 
-# <small>BH.oM.Environment.</small>**ThermalBridgeIteration**
+# <small>BH.oM.Environment.SAP.</small>**ThermalBridgeIteration**
 
 Describe a single PSI Value to use for thermal bridges within the SAP context.
 

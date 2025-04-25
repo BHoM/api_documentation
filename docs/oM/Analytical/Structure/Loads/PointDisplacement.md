@@ -2,7 +2,7 @@
 title: PointDisplacement
 ---
 
-# <small>BH.oM.Structure.</small>**PointDisplacement**
+# <small>BH.oM.Structure.Loads.</small>**PointDisplacement**
 
 Point displacement for Nodes. This can be used to apply translation as well as rotation.
 

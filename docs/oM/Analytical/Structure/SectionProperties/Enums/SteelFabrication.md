@@ -2,7 +2,7 @@
 title: SteelFabrication
 ---
 
-# <small>BH.oM.Structure.</small>**SteelFabrication**
+# <small>BH.oM.Structure.SectionProperties.</small>**SteelFabrication**
 
 
 

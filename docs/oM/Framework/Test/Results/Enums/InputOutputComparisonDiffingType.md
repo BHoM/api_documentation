@@ -2,7 +2,7 @@
 title: InputOutputComparisonDiffingType
 ---
 
-# <small>BH.oM.Test.</small>**InputOutputComparisonDiffingType**
+# <small>BH.oM.Test.Results.</small>**InputOutputComparisonDiffingType**
 
 
 

@@ -2,7 +2,7 @@
 title: OzoneDepletionPerQuantity
 ---
 
-# <small>BH.oM.Quantities.</small>**OzoneDepletionPerQuantity**
+# <small>BH.oM.Quantities.Attributes.</small>**OzoneDepletionPerQuantity**
 
 Quantity type for Ozone Depletion Potential per quantity.
 

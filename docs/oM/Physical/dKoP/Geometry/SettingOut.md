@@ -2,7 +2,7 @@
 title: SettingOut
 ---
 
-# <small>BH.oM.</small>**SettingOut**
+# <small>BH.oM.dKoP.</small>**SettingOut**
 
 
 

@@ -2,7 +2,7 @@
 title: LoadType
 ---
 
-# <small>BH.oM.Structure.</small>**LoadType**
+# <small>BH.oM.Structure.Loads.</small>**LoadType**
 
 
 

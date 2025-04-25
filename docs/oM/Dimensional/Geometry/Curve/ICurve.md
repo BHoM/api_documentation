@@ -2,7 +2,7 @@
 title: ICurve
 ---
 
-# <small>BH.oM.</small>**ICurve**
+# <small>BH.oM.Geometry.</small>**ICurve**
 
 The interface for all one-dimensional geometrical objects.
 

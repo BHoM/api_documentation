@@ -2,7 +2,7 @@
 title: Material
 ---
 
-# <small>BH.oM.EmbodiedSuffering.</small>**Material**
+# <small>BH.oM.EmbodiedSuffering.Elements.</small>**Material**
 
 A list of raw materials from which building materials are created.
 

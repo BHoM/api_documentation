@@ -2,7 +2,7 @@
 title: Point
 ---
 
-# <small>BH.oM.</small>**Point**
+# <small>BH.oM.Geometry.</small>**Point**
 
 Defines a dimensionless location in three-dimensional space.
 

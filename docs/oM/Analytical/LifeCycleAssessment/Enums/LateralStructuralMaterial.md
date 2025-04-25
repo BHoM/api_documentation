@@ -2,7 +2,7 @@
 title: LateralStructuralMaterial
 ---
 
-# <small>BH.oM.</small>**LateralStructuralMaterial**
+# <small>BH.oM.LifeCycleAssessment.</small>**LateralStructuralMaterial**
 
 
 

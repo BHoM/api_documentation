@@ -2,7 +2,7 @@
 title: CaseType
 ---
 
-# <small>BH.oM.Structure.</small>**CaseType**
+# <small>BH.oM.Structure.Loads.</small>**CaseType**
 
 
 

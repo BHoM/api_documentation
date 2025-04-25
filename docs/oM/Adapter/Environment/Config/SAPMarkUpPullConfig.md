@@ -2,7 +2,7 @@
 title: SAPMarkUpPullConfig
 ---
 
-# <small>BH.oM.Environment.</small>**SAPMarkUpPullConfig**
+# <small>BH.oM.Environment.SAP.</small>**SAPMarkUpPullConfig**
 
 Configurations specific for an Adapter Action (Push, Pull, etc).
 Consider that your tookit might have a more specific implementation available. Try to look for [your toolkit name]ActionConfig.
@@ -32,13 +32,13 @@ The following properties are defined on the class
 | ExcelFile | [FileSettings](/api/oM/Framework/Adapter/FileSettings) | Set the location of the Excel schedules definitions file. | - |
 | BluebeamConfig | [BluebeamConfig](/api/oM/Adapter/Environment/Config/BluebeamConfig) | Set the Bluebeam configuration options to define how information should be pulled from the Bluebeam SAP XML markups. | - |
 | HeatingFileDirectory | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | Set the directory where heating file template XMLs can be found. | - |
-| FloorDefinitionsRequest | [CellContentsRequest](/api/oM/Adapter/Adapters.Excel/Requests/CellContentsRequest) | Provide the location within the Excel schedules definitions files for pulling Floor Schedule information. | - |
-| RoofDefinitionsRequest | [CellContentsRequest](/api/oM/Adapter/Adapters.Excel/Requests/CellContentsRequest) | Provide the location within the Excel schedules definitions files for pulling Roof Schedule information. | - |
-| WallDefinitionsRequest | [CellContentsRequest](/api/oM/Adapter/Adapters.Excel/Requests/CellContentsRequest) | Provide the location within the Excel schedules definitions files for pulling Wall Schedule information. | - |
-| PsiValuesRequest | [CellContentsRequest](/api/oM/Adapter/Adapters.Excel/Requests/CellContentsRequest) | Provide the location within the Excel schedules definitions files for pulling PSI Value information. | - |
-| OpeningDefinitionsRequest | [CellContentsRequest](/api/oM/Adapter/Adapters.Excel/Requests/CellContentsRequest) | Provide the location within the Excel schedules definitions files for pulling Opening Schedule information. | - |
-| OpeningPsiValuesRequest | [CellContentsRequest](/api/oM/Adapter/Adapters.Excel/Requests/CellContentsRequest) | Provide the location within the Excel schedules definitions files for pulling Opening PSI Value information. | - |
-| DwellingSchedulesRequest | [CellContentsRequest](/api/oM/Adapter/Adapters.Excel/Requests/CellContentsRequest) | Provide the location within the Excel schedules definitions files for pulling Dwelling Schedule information. | - |
+| FloorDefinitionsRequest | [CellContentsRequest](/api/oM/Adapter/Adapters/Excel/Requests/CellContentsRequest) | Provide the location within the Excel schedules definitions files for pulling Floor Schedule information. | - |
+| RoofDefinitionsRequest | [CellContentsRequest](/api/oM/Adapter/Adapters/Excel/Requests/CellContentsRequest) | Provide the location within the Excel schedules definitions files for pulling Roof Schedule information. | - |
+| WallDefinitionsRequest | [CellContentsRequest](/api/oM/Adapter/Adapters/Excel/Requests/CellContentsRequest) | Provide the location within the Excel schedules definitions files for pulling Wall Schedule information. | - |
+| PsiValuesRequest | [CellContentsRequest](/api/oM/Adapter/Adapters/Excel/Requests/CellContentsRequest) | Provide the location within the Excel schedules definitions files for pulling PSI Value information. | - |
+| OpeningDefinitionsRequest | [CellContentsRequest](/api/oM/Adapter/Adapters/Excel/Requests/CellContentsRequest) | Provide the location within the Excel schedules definitions files for pulling Opening Schedule information. | - |
+| OpeningPsiValuesRequest | [CellContentsRequest](/api/oM/Adapter/Adapters/Excel/Requests/CellContentsRequest) | Provide the location within the Excel schedules definitions files for pulling Opening PSI Value information. | - |
+| DwellingSchedulesRequest | [CellContentsRequest](/api/oM/Adapter/Adapters/Excel/Requests/CellContentsRequest) | Provide the location within the Excel schedules definitions files for pulling Dwelling Schedule information. | - |
 
 
 ### Inherited properties

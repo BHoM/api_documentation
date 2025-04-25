@@ -2,7 +2,7 @@
 title: Building
 ---
 
-# <small>BH.oM.Environment.</small>**Building**
+# <small>BH.oM.Environment.Elements.</small>**Building**
 
 This building object is used for setting the location and building type, which is required for some environmental workflows
 

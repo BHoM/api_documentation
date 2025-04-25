@@ -2,7 +2,7 @@
 title: ElectricalConnector
 ---
 
-# <small>BH.oM.MEP.Equipment.</small>**ElectricalConnector**
+# <small>BH.oM.MEP.Equipment.Parts.</small>**ElectricalConnector**
 
 Electrical Connectors are the devices (motors, disconnects/isolators) that serve as a source of power for mechanical equipment
 

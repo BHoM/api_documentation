@@ -2,7 +2,7 @@
 title: BuildingResultFragment
 ---
 
-# <small>BH.oM.Environment.</small>**BuildingResultFragment**
+# <small>BH.oM.Environment.Fragments.</small>**BuildingResultFragment**
 
 Fragment containing the peak heating and peak cooling for a buildng
 

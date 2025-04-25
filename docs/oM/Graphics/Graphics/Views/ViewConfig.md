@@ -2,7 +2,7 @@
 title: ViewConfig
 ---
 
-# <small>BH.oM.Graphics.</small>**ViewConfig**
+# <small>BH.oM.Graphics.Views.</small>**ViewConfig**
 
 Configuration properties for view objects.
 

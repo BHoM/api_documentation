@@ -2,7 +2,7 @@
 title: ISlideCreate
 ---
 
-# <small>BH.oM.</small>**ISlideCreate**
+# <small>BH.oM.PowerPoint.</small>**ISlideCreate**
 
 
 

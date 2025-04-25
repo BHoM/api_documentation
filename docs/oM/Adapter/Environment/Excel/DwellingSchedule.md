@@ -2,7 +2,7 @@
 title: DwellingSchedule
 ---
 
-# <small>BH.oM.Environment.SAP.</small>**DwellingSchedule**
+# <small>BH.oM.Environment.SAP.Excel.</small>**DwellingSchedule**
 
 The details of roofs from the users excel input.
 

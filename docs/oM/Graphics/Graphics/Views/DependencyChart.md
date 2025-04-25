@@ -2,7 +2,7 @@
 title: DependencyChart
 ---
 
-# <small>BH.oM.Graphics.</small>**DependencyChart**
+# <small>BH.oM.Graphics.Views.</small>**DependencyChart**
 
 Scale for mapping from a discrete domain and range.
 

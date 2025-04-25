@@ -2,7 +2,7 @@
 title: LoadCombination
 ---
 
-# <small>BH.oM.Structure.</small>**LoadCombination**
+# <small>BH.oM.Structure.Loads.</small>**LoadCombination**
 
 Load combination class to set up combination of factored Loadcases.
 

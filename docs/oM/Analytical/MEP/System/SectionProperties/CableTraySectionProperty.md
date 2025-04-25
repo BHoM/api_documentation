@@ -2,7 +2,7 @@
 title: CableTraySectionProperty
 ---
 
-# <small>BH.oM.MEP.System.</small>**CableTraySectionProperty**
+# <small>BH.oM.MEP.System.SectionProperties.</small>**CableTraySectionProperty**
 
 
 

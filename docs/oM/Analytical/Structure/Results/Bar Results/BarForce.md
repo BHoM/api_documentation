@@ -2,7 +2,7 @@
 title: BarForce
 ---
 
-# <small>BH.oM.Structure.</small>**BarForce**
+# <small>BH.oM.Structure.Results.</small>**BarForce**
 
 Resulting section forces in local coordinates along the bar.
 

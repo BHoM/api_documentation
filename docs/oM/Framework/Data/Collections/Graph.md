@@ -2,7 +2,7 @@
 title: Graph&lt;T&gt;
 ---
 
-# <small>BH.oM.Data.</small>**Graph&lt;T&gt;**
+# <small>BH.oM.Data.Collections.</small>**Graph&lt;T&gt;**
 
 
 

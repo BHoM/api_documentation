@@ -2,7 +2,7 @@
 title: BCEWithSigmoid
 ---
 
-# <small>BH.oM.DeepLearning.</small>**BCEWithSigmoid**
+# <small>BH.oM.DeepLearning.Losses.</small>**BCEWithSigmoid**
 
 
 

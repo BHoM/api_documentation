@@ -2,7 +2,7 @@
 title: TaperFlangeISectionProfile
 ---
 
-# <small>BH.oM.Spatial.</small>**TaperFlangeISectionProfile**
+# <small>BH.oM.Spatial.ShapeProfiles.</small>**TaperFlangeISectionProfile**
 
 I-shaped profile with tapered flanges.
 

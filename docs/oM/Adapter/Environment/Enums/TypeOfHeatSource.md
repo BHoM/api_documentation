@@ -2,7 +2,7 @@
 title: TypeOfHeatSource
 ---
 
-# <small>BH.oM.Environment.</small>**TypeOfHeatSource**
+# <small>BH.oM.Environment.SAP.</small>**TypeOfHeatSource**
 
 .
 

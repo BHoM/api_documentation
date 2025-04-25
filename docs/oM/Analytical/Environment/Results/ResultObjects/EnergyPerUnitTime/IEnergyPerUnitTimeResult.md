@@ -2,7 +2,7 @@
 title: IEnergyPerUnitTimeResult
 ---
 
-# <small>BH.oM.Environment.</small>**IEnergyPerUnitTimeResult**
+# <small>BH.oM.Environment.Results.</small>**IEnergyPerUnitTimeResult**
 
 A results object containing energy per unit time data.
 

@@ -2,7 +2,7 @@
 title: CableTray
 ---
 
-# <small>BH.oM.MEP.</small>**CableTray**
+# <small>BH.oM.MEP.System.</small>**CableTray**
 
 A Cable Tray object is a passageway which conveys material (typically cables)
 

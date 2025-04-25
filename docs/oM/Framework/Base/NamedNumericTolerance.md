@@ -2,7 +2,7 @@
 title: NamedNumericTolerance
 ---
 
-# <small>BH.oM.</small>**NamedNumericTolerance**
+# <small>BH.oM.Base.</small>**NamedNumericTolerance**
 
 Tolerance used for specific numerical objects or properties with a specific name.When computing Hash or the property Diffing, if the analysed object or property name is found in this collection, the corresponding tolerance is considered.
 

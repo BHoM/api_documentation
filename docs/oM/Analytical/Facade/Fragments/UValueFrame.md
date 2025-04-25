@@ -2,7 +2,7 @@
 title: UValueFrame
 ---
 
-# <small>BH.oM.Facade.</small>**UValueFrame**
+# <small>BH.oM.Facade.Fragments.</small>**UValueFrame**
 
 A U-Value representing the effective U-Value of a frame.
 

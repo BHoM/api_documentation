@@ -2,7 +2,7 @@
 title: INode&lt;T&gt;
 ---
 
-# <small>BH.oM.Data.</small>**INode&lt;T&gt;**
+# <small>BH.oM.Data.Collections.</small>**INode&lt;T&gt;**
 
 The base interface for data tree nodes. Exposes generic helper Create and Query methods for working with data trees. Objects implementing this interface will be required to implement Values() &amp; Children() methods for getting data from an INode.
 

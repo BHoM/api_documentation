@@ -2,7 +2,7 @@
 title: ThermalStoreCode
 ---
 
-# <small>BH.oM.Environment.</small>**ThermalStoreCode**
+# <small>BH.oM.Environment.SAP.</small>**ThermalStoreCode**
 
 Code which indicates the source of opening data.
 

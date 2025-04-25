@@ -2,7 +2,7 @@
 title: SlideCreate
 ---
 
-# <small>BH.oM.</small>**SlideCreate**
+# <small>BH.oM.PowerPoint.</small>**SlideCreate**
 
 Use with a push action to create a new slide from a slide layout in the first slide master template, at the position provided.
 

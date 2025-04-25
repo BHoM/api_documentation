@@ -2,7 +2,7 @@
 title: LoadPanelSupportConditions
 ---
 
-# <small>BH.oM.Structure.</small>**LoadPanelSupportConditions**
+# <small>BH.oM.Structure.SurfaceProperties.</small>**LoadPanelSupportConditions**
 
 
 

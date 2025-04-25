@@ -2,7 +2,7 @@
 title: IDataStructure
 ---
 
-# <small>BH.oM.Data.</small>**IDataStructure**
+# <small>BH.oM.Data.Collections.</small>**IDataStructure**
 
 
 

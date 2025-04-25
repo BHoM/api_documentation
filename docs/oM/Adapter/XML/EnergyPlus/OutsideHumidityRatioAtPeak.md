@@ -2,7 +2,7 @@
 title: OutsideHumidityRatioAtPeak
 ---
 
-# <small>BH.oM.XML.</small>**OutsideHumidityRatioAtPeak**
+# <small>BH.oM.XML.EnergyPlus.</small>**OutsideHumidityRatioAtPeak**
 
 
 

@@ -2,7 +2,7 @@
 title: OzoneDepletionElementResult
 ---
 
-# <small>BH.oM.LifeCycleAssessment.</small>**OzoneDepletionElementResult**
+# <small>BH.oM.LifeCycleAssessment.Results.</small>**OzoneDepletionElementResult**
 
 Result class for resulting Ozone depletion for a particular Element.
 

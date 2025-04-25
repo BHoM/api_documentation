@@ -2,7 +2,7 @@
 title: Pressure
 ---
 
-# <small>BH.oM.Quantities.</small>**Pressure**
+# <small>BH.oM.Quantities.Attributes.</small>**Pressure**
 
 Dimensional quantity as defined by the International System of Quantities
 

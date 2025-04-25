@@ -2,7 +2,7 @@
 title: GlobalHorizontalRadiationResult
 ---
 
-# <small>BH.oM.Environment.</small>**GlobalHorizontalRadiationResult**
+# <small>BH.oM.Environment.Results.</small>**GlobalHorizontalRadiationResult**
 
 A results object containing global horizontal radiation data.
 

@@ -2,7 +2,7 @@
 title: AdministrativeInformation
 ---
 
-# <small>BH.oM.</small>**AdministrativeInformation**
+# <small>BH.oM.dKoP.</small>**AdministrativeInformation**
 
 
 

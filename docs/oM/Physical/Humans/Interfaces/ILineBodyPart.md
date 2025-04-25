@@ -2,7 +2,7 @@
 title: ILineBodyPart
 ---
 
-# <small>BH.oM.Humans.</small>**ILineBodyPart**
+# <small>BH.oM.Humans.Interfaces.</small>**ILineBodyPart**
 
 
 

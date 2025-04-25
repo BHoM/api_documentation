@@ -2,7 +2,7 @@
 title: AbioticDepletionFossilResourcesMetric
 ---
 
-# <small>BH.oM.LifeCycleAssessment.</small>**AbioticDepletionFossilResourcesMetric**
+# <small>BH.oM.LifeCycleAssessment.MaterialFragments.</small>**AbioticDepletionFossilResourcesMetric**
 
 Abiotic Depletion of Fossil Resources, measured in Joules (J), refers to the over-extraction of non-renewable materials which can lead to the exhaustion of natural resources. This environmental indicator forms part of an Environmental Product Declaration and should be evaluated based on the Quantity Type stated on the Environmental Product Declaration.
 

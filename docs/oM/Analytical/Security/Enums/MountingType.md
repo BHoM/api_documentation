@@ -2,7 +2,7 @@
 title: MountingType
 ---
 
-# <small>BH.oM.Security.</small>**MountingType**
+# <small>BH.oM.Security.Enums.</small>**MountingType**
 
 A mounting type that describes how a fitting is installed.
 

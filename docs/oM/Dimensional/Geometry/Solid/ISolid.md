@@ -2,7 +2,7 @@
 title: ISolid
 ---
 
-# <small>BH.oM.</small>**ISolid**
+# <small>BH.oM.Geometry.</small>**ISolid**
 
 The interface for all three-dimensional geometrical objects
 

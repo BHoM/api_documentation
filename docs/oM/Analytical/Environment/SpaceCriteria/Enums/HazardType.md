@@ -2,7 +2,7 @@
 title: HazardType
 ---
 
-# <small>BH.oM.Environment.</small>**HazardType**
+# <small>BH.oM.Environment.SpaceCriteria.</small>**HazardType**
 
 
 

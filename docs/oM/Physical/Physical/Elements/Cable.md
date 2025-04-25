@@ -2,7 +2,7 @@
 title: Cable
 ---
 
-# <small>BH.oM.Physical.</small>**Cable**
+# <small>BH.oM.Physical.Elements.</small>**Cable**
 
 
 

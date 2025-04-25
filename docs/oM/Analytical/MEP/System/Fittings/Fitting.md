@@ -2,7 +2,7 @@
 title: Fitting
 ---
 
-# <small>BH.oM.MEP.System.</small>**Fitting**
+# <small>BH.oM.MEP.System.Fittings.</small>**Fitting**
 
 A fitting object used to describe interfaces between or along linear MEP elements.
 

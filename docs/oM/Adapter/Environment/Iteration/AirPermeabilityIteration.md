@@ -2,7 +2,7 @@
 title: AirPermeabilityIteration
 ---
 
-# <small>BH.oM.Environment.SAP.</small>**AirPermeabilityIteration**
+# <small>BH.oM.Environment.SAP.XML.</small>**AirPermeabilityIteration**
 
 Describe a single air permeability change for the building within the SAP context. Applies to the ventilation of the whole building within the SAP Report.
 

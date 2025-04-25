@@ -2,7 +2,7 @@
 title: TypeOfEfficiency
 ---
 
-# <small>BH.oM.Environment.</small>**TypeOfEfficiency**
+# <small>BH.oM.Environment.SAP.</small>**TypeOfEfficiency**
 
 .
 

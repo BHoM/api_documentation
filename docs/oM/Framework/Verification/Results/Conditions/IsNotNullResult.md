@@ -2,7 +2,7 @@
 title: IsNotNullResult
 ---
 
-# <small>BH.oM.Verification.</small>**IsNotNullResult**
+# <small>BH.oM.Verification.Results.</small>**IsNotNullResult**
 
 Object representing result of IsNotNull condition.
 

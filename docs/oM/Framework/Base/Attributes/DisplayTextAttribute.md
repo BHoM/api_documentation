@@ -2,7 +2,7 @@
 title: DisplayTextAttribute
 ---
 
-# <small>BH.oM.Base.</small>**DisplayTextAttribute**
+# <small>BH.oM.Base.Attributes.</small>**DisplayTextAttribute**
 
 
 

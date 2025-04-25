@@ -2,7 +2,7 @@
 title: LanguageCode
 ---
 
-# <small>BH.oM.Environment.</small>**LanguageCode**
+# <small>BH.oM.Environment.SAP.</small>**LanguageCode**
 
 .
 

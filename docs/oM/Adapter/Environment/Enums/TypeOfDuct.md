@@ -2,7 +2,7 @@
 title: TypeofDuct
 ---
 
-# <small>BH.oM.Environment.</small>**TypeofDuct**
+# <small>BH.oM.Environment.SAP.</small>**TypeofDuct**
 
 Code which indicates the type of duct.
 

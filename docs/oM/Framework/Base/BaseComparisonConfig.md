@@ -20,7 +20,7 @@ Settings to determine the uniqueness of an Object, i.e. when comparing and when 
 ???+ bhom "The following classes are inheriting from this class:"
 
     - BH.oM.Base.[ComparisonConfig](/api/oM/Framework/Base/ComparisonConfig)
-    - BH.oM.Adapters.Revit.[RevitComparisonConfig](/api/oM/Adapter/Adapters.Revit/Config/RevitComparisonConfig)
+    - BH.oM.Adapters.Revit.[RevitComparisonConfig](/api/oM/Adapter/Adapters/Revit/Config/RevitComparisonConfig)
 
 
 ## Properties

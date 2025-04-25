@@ -2,7 +2,7 @@
 title: MeshResultType
 ---
 
-# <small>BH.oM.Structure.</small>**MeshResultType**
+# <small>BH.oM.Structure.Results.</small>**MeshResultType**
 
 Specifies which layer the results are extracted from or if it is a maxima/minima of the layers.
 

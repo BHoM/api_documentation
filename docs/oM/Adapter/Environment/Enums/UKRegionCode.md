@@ -2,7 +2,7 @@
 title: UKRegionCode
 ---
 
-# <small>BH.oM.Environment.</small>**UKRegionCode**
+# <small>BH.oM.Environment.SAP.</small>**UKRegionCode**
 
 Code which indicates the region within the UK.
 

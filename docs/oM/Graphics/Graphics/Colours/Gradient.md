@@ -2,7 +2,7 @@
 title: Gradient
 ---
 
-# <small>BH.oM.</small>**Gradient**
+# <small>BH.oM.Graphics.</small>**Gradient**
 
 
 

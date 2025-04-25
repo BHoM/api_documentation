@@ -2,7 +2,7 @@
 title: OffsetCurveLayout
 ---
 
-# <small>BH.oM.Spatial.</small>**OffsetCurveLayout**
+# <small>BH.oM.Spatial.Layouts.</small>**OffsetCurveLayout**
 
 Curve layout created by offsetting an element's outer and inner outlines.
 Positive offset value will offset to the inside of the element.

@@ -2,7 +2,7 @@
 title: ShapeType
 ---
 
-# <small>BH.oM.Spatial.</small>**ShapeType**
+# <small>BH.oM.Spatial.ShapeProfiles.</small>**ShapeType**
 
 
 

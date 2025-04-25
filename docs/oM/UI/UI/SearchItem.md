@@ -2,7 +2,7 @@
 title: SearchItem
 ---
 
-# <small>BH.oM.</small>**SearchItem**
+# <small>BH.oM.UI.</small>**SearchItem**
 
 
 

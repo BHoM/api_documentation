@@ -2,7 +2,7 @@
 title: DefaultValueWarningAttribute
 ---
 
-# <small>BH.oM.Base.</small>**DefaultValueWarningAttribute**
+# <small>BH.oM.Base.Attributes.</small>**DefaultValueWarningAttribute**
 
 Warning to be generated when an instance of the containing class is generated with this property set to its default value.
 

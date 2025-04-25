@@ -2,7 +2,7 @@
 title: SizingMethod
 ---
 
-# <small>BH.oM.Environment.</small>**SizingMethod**
+# <small>BH.oM.Environment.Fragments.</small>**SizingMethod**
 
 
 

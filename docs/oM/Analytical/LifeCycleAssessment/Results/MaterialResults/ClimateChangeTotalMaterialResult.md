@@ -2,7 +2,7 @@
 title: ClimateChangeTotalMaterialResult
 ---
 
-# <small>BH.oM.LifeCycleAssessment.</small>**ClimateChangeTotalMaterialResult**
+# <small>BH.oM.LifeCycleAssessment.Results.</small>**ClimateChangeTotalMaterialResult**
 
 Result class for resulting Climate change - total for a particular Material and EPD.
 

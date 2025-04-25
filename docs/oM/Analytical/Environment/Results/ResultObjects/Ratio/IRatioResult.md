@@ -2,7 +2,7 @@
 title: IRatioResult
 ---
 
-# <small>BH.oM.Environment.</small>**IRatioResult**
+# <small>BH.oM.Environment.Results.</small>**IRatioResult**
 
 A results object containing ratio data.
 

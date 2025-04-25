@@ -2,7 +2,7 @@
 title: IMaterialFragment
 ---
 
-# <small>BH.oM.Structure.</small>**IMaterialFragment**
+# <small>BH.oM.Structure.MaterialFragments.</small>**IMaterialFragment**
 
 Base interface for structural materials used by structural properties or as a fragment of the physical material.
 
@@ -33,7 +33,7 @@ Base interface for structural materials used by structural properties or as a fr
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - BH.oM.Adapters.GSA.MaterialFragments.[Fabric](/api/oM/Adapter/Adapters.GSA/MaterialFragments/Fabric)
+    - BH.oM.Adapters.GSA.MaterialFragments.[Fabric](/api/oM/Adapter/Adapters/GSA/MaterialFragments/Fabric)
     - BH.oM.Structure.MaterialFragments.[Aluminium](/api/oM/Analytical/Structure/MaterialFragments/Aluminium)
     - BH.oM.Structure.MaterialFragments.[Concrete](/api/oM/Analytical/Structure/MaterialFragments/Concrete)
     - BH.oM.Structure.MaterialFragments.[GenericIsotropicMaterial](/api/oM/Analytical/Structure/MaterialFragments/GenericIsotropicMaterial)

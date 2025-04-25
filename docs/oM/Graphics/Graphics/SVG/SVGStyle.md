@@ -2,7 +2,7 @@
 title: SVGStyle
 ---
 
-# <small>BH.oM.</small>**SVGStyle**
+# <small>BH.oM.Graphics.</small>**SVGStyle**
 
 
 

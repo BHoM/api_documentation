@@ -2,7 +2,7 @@
 title: Mirror
 ---
 
-# <small>BH.oM.Environment.</small>**Mirror**
+# <small>BH.oM.Environment.SAP.</small>**Mirror**
 
 Code indication a line to mirror across.
 

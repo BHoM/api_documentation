@@ -2,7 +2,7 @@
 title: SAPVersionCode
 ---
 
-# <small>BH.oM.Environment.</small>**SAPVersionCode**
+# <small>BH.oM.Environment.SAP.</small>**SAPVersionCode**
 
 Code which indicates the SAP version.
 

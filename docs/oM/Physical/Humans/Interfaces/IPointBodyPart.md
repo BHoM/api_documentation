@@ -2,7 +2,7 @@
 title: IPointBodyPart
 ---
 
-# <small>BH.oM.Humans.</small>**IPointBodyPart**
+# <small>BH.oM.Humans.Interfaces.</small>**IPointBodyPart**
 
 
 

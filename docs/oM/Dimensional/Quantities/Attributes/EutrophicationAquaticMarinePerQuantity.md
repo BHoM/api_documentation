@@ -2,7 +2,7 @@
 title: EutrophicationAquaticMarinePerQuantity
 ---
 
-# <small>BH.oM.Quantities.</small>**EutrophicationAquaticMarinePerQuantity**
+# <small>BH.oM.Quantities.Attributes.</small>**EutrophicationAquaticMarinePerQuantity**
 
 Quantity type for Eutrophication Potential Aquatic FreshWater per quantity.
 

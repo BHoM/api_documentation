@@ -2,7 +2,7 @@
 title: IMeshDisplacement
 ---
 
-# <small>BH.oM.Structure.</small>**IMeshDisplacement**
+# <small>BH.oM.Structure.Results.</small>**IMeshDisplacement**
 
 Base interface for mesh displacements
 

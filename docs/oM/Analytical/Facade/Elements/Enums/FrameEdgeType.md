@@ -2,7 +2,7 @@
 title: FrameEdgeType
 ---
 
-# <small>BH.oM.Facade.</small>**FrameEdgeType**
+# <small>BH.oM.Facade.Elements.</small>**FrameEdgeType**
 
 The different edge types that make up an opening's frame
 

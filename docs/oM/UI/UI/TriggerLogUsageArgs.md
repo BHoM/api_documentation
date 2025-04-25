@@ -2,7 +2,7 @@
 title: TriggerLogUsageArgs
 ---
 
-# <small>BH.oM.</small>**TriggerLogUsageArgs**
+# <small>BH.oM.UI.</small>**TriggerLogUsageArgs**
 
 
 

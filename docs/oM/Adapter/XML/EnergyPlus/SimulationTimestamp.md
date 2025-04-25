@@ -2,7 +2,7 @@
 title: SimulationTimestamp
 ---
 
-# <small>BH.oM.XML.</small>**SimulationTimestamp**
+# <small>BH.oM.XML.EnergyPlus.</small>**SimulationTimestamp**
 
 
 

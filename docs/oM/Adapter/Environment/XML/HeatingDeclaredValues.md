@@ -2,7 +2,7 @@
 title: HeatingDeclaredValues
 ---
 
-# <small>BH.oM.Environment.SAP.</small>**HeatingDeclaredValues**
+# <small>BH.oM.Environment.SAP.XML.</small>**HeatingDeclaredValues**
 
 
 

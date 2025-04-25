@@ -2,7 +2,7 @@
 title: NodeAcceleration
 ---
 
-# <small>BH.oM.Structure.</small>**NodeAcceleration**
+# <small>BH.oM.Structure.Results.</small>**NodeAcceleration**
 
 Resulting acceleration and angular acceleration for a Node.
 

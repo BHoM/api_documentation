@@ -2,7 +2,7 @@
 title: IStratumProperty
 ---
 
-# <small>BH.oM.</small>**IStratumProperty**
+# <small>BH.oM.Ground.</small>**IStratumProperty**
 
 Base interface for stratum properties.
 

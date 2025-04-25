@@ -2,7 +2,7 @@
 title: BoundaryRepresentation
 ---
 
-# <small>BH.oM.</small>**BoundaryRepresentation**
+# <small>BH.oM.Geometry.</small>**BoundaryRepresentation**
 
 Solid representation defined by a collection of connected surfaces forming a closed volume
 

@@ -19,9 +19,9 @@ General settings for any Adapter, to be specified when instantiating the Adapter
 
 ???+ bhom "The following classes are inheriting from this class:"
 
-    - BH.oM.Adapters.AGS.[AGSSettings](/api/oM/Adapter/Adapters.AGS/AGSSettings)
-    - BH.oM.Adapters.Lusas.[LusasSettings](/api/oM/Adapter/Adapters.Lusas/Settings/LusasSettings)
-    - BH.oM.Adapters.MidasCivil.[MidasCivilSettings](/api/oM/Adapter/Adapters.MidasCivil/Settings/MidasCivilSettings)
+    - BH.oM.Adapters.AGS.[AGSSettings](/api/oM/Adapter/Adapters/AGS/AGSSettings)
+    - BH.oM.Adapters.Lusas.[LusasSettings](/api/oM/Adapter/Adapters/Lusas/Settings/LusasSettings)
+    - BH.oM.Adapters.MidasCivil.[MidasCivilSettings](/api/oM/Adapter/Adapters/MidasCivil/Settings/MidasCivilSettings)
 
 
 ## Properties

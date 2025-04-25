@@ -2,7 +2,7 @@
 title: ModalDynamics
 ---
 
-# <small>BH.oM.Structure.</small>**ModalDynamics**
+# <small>BH.oM.Structure.Results.</small>**ModalDynamics**
 
 General modal dynamics result of the structure.
 

@@ -2,7 +2,7 @@
 title: CameraType
 ---
 
-# <small>BH.oM.Security.</small>**CameraType**
+# <small>BH.oM.Security.Enums.</small>**CameraType**
 
 A camera type that describes its basic characteristcs.
 

@@ -2,7 +2,7 @@
 title: TriaxialResultProperties
 ---
 
-# <small>BH.oM.</small>**TriaxialResultProperties**
+# <small>BH.oM.Ground.</small>**TriaxialResultProperties**
 
 Properties related to the results based on the triaxial tests.
 

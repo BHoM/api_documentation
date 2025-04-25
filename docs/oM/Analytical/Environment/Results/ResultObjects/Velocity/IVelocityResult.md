@@ -2,7 +2,7 @@
 title: IVelocityResult
 ---
 
-# <small>BH.oM.Environment.</small>**IVelocityResult**
+# <small>BH.oM.Environment.Results.</small>**IVelocityResult**
 
 A results object containing velocity data.
 

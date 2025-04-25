@@ -2,7 +2,7 @@
 title: FemModel
 ---
 
-# <small>BH.oM.</small>**FemModel**
+# <small>BH.oM.Karamba3D.</small>**FemModel**
 
 Container of the BHoMObjects converted from the Karamba model.
 

@@ -2,7 +2,7 @@
 title: XMLBuildingType
 ---
 
-# <small>BH.oM.XML.</small>**XMLBuildingType**
+# <small>BH.oM.XML.Fragments.</small>**XMLBuildingType**
 
 
 

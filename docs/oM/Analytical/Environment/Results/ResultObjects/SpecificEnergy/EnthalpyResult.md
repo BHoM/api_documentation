@@ -2,7 +2,7 @@
 title: EnthalpyResult
 ---
 
-# <small>BH.oM.Environment.</small>**EnthalpyResult**
+# <small>BH.oM.Environment.Results.</small>**EnthalpyResult**
 
 A results object containing enthalpy data.
 

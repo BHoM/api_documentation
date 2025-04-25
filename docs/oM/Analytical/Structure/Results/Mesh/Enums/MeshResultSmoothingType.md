@@ -2,7 +2,7 @@
 title: MeshResultSmoothingType
 ---
 
-# <small>BH.oM.Structure.</small>**MeshResultSmoothingType**
+# <small>BH.oM.Structure.Results.</small>**MeshResultSmoothingType**
 
 Defines the smoothing used for the Meshresults, i.e. if and how any result averaging should be done per nodes/face.
 

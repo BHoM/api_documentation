@@ -2,7 +2,7 @@
 title: IParamUpdate
 ---
 
-# <small>BH.oM.</small>**IParamUpdate**
+# <small>BH.oM.UI.</small>**IParamUpdate**
 
 
 

@@ -2,7 +2,7 @@
 title: ShapeCode32
 ---
 
-# <small>BH.oM.Physical.Reinforcement.</small>**ShapeCode32**
+# <small>BH.oM.Physical.Reinforcement.BS8666.</small>**ShapeCode32**
 
 A reinforcement bar with shape code 32 to BS 8666:2020 in the XY Plane with the free end of the A segment starting at the Origin aligned with the X axis, the C parameter aligned with the X axis and the B/D parameters aligned with the Y axis.
 

@@ -2,7 +2,7 @@
 title: FrameExtensionBox
 ---
 
-# <small>BH.oM.Facade.</small>**FrameExtensionBox**
+# <small>BH.oM.Facade.Fragments.</small>**FrameExtensionBox**
 
 Fragment containing a curve enclosing the portion of a mullion cross section that will be extruded by Facade_Engine method that changes mullion profile depth.
 

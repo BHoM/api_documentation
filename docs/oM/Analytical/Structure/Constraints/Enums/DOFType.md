@@ -2,7 +2,7 @@
 title: DOFType
 ---
 
-# <small>BH.oM.Structure.</small>**DOFType**
+# <small>BH.oM.Structure.Constraints.</small>**DOFType**
 
 Enumerator outlining the fixity of a particular degree of freedom. Controls if the DOF should be free, fixed or stiffness based.
 

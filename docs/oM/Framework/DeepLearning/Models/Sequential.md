@@ -2,7 +2,7 @@
 title: Sequential
 ---
 
-# <small>BH.oM.DeepLearning.</small>**Sequential**
+# <small>BH.oM.DeepLearning.Models.</small>**Sequential**
 
 
 

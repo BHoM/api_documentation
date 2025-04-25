@@ -2,7 +2,7 @@
 title: LuminousIntensity
 ---
 
-# <small>BH.oM.Quantities.</small>**LuminousIntensity**
+# <small>BH.oM.Quantities.Attributes.</small>**LuminousIntensity**
 
 Dimensional quantity as defined by the International System of Quantities
 

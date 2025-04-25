@@ -2,7 +2,7 @@
 title: GraphNode&lt;T&gt;
 ---
 
-# <small>BH.oM.Data.</small>**GraphNode&lt;T&gt;**
+# <small>BH.oM.Data.Collections.</small>**GraphNode&lt;T&gt;**
 
 
 

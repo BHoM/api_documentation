@@ -2,7 +2,7 @@
 title: SpaceContextFragment
 ---
 
-# <small>BH.oM.Environment.</small>**SpaceContextFragment**
+# <small>BH.oM.Environment.Fragments.</small>**SpaceContextFragment**
 
 Fragment containing space context properties (e.g. is external facing, colour, connected elements)
 

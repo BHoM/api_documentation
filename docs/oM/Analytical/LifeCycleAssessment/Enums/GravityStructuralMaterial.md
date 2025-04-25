@@ -2,7 +2,7 @@
 title: GravityStructuralMaterial
 ---
 
-# <small>BH.oM.</small>**GravityStructuralMaterial**
+# <small>BH.oM.LifeCycleAssessment.</small>**GravityStructuralMaterial**
 
 
 

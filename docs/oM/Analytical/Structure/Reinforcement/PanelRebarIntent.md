@@ -2,7 +2,7 @@
 title: PanelRebarIntent
 ---
 
-# <small>BH.oM.Structure.</small>**PanelRebarIntent**
+# <small>BH.oM.Structure.Reinforcement.</small>**PanelRebarIntent**
 
 A collection of PanelReinforcement objects that represent the rebar intent. 
 This is stored as layers of reinforcement amongst regions within the Panel.

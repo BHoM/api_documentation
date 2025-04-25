@@ -2,7 +2,7 @@
 title: EnergyPerUnitTime
 ---
 
-# <small>BH.oM.Quantities.</small>**EnergyPerUnitTime**
+# <small>BH.oM.Quantities.Attributes.</small>**EnergyPerUnitTime**
 
 Dimensional quantity as defined by the International System of Quantities
 

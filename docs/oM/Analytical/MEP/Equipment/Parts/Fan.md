@@ -2,7 +2,7 @@
 title: Fan
 ---
 
-# <small>BH.oM.MEP.Equipment.</small>**Fan**
+# <small>BH.oM.MEP.Equipment.Parts.</small>**Fan**
 
 Fans are devices that create a current of air (used for ventilation and cooling) by rotating blades
 

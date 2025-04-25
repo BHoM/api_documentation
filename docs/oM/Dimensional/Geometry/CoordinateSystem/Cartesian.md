@@ -2,7 +2,7 @@
 title: Cartesian
 ---
 
-# <small>BH.oM.Geometry.</small>**Cartesian**
+# <small>BH.oM.Geometry.CoordinateSystem.</small>**Cartesian**
 
 A three-dimensional Cartesian coordinate system, as defined by a set of mutually orthogonal unit vectors and a common origin point
 

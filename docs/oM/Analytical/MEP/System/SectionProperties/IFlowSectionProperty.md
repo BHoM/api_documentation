@@ -2,7 +2,7 @@
 title: IFlowSectionProperty
 ---
 
-# <small>BH.oM.MEP.System.</small>**IFlowSectionProperty**
+# <small>BH.oM.MEP.System.SectionProperties.</small>**IFlowSectionProperty**
 
 
 

@@ -2,7 +2,7 @@
 title: GRU
 ---
 
-# <small>BH.oM.DeepLearning.</small>**GRU**
+# <small>BH.oM.DeepLearning.Layers.</small>**GRU**
 
 
 

@@ -2,7 +2,7 @@
 title: RightHand
 ---
 
-# <small>BH.oM.Humans.</small>**RightHand**
+# <small>BH.oM.Humans.BodyParts.</small>**RightHand**
 
 
 

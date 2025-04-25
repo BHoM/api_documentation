@@ -2,7 +2,7 @@
 title: PhotochemicalOzoneCreationMetric
 ---
 
-# <small>BH.oM.LifeCycleAssessment.</small>**PhotochemicalOzoneCreationMetric**
+# <small>BH.oM.LifeCycleAssessment.MaterialFragments.</small>**PhotochemicalOzoneCreationMetric**
 
 Photochemical Ozone Formation, measured in kg NMVOC eq, refers to the formation of ozone at the ground level of the troposphere caused by photochemical oxidation of volatile organic compounds (VOCs) and carbon monoxide in the presence of sunlight. This environmental indicator forms part of an Environmental Product Declaration and should be evaluated based on the Quantity Type stated on the Environmental Product Declaration.
 

@@ -2,7 +2,7 @@
 title: IElementResult&lt;T&gt;
 ---
 
-# <small>BH.oM.LifeCycleAssessment.</small>**IElementResult&lt;T&gt;**
+# <small>BH.oM.LifeCycleAssessment.Results.</small>**IElementResult&lt;T&gt;**
 
 Base interface for Life Cycle Assessment results for a particular element..
 

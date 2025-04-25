@@ -2,7 +2,7 @@
 title: Human
 ---
 
-# <small>BH.oM.</small>**Human**
+# <small>BH.oM.Humans.</small>**Human**
 
 
 

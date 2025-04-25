@@ -2,7 +2,7 @@
 title: RelativeHumidityResult
 ---
 
-# <small>BH.oM.Environment.</small>**RelativeHumidityResult**
+# <small>BH.oM.Environment.Results.</small>**RelativeHumidityResult**
 
 A results object containing relative humidity data.
 

@@ -2,7 +2,7 @@
 title: IBoreholeProperty
 ---
 
-# <small>BH.oM.</small>**IBoreholeProperty**
+# <small>BH.oM.Ground.</small>**IBoreholeProperty**
 
 Base interface for borehole properties.
 

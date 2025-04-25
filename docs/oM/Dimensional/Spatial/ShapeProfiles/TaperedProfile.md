@@ -2,7 +2,7 @@
 title: TaperedProfile
 ---
 
-# <small>BH.oM.Spatial.</small>**TaperedProfile**
+# <small>BH.oM.Spatial.ShapeProfiles.</small>**TaperedProfile**
 
 
 

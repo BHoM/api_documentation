@@ -2,7 +2,7 @@
 title: BarPrestressLoad
 ---
 
-# <small>BH.oM.Structure.</small>**BarPrestressLoad**
+# <small>BH.oM.Structure.Loads.</small>**BarPrestressLoad**
 
 Axial prestress load applied to Bars.
 

@@ -2,7 +2,7 @@
 title: Diff
 ---
 
-# <small>BH.oM.</small>**Diff**
+# <small>BH.oM.Diffing.</small>**Diff**
 
 Represents the differences between two sets of objects.
 

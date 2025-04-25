@@ -2,7 +2,7 @@
 title: Spine
 ---
 
-# <small>BH.oM.Humans.</small>**Spine**
+# <small>BH.oM.Humans.BodyParts.</small>**Spine**
 
 
 

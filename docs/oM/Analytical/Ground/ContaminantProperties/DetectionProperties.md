@@ -2,7 +2,7 @@
 title: DetectionProperties
 ---
 
-# <small>BH.oM.</small>**DetectionProperties**
+# <small>BH.oM.Ground.</small>**DetectionProperties**
 
 Properties related to the results based on the tests of the contaminant.
 

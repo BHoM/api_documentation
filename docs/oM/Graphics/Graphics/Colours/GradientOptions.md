@@ -2,7 +2,7 @@
 title: GradientOptions
 ---
 
-# <small>BH.oM.Graphics.</small>**GradientOptions**
+# <small>BH.oM.Graphics.Colours.</small>**GradientOptions**
 
 Defines options for range and centering for a Gradient.
 

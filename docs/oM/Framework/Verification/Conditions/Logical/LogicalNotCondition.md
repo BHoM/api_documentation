@@ -2,7 +2,7 @@
 title: LogicalNotCondition
 ---
 
-# <small>BH.oM.Verification.</small>**LogicalNotCondition**
+# <small>BH.oM.Verification.Conditions.</small>**LogicalNotCondition**
 
 Condition that contains a nested condition that it inverses, i.e. the nested condition needs to fail for an object to be considered a pass.
 

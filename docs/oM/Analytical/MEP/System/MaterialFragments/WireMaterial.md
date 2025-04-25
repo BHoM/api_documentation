@@ -2,7 +2,7 @@
 title: WireMaterial
 ---
 
-# <small>BH.oM.MEP.System.</small>**WireMaterial**
+# <small>BH.oM.MEP.System.MaterialFragments.</small>**WireMaterial**
 
 
 

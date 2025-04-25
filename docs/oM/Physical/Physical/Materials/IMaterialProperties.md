@@ -2,7 +2,7 @@
 title: IMaterialProperties
 ---
 
-# <small>BH.oM.Physical.</small>**IMaterialProperties**
+# <small>BH.oM.Physical.Materials.</small>**IMaterialProperties**
 
 
 
@@ -35,7 +35,7 @@ title: IMaterialProperties
 
     - BH.oM.Environment.MaterialFragments.[GasMaterial](/api/oM/Analytical/Environment/MaterialFragments/GasMaterial)
     - BH.oM.Environment.MaterialFragments.[SolidMaterial](/api/oM/Analytical/Environment/MaterialFragments/SolidMaterial)
-    - BH.oM.Adapters.GSA.MaterialFragments.[Fabric](/api/oM/Adapter/Adapters.GSA/MaterialFragments/Fabric)
+    - BH.oM.Adapters.GSA.MaterialFragments.[Fabric](/api/oM/Adapter/Adapters/GSA/MaterialFragments/Fabric)
     - BH.oM.LifeCycleAssessment.MaterialFragments.[EnvironmentalProductDeclaration](/api/oM/Analytical/LifeCycleAssessment/MaterialFragments/EnvironmentalProductDeclaration)
     - BH.oM.MEP.System.MaterialFragments.[DuctMaterial](/api/oM/Analytical/MEP/System/MaterialFragments/DuctMaterial)
     - BH.oM.MEP.System.MaterialFragments.[InsulationMaterial](/api/oM/Analytical/MEP/System/MaterialFragments/InsulationMaterial)

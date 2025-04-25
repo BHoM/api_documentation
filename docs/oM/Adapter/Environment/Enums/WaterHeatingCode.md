@@ -2,7 +2,7 @@
 title: WaterHeatingCode
 ---
 
-# <small>BH.oM.Environment.</small>**WaterHeatingCode**
+# <small>BH.oM.Environment.SAP.</small>**WaterHeatingCode**
 
 Code which indicates the type of heating system, as defined in SAP table 4a.
 

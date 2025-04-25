@@ -2,7 +2,7 @@
 title: RequirementResult
 ---
 
-# <small>BH.oM.Verification.</small>**RequirementResult**
+# <small>BH.oM.Verification.Results.</small>**RequirementResult**
 
 Object representing result of verification of an object against a Requirement.
 

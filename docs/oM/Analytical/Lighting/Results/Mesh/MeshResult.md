@@ -2,7 +2,7 @@
 title: MeshResult
 ---
 
-# <small>BH.oM.Lighting.Results.</small>**MeshResult**
+# <small>BH.oM.Lighting.Results.Mesh.</small>**MeshResult**
 
 Full collection of discrete results for an AnalysisGrid for a specific Analysis.
 

@@ -2,7 +2,7 @@
 title: JointName
 ---
 
-# <small>BH.oM.</small>**JointName**
+# <small>BH.oM.Humans.</small>**JointName**
 
 
 

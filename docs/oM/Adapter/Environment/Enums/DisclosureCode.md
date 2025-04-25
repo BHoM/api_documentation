@@ -2,7 +2,7 @@
 title: DisclosureCode
 ---
 
-# <small>BH.oM.Environment.</small>**DisclosureCode**
+# <small>BH.oM.Environment.SAP.</small>**DisclosureCode**
 
 Code indicating any potential conflicts of interest or commercial relationships with other parties.
 

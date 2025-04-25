@@ -2,7 +2,7 @@
 title: Lux
 ---
 
-# <small>BH.oM.Environment.Results.</small>**Lux**
+# <small>BH.oM.Environment.Results.Illuminance.</small>**Lux**
 
 Lux contains results for Lux analysis. Inherits from MeshElementResult which provides properties related to which node this Lux is recorded for
 

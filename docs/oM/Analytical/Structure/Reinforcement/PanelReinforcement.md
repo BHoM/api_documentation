@@ -2,7 +2,7 @@
 title: PanelReinforcement
 ---
 
-# <small>BH.oM.Structure.</small>**PanelReinforcement**
+# <small>BH.oM.Structure.Reinforcement.</small>**PanelReinforcement**
 
 Defines the  reinforcement of a Panel in the longitudinal and transverse direction specified by the Basis of the ReinforcementRegion.
 If the diameter of the reinforcement is set to 0, it will be assumed that no reinforcement is present in this direction.

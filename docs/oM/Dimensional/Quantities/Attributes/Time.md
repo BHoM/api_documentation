@@ -2,7 +2,7 @@
 title: Time
 ---
 
-# <small>BH.oM.Quantities.</small>**Time**
+# <small>BH.oM.Quantities.Attributes.</small>**Time**
 
 Dimensional quantity as defined by the International System of Quantities
 

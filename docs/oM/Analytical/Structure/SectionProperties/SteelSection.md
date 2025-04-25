@@ -2,7 +2,7 @@
 title: SteelSection
 ---
 
-# <small>BH.oM.Structure.</small>**SteelSection**
+# <small>BH.oM.Structure.SectionProperties.</small>**SteelSection**
 
 Steel section to be used on Bars. Defined by a section profile.
 

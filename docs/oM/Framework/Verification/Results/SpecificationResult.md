@@ -2,7 +2,7 @@
 title: SpecificationResult
 ---
 
-# <small>BH.oM.Verification.</small>**SpecificationResult**
+# <small>BH.oM.Verification.Results.</small>**SpecificationResult**
 
 Object representing result of verification of a Specification.
 

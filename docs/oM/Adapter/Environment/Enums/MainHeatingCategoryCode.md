@@ -2,7 +2,7 @@
 title: MainHeatingCategoryCode
 ---
 
-# <small>BH.oM.Environment.</small>**MainHeatingCategoryCode**
+# <small>BH.oM.Environment.SAP.</small>**MainHeatingCategoryCode**
 
 Codes used to indicate a category of main heating system.
 

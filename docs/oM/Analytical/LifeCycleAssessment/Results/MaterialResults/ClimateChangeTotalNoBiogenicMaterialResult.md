@@ -2,7 +2,7 @@
 title: ClimateChangeTotalNoBiogenicMaterialResult
 ---
 
-# <small>BH.oM.LifeCycleAssessment.</small>**ClimateChangeTotalNoBiogenicMaterialResult**
+# <small>BH.oM.LifeCycleAssessment.Results.</small>**ClimateChangeTotalNoBiogenicMaterialResult**
 
 Result class for resulting Climate change - total disregarding biogenic carbon for a particular Material and EPD.
 

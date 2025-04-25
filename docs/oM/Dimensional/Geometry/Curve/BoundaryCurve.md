@@ -2,7 +2,7 @@
 title: BoundaryCurve
 ---
 
-# <small>BH.oM.</small>**BoundaryCurve**
+# <small>BH.oM.Geometry.</small>**BoundaryCurve**
 
 Closed, planar, non-self intersecting curve built up of multiple curve segments.
 

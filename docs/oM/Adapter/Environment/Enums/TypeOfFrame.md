@@ -2,7 +2,7 @@
 title: TypeOfFrame
 ---
 
-# <small>BH.oM.Environment.</small>**TypeOfFrame**
+# <small>BH.oM.Environment.SAP.</small>**TypeOfFrame**
 
 The opening type defines the thermal properties of a series of openings.
 

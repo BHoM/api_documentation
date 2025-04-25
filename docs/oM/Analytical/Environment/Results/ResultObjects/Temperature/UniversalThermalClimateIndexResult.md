@@ -2,7 +2,7 @@
 title: UniversalThermalClimateIndexResult
 ---
 
-# <small>BH.oM.Environment.</small>**UniversalThermalClimateIndexResult**
+# <small>BH.oM.Environment.Results.</small>**UniversalThermalClimateIndexResult**
 
 A results object containing Universal Thermal Climate Index data.
 

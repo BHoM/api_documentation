@@ -2,7 +2,7 @@
 title: MechanicalSystem
 ---
 
-# <small>BH.oM.MEP.</small>**MechanicalSystem**
+# <small>BH.oM.MEP.System.</small>**MechanicalSystem**
 
 Mechanical systems are qualified by their ability to convey air, water, etc to a building/room/area
 

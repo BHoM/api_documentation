@@ -2,7 +2,7 @@
 title: Category
 ---
 
-# <small>BH.oM.Revit.</small>**Category**
+# <small>BH.oM.Revit.Enums.</small>**Category**
 
 A collection of Revit categories supported by BHoM (UI, filtering etc.).
 

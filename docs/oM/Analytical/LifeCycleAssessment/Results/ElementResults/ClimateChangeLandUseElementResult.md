@@ -2,7 +2,7 @@
 title: ClimateChangeLandUseElementResult
 ---
 
-# <small>BH.oM.LifeCycleAssessment.</small>**ClimateChangeLandUseElementResult**
+# <small>BH.oM.LifeCycleAssessment.Results.</small>**ClimateChangeLandUseElementResult**
 
 Result class for resulting Climate change - Land Use and Land Use Change for a particular Element.
 

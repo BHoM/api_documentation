@@ -2,7 +2,7 @@
 title: Pollutant
 ---
 
-# <small>BH.oM.Environment.</small>**Pollutant**
+# <small>BH.oM.Environment.SpaceCriteria.</small>**Pollutant**
 
 Pollutant gains are defined as the amount of both latent and sensible heat contributed by pollutution sources.
 

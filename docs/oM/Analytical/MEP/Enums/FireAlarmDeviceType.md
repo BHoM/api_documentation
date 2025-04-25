@@ -2,7 +2,7 @@
 title: FireAlarmDeviceType
 ---
 
-# <small>BH.oM.MEP.</small>**FireAlarmDeviceType**
+# <small>BH.oM.MEP.Enums.</small>**FireAlarmDeviceType**
 
 A type of fire alarm device (smoke detector, heat detector, speaker strobe.)
 

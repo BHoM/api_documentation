@@ -2,7 +2,7 @@
 title: ClusterNode
 ---
 
-# <small>BH.oM.</small>**ClusterNode**
+# <small>BH.oM.Programming.</small>**ClusterNode**
 
 Represents a cluster of syntax nodes. This is equivalent to a method declaration.
 

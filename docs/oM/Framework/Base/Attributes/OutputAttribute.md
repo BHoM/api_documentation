@@ -2,7 +2,7 @@
 title: OutputAttribute
 ---
 
-# <small>BH.oM.Base.</small>**OutputAttribute**
+# <small>BH.oM.Base.Attributes.</small>**OutputAttribute**
 
 Attribute providing information about an output parameter of a method.
 To be applied to all methods that do not return void nor BH.oM.Base.Output types.

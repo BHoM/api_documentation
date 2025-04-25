@@ -2,7 +2,7 @@
 title: PanelType
 ---
 
-# <small>BH.oM.Facade.</small>**PanelType**
+# <small>BH.oM.Facade.Elements.</small>**PanelType**
 
 The type of surface (e.g. AirGap, Internal Wall, External Wall, etc.)
 

@@ -2,7 +2,7 @@
 title: ISettings
 ---
 
-# <small>BH.oM.</small>**ISettings**
+# <small>BH.oM.Base.</small>**ISettings**
 
 Toolkit Settings that need to be saved permanently.
 

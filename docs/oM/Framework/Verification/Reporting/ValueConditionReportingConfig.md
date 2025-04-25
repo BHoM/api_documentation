@@ -2,7 +2,7 @@
 title: ValueConditionReportingConfig
 ---
 
-# <small>BH.oM.Verification.</small>**ValueConditionReportingConfig**
+# <small>BH.oM.Verification.Reporting.</small>**ValueConditionReportingConfig**
 
 Config object containing settings for reporting results of checks against value conditions.
 

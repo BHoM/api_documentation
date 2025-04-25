@@ -2,7 +2,7 @@
 title: PushConfigIES
 ---
 
-# <small>BH.oM.Environment.</small>**PushConfigIES**
+# <small>BH.oM.Environment.IES.</small>**PushConfigIES**
 
 Create a push config for IES for use with the IES Adapter.
 

@@ -2,7 +2,7 @@
 title: HasId
 ---
 
-# <small>BH.oM.Verification.</small>**HasId**
+# <small>BH.oM.Verification.Conditions.</small>**HasId**
 
 Condition that requires an object to own an AdapterId fragment with a given Id to be considered a pass.
 

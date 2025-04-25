@@ -2,7 +2,7 @@
 title: IBoundary
 ---
 
-# <small>BH.oM.</small>**IBoundary**
+# <small>BH.oM.Geometry.</small>**IBoundary**
 
 Base interface for curves that are guarantied to be closed, planar and non-selfintersecting.
 

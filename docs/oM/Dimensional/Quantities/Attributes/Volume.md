@@ -2,7 +2,7 @@
 title: Volume
 ---
 
-# <small>BH.oM.Quantities.</small>**Volume**
+# <small>BH.oM.Quantities.Attributes.</small>**Volume**
 
 Dimensional quantity as defined by the International System of Quantities
 

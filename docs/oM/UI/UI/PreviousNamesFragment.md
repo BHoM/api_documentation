@@ -2,7 +2,7 @@
 title: PreviousNamesFragment
 ---
 
-# <small>BH.oM.</small>**PreviousNamesFragment**
+# <small>BH.oM.UI.</small>**PreviousNamesFragment**
 
 
 

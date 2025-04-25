@@ -2,7 +2,7 @@
 title: ConditionBasedFilter
 ---
 
-# <small>BH.oM.Verification.</small>**ConditionBasedFilter**
+# <small>BH.oM.Verification.Extraction.</small>**ConditionBasedFilter**
 
 Basic object defining a condition-based 'filter from' workflow.
 

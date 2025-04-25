@@ -2,7 +2,7 @@
 title: ReceiverParam
 ---
 
-# <small>BH.oM.</small>**ReceiverParam**
+# <small>BH.oM.Programming.</small>**ReceiverParam**
 
 Input of a syntax node.
 

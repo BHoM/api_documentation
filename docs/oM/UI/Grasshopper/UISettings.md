@@ -2,7 +2,7 @@
 title: UISettings
 ---
 
-# <small>BH.oM.</small>**UISettings**
+# <small>BH.oM.Grasshopper.</small>**UISettings**
 
 Settings for the Grasshopper UI.
 

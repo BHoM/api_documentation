@@ -2,7 +2,7 @@
 title: ShapeCode47
 ---
 
-# <small>BH.oM.Physical.Reinforcement.</small>**ShapeCode47**
+# <small>BH.oM.Physical.Reinforcement.BS8666.</small>**ShapeCode47**
 
 A reinforcement bar with shape code 47 to BS 8666:2020 in the XY Plane centred on the Origin with the B parameter aligned with the X axis and the A/C/D parameters aligned with the Y axis.
 

@@ -2,7 +2,7 @@
 title: DuctInsulationLevel
 ---
 
-# <small>BH.oM.Environment.</small>**DuctInsulationLevel**
+# <small>BH.oM.Environment.SAP.</small>**DuctInsulationLevel**
 
 Code which indicates the level of duct insulation.
 

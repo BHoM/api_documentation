@@ -2,7 +2,7 @@
 title: BHoMInformation
 ---
 
-# <small>BH.oM.</small>**BHoMInformation**
+# <small>BH.oM.UI.</small>**BHoMInformation**
 
 Object containing information about the BHoM, queried and populated at run time to provide information to the UIs about the installed version of BHoM.
 

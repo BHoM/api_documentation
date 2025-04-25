@@ -2,7 +2,7 @@
 title: ElectricalFixture
 ---
 
-# <small>BH.oM.MEP.</small>**ElectricalFixture**
+# <small>BH.oM.MEP.Fixtures.</small>**ElectricalFixture**
 
 A device used to convey electricity e.g. duplex sockets/receptacles, disconnect/isolator switches (for electrified mechanical equipment), floors boxes.
 

@@ -2,7 +2,7 @@
 title: SimulationResult
 ---
 
-# <small>BH.oM.Environment.</small>**SimulationResult**
+# <small>BH.oM.Environment.Results.</small>**SimulationResult**
 
 An Environment Simulation Result object
 

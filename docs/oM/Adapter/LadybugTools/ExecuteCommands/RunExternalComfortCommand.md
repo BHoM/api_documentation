@@ -2,7 +2,7 @@
 title: RunExternalComfortCommand
 ---
 
-# <small>BH.oM.</small>**RunExternalComfortCommand**
+# <small>BH.oM.LadybugTools.</small>**RunExternalComfortCommand**
 
 Command that when executed with the LadybugTools Adapter, runs an External Comfort simulation and returns an ExternalComfort object containing results.
 

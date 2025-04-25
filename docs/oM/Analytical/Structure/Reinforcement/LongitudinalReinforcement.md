@@ -2,7 +2,7 @@
 title: LongitudinalReinforcement
 ---
 
-# <small>BH.oM.Structure.</small>**LongitudinalReinforcement**
+# <small>BH.oM.Structure.Reinforcement.</small>**LongitudinalReinforcement**
 
 Defines any longitudinal reinforcement along a Bar.
 

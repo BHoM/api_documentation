@@ -2,7 +2,7 @@
 title: InternalSpandrelPanel
 ---
 
-# <small>BH.oM.</small>**InternalSpandrelPanel**
+# <small>BH.oM.dKoP.</small>**InternalSpandrelPanel**
 
 
 

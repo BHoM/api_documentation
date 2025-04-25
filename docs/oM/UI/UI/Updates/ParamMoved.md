@@ -2,7 +2,7 @@
 title: ParamMoved
 ---
 
-# <small>BH.oM.</small>**ParamMoved**
+# <small>BH.oM.UI.</small>**ParamMoved**
 
 
 

@@ -2,7 +2,7 @@
 title: Zone
 ---
 
-# <small>BH.oM.Environment.</small>**Zone**
+# <small>BH.oM.Environment.Elements.</small>**Zone**
 
 A self-contained unit of accommodation, that could contain smaller spaces
 

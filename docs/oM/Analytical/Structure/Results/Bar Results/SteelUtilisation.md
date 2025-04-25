@@ -2,7 +2,7 @@
 title: SteelUtilisation
 ---
 
-# <small>BH.oM.Structure.</small>**SteelUtilisation**
+# <small>BH.oM.Structure.Results.</small>**SteelUtilisation**
 
 Base class for all bar result classes. Stores all identifier information and how to sort the results in a collection.
 

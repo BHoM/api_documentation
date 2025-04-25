@@ -2,7 +2,7 @@
 title: PlumbingFixture
 ---
 
-# <small>BH.oM.MEP.</small>**PlumbingFixture**
+# <small>BH.oM.MEP.Fixtures.</small>**PlumbingFixture**
 
 A device used to convey public health (plumbing) fluids (water, waste.)
 

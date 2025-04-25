@@ -2,7 +2,7 @@
 title: IValueCondition
 ---
 
-# <small>BH.oM.Verification.</small>**IValueCondition**
+# <small>BH.oM.Verification.Conditions.</small>**IValueCondition**
 
 Interface for conditions that evaluate a value derived from an object against certain criteria.
 

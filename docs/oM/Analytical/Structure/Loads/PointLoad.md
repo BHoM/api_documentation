@@ -2,7 +2,7 @@
 title: PointLoad
 ---
 
-# <small>BH.oM.Structure.</small>**PointLoad**
+# <small>BH.oM.Structure.Loads.</small>**PointLoad**
 
 Point load for Nodes. This can be used to apply force as well as moment.
 

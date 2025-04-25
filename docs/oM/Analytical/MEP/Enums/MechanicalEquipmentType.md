@@ -2,7 +2,7 @@
 title: MechanicalEquipmentType
 ---
 
-# <small>BH.oM.MEP.</small>**MechanicalEquipmentType**
+# <small>BH.oM.MEP.Enums.</small>**MechanicalEquipmentType**
 
 A type of mechanical equipment (air handling unit, boiler, chiller, fan coil unit.)
 

@@ -2,7 +2,7 @@
 title: AcidificationPerQuantity
 ---
 
-# <small>BH.oM.Quantities.</small>**AcidificationPerQuantity**
+# <small>BH.oM.Quantities.Attributes.</small>**AcidificationPerQuantity**
 
 Quantity type for acidification potential per quantity.
 

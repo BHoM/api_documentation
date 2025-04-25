@@ -2,7 +2,7 @@
 title: FabricatedISectionProfile
 ---
 
-# <small>BH.oM.Spatial.</small>**FabricatedISectionProfile**
+# <small>BH.oM.Spatial.ShapeProfiles.</small>**FabricatedISectionProfile**
 
 I-shaped profile with parallel flanges that allows for different thicknesses of the web, top flange and bottom flange as well as different top and bottom flange widths.
 

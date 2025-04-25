@@ -2,7 +2,7 @@
 title: IAreaElement
 ---
 
-# <small>BH.oM.Structure.</small>**IAreaElement**
+# <small>BH.oM.Structure.Elements.</small>**IAreaElement**
 
 Base interface for 2D analytical elements such as Panels, FEMeshes and Surfaces to represent, for example, walls and slabs.
 

@@ -2,7 +2,7 @@
 title: ClimateChangeFossilMaterialResult
 ---
 
-# <small>BH.oM.LifeCycleAssessment.</small>**ClimateChangeFossilMaterialResult**
+# <small>BH.oM.LifeCycleAssessment.Results.</small>**ClimateChangeFossilMaterialResult**
 
 Result class for resulting Climate change - fossil for a particular Material and EPD.
 

@@ -2,7 +2,7 @@
 title: CableSection
 ---
 
-# <small>BH.oM.Structure.</small>**CableSection**
+# <small>BH.oM.Structure.SectionProperties.</small>**CableSection**
 
 Cable section to be used on Bars. Defined by cable diameter, number of cables, and total area.
 

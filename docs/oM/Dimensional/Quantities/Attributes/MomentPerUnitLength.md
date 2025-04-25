@@ -2,7 +2,7 @@
 title: MomentPerUnitLength
 ---
 
-# <small>BH.oM.Quantities.</small>**MomentPerUnitLength**
+# <small>BH.oM.Quantities.Attributes.</small>**MomentPerUnitLength**
 
 Dimensional quantity as defined by the International System of Quantities
 

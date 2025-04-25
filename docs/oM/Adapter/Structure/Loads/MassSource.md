@@ -2,7 +2,7 @@
 title: MassSource
 ---
 
-# <small>BH.oM.Structure.</small>**MassSource**
+# <small>BH.oM.Structure.Loads.</small>**MassSource**
 
 
 

@@ -2,7 +2,7 @@
 title: FanCoilUnit
 ---
 
-# <small>BH.oM.MEP.</small>**FanCoilUnit**
+# <small>BH.oM.MEP.Equipment.</small>**FanCoilUnit**
 
 Fan Coil Units are devices that use a coil and a fan to heat or cool a space
 

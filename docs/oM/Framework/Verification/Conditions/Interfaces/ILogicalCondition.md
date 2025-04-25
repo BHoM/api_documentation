@@ -2,7 +2,7 @@
 title: ILogicalCondition
 ---
 
-# <small>BH.oM.Verification.</small>**ILogicalCondition**
+# <small>BH.oM.Verification.Conditions.</small>**ILogicalCondition**
 
 Interface for all logical conditions (AND, OR, NOT etc.).
 

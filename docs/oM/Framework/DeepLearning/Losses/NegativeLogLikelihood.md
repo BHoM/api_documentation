@@ -2,7 +2,7 @@
 title: NegativeLogLikelihood
 ---
 
-# <small>BH.oM.DeepLearning.</small>**NegativeLogLikelihood**
+# <small>BH.oM.DeepLearning.Losses.</small>**NegativeLogLikelihood**
 
 
 

@@ -2,7 +2,7 @@
 title: IMarker
 ---
 
-# <small>BH.oM.Graphics.</small>**IMarker**
+# <small>BH.oM.Graphics.Components.</small>**IMarker**
 
 Interface for arrow head markers.
 

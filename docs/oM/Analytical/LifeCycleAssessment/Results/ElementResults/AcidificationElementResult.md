@@ -2,7 +2,7 @@
 title: AcidificationElementResult
 ---
 
-# <small>BH.oM.LifeCycleAssessment.</small>**AcidificationElementResult**
+# <small>BH.oM.LifeCycleAssessment.Results.</small>**AcidificationElementResult**
 
 Result class for resulting Acidification for a particular Element.
 

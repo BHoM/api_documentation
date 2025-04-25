@@ -2,7 +2,7 @@
 title: ProjectLifeCycleAssessment
 ---
 
-# <small>BH.oM.</small>**ProjectLifeCycleAssessment**
+# <small>BH.oM.LifeCycleAssessment.</small>**ProjectLifeCycleAssessment**
 
 Project LCA can be used to collect all objects used in an evaluation along with the project's specific metatdata for tracking within a user-specified database.
 

@@ -2,7 +2,7 @@
 title: ReinforcementDensity
 ---
 
-# <small>BH.oM.Structure.</small>**ReinforcementDensity**
+# <small>BH.oM.Structure.Fragments.</small>**ReinforcementDensity**
 
 The reinforcement density of an element and its material.
 

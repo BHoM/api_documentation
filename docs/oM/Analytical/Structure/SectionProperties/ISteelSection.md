@@ -2,7 +2,7 @@
 title: ISteelSection
 ---
 
-# <small>BH.oM.Structure.</small>**ISteelSection**
+# <small>BH.oM.Structure.SectionProperties.</small>**ISteelSection**
 
 Base interface for Steel section types.
 

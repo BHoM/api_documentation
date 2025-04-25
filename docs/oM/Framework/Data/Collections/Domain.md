@@ -2,7 +2,7 @@
 title: Domain
 ---
 
-# <small>BH.oM.Data.</small>**Domain**
+# <small>BH.oM.Data.Collections.</small>**Domain**
 
 A numerical domain defined by a minimum and maximum value.
 

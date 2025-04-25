@@ -2,7 +2,7 @@
 title: NotImplementedAttribute
 ---
 
-# <small>BH.oM.Base.</small>**NotImplementedAttribute**
+# <small>BH.oM.Base.Attributes.</small>**NotImplementedAttribute**
 
 
 

@@ -2,7 +2,7 @@
 title: ReinforcementPattern
 ---
 
-# <small>BH.oM.Structure.SectionProperties.</small>**ReinforcementPattern**
+# <small>BH.oM.Structure.SectionProperties.Reinforcement.</small>**ReinforcementPattern**
 
 
 

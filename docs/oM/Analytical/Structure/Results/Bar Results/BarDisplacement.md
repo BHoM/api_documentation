@@ -2,7 +2,7 @@
 title: BarDisplacement
 ---
 
-# <small>BH.oM.Structure.</small>**BarDisplacement**
+# <small>BH.oM.Structure.Results.</small>**BarDisplacement**
 
 Resulting total displacements in global coordinates along the bar.
 

@@ -2,7 +2,7 @@
 title: UniqueAttribute
 ---
 
-# <small>BH.oM.Base.</small>**UniqueAttribute**
+# <small>BH.oM.Base.Attributes.</small>**UniqueAttribute**
 
 Means that there can only be one instance of that type in a collection. This is currently used specifically for the case of fragments.
 

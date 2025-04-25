@@ -2,7 +2,7 @@
 title: Window
 ---
 
-# <small>BH.oM.Physical.</small>**Window**
+# <small>BH.oM.Physical.Elements.</small>**Window**
 
 
 

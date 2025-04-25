@@ -2,7 +2,7 @@
 title: PriorityQueue&lt;T&gt;
 ---
 
-# <small>BH.oM.Data.</small>**PriorityQueue&lt;T&gt;**
+# <small>BH.oM.Data.Collections.</small>**PriorityQueue&lt;T&gt;**
 
 
 

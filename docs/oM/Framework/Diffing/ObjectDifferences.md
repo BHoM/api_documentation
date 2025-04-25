@@ -2,7 +2,7 @@
 title: ObjectDifferences
 ---
 
-# <small>BH.oM.</small>**ObjectDifferences**
+# <small>BH.oM.Diffing.</small>**ObjectDifferences**
 
 Represents all the differences found between a Previous and Following version of an object.
 

@@ -2,7 +2,7 @@
 title: SunPathData
 ---
 
-# <small>BH.oM.</small>**SunPathData**
+# <small>BH.oM.LadybugTools.</small>**SunPathData**
 
 
 

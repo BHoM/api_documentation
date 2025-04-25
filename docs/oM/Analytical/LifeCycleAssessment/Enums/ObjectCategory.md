@@ -2,7 +2,7 @@
 title: ObjectCategory
 ---
 
-# <small>BH.oM.</small>**ObjectCategory**
+# <small>BH.oM.LifeCycleAssessment.</small>**ObjectCategory**
 
 
 

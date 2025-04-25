@@ -2,7 +2,7 @@
 title: FloorSchedule
 ---
 
-# <small>BH.oM.Environment.SAP.</small>**FloorSchedule**
+# <small>BH.oM.Environment.SAP.Excel.</small>**FloorSchedule**
 
 The details of floors from the users excel input.
 

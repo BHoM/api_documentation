@@ -2,7 +2,7 @@
 title: CollectionData
 ---
 
-# <small>BH.oM.</small>**CollectionData**
+# <small>BH.oM.LadybugTools.</small>**CollectionData**
 
 
 

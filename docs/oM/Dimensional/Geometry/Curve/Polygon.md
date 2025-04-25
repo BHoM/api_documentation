@@ -2,7 +2,7 @@
 title: Polygon
 ---
 
-# <small>BH.oM.</small>**Polygon**
+# <small>BH.oM.Geometry.</small>**Polygon**
 
 Simple Polygon. Closed, planar and non-self intersecting. Can be irregular, convex and/or concave.
 

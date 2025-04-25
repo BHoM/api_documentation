@@ -2,7 +2,7 @@
 title: ThermalBridgeCode
 ---
 
-# <small>BH.oM.Environment.</small>**ThermalBridgeCode**
+# <small>BH.oM.Environment.SAP.</small>**ThermalBridgeCode**
 
 Code which indicates how the thermal bridge data has been recorded.
 

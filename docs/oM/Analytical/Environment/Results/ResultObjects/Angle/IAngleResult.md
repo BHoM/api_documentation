@@ -2,7 +2,7 @@
 title: IAngleResult
 ---
 
-# <small>BH.oM.Environment.</small>**IAngleResult**
+# <small>BH.oM.Environment.Results.</small>**IAngleResult**
 
 A results object containing angle data.
 

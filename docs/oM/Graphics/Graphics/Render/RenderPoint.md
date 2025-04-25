@@ -2,7 +2,7 @@
 title: RenderPoint
 ---
 
-# <small>BH.oM.</small>**RenderPoint**
+# <small>BH.oM.Graphics.</small>**RenderPoint**
 
 
 

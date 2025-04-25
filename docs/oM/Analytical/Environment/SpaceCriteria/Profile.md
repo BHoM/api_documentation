@@ -2,7 +2,7 @@
 title: Profile
 ---
 
-# <small>BH.oM.Environment.</small>**Profile**
+# <small>BH.oM.Environment.SpaceCriteria.</small>**Profile**
 
 A profile object represents a gain, thermostat or humdistat as conditions vary over a 24-hour period
 

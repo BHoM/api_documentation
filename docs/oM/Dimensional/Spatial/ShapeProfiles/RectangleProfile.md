@@ -2,7 +2,7 @@
 title: RectangleProfile
 ---
 
-# <small>BH.oM.Spatial.</small>**RectangleProfile**
+# <small>BH.oM.Spatial.ShapeProfiles.</small>**RectangleProfile**
 
 Solid rectangular profile.
 

@@ -2,7 +2,7 @@
 title: Total
 ---
 
-# <small>BH.oM.XML.</small>**Total**
+# <small>BH.oM.XML.EnergyPlus.</small>**Total**
 
 
 

@@ -2,7 +2,7 @@
 title: TSectionProfile
 ---
 
-# <small>BH.oM.Spatial.</small>**TSectionProfile**
+# <small>BH.oM.Spatial.ShapeProfiles.</small>**TSectionProfile**
 
 T-shaped profile with constant flange thickness.
 

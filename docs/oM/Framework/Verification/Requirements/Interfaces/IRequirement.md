@@ -2,7 +2,7 @@
 title: IRequirement
 ---
 
-# <small>BH.oM.Verification.</small>**IRequirement**
+# <small>BH.oM.Verification.Requirements.</small>**IRequirement**
 
 Top interface for all kinds of Requirements.
 

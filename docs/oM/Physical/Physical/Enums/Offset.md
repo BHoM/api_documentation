@@ -2,7 +2,7 @@
 title: Offset
 ---
 
-# <small>BH.oM.Physical.</small>**Offset**
+# <small>BH.oM.Physical.Elements.</small>**Offset**
 
 
 

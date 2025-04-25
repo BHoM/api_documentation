@@ -2,7 +2,7 @@
 title: CompassDirectionCode
 ---
 
-# <small>BH.oM.Environment.</small>**CompassDirectionCode**
+# <small>BH.oM.Environment.SAP.</small>**CompassDirectionCode**
 
 Code which indicates the compass direction.  Like OrientationCode, but without the "unknown" and "horizontal" options.
 

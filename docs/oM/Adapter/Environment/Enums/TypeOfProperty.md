@@ -2,7 +2,7 @@
 title: TypeOfProperty
 ---
 
-# <small>BH.oM.Environment.</small>**TypeOfProperty**
+# <small>BH.oM.Environment.SAP.</small>**TypeOfProperty**
 
 Code which indicates the type of property.
 

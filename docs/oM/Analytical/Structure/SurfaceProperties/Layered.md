@@ -2,7 +2,7 @@
 title: Layered
 ---
 
-# <small>BH.oM.Structure.</small>**Layered**
+# <small>BH.oM.Structure.SurfaceProperties.</small>**Layered**
 
 Property for 2D analytical elements representing a series of layers, each with different thickness, material, and orientation.
 

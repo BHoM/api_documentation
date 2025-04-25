@@ -2,7 +2,7 @@
 title: ILifeCycleAssessmentPhaseData
 ---
 
-# <small>BH.oM.</small>**ILifeCycleAssessmentPhaseData**
+# <small>BH.oM.LifeCycleAssessment.</small>**ILifeCycleAssessmentPhaseData**
 
 Base interface for all envirnmental metrics.
 

@@ -2,7 +2,7 @@
 title: UValueGlassEdge
 ---
 
-# <small>BH.oM.Facade.</small>**UValueGlassEdge**
+# <small>BH.oM.Facade.Fragments.</small>**UValueGlassEdge**
 
 A U-Value representing the effective U-Value of the edge region of an opening.
 

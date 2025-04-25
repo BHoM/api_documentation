@@ -2,7 +2,7 @@
 title: CustomItem
 ---
 
-# <small>BH.oM.</small>**CustomItem**
+# <small>BH.oM.UI.</small>**CustomItem**
 
 
 

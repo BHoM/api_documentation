@@ -2,7 +2,7 @@
 title: OzoneDepletionMaterialResult
 ---
 
-# <small>BH.oM.LifeCycleAssessment.</small>**OzoneDepletionMaterialResult**
+# <small>BH.oM.LifeCycleAssessment.Results.</small>**OzoneDepletionMaterialResult**
 
 Result class for resulting Ozone depletion for a particular Material and EPD.
 

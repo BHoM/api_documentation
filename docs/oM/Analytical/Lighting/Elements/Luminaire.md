@@ -2,7 +2,7 @@
 title: Luminaire
 ---
 
-# <small>BH.oM.Lighting.</small>**Luminaire**
+# <small>BH.oM.Lighting.Elements.</small>**Luminaire**
 
 
 

@@ -2,7 +2,7 @@
 title: SPTTestProperties
 ---
 
-# <small>BH.oM.</small>**SPTTestProperties**
+# <small>BH.oM.Ground.</small>**SPTTestProperties**
 
 Properties related to the standard penetration test.
 

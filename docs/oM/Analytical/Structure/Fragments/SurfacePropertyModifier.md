@@ -2,7 +2,7 @@
 title: SurfacePropertyModifier
 ---
 
-# <small>BH.oM.Structure.</small>**SurfacePropertyModifier**
+# <small>BH.oM.Structure.Fragments.</small>**SurfacePropertyModifier**
 
 Sets modifiers to a SurfaceProperty. The modifiers are used to scale one or more of the property constants for analysis. Constants are multiplied with the modifiers, hence a modifier value of 1 means no change.
 

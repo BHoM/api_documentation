@@ -2,7 +2,7 @@
 title: IOpeningTypeIteration
 ---
 
-# <small>BH.oM.Environment.</small>**IOpeningTypeIteration**
+# <small>BH.oM.Environment.SAP.</small>**IOpeningTypeIteration**
 
 
 

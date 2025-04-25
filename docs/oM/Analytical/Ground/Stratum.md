@@ -2,7 +2,7 @@
 title: Stratum
 ---
 
-# <small>BH.oM.</small>**Stratum**
+# <small>BH.oM.Ground.</small>**Stratum**
 
 A stratum containing the geological information based on the AGS schema.
 

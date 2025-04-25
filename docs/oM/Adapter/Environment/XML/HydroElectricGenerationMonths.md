@@ -2,7 +2,7 @@
 title: HydroElectricGenerationMonths
 ---
 
-# <small>BH.oM.Environment.SAP.</small>**HydroElectricGenerationMonths**
+# <small>BH.oM.Environment.SAP.XML.</small>**HydroElectricGenerationMonths**
 
 
 

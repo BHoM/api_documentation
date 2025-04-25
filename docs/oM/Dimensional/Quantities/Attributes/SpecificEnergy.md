@@ -2,7 +2,7 @@
 title: SpecificEnergy
 ---
 
-# <small>BH.oM.Quantities.</small>**SpecificEnergy**
+# <small>BH.oM.Quantities.Attributes.</small>**SpecificEnergy**
 
 Dimensional quantity as defined by the International System of Quantities
 

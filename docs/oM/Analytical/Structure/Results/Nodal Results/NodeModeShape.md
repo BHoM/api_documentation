@@ -2,7 +2,7 @@
 title: NodeModeShape
 ---
 
-# <small>BH.oM.Structure.</small>**NodeModeShape**
+# <small>BH.oM.Structure.Results.</small>**NodeModeShape**
 
 Node mode shape in global coordinates, normalised to 1.
 

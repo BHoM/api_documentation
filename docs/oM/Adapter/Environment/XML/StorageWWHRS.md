@@ -2,7 +2,7 @@
 title: StorageWWHRS
 ---
 
-# <small>BH.oM.Environment.SAP.</small>**StorageWWHRS**
+# <small>BH.oM.Environment.SAP.XML.</small>**StorageWWHRS**
 
 
 

@@ -2,7 +2,7 @@
 title: SearchResult&lt;T&gt;
 ---
 
-# <small>BH.oM.</small>**SearchResult&lt;T&gt;**
+# <small>BH.oM.Search.</small>**SearchResult&lt;T&gt;**
 
 A result class containing objects, scores and indexes.
 

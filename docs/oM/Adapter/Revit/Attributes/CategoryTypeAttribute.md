@@ -2,7 +2,7 @@
 title: CategoryTypeAttribute
 ---
 
-# <small>BH.oM.Revit.</small>**CategoryTypeAttribute**
+# <small>BH.oM.Revit.Attributes.</small>**CategoryTypeAttribute**
 
 Attribute that defines Revit category type as defined in Visibility &amp; Graphics window.
 Allowed values of Type property are: 'Model', 'Annotation', 'Analytical' and 'Internal'.

@@ -2,7 +2,7 @@
 title: FormulaCondition
 ---
 
-# <small>BH.oM.Verification.</small>**FormulaCondition**
+# <small>BH.oM.Verification.Conditions.</small>**FormulaCondition**
 
 Condition that verifies an object based on a given formula.
 

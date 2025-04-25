@@ -2,7 +2,7 @@
 title: MultiLineTextUpdate
 ---
 
-# <small>BH.oM.</small>**MultiLineTextUpdate**
+# <small>BH.oM.PowerPoint.</small>**MultiLineTextUpdate**
 
 Allows to update the text content of a shape
 

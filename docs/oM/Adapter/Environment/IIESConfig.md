@@ -2,7 +2,7 @@
 title: IIESConfig
 ---
 
-# <small>BH.oM.Environment.</small>**IIESConfig**
+# <small>BH.oM.Environment.IES.</small>**IIESConfig**
 
 
 

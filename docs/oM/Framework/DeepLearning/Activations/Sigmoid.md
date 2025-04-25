@@ -2,7 +2,7 @@
 title: Sigmoid
 ---
 
-# <small>BH.oM.DeepLearning.</small>**Sigmoid**
+# <small>BH.oM.DeepLearning.Activations.</small>**Sigmoid**
 
 
 

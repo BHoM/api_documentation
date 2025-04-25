@@ -2,7 +2,7 @@
 title: AngleProfile
 ---
 
-# <small>BH.oM.Spatial.</small>**AngleProfile**
+# <small>BH.oM.Spatial.ShapeProfiles.</small>**AngleProfile**
 
 L-shaped profile.
 

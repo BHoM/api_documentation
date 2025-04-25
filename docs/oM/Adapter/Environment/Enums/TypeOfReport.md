@@ -2,7 +2,7 @@
 title: TypeOfReport
 ---
 
-# <small>BH.oM.Environment.</small>**TypeOfReport**
+# <small>BH.oM.Environment.SAP.</small>**TypeOfReport**
 
 .
 

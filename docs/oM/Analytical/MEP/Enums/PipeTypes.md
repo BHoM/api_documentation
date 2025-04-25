@@ -2,7 +2,7 @@
 title: PipeTypes
 ---
 
-# <small>BH.oM.MEP.</small>**PipeTypes**
+# <small>BH.oM.MEP.Enums.</small>**PipeTypes**
 
 The type of pipe (e.g. Sanitary, Storm, Domestic Cold Water)
 

@@ -2,7 +2,7 @@
 title: LogicalAndCondition
 ---
 
-# <small>BH.oM.Verification.</small>**LogicalAndCondition**
+# <small>BH.oM.Verification.Conditions.</small>**LogicalAndCondition**
 
 Condition that contains a collection of nested conditions, which all need to be met for an object to be considered a pass.
 

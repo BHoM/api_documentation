@@ -2,7 +2,7 @@
 title: CoolingPeakCondition
 ---
 
-# <small>BH.oM.XML.</small>**CoolingPeakCondition**
+# <small>BH.oM.XML.EnergyPlus.</small>**CoolingPeakCondition**
 
 
 

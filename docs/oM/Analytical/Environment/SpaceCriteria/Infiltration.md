@@ -2,7 +2,7 @@
 title: Infiltration
 ---
 
-# <small>BH.oM.Environment.</small>**Infiltration**
+# <small>BH.oM.Environment.SpaceCriteria.</small>**Infiltration**
 
 Infiltration gains are defined as the amount of heat or heat loss contributed by cracks in the exterior envelope of the building which allow unconditioned outside air to be introduced to the space
 

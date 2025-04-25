@@ -2,7 +2,7 @@
 title: ProfileDay
 ---
 
-# <small>BH.oM.Environment.</small>**ProfileDay**
+# <small>BH.oM.Environment.SpaceCriteria.</small>**ProfileDay**
 
 
 

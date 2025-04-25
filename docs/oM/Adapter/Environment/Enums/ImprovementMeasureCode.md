@@ -2,7 +2,7 @@
 title: ImprovementMeasureCode
 ---
 
-# <small>BH.oM.Environment.</small>**ImprovementMeasureCode**
+# <small>BH.oM.Environment.SAP.</small>**ImprovementMeasureCode**
 
 Code which indicates an improvement measure for a property.
 

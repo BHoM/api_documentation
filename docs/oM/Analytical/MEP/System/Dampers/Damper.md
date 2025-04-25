@@ -2,7 +2,7 @@
 title: Damper
 ---
 
-# <small>BH.oM.MEP.System.</small>**Damper**
+# <small>BH.oM.MEP.System.Dampers.</small>**Damper**
 
 A device used to control the flow within a duct system (fire smoke damper, volume damper, etc.)
 

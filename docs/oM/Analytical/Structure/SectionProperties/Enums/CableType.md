@@ -2,7 +2,7 @@
 title: CableType
 ---
 
-# <small>BH.oM.Structure.</small>**CableType**
+# <small>BH.oM.Structure.SectionProperties.</small>**CableType**
 
 
 

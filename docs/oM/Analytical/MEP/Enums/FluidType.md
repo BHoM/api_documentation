@@ -2,7 +2,7 @@
 title: FluidType
 ---
 
-# <small>BH.oM.MEP.</small>**FluidType**
+# <small>BH.oM.MEP.Enums.</small>**FluidType**
 
 A fluid type that flows within any system's flow objects.
 

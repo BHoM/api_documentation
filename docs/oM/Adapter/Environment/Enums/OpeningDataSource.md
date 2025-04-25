@@ -2,7 +2,7 @@
 title: OpeningDataSource
 ---
 
-# <small>BH.oM.Environment.SAP.XML.</small>**OpeningDataSource**
+# <small>BH.oM.Environment.SAP.XML.Enums.</small>**OpeningDataSource**
 
 Code which indicates the source of opening data.
 

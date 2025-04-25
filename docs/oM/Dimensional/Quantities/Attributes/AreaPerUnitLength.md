@@ -2,7 +2,7 @@
 title: AreaPerUnitLength
 ---
 
-# <small>BH.oM.Quantities.</small>**AreaPerUnitLength**
+# <small>BH.oM.Quantities.Attributes.</small>**AreaPerUnitLength**
 
 Dimensional quantity as defined by the International System of Quantities
 

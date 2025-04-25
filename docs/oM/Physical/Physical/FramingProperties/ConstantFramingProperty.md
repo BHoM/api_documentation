@@ -2,7 +2,7 @@
 title: ConstantFramingProperty
 ---
 
-# <small>BH.oM.Physical.</small>**ConstantFramingProperty**
+# <small>BH.oM.Physical.FramingProperties.</small>**ConstantFramingProperty**
 
 
 

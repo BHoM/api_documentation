@@ -2,7 +2,7 @@
 title: IEnergyResult
 ---
 
-# <small>BH.oM.Environment.</small>**IEnergyResult**
+# <small>BH.oM.Environment.Results.</small>**IEnergyResult**
 
 A results object containing energy data.
 

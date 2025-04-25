@@ -2,7 +2,7 @@
 title: GetMaterialCommand
 ---
 
-# <small>BH.oM.</small>**GetMaterialCommand**
+# <small>BH.oM.LadybugTools.</small>**GetMaterialCommand**
 
 Command that when executed with the LadybugTools Adapter, returns a list of materials from the Python Materials list.
 

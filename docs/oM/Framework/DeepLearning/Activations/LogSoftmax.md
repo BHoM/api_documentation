@@ -2,7 +2,7 @@
 title: LogSoftmax
 ---
 
-# <small>BH.oM.DeepLearning.</small>**LogSoftmax**
+# <small>BH.oM.DeepLearning.Activations.</small>**LogSoftmax**
 
 
 

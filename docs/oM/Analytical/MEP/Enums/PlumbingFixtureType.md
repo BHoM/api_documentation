@@ -2,7 +2,7 @@
 title: PlumbingFixtureType
 ---
 
-# <small>BH.oM.MEP.</small>**PlumbingFixtureType**
+# <small>BH.oM.MEP.Enums.</small>**PlumbingFixtureType**
 
 A type of plumbing fixture (water closet (toilet), lavatory, urinal.)
 

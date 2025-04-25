@@ -2,7 +2,7 @@
 title: Wire
 ---
 
-# <small>BH.oM.MEP.</small>**Wire**
+# <small>BH.oM.MEP.System.</small>**Wire**
 
 Wire object to work within an MEP systems.
 

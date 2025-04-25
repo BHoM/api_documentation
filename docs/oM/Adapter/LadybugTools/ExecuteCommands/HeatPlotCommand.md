@@ -2,7 +2,7 @@
 title: HeatPlotCommand
 ---
 
-# <small>BH.oM.</small>**HeatPlotCommand**
+# <small>BH.oM.LadybugTools.</small>**HeatPlotCommand**
 
 Command that, when executed with the LadybugToolsAdapter, produces a heatmap from data in an epw file.
 Output is a string of either the path to the image (if OutputLocation is not set) or the base 64 string representation of it.

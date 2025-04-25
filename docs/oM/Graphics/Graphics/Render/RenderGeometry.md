@@ -2,7 +2,7 @@
 title: RenderGeometry
 ---
 
-# <small>BH.oM.</small>**RenderGeometry**
+# <small>BH.oM.Graphics.</small>**RenderGeometry**
 
 Render geometry with a specific colour.
 

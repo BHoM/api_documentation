@@ -2,7 +2,7 @@
 title: Lighting
 ---
 
-# <small>BH.oM.Environment.</small>**Lighting**
+# <small>BH.oM.Environment.SpaceCriteria.</small>**Lighting**
 
 Lighting gains are defined as the amount of heat contributed by light fixtures
 

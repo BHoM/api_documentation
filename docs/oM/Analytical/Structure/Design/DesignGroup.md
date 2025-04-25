@@ -2,7 +2,7 @@
 title: DesignGroup
 ---
 
-# <small>BH.oM.Structure.</small>**DesignGroup**
+# <small>BH.oM.Structure.Design.</small>**DesignGroup**
 
 
 

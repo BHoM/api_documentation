@@ -2,7 +2,7 @@
 title: IsOfTypeResult
 ---
 
-# <small>BH.oM.Verification.</small>**IsOfTypeResult**
+# <small>BH.oM.Verification.Results.</small>**IsOfTypeResult**
 
 Object representing result of IsOfType condition.
 

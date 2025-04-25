@@ -2,7 +2,7 @@
 title: DataTypeCode
 ---
 
-# <small>BH.oM.Environment.</small>**DataTypeCode**
+# <small>BH.oM.Environment.SAP.</small>**DataTypeCode**
 
 Code which indicates the type of SAP data.
 

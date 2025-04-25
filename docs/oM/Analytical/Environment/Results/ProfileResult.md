@@ -2,7 +2,7 @@
 title: ProfileResult
 ---
 
-# <small>BH.oM.Environment.</small>**ProfileResult**
+# <small>BH.oM.Environment.Results.</small>**ProfileResult**
 
 A Environment Profile Result object that can be added to a Simulation Result
 

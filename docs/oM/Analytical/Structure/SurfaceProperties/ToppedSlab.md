@@ -2,7 +2,7 @@
 title: ToppedSlab
 ---
 
-# <small>BH.oM.Structure.</small>**ToppedSlab**
+# <small>BH.oM.Structure.SurfaceProperties.</small>**ToppedSlab**
 
 Property for 2D analytical elements, made up of a slab property with concrete topping.
 

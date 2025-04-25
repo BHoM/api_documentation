@@ -2,7 +2,7 @@
 title: UniformLoadSet
 ---
 
-# <small>BH.oM.Structure.</small>**UniformLoadSet**
+# <small>BH.oM.Structure.Loads.</small>**UniformLoadSet**
 
 Definition of a set of uniform loads in the gravity direction (-Z).
 

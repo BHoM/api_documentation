@@ -2,7 +2,7 @@
 title: ClusterContent
 ---
 
-# <small>BH.oM.</small>**ClusterContent**
+# <small>BH.oM.Programming.</small>**ClusterContent**
 
 Content of a Cluster syntax node.
 

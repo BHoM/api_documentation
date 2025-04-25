@@ -2,7 +2,7 @@
 title: RevitHostFragment
 ---
 
-# <small>BH.oM.</small>**RevitHostFragment**
+# <small>BH.oM.Revit.</small>**RevitHostFragment**
 
 Fragment containing the information about the Revit element that hosts the Revit element correspondent to the BHoM object that carries this.
 

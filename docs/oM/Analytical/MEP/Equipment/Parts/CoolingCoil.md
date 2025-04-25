@@ -2,7 +2,7 @@
 title: CoolingCoil
 ---
 
-# <small>BH.oM.MEP.Equipment.</small>**CoolingCoil**
+# <small>BH.oM.MEP.Equipment.Parts.</small>**CoolingCoil**
 
 Cooling coils allow fluids (air) to lower their temperature as they pass through the coil
 

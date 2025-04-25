@@ -2,7 +2,7 @@
 title: MainHeatingDetails
 ---
 
-# <small>BH.oM.Environment.SAP.</small>**MainHeatingDetails**
+# <small>BH.oM.Environment.SAP.XML.</small>**MainHeatingDetails**
 
 
 

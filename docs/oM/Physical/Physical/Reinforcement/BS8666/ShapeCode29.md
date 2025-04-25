@@ -2,7 +2,7 @@
 title: ShapeCode29
 ---
 
-# <small>BH.oM.Physical.Reinforcement.</small>**ShapeCode29**
+# <small>BH.oM.Physical.Reinforcement.BS8666.</small>**ShapeCode29**
 
 A reinforcement bar with shape code 29 to BS 8666:2020 in the XY Plane with the free end of the A segment starting at the Origin aligned with the X axis, the C/E parameters aligned with the X axis and the D parameter aligned with the Y axis.
 

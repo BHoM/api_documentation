@@ -2,7 +2,7 @@
 title: Length
 ---
 
-# <small>BH.oM.Quantities.</small>**Length**
+# <small>BH.oM.Quantities.Attributes.</small>**Length**
 
 Dimensional quantity as defined by the International System of Quantities
 

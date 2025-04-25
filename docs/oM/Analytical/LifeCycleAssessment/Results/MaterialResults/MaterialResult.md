@@ -2,7 +2,7 @@
 title: MaterialResult
 ---
 
-# <small>BH.oM.LifeCycleAssessment.</small>**MaterialResult**
+# <small>BH.oM.LifeCycleAssessment.Results.</small>**MaterialResult**
 
 
 

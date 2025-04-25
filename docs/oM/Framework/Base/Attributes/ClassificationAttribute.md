@@ -2,7 +2,7 @@
 title: ClassificationAttribute
 ---
 
-# <small>BH.oM.Base.</small>**ClassificationAttribute**
+# <small>BH.oM.Base.Attributes.</small>**ClassificationAttribute**
 
 Attribute representing classification of method parameters and object properties, i.e. it tells that a given member is a folder path, quantity etc.
 

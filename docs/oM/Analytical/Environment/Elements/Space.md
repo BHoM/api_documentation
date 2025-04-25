@@ -2,7 +2,7 @@
 title: Space
 ---
 
-# <small>BH.oM.Environment.</small>**Space**
+# <small>BH.oM.Environment.Elements.</small>**Space**
 
 A space object is an analytical depiction of a room defined by its environmental conditions (internal gains)
 

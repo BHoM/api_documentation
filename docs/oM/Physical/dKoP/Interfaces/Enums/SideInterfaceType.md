@@ -2,7 +2,7 @@
 title: SideInterfaceType
 ---
 
-# <small>BH.oM.</small>**SideInterfaceType**
+# <small>BH.oM.dKoP.</small>**SideInterfaceType**
 
 
 

@@ -2,7 +2,7 @@
 title: FrameCornerType
 ---
 
-# <small>BH.oM.Facade.</small>**FrameCornerType**
+# <small>BH.oM.Facade.Elements.</small>**FrameCornerType**
 
 The type of join at frame corners
 

@@ -2,7 +2,7 @@
 title: LogicalCollectionConditionReportingConfig
 ---
 
-# <small>BH.oM.Verification.</small>**LogicalCollectionConditionReportingConfig**
+# <small>BH.oM.Verification.Reporting.</small>**LogicalCollectionConditionReportingConfig**
 
 Config object containing settings for reporting results of checks against logical conditions with a collection of nested conditions.
 

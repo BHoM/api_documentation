@@ -2,7 +2,7 @@
 title: IEquipment
 ---
 
-# <small>BH.oM.MEP.</small>**IEquipment**
+# <small>BH.oM.MEP.Equipment.</small>**IEquipment**
 
 
 

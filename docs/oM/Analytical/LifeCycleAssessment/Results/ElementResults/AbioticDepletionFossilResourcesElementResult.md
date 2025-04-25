@@ -2,7 +2,7 @@
 title: AbioticDepletionFossilResourcesElementResult
 ---
 
-# <small>BH.oM.LifeCycleAssessment.</small>**AbioticDepletionFossilResourcesElementResult**
+# <small>BH.oM.LifeCycleAssessment.Results.</small>**AbioticDepletionFossilResourcesElementResult**
 
 Result class for resulting Abiotic depletion of fossil resources for a particular Element.
 

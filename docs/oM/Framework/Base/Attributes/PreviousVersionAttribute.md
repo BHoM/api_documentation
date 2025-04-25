@@ -2,7 +2,7 @@
 title: PreviousVersionAttribute
 ---
 
-# <small>BH.oM.Base.</small>**PreviousVersionAttribute**
+# <small>BH.oM.Base.Attributes.</small>**PreviousVersionAttribute**
 
 
 

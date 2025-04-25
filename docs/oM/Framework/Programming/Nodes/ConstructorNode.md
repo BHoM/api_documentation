@@ -2,7 +2,7 @@
 title: ConstructorNode
 ---
 
-# <small>BH.oM.</small>**ConstructorNode**
+# <small>BH.oM.Programming.</small>**ConstructorNode**
 
 A syntax node representing a call to a constructor.
 

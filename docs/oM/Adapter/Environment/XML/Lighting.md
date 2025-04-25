@@ -2,7 +2,7 @@
 title: Lighting
 ---
 
-# <small>BH.oM.Environment.SAP.</small>**Lighting**
+# <small>BH.oM.Environment.SAP.XML.</small>**Lighting**
 
 
 

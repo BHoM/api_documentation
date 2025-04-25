@@ -2,7 +2,7 @@
 title: SensibleInstant
 ---
 
-# <small>BH.oM.XML.</small>**SensibleInstant**
+# <small>BH.oM.XML.EnergyPlus.</small>**SensibleInstant**
 
 
 

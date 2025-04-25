@@ -2,7 +2,7 @@
 title: Duct
 ---
 
-# <small>BH.oM.MEP.</small>**Duct**
+# <small>BH.oM.MEP.System.</small>**Duct**
 
 A duct object is a passageway which conveys material (typically air)
 

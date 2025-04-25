@@ -2,7 +2,7 @@
 title: ISolid
 ---
 
-# <small>BH.oM.Physical.</small>**ISolid**
+# <small>BH.oM.Physical.Elements.</small>**ISolid**
 
 
 

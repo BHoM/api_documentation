@@ -2,7 +2,7 @@
 title: IImmutable
 ---
 
-# <small>BH.oM.</small>**IImmutable**
+# <small>BH.oM.Base.</small>**IImmutable**
 
 
 
@@ -80,8 +80,8 @@ title: IImmutable
     - BH.oM.Environment.Results.Illuminance.[Lux](/api/oM/Analytical/Environment/Results/Illuminance/Lux)
     - BH.oM.Environment.Fragments.[AnalyticalConstruction](/api/oM/Analytical/Environment/Fragments/AnalyticalConstruction)
     - BH.oM.Environment.Analysis.[AnalysisGrid](/api/oM/Analytical/Environment/Analysis/AnalysisGrid)
-    - BH.oM.Adapters.ETABS.Results.[SpandrelForce](/api/oM/Adapter/Adapters.ETABS/Results/SpandrelForce)
-    - BH.oM.Adapters.ETABS.Results.[PierForce](/api/oM/Adapter/Adapters.ETABS/Results/PierForce)
+    - BH.oM.Adapters.ETABS.Results.[SpandrelForce](/api/oM/Adapter/Adapters/ETABS/Results/SpandrelForce)
+    - BH.oM.Adapters.ETABS.Results.[PierForce](/api/oM/Adapter/Adapters/ETABS/Results/PierForce)
     - BH.oM.Facade.Results.[OverallUValue](/api/oM/Analytical/Facade/Results/OverallUValue)
     - BH.oM.Geometry.[BoundaryCurve](/api/oM/Dimensional/Geometry/Curve/BoundaryCurve)
     - BH.oM.Geometry.[Polygon](/api/oM/Dimensional/Geometry/Curve/Polygon)
@@ -279,15 +279,15 @@ title: IImmutable
     - BH.oM.Quantities.Attributes.[VolumetricFlowRate](/api/oM/Dimensional/Quantities/Attributes/VolumetricFlowRate)
     - BH.oM.Quantities.Attributes.[WarpingConstant](/api/oM/Dimensional/Quantities/Attributes/WarpingConstant)
     - BH.oM.Quantities.Attributes.[YoungsModulus](/api/oM/Dimensional/Quantities/Attributes/YoungsModulus)
-    - BH.oM.Adapters.Revit.[RevitFilePreview](/api/oM/Adapter/Adapters.Revit/Misc/RevitFilePreview)
-    - BH.oM.Adapters.Revit.[RevitGeometry](/api/oM/Adapter/Adapters.Revit/Misc/RevitGeometry)
-    - BH.oM.Adapters.Revit.[RevitRepresentation](/api/oM/Adapter/Adapters.Revit/Misc/RevitRepresentation)
-    - BH.oM.Adapters.Revit.Parameters.[RevitIdentifiers](/api/oM/Adapter/Adapters.Revit/Parameters/RevitIdentifiers)
-    - BH.oM.Adapters.Revit.Parameters.[RevitPulledParameters](/api/oM/Adapter/Adapters.Revit/Parameters/RevitPulledParameters)
+    - BH.oM.Adapters.Revit.[RevitFilePreview](/api/oM/Adapter/Adapters/Revit/Misc/RevitFilePreview)
+    - BH.oM.Adapters.Revit.[RevitGeometry](/api/oM/Adapter/Adapters/Revit/Misc/RevitGeometry)
+    - BH.oM.Adapters.Revit.[RevitRepresentation](/api/oM/Adapter/Adapters/Revit/Misc/RevitRepresentation)
+    - BH.oM.Adapters.Revit.Parameters.[RevitIdentifiers](/api/oM/Adapter/Adapters/Revit/Parameters/RevitIdentifiers)
+    - BH.oM.Adapters.Revit.Parameters.[RevitPulledParameters](/api/oM/Adapter/Adapters/Revit/Parameters/RevitPulledParameters)
     - BH.oM.Revit.[RevitHostFragment](/api/oM/Adapter/Revit/Misc/RevitHostFragment)
     - BH.oM.Revit.Attributes.[CategoryDisciplineAttribute](/api/oM/Adapter/Revit/Attributes/CategoryDisciplineAttribute)
     - BH.oM.Revit.Attributes.[CategoryTypeAttribute](/api/oM/Adapter/Revit/Attributes/CategoryTypeAttribute)
-    - BH.oM.Adapters.SAP2000.Results.[AISCSteelUtilisation](/api/oM/Adapter/Adapters.SAP2000/Elements/AISCSteelUtilisation)
+    - BH.oM.Adapters.SAP2000.Results.[AISCSteelUtilisation](/api/oM/Adapter/Adapters/SAP2000/Elements/AISCSteelUtilisation)
     - BH.oM.Search.[SearchResult](/api/oM/Framework/Search/SearchResult)&lt;[T](/api/oM/Framework/Search/SearchResult#t)&gt;
     - BH.oM.Spatial.ShapeProfiles.[AngleProfile](/api/oM/Dimensional/Spatial/ShapeProfiles/AngleProfile)
     - BH.oM.Spatial.ShapeProfiles.[BoxProfile](/api/oM/Dimensional/Spatial/ShapeProfiles/BoxProfile)

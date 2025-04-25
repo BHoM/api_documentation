@@ -2,7 +2,7 @@
 title: ComponentRequest
 ---
 
-# <small>BH.oM.</small>**ComponentRequest**
+# <small>BH.oM.UI.</small>**ComponentRequest**
 
 
 

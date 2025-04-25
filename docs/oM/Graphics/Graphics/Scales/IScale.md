@@ -2,7 +2,7 @@
 title: IScale
 ---
 
-# <small>BH.oM.Graphics.</small>**IScale**
+# <small>BH.oM.Graphics.Scales.</small>**IScale**
 
 Base interface for all graphics scales.
 

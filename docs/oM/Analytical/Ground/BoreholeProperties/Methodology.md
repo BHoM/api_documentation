@@ -2,7 +2,7 @@
 title: Methodology
 ---
 
-# <small>BH.oM.</small>**Methodology**
+# <small>BH.oM.Ground.</small>**Methodology**
 
 Methodology for the borehole, remarks and comments (e.g. for termination).
 

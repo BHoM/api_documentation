@@ -2,7 +2,7 @@
 title: MultiOutputAttribute
 ---
 
-# <small>BH.oM.Base.</small>**MultiOutputAttribute**
+# <small>BH.oM.Base.Attributes.</small>**MultiOutputAttribute**
 
 Attribute providing information about an output parameter of a multi-output method.
 To be applied to all methods that return BH.oM.Base.Output types.

@@ -2,7 +2,7 @@
 title: IExtraction
 ---
 
-# <small>BH.oM.Verification.</small>**IExtraction**
+# <small>BH.oM.Verification.Extraction.</small>**IExtraction**
 
 Top interface for all extraction objects.
 

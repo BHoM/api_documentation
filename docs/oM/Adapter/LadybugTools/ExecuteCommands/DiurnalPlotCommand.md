@@ -2,7 +2,7 @@
 title: DiurnalPlotCommand
 ---
 
-# <small>BH.oM.</small>**DiurnalPlotCommand**
+# <small>BH.oM.LadybugTools.</small>**DiurnalPlotCommand**
 
 Use in conjunction with the LadybugToolsAdapter to run a diurnal analysis on a specific key of an epw file, and output a plot.
 

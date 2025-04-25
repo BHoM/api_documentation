@@ -2,7 +2,7 @@
 title: MeshResult
 ---
 
-# <small>BH.oM.Structure.</small>**MeshResult**
+# <small>BH.oM.Structure.Results.</small>**MeshResult**
 
 Full collection of discrete results for a Panel/FEMesh for a specific Loadcase or LoadCombination.
 

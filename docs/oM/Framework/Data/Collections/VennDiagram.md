@@ -2,7 +2,7 @@
 title: VennDiagram&lt;T&gt;
 ---
 
-# <small>BH.oM.Data.</small>**VennDiagram&lt;T&gt;**
+# <small>BH.oM.Data.Collections.</small>**VennDiagram&lt;T&gt;**
 
 
 

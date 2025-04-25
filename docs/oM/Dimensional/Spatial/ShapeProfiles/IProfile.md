@@ -2,7 +2,7 @@
 title: IProfile
 ---
 
-# <small>BH.oM.Spatial.</small>**IProfile**
+# <small>BH.oM.Spatial.ShapeProfiles.</small>**IProfile**
 
 Base interface for all shape profiles.
 

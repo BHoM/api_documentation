@@ -2,7 +2,7 @@
 title: ShapeColourUpdate
 ---
 
-# <small>BH.oM.</small>**ShapeColourUpdate**
+# <small>BH.oM.PowerPoint.</small>**ShapeColourUpdate**
 
 Allows to update the colour of a shape
 

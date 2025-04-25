@@ -2,7 +2,7 @@
 title: ShapeCode67
 ---
 
-# <small>BH.oM.Physical.Reinforcement.</small>**ShapeCode67**
+# <small>BH.oM.Physical.Reinforcement.BS8666.</small>**ShapeCode67**
 
 A reinforcement bar with shape code 67 to BS 8666:2020 in the XY Plane centred on the midpoint of B and lowest point of C. The parameter B is aligned with the X axis and the parameter C aligned with the Y axis.
 

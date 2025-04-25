@@ -2,7 +2,7 @@
 title: LSTM
 ---
 
-# <small>BH.oM.DeepLearning.</small>**LSTM**
+# <small>BH.oM.DeepLearning.Layers.</small>**LSTM**
 
 
 

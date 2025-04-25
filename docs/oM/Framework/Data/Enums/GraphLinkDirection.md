@@ -2,7 +2,7 @@
 title: GraphLinkDirection
 ---
 
-# <small>BH.oM.</small>**GraphLinkDirection**
+# <small>BH.oM.Data.</small>**GraphLinkDirection**
 
 
 

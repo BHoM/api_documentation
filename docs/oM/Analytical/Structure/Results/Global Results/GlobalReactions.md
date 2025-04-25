@@ -2,7 +2,7 @@
 title: GlobalReactions
 ---
 
-# <small>BH.oM.Structure.</small>**GlobalReactions**
+# <small>BH.oM.Structure.Results.</small>**GlobalReactions**
 
 Total global reactions for a given Loadcase or LoadCombination.
 

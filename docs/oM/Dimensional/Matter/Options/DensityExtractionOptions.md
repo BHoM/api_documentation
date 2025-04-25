@@ -2,7 +2,7 @@
 title: DensityExtractionOptions
 ---
 
-# <small>BH.oM.Matter.</small>**DensityExtractionOptions**
+# <small>BH.oM.Matter.Options.</small>**DensityExtractionOptions**
 
 Settings for extraction of Density from a List of IDensityProviders.
 

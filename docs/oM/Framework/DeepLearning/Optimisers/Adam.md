@@ -2,7 +2,7 @@
 title: Adam
 ---
 
-# <small>BH.oM.DeepLearning.</small>**Adam**
+# <small>BH.oM.DeepLearning.Optimisers.</small>**Adam**
 
 
 

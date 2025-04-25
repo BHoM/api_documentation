@@ -2,7 +2,7 @@
 title: Molality
 ---
 
-# <small>BH.oM.Quantities.</small>**Molality**
+# <small>BH.oM.Quantities.Attributes.</small>**Molality**
 
 Dimensional quantity as defined by the International System of Quantities
 

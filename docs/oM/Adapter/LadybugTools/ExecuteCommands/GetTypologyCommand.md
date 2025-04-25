@@ -2,7 +2,7 @@
 title: GetTypologyCommand
 ---
 
-# <small>BH.oM.</small>**GetTypologyCommand**
+# <small>BH.oM.LadybugTools.</small>**GetTypologyCommand**
 
 Command that when executed with the LadybugTools Adapter, returns a list of Typology objects from the Python predefined Typologies list.
 

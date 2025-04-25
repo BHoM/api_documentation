@@ -2,7 +2,7 @@
 title: TypeOfSpaceHeating
 ---
 
-# <small>BH.oM.Environment.</small>**TypeOfSpaceHeating**
+# <small>BH.oM.Environment.SAP.</small>**TypeOfSpaceHeating**
 
 Code which specifies the emitter temperature.
 

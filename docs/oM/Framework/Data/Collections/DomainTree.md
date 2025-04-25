@@ -2,7 +2,7 @@
 title: DomainTree&lt;T&gt;
 ---
 
-# <small>BH.oM.Data.</small>**DomainTree&lt;T&gt;**
+# <small>BH.oM.Data.Collections.</small>**DomainTree&lt;T&gt;**
 
 A data tree which is traversed through DomainBoxes. Each node's DomainBox is assumed to be enclosed by its parent's DomainBox and to enclose its own data. All the tree's data is stored in its leaves.
 

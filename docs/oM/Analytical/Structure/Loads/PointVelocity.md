@@ -2,7 +2,7 @@
 title: PointVelocity
 ---
 
-# <small>BH.oM.Structure.</small>**PointVelocity**
+# <small>BH.oM.Structure.Loads.</small>**PointVelocity**
 
 Point velocity load for Nodes. This can be used to apply translational as well as angular velocity.
 

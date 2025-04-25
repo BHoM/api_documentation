@@ -2,7 +2,7 @@
 title: SGD
 ---
 
-# <small>BH.oM.DeepLearning.</small>**SGD**
+# <small>BH.oM.DeepLearning.Optimisers.</small>**SGD**
 
 
 

@@ -2,7 +2,7 @@
 title: ClimateChangeFossilElementResult
 ---
 
-# <small>BH.oM.LifeCycleAssessment.</small>**ClimateChangeFossilElementResult**
+# <small>BH.oM.LifeCycleAssessment.Results.</small>**ClimateChangeFossilElementResult**
 
 Result class for resulting Climate change - fossil for a particular Element.
 

@@ -2,7 +2,7 @@
 title: SunPathPlotCommand
 ---
 
-# <small>BH.oM.</small>**SunPathPlotCommand**
+# <small>BH.oM.LadybugTools.</small>**SunPathPlotCommand**
 
 Command that when used in conjunction with the LadybugToolsAdapter, will plot a sun path based off of the location data in an EPW file.
 

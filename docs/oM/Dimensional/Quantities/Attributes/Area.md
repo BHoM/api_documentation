@@ -2,7 +2,7 @@
 title: Area
 ---
 
-# <small>BH.oM.Quantities.</small>**Area**
+# <small>BH.oM.Quantities.Attributes.</small>**Area**
 
 Dimensional quantity as defined by the International System of Quantities
 

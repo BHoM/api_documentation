@@ -2,7 +2,7 @@
 title: AbbreviationAttribute
 ---
 
-# <small>BH.oM.Base.</small>**AbbreviationAttribute**
+# <small>BH.oM.Base.Attributes.</small>**AbbreviationAttribute**
 
 
 

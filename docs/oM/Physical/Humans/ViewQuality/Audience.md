@@ -2,7 +2,7 @@
 title: Audience
 ---
 
-# <small>BH.oM.Humans.</small>**Audience**
+# <small>BH.oM.Humans.ViewQuality.</small>**Audience**
 
 
 

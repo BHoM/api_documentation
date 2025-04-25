@@ -2,7 +2,7 @@
 title: Links
 ---
 
-# <small>BH.oM.Graphics.</small>**Links**
+# <small>BH.oM.Graphics.Components.</small>**Links**
 
 Basic link representation for relationships between entities.
 

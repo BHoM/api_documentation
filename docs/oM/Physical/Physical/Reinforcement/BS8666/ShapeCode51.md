@@ -2,7 +2,7 @@
 title: ShapeCode51
 ---
 
-# <small>BH.oM.Physical.Reinforcement.</small>**ShapeCode51**
+# <small>BH.oM.Physical.Reinforcement.BS8666.</small>**ShapeCode51**
 
 A reinforcement bar with shape code 51 to BS 8666:2020 in the XY Plane centred on the Origin with the A/C parameters aligned with the Y axis and the B/D parameters aligned with the X axis.
 

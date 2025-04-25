@@ -2,7 +2,7 @@
 title: ComponentUpdate
 ---
 
-# <small>BH.oM.</small>**ComponentUpdate**
+# <small>BH.oM.UI.</small>**ComponentUpdate**
 
 
 

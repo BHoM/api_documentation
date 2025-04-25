@@ -2,7 +2,7 @@
 title: GravityLoad
 ---
 
-# <small>BH.oM.Structure.</small>**GravityLoad**
+# <small>BH.oM.Structure.Loads.</small>**GravityLoad**
 
 Gravity load to be applied to elements such as Bars, Panels and FEMeshes.
 

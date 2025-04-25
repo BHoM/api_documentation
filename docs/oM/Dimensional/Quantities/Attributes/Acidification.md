@@ -2,7 +2,7 @@
 title: Acidification
 ---
 
-# <small>BH.oM.Quantities.</small>**Acidification**
+# <small>BH.oM.Quantities.Attributes.</small>**Acidification**
 
 Quantity type for acidification potential.
 

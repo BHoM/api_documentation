@@ -2,7 +2,7 @@
 title: IRender
 ---
 
-# <small>BH.oM.</small>**IRender**
+# <small>BH.oM.Graphics.</small>**IRender**
 
 Base interface for rendered objects.
 

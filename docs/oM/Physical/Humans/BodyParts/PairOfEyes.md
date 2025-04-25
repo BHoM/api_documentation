@@ -2,7 +2,7 @@
 title: PairOfEyes
 ---
 
-# <small>BH.oM.Humans.</small>**PairOfEyes**
+# <small>BH.oM.Humans.BodyParts.</small>**PairOfEyes**
 
 
 

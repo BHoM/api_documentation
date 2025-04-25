@@ -2,7 +2,7 @@
 title: IElement2D
 ---
 
-# <small>BH.oM.</small>**IElement2D**
+# <small>BH.oM.Dimensional.</small>**IElement2D**
 
 Enables geometrical operations to be performed on an edge curve based two-dimensional spatial element, whilst preserving all other object properties as unchanged. /nThe interface expects the outline to be constructed of IElement1D elements and allows for internal IElement2D elements.Objects implementing this interface will be required to implement some base methods for getting and setting data in a way that maintains the object's other properties
 

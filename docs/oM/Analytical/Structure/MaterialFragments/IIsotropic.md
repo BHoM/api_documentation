@@ -2,7 +2,7 @@
 title: IIsotropic
 ---
 
-# <small>BH.oM.Structure.</small>**IIsotropic**
+# <small>BH.oM.Structure.MaterialFragments.</small>**IIsotropic**
 
 Base interface for isotropic structural materials.
 

@@ -2,7 +2,7 @@
 title: ValueCondition
 ---
 
-# <small>BH.oM.Verification.</small>**ValueCondition**
+# <small>BH.oM.Verification.Conditions.</small>**ValueCondition**
 
 
 

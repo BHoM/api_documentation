@@ -2,7 +2,7 @@
 title: Node
 ---
 
-# <small>BH.oM.Lighting.</small>**Node**
+# <small>BH.oM.Lighting.Analysis.</small>**Node**
 
 0D finite element for lighting analysis. Node class contains positional information and is used to build AnalysisGrids and provide links between model geometry and analytical results
 

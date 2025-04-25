@@ -2,7 +2,7 @@
 title: Texture
 ---
 
-# <small>BH.oM.</small>**Texture**
+# <small>BH.oM.Graphics.</small>**Texture**
 
 Texture material for rendering of geometry.
 

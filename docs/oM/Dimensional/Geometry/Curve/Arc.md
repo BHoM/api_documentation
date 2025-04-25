@@ -2,7 +2,7 @@
 title: Arc
 ---
 
-# <small>BH.oM.</small>**Arc**
+# <small>BH.oM.Geometry.</small>**Arc**
 
 A plane curve. A circular Arc, a curve, with a constant distance from a point, its centre, defined it the local angular domain between start and end angle.
 

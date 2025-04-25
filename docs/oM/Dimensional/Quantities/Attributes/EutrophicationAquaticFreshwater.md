@@ -2,7 +2,7 @@
 title: EutrophicationAquaticFreshwater
 ---
 
-# <small>BH.oM.Quantities.</small>**EutrophicationAquaticFreshwater**
+# <small>BH.oM.Quantities.Attributes.</small>**EutrophicationAquaticFreshwater**
 
 Quantity type for Eutrophication Potential Aquatic FreshWater.
 

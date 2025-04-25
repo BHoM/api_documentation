@@ -2,7 +2,7 @@
 title: BluebeamObject
 ---
 
-# <small>BH.oM.XML.</small>**BluebeamObject**
+# <small>BH.oM.XML.Bluebeam.</small>**BluebeamObject**
 
 
 

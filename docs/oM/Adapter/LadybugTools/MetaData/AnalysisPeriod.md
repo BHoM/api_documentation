@@ -2,7 +2,7 @@
 title: AnalysisPeriod
 ---
 
-# <small>BH.oM.</small>**AnalysisPeriod**
+# <small>BH.oM.LadybugTools.</small>**AnalysisPeriod**
 
 
 

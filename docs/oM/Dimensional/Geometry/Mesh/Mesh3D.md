@@ -2,7 +2,7 @@
 title: Mesh3D
 ---
 
-# <small>BH.oM.</small>**Mesh3D**
+# <small>BH.oM.Geometry.</small>**Mesh3D**
 
 A polygon mesh, defined by a list of triangular or quadrilateral Faces, Cells and their Vertices.
 

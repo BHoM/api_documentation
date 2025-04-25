@@ -2,7 +2,7 @@
 title: Node
 ---
 
-# <small>BH.oM.Environment.</small>**Node**
+# <small>BH.oM.Environment.Analysis.</small>**Node**
 
 0D finite element for environmental analysis. Node class contains positional information and is used to build AnalysisGrids and provide links between model geometry and analytical results.
 

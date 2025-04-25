@@ -2,7 +2,7 @@
 title: Spectator
 ---
 
-# <small>BH.oM.Humans.</small>**Spectator**
+# <small>BH.oM.Humans.ViewQuality.</small>**Spectator**
 
 
 

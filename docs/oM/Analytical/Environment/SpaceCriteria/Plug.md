@@ -2,7 +2,7 @@
 title: Plug
 ---
 
-# <small>BH.oM.Environment.</small>**Plug**
+# <small>BH.oM.Environment.SpaceCriteria.</small>**Plug**
 
 Plug gains are defined as the amount of sensible heat contributed by electrical receptacle/outlet loads
 

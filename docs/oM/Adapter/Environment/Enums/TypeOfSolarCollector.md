@@ -2,7 +2,7 @@
 title: TypeOfSolarCollector
 ---
 
-# <small>BH.oM.Environment.</small>**TypeOfSolarCollector**
+# <small>BH.oM.Environment.SAP.</small>**TypeOfSolarCollector**
 
 Code which indicates the type of solar collector.
 

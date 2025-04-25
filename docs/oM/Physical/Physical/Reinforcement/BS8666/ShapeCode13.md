@@ -2,7 +2,7 @@
 title: ShapeCode13
 ---
 
-# <small>BH.oM.Physical.Reinforcement.</small>**ShapeCode13**
+# <small>BH.oM.Physical.Reinforcement.BS8666.</small>**ShapeCode13**
 
 A reinforcement bar with shape code 13 to BS 8666:2020 in the XY Plane with the free end of the A segment at the Origin aligned with the X axis, the C parameter aligned with the X axisand the B parameter aligned with the Y axis.
 

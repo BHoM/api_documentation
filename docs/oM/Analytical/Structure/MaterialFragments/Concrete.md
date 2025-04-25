@@ -2,7 +2,7 @@
 title: Concrete
 ---
 
-# <small>BH.oM.Structure.</small>**Concrete**
+# <small>BH.oM.Structure.MaterialFragments.</small>**Concrete**
 
 Structural concrete material to be used on structural elements and properties or as a fragment of the physical material.
 

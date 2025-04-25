@@ -2,7 +2,7 @@
 title: AdditionalEPDData
 ---
 
-# <small>BH.oM.LifeCycleAssessment.</small>**AdditionalEPDData**
+# <small>BH.oM.LifeCycleAssessment.Fragments.</small>**AdditionalEPDData**
 
 A data fragment containing other optional information regarding the production and documentation of any Environmental Product Declaration. 
 Use AddFragment() to combine this information with any EPD for continuous integration.

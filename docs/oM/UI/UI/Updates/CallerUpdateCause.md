@@ -2,7 +2,7 @@
 title: CallerUpdateCause
 ---
 
-# <small>BH.oM.</small>**CallerUpdateCause**
+# <small>BH.oM.UI.</small>**CallerUpdateCause**
 
 Possible cause that can trigger the update of a UI component.
 

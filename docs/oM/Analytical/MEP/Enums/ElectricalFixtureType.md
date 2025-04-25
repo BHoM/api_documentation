@@ -2,7 +2,7 @@
 title: ElectricalFixtureType
 ---
 
-# <small>BH.oM.MEP.</small>**ElectricalFixtureType**
+# <small>BH.oM.MEP.Enums.</small>**ElectricalFixtureType**
 
 A type of electrical fixture (duplex/quad socket/receptacle, floor box, or disconnect/isolator switch.)
 

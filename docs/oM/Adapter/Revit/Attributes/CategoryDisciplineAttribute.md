@@ -2,7 +2,7 @@
 title: CategoryDisciplineAttribute
 ---
 
-# <small>BH.oM.Revit.</small>**CategoryDisciplineAttribute**
+# <small>BH.oM.Revit.Attributes.</small>**CategoryDisciplineAttribute**
 
 Attribute that defines disciplines, to which a category belongs as defined in Visibility &amp; Graphics window.
 Allowed values of Disciplines property are: 'Architecture', 'Structure', 'Mechanical', 'Electrical', 'Piping' and 'Infrastructure'.

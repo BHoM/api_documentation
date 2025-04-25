@@ -2,7 +2,7 @@
 title: RenderCurve
 ---
 
-# <small>BH.oM.</small>**RenderCurve**
+# <small>BH.oM.Graphics.</small>**RenderCurve**
 
 Render a curve with specified colour and thickness.
 

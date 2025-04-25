@@ -2,7 +2,7 @@
 title: PhotochemicalOzoneCreationCMLPerQuantity
 ---
 
-# <small>BH.oM.Quantities.</small>**PhotochemicalOzoneCreationCMLPerQuantity**
+# <small>BH.oM.Quantities.Attributes.</small>**PhotochemicalOzoneCreationCMLPerQuantity**
 
 Quantity type for Photochemical Ozone Creation Potential per quantity for the older CML standard.
 

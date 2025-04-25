@@ -2,7 +2,7 @@
 title: AirHandlingUnitBase
 ---
 
-# <small>BH.oM.MEP.Equipment.</small>**AirHandlingUnitBase**
+# <small>BH.oM.MEP.Equipment.Parts.</small>**AirHandlingUnitBase**
 
 Air Handling Units are devices which house fans, filter, coils, and energy wheels which produce heated and cooled fresh/partially recirculated air to a building
 

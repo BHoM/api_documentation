@@ -2,7 +2,7 @@
 title: EmissionFeature
 ---
 
-# <small>BH.oM.Environment.SAP.</small>**EmissionFeature**
+# <small>BH.oM.Environment.SAP.XML.</small>**EmissionFeature**
 
 
 

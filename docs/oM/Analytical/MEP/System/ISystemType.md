@@ -2,7 +2,7 @@
 title: ISystemType
 ---
 
-# <small>BH.oM.MEP.</small>**ISystemType**
+# <small>BH.oM.MEP.System.</small>**ISystemType**
 
 An MEP system to determine flow types.
 

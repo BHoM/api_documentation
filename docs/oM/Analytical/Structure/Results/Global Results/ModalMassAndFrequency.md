@@ -2,7 +2,7 @@
 title: ModalMassAndFrequency
 ---
 
-# <small>BH.oM.Structure.</small>**ModalMassAndFrequency**
+# <small>BH.oM.Structure.Results.</small>**ModalMassAndFrequency**
 
 General modal dynamics result of the structure.
 

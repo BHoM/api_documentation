@@ -2,7 +2,7 @@
 title: ZoneDryBulbTemperature
 ---
 
-# <small>BH.oM.XML.</small>**ZoneDryBulbTemperature**
+# <small>BH.oM.XML.EnergyPlus.</small>**ZoneDryBulbTemperature**
 
 
 

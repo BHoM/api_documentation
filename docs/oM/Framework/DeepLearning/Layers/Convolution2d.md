@@ -2,7 +2,7 @@
 title: Convolution2d
 ---
 
-# <small>BH.oM.DeepLearning.</small>**Convolution2d**
+# <small>BH.oM.DeepLearning.Layers.</small>**Convolution2d**
 
 
 

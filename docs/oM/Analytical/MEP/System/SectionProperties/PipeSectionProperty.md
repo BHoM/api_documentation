@@ -2,7 +2,7 @@
 title: PipeSectionProperty
 ---
 
-# <small>BH.oM.MEP.System.</small>**PipeSectionProperty**
+# <small>BH.oM.MEP.System.SectionProperties.</small>**PipeSectionProperty**
 
 
 

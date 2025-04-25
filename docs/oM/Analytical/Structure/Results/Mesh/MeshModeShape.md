@@ -2,7 +2,7 @@
 title: MeshModeShape
 ---
 
-# <small>BH.oM.Structure.</small>**MeshModeShape**
+# <small>BH.oM.Structure.Results.</small>**MeshModeShape**
 
 Mesh mode shape at a discrete location in the Panel/FEMesh, normalised to 1.
 

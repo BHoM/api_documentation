@@ -2,7 +2,7 @@
 title: Graph
 ---
 
-# <small>BH.oM.DeepLearning.</small>**Graph**
+# <small>BH.oM.DeepLearning.Models.</small>**Graph**
 
 
 

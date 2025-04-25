@@ -2,7 +2,7 @@
 title: ProfileCategory
 ---
 
-# <small>BH.oM.Environment.</small>**ProfileCategory**
+# <small>BH.oM.Environment.SpaceCriteria.</small>**ProfileCategory**
 
 
 

@@ -2,7 +2,7 @@
 title: ImprovementDetails
 ---
 
-# <small>BH.oM.Environment.SAP.</small>**ImprovementDetails**
+# <small>BH.oM.Environment.SAP.XML.</small>**ImprovementDetails**
 
 
 

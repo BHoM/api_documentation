@@ -2,7 +2,7 @@
 title: MeanRadiantTemperatureResult
 ---
 
-# <small>BH.oM.Environment.</small>**MeanRadiantTemperatureResult**
+# <small>BH.oM.Environment.Results.</small>**MeanRadiantTemperatureResult**
 
 A results object containing mean radiant temperature data.
 

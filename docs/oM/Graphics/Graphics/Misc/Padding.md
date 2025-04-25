@@ -2,7 +2,7 @@
 title: Padding
 ---
 
-# <small>BH.oM.Graphics.</small>**Padding**
+# <small>BH.oM.Graphics.Misc.</small>**Padding**
 
 
 

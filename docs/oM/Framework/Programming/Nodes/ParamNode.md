@@ -2,7 +2,7 @@
 title: ParamNode
 ---
 
-# <small>BH.oM.</small>**ParamNode**
+# <small>BH.oM.Programming.</small>**ParamNode**
 
 A syntax node that is in itself a single data parameter.
 

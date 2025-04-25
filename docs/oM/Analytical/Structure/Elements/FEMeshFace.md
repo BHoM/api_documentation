@@ -2,7 +2,7 @@
 title: FEMeshFace
 ---
 
-# <small>BH.oM.Structure.</small>**FEMeshFace**
+# <small>BH.oM.Structure.Elements.</small>**FEMeshFace**
 
 Face of an FEMesh. The face is defined by the indices of its nodes in the node list. Geometrical information about position in space is stored on the host FEMesh.
 

@@ -2,7 +2,7 @@
 title: SpaceAnalyticalFragment
 ---
 
-# <small>BH.oM.Environment.</small>**SpaceAnalyticalFragment**
+# <small>BH.oM.Environment.Fragments.</small>**SpaceAnalyticalFragment**
 
 Fragment containing space analytical properties (e.g. domestic hot water supply, daylight factor, heating and cooling sizing method)
 

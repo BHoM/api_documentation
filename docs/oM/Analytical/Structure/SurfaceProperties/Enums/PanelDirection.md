@@ -2,7 +2,7 @@
 title: PanelDirection
 ---
 
-# <small>BH.oM.Structure.</small>**PanelDirection**
+# <small>BH.oM.Structure.SurfaceProperties.</small>**PanelDirection**
 
 
 

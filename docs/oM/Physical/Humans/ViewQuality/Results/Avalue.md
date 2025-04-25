@@ -2,7 +2,7 @@
 title: Avalue
 ---
 
-# <small>BH.oM.Humans.</small>**Avalue**
+# <small>BH.oM.Humans.ViewQuality.</small>**Avalue**
 
 
 

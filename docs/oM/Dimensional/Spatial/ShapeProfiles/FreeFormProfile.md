@@ -2,7 +2,7 @@
 title: FreeFormProfile
 ---
 
-# <small>BH.oM.Spatial.</small>**FreeFormProfile**
+# <small>BH.oM.Spatial.ShapeProfiles.</small>**FreeFormProfile**
 
 Freeform profile only defined by its geometry without any dimensional data. To be used as a fallback for profiles not yet explicitly defined.
 

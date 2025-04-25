@@ -2,7 +2,7 @@
 title: NodeReaction
 ---
 
-# <small>BH.oM.Structure.</small>**NodeReaction**
+# <small>BH.oM.Structure.Results.</small>**NodeReaction**
 
 Resulting reaction forces and moments for a Node.
 

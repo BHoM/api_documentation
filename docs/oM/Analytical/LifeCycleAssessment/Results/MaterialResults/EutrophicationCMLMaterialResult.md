@@ -2,7 +2,7 @@
 title: EutrophicationCMLMaterialResult
 ---
 
-# <small>BH.oM.LifeCycleAssessment.</small>**EutrophicationCMLMaterialResult**
+# <small>BH.oM.LifeCycleAssessment.Results.</small>**EutrophicationCMLMaterialResult**
 
 Result class for resulting Eutrophication (EN 15804+A1) for a particular Material and EPD.
 

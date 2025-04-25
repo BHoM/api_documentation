@@ -2,7 +2,7 @@
 title: PolyCurve
 ---
 
-# <small>BH.oM.</small>**PolyCurve**
+# <small>BH.oM.Geometry.</small>**PolyCurve**
 
 A composite curve constructed by combining a collection of curves of any type. Whole PolyCurve integrity, continuity and closure is not guaranteed at creation. Discontinuous and/or multi-region definitions are possible, although not recommended as may cause unexpected results in method operating on PolyCurves.
 

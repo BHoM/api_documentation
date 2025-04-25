@@ -2,7 +2,7 @@
 title: Typology
 ---
 
-# <small>BH.oM.</small>**Typology**
+# <small>BH.oM.LadybugTools.</small>**Typology**
 
 
 

@@ -2,7 +2,7 @@
 title: WireSectionProperty
 ---
 
-# <small>BH.oM.MEP.System.</small>**WireSectionProperty**
+# <small>BH.oM.MEP.System.SectionProperties.</small>**WireSectionProperty**
 
 
 

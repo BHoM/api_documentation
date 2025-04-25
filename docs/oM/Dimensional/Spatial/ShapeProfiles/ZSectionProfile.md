@@ -2,7 +2,7 @@
 title: ZSectionProfile
 ---
 
-# <small>BH.oM.Spatial.</small>**ZSectionProfile**
+# <small>BH.oM.Spatial.ShapeProfiles.</small>**ZSectionProfile**
 
 
 

@@ -2,7 +2,7 @@
 title: VersioningEvent
 ---
 
-# <small>BH.oM.</small>**VersioningEvent**
+# <small>BH.oM.Versioning.</small>**VersioningEvent**
 
 
 

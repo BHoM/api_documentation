@@ -2,7 +2,7 @@
 title: Density
 ---
 
-# <small>BH.oM.Quantities.</small>**Density**
+# <small>BH.oM.Quantities.Attributes.</small>**Density**
 
 Dimensional quantity as defined by the International System of Quantities
 

@@ -2,7 +2,7 @@
 title: BarModeShape
 ---
 
-# <small>BH.oM.Structure.</small>**BarModeShape**
+# <small>BH.oM.Structure.Results.</small>**BarModeShape**
 
 Bar mode shape in global coordinates, normalised to 1.
 

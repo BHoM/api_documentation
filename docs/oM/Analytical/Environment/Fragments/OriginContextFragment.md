@@ -2,7 +2,7 @@
 title: OriginContextFragment
 ---
 
-# <small>BH.oM.Environment.</small>**OriginContextFragment**
+# <small>BH.oM.Environment.Fragments.</small>**OriginContextFragment**
 
 Fragment containing the origin context property such as Element ID or Type
 

@@ -2,7 +2,7 @@
 title: SurfaceTrim
 ---
 
-# <small>BH.oM.</small>**SurfaceTrim**
+# <small>BH.oM.Geometry.</small>**SurfaceTrim**
 
 A pair of curves representing the boundary of a trimmed surface in both global X, Y, Z coordinates (Curve3d) as well as local surface U, V parameter space (Curve2d).
 A Surface Trim is immutable to ensure compatiblity of both curves.

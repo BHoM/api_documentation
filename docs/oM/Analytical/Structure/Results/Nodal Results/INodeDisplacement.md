@@ -2,7 +2,7 @@
 title: INodeDisplacement
 ---
 
-# <small>BH.oM.Structure.</small>**INodeDisplacement**
+# <small>BH.oM.Structure.Results.</small>**INodeDisplacement**
 
 Base interface for node displacements
 

@@ -2,7 +2,7 @@
 title: ShapeCode21
 ---
 
-# <small>BH.oM.Physical.Reinforcement.</small>**ShapeCode21**
+# <small>BH.oM.Physical.Reinforcement.BS8666.</small>**ShapeCode21**
 
 A reinforcement bar with shape code 21 to BS 8666:2020 in the XY Plane with the free end of the A segment at the Origin aligned with the Y axis, the C parameter aligned with the Y axis and the B segment aligned with the X axis.
 

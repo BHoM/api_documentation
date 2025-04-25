@@ -2,7 +2,7 @@
 title: FilePathAttribute
 ---
 
-# <small>BH.oM.Base.</small>**FilePathAttribute**
+# <small>BH.oM.Base.Attributes.</small>**FilePathAttribute**
 
 Path to a file in the client's file system.
 

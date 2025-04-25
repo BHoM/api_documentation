@@ -2,7 +2,7 @@
 title: GeneralMaterialTakeoff
 ---
 
-# <small>BH.oM.Physical.</small>**GeneralMaterialTakeoff**
+# <small>BH.oM.Physical.Materials.</small>**GeneralMaterialTakeoff**
 
 Defines the make up of an object through a list of Materials and their corresponding quantities corresponding to each material.
 

@@ -2,7 +2,7 @@
 title: EntityRepresentation
 ---
 
-# <small>BH.oM.Graphics.</small>**EntityRepresentation**
+# <small>BH.oM.Graphics.Fragments.</small>**EntityRepresentation**
 
 Fragment for entity representation.
 

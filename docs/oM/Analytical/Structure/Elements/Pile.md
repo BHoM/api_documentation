@@ -2,7 +2,7 @@
 title: Pile
 ---
 
-# <small>BH.oM.Structure.</small>**Pile**
+# <small>BH.oM.Structure.Elements.</small>**Pile**
 
 A pile object defined by it's location and section.
 

@@ -2,7 +2,7 @@
 title: VoidedISectionProfile
 ---
 
-# <small>BH.oM.Spatial.</small>**VoidedISectionProfile**
+# <small>BH.oM.Spatial.ShapeProfiles.</small>**VoidedISectionProfile**
 
 I-shaped profile with parallel flanges with equal thickness, with an opening in the web.
 

@@ -2,7 +2,7 @@
 title: DiscretePoint
 ---
 
-# <small>BH.oM.Data.</small>**DiscretePoint**
+# <small>BH.oM.Data.Collections.</small>**DiscretePoint**
 
 
 

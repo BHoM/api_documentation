@@ -2,7 +2,7 @@
 title: AvalueSettings
 ---
 
-# <small>BH.oM.Humans.</small>**AvalueSettings**
+# <small>BH.oM.Humans.ViewQuality.</small>**AvalueSettings**
 
 
 

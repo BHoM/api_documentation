@@ -2,7 +2,7 @@
 title: WallSideInterface
 ---
 
-# <small>BH.oM.</small>**WallSideInterface**
+# <small>BH.oM.dKoP.</small>**WallSideInterface**
 
 
 

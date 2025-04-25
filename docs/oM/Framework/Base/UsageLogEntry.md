@@ -2,7 +2,7 @@
 title: UsageLogEntry
 ---
 
-# <small>BH.oM.</small>**UsageLogEntry**
+# <small>BH.oM.Base.</small>**UsageLogEntry**
 
 
 

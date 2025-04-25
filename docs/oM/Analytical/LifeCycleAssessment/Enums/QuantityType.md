@@ -2,7 +2,7 @@
 title: QuantityType
 ---
 
-# <small>BH.oM.</small>**QuantityType**
+# <small>BH.oM.LifeCycleAssessment.</small>**QuantityType**
 
 
 

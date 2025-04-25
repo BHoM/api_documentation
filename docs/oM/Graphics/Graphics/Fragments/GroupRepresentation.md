@@ -2,7 +2,7 @@
 title: GroupRepresentation
 ---
 
-# <small>BH.oM.Graphics.</small>**GroupRepresentation**
+# <small>BH.oM.Graphics.Fragments.</small>**GroupRepresentation**
 
 Fragment for group representation.
 

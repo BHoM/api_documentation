@@ -2,7 +2,7 @@
 title: SinusoidalCellularOpening
 ---
 
-# <small>BH.oM.Spatial.ShapeProfiles.</small>**SinusoidalCellularOpening**
+# <small>BH.oM.Spatial.ShapeProfiles.CellularOpenings.</small>**SinusoidalCellularOpening**
 
 
 

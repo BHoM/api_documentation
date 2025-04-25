@@ -2,7 +2,7 @@
 title: RevisionFragment
 ---
 
-# <small>BH.oM.</small>**RevisionFragment**
+# <small>BH.oM.Diffing.</small>**RevisionFragment**
 
 Stores the current and previous Hash of the parent BHoMObject, as assigned after the inclusion in a Revision.
 

@@ -2,7 +2,7 @@
 title: ElectricCurrent
 ---
 
-# <small>BH.oM.Quantities.</small>**ElectricCurrent**
+# <small>BH.oM.Quantities.Attributes.</small>**ElectricCurrent**
 
 Dimensional quantity as defined by the International System of Quantities
 

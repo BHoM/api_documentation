@@ -2,7 +2,7 @@
 title: StringCase
 ---
 
-# <small>BH.oM.</small>**StringCase**
+# <small>BH.oM.LadybugTools.</small>**StringCase**
 
 
 

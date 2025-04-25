@@ -2,7 +2,7 @@
 title: IValueConditionReportingConfig
 ---
 
-# <small>BH.oM.Verification.</small>**IValueConditionReportingConfig**
+# <small>BH.oM.Verification.Reporting.</small>**IValueConditionReportingConfig**
 
 Interface for all value condition reporting config objects.
 

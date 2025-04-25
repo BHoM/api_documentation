@@ -2,7 +2,7 @@
 title: LocalData&lt;T&gt;
 ---
 
-# <small>BH.oM.Data.</small>**LocalData&lt;T&gt;**
+# <small>BH.oM.Data.Collections.</small>**LocalData&lt;T&gt;**
 
 
 

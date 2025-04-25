@@ -2,7 +2,7 @@
 title: BuildingAnalyticalFragment
 ---
 
-# <small>BH.oM.Environment.</small>**BuildingAnalyticalFragment**
+# <small>BH.oM.Environment.Fragments.</small>**BuildingAnalyticalFragment**
 
 This fragment is used to define the north angle, GMT offset and year of construction for a building
 

@@ -2,7 +2,7 @@
 title: IFixtureFlow
 ---
 
-# <small>BH.oM.MEP.</small>**IFixtureFlow**
+# <small>BH.oM.MEP.Fixtures.</small>**IFixtureFlow**
 
 Base interface for all Fixture Flow objects. These objects are capable of containing a material or element that flows through the object.
 

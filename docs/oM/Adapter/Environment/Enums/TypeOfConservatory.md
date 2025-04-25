@@ -2,7 +2,7 @@
 title: TypeOfConservatory
 ---
 
-# <small>BH.oM.Environment.</small>**TypeOfConservatory**
+# <small>BH.oM.Environment.SAP.</small>**TypeOfConservatory**
 
 Code which indicates the type of conservatory.
 

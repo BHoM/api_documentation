@@ -2,7 +2,7 @@
 title: GlobalResultType
 ---
 
-# <small>BH.oM.Structure.</small>**GlobalResultType**
+# <small>BH.oM.Structure.Requests.</small>**GlobalResultType**
 
 
 

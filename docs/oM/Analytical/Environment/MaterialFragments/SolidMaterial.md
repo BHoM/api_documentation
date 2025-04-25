@@ -2,7 +2,7 @@
 title: SolidMaterial
 ---
 
-# <small>BH.oM.Environment.</small>**SolidMaterial**
+# <small>BH.oM.Environment.MaterialFragments.</small>**SolidMaterial**
 
 Fragment containing solid material properties related to material
 

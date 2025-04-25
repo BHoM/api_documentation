@@ -20,15 +20,15 @@ title: IAdapterId
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - BH.oM.Adapters.ETABS.[ETABSId](/api/oM/Adapter/Adapters.ETABS/Fragments/ETABSId)
-    - BH.oM.Adapters.GSA.[GSAId](/api/oM/Adapter/Adapters.GSA/Fragments/GSAId)
-    - BH.oM.Adapters.Lusas.[LusasId](/api/oM/Adapter/Adapters.Lusas/Fragments/LusasId)
-    - BH.oM.Adapters.MidasCivil.[MidasCivilId](/api/oM/Adapter/Adapters.MidasCivil/Fragments/MidasCivilId)
-    - BH.oM.Adapters.RAM.[RAMId](/api/oM/Adapter/Adapters.RAM/Fragments/RAMId)
-    - BH.oM.Adapters.RFEM5.[RFEM5Id](/api/oM/Adapter/Adapters.RFEM5/RFEM5Id)
-    - BH.oM.Adapters.RFEM6.[RFEM6ID](/api/oM/Adapter/Adapters.RFEM6/Fragments/RFEM6ID)
-    - BH.oM.Adapters.Robot.[RobotId](/api/oM/Adapter/Adapters.Robot/Fragments/RobotId)
-    - BH.oM.Adapters.SAP2000.[SAP2000Id](/api/oM/Adapter/Adapters.SAP2000/Fragments/SAP2000Id)
+    - BH.oM.Adapters.ETABS.[ETABSId](/api/oM/Adapter/Adapters/ETABS/Fragments/ETABSId)
+    - BH.oM.Adapters.GSA.[GSAId](/api/oM/Adapter/Adapters/GSA/Fragments/GSAId)
+    - BH.oM.Adapters.Lusas.[LusasId](/api/oM/Adapter/Adapters/Lusas/Fragments/LusasId)
+    - BH.oM.Adapters.MidasCivil.[MidasCivilId](/api/oM/Adapter/Adapters/MidasCivil/Fragments/MidasCivilId)
+    - BH.oM.Adapters.RAM.[RAMId](/api/oM/Adapter/Adapters/RAM/Fragments/RAMId)
+    - BH.oM.Adapters.RFEM5.[RFEM5Id](/api/oM/Adapter/Adapters/RFEM5/RFEM5Id)
+    - BH.oM.Adapters.RFEM6.[RFEM6ID](/api/oM/Adapter/Adapters/RFEM6/Fragments/RFEM6ID)
+    - BH.oM.Adapters.Robot.[RobotId](/api/oM/Adapter/Adapters/Robot/Fragments/RobotId)
+    - BH.oM.Adapters.SAP2000.[SAP2000Id](/api/oM/Adapter/Adapters/SAP2000/Fragments/SAP2000Id)
     - BH.oM.Test.Adapter.[TestAdapterId](/api/oM/Framework/Test/Adapter/TestAdapterId)
 
 

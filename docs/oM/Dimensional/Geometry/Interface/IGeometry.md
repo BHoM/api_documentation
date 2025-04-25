@@ -2,7 +2,7 @@
 title: IGeometry
 ---
 
-# <small>BH.oM.</small>**IGeometry**
+# <small>BH.oM.Geometry.</small>**IGeometry**
 
 The parent interface for all primative geometrical objects.
 IGeometry implements IObject - and not IBHoMObject. Equally primative geometrical objects do not inherit from the base BHoMObject class either. As primatives, the additional base BHoM properties are omitted for both efficency and performace.

@@ -2,7 +2,7 @@
 title: ParamInfo
 ---
 
-# <small>BH.oM.</small>**ParamInfo**
+# <small>BH.oM.UI.</small>**ParamInfo**
 
 
 

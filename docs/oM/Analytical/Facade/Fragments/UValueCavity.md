@@ -2,7 +2,7 @@
 title: UValueCavity
 ---
 
-# <small>BH.oM.Facade.</small>**UValueCavity**
+# <small>BH.oM.Facade.Fragments.</small>**UValueCavity**
 
 A U-Value representing the effective U-Value of cavity insulation. This does not include derating effects from any frame u-values but should be derated for any thermal bridges not modeled.
 

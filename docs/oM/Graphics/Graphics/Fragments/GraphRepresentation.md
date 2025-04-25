@@ -2,7 +2,7 @@
 title: GraphRepresentation
 ---
 
-# <small>BH.oM.Graphics.</small>**GraphRepresentation**
+# <small>BH.oM.Graphics.Fragments.</small>**GraphRepresentation**
 
 Fragment for graph representation.
 

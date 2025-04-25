@@ -2,7 +2,7 @@
 title: Repository
 ---
 
-# <small>BH.oM.</small>**Repository**
+# <small>BH.oM.Planning.</small>**Repository**
 
 
 

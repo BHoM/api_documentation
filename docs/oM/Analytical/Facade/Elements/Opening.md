@@ -2,7 +2,7 @@
 title: Opening
 ---
 
-# <small>BH.oM.Facade.</small>**Opening**
+# <small>BH.oM.Facade.Elements.</small>**Opening**
 
 A cutout or hole in a building surface/panel (e.g. Window, Rooflight)
 

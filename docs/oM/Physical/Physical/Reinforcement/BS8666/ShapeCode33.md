@@ -2,7 +2,7 @@
 title: ShapeCode33
 ---
 
-# <small>BH.oM.Physical.Reinforcement.</small>**ShapeCode33**
+# <small>BH.oM.Physical.Reinforcement.BS8666.</small>**ShapeCode33**
 
 A reinforcement bar with shape code 33 to BS 8666:2020 in the XY Plane centred on the Origin, the A/C parameters aligned with the X axis and the B parameter aligned with the Y axis.
 

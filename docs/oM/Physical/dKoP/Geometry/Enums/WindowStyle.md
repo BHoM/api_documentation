@@ -2,7 +2,7 @@
 title: WindowStyle
 ---
 
-# <small>BH.oM.</small>**WindowStyle**
+# <small>BH.oM.dKoP.</small>**WindowStyle**
 
 
 

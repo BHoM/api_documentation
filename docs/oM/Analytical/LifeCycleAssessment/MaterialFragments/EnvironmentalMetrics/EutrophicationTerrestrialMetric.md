@@ -2,7 +2,7 @@
 title: EutrophicationTerrestrialMetric
 ---
 
-# <small>BH.oM.LifeCycleAssessment.</small>**EutrophicationTerrestrialMetric**
+# <small>BH.oM.LifeCycleAssessment.MaterialFragments.</small>**EutrophicationTerrestrialMetric**
 
 Eutrophication - Terrestrial, measured in mol N eq, refers to the enrichment of ecosystem (such as grasslands) with limiting nutrients. This environmental indicator forms part of an Environmental Product Declaration and should be evaluated based on the Quantity Type stated on the Environmental Product Declaration.
 

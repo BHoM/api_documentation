@@ -33,7 +33,7 @@ Constrained by the following arguments:
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - BH.oM.Adapters.GSA.Elements.[Spacer](/api/oM/Adapter/Adapters.GSA/Elements/Spacer)
+    - BH.oM.Adapters.GSA.Elements.[Spacer](/api/oM/Adapter/Adapters/GSA/Elements/Spacer)
     - BH.oM.Structure.Elements.[Bar](/api/oM/Analytical/Structure/Elements/Bar)
 
 

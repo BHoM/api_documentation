@@ -2,7 +2,7 @@
 title: ITestProperties
 ---
 
-# <small>BH.oM.</small>**ITestProperties**
+# <small>BH.oM.Ground.</small>**ITestProperties**
 
 Base interface for testing properties.
 

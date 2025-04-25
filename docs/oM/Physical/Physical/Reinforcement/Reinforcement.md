@@ -2,7 +2,7 @@
 title: Reinforcement
 ---
 
-# <small>BH.oM.Physical.</small>**Reinforcement**
+# <small>BH.oM.Physical.Reinforcement.</small>**Reinforcement**
 
 The physical reinforcement object containing the ShapeCode(and it's parameters), the diameter and coodinate system. This can be used with a number of Engine methods suchas Centreline and Length.
 

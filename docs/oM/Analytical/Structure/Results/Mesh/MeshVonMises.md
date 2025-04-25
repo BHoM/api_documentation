@@ -2,7 +2,7 @@
 title: MeshVonMises
 ---
 
-# <small>BH.oM.Structure.</small>**MeshVonMises**
+# <small>BH.oM.Structure.Results.</small>**MeshVonMises**
 
 von Mises stress, force and moment at a discrete location in the Panel/FEMesh.
 

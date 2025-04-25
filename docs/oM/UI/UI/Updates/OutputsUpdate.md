@@ -2,7 +2,7 @@
 title: OutputsUpdate
 ---
 
-# <small>BH.oM.</small>**OutputsUpdate**
+# <small>BH.oM.UI.</small>**OutputsUpdate**
 
 
 

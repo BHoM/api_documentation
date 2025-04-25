@@ -2,7 +2,7 @@
 title: IShape
 ---
 
-# <small>BH.oM.</small>**IShape**
+# <small>BH.oM.DeepLearning.</small>**IShape**
 
 
 

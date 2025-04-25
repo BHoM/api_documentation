@@ -2,7 +2,7 @@
 title: IDisplacement
 ---
 
-# <small>BH.oM.Structure.</small>**IDisplacement**
+# <small>BH.oM.Structure.Results.</small>**IDisplacement**
 
 
 

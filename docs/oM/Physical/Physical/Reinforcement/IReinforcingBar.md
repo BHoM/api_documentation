@@ -2,7 +2,7 @@
 title: IReinforcingBar
 ---
 
-# <small>BH.oM.Physical.</small>**IReinforcingBar**
+# <small>BH.oM.Physical.Reinforcement.</small>**IReinforcingBar**
 
 Base interface for all reinforcement bars.
 

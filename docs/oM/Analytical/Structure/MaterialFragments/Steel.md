@@ -2,7 +2,7 @@
 title: Steel
 ---
 
-# <small>BH.oM.Structure.</small>**Steel**
+# <small>BH.oM.Structure.MaterialFragments.</small>**Steel**
 
 Structural steel material to be used on structural elements and properties or as a fragment of the physical material.
 

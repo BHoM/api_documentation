@@ -2,7 +2,7 @@
 title: HeatingControlCode
 ---
 
-# <small>BH.oM.Environment.</small>**HeatingControlCode**
+# <small>BH.oM.Environment.SAP.</small>**HeatingControlCode**
 
 Code which indicates the type of boiler fuel feed.
 

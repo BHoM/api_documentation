@@ -2,7 +2,7 @@
 title: Dataset
 ---
 
-# <small>BH.oM.Data.</small>**Dataset**
+# <small>BH.oM.Data.Library.</small>**Dataset**
 
 
 
@@ -42,15 +42,6 @@ The following properties are inherited from the base class of the object
 | Fragments | [FragmentSet](/api/oM/Framework/Base/FragmentSet) | - | - |
 | Tags | [HashSet](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.HashSet-1?view=netstandard-2.0)&lt;[string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0)&gt; | - | - |
 | CustomData | [Dictionary](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.Dictionary-2?view=netstandard-2.0)&lt;[string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0), [object](https://learn.microsoft.com/en-us/dotnet/api/System.Object?view=netstandard-2.0)&gt; | - | - |
-
-
-### Derived properties
-
-The following properties are defined as extension methods in one of the BHoM_Engines
-
-| Name             | Type             | Description      | Quantity         | Engine           |
-|------------------|------------------|------------------|------------------|------------------|
-| FilterByCheckStatus | [Output](/api/oM/Framework/Base/Output)&lt;[List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[UnitTest](/api/oM/Framework/Test/UnitTests/UnitTest)&gt;, [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[TestResult](/api/oM/Framework/Test/Results/TestResult)&gt;, [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[UnitTest](/api/oM/Framework/Test/UnitTests/UnitTest)&gt;, [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[TestResult](/api/oM/Framework/Test/Results/TestResult)&gt;&gt; | Runs and checks all provided UnitTests in the provided Dataset and provides the ones that has a the provided status. | - | UnitTest_Engine |
 
 
 ## Code and Schema

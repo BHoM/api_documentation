@@ -2,7 +2,7 @@
 title: ElementResult&lt;T&gt;
 ---
 
-# <small>BH.oM.LifeCycleAssessment.</small>**ElementResult&lt;T&gt;**
+# <small>BH.oM.LifeCycleAssessment.Results.</small>**ElementResult&lt;T&gt;**
 
 
 

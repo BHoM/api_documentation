@@ -2,7 +2,7 @@
 title: IDataAccessor
 ---
 
-# <small>BH.oM.</small>**IDataAccessor**
+# <small>BH.oM.UI.</small>**IDataAccessor**
 
 
 

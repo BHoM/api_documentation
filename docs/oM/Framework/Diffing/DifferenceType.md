@@ -2,7 +2,7 @@
 title: DifferenceType
 ---
 
-# <small>BH.oM.</small>**DifferenceType**
+# <small>BH.oM.Diffing.</small>**DifferenceType**
 
 Specifies various kinds of Differences. It can be useful to mark and filter specific implementations of IPropertyDifferences.
 

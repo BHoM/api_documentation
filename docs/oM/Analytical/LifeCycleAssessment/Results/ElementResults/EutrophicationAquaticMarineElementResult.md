@@ -2,7 +2,7 @@
 title: EutrophicationAquaticMarineElementResult
 ---
 
-# <small>BH.oM.LifeCycleAssessment.</small>**EutrophicationAquaticMarineElementResult**
+# <small>BH.oM.LifeCycleAssessment.Results.</small>**EutrophicationAquaticMarineElementResult**
 
 Result class for resulting Eutrophication - aquatic marine for a particular Element.
 

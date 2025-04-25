@@ -2,7 +2,7 @@
 title: AtmosphericPressureResult
 ---
 
-# <small>BH.oM.Environment.</small>**AtmosphericPressureResult**
+# <small>BH.oM.Environment.Results.</small>**AtmosphericPressureResult**
 
 A results object containing atmospheric pressure data.
 

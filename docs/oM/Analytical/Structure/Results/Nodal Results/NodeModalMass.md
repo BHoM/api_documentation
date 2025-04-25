@@ -2,7 +2,7 @@
 title: NodeModalMass
 ---
 
-# <small>BH.oM.Structure.</small>**NodeModalMass**
+# <small>BH.oM.Structure.Results.</small>**NodeModalMass**
 
 Modal mass for a Node.
 

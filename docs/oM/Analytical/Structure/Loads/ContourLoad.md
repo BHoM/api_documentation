@@ -2,7 +2,7 @@
 title: ContourLoad
 ---
 
-# <small>BH.oM.Structure.</small>**ContourLoad**
+# <small>BH.oM.Structure.Loads.</small>**ContourLoad**
 
 Load to be applied over a region defined by a closed planar Polyline.
 

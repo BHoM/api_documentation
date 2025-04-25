@@ -2,7 +2,7 @@
 title: Eye
 ---
 
-# <small>BH.oM.Humans.</small>**Eye**
+# <small>BH.oM.Humans.BodyParts.</small>**Eye**
 
 
 

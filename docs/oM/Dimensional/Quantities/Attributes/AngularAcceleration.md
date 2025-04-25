@@ -2,7 +2,7 @@
 title: AngularAcceleration
 ---
 
-# <small>BH.oM.Quantities.</small>**AngularAcceleration**
+# <small>BH.oM.Quantities.Attributes.</small>**AngularAcceleration**
 
 Dimensional quantity as defined by the International System of Quantities
 

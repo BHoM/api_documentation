@@ -2,7 +2,7 @@
 title: ElectricalEquipment
 ---
 
-# <small>BH.oM.MEP.</small>**ElectricalEquipment**
+# <small>BH.oM.MEP.Equipment.</small>**ElectricalEquipment**
 
 
 

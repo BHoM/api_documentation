@@ -2,7 +2,7 @@
 title: LoopNode
 ---
 
-# <small>BH.oM.</small>**LoopNode**
+# <small>BH.oM.Programming.</small>**LoopNode**
 
 A syntax node corresponding to a code loop.
 

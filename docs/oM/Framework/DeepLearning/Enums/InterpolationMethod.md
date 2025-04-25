@@ -2,7 +2,7 @@
 title: InterpolationMethod
 ---
 
-# <small>BH.oM.</small>**InterpolationMethod**
+# <small>BH.oM.DeepLearning.</small>**InterpolationMethod**
 
 
 

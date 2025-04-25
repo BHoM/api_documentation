@@ -2,7 +2,7 @@
 title: AirTerminal
 ---
 
-# <small>BH.oM.MEP.</small>**AirTerminal**
+# <small>BH.oM.MEP.Fixtures.</small>**AirTerminal**
 
 A device used to regulate the volume of air to or from an air handling unit, variable air volume device or similar, to or from the occupied space. These devices may be ducted or connect directly to a plenum, in which case no duct connection will be present.
 

@@ -2,7 +2,7 @@
 title: InputOutputComparison
 ---
 
-# <small>BH.oM.Test.</small>**InputOutputComparison**
+# <small>BH.oM.Test.Results.</small>**InputOutputComparison**
 
 
 

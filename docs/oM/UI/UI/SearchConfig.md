@@ -2,7 +2,7 @@
 title: SearchConfig
 ---
 
-# <small>BH.oM.</small>**SearchConfig**
+# <small>BH.oM.UI.</small>**SearchConfig**
 
 
 

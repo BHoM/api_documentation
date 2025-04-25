@@ -2,7 +2,7 @@
 title: DewPointTemperatureResult
 ---
 
-# <small>BH.oM.Environment.</small>**DewPointTemperatureResult**
+# <small>BH.oM.Environment.Results.</small>**DewPointTemperatureResult**
 
 A results object containing dew point temperature data.
 

@@ -2,7 +2,7 @@
 title: EnvironmentalMetrics
 ---
 
-# <small>BH.oM.</small>**EnvironmentalMetrics**
+# <small>BH.oM.LifeCycleAssessment.</small>**EnvironmentalMetrics**
 
 Enum of all available environmental indicators. Used for filtering metrics and results.
 

@@ -2,7 +2,7 @@
 title: Loft
 ---
 
-# <small>BH.oM.</small>**Loft**
+# <small>BH.oM.Geometry.</small>**Loft**
 
 A free-form surface defined by a series of cross sectional Curves. The surface provides a continuous interpolation passing through each Curve in order.
 

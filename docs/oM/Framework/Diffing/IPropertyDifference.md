@@ -2,7 +2,7 @@
 title: IPropertyDifference
 ---
 
-# <small>BH.oM.</small>**IPropertyDifference**
+# <small>BH.oM.Diffing.</small>**IPropertyDifference**
 
 Represents a difference found between a Previous and Following version of an object.
 
@@ -20,7 +20,7 @@ Represents a difference found between a Previous and Following version of an obj
 ???+ bhom "The following classes are implementing this interface:"
 
     - BH.oM.Diffing.[PropertyDifference](/api/oM/Framework/Diffing/PropertyDifference)
-    - BH.oM.Adapters.Revit.[RevitParameterDifference](/api/oM/Adapter/Adapters.Revit/Misc/RevitParameterDifference)
+    - BH.oM.Adapters.Revit.[RevitParameterDifference](/api/oM/Adapter/Adapters/Revit/Misc/RevitParameterDifference)
 
 
 ## Properties

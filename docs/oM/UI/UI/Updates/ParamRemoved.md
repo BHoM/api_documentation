@@ -2,7 +2,7 @@
 title: ParamRemoved
 ---
 
-# <small>BH.oM.</small>**ParamRemoved**
+# <small>BH.oM.UI.</small>**ParamRemoved**
 
 
 

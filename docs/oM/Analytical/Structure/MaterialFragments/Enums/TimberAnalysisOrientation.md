@@ -2,7 +2,7 @@
 title: TimberAnalysisOrientation
 ---
 
-# <small>BH.oM.Structure.</small>**TimberAnalysisOrientation**
+# <small>BH.oM.Structure.MaterialFragments.</small>**TimberAnalysisOrientation**
 
 Enum for controlling if analysis parameters of the Timber material should be assigned based on edgewise or flatwise parameters. Only applicable for some engineered timber products, such as LVL.
 

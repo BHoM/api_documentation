@@ -2,7 +2,7 @@
 title: FireResistancePeriod
 ---
 
-# <small>BH.oM.</small>**FireResistancePeriod**
+# <small>BH.oM.dKoP.</small>**FireResistancePeriod**
 
 
 

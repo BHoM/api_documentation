@@ -2,7 +2,7 @@
 title: PlanarSurface
 ---
 
-# <small>BH.oM.</small>**PlanarSurface**
+# <small>BH.oM.Geometry.</small>**PlanarSurface**
 
 A surface defined by boundary edge curves lying in a common plane. Planarity toleraces default to the BH.oM.Geometry.Tolerace.Distance.
 

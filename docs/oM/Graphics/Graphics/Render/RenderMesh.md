@@ -2,7 +2,7 @@
 title: RenderMesh
 ---
 
-# <small>BH.oM.</small>**RenderMesh**
+# <small>BH.oM.Graphics.</small>**RenderMesh**
 
 
 

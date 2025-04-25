@@ -2,7 +2,7 @@
 title: TestStatus
 ---
 
-# <small>BH.oM.</small>**TestStatus**
+# <small>BH.oM.Test.</small>**TestStatus**
 
 Defines the status of the Test Information. Designed to be very clear, concrete statuses, with minimal ambiguity.
 

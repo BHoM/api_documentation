@@ -2,7 +2,7 @@
 title: AnalyticalConstruction
 ---
 
-# <small>BH.oM.Environment.</small>**AnalyticalConstruction**
+# <small>BH.oM.Environment.Fragments.</small>**AnalyticalConstruction**
 
 This fragment is used to define physical and thermal properties for a building surface
 

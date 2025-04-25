@@ -2,7 +2,7 @@
 title: IEnergyPerUnitAreaResult
 ---
 
-# <small>BH.oM.Environment.</small>**IEnergyPerUnitAreaResult**
+# <small>BH.oM.Environment.Results.</small>**IEnergyPerUnitAreaResult**
 
 A results object containing energy per unit area data.
 

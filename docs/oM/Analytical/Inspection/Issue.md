@@ -2,7 +2,7 @@
 title: Issue
 ---
 
-# <small>BH.oM.</small>**Issue**
+# <small>BH.oM.Inspection.</small>**Issue**
 
 An issue belonging to an audit
 

@@ -2,7 +2,7 @@
 title: InSituVane
 ---
 
-# <small>BH.oM.</small>**InSituVane**
+# <small>BH.oM.Ground.</small>**InSituVane**
 
 A representation of an in-situ vane test defined by the borehole where the test was carried out and the result.
 

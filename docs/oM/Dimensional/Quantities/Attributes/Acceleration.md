@@ -2,7 +2,7 @@
 title: Acceleration
 ---
 
-# <small>BH.oM.Quantities.</small>**Acceleration**
+# <small>BH.oM.Quantities.Attributes.</small>**Acceleration**
 
 Dimensional quantity as defined by the International System of Quantities
 

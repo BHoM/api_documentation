@@ -2,7 +2,7 @@
 title: BarVaryingDistributedLoad
 ---
 
-# <small>BH.oM.Structure.</small>**BarVaryingDistributedLoad**
+# <small>BH.oM.Structure.Loads.</small>**BarVaryingDistributedLoad**
 
 Varying distributed load for bar elements. Can be used to apply force and/or moments.
 

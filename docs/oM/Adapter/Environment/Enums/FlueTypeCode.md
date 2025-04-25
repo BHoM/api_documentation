@@ -2,7 +2,7 @@
 title: FlueTypeCode
 ---
 
-# <small>BH.oM.Environment.</small>**FlueTypeCode**
+# <small>BH.oM.Environment.SAP.</small>**FlueTypeCode**
 
 Code which indicates the type of flue.
 

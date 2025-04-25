@@ -2,7 +2,7 @@
 title: SetPropertyNode
 ---
 
-# <small>BH.oM.</small>**SetPropertyNode**
+# <small>BH.oM.Programming.</small>**SetPropertyNode**
 
 A syntax node corresponding to a call to the BHoM SetProperty method/component.
 

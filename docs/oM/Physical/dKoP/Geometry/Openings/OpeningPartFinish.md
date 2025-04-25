@@ -2,7 +2,7 @@
 title: OpeningPartFinish
 ---
 
-# <small>BH.oM.</small>**OpeningPartFinish**
+# <small>BH.oM.dKoP.</small>**OpeningPartFinish**
 
 
 

@@ -2,7 +2,7 @@
 title: IHumanRole
 ---
 
-# <small>BH.oM.</small>**IHumanRole**
+# <small>BH.oM.Humans.</small>**IHumanRole**
 
 
 

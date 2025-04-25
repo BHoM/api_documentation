@@ -2,7 +2,7 @@
 title: SimulationResultType
 ---
 
-# <small>BH.oM.Environment.</small>**SimulationResultType**
+# <small>BH.oM.Environment.Results.</small>**SimulationResultType**
 
 
 

@@ -2,7 +2,7 @@
 title: PlotInformation
 ---
 
-# <small>BH.oM.</small>**PlotInformation**
+# <small>BH.oM.LadybugTools.</small>**PlotInformation**
 
 
 

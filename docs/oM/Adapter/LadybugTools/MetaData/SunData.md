@@ -2,7 +2,7 @@
 title: SunData
 ---
 
-# <small>BH.oM.</small>**SunData**
+# <small>BH.oM.LadybugTools.</small>**SunData**
 
 
 

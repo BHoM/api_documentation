@@ -2,7 +2,7 @@
 title: IComponent
 ---
 
-# <small>BH.oM.Graphics.</small>**IComponent**
+# <small>BH.oM.Graphics.Components.</small>**IComponent**
 
 Interface for all component objects.
 

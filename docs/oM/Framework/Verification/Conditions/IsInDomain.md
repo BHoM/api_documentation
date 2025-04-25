@@ -2,7 +2,7 @@
 title: IsInDomain
 ---
 
-# <small>BH.oM.Verification.</small>**IsInDomain**
+# <small>BH.oM.Verification.Conditions.</small>**IsInDomain**
 
 Condition that verifies if a value extracted from an object is within a certain domain (range).
 

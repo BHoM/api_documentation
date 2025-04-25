@@ -2,7 +2,7 @@
 title: PullConfigIES
 ---
 
-# <small>BH.oM.Environment.</small>**PullConfigIES**
+# <small>BH.oM.Environment.IES.</small>**PullConfigIES**
 
 Create a pull config for IES for use with the IES Adapter.
 

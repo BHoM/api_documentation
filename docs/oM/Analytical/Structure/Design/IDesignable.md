@@ -2,7 +2,7 @@
 title: IDesignable
 ---
 
-# <small>BH.oM.Structure.</small>**IDesignable**
+# <small>BH.oM.Structure.Design.</small>**IDesignable**
 
 
 

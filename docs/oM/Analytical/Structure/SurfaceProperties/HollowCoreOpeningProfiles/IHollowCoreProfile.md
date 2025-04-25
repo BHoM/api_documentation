@@ -2,7 +2,7 @@
 title: IHollowCoreOpeningProfiles
 ---
 
-# <small>BH.oM.Structure.</small>**IHollowCoreOpeningProfiles**
+# <small>BH.oM.Structure.SurfaceProperties.</small>**IHollowCoreOpeningProfiles**
 
 
 

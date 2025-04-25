@@ -2,7 +2,7 @@
 title: StratumReference
 ---
 
-# <small>BH.oM.</small>**StratumReference**
+# <small>BH.oM.Ground.</small>**StratumReference**
 
 References to associated files, remarks or lexicon codes.
 

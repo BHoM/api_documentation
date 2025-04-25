@@ -2,7 +2,7 @@
 title: QuantityAttribute
 ---
 
-# <small>BH.oM.Quantities.</small>**QuantityAttribute**
+# <small>BH.oM.Quantities.Attributes.</small>**QuantityAttribute**
 
 Dimensional quantity as defined by the International System of Quantities
 

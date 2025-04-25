@@ -2,7 +2,7 @@
 title: PhotochemicalOzoneCreationMaterialResult
 ---
 
-# <small>BH.oM.LifeCycleAssessment.</small>**PhotochemicalOzoneCreationMaterialResult**
+# <small>BH.oM.LifeCycleAssessment.Results.</small>**PhotochemicalOzoneCreationMaterialResult**
 
 Result class for resulting Photochemical ozone formation for a particular Material and EPD.
 

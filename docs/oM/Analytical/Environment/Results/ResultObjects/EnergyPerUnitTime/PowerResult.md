@@ -2,7 +2,7 @@
 title: PowerResult
 ---
 
-# <small>BH.oM.Environment.</small>**PowerResult**
+# <small>BH.oM.Environment.Results.</small>**PowerResult**
 
 A results object containing power data.
 

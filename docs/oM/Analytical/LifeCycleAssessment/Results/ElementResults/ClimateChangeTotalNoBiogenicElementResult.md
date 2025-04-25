@@ -2,7 +2,7 @@
 title: ClimateChangeTotalNoBiogenicElementResult
 ---
 
-# <small>BH.oM.LifeCycleAssessment.</small>**ClimateChangeTotalNoBiogenicElementResult**
+# <small>BH.oM.LifeCycleAssessment.Results.</small>**ClimateChangeTotalNoBiogenicElementResult**
 
 Result class for resulting Climate change - total disregarding biogenic carbon for a particular Element.
 

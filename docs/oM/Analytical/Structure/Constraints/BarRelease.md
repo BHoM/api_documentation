@@ -2,7 +2,7 @@
 title: BarRelease
 ---
 
-# <small>BH.oM.Structure.</small>**BarRelease**
+# <small>BH.oM.Structure.Constraints.</small>**BarRelease**
 
 Defines the releases at the start and end node of a Bar.
 

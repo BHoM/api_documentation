@@ -2,7 +2,7 @@
 title: ThermalExpansionCoefficient
 ---
 
-# <small>BH.oM.Quantities.</small>**ThermalExpansionCoefficient**
+# <small>BH.oM.Quantities.Attributes.</small>**ThermalExpansionCoefficient**
 
 Dimensional quantity as defined by the International System of Quantities
 

@@ -2,7 +2,7 @@
 title: Cylinder
 ---
 
-# <small>BH.oM.</small>**Cylinder**
+# <small>BH.oM.Geometry.</small>**Cylinder**
 
 A solid circular right angled cylinder.
 

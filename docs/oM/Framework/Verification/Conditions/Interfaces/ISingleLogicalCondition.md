@@ -2,7 +2,7 @@
 title: ISingleLogicalCondition
 ---
 
-# <small>BH.oM.Verification.</small>**ISingleLogicalCondition**
+# <small>BH.oM.Verification.Conditions.</small>**ISingleLogicalCondition**
 
 Interface for logical conditions consisting of a single nested condition (e.g. NOT).
 

@@ -2,7 +2,7 @@
 title: IElement0D
 ---
 
-# <small>BH.oM.</small>**IElement0D**
+# <small>BH.oM.Dimensional.</small>**IElement0D**
 
 Enables geometrical operations to be performed on a Point based spatial element, whilst preserving all other object properties as unchanged. /nObjects implementing this interface will be required to implement some base methods for getting and setting data in a way that maintains the object's other properties.
 

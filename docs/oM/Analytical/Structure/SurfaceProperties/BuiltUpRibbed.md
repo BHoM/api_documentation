@@ -2,7 +2,7 @@
 title: BuiltUpRibbed
 ---
 
-# <small>BH.oM.Structure.</small>**BuiltUpRibbed**
+# <small>BH.oM.Structure.SurfaceProperties.</small>**BuiltUpRibbed**
 
 Property for 2D analytical elements, made up of one slab supported by parallel ribs running in one direction beneath them. Ribs and slab can all be made up of different materials.
 

@@ -2,7 +2,7 @@
 title: IElementM
 ---
 
-# <small>BH.oM.</small>**IElementM**
+# <small>BH.oM.Dimensional.</small>**IElementM**
 
 Enables Mass based operations to be performed on elements with materiality
 Ensures the material composition of a physical object is represented, defined as proportions of discrete types of material forming the object's total solid volume.

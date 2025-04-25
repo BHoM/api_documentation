@@ -2,7 +2,7 @@
 title: OpeningTypeGValueIteration
 ---
 
-# <small>BH.oM.Environment.</small>**OpeningTypeGValueIteration**
+# <small>BH.oM.Environment.SAP.</small>**OpeningTypeGValueIteration**
 
 Describe a single iteration of U and G Values for opening types. If both values are provided, then both values will be updated. This will not blend the iteration (i.e. it will not be one iteration with updated UValue, one iteration with updated GValue, and one iteration with both).
 

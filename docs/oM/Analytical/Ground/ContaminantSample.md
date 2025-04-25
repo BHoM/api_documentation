@@ -2,7 +2,7 @@
 title: ContaminantSample
 ---
 
-# <small>BH.oM.</small>**ContaminantSample**
+# <small>BH.oM.Ground.</small>**ContaminantSample**
 
 A representation of a contaminant sample defined by the depth of the sample, the chemical code and name based on the AGS schema.
 

@@ -2,7 +2,7 @@
 title: IsNotNull
 ---
 
-# <small>BH.oM.Verification.</small>**IsNotNull**
+# <small>BH.oM.Verification.Conditions.</small>**IsNotNull**
 
 Condition that verifies whether an object is null.
 

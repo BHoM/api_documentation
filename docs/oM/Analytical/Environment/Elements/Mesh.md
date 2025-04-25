@@ -2,7 +2,7 @@
 title: Mesh
 ---
 
-# <small>BH.oM.Environment.</small>**Mesh**
+# <small>BH.oM.Environment.Elements.</small>**Mesh**
 
 An environment object used to define a volumetric mesh.
 

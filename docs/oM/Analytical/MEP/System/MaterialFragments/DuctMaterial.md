@@ -2,7 +2,7 @@
 title: DuctMaterial
 ---
 
-# <small>BH.oM.MEP.System.</small>**DuctMaterial**
+# <small>BH.oM.MEP.System.MaterialFragments.</small>**DuctMaterial**
 
 
 

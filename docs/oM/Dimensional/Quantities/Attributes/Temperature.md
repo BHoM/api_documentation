@@ -2,7 +2,7 @@
 title: Temperature
 ---
 
-# <small>BH.oM.Quantities.</small>**Temperature**
+# <small>BH.oM.Quantities.Attributes.</small>**Temperature**
 
 Dimensional quantity as defined by the International System of Quantities
 

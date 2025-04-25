@@ -2,7 +2,7 @@
 title: Mesh
 ---
 
-# <small>BH.oM.</small>**Mesh**
+# <small>BH.oM.Geometry.</small>**Mesh**
 
 A polygon mesh, defined by a list of triangular or quadrilateral Faces and their Vertices.
 

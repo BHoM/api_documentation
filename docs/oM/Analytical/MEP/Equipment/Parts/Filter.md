@@ -2,7 +2,7 @@
 title: Filter
 ---
 
-# <small>BH.oM.MEP.Equipment.</small>**Filter**
+# <small>BH.oM.MEP.Equipment.Parts.</small>**Filter**
 
 Filters are devices that remove solid particles from a system
 

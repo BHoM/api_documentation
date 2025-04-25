@@ -2,7 +2,7 @@
 title: ShearModulus
 ---
 
-# <small>BH.oM.Quantities.</small>**ShearModulus**
+# <small>BH.oM.Quantities.Attributes.</small>**ShearModulus**
 
 Dimensional quantity as defined by the International System of Quantities
 

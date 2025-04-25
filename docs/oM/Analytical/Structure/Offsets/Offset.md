@@ -2,7 +2,7 @@
 title: Offset
 ---
 
-# <small>BH.oM.Structure.</small>**Offset**
+# <small>BH.oM.Structure.Offsets.</small>**Offset**
 
 Class defining offsets for bar objects from its end Nodes to be applied in analysis packages.
 

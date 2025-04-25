@@ -2,7 +2,7 @@
 title: WallConstructionCode
 ---
 
-# <small>BH.oM.Environment.</small>**WallConstructionCode**
+# <small>BH.oM.Environment.SAP.</small>**WallConstructionCode**
 
 Code which indicates the type of wall construction.
 

@@ -2,7 +2,7 @@
 title: ExternalComfort
 ---
 
-# <small>BH.oM.</small>**ExternalComfort**
+# <small>BH.oM.LadybugTools.</small>**ExternalComfort**
 
 
 

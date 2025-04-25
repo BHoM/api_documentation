@@ -2,7 +2,7 @@
 title: Strain
 ---
 
-# <small>BH.oM.Quantities.</small>**Strain**
+# <small>BH.oM.Quantities.Attributes.</small>**Strain**
 
 Dimensional quantity as defined by the International System of Quantities
 

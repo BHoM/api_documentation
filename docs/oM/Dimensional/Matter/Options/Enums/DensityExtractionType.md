@@ -2,7 +2,7 @@
 title: DensityExtractionType
 ---
 
-# <small>BH.oM.Matter.</small>**DensityExtractionType**
+# <small>BH.oM.Matter.Options.</small>**DensityExtractionType**
 
 Specifies how the density should be extracted from a list of IDensityProvider.
 

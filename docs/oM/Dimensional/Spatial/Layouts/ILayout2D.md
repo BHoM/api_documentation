@@ -2,7 +2,7 @@
 title: ILayout2D
 ---
 
-# <small>BH.oM.Spatial.</small>**ILayout2D**
+# <small>BH.oM.Spatial.Layouts.</small>**ILayout2D**
 
 Base interface for all 2D layouts
 

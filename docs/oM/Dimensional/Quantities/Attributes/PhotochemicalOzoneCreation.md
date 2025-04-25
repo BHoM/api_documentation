@@ -2,7 +2,7 @@
 title: PhotochemicalOzoneCreation
 ---
 
-# <small>BH.oM.Quantities.</small>**PhotochemicalOzoneCreation**
+# <small>BH.oM.Quantities.Attributes.</small>**PhotochemicalOzoneCreation**
 
 Quantity type for Photochemical Ozone Creation Potential.
 

@@ -2,7 +2,7 @@
 title: CompositeUtilisation
 ---
 
-# <small>BH.oM.Structure.</small>**CompositeUtilisation**
+# <small>BH.oM.Structure.Results.</small>**CompositeUtilisation**
 
 Base class for all bar result classes. Stores all identifier information and how to sort the results in a collection.
 

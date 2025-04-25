@@ -2,7 +2,7 @@
 title: ShapeCode99
 ---
 
-# <small>BH.oM.Physical.Reinforcement.</small>**ShapeCode99**
+# <small>BH.oM.Physical.Reinforcement.BS8666.</small>**ShapeCode99**
 
 A reinforcement bar with shape code 99 to BS 8666:2020 when standard shape codes cannot be used.
 

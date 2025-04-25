@@ -2,7 +2,7 @@
 title: DeleteSlides
 ---
 
-# <small>BH.oM.</small>**DeleteSlides**
+# <small>BH.oM.PowerPoint.</small>**DeleteSlides**
 
 Allows for deletion of a specific slide.
 

@@ -2,7 +2,7 @@
 title: CHPElectricityGenerationCode
 ---
 
-# <small>BH.oM.Environment.</small>**CHPElectricityGenerationCode**
+# <small>BH.oM.Environment.SAP.</small>**CHPElectricityGenerationCode**
 
 Code which indicates the CHP Electricity generation option (table 12f).
 

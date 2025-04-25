@@ -2,7 +2,7 @@
 title: EnergyWheel
 ---
 
-# <small>BH.oM.MEP.Equipment.</small>**EnergyWheel**
+# <small>BH.oM.MEP.Equipment.Parts.</small>**EnergyWheel**
 
 Energy wheels are devices that capture sensible and/or latent heat from air which would otherwise be lost to the atmosphere
 

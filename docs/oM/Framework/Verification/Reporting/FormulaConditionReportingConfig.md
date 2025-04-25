@@ -2,7 +2,7 @@
 title: FormulaConditionReportingConfig
 ---
 
-# <small>BH.oM.Verification.</small>**FormulaConditionReportingConfig**
+# <small>BH.oM.Verification.Reporting.</small>**FormulaConditionReportingConfig**
 
 Config object containing settings for reporting results of checks against formula conditions.
 

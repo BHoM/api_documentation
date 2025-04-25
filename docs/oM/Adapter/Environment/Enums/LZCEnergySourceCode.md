@@ -2,7 +2,7 @@
 title: LZCEnergySourceCode
 ---
 
-# <small>BH.oM.Environment.</small>**LZCEnergySourceCode**
+# <small>BH.oM.Environment.SAP.</small>**LZCEnergySourceCode**
 
 Code which indicates a particular low or zero carbon energy source.
 

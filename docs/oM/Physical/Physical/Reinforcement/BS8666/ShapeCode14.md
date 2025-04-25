@@ -2,7 +2,7 @@
 title: ShapeCode14
 ---
 
-# <small>BH.oM.Physical.Reinforcement.</small>**ShapeCode14**
+# <small>BH.oM.Physical.Reinforcement.BS8666.</small>**ShapeCode14**
 
 A reinforcement bar with shape code 14 to BS 8666:2020 in the XY Plane with the free end of the C segment at the Origin aligned with the X axis, the D parameter aligned with the X axis and the B parameter aligned with the Y axis.
 

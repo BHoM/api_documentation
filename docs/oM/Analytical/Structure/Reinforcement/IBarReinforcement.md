@@ -2,7 +2,7 @@
 title: IBarReinforcement
 ---
 
-# <small>BH.oM.Structure.</small>**IBarReinforcement**
+# <small>BH.oM.Structure.Reinforcement.</small>**IBarReinforcement**
 
 Base interface for any reinforcement within a BarRebarIntent.
 

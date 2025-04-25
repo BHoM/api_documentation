@@ -2,7 +2,7 @@
 title: UValueContinuous
 ---
 
-# <small>BH.oM.Facade.</small>**UValueContinuous**
+# <small>BH.oM.Facade.Fragments.</small>**UValueContinuous**
 
 A U-Value representing the effective U-Value of continuous insulation and/or layers (not affected by thermal bridging due to frame u-value).
 

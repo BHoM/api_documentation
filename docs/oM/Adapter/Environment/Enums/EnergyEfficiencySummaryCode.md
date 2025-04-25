@@ -2,7 +2,7 @@
 title: EnergyEfficiencySummaryCode
 ---
 
-# <small>BH.oM.Environment.</small>**EnergyEfficiencySummaryCode**
+# <small>BH.oM.Environment.SAP.</small>**EnergyEfficiencySummaryCode**
 
 .
 

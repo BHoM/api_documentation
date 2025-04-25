@@ -2,7 +2,7 @@
 title: Requirement
 ---
 
-# <small>BH.oM.Verification.</small>**Requirement**
+# <small>BH.oM.Verification.Requirements.</small>**Requirement**
 
 Object representing a single, condition-based requirement to run against each object in a set filtered based on Specification.ExtractionAlso contains the config required to represent the verification results in a human friendly form.
 

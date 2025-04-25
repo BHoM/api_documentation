@@ -2,7 +2,7 @@
 title: RunSimulationCommand
 ---
 
-# <small>BH.oM.</small>**RunSimulationCommand**
+# <small>BH.oM.LadybugTools.</small>**RunSimulationCommand**
 
 Command that when executed with the LadybugTools Adapter, runs a simulation and return a SimulationResult containing hourly data.
 

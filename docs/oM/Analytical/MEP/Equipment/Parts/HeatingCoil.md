@@ -2,7 +2,7 @@
 title: HeatingCoil
 ---
 
-# <small>BH.oM.MEP.Equipment.</small>**HeatingCoil**
+# <small>BH.oM.MEP.Equipment.Parts.</small>**HeatingCoil**
 
 Heating coils allow fluids (air) to raise their temperature as they pass through the coil
 

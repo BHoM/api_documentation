@@ -2,7 +2,7 @@
 title: MeshStress
 ---
 
-# <small>BH.oM.Structure.</small>**MeshStress**
+# <small>BH.oM.Structure.Results.</small>**MeshStress**
 
 Shell and membrane stresses at a discrete location in the Panel/FEMesh.
 

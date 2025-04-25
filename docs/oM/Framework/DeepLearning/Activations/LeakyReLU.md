@@ -2,7 +2,7 @@
 title: LeakyReLU
 ---
 
-# <small>BH.oM.DeepLearning.</small>**LeakyReLU**
+# <small>BH.oM.DeepLearning.Activations.</small>**LeakyReLU**
 
 
 

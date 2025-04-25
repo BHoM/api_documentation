@@ -2,7 +2,7 @@
 title: Wall
 ---
 
-# <small>BH.oM.Environment.SAP.</small>**Wall**
+# <small>BH.oM.Environment.SAP.XML.</small>**Wall**
 
 
 

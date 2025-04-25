@@ -2,7 +2,7 @@
 title: ISurfaceProperty
 ---
 
-# <small>BH.oM.Structure.</small>**ISurfaceProperty**
+# <small>BH.oM.Structure.SurfaceProperties.</small>**ISurfaceProperty**
 
 Base interface for properties for 2D finite element structural objects such as Panels and FEMeshes.
 
@@ -21,7 +21,7 @@ Base interface for properties for 2D finite element structural objects such as P
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - BH.oM.Adapters.GSA.SurfaceProperties.[FabricPanelProperty](/api/oM/Adapter/Adapters.GSA/SurfaceProperties/FabricPanelProperty)
+    - BH.oM.Adapters.GSA.SurfaceProperties.[FabricPanelProperty](/api/oM/Adapter/Adapters/GSA/SurfaceProperties/FabricPanelProperty)
     - BH.oM.Structure.SurfaceProperties.[BiDirectionalVoided](/api/oM/Analytical/Structure/SurfaceProperties/BiDirectionalVoided)
     - BH.oM.Structure.SurfaceProperties.[BuiltUpDoubleRibbed](/api/oM/Analytical/Structure/SurfaceProperties/BuiltUpDoubleRibbed)
     - BH.oM.Structure.SurfaceProperties.[BuiltUpRibbed](/api/oM/Analytical/Structure/SurfaceProperties/BuiltUpRibbed)

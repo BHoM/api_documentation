@@ -2,7 +2,7 @@
 title: SingleLogicalConditionReportingConfig
 ---
 
-# <small>BH.oM.Verification.</small>**SingleLogicalConditionReportingConfig**
+# <small>BH.oM.Verification.Reporting.</small>**SingleLogicalConditionReportingConfig**
 
 Config object containing settings for reporting results of checks against logical conditions with a single nested condition.
 

@@ -2,7 +2,7 @@
 title: LadybugConfig
 ---
 
-# <small>BH.oM.</small>**LadybugConfig**
+# <small>BH.oM.LadybugTools.</small>**LadybugConfig**
 
 The action config for the LadybugTools Adapter.
 

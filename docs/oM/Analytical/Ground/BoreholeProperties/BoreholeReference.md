@@ -2,7 +2,7 @@
 title: BoreholeReference
 ---
 
-# <small>BH.oM.</small>**BoreholeReference**
+# <small>BH.oM.Ground.</small>**BoreholeReference**
 
 References to associated files, storage links or previous boreholes.
 

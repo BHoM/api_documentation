@@ -19,7 +19,7 @@ Classes implementing IExecuteCommand are commands compatible with the `Execute` 
 
 ???+ bhom "The following interfaces are implementing this interface:"
 
-    - BH.oM.Adapters.File.[IMRCCommand](/api/oM/Adapter/Adapters.File/Commands/IMRCCommand)
+    - BH.oM.Adapters.File.[IMRCCommand](/api/oM/Adapter/Adapters/File/Commands/IMRCCommand)
     - BH.oM.LadybugTools.[ISimulationCommand](/api/oM/Adapter/LadybugTools/ExecuteCommands/ISimulationCommand)
 
 
@@ -33,13 +33,14 @@ Classes implementing IExecuteCommand are commands compatible with the `Execute` 
     - BH.oM.Adapter.Commands.[Close](/api/oM/Framework/Adapter/ExecuteCommands/Close)
     - BH.oM.Adapter.Commands.[CustomCommand](/api/oM/Framework/Adapter/ExecuteCommands/CustomCommand)
     - BH.oM.Adapter.Commands.[Exit](/api/oM/Framework/Adapter/ExecuteCommands/Exit)
+    - BH.oM.Adapter.Commands.[ImportFile](/api/oM/Framework/Adapter/ExecuteCommands/Import)
     - BH.oM.Adapter.Commands.[NewModel](/api/oM/Framework/Adapter/ExecuteCommands/NewModel)
     - BH.oM.Adapter.Commands.[Open](/api/oM/Framework/Adapter/ExecuteCommands/Open)
     - BH.oM.Adapter.Commands.[Save](/api/oM/Framework/Adapter/ExecuteCommands/Save)
     - BH.oM.Adapter.Commands.[SaveAs](/api/oM/Framework/Adapter/ExecuteCommands/SaveAs)
-    - BH.oM.Adapters.File.[CopyCommand](/api/oM/Adapter/Adapters.File/Commands/CopyCommand)
-    - BH.oM.Adapters.File.[MoveCommand](/api/oM/Adapter/Adapters.File/Commands/MoveCommand)
-    - BH.oM.Adapters.File.[RenameCommand](/api/oM/Adapter/Adapters.File/Commands/RenameCommand)
+    - BH.oM.Adapters.File.[CopyCommand](/api/oM/Adapter/Adapters/File/Commands/CopyCommand)
+    - BH.oM.Adapters.File.[MoveCommand](/api/oM/Adapter/Adapters/File/Commands/MoveCommand)
+    - BH.oM.Adapters.File.[RenameCommand](/api/oM/Adapter/Adapters/File/Commands/RenameCommand)
     - BH.oM.LadybugTools.[DiurnalPlotCommand](/api/oM/Adapter/LadybugTools/ExecuteCommands/DiurnalPlotCommand)
     - BH.oM.LadybugTools.[GetMaterialCommand](/api/oM/Adapter/LadybugTools/ExecuteCommands/GetMaterialCommand)
     - BH.oM.LadybugTools.[GetTypologyCommand](/api/oM/Adapter/LadybugTools/ExecuteCommands/GetTypologyCommand)
@@ -51,11 +52,11 @@ Classes implementing IExecuteCommand are commands compatible with the `Execute` 
     - BH.oM.LadybugTools.[UTCIHeatPlotCommand](/api/oM/Adapter/LadybugTools/ExecuteCommands/UTCIHeatPlotCommand)
     - BH.oM.LadybugTools.[WalkabilityPlotCommand](/api/oM/Adapter/LadybugTools/ExecuteCommands/WalkabilityPlotCommand)
     - BH.oM.LadybugTools.[WindroseCommand](/api/oM/Adapter/LadybugTools/ExecuteCommands/WindroseCommand)
-    - BH.oM.Adapters.Mongo.Commands.[Transfer](/api/oM/Adapter/Adapters.Mongo/Commands/Transfer)
+    - BH.oM.Adapters.Mongo.Commands.[Transfer](/api/oM/Adapter/Adapters/Mongo/Commands/Transfer)
     - BH.oM.Environment.SAP.[ProcessResultsCommand](/api/oM/Adapter/Environment/Config/ProcessResultsCommand)
     - BH.oM.Environment.SAP.[RunAnalysisCommand](/api/oM/Adapter/Environment/Config/RunAnalysisCommand)
-    - BH.oM.Adapters.SQL.[UpdateCommand](/api/oM/Adapter/Adapters.SQL/Commands/UpdateCommand)
-    - BH.oM.Adapters.SQL.[UpsertCommand](/api/oM/Adapter/Adapters.SQL/Commands/UpsertCommand)
+    - BH.oM.Adapters.SQL.[UpdateCommand](/api/oM/Adapter/Adapters/SQL/Commands/UpdateCommand)
+    - BH.oM.Adapters.SQL.[UpsertCommand](/api/oM/Adapter/Adapters/SQL/Commands/UpsertCommand)
 
 
 ## Properties

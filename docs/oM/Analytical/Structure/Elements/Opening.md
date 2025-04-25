@@ -2,7 +2,7 @@
 title: Opening
 ---
 
-# <small>BH.oM.Structure.</small>**Opening**
+# <small>BH.oM.Structure.Elements.</small>**Opening**
 
 Opening of a structural Panel object. Can be used to represent, for example, shafts, windows, and doors.
 

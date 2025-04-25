@@ -2,7 +2,7 @@
 title: RadiationFragment
 ---
 
-# <small>BH.oM.Environment.</small>**RadiationFragment**
+# <small>BH.oM.Environment.Fragments.</small>**RadiationFragment**
 
 Fragment containing the lighting, occupant and equipment radiation amount
 

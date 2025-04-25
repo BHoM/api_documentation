@@ -2,7 +2,7 @@
 title: TypeOfFloor
 ---
 
-# <small>BH.oM.Environment.</small>**TypeOfFloor**
+# <small>BH.oM.Environment.SAP.</small>**TypeOfFloor**
 
 Code which indicates the type of floor (exposure).
 

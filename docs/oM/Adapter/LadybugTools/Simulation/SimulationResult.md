@@ -2,7 +2,7 @@
 title: SimulationResult
 ---
 
-# <small>BH.oM.</small>**SimulationResult**
+# <small>BH.oM.LadybugTools.</small>**SimulationResult**
 
 
 

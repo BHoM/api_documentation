@@ -2,7 +2,7 @@
 title: SectionProfile
 ---
 
-# <small>BH.oM.MEP.System.</small>**SectionProfile**
+# <small>BH.oM.MEP.System.SectionProperties.</small>**SectionProfile**
 
 
 

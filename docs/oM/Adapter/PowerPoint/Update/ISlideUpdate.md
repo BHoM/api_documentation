@@ -2,7 +2,7 @@
 title: ISlideUpdate
 ---
 
-# <small>BH.oM.</small>**ISlideUpdate**
+# <small>BH.oM.PowerPoint.</small>**ISlideUpdate**
 
 
 

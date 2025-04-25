@@ -2,7 +2,7 @@
 title: IStructEEvaluationConfig
 ---
 
-# <small>BH.oM.LifeCycleAssessment.</small>**IStructEEvaluationConfig**
+# <small>BH.oM.LifeCycleAssessment.Configs.</small>**IStructEEvaluationConfig**
 
 Config for evaluation of climate change metrics using methodology from IStructE.
 

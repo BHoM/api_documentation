@@ -2,7 +2,7 @@
 title: Scope
 ---
 
-# <small>BH.oM.</small>**Scope**
+# <small>BH.oM.LifeCycleAssessment.</small>**Scope**
 
 An optional scope tag for any object or collection of objects being evaluated using the Evaluate EPD compute method within the LifeCycleAssessment_Toolkit.
 

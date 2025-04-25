@@ -2,7 +2,7 @@
 title: PhotochemicalOzoneCreationTRACIMaterialResult
 ---
 
-# <small>BH.oM.LifeCycleAssessment.</small>**PhotochemicalOzoneCreationTRACIMaterialResult**
+# <small>BH.oM.LifeCycleAssessment.Results.</small>**PhotochemicalOzoneCreationTRACIMaterialResult**
 
 Result class for resulting Photochemical Ozone Creation as defined by the TRACI standard for a particular Material and EPD.
 

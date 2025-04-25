@@ -2,7 +2,7 @@
 title: GeneralisedTSectionProfile
 ---
 
-# <small>BH.oM.Spatial.</small>**GeneralisedTSectionProfile**
+# <small>BH.oM.Spatial.ShapeProfiles.</small>**GeneralisedTSectionProfile**
 
 T-shaped profile that allows for different outsand widths and thicknesses. Outstands with different thicknesses are aligned by their top edge.
 The full width of the top flange can be calculated as LeftOutstandWidth + WebThickness + RightOutstandWidth.

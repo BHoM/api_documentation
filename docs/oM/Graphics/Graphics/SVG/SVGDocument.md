@@ -2,7 +2,7 @@
 title: SVGDocument
 ---
 
-# <small>BH.oM.</small>**SVGDocument**
+# <small>BH.oM.Graphics.</small>**SVGDocument**
 
 
 

@@ -2,7 +2,7 @@
 title: DiurnalPeriod
 ---
 
-# <small>BH.oM.</small>**DiurnalPeriod**
+# <small>BH.oM.LadybugTools.</small>**DiurnalPeriod**
 
 
 

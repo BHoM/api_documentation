@@ -2,7 +2,7 @@
 title: DocumentationType
 ---
 
-# <small>BH.oM.Base.Attributes.</small>**DocumentationType**
+# <small>BH.oM.Base.Attributes.Enums.</small>**DocumentationType**
 
 
 

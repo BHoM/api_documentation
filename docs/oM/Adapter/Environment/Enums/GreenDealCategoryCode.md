@@ -2,7 +2,7 @@
 title: GreenDealCategoryCode
 ---
 
-# <small>BH.oM.Environment.</small>**GreenDealCategoryCode**
+# <small>BH.oM.Environment.SAP.</small>**GreenDealCategoryCode**
 
 .
 

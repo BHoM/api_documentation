@@ -2,7 +2,7 @@
 title: IOutput
 ---
 
-# <small>BH.oM.</small>**IOutput**
+# <small>BH.oM.Base.</small>**IOutput**
 
 
 

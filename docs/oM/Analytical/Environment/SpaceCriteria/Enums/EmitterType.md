@@ -2,7 +2,7 @@
 title: EmitterType
 ---
 
-# <small>BH.oM.Environment.</small>**EmitterType**
+# <small>BH.oM.Environment.SpaceCriteria.</small>**EmitterType**
 
 
 

@@ -2,7 +2,7 @@
 title: PeakDesignSensibleLoad
 ---
 
-# <small>BH.oM.XML.</small>**PeakDesignSensibleLoad**
+# <small>BH.oM.XML.EnergyPlus.</small>**PeakDesignSensibleLoad**
 
 
 

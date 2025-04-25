@@ -2,7 +2,7 @@
 title: Addendum
 ---
 
-# <small>BH.oM.Environment.SAP.</small>**Addendum**
+# <small>BH.oM.Environment.SAP.XML.</small>**Addendum**
 
 
 

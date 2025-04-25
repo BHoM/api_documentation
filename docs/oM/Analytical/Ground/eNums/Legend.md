@@ -2,7 +2,7 @@
 title: Legend
 ---
 
-# <small>BH.oM.</small>**Legend**
+# <small>BH.oM.Ground.</small>**Legend**
 
 Geology description expressed as a single legend code based on the AGS schema v4.1.
 

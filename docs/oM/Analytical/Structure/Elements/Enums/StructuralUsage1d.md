@@ -2,7 +2,7 @@
 title: StructuralUsage1D
 ---
 
-# <small>BH.oM.Structure.</small>**StructuralUsage1D**
+# <small>BH.oM.Structure.Elements.</small>**StructuralUsage1D**
 
 
 

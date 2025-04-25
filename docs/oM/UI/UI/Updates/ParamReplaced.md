@@ -2,7 +2,7 @@
 title: ParamUpdated
 ---
 
-# <small>BH.oM.</small>**ParamUpdated**
+# <small>BH.oM.UI.</small>**ParamUpdated**
 
 
 

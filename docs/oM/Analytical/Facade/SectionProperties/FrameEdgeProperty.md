@@ -2,7 +2,7 @@
 title: FrameEdgeProperty
 ---
 
-# <small>BH.oM.Facade.</small>**FrameEdgeProperty**
+# <small>BH.oM.Facade.SectionProperties.</small>**FrameEdgeProperty**
 
 Frame edge (eg mullion, window jamb, curtain wall sill, etc) property with list of Profile Section properties that make up the mullion construction.
 

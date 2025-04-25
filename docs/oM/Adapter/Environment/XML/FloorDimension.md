@@ -2,7 +2,7 @@
 title: FloorDimension
 ---
 
-# <small>BH.oM.Environment.SAP.</small>**FloorDimension**
+# <small>BH.oM.Environment.SAP.XML.</small>**FloorDimension**
 
 
 

@@ -2,7 +2,7 @@
 title: Skeleton
 ---
 
-# <small>BH.oM.</small>**Skeleton**
+# <small>BH.oM.Humans.</small>**Skeleton**
 
 
 

@@ -2,7 +2,7 @@
 title: AluminiumSection
 ---
 
-# <small>BH.oM.Structure.</small>**AluminiumSection**
+# <small>BH.oM.Structure.SectionProperties.</small>**AluminiumSection**
 
 Aluminium section to be used on Bars. Defined by a section profile.
 

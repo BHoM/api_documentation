@@ -2,7 +2,7 @@
 title: AreaUniformlyDistributedLoad
 ---
 
-# <small>BH.oM.Structure.</small>**AreaUniformlyDistributedLoad**
+# <small>BH.oM.Structure.Loads.</small>**AreaUniformlyDistributedLoad**
 
 Uniform area load for area elements such as Panels and FEMeshes.
 

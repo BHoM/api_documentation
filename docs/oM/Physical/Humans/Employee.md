@@ -2,7 +2,7 @@
 title: Employee
 ---
 
-# <small>BH.oM.</small>**Employee**
+# <small>BH.oM.Humans.</small>**Employee**
 
 
 

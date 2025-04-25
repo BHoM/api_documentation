@@ -2,7 +2,7 @@
 title: INodeParam
 ---
 
-# <small>BH.oM.</small>**INodeParam**
+# <small>BH.oM.Programming.</small>**INodeParam**
 
 Interface common to all syntax nodes parameters
 

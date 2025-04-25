@@ -2,7 +2,7 @@
 title: BinaryCrossEntropy
 ---
 
-# <small>BH.oM.DeepLearning.</small>**BinaryCrossEntropy**
+# <small>BH.oM.DeepLearning.Losses.</small>**BinaryCrossEntropy**
 
 
 

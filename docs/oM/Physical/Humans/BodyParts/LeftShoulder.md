@@ -2,7 +2,7 @@
 title: LeftShoulder
 ---
 
-# <small>BH.oM.Humans.</small>**LeftShoulder**
+# <small>BH.oM.Humans.BodyParts.</small>**LeftShoulder**
 
 
 

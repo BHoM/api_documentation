@@ -2,7 +2,7 @@
 title: Location
 ---
 
-# <small>BH.oM.</small>**Location**
+# <small>BH.oM.Ground.</small>**Location**
 
 Details for the location of the borehole including project references, phasing and location algorithms.
 

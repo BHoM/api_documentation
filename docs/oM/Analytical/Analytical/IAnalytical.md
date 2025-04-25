@@ -46,7 +46,7 @@ title: IAnalytical
     - BH.oM.Facade.Elements.[FrameEdge](/api/oM/Analytical/Facade/Elements/FrameEdge)
     - BH.oM.Facade.Elements.[Opening](/api/oM/Analytical/Facade/Elements/Opening)
     - BH.oM.Facade.Elements.[Panel](/api/oM/Analytical/Facade/Elements/Panel)
-    - BH.oM.Adapters.GSA.Elements.[Spacer](/api/oM/Adapter/Adapters.GSA/Elements/Spacer)
+    - BH.oM.Adapters.GSA.Elements.[Spacer](/api/oM/Adapter/Adapters/GSA/Elements/Spacer)
     - BH.oM.Lighting.Analysis.[Node](/api/oM/Analytical/Lighting/Analysis/Node)
     - BH.oM.MEP.System.[Node](/api/oM/Analytical/MEP/System/Node)
     - BH.oM.Structure.Reinforcement.[ReinforcementRegion](/api/oM/Analytical/Structure/Reinforcement/ReinforcementRegion)

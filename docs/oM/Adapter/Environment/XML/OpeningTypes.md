@@ -2,7 +2,7 @@
 title: OpeningTypes
 ---
 
-# <small>BH.oM.Environment.SAP.</small>**OpeningTypes**
+# <small>BH.oM.Environment.SAP.XML.</small>**OpeningTypes**
 
 
 

@@ -2,7 +2,7 @@
 title: EnergyPlusTabularReport
 ---
 
-# <small>BH.oM.XML.</small>**EnergyPlusTabularReport**
+# <small>BH.oM.XML.EnergyPlus.</small>**EnergyPlusTabularReport**
 
 
 

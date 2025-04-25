@@ -2,7 +2,7 @@
 title: Panel
 ---
 
-# <small>BH.oM.Environment.</small>**Panel**
+# <small>BH.oM.Environment.Elements.</small>**Panel**
 
 An environmental object used to define planar surfaces of a space (e.g. Wall, Floor, Roof)
 

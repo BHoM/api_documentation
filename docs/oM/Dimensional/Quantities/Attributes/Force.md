@@ -2,7 +2,7 @@
 title: Force
 ---
 
-# <small>BH.oM.Quantities.</small>**Force**
+# <small>BH.oM.Quantities.Attributes.</small>**Force**
 
 Dimensional quantity as defined by the International System of Quantities
 

@@ -2,7 +2,7 @@
 title: StructuralLayout
 ---
 
-# <small>BH.oM.Structure.</small>**StructuralLayout**
+# <small>BH.oM.Structure.Design.</small>**StructuralLayout**
 
 
 

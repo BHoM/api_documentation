@@ -2,7 +2,7 @@
 title: PerimeterLayout
 ---
 
-# <small>BH.oM.Spatial.</small>**PerimeterLayout**
+# <small>BH.oM.Spatial.Layouts.</small>**PerimeterLayout**
 
 Linear distribution of points along the perimeter of the host object.
 

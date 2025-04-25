@@ -2,7 +2,7 @@
 title: Triaxial
 ---
 
-# <small>BH.oM.</small>**Triaxial**
+# <small>BH.oM.Ground.</small>**Triaxial**
 
 A set of data related to triaxial tests carried out
 

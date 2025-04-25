@@ -2,7 +2,7 @@
 title: IStructuralResult
 ---
 
-# <small>BH.oM.Structure.</small>**IStructuralResult**
+# <small>BH.oM.Structure.Results.</small>**IStructuralResult**
 
 Base interface for all structural results. Adds ModeNumber as a property in addition to the one from the base IResult
 
@@ -36,9 +36,9 @@ Base interface for all structural results. Adds ModeNumber as a property in addi
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - BH.oM.Adapters.ETABS.Results.[SpandrelForce](/api/oM/Adapter/Adapters.ETABS/Results/SpandrelForce)
-    - BH.oM.Adapters.ETABS.Results.[PierForce](/api/oM/Adapter/Adapters.ETABS/Results/PierForce)
-    - BH.oM.Adapters.SAP2000.Results.[AISCSteelUtilisation](/api/oM/Adapter/Adapters.SAP2000/Elements/AISCSteelUtilisation)
+    - BH.oM.Adapters.ETABS.Results.[SpandrelForce](/api/oM/Adapter/Adapters/ETABS/Results/SpandrelForce)
+    - BH.oM.Adapters.ETABS.Results.[PierForce](/api/oM/Adapter/Adapters/ETABS/Results/PierForce)
+    - BH.oM.Adapters.SAP2000.Results.[AISCSteelUtilisation](/api/oM/Adapter/Adapters/SAP2000/Elements/AISCSteelUtilisation)
     - BH.oM.Structure.Results.[BarDeformation](/api/oM/Analytical/Structure/Results/Bar Results/BarDeformation)
     - BH.oM.Structure.Results.[BarDisplacement](/api/oM/Analytical/Structure/Results/Bar Results/BarDisplacement)
     - BH.oM.Structure.Results.[BarForce](/api/oM/Analytical/Structure/Results/Bar Results/BarForce)

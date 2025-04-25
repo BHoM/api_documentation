@@ -2,7 +2,7 @@
 title: SteelPlateRestraint
 ---
 
-# <small>BH.oM.Structure.</small>**SteelPlateRestraint**
+# <small>BH.oM.Structure.SectionProperties.</small>**SteelPlateRestraint**
 
 
 

@@ -2,7 +2,7 @@
 title: LightTransmittanceFragment
 ---
 
-# <small>BH.oM.Environment.</small>**LightTransmittanceFragment**
+# <small>BH.oM.Environment.Fragments.</small>**LightTransmittanceFragment**
 
 Fragment containing red, green, and blue light transmittance property
 

@@ -2,7 +2,7 @@
 title: ShapeCode46
 ---
 
-# <small>BH.oM.Physical.Reinforcement.</small>**ShapeCode46**
+# <small>BH.oM.Physical.Reinforcement.BS8666.</small>**ShapeCode46**
 
 A reinforcement bar with shape code 46 to BS 8666:2020 in the XY Plane with the free end of the A segment starting at the Origin aligned with the X axis, the C/E/F parameters aligned with the X axis and D parameter with the positive Y axis.
 

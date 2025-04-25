@@ -2,7 +2,7 @@
 title: Reduce
 ---
 
-# <small>BH.oM.</small>**Reduce**
+# <small>BH.oM.DeepLearning.</small>**Reduce**
 
 
 

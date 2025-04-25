@@ -2,7 +2,7 @@
 title: CellRelation
 ---
 
-# <small>BH.oM.</small>**CellRelation**
+# <small>BH.oM.Geometry.</small>**CellRelation**
 
 Details the index of the cells which is behind and infront of each Face.
 

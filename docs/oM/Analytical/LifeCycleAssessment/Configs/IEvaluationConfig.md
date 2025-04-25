@@ -2,7 +2,7 @@
 title: IEvaluationConfig
 ---
 
-# <small>BH.oM.LifeCycleAssessment.</small>**IEvaluationConfig**
+# <small>BH.oM.LifeCycleAssessment.Configs.</small>**IEvaluationConfig**
 
 Base interface for evaluation configs controling how metrics should be evaluated.
 

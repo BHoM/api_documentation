@@ -2,7 +2,7 @@
 title: ExplicitCurveLayout
 ---
 
-# <small>BH.oM.Spatial.</small>**ExplicitCurveLayout**
+# <small>BH.oM.Spatial.Layouts.</small>**ExplicitCurveLayout**
 
 Layout for freeform control over the curve distribution.
 

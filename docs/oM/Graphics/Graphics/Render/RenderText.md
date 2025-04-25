@@ -2,7 +2,7 @@
 title: RenderText
 ---
 
-# <small>BH.oM.</small>**RenderText**
+# <small>BH.oM.Graphics.</small>**RenderText**
 
 Render text at a location and orientation in space with specified height, font and colour.
 

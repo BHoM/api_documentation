@@ -2,7 +2,7 @@
 title: PassRequirement
 ---
 
-# <small>BH.oM.</small>**PassRequirement**
+# <small>BH.oM.Verification.</small>**PassRequirement**
 
 To consider an object as `passed`, should it satisfy All Specification or just one is enough?
 

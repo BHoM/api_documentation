@@ -2,7 +2,7 @@
 title: ClimateChangeBiogenicMaterialResult
 ---
 
-# <small>BH.oM.LifeCycleAssessment.</small>**ClimateChangeBiogenicMaterialResult**
+# <small>BH.oM.LifeCycleAssessment.Results.</small>**ClimateChangeBiogenicMaterialResult**
 
 Result class for resulting Climate change - biogenic for a particular Material and EPD.
 

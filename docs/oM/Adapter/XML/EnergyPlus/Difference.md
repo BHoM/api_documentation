@@ -2,7 +2,7 @@
 title: Difference
 ---
 
-# <small>BH.oM.XML.</small>**Difference**
+# <small>BH.oM.XML.EnergyPlus.</small>**Difference**
 
 
 

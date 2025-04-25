@@ -2,7 +2,7 @@
 title: TypeOfHeatingFuel
 ---
 
-# <small>BH.oM.Environment.</small>**TypeOfHeatingFuel**
+# <small>BH.oM.Environment.SAP.</small>**TypeOfHeatingFuel**
 
 Code which indicates the type of heating fuel, as defined in SAP table 12.
 

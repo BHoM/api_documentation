@@ -2,7 +2,7 @@
 title: ExplicitSection
 ---
 
-# <small>BH.oM.Structure.</small>**ExplicitSection**
+# <small>BH.oM.Structure.SectionProperties.</small>**ExplicitSection**
 
 Material agnostic section. Does not own any geometry. Allows explicit setting of all section constants.
 

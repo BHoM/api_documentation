@@ -2,7 +2,7 @@
 title: Quaternion
 ---
 
-# <small>BH.oM.</small>**Quaternion**
+# <small>BH.oM.Geometry.</small>**Quaternion**
 
 A four-dimensional vector, useful in calculation of affine transformations in three-dimensional space. See also BH.oM.Geometry.TransformMatrix.
 

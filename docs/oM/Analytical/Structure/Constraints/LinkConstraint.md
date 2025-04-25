@@ -2,7 +2,7 @@
 title: LinkConstraint
 ---
 
-# <small>BH.oM.Structure.</small>**LinkConstraint**
+# <small>BH.oM.Structure.Constraints.</small>**LinkConstraint**
 
 Defines the rigid connectivity between a primary and set of secondary nodes.
 

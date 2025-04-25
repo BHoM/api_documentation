@@ -2,7 +2,7 @@
 title: IElementLoad&lt;T&gt;
 ---
 
-# <small>BH.oM.Structure.</small>**IElementLoad&lt;T&gt;**
+# <small>BH.oM.Structure.Loads.</small>**IElementLoad&lt;T&gt;**
 
 Base load interface used by all element type loads, such as Bar, Node and Panel loads.
 
@@ -31,8 +31,8 @@ Constrained by the following arguments:
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - BH.oM.Adapters.RFEM6.IntermediateDatastructure.Geometry.[RFEMFreeLineLoad](/api/oM/Adapter/Adapters.RFEM6/IntermediateDatastructure/Loading/RFEMFreeLineLoad)
-    - BH.oM.Adapters.RFEM6.IntermediateDatastructure.Geometry.[RFEMNonFreeLineLoad](/api/oM/Adapter/Adapters.RFEM6/IntermediateDatastructure/Loading/RFEMNonFreeLineLoad)
+    - BH.oM.Adapters.RFEM6.IntermediateDatastructure.Geometry.[RFEMFreeLineLoad](/api/oM/Adapter/Adapters/RFEM6/IntermediateDatastructure/Loading/RFEMFreeLineLoad)
+    - BH.oM.Adapters.RFEM6.IntermediateDatastructure.Geometry.[RFEMNonFreeLineLoad](/api/oM/Adapter/Adapters/RFEM6/IntermediateDatastructure/Loading/RFEMNonFreeLineLoad)
     - BH.oM.Structure.Loads.[AreaDifferentialTemperatureLoad](/api/oM/Analytical/Structure/Loads/AreaDifferentialTemperatureLoad)
     - BH.oM.Structure.Loads.[AreaUniformlyDistributedLoad](/api/oM/Analytical/Structure/Loads/AreaUniformlyDistributedLoad)
     - BH.oM.Structure.Loads.[AreaUniformTemperatureLoad](/api/oM/Analytical/Structure/Loads/AreaUniformTemperatureLoad)

@@ -2,7 +2,7 @@
 title: IFlow
 ---
 
-# <small>BH.oM.MEP.</small>**IFlow**
+# <small>BH.oM.MEP.System.</small>**IFlow**
 
 Base interface for all flow-based objects. These objects are capable of containing a material or element that flows through the object.
 

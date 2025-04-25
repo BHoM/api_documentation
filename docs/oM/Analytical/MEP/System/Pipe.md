@@ -2,7 +2,7 @@
 title: Pipe
 ---
 
-# <small>BH.oM.MEP.</small>**Pipe**
+# <small>BH.oM.MEP.System.</small>**Pipe**
 
 A pipe object is a passageway which conveys material (water, waste, glycol)
 

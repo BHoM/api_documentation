@@ -2,7 +2,7 @@
 title: CoolingClassCode
 ---
 
-# <small>BH.oM.Environment.</small>**CoolingClassCode**
+# <small>BH.oM.Environment.SAP.</small>**CoolingClassCode**
 
 .
 

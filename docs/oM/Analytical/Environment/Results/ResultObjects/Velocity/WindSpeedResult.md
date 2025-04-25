@@ -2,7 +2,7 @@
 title: WindSpeedResult
 ---
 
-# <small>BH.oM.Environment.</small>**WindSpeedResult**
+# <small>BH.oM.Environment.Results.</small>**WindSpeedResult**
 
 A results object containing wind speed data
 

@@ -2,7 +2,7 @@
 title: BluebeamConfig
 ---
 
-# <small>BH.oM.Environment.</small>**BluebeamConfig**
+# <small>BH.oM.Environment.SAP.</small>**BluebeamConfig**
 
 Set up configuration settings for pulling from Bluebeam SAP markups.
 

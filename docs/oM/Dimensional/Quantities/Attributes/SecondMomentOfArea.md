@@ -2,7 +2,7 @@
 title: SecondMomentOfArea
 ---
 
-# <small>BH.oM.Quantities.</small>**SecondMomentOfArea**
+# <small>BH.oM.Quantities.Attributes.</small>**SecondMomentOfArea**
 
 Dimensional quantity as defined by the International System of Quantities
 

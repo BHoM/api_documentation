@@ -2,7 +2,7 @@
 title: SpaceTime
 ---
 
-# <small>BH.oM.Environment.</small>**SpaceTime**
+# <small>BH.oM.Environment.Climate.</small>**SpaceTime**
 
 Represents a specific moment in time related to a specific location of Earth geometry. Used for obtaining solar positions for specific moments in time at specific points on Earth
 

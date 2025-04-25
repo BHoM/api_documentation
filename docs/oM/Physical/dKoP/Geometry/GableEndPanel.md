@@ -2,7 +2,7 @@
 title: GableEndPanel
 ---
 
-# <small>BH.oM.</small>**GableEndPanel**
+# <small>BH.oM.dKoP.</small>**GableEndPanel**
 
 
 

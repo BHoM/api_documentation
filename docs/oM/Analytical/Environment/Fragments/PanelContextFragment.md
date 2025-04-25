@@ -2,7 +2,7 @@
 title: PanelContextFragment
 ---
 
-# <small>BH.oM.Environment.</small>**PanelContextFragment**
+# <small>BH.oM.Environment.Fragments.</small>**PanelContextFragment**
 
 Fragment containing thermal boundary context, colour, and surface direction properties
 

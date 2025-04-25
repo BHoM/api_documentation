@@ -2,7 +2,7 @@
 title: Shape2d
 ---
 
-# <small>BH.oM.</small>**Shape2d**
+# <small>BH.oM.DeepLearning.</small>**Shape2d**
 
 
 

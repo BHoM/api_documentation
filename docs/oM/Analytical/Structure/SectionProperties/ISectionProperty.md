@@ -2,7 +2,7 @@
 title: ISectionProperty
 ---
 
-# <small>BH.oM.Structure.</small>**ISectionProperty**
+# <small>BH.oM.Structure.SectionProperties.</small>**ISectionProperty**
 
 Base interface for all bar section properties. Contains the material and all section constants.
 

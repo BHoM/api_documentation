@@ -2,7 +2,7 @@
 title: ImageUpdate
 ---
 
-# <small>BH.oM.</small>**ImageUpdate**
+# <small>BH.oM.PowerPoint.</small>**ImageUpdate**
 
 Allows to replace the image content of an image element.
 

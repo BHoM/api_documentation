@@ -2,7 +2,7 @@
 title: EutrophicationAquaticFreshwaterElementResult
 ---
 
-# <small>BH.oM.LifeCycleAssessment.</small>**EutrophicationAquaticFreshwaterElementResult**
+# <small>BH.oM.LifeCycleAssessment.Results.</small>**EutrophicationAquaticFreshwaterElementResult**
 
 Result class for resulting Eutrophication - aquatic freshwater for a particular Element.
 

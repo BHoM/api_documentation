@@ -2,7 +2,7 @@
 title: OrientationIteration
 ---
 
-# <small>BH.oM.Environment.</small>**OrientationIteration**
+# <small>BH.oM.Environment.SAP.</small>**OrientationIteration**
 
 Describe a single iteration for the orientation of the dwellings within the SAP Report. If both a mirror and a rotation are provided, the dwelling will be first mirrored and then rotated clockwise based on the rotation.
 

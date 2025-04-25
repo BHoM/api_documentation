@@ -2,7 +2,7 @@
 title: TypeofDuctInsulation
 ---
 
-# <small>BH.oM.Environment.</small>**TypeofDuctInsulation**
+# <small>BH.oM.Environment.SAP.</small>**TypeofDuctInsulation**
 
 Code which indicates the type of duct insulation.
 

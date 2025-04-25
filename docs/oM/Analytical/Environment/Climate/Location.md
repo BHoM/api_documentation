@@ -2,7 +2,7 @@
 title: Location
 ---
 
-# <small>BH.oM.Environment.</small>**Location**
+# <small>BH.oM.Environment.Climate.</small>**Location**
 
 Defines a uniquely identifiable point on the Earth in standard global Latitude, Longitude and Elevation, coordinate system. Particularly useful for specifying local climate conditions for environmental analysis.
 

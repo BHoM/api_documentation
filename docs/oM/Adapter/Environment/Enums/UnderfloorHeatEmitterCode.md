@@ -2,7 +2,7 @@
 title: UnderfloorHeatEmitterCode
 ---
 
-# <small>BH.oM.Environment.</small>**UnderfloorHeatEmitterCode**
+# <small>BH.oM.Environment.SAP.</small>**UnderfloorHeatEmitterCode**
 
 Code which indicates the type of underfloor heat emitter.
 

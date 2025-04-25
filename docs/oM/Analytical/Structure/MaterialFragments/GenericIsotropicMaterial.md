@@ -2,7 +2,7 @@
 title: GenericIsotropicMaterial
 ---
 
-# <small>BH.oM.Structure.</small>**GenericIsotropicMaterial**
+# <small>BH.oM.Structure.MaterialFragments.</small>**GenericIsotropicMaterial**
 
 Generic isotropic material to be used for isotropic materials not yet explicitly supported.
 

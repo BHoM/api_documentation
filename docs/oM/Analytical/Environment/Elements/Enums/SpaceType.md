@@ -2,7 +2,7 @@
 title: SpaceType
 ---
 
-# <small>BH.oM.Environment.</small>**SpaceType**
+# <small>BH.oM.Environment.Elements.</small>**SpaceType**
 
 The main use of a space (e.g. Classroom, Lobby, Open Office)
 

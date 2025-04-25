@@ -2,7 +2,7 @@
 title: ITest
 ---
 
-# <small>BH.oM.</small>**ITest**
+# <small>BH.oM.Ground.</small>**ITest**
 
 Base interface for all ground tests.
 

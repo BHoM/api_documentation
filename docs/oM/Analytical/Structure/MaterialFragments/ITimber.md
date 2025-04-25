@@ -2,7 +2,7 @@
 title: ITimber
 ---
 
-# <small>BH.oM.Structure.</small>**ITimber**
+# <small>BH.oM.Structure.MaterialFragments.</small>**ITimber**
 
 Base interface for all Timber Materials.
 

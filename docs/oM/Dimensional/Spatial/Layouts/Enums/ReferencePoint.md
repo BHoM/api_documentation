@@ -2,7 +2,7 @@
 title: ReferencePoint
 ---
 
-# <small>BH.oM.Spatial.</small>**ReferencePoint**
+# <small>BH.oM.Spatial.Layouts.</small>**ReferencePoint**
 
 
 

@@ -2,7 +2,7 @@
 title: IGain
 ---
 
-# <small>BH.oM.Environment.</small>**IGain**
+# <small>BH.oM.Environment.SpaceCriteria.</small>**IGain**
 
 
 

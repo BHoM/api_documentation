@@ -2,7 +2,7 @@
 title: IPart
 ---
 
-# <small>BH.oM.MEP.Equipment.</small>**IPart**
+# <small>BH.oM.MEP.Equipment.Parts.</small>**IPart**
 
 
 

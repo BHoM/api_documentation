@@ -2,7 +2,7 @@
 title: Roughness
 ---
 
-# <small>BH.oM.</small>**Roughness**
+# <small>BH.oM.LadybugTools.</small>**Roughness**
 
 An enum for the roughness of an EnergyMaterial.
 

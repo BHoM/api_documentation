@@ -2,7 +2,7 @@
 title: PhotochemicalOzoneCreationElementResult
 ---
 
-# <small>BH.oM.LifeCycleAssessment.</small>**PhotochemicalOzoneCreationElementResult**
+# <small>BH.oM.LifeCycleAssessment.Results.</small>**PhotochemicalOzoneCreationElementResult**
 
 Result class for resulting Photochemical ozone formation for a particular Element.
 

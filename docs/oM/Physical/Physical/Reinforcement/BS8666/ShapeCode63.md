@@ -2,7 +2,7 @@
 title: ShapeCode63
 ---
 
-# <small>BH.oM.Physical.Reinforcement.</small>**ShapeCode63**
+# <small>BH.oM.Physical.Reinforcement.BS8666.</small>**ShapeCode63**
 
 A reinforcement bar with shape code 63 to BS 8666:2020 in the XY Plane centred on the Origin, the A/C/D parameters aligned with the Y axisand the B parameters aligned with the X axis.
 

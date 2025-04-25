@@ -2,7 +2,7 @@
 title: CircleProfile
 ---
 
-# <small>BH.oM.Spatial.</small>**CircleProfile**
+# <small>BH.oM.Spatial.ShapeProfiles.</small>**CircleProfile**
 
 Solid circular profile
 

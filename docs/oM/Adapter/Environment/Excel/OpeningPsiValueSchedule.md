@@ -2,7 +2,7 @@
 title: OpeningPsiValueSchedule
 ---
 
-# <small>BH.oM.Environment.SAP.</small>**OpeningPsiValueSchedule**
+# <small>BH.oM.Environment.SAP.Excel.</small>**OpeningPsiValueSchedule**
 
 PsiValues for thermal bridge.
 

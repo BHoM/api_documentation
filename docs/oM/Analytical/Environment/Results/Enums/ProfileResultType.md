@@ -2,7 +2,7 @@
 title: ProfileResultType
 ---
 
-# <small>BH.oM.Environment.</small>**ProfileResultType**
+# <small>BH.oM.Environment.Results.</small>**ProfileResultType**
 
 
 

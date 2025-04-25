@@ -2,7 +2,7 @@
 title: UTCIHeatPlotCommand
 ---
 
-# <small>BH.oM.</small>**UTCIHeatPlotCommand**
+# <small>BH.oM.LadybugTools.</small>**UTCIHeatPlotCommand**
 
 Command that, when executed with the LadybugToolsAdapter, simulates UTCI values and outputs a heatmap. Output is a BH.oM.LadybugTools.PlotInformation containing the plot and extra information about the collection, and the ExternalComfort object that was used to get the UTCI values (whether the simulation ran or not).
 

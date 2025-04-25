@@ -2,7 +2,7 @@
 title: ExplicitLayout
 ---
 
-# <small>BH.oM.Spatial.</small>**ExplicitLayout**
+# <small>BH.oM.Spatial.Layouts.</small>**ExplicitLayout**
 
 Layout for freeform control over the point distribution
 

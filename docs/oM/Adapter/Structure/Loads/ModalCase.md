@@ -2,7 +2,7 @@
 title: ModalCase
 ---
 
-# <small>BH.oM.Structure.</small>**ModalCase**
+# <small>BH.oM.Structure.Loads.</small>**ModalCase**
 
 
 

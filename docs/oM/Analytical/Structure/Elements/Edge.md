@@ -2,7 +2,7 @@
 title: Edge
 ---
 
-# <small>BH.oM.Structure.</small>**Edge**
+# <small>BH.oM.Structure.Elements.</small>**Edge**
 
 Edge class to describe the edges of panels (or other objects) by a curve and properties.
 

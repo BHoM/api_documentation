@@ -2,7 +2,7 @@
 title: UIExposure
 ---
 
-# <small>BH.oM.Base.Attributes.</small>**UIExposure**
+# <small>BH.oM.Base.Attributes.Enums.</small>**UIExposure**
 
 Setting to determine whether an element using this enum should be displayed on a User Interface (UI).
 

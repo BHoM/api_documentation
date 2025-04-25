@@ -2,7 +2,7 @@
 title: DamperType
 ---
 
-# <small>BH.oM.MEP.</small>**DamperType**
+# <small>BH.oM.MEP.Enums.</small>**DamperType**
 
 A type of damper used in ductwork (volume damper, fire smoke damper, etc.)
 

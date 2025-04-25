@@ -2,7 +2,7 @@
 title: MeanSquareError
 ---
 
-# <small>BH.oM.DeepLearning.</small>**MeanSquareError**
+# <small>BH.oM.DeepLearning.Losses.</small>**MeanSquareError**
 
 
 

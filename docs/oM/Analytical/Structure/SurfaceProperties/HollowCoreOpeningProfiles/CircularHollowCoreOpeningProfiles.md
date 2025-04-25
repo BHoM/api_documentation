@@ -2,7 +2,7 @@
 title: CircularHollowCoreOpeningProfiles
 ---
 
-# <small>BH.oM.Structure.</small>**CircularHollowCoreOpeningProfiles**
+# <small>BH.oM.Structure.SurfaceProperties.</small>**CircularHollowCoreOpeningProfiles**
 
 
 

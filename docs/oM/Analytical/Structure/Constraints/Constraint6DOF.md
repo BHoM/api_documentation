@@ -2,7 +2,7 @@
 title: Constraint6DOF
 ---
 
-# <small>BH.oM.Structure.</small>**Constraint6DOF**
+# <small>BH.oM.Structure.Constraints.</small>**Constraint6DOF**
 
 Constraint objects with six degrees of freedom, three translational and three rotational, used for supports and bar end releases.
 

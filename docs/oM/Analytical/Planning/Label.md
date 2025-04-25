@@ -2,7 +2,7 @@
 title: Label
 ---
 
-# <small>BH.oM.</small>**Label**
+# <small>BH.oM.Planning.</small>**Label**
 
 
 

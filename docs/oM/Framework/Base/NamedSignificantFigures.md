@@ -2,7 +2,7 @@
 title: NamedSignificantFigures
 ---
 
-# <small>BH.oM.</small>**NamedSignificantFigures**
+# <small>BH.oM.Base.</small>**NamedSignificantFigures**
 
 Significant digits used for specific numerical objects or properties with a specific name.When computing Hash or the property Diffing, if the analysed object or property name is found in this collection, the corresponding SignificantFigures approximation is applied.
 

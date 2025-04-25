@@ -2,7 +2,7 @@
 title: IValueSource
 ---
 
-# <small>BH.oM.Verification.</small>**IValueSource**
+# <small>BH.oM.Verification.Conditions.</small>**IValueSource**
 
 Interface for objects defining how to extract a value from an object.
 
@@ -19,7 +19,7 @@ Interface for objects defining how to extract a value from an object.
 
 ???+ bhom "The following classes are implementing this interface:"
 
-    - BH.oM.Adapters.Revit.Parameters.[ParameterValueSource](/api/oM/Adapter/Adapters.Revit/Parameters/ParameterValueSource)
+    - BH.oM.Adapters.Revit.Parameters.[ParameterValueSource](/api/oM/Adapter/Adapters/Revit/Parameters/ParameterValueSource)
     - BH.oM.Verification.Conditions.[PropertyValueSource](/api/oM/Framework/Verification/Conditions/Value Sources/PropertyValueSource)
 
 

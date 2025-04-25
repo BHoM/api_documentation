@@ -2,7 +2,7 @@
 title: NumberConditionReportingConfig
 ---
 
-# <small>BH.oM.Verification.</small>**NumberConditionReportingConfig**
+# <small>BH.oM.Verification.Reporting.</small>**NumberConditionReportingConfig**
 
 Config object containing settings for reporting results of checks against numerical value conditions.
 

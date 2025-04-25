@@ -2,7 +2,7 @@
 title: Ellipse
 ---
 
-# <small>BH.oM.</small>**Ellipse**
+# <small>BH.oM.Geometry.</small>**Ellipse**
 
 A plane curve. A standard ellipse defining a curve of constant combined distance around two foci.
 The larger of the two radii defines the major axis of the Ellipse, and the line along which the two foci lie.

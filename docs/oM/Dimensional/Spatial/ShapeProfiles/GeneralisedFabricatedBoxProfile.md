@@ -2,7 +2,7 @@
 title: GeneralisedFabricatedBoxProfile
 ---
 
-# <small>BH.oM.Spatial.</small>**GeneralisedFabricatedBoxProfile**
+# <small>BH.oM.Spatial.ShapeProfiles.</small>**GeneralisedFabricatedBoxProfile**
 
 Rectangular hollow profile that allows for different thicknesses of the webs, top flange and bottom flange as well as defined outstands of the top and bottom flange
 

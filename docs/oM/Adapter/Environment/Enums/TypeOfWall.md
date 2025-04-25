@@ -2,7 +2,7 @@
 title: TypeOfWall
 ---
 
-# <small>BH.oM.Environment.</small>**TypeOfWall**
+# <small>BH.oM.Environment.SAP.</small>**TypeOfWall**
 
 Code which indicates the type of wall (exposure).
 

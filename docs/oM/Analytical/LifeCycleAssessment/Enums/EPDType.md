@@ -2,7 +2,7 @@
 title: EPDType
 ---
 
-# <small>BH.oM.</small>**EPDType**
+# <small>BH.oM.LifeCycleAssessment.</small>**EPDType**
 
 The Type of Environmental Product Declaration.
 

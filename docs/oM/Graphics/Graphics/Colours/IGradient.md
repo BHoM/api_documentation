@@ -2,7 +2,7 @@
 title: IGradient
 ---
 
-# <small>BH.oM.</small>**IGradient**
+# <small>BH.oM.Graphics.</small>**IGradient**
 
 
 

@@ -2,7 +2,7 @@
 title: HeatEmitterCode
 ---
 
-# <small>BH.oM.Environment.</small>**HeatEmitterCode**
+# <small>BH.oM.Environment.SAP.</small>**HeatEmitterCode**
 
 Code which indicates the type of heating emitter.
 

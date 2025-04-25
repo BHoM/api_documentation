@@ -2,7 +2,7 @@
 title: OpeningIteration
 ---
 
-# <small>BH.oM.Environment.</small>**OpeningIteration**
+# <small>BH.oM.Environment.SAP.</small>**OpeningIteration**
 
 Describe a single opening iteration for all the openings within the SAP context.
 

@@ -2,7 +2,7 @@
 title: Configuration
 ---
 
-# <small>BH.oM.XML.</small>**Configuration**
+# <small>BH.oM.XML.CSProject.</small>**Configuration**
 
 
 

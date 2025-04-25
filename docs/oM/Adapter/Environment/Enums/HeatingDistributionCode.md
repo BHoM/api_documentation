@@ -2,7 +2,7 @@
 title: HeatingDistributionCode
 ---
 
-# <small>BH.oM.Environment.</small>**HeatingDistributionCode**
+# <small>BH.oM.Environment.SAP.</small>**HeatingDistributionCode**
 
 Code which indicates the type of heating distribution system.
 

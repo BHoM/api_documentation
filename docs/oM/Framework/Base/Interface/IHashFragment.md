@@ -2,7 +2,7 @@
 title: IHashFragment
 ---
 
-# <small>BH.oM.</small>**IHashFragment**
+# <small>BH.oM.Base.</small>**IHashFragment**
 
 Stores the hash of the parent BHoMObject.
 

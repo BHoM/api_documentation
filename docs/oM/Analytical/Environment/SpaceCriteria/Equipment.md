@@ -2,7 +2,7 @@
 title: Equipment
 ---
 
-# <small>BH.oM.Environment.</small>**Equipment**
+# <small>BH.oM.Environment.SpaceCriteria.</small>**Equipment**
 
 Equipment gains are defined as the amount of both latent and sensible heat contributed by specified equipment within the space (dishwasher, oven, etc)
 

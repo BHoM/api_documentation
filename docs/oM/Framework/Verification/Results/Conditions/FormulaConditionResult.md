@@ -2,7 +2,7 @@
 title: FormulaConditionResult
 ---
 
-# <small>BH.oM.Verification.</small>**FormulaConditionResult**
+# <small>BH.oM.Verification.Results.</small>**FormulaConditionResult**
 
 Object representing result of FormulaCondition.
 

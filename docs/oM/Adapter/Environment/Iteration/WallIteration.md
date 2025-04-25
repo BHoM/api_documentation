@@ -2,7 +2,7 @@
 title: WallIteration
 ---
 
-# <small>BH.oM.Environment.</small>**WallIteration**
+# <small>BH.oM.Environment.SAP.</small>**WallIteration**
 
 Describe a single iteration for wall changes within the SAP Context. If values for both UValue and Curtain Wall are provided, both will be applied to the walls specified, i.e. they will not be blended to produce one iteration for the UValue change, one for Curtain Wall change, and one for both.
 

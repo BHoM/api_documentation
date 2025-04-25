@@ -2,7 +2,7 @@
 title: BarRequiredArea
 ---
 
-# <small>BH.oM.Structure.</small>**BarRequiredArea**
+# <small>BH.oM.Structure.Results.</small>**BarRequiredArea**
 
 Minimum required area of reinforcement for a Bar.
 

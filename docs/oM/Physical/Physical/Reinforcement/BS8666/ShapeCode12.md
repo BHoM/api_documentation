@@ -2,7 +2,7 @@
 title: ShapeCode12
 ---
 
-# <small>BH.oM.Physical.Reinforcement.</small>**ShapeCode12**
+# <small>BH.oM.Physical.Reinforcement.BS8666.</small>**ShapeCode12**
 
 A reinforcement bar with shape code 12 to BS 8666:2020 in the XY Plane with the free end of the B segment at the Origin aligned with the X axisand the A segment aligned with the Y axis.
 

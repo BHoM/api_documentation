@@ -2,7 +2,7 @@
 title: DiffingConfig
 ---
 
-# <small>BH.oM.</small>**DiffingConfig**
+# <small>BH.oM.Diffing.</small>**DiffingConfig**
 
 General configurations for the Diffing process, including settings for the Hash computation.
 

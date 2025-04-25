@@ -2,7 +2,7 @@
 title: CoefficientFragment
 ---
 
-# <small>BH.oM.Environment.</small>**CoefficientFragment**
+# <small>BH.oM.Environment.Fragments.</small>**CoefficientFragment**
 
 Fragment containing lighting, occupant and equipment view coefficient property
 

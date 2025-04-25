@@ -2,7 +2,7 @@
 title: IRebarIntent
 ---
 
-# <small>BH.oM.Structure.</small>**IRebarIntent**
+# <small>BH.oM.Structure.Reinforcement.</small>**IRebarIntent**
 
 Base interface for any rebar intent.
 

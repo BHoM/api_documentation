@@ -2,7 +2,7 @@
 title: TransverseReinforcement
 ---
 
-# <small>BH.oM.Structure.</small>**TransverseReinforcement**
+# <small>BH.oM.Structure.Reinforcement.</small>**TransverseReinforcement**
 
 Defines any transverse reinforcement along a Bar.
 

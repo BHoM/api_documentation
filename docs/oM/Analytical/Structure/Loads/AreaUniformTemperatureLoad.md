@@ -2,7 +2,7 @@
 title: AreaUniformTemperatureLoad
 ---
 
-# <small>BH.oM.Structure.</small>**AreaUniformTemperatureLoad**
+# <small>BH.oM.Structure.Loads.</small>**AreaUniformTemperatureLoad**
 
 Uniform temperature load for area elements such as Panels and FEMeshes.
 

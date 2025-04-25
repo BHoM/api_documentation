@@ -2,7 +2,7 @@
 title: PanelAnalyticalFragment
 ---
 
-# <small>BH.oM.Environment.</small>**PanelAnalyticalFragment**
+# <small>BH.oM.Environment.Fragments.</small>**PanelAnalyticalFragment**
 
 Fragment containing geometric and thermal properties of a panel
 

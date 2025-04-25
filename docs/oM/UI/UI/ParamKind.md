@@ -2,7 +2,7 @@
 title: ParamKind
 ---
 
-# <small>BH.oM.</small>**ParamKind**
+# <small>BH.oM.UI.</small>**ParamKind**
 
 
 

@@ -2,7 +2,7 @@
 title: CvalueFocalMethodEnum
 ---
 
-# <small>BH.oM.Humans.</small>**CvalueFocalMethodEnum**
+# <small>BH.oM.Humans.ViewQuality.</small>**CvalueFocalMethodEnum**
 
 
 

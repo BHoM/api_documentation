@@ -2,7 +2,7 @@
 title: Timber
 ---
 
-# <small>BH.oM.Structure.</small>**Timber**
+# <small>BH.oM.Structure.MaterialFragments.</small>**Timber**
 
 Structural timber material to be used on structural elements and properties or as a fragment of the physical material.
 

@@ -2,7 +2,7 @@
 title: MethodNode
 ---
 
-# <small>BH.oM.</small>**MethodNode**
+# <small>BH.oM.Programming.</small>**MethodNode**
 
 A syntax node representing a call to a method.
 

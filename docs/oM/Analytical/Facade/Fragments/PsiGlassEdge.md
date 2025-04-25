@@ -2,7 +2,7 @@
 title: PsiGlassEdge
 ---
 
-# <small>BH.oM.Facade.</small>**PsiGlassEdge**
+# <small>BH.oM.Facade.Fragments.</small>**PsiGlassEdge**
 
 A Psi value representing the linear thermal bridging value in W/m2 at a glass to frame edge interface.
 

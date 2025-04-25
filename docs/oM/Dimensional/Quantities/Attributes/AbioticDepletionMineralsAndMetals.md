@@ -2,7 +2,7 @@
 title: AbioticDepletionMineralsAndMetals
 ---
 
-# <small>BH.oM.Quantities.</small>**AbioticDepletionMineralsAndMetals**
+# <small>BH.oM.Quantities.Attributes.</small>**AbioticDepletionMineralsAndMetals**
 
 Quantity type for Abiotic depletion potential (ADP) for minerals and metals (non-fossil resources).
 

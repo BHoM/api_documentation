@@ -2,7 +2,7 @@
 title: WindDirectionResult
 ---
 
-# <small>BH.oM.Environment.</small>**WindDirectionResult**
+# <small>BH.oM.Environment.Results.</small>**WindDirectionResult**
 
 A results object containing wind-direction data.
 

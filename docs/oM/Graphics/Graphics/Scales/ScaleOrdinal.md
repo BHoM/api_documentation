@@ -2,7 +2,7 @@
 title: ScaleOrdinal
 ---
 
-# <small>BH.oM.Graphics.</small>**ScaleOrdinal**
+# <small>BH.oM.Graphics.Scales.</small>**ScaleOrdinal**
 
 Scale for mapping from a discrete input domain to a discrete output range.
 

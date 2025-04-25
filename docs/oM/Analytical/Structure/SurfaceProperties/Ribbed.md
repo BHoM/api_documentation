@@ -2,7 +2,7 @@
 title: Ribbed
 ---
 
-# <small>BH.oM.Structure.</small>**Ribbed**
+# <small>BH.oM.Structure.SurfaceProperties.</small>**Ribbed**
 
 Property for 2D analytical elements, made up of a slab on top of parallel ribs running in one direction, all sharing the same material.
 

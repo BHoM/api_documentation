@@ -2,7 +2,7 @@
 title: IElement3D
 ---
 
-# <small>BH.oM.</small>**IElement3D**
+# <small>BH.oM.Dimensional.</small>**IElement3D**
 
 Enables geometrical operations to be performed on a Solid based spatial element, whilst preserving all other object properties as unchanged.
 

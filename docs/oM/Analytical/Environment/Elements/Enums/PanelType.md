@@ -2,7 +2,7 @@
 title: PanelType
 ---
 
-# <small>BH.oM.Environment.</small>**PanelType**
+# <small>BH.oM.Environment.Elements.</small>**PanelType**
 
 The type of environmental surface (e.g. Wall, Floor, Roof)
 

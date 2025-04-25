@@ -2,7 +2,7 @@
 title: LeftUpperLeg
 ---
 
-# <small>BH.oM.Humans.</small>**LeftUpperLeg**
+# <small>BH.oM.Humans.BodyParts.</small>**LeftUpperLeg**
 
 
 

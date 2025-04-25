@@ -2,7 +2,7 @@
 title: GenericOrthotropicMaterial
 ---
 
-# <small>BH.oM.Structure.</small>**GenericOrthotropicMaterial**
+# <small>BH.oM.Structure.MaterialFragments.</small>**GenericOrthotropicMaterial**
 
 Generic orthotropic material to be used for orthotropic materials not yet explicitly supported.
 

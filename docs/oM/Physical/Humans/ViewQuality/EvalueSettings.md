@@ -2,7 +2,7 @@
 title: EvalueSettings
 ---
 
-# <small>BH.oM.Humans.</small>**EvalueSettings**
+# <small>BH.oM.Humans.ViewQuality.</small>**EvalueSettings**
 
 
 

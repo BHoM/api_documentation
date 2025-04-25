@@ -2,7 +2,7 @@
 title: ResultProperties
 ---
 
-# <small>BH.oM.</small>**ResultProperties**
+# <small>BH.oM.Ground.</small>**ResultProperties**
 
 Properties related to the results based on the tests of the contaminant.
 

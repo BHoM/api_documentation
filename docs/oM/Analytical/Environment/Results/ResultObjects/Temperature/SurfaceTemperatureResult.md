@@ -2,7 +2,7 @@
 title: SurfaceTemperatureResult
 ---
 
-# <small>BH.oM.Environment.</small>**SurfaceTemperatureResult**
+# <small>BH.oM.Environment.Results.</small>**SurfaceTemperatureResult**
 
 A results object containing surface temperature data.
 

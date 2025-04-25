@@ -2,7 +2,7 @@
 title: EutrophicationCMLElementResult
 ---
 
-# <small>BH.oM.LifeCycleAssessment.</small>**EutrophicationCMLElementResult**
+# <small>BH.oM.LifeCycleAssessment.Results.</small>**EutrophicationCMLElementResult**
 
 Result class for resulting Eutrophication (EN 15804+A1) for a particular Element.
 

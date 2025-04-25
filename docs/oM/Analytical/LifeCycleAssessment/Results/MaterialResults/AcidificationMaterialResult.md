@@ -2,7 +2,7 @@
 title: AcidificationMaterialResult
 ---
 
-# <small>BH.oM.LifeCycleAssessment.</small>**AcidificationMaterialResult**
+# <small>BH.oM.LifeCycleAssessment.Results.</small>**AcidificationMaterialResult**
 
 Result class for resulting Acidification for a particular Material and EPD.
 

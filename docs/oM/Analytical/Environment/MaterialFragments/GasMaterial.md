@@ -2,7 +2,7 @@
 title: GasMaterial
 ---
 
-# <small>BH.oM.Environment.</small>**GasMaterial**
+# <small>BH.oM.Environment.MaterialFragments.</small>**GasMaterial**
 
 Fragment containing gas material properties
 

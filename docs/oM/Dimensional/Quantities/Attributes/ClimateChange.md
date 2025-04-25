@@ -2,7 +2,7 @@
 title: ClimateChange
 ---
 
-# <small>BH.oM.Quantities.</small>**ClimateChange**
+# <small>BH.oM.Quantities.Attributes.</small>**ClimateChange**
 
 Quantity type for global warming potential.
 

@@ -2,7 +2,7 @@
 title: OpeningColour
 ---
 
-# <small>BH.oM.</small>**OpeningColour**
+# <small>BH.oM.dKoP.</small>**OpeningColour**
 
 
 

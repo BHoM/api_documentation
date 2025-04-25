@@ -2,7 +2,7 @@
 title: Mass
 ---
 
-# <small>BH.oM.Quantities.</small>**Mass**
+# <small>BH.oM.Quantities.Attributes.</small>**Mass**
 
 Dimensional quantity as defined by the International System of Quantities
 

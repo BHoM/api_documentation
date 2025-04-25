@@ -2,7 +2,7 @@
 title: DoorAndWindowThermalPerformance
 ---
 
-# <small>BH.oM.</small>**DoorAndWindowThermalPerformance**
+# <small>BH.oM.dKoP.</small>**DoorAndWindowThermalPerformance**
 
 
 

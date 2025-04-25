@@ -2,7 +2,7 @@
 title: CorrugatedDeck
 ---
 
-# <small>BH.oM.Structure.</small>**CorrugatedDeck**
+# <small>BH.oM.Structure.SurfaceProperties.</small>**CorrugatedDeck**
 
 Property for 2D analytical elements representing a corrugated deck. Generally used to represent concrete on metal deck.
 

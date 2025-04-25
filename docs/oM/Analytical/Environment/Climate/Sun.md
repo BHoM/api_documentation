@@ -2,7 +2,7 @@
 title: Sun
 ---
 
-# <small>BH.oM.Environment.</small>**Sun**
+# <small>BH.oM.Environment.Climate.</small>**Sun**
 
 An environment object used to define the position of the sun (in azimuth and elevation)
 

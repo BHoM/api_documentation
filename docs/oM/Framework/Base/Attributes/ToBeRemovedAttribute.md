@@ -2,7 +2,7 @@
 title: ToBeRemovedAttribute
 ---
 
-# <small>BH.oM.Base.</small>**ToBeRemovedAttribute**
+# <small>BH.oM.Base.Attributes.</small>**ToBeRemovedAttribute**
 
 
 

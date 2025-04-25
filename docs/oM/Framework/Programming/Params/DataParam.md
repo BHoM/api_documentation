@@ -2,7 +2,7 @@
 title: DataParam
 ---
 
-# <small>BH.oM.</small>**DataParam**
+# <small>BH.oM.Programming.</small>**DataParam**
 
 Output of a syntax node.
 

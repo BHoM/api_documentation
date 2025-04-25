@@ -2,7 +2,7 @@
 title: Stirrup
 ---
 
-# <small>BH.oM.Physical.</small>**Stirrup**
+# <small>BH.oM.Physical.Reinforcement.</small>**Stirrup**
 
 Defining shear reinforcement for framing elements.
 

@@ -2,7 +2,7 @@
 title: ShapeCode56
 ---
 
-# <small>BH.oM.Physical.Reinforcement.</small>**ShapeCode56**
+# <small>BH.oM.Physical.Reinforcement.BS8666.</small>**ShapeCode56**
 
 A reinforcement bar with shape code 56 to BS 8666:2020 in the XY Plane centred on the free end of the F segment aligned with the Y axis,the  A/C/E parameters are aligned with the X axis.
 

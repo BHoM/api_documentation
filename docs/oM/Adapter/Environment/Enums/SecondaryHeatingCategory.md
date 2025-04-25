@@ -2,7 +2,7 @@
 title: SecondaryHeatingCategory
 ---
 
-# <small>BH.oM.Environment.</small>**SecondaryHeatingCategory**
+# <small>BH.oM.Environment.SAP.</small>**SecondaryHeatingCategory**
 
 Codes used to indicate a category of secondary heating system.
 

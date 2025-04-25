@@ -2,7 +2,7 @@
 title: Layer
 ---
 
-# <small>BH.oM.Structure.</small>**Layer**
+# <small>BH.oM.Structure.SurfaceProperties.</small>**Layer**
 
 A layer object with a given material, orientation, and thickness.
 

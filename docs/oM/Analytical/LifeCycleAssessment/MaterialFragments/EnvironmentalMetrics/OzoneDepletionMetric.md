@@ -2,7 +2,7 @@
 title: OzoneDepletionMetric
 ---
 
-# <small>BH.oM.LifeCycleAssessment.</small>**OzoneDepletionMetric**
+# <small>BH.oM.LifeCycleAssessment.MaterialFragments.</small>**OzoneDepletionMetric**
 
 Ozone Depletion, measured in kg CFC-11 eq, refers to the substances that destroy ozone molecules. This environmental indicator forms part of an Environmental Product Declaration and should be evaluated based on the Quantity Type stated on the Environmental Product Declaration.
 

@@ -2,7 +2,7 @@
 title: TimeIndexResult
 ---
 
-# <small>BH.oM.Environment.</small>**TimeIndexResult**
+# <small>BH.oM.Environment.Results.</small>**TimeIndexResult**
 
 A collection of results associated with a point-in-time.
 

@@ -2,7 +2,7 @@
 title: Span
 ---
 
-# <small>BH.oM.Structure.</small>**Span**
+# <small>BH.oM.Structure.Design.</small>**Span**
 
 
 

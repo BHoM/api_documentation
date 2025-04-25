@@ -2,7 +2,7 @@
 title: EnergyPerUnitArea
 ---
 
-# <small>BH.oM.Quantities.</small>**EnergyPerUnitArea**
+# <small>BH.oM.Quantities.Attributes.</small>**EnergyPerUnitArea**
 
 Dimensional quantity as defined by the International System of Quantities
 

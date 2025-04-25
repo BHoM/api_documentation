@@ -2,7 +2,7 @@
 title: ICondition
 ---
 
-# <small>BH.oM.Verification.</small>**ICondition**
+# <small>BH.oM.Verification.Conditions.</small>**ICondition**
 
 Top level interface for conditions: lightweight objects describing a yes/no question to be asked against another object.
 

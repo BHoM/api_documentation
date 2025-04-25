@@ -2,7 +2,7 @@
 title: IAnalysisResult
 ---
 
-# <small>BH.oM.Environment.</small>**IAnalysisResult**
+# <small>BH.oM.Environment.Results.</small>**IAnalysisResult**
 
 Interface for all AnalysisResult objects.
 

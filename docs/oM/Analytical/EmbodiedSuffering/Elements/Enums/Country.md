@@ -2,7 +2,7 @@
 title: Country
 ---
 
-# <small>BH.oM.EmbodiedSuffering.</small>**Country**
+# <small>BH.oM.EmbodiedSuffering.Elements.</small>**Country**
 
 A list of countries around the globe derived from: https://www.worldometers.info/geography/alphabetical-list-of-countries/
 

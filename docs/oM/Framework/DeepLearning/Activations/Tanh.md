@@ -2,7 +2,7 @@
 title: Tanh
 ---
 
-# <small>BH.oM.DeepLearning.</small>**Tanh**
+# <small>BH.oM.DeepLearning.Activations.</small>**Tanh**
 
 
 

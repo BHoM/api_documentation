@@ -2,7 +2,7 @@
 title: CommunityHeatingUseCode
 ---
 
-# <small>BH.oM.Environment.</small>**CommunityHeatingUseCode**
+# <small>BH.oM.Environment.SAP.</small>**CommunityHeatingUseCode**
 
 Code which indicates what kind of heating a community heating system is used for.
 

@@ -2,7 +2,7 @@
 title: CellularSection
 ---
 
-# <small>BH.oM.Structure.</small>**CellularSection**
+# <small>BH.oM.Structure.SectionProperties.</small>**CellularSection**
 
 Steel section to be used on Bars. Defined by a SectionProfile.
 

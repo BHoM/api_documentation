@@ -2,7 +2,7 @@
 title: Bracing
 ---
 
-# <small>BH.oM.Physical.</small>**Bracing**
+# <small>BH.oM.Physical.Elements.</small>**Bracing**
 
 
 

@@ -2,7 +2,7 @@
 title: SolarCollectorOvershadingCode
 ---
 
-# <small>BH.oM.Environment.</small>**SolarCollectorOvershadingCode**
+# <small>BH.oM.Environment.SAP.</small>**SolarCollectorOvershadingCode**
 
 Code which indicates the amount of solar collector overshading.
 

@@ -2,7 +2,7 @@
 title: Boxes
 ---
 
-# <small>BH.oM.Graphics.</small>**Boxes**
+# <small>BH.oM.Graphics.Components.</small>**Boxes**
 
 Rectangular box configuration for representation of entity boundaries.
 

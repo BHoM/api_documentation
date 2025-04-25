@@ -2,7 +2,7 @@
 title: Exhaust
 ---
 
-# <small>BH.oM.Environment.</small>**Exhaust**
+# <small>BH.oM.Environment.SpaceCriteria.</small>**Exhaust**
 
 Exhaust is indicative of the amount of air that should be extracted from a space based on the space type (eg laboratory, woodshop) or fixtures contained within the space (eg toilets, showers)
 

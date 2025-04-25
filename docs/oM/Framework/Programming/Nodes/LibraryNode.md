@@ -2,7 +2,7 @@
 title: LibraryNode
 ---
 
-# <small>BH.oM.</small>**LibraryNode**
+# <small>BH.oM.Programming.</small>**LibraryNode**
 
 A syntax node corresponding to a call to the CreateData BHoM component.
 

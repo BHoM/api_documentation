@@ -2,7 +2,7 @@
 title: Scorer
 ---
 
-# <small>BH.oM.</small>**Scorer**
+# <small>BH.oM.Search.</small>**Scorer**
 
 Defines the scorer method to be used in the fuzzy matching methods (i.e. Extract).
 

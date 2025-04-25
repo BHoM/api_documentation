@@ -2,7 +2,7 @@
 title: LoadFragment
 ---
 
-# <small>BH.oM.Environment.</small>**LoadFragment**
+# <small>BH.oM.Environment.Fragments.</small>**LoadFragment**
 
 Fragment containing heating and cooling load
 

@@ -2,7 +2,7 @@
 title: CrossEntropy
 ---
 
-# <small>BH.oM.DeepLearning.</small>**CrossEntropy**
+# <small>BH.oM.DeepLearning.Losses.</small>**CrossEntropy**
 
 
 

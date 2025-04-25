@@ -2,7 +2,7 @@
 title: ITemperatureResult
 ---
 
-# <small>BH.oM.Environment.</small>**ITemperatureResult**
+# <small>BH.oM.Environment.Results.</small>**ITemperatureResult**
 
 A results object containing temperature data.
 

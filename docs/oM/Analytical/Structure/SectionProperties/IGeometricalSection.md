@@ -2,7 +2,7 @@
 title: IGeometricalSection
 ---
 
-# <small>BH.oM.Structure.</small>**IGeometricalSection**
+# <small>BH.oM.Structure.SectionProperties.</small>**IGeometricalSection**
 
 Interface for sections based on Shape profiles.
 

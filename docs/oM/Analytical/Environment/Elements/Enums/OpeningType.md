@@ -2,7 +2,7 @@
 title: OpeningType
 ---
 
-# <small>BH.oM.Environment.</small>**OpeningType**
+# <small>BH.oM.Environment.Elements.</small>**OpeningType**
 
 The type of cutout or hole in a building surface/panel (e.g. Window, Door, Rooflight)
 

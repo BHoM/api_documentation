@@ -2,7 +2,7 @@
 title: SpanDirection
 ---
 
-# <small>BH.oM.Structure.</small>**SpanDirection**
+# <small>BH.oM.Structure.Design.</small>**SpanDirection**
 
 
 

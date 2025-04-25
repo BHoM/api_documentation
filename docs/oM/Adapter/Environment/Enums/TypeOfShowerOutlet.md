@@ -2,7 +2,7 @@
 title: TypeOfShowerOutlet
 ---
 
-# <small>BH.oM.Environment.</small>**TypeOfShowerOutlet**
+# <small>BH.oM.Environment.SAP.</small>**TypeOfShowerOutlet**
 
 .
 

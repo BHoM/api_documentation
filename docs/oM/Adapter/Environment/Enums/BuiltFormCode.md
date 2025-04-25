@@ -2,7 +2,7 @@
 title: BuiltFormCode
 ---
 
-# <small>BH.oM.Environment.</small>**BuiltFormCode**
+# <small>BH.oM.Environment.SAP.</small>**BuiltFormCode**
 
 Code which indicates the form in which a property is built.
 

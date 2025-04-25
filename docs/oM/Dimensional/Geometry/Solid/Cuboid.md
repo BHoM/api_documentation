@@ -2,7 +2,7 @@
 title: Cuboid
 ---
 
-# <small>BH.oM.</small>**Cuboid**
+# <small>BH.oM.Geometry.</small>**Cuboid**
 
 A polyhedron. Standard cuboid consisting of six right-angled quadrilateral faces.
 

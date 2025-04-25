@@ -2,7 +2,7 @@
 title: NoAutoConstructorAttribute
 ---
 
-# <small>BH.oM.Base.</small>**NoAutoConstructorAttribute**
+# <small>BH.oM.Base.Attributes.</small>**NoAutoConstructorAttribute**
 
 Prevents an auto-constructor component to be available in the UI for the targeted class. This means that `Engine.Create` methods will be the only option to generate instances of that class in the UI.
 

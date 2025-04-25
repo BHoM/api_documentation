@@ -2,7 +2,7 @@
 title: DirectNormalRadiationResult
 ---
 
-# <small>BH.oM.Environment.</small>**DirectNormalRadiationResult**
+# <small>BH.oM.Environment.Results.</small>**DirectNormalRadiationResult**
 
 A results object containing direct normal radiation data.
 
