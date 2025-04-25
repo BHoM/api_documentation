@@ -134,7 +134,7 @@ namespace SchemaDocumentationGenerator
 
             IEnumerable<string> parts;
             if (split[2] == "Adapters")
-                return $"{split[2]}.{split[3]}";
+                return $"{split[2]}/{split[3]}";
             else
                 return split[2];
         }
