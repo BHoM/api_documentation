@@ -217,7 +217,7 @@ namespace SchemaDocumentationGenerator
 
             string title = type.TitleName(true);
             string[] split = title.Split('.');
-            string nameSpace = string.Join('.', split.Take(split.Length - 2));
+            string nameSpace = string.Join('.', split.Take(split.Length - 1));
             string name = split[split.Length - 1];
             markdown += $"# <small>{nameSpace}.</small>**{name}**";
             markdown += "\n\n";
