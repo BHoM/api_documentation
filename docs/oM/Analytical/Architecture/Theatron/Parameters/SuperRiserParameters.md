@@ -2,7 +2,7 @@
 title: SuperRiserParameters
 ---
 
-# <small>BH.oM.Architecture.</small>**SuperRiserParameters**
+# <small>BH.oM.Architecture.Theatron.</small>**SuperRiserParameters**
 
 
 

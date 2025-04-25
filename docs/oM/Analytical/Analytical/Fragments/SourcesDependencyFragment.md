@@ -2,7 +2,7 @@
 title: SourcesDependencyFragment
 ---
 
-# <small>BH.oM.Analytical.</small>**SourcesDependencyFragment**
+# <small>BH.oM.Analytical.Fragments.</small>**SourcesDependencyFragment**
 
 Dependency fragment used to define one or more Relations that originate at the specified sources and use the IBHoMObject owning this fragment as the target.
 

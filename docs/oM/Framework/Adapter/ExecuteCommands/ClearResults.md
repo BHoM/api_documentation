@@ -2,7 +2,7 @@
 title: ClearResults
 ---
 
-# <small>BH.oM.Adapter.</small>**ClearResults**
+# <small>BH.oM.Adapter.Commands.</small>**ClearResults**
 
 Used to instruct the external software to clear/delete results from a file or model.
 

@@ -2,7 +2,7 @@
 title: TheatronPlan
 ---
 
-# <small>BH.oM.Architecture.</small>**TheatronPlan**
+# <small>BH.oM.Architecture.Theatron.</small>**TheatronPlan**
 
 
 

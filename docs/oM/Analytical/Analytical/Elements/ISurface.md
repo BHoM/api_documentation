@@ -2,7 +2,7 @@
 title: ISurface
 ---
 
-# <small>BH.oM.Analytical.</small>**ISurface**
+# <small>BH.oM.Analytical.Elements.</small>**ISurface**
 
 
 

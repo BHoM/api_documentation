@@ -2,7 +2,7 @@
 title: Room
 ---
 
-# <small>BH.oM.Architecture.</small>**Room**
+# <small>BH.oM.Architecture.Elements.</small>**Room**
 
 
 

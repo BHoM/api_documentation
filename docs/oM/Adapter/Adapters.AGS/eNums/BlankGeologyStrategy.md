@@ -2,7 +2,7 @@
 title: BlankGeologyStrategy
 ---
 
-# <small>BH.oM.Adapters.</small>**BlankGeologyStrategy**
+# <small>BH.oM.Adapters.AGS.</small>**BlankGeologyStrategy**
 
 Different approaches for the AGS_Toolkit to handle blank geology.
 

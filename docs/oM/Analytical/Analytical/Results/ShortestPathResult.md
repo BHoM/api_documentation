@@ -2,7 +2,7 @@
 title: ShortestPathResult
 ---
 
-# <small>BH.oM.Analytical.</small>**ShortestPathResult**
+# <small>BH.oM.Analytical.Elements.</small>**ShortestPathResult**
 
 Results associated with the computation of shortest paths.
 

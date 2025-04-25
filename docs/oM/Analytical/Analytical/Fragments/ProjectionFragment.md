@@ -2,7 +2,7 @@
 title: ProjectionFragment
 ---
 
-# <small>BH.oM.Analytical.</small>**ProjectionFragment**
+# <small>BH.oM.Analytical.Fragments.</small>**ProjectionFragment**
 
 Fragment used to define entity projection metadata.
 

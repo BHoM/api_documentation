@@ -2,7 +2,7 @@
 title: ObjectIdentifierAttribute
 ---
 
-# <small>BH.oM.Analytical.</small>**ObjectIdentifierAttribute**
+# <small>BH.oM.Analytical.Results.</small>**ObjectIdentifierAttribute**
 
 Attribute to be assigned to properties of `IResult`-implementing classes. Tagged properties must contain the Identifier of the object (or of a subpart of the object) which the result is targeting.
 

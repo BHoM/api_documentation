@@ -2,7 +2,7 @@
 title: Panel
 ---
 
-# <small>BH.oM.</small>**Panel**
+# <small>BH.oM.Acoustic.</small>**Panel**
 
 
 

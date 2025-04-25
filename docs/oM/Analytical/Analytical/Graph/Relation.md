@@ -2,7 +2,7 @@
 title: Relation
 ---
 
-# <small>BH.oM.Analytical.</small>**Relation**
+# <small>BH.oM.Analytical.Graph.</small>**Relation**
 
 Base class for all Relation classes.
 

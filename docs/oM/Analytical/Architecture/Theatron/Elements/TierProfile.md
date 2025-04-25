@@ -2,7 +2,7 @@
 title: TierProfile
 ---
 
-# <small>BH.oM.Architecture.</small>**TierProfile**
+# <small>BH.oM.Architecture.Theatron.</small>**TierProfile**
 
 
 

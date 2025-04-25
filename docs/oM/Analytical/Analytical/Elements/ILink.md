@@ -2,7 +2,7 @@
 title: ILink&lt;TNode&gt;
 ---
 
-# <small>BH.oM.Analytical.</small>**ILink&lt;TNode&gt;**
+# <small>BH.oM.Analytical.Elements.</small>**ILink&lt;TNode&gt;**
 
 
 

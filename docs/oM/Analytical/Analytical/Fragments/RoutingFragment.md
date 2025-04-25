@@ -2,7 +2,7 @@
 title: RoutingFragment
 ---
 
-# <small>BH.oM.Analytical.</small>**RoutingFragment**
+# <small>BH.oM.Analytical.Fragments.</small>**RoutingFragment**
 
 Fragment used in the computation of shortest paths.
 

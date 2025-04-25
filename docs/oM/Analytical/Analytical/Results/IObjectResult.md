@@ -2,7 +2,7 @@
 title: IObjectResult
 ---
 
-# <small>BH.oM.Analytical.</small>**IObjectResult**
+# <small>BH.oM.Analytical.Results.</small>**IObjectResult**
 
 Base interface for result classes where the values apply to the entire object referenced to with the ObjectID.
 

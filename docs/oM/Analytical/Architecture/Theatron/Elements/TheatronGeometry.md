@@ -2,7 +2,7 @@
 title: TheatronGeometry
 ---
 
-# <small>BH.oM.Architecture.</small>**TheatronGeometry**
+# <small>BH.oM.Architecture.Theatron.</small>**TheatronGeometry**
 
 
 

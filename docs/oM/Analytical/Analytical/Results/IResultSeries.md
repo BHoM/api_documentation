@@ -2,7 +2,7 @@
 title: IResultSeries
 ---
 
-# <small>BH.oM.Analytical.</small>**IResultSeries**
+# <small>BH.oM.Analytical.Results.</small>**IResultSeries**
 
 Base interface to flag that the result contains a series of results, for example values across each hour of the year and were the amount of data means memory usage is an issue.
 A class inplementing this interface is assumed to have the result values stored on a property that implements the IReadOnlyList&lt;double&gt;.

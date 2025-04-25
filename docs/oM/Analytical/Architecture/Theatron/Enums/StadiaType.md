@@ -2,7 +2,7 @@
 title: StadiaType
 ---
 
-# <small>BH.oM.Architecture.</small>**StadiaType**
+# <small>BH.oM.Architecture.Theatron.</small>**StadiaType**
 
 
 

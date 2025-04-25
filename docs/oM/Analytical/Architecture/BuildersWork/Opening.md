@@ -2,7 +2,7 @@
 title: Opening
 ---
 
-# <small>BH.oM.Architecture.</small>**Opening**
+# <small>BH.oM.Architecture.BuildersWork.</small>**Opening**
 
 Object representing a builders work opening as an entity independent of its host.
 

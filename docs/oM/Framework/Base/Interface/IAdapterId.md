@@ -2,7 +2,7 @@
 title: IAdapterId
 ---
 
-# <small>BH.oM.</small>**IAdapterId**
+# <small>BH.oM.Base.</small>**IAdapterId**
 
 
 

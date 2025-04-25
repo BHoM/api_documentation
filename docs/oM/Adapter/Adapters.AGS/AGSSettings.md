@@ -2,7 +2,7 @@
 title: AGSSettings
 ---
 
-# <small>BH.oM.Adapters.</small>**AGSSettings**
+# <small>BH.oM.Adapters.AGS.</small>**AGSSettings**
 
 General settings for any Adapter, to be specified when instantiating the Adapter.Implement this class to make your own Toolkit settings, e.g. SpeckleAdapterSettings.
 

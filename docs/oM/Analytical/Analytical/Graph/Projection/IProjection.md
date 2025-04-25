@@ -2,7 +2,7 @@
 title: IProjection
 ---
 
-# <small>BH.oM.Analytical.Graph.</small>**IProjection**
+# <small>BH.oM.Analytical.Graph.Projection.</small>**IProjection**
 
 Interface common to all graph projections.
 

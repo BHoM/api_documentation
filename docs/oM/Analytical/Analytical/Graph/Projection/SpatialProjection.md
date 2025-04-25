@@ -2,7 +2,7 @@
 title: SpatialProjection
 ---
 
-# <small>BH.oM.Analytical.Graph.</small>**SpatialProjection**
+# <small>BH.oM.Analytical.Graph.Projection.</small>**SpatialProjection**
 
 Spatial Projection for Graphs.
 

@@ -2,7 +2,7 @@
 title: ActionConfig
 ---
 
-# <small>BH.oM.</small>**ActionConfig**
+# <small>BH.oM.Adapter.</small>**ActionConfig**
 
 Configurations specific for an Adapter Action (Push, Pull, etc).
 Consider that your tookit might have a more specific implementation available. Try to look for [your toolkit name]ActionConfig.

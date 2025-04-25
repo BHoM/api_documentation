@@ -2,7 +2,7 @@
 title: StadiaParameters
 ---
 
-# <small>BH.oM.Architecture.</small>**StadiaParameters**
+# <small>BH.oM.Architecture.Theatron.</small>**StadiaParameters**
 
 
 

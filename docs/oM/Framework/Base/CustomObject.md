@@ -2,7 +2,7 @@
 title: CustomObject
 ---
 
-# <small>BH.oM.</small>**CustomObject**
+# <small>BH.oM.Base.</small>**CustomObject**
 
 
 

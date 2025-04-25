@@ -2,7 +2,7 @@
 title: EvalueViewType
 ---
 
-# <small>BH.oM.Architecture.</small>**EvalueViewType**
+# <small>BH.oM.Architecture.Theatron.</small>**EvalueViewType**
 
 
 

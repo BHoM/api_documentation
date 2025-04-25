@@ -2,7 +2,7 @@
 title: GraphicalProjection
 ---
 
-# <small>BH.oM.Analytical.Graph.</small>**GraphicalProjection**
+# <small>BH.oM.Analytical.Graph.Projection.</small>**GraphicalProjection**
 
 Graphical projection for Graphs.
 

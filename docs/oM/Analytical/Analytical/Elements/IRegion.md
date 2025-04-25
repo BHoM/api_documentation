@@ -2,7 +2,7 @@
 title: IRegion
 ---
 
-# <small>BH.oM.Analytical.</small>**IRegion**
+# <small>BH.oM.Analytical.Elements.</small>**IRegion**
 
 Base interface for analytical elements defined by a single closed perimiter curve.
 

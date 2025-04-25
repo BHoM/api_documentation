@@ -2,7 +2,7 @@
 title: IRelation
 ---
 
-# <small>BH.oM.Analytical.</small>**IRelation**
+# <small>BH.oM.Analytical.Graph.</small>**IRelation**
 
 Interface common to all Relation objects.
 

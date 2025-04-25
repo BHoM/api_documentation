@@ -2,7 +2,7 @@
 title: IOpening&lt;TEdge&gt;
 ---
 
-# <small>BH.oM.Analytical.</small>**IOpening&lt;TEdge&gt;**
+# <small>BH.oM.Analytical.Elements.</small>**IOpening&lt;TEdge&gt;**
 
 
 

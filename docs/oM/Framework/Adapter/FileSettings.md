@@ -2,7 +2,7 @@
 title: FileSettings
 ---
 
-# <small>BH.oM.</small>**FileSettings**
+# <small>BH.oM.Adapter.</small>**FileSettings**
 
 The fileSettings, file name and directory, to use with an adapter for push and pull
 

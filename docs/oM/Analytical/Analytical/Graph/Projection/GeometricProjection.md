@@ -2,7 +2,7 @@
 title: GeometricProjection
 ---
 
-# <small>BH.oM.Analytical.Graph.</small>**GeometricProjection**
+# <small>BH.oM.Analytical.Graph.Projection.</small>**GeometricProjection**
 
 Geometry projection for Graphs.
 

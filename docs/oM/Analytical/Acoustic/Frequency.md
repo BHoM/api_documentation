@@ -2,7 +2,7 @@
 title: Frequency
 ---
 
-# <small>BH.oM.</small>**Frequency**
+# <small>BH.oM.Acoustic.</small>**Frequency**
 
 
 

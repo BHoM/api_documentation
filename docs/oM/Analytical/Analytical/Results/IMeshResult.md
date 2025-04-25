@@ -2,7 +2,7 @@
 title: IMeshResult&lt;T&gt;
 ---
 
-# <small>BH.oM.Analytical.</small>**IMeshResult&lt;T&gt;**
+# <small>BH.oM.Analytical.Results.</small>**IMeshResult&lt;T&gt;**
 
 Base interface for any Mesh result class which is a collection of discrete MeshElementResults.
 

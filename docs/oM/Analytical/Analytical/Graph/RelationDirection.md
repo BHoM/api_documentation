@@ -2,7 +2,7 @@
 title: RelationDirection
 ---
 
-# <small>BH.oM.Analytical.</small>**RelationDirection**
+# <small>BH.oM.Analytical.Graph.</small>**RelationDirection**
 
 
 

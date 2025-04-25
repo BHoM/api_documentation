@@ -2,7 +2,7 @@
 title: IMeshElementResult
 ---
 
-# <small>BH.oM.Analytical.</small>**IMeshElementResult**
+# <small>BH.oM.Analytical.Results.</small>**IMeshElementResult**
 
 Base interface for mesh element results. This is the result for a single discrete node or face of the mesh the result aligns with.
 

@@ -2,7 +2,7 @@
 title: Graph
 ---
 
-# <small>BH.oM.Analytical.</small>**Graph**
+# <small>BH.oM.Analytical.Graph.</small>**Graph**
 
 A set of IBHoMObject entities and the relations between them.
 

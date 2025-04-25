@@ -2,7 +2,7 @@
 title: IResultItem
 ---
 
-# <small>BH.oM.Analytical.</small>**IResultItem**
+# <small>BH.oM.Analytical.Results.</small>**IResultItem**
 
 Base interface to flag that the result is a simple result line.
 A class implementing the IResultItem interface should only contain basic properties such as doubles, ints, strings, DateTime and similar.

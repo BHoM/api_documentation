@@ -2,7 +2,7 @@
 title: Close
 ---
 
-# <small>BH.oM.Adapter.</small>**Close**
+# <small>BH.oM.Adapter.Commands.</small>**Close**
 
 Used to instruct the external software to close a file.
 

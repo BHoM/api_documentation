@@ -2,7 +2,7 @@
 title: SeatingBlock
 ---
 
-# <small>BH.oM.Architecture.</small>**SeatingBlock**
+# <small>BH.oM.Architecture.Theatron.</small>**SeatingBlock**
 
 
 

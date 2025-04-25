@@ -2,7 +2,7 @@
 title: ProfileParameters
 ---
 
-# <small>BH.oM.Architecture.</small>**ProfileParameters**
+# <small>BH.oM.Architecture.Theatron.</small>**ProfileParameters**
 
 
 

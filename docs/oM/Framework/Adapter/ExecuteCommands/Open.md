@@ -2,7 +2,7 @@
 title: Open
 ---
 
-# <small>BH.oM.Adapter.</small>**Open**
+# <small>BH.oM.Adapter.Commands.</small>**Open**
 
 Used to instruct the external software to open a file.
 

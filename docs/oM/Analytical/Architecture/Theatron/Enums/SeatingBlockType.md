@@ -2,7 +2,7 @@
 title: SeatingBlockType
 ---
 
-# <small>BH.oM.Architecture.</small>**SeatingBlockType**
+# <small>BH.oM.Architecture.Theatron.</small>**SeatingBlockType**
 
 
 

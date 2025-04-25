@@ -2,7 +2,7 @@
 title: ScenarioIdentifierAttribute
 ---
 
-# <small>BH.oM.Analytical.</small>**ScenarioIdentifierAttribute**
+# <small>BH.oM.Analytical.Results.</small>**ScenarioIdentifierAttribute**
 
 Attribute to be assigned to properties of `IResult`-implementing classes. Tagged properties define the scenario in which the result was generated.
 

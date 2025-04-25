@@ -2,7 +2,7 @@
 title: IPanel&lt;TEdge,TOpening&gt;
 ---
 
-# <small>BH.oM.Analytical.</small>**IPanel&lt;TEdge,TOpening&gt;**
+# <small>BH.oM.Analytical.Elements.</small>**IPanel&lt;TEdge,TOpening&gt;**
 
 
 

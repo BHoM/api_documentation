@@ -2,7 +2,7 @@
 title: IEdge
 ---
 
-# <small>BH.oM.Analytical.</small>**IEdge**
+# <small>BH.oM.Analytical.Elements.</small>**IEdge**
 
 
 

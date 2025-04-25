@@ -2,7 +2,7 @@
 title: BHoMObject
 ---
 
-# <small>BH.oM.</small>**BHoMObject**
+# <small>BH.oM.Base.</small>**BHoMObject**
 
 
 

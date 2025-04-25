@@ -2,7 +2,7 @@
 title: ProfileOrigin
 ---
 
-# <small>BH.oM.Architecture.</small>**ProfileOrigin**
+# <small>BH.oM.Architecture.Theatron.</small>**ProfileOrigin**
 
 Used for orientation and setting out of tier profiles
 

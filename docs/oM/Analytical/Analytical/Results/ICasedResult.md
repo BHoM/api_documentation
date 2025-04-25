@@ -2,7 +2,7 @@
 title: ICasedResult
 ---
 
-# <small>BH.oM.Analytical.</small>**ICasedResult**
+# <small>BH.oM.Analytical.Results.</small>**ICasedResult**
 
 Interface for results that correspond to a particular case.
 

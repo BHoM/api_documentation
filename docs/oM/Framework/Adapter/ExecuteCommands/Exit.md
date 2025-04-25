@@ -2,7 +2,7 @@
 title: Exit
 ---
 
-# <small>BH.oM.Adapter.</small>**Exit**
+# <small>BH.oM.Adapter.Commands.</small>**Exit**
 
 Used to instruct the adapter to exit the software. The adapter will generally not be useable after running this command as the link to the software will be broken.
 

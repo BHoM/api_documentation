@@ -2,7 +2,7 @@
 title: PullType
 ---
 
-# <small>BH.oM.</small>**PullType**
+# <small>BH.oM.Adapter.</small>**PullType**
 
 
 

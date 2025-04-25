@@ -2,7 +2,7 @@
 title: Ceiling
 ---
 
-# <small>BH.oM.Architecture.</small>**Ceiling**
+# <small>BH.oM.Architecture.Elements.</small>**Ceiling**
 
 
 

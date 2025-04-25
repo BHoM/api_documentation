@@ -2,7 +2,7 @@
 title: Receiver
 ---
 
-# <small>BH.oM.</small>**Receiver**
+# <small>BH.oM.Acoustic.</small>**Receiver**
 
 
 

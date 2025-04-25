@@ -2,7 +2,7 @@
 title: Tier
 ---
 
-# <small>BH.oM.Architecture.</small>**Tier**
+# <small>BH.oM.Architecture.Theatron.</small>**Tier**
 
 
 

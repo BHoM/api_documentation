@@ -2,7 +2,7 @@
 title: IProjectionFragment
 ---
 
-# <small>BH.oM.Analytical.</small>**IProjectionFragment**
+# <small>BH.oM.Analytical.Fragments.</small>**IProjectionFragment**
 
 Interface common to all ProjectionFragments.
 

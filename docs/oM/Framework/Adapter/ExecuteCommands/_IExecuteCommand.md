@@ -2,7 +2,7 @@
 title: IExecuteCommand
 ---
 
-# <small>BH.oM.</small>**IExecuteCommand**
+# <small>BH.oM.Adapter.</small>**IExecuteCommand**
 
 Classes implementing IExecuteCommand are commands compatible with the `Execute` Adapter Action.
 

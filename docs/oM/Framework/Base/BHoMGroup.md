@@ -2,7 +2,7 @@
 title: BHoMGroup&lt;T&gt;
 ---
 
-# <small>BH.oM.</small>**BHoMGroup&lt;T&gt;**
+# <small>BH.oM.Base.</small>**BHoMGroup&lt;T&gt;**
 
 
 

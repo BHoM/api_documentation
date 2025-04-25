@@ -2,7 +2,7 @@
 title: IFace
 ---
 
-# <small>BH.oM.Analytical.</small>**IFace**
+# <small>BH.oM.Analytical.Elements.</small>**IFace**
 
 
 

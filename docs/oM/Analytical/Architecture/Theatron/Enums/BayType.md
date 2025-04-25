@@ -2,7 +2,7 @@
 title: BayType
 ---
 
-# <small>BH.oM.Architecture.</small>**BayType**
+# <small>BH.oM.Architecture.Theatron.</small>**BayType**
 
 
 

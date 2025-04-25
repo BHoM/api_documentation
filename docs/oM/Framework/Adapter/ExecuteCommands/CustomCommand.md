@@ -2,7 +2,7 @@
 title: CustomCommand
 ---
 
-# <small>BH.oM.Adapter.</small>**CustomCommand**
+# <small>BH.oM.Adapter.Commands.</small>**CustomCommand**
 
 Used to instruct the external software to run a certain command.
 

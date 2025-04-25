@@ -2,7 +2,7 @@
 title: ITimeStepResult
 ---
 
-# <small>BH.oM.Analytical.</small>**ITimeStepResult**
+# <small>BH.oM.Analytical.Results.</small>**ITimeStepResult**
 
 Interface for results that correspond to a particular time step, for example a discrete result from a time history anlysis.
 

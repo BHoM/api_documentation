@@ -2,7 +2,7 @@
 title: ResultFilter
 ---
 
-# <small>BH.oM.Analytical.</small>**ResultFilter**
+# <small>BH.oM.Analytical.Results.</small>**ResultFilter**
 
 Object to support filtering of results
 

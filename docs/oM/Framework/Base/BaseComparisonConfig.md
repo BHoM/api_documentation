@@ -2,7 +2,7 @@
 title: BaseComparisonConfig
 ---
 
-# <small>BH.oM.</small>**BaseComparisonConfig**
+# <small>BH.oM.Base.</small>**BaseComparisonConfig**
 
 Settings to determine the uniqueness of an Object, i.e. when comparing and when computing the object Hash.
 

@@ -2,7 +2,7 @@
 title: IElement1DResult
 ---
 
-# <small>BH.oM.Analytical.</small>**IElement1DResult**
+# <small>BH.oM.Analytical.Results.</small>**IElement1DResult**
 
 Base interface for results, corresponding to a discrete result at a particular position along a one-dimensional element.
 

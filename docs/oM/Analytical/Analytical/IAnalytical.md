@@ -2,7 +2,7 @@
 title: IAnalytical
 ---
 
-# <small>BH.oM.</small>**IAnalytical**
+# <small>BH.oM.Analytical.</small>**IAnalytical**
 
 
 

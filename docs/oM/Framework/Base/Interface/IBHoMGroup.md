@@ -2,7 +2,7 @@
 title: IBHoMGroup
 ---
 
-# <small>BH.oM.</small>**IBHoMGroup**
+# <small>BH.oM.Base.</small>**IBHoMGroup**
 
 
 

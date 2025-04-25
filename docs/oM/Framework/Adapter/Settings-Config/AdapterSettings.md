@@ -2,7 +2,7 @@
 title: AdapterSettings
 ---
 
-# <small>BH.oM.</small>**AdapterSettings**
+# <small>BH.oM.Adapter.</small>**AdapterSettings**
 
 General settings for any Adapter, to be specified when instantiating the Adapter.Implement this class to make your own Toolkit settings, e.g. SpeckleAdapterSettings.
 

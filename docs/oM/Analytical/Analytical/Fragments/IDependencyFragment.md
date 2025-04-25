@@ -2,7 +2,7 @@
 title: IDependencyFragment
 ---
 
-# <small>BH.oM.Analytical.</small>**IDependencyFragment**
+# <small>BH.oM.Analytical.Fragments.</small>**IDependencyFragment**
 
 Interface common to all DependencyFragments.
 

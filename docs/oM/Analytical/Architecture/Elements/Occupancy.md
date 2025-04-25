@@ -2,7 +2,7 @@
 title: Occupancy
 ---
 
-# <small>BH.oM.Architecture.</small>**Occupancy**
+# <small>BH.oM.Architecture.Elements.</small>**Occupancy**
 
 
 

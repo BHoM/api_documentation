@@ -2,7 +2,7 @@
 title: Enumeration
 ---
 
-# <small>BH.oM.</small>**Enumeration**
+# <small>BH.oM.Base.</small>**Enumeration**
 
 
 

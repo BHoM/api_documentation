@@ -2,7 +2,7 @@
 title: NewModel
 ---
 
-# <small>BH.oM.Adapter.</small>**NewModel**
+# <small>BH.oM.Adapter.Commands.</small>**NewModel**
 
 Used to instruct the external software to open/create a new model.
 

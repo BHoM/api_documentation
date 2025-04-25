@@ -2,7 +2,7 @@
 title: TheatronFullProfile
 ---
 
-# <small>BH.oM.Architecture.</small>**TheatronFullProfile**
+# <small>BH.oM.Architecture.Theatron.</small>**TheatronFullProfile**
 
 
 

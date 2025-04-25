@@ -2,7 +2,7 @@
 title: Analyse
 ---
 
-# <small>BH.oM.Adapter.</small>**Analyse**
+# <small>BH.oM.Adapter.Commands.</small>**Analyse**
 
 Used to instruct the external software to run an Analysis.
 

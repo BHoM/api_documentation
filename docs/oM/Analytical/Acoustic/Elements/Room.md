@@ -2,7 +2,7 @@
 title: Room
 ---
 
-# <small>BH.oM.</small>**Room**
+# <small>BH.oM.Acoustic.</small>**Room**
 
 An acoustics room is defined by the criteria related to the sound within the space, as well as its geometry
 

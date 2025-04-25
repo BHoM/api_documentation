@@ -2,7 +2,7 @@
 title: IObjectIdResult
 ---
 
-# <small>BH.oM.Analytical.</small>**IObjectIdResult**
+# <small>BH.oM.Analytical.Results.</small>**IObjectIdResult**
 
 Interface for Results belonging to a particular object. The owning object is identified and correlated to the Results by its ID.
 

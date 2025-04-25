@@ -2,7 +2,7 @@
 title: Save
 ---
 
-# <small>BH.oM.Adapter.</small>**Save**
+# <small>BH.oM.Adapter.Commands.</small>**Save**
 
 Used to instruct the external software to save a file or model.
 

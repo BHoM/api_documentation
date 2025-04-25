@@ -2,7 +2,7 @@
 title: SnRatio
 ---
 
-# <small>BH.oM.</small>**SnRatio**
+# <small>BH.oM.Acoustic.</small>**SnRatio**
 
 
 

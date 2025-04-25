@@ -2,7 +2,7 @@
 title: IResultCollection&lt;T&gt;
 ---
 
-# <small>BH.oM.Analytical.</small>**IResultCollection&lt;T&gt;**
+# <small>BH.oM.Analytical.Results.</small>**IResultCollection&lt;T&gt;**
 
 Base interface for results classes that are a collection of individual results, for example IMeshResults.
 

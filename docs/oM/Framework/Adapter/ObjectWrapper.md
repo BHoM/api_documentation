@@ -2,7 +2,7 @@
 title: ObjectWrapper
 ---
 
-# <small>BH.oM.</small>**ObjectWrapper**
+# <small>BH.oM.Adapter.</small>**ObjectWrapper**
 
 
 

@@ -2,7 +2,7 @@
 title: IdentifierAttribute
 ---
 
-# <small>BH.oM.Analytical.</small>**IdentifierAttribute**
+# <small>BH.oM.Analytical.Results.</small>**IdentifierAttribute**
 
 Base attribute for identifier attributes for properties of results.
 

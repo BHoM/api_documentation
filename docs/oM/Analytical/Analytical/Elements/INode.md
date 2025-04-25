@@ -2,7 +2,7 @@
 title: INode
 ---
 
-# <small>BH.oM.Analytical.</small>**INode**
+# <small>BH.oM.Analytical.Elements.</small>**INode**
 
 
 

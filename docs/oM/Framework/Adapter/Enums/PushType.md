@@ -2,7 +2,7 @@
 title: PushType
 ---
 
-# <small>BH.oM.</small>**PushType**
+# <small>BH.oM.Adapter.</small>**PushType**
 
 Controls which type of export should be done by the Adapter `Push` action.
 

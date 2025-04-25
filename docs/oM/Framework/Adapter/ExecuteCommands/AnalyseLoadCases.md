@@ -2,7 +2,7 @@
 title: AnalyseLoadCases
 ---
 
-# <small>BH.oM.Adapter.</small>**AnalyseLoadCases**
+# <small>BH.oM.Adapter.Commands.</small>**AnalyseLoadCases**
 
 Used to instruct the external software to run an Analysis on certain load cases.
 

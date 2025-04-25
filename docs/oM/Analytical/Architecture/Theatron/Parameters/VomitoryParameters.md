@@ -2,7 +2,7 @@
 title: VomitoryParameters
 ---
 
-# <small>BH.oM.Architecture.</small>**VomitoryParameters**
+# <small>BH.oM.Architecture.Theatron.</small>**VomitoryParameters**
 
 
 

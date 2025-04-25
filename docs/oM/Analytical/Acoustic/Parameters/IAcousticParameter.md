@@ -2,7 +2,7 @@
 title: IAcousticParameter
 ---
 
-# <small>BH.oM.</small>**IAcousticParameter**
+# <small>BH.oM.Acoustic.</small>**IAcousticParameter**
 
 
 

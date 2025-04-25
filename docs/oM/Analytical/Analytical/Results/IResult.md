@@ -2,7 +2,7 @@
 title: IResult
 ---
 
-# <small>BH.oM.Analytical.</small>**IResult**
+# <small>BH.oM.Analytical.Results.</small>**IResult**
 
 Base interface for all analytical results.
 For expanded functionality, a result class should generally either implement the IResultItem or IResultCollection interface, or one of their sub-interfaces, rather than this interface directly.

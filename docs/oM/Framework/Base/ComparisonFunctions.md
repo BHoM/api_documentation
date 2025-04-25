@@ -2,7 +2,7 @@
 title: ComparisonFunctions
 ---
 
-# <small>BH.oM.</small>**ComparisonFunctions**
+# <small>BH.oM.Base.</small>**ComparisonFunctions**
 
 Additional functions that can be specified as delegates and that will be executed while determining the uniqueness of an object, i.e. when comparing and when computing the object Hash.
 

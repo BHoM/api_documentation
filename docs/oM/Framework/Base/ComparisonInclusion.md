@@ -2,7 +2,7 @@
 title: ComparisonInclusion
 ---
 
-# <small>BH.oM.</small>**ComparisonInclusion**
+# <small>BH.oM.Base.</small>**ComparisonInclusion**
 
 Information about how an object's property should be included or not in a comparison (i.e. when computing an object's Hash or Diffing).A ComparisonInclusion object is returned by the extension method of the same name (which is invoked automatically when Hashing or Diffing).The ComparisonInclusion() method can be implemented in specific Toolkits/namespaces to customise the comparison (i.e. with Toolkit-specific information which would be otherwise unavailable to the base Hash/Diffing).See the wiki for examples of this.
 

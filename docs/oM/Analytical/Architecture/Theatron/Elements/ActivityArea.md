@@ -2,7 +2,7 @@
 title: ActivityArea
 ---
 
-# <small>BH.oM.Architecture.</small>**ActivityArea**
+# <small>BH.oM.Architecture.Theatron.</small>**ActivityArea**
 
 
 

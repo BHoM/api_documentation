@@ -2,7 +2,7 @@
 title: IMesh&lt;TNode,TFace&gt;
 ---
 
-# <small>BH.oM.Analytical.</small>**IMesh&lt;TNode,TFace&gt;**
+# <small>BH.oM.Analytical.Elements.</small>**IMesh&lt;TNode,TFace&gt;**
 
 
 

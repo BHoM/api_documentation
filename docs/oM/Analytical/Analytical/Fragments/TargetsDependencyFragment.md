@@ -2,7 +2,7 @@
 title: TargetsDependencyFragment
 ---
 
-# <small>BH.oM.Analytical.</small>**TargetsDependencyFragment**
+# <small>BH.oM.Analytical.Fragments.</small>**TargetsDependencyFragment**
 
 Dependency fragment used to define one or more Relations that terminate at the specified targets and use the IBHoMObject owning this fragment as the source.
 
