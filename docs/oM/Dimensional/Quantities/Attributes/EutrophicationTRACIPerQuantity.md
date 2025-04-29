@@ -10,7 +10,7 @@ Quantity type for Eutrophication Potential for version 1 of list of indicators a
 
 ### [kg N eq per unit]
 
-Pressure is defined in the [SI unit](https://bhom.xyz/documentation/BHoM_oM/BHoM-Units-conventions/) [kg N eq per unit]
+EutrophicationTRACIPerQuantity is defined in the [SI unit](https://bhom.xyz/documentation/BHoM_oM/BHoM-Units-conventions/) [kg N eq per unit]
 
 ### Dimensions
 

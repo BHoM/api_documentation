@@ -10,7 +10,7 @@ Dimensional quantity as defined by the International System of Quantities
 
 ### [cd]
 
-Pressure is defined in the [SI unit](https://bhom.xyz/documentation/BHoM_oM/BHoM-Units-conventions/) [cd]
+LuminousIntensity is defined in the [SI unit](https://bhom.xyz/documentation/BHoM_oM/BHoM-Units-conventions/) [cd]
 
 ### Dimensions
 

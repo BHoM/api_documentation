@@ -10,7 +10,7 @@ Dimensional quantity as defined by the International System of Quantities
 
 ### [N]
 
-Pressure is defined in the [SI unit](https://bhom.xyz/documentation/BHoM_oM/BHoM-Units-conventions/) [N]
+Force is defined in the [SI unit](https://bhom.xyz/documentation/BHoM_oM/BHoM-Units-conventions/) [N]
 
 ### Dimensions
 

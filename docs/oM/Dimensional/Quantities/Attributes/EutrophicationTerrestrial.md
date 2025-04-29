@@ -10,7 +10,7 @@ Quantity type for Eutrophication Potential Terrestrial.
 
 ### [mol N eq]
 
-Pressure is defined in the [SI unit](https://bhom.xyz/documentation/BHoM_oM/BHoM-Units-conventions/) [mol N eq]
+EutrophicationTerrestrial is defined in the [SI unit](https://bhom.xyz/documentation/BHoM_oM/BHoM-Units-conventions/) [mol N eq]
 
 ### Dimensions
 

@@ -10,7 +10,7 @@ Dimensional quantity as defined by the International System of Quantities
 
 ### [m²/m]
 
-Pressure is defined in the [SI unit](https://bhom.xyz/documentation/BHoM_oM/BHoM-Units-conventions/) [m²/m]
+AreaPerUnitLength is defined in the [SI unit](https://bhom.xyz/documentation/BHoM_oM/BHoM-Units-conventions/) [m²/m]
 
 ### Dimensions
 

@@ -10,7 +10,7 @@ Dimensional quantity as defined by the International System of Quantities
 
 ### [m⁴]
 
-Pressure is defined in the [SI unit](https://bhom.xyz/documentation/BHoM_oM/BHoM-Units-conventions/) [m⁴]
+SecondMomentOfArea is defined in the [SI unit](https://bhom.xyz/documentation/BHoM_oM/BHoM-Units-conventions/) [m⁴]
 
 ### Dimensions
 

@@ -10,7 +10,7 @@ Quantity type for Eutrophication Potential for version 1 of list of indicators a
 
 ### [kg [PO₄]³⁻ eq]
 
-Pressure is defined in the [SI unit](https://bhom.xyz/documentation/BHoM_oM/BHoM-Units-conventions/) [kg [PO₄]³⁻ eq]
+EutrophicationCML is defined in the [SI unit](https://bhom.xyz/documentation/BHoM_oM/BHoM-Units-conventions/) [kg [PO₄]³⁻ eq]
 
 ### Dimensions
 

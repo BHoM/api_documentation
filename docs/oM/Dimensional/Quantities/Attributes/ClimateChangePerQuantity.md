@@ -10,7 +10,7 @@ Quantity type for climate change per quantity.
 
 ### [kg CO2 eq per unit]
 
-Pressure is defined in the [SI unit](https://bhom.xyz/documentation/BHoM_oM/BHoM-Units-conventions/) [kg CO2 eq per unit]
+ClimateChangePerQuantity is defined in the [SI unit](https://bhom.xyz/documentation/BHoM_oM/BHoM-Units-conventions/) [kg CO2 eq per unit]
 
 ### Dimensions
 

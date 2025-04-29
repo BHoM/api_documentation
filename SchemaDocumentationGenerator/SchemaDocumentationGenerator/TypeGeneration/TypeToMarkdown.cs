@@ -130,7 +130,7 @@ namespace SchemaDocumentationGenerator
 
             markdown += "## Dimensions and units\n\n";
             markdown += $"### [{attribute.SIUnit}]\n\n";
-            markdown += $"Pressure is defined in the [SI unit](https://bhom.xyz/documentation/BHoM_oM/BHoM-Units-conventions/) [{attribute.SIUnit}]\n\n";
+            markdown += $"{type.Name} is defined in the [SI unit](https://bhom.xyz/documentation/BHoM_oM/BHoM-Units-conventions/) [{attribute.SIUnit}]\n\n";
 
             markdown += $"### Dimensions\n\n";
             markdown += "The quantity is made up of the following [SI base units](https://en.wikipedia.org/wiki/SI_base_unit)\n\n";

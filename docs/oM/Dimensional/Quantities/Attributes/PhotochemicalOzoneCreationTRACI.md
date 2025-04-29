@@ -10,7 +10,7 @@ Quantity type for Photochemical Ozone Creation Potential accordign to the TRACI 
 
 ### [kg O₃ eq]
 
-Pressure is defined in the [SI unit](https://bhom.xyz/documentation/BHoM_oM/BHoM-Units-conventions/) [kg O₃ eq]
+PhotochemicalOzoneCreationTRACI is defined in the [SI unit](https://bhom.xyz/documentation/BHoM_oM/BHoM-Units-conventions/) [kg O₃ eq]
 
 ### Dimensions
 

@@ -10,7 +10,7 @@ Quantity type for Photochemical Ozone Creation Potential per quantity for the ol
 
 ### [kg C₂H₄ eq per unit]
 
-Pressure is defined in the [SI unit](https://bhom.xyz/documentation/BHoM_oM/BHoM-Units-conventions/) [kg C₂H₄ eq per unit]
+PhotochemicalOzoneCreationCMLPerQuantity is defined in the [SI unit](https://bhom.xyz/documentation/BHoM_oM/BHoM-Units-conventions/) [kg C₂H₄ eq per unit]
 
 ### Dimensions
 

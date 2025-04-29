@@ -10,7 +10,7 @@ Dimensional quantity as defined by the International System of Quantities
 
 ### [A]
 
-Pressure is defined in the [SI unit](https://bhom.xyz/documentation/BHoM_oM/BHoM-Units-conventions/) [A]
+ElectricCurrent is defined in the [SI unit](https://bhom.xyz/documentation/BHoM_oM/BHoM-Units-conventions/) [A]
 
 ### Dimensions
 

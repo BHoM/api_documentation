@@ -10,7 +10,7 @@ Quantity type for global warming potential.
 
 ### [kg CO2 eq]
 
-Pressure is defined in the [SI unit](https://bhom.xyz/documentation/BHoM_oM/BHoM-Units-conventions/) [kg CO2 eq]
+ClimateChange is defined in the [SI unit](https://bhom.xyz/documentation/BHoM_oM/BHoM-Units-conventions/) [kg CO2 eq]
 
 ### Dimensions
 

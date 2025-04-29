@@ -10,7 +10,7 @@ Quantity type for Abiotic depletion potential (ADP) for minerals and metals (non
 
 ### [kg Sb eq per unit]
 
-Pressure is defined in the [SI unit](https://bhom.xyz/documentation/BHoM_oM/BHoM-Units-conventions/) [kg Sb eq per unit]
+AbioticDepletionMineralsAndMetalsPerQuantity is defined in the [SI unit](https://bhom.xyz/documentation/BHoM_oM/BHoM-Units-conventions/) [kg Sb eq per unit]
 
 ### Dimensions
 

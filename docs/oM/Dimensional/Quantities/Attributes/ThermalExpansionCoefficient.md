@@ -10,7 +10,7 @@ Dimensional quantity as defined by the International System of Quantities
 
 ### [1/K]
 
-Pressure is defined in the [SI unit](https://bhom.xyz/documentation/BHoM_oM/BHoM-Units-conventions/) [1/K]
+ThermalExpansionCoefficient is defined in the [SI unit](https://bhom.xyz/documentation/BHoM_oM/BHoM-Units-conventions/) [1/K]
 
 ### Dimensions
 

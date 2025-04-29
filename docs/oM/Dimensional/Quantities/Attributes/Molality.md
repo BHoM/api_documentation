@@ -10,7 +10,7 @@ Dimensional quantity as defined by the International System of Quantities
 
 ### [mol/kg]
 
-Pressure is defined in the [SI unit](https://bhom.xyz/documentation/BHoM_oM/BHoM-Units-conventions/) [mol/kg]
+Molality is defined in the [SI unit](https://bhom.xyz/documentation/BHoM_oM/BHoM-Units-conventions/) [mol/kg]
 
 ### Dimensions
 

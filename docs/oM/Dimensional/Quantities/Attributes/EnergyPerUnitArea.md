@@ -10,7 +10,7 @@ Dimensional quantity as defined by the International System of Quantities
 
 ### [W/m�]
 
-Pressure is defined in the [SI unit](https://bhom.xyz/documentation/BHoM_oM/BHoM-Units-conventions/) [W/m�]
+EnergyPerUnitArea is defined in the [SI unit](https://bhom.xyz/documentation/BHoM_oM/BHoM-Units-conventions/) [W/m�]
 
 ### Dimensions
 

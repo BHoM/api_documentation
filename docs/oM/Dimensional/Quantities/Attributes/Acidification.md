@@ -10,7 +10,7 @@ Quantity type for acidification potential.
 
 ### [mol H+ eq]
 
-Pressure is defined in the [SI unit](https://bhom.xyz/documentation/BHoM_oM/BHoM-Units-conventions/) [mol H+ eq]
+Acidification is defined in the [SI unit](https://bhom.xyz/documentation/BHoM_oM/BHoM-Units-conventions/) [mol H+ eq]
 
 ### Dimensions
 

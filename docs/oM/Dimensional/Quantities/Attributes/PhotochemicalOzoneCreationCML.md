@@ -10,7 +10,7 @@ Quantity type for Photochemical Ozone Creation Potential for the older CML stand
 
 ### [kg C₂H₄ eq]
 
-Pressure is defined in the [SI unit](https://bhom.xyz/documentation/BHoM_oM/BHoM-Units-conventions/) [kg C₂H₄ eq]
+PhotochemicalOzoneCreationCML is defined in the [SI unit](https://bhom.xyz/documentation/BHoM_oM/BHoM-Units-conventions/) [kg C₂H₄ eq]
 
 ### Dimensions
 

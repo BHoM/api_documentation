@@ -10,7 +10,7 @@ Quantity type for Eutrophication Potential Aquatic FreshWater.
 
 ### [kg P eq]
 
-Pressure is defined in the [SI unit](https://bhom.xyz/documentation/BHoM_oM/BHoM-Units-conventions/) [kg P eq]
+EutrophicationAquaticFreshwater is defined in the [SI unit](https://bhom.xyz/documentation/BHoM_oM/BHoM-Units-conventions/) [kg P eq]
 
 ### Dimensions
 

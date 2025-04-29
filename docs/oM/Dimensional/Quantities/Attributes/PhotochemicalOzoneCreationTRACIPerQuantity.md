@@ -10,7 +10,7 @@ Quantity type for Photochemical Ozone Creation Potential per quantity accordign 
 
 ### [kg O₃ eq per unit]
 
-Pressure is defined in the [SI unit](https://bhom.xyz/documentation/BHoM_oM/BHoM-Units-conventions/) [kg O₃ eq per unit]
+PhotochemicalOzoneCreationTRACIPerQuantity is defined in the [SI unit](https://bhom.xyz/documentation/BHoM_oM/BHoM-Units-conventions/) [kg O₃ eq per unit]
 
 ### Dimensions
 

@@ -10,7 +10,7 @@ Quantity type for Photochemical Ozone Creation Potential.
 
 ### [kg NMVOC eq per unit]
 
-Pressure is defined in the [SI unit](https://bhom.xyz/documentation/BHoM_oM/BHoM-Units-conventions/) [kg NMVOC eq per unit]
+PhotochemicalOzoneCreationPerQuantity is defined in the [SI unit](https://bhom.xyz/documentation/BHoM_oM/BHoM-Units-conventions/) [kg NMVOC eq per unit]
 
 ### Dimensions
 
