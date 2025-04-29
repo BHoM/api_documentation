@@ -8,9 +8,9 @@ Dimensional quantity as defined by the International System of Quantities
 
 ## Dimensions and units
 
-### [rad/s²]
+### SI Unit [rad/s²]
 
-AngularAcceleration is defined in the [SI unit](https://bhom.xyz/documentation/BHoM_oM/BHoM-Units-conventions/) [rad/s²]
+AngularAcceleration is defined in [rad/s²] following the [International System of Units](https://en.wikipedia.org/wiki/International_System_of_Units) 
 
 ### Dimensions
 
@@ -19,7 +19,6 @@ The quantity is made up of the following [SI base units](https://en.wikipedia.or
 | Measure        | Dimension symbol | Quantity |
 |------------------|--------|----------|
 | Time dimension |  T  |-2  |
-
 
 ## Class structure
 

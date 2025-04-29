@@ -8,9 +8,9 @@ Dimensional quantity as defined by the International System of Quantities
 
 ## Dimensions and units
 
-### [kg/m²]
+### SI Unit [kg/m²]
 
-MassPerUnitArea is defined in the [SI unit](https://bhom.xyz/documentation/BHoM_oM/BHoM-Units-conventions/) [kg/m²]
+MassPerUnitArea is defined in [kg/m²] following the [International System of Units](https://en.wikipedia.org/wiki/International_System_of_Units) 
 
 ### Dimensions
 
@@ -20,7 +20,6 @@ The quantity is made up of the following [SI base units](https://en.wikipedia.or
 |------------------|--------|----------|
 | Mass dimension |  M  |1  |
 | Length dimension |  L  |-2  |
-
 
 ## Class structure
 

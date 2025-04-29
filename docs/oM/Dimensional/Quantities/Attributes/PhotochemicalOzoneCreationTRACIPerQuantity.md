@@ -8,9 +8,9 @@ Quantity type for Photochemical Ozone Creation Potential per quantity accordign 
 
 ## Dimensions and units
 
-### [kg O₃ eq per unit]
+### SI Unit [kg O₃ eq per unit]
 
-PhotochemicalOzoneCreationTRACIPerQuantity is defined in the [SI unit](https://bhom.xyz/documentation/BHoM_oM/BHoM-Units-conventions/) [kg O₃ eq per unit]
+PhotochemicalOzoneCreationTRACIPerQuantity is defined in [kg O₃ eq per unit] following the [International System of Units](https://en.wikipedia.org/wiki/International_System_of_Units) 
 
 ### Dimensions
 
@@ -19,7 +19,6 @@ The quantity is made up of the following [SI base units](https://en.wikipedia.or
 | Measure        | Dimension symbol | Quantity |
 |------------------|--------|----------|
 | Mass dimension |  M  |1  |
-
 
 ## Class structure
 

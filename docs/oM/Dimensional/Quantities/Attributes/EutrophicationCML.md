@@ -8,9 +8,9 @@ Quantity type for Eutrophication Potential for version 1 of list of indicators a
 
 ## Dimensions and units
 
-### [kg [PO₄]³⁻ eq]
+### SI Unit [kg [PO₄]³⁻ eq]
 
-EutrophicationCML is defined in the [SI unit](https://bhom.xyz/documentation/BHoM_oM/BHoM-Units-conventions/) [kg [PO₄]³⁻ eq]
+EutrophicationCML is defined in [kg [PO₄]³⁻ eq] following the [International System of Units](https://en.wikipedia.org/wiki/International_System_of_Units) 
 
 ### Dimensions
 
@@ -19,7 +19,6 @@ The quantity is made up of the following [SI base units](https://en.wikipedia.or
 | Measure        | Dimension symbol | Quantity |
 |------------------|--------|----------|
 | Mass dimension |  M  |1  |
-
 
 ## Class structure
 

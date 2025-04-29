@@ -8,9 +8,9 @@ Quantity type for Eutrophication Potential Terrestrial per quantity.
 
 ## Dimensions and units
 
-### [mol N eq per unit]
+### SI Unit [mol N eq per unit]
 
-EutrophicationTerrestrialPerQuantity is defined in the [SI unit](https://bhom.xyz/documentation/BHoM_oM/BHoM-Units-conventions/) [mol N eq per unit]
+EutrophicationTerrestrialPerQuantity is defined in [mol N eq per unit] following the [International System of Units](https://en.wikipedia.org/wiki/International_System_of_Units) 
 
 ### Dimensions
 
@@ -19,7 +19,6 @@ The quantity is made up of the following [SI base units](https://en.wikipedia.or
 | Measure        | Dimension symbol | Quantity |
 |------------------|--------|----------|
 | Amount of substance dimension |  N  |1  |
-
 
 ## Class structure
 

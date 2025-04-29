@@ -8,9 +8,9 @@ Dimensional quantity as defined by the International System of Quantities
 
 ## Dimensions and units
 
-### [m/s]
+### SI Unit [m/s]
 
-Velocity is defined in the [SI unit](https://bhom.xyz/documentation/BHoM_oM/BHoM-Units-conventions/) [m/s]
+Velocity is defined in [m/s] following the [International System of Units](https://en.wikipedia.org/wiki/International_System_of_Units) 
 
 ### Dimensions
 
@@ -20,7 +20,6 @@ The quantity is made up of the following [SI base units](https://en.wikipedia.or
 |------------------|--------|----------|
 | Length dimension |  L  |1  |
 | Time dimension |  T  |-1  |
-
 
 ## Class structure
 

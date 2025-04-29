@@ -8,9 +8,9 @@ Quantity type for Abiotic depletion potential (ADP) for minerals and metals (non
 
 ## Dimensions and units
 
-### [kg Sb eq]
+### SI Unit [kg Sb eq]
 
-AbioticDepletionMineralsAndMetals is defined in the [SI unit](https://bhom.xyz/documentation/BHoM_oM/BHoM-Units-conventions/) [kg Sb eq]
+AbioticDepletionMineralsAndMetals is defined in [kg Sb eq] following the [International System of Units](https://en.wikipedia.org/wiki/International_System_of_Units) 
 
 ### Dimensions
 
@@ -19,7 +19,6 @@ The quantity is made up of the following [SI base units](https://en.wikipedia.or
 | Measure        | Dimension symbol | Quantity |
 |------------------|--------|----------|
 | Mass dimension |  M  |1  |
-
 
 ## Class structure
 

@@ -8,16 +8,13 @@ Quantity type for climate change per quantity.
 
 ## Dimensions and units
 
-### [kg CO2 eq per unit]
+### SI Unit [kg CO2 eq per unit]
 
-ClimateChangePerQuantity is defined in the [SI unit](https://bhom.xyz/documentation/BHoM_oM/BHoM-Units-conventions/) [kg CO2 eq per unit]
+ClimateChangePerQuantity is defined in [kg CO2 eq per unit] following the [International System of Units](https://en.wikipedia.org/wiki/International_System_of_Units) 
 
 ### Dimensions
 
-The quantity is made up of the following [SI base units](https://en.wikipedia.org/wiki/SI_base_unit)
-
-| Measure        | Dimension symbol | Quantity |
-|------------------|--------|----------|
+The quantity is dimensionless.
 
 
 ## Class structure

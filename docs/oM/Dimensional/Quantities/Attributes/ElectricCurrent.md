@@ -8,9 +8,9 @@ Dimensional quantity as defined by the International System of Quantities
 
 ## Dimensions and units
 
-### [A]
+### SI Unit [A]
 
-ElectricCurrent is defined in the [SI unit](https://bhom.xyz/documentation/BHoM_oM/BHoM-Units-conventions/) [A]
+ElectricCurrent is defined in [A] following the [International System of Units](https://en.wikipedia.org/wiki/International_System_of_Units) 
 
 ### Dimensions
 
@@ -19,7 +19,6 @@ The quantity is made up of the following [SI base units](https://en.wikipedia.or
 | Measure        | Dimension symbol | Quantity |
 |------------------|--------|----------|
 | Electric current dimension |  I  |1  |
-
 
 ## Class structure
 

@@ -8,16 +8,13 @@ Dimensional quantity as defined by the International System of Quantities
 
 ## Dimensions and units
 
-### [mol/kg]
+### SI Unit [mol/kg]
 
-Molality is defined in the [SI unit](https://bhom.xyz/documentation/BHoM_oM/BHoM-Units-conventions/) [mol/kg]
+Molality is defined in [mol/kg] following the [International System of Units](https://en.wikipedia.org/wiki/International_System_of_Units) 
 
 ### Dimensions
 
-The quantity is made up of the following [SI base units](https://en.wikipedia.org/wiki/SI_base_unit)
-
-| Measure        | Dimension symbol | Quantity |
-|------------------|--------|----------|
+The quantity is dimensionless.
 
 
 ## Class structure

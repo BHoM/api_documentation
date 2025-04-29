@@ -8,9 +8,9 @@ Dimensional quantity as defined by the International System of Quantities
 
 ## Dimensions and units
 
-### [S]
+### SI Unit [S]
 
-ElectricConductance is defined in the [SI unit](https://bhom.xyz/documentation/BHoM_oM/BHoM-Units-conventions/) [S]
+ElectricConductance is defined in [S] following the [International System of Units](https://en.wikipedia.org/wiki/International_System_of_Units) 
 
 ### Dimensions
 
@@ -22,7 +22,6 @@ The quantity is made up of the following [SI base units](https://en.wikipedia.or
 | Length dimension |  L  |-2  |
 | Time dimension |  T  |3  |
 | Electric current dimension |  I  |2  |
-
 
 ## Class structure
 

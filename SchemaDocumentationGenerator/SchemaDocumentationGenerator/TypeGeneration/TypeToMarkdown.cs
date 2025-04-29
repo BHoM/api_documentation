@@ -129,14 +129,22 @@ namespace SchemaDocumentationGenerator
             }
 
             markdown += "## Dimensions and units\n\n";
-            markdown += $"### [{attribute.SIUnit}]\n\n";
-            markdown += $"{type.Name} is defined in the [SI unit](https://bhom.xyz/documentation/BHoM_oM/BHoM-Units-conventions/) [{attribute.SIUnit}]\n\n";
+            markdown += $"### SI Unit [{attribute.SIUnit}]\n\n";
+            markdown += $"{type.Name} is defined in [{attribute.SIUnit}] following the [International System of Units](https://en.wikipedia.org/wiki/International_System_of_Units) \n\n";
 
             markdown += $"### Dimensions\n\n";
-            markdown += "The quantity is made up of the following [SI base units](https://en.wikipedia.org/wiki/SI_base_unit)\n\n";
-            markdown += attribute.QuantityTable();
+            List<PropertyInfo> dimensions = attribute.GetType().GetProperties(BindingFlags.DeclaredOnly | BindingFlags.Instance | BindingFlags.Public).Where(x => x.PropertyType == typeof(int)).ToList();
 
-            markdown += "\n\n";
+            if (dimensions.Count == 0)
+            {
+                markdown += "The quantity is dimensionless.\n\n";
+            }
+            else
+            {
+                markdown += "The quantity is made up of the following [SI base units](https://en.wikipedia.org/wiki/SI_base_unit)\n\n";
+                markdown += attribute.QuantityTable(dimensions);
+            }
+            markdown += "\n";
 
             markdown += type.TypeStructure("Class", "class", out var baseTypes);
 

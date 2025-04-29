@@ -8,9 +8,9 @@ Quantity type for acidification potential.
 
 ## Dimensions and units
 
-### [mol H+ eq]
+### SI Unit [mol H+ eq]
 
-Acidification is defined in the [SI unit](https://bhom.xyz/documentation/BHoM_oM/BHoM-Units-conventions/) [mol H+ eq]
+Acidification is defined in [mol H+ eq] following the [International System of Units](https://en.wikipedia.org/wiki/International_System_of_Units) 
 
 ### Dimensions
 
@@ -19,7 +19,6 @@ The quantity is made up of the following [SI base units](https://en.wikipedia.or
 | Measure        | Dimension symbol | Quantity |
 |------------------|--------|----------|
 | Amount of substance dimension |  N  |1  |
-
 
 ## Class structure
 

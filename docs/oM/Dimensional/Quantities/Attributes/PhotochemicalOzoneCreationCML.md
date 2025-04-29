@@ -8,9 +8,9 @@ Quantity type for Photochemical Ozone Creation Potential for the older CML stand
 
 ## Dimensions and units
 
-### [kg C₂H₄ eq]
+### SI Unit [kg C₂H₄ eq]
 
-PhotochemicalOzoneCreationCML is defined in the [SI unit](https://bhom.xyz/documentation/BHoM_oM/BHoM-Units-conventions/) [kg C₂H₄ eq]
+PhotochemicalOzoneCreationCML is defined in [kg C₂H₄ eq] following the [International System of Units](https://en.wikipedia.org/wiki/International_System_of_Units) 
 
 ### Dimensions
 
@@ -19,7 +19,6 @@ The quantity is made up of the following [SI base units](https://en.wikipedia.or
 | Measure        | Dimension symbol | Quantity |
 |------------------|--------|----------|
 | Mass dimension |  M  |1  |
-
 
 ## Class structure
 

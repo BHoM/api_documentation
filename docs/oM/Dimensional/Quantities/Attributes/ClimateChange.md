@@ -8,9 +8,9 @@ Quantity type for global warming potential.
 
 ## Dimensions and units
 
-### [kg CO2 eq]
+### SI Unit [kg CO2 eq]
 
-ClimateChange is defined in the [SI unit](https://bhom.xyz/documentation/BHoM_oM/BHoM-Units-conventions/) [kg CO2 eq]
+ClimateChange is defined in [kg CO2 eq] following the [International System of Units](https://en.wikipedia.org/wiki/International_System_of_Units) 
 
 ### Dimensions
 
@@ -19,7 +19,6 @@ The quantity is made up of the following [SI base units](https://en.wikipedia.or
 | Measure        | Dimension symbol | Quantity |
 |------------------|--------|----------|
 | Mass dimension |  M  |1  |
-
 
 ## Class structure
 

@@ -8,9 +8,9 @@ Dimensional quantity as defined by the International System of Quantities
 
 ## Dimensions and units
 
-### [N/m]
+### SI Unit [N/m]
 
-ForcePerUnitLength is defined in the [SI unit](https://bhom.xyz/documentation/BHoM_oM/BHoM-Units-conventions/) [N/m]
+ForcePerUnitLength is defined in [N/m] following the [International System of Units](https://en.wikipedia.org/wiki/International_System_of_Units) 
 
 ### Dimensions
 
@@ -20,7 +20,6 @@ The quantity is made up of the following [SI base units](https://en.wikipedia.or
 |------------------|--------|----------|
 | Mass dimension |  M  |1  |
 | Time dimension |  T  |-2  |
-
 
 ## Class structure
 

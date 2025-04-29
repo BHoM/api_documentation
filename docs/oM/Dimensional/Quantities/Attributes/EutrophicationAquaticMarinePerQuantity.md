@@ -8,9 +8,9 @@ Quantity type for Eutrophication Potential Aquatic FreshWater per quantity.
 
 ## Dimensions and units
 
-### [kg N eq per unit]
+### SI Unit [kg N eq per unit]
 
-EutrophicationAquaticMarinePerQuantity is defined in the [SI unit](https://bhom.xyz/documentation/BHoM_oM/BHoM-Units-conventions/) [kg N eq per unit]
+EutrophicationAquaticMarinePerQuantity is defined in [kg N eq per unit] following the [International System of Units](https://en.wikipedia.org/wiki/International_System_of_Units) 
 
 ### Dimensions
 
@@ -19,7 +19,6 @@ The quantity is made up of the following [SI base units](https://en.wikipedia.or
 | Measure        | Dimension symbol | Quantity |
 |------------------|--------|----------|
 | Mass dimension |  M  |1  |
-
 
 ## Class structure
 

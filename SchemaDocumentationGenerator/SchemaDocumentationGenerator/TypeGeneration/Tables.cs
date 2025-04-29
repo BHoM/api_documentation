@@ -81,17 +81,14 @@ namespace SchemaDocumentationGenerator
 
         /***************************************************/
 
-        private static string QuantityTable(this QuantityAttribute quantity)
+        private static string QuantityTable(this QuantityAttribute quantity, List<PropertyInfo> dimensions)
         {
             string markdown = "| Measure        | Dimension symbol | Quantity |\n";
             markdown += "|------------------|--------|----------|\n";
 
 
-            foreach (PropertyInfo property in quantity.GetType().GetProperties(BindingFlags.DeclaredOnly | BindingFlags.Instance | BindingFlags.Public))
+            foreach (PropertyInfo property in dimensions)
             {
-                if (property.PropertyType != typeof(int))
-                    continue;
-
                 markdown += QuantityTableString(quantity, property);
             }
             return markdown;
