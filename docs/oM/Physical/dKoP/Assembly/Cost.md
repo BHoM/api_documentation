@@ -12,7 +12,7 @@ title: Cost
 
 ???+ bhom "The Cost is inheriting from the following base type(s) and implements the following interfaces:"
 
-    -  BH.oM.dKoP.[IdKopObject](/api/oM/Physical/dKoP/IdKopObject)
+    -  BH.oM.dKoP.[IdKoPObject](/api/oM/Physical/dKoP/IdKoPObject)
     -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
@@ -36,7 +36,7 @@ The following properties are defined on the class
 ### C# implementation
 
 ``` C# title="C#"
-public class Cost : BH.oM.dKoP.IdKopObject, BH.oM.Base.IObject
+public class Cost : BH.oM.dKoP.IdKoPObject, BH.oM.Base.IObject
 ```
 
 Assembly: dKoP_oM.dll
@@ -46,3 +46,15 @@ The class is defined in C#. The class definition is available on github:
 - [Cost.cs](https://github.com/BHoM/dKoP_Toolkit/blob/develop/dKoP_oM/Assembly\Cost.cs)
 
 All history and changes of the class can be found by inspection the history.
+### JSON Schema implementation
+
+The object is defined as a JSON schema. To reference the schema in a validator like [this](https://www.jsonschemavalidator.net/) to validate a Json instance, please use the lines below:
+
+``` { .json .copy .select } title="JSON Schema"
+{
+ "$ref" : https://raw.githubusercontent.com/BHoM/BHoM_JSONSchema/develop/dKoP_oM/Cost.json}
+```
+
+The JSON Schema is available on github here:
+
+- [Cost.json](https://github.com/BHoM/BHoM_JSONSchema/blob/develop/dKoP_oM/Cost.json)

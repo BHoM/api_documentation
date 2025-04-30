@@ -54,3 +54,15 @@ The class is defined in C#. The class definition is available on github:
 - [FilterByVisibleInView.cs](https://github.com/BHoM/Revit_Toolkit/blob/develop/Revit_oM/Requests\FilterByVisibleInView.cs)
 
 All history and changes of the class can be found by inspection the history.
+### JSON Schema implementation
+
+The object is defined as a JSON schema. To reference the schema in a validator like [this](https://www.jsonschemavalidator.net/) to validate a Json instance, please use the lines below:
+
+``` { .json .copy .select } title="JSON Schema"
+{
+ "$ref" : https://raw.githubusercontent.com/BHoM/BHoM_JSONSchema/develop/Revit_oM/Requests/FilterByVisibleInView.json}
+```
+
+The JSON Schema is available on github here:
+
+- [FilterByVisibleInView.json](https://github.com/BHoM/BHoM_JSONSchema/blob/develop/Revit_oM/Requests/FilterByVisibleInView.json)

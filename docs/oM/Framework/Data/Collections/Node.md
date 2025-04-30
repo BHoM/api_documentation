@@ -48,3 +48,15 @@ The interface is defined in C#. The class definition is available on github:
 - [INode.cs](https://github.com/BHoM/BHoM/blob/develop/Data_oM/Collections\Node.cs)
 
 All history and changes of the class can be found by inspection the history.
+### JSON Schema implementation
+
+The object is defined as a JSON schema. To reference the schema in a validator like [this](https://www.jsonschemavalidator.net/) to validate a Json instance, please use the lines below:
+
+``` { .json .copy .select } title="JSON Schema"
+{
+ "$ref" : https://raw.githubusercontent.com/BHoM/BHoM_JSONSchema/develop/Data_oM/Collections/INode`1.json}
+```
+
+The JSON Schema is available on github here:
+
+- [INode`1.json](https://github.com/BHoM/BHoM_JSONSchema/blob/develop/Data_oM/Collections/INode`1.json)

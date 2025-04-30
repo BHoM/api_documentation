@@ -134,6 +134,8 @@ namespace SchemaDocumentationGenerator
 
             foreach (string repo in Directory.GetDirectories(gitFolderPath))
             {
+                if (repo.Contains("BHoM_JSONSchema"))
+                    continue;
                 foreach (string projFolder in Directory.GetDirectories(repo))
                 {
                     string dirName = Path.GetFileName(projFolder);
@@ -149,12 +151,13 @@ namespace SchemaDocumentationGenerator
                 Console.WriteLine($"Unable to find a filepath for git link checking for {string.Join(", ", assemblies.Except(m_AssemblyFolder.Keys))}.");
             }
 
+            m_JsonSchemaFolder = Path.Combine(gitFolderPath, "BHoM_JSONSchema");
         }
 
         /***************************************************/
 
         private static Dictionary<Assembly, string> m_AssemblyFolder = new Dictionary<Assembly, string>();
-
+        private static string m_JsonSchemaFolder;
         /***************************************************/
     }
 }

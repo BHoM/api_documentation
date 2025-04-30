@@ -22,7 +22,22 @@ namespace SchemaDocumentationGenerator
             string classWord = type.TypeWord();
 
             string markdown = "## Code and Schema\n\n";
-            markdown += "### C# implementation\n\n";
+            markdown += CSharpSection(type, classWord);
+            string jsonSchema = JsonSchemaSection(type, classWord);
+            if(jsonSchema != null)
+                markdown += jsonSchema;
+
+            return markdown;
+
+
+
+        }
+
+        /***************************************************/
+
+        private static string CSharpSection(Type type, string classWord)
+        {
+            string markdown = "### C# implementation\n\n";
 
             markdown += "``` C# title=\"C#\"\n";
 
@@ -32,7 +47,7 @@ namespace SchemaDocumentationGenerator
             {
                 List<string> names = baseTypes.Select(x => x.TypeNameBaseTypes()).ToList();
                 int charCount = names.Sum(x => x.Length);
-                string split = charCount > 120? ",\n" : ", ";
+                string split = charCount > 120 ? ",\n" : ", ";
                 markdown += $" : {string.Join(split, names)}";
             }
             markdown += "\n";
@@ -47,9 +62,32 @@ namespace SchemaDocumentationGenerator
                 markdown += "\nAll history and changes of the class can be found by inspection the history.\n";
             }
             return markdown;
+        }
 
-            markdown += "### JSON Schema implementation\n\n";
-            markdown += "The object is defined as a JSON schema, available on github:";
+        /***************************************************/
+
+        private static string JsonSchemaSection(Type type, string classWord)
+        {
+
+            var (id, link) = JsonSchemaLink(type);
+
+            if (id == null || link == null)
+                return null;
+
+            string markdown = "### JSON Schema implementation\n\n";
+            markdown += "The object is defined as a JSON schema. To reference the schema in a validator like [this](https://www.jsonschemavalidator.net/) to validate a Json instance, please use the lines below:\n\n";
+
+            markdown += "``` { .json .copy .select } title=\"JSON Schema\"\n";
+            markdown += "{\n";
+            markdown += $" \"$ref\" : {id}";
+            markdown += "}\n";
+
+            markdown += "```\n\n";
+
+            markdown += "The JSON Schema is available on github here:\n\n";
+            markdown += $"- [{type.Name}.json]({link})\n";
+
+            return markdown;
         }
 
         /***************************************************/
@@ -98,6 +136,49 @@ namespace SchemaDocumentationGenerator
                 return $"[{type.Name.Split('`')[0]}.cs]({link})";
             }
             return "";
+        }
+
+        /***************************************************/
+
+
+        private static (string, string) JsonSchemaLink(this Type type, string branch = "develop")
+        {
+            if (!(typeof(IObject).IsAssignableFrom(type) || type.IsEnum))
+                return (null, null);
+
+            string relativeId = type.RelativeSchemaId();
+            if(!SchemaExists(relativeId))
+                return (null, null);
+
+            string id = $"https://raw.githubusercontent.com/BHoM/BHoM_JSONSchema/{branch}/{relativeId}";
+            string link = $"https://github.com/BHoM/BHoM_JSONSchema/blob/{branch}/{relativeId}";
+            return (id, link) ;
+        }
+
+        /***************************************************/
+
+        [Description("Gets the path to the type based on its assembly and namespace. This method just returns the relative path, not the full ID path URI to the type.")]
+        public static string RelativeSchemaId(this Type type)
+        {
+            if (!(typeof(IObject).IsAssignableFrom(type) || (type.IsEnum && type.Namespace.StartsWith("BH.oM"))))
+                return null;
+
+            Assembly assembly = type.Assembly;
+            if (type.IsGenericType)
+                type = type.GetGenericTypeDefinition();
+            //Get rid of initial either BH.oM.Adapters or BH.oM and split by .
+            //Replacing the adapters version first, in case it is there to avoid blanket replace any "Adapters." in the string, in case it shows up later
+            //Skip 1 to ignore the main namespace as that is taken care of by using the assembly name, avoinding for example Geometry_oM/Geometry
+            string namePath = string.Join("/", type.FullName.Replace("BH.oM.Adapters.", "").Replace("BH.oM.", "").Split('.').Skip(1));
+
+            return $"{assembly.GetName().Name}/{namePath}.json";
+        }
+
+        /***************************************************/
+
+        private static bool SchemaExists(string relativeId)
+        { 
+            return File.Exists(Path.Combine(m_JsonSchemaFolder, relativeId));
         }
 
         /***************************************************/

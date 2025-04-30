@@ -69,7 +69,7 @@ title: IObject
     - BH.oM.Dimensional.[IElementM](/api/oM/Dimensional/Dimensional/IElementM)
     - BH.oM.dKoP.[IFloorAndRoofOpening](/api/oM/Physical/dKoP/Geometry/Openings/IFloorAndRoofOpening)
     - BH.oM.dKoP.[IWallOpening](/api/oM/Physical/dKoP/Geometry/Openings/IWallOpening)
-    - BH.oM.dKoP.[IdKopObject](/api/oM/Physical/dKoP/IdKopObject)
+    - BH.oM.dKoP.[IdKoPObject](/api/oM/Physical/dKoP/IdKoPObject)
     - BH.oM.Environment.[IClimateObject](/api/oM/Analytical/Environment/Climate/IClimateObject)
     - BH.oM.Environment.[IEnvironmentObject](/api/oM/Analytical/Environment/IEnvironmentObject)
     - BH.oM.Environment.SpaceCriteria.[IGain](/api/oM/Analytical/Environment/SpaceCriteria/IGain)
@@ -441,21 +441,27 @@ title: IObject
     - BH.oM.dKoP.[WallInterfaces](/api/oM/Physical/dKoP/Interfaces/WallInterfaces)
     - BH.oM.dKoP.[WallSideInterface](/api/oM/Physical/dKoP/Interfaces/WallSideInterface)
     - BH.oM.dKoP.[WallTopInterface](/api/oM/Physical/dKoP/Interfaces/WallTopInterface)
+    - BH.oM.dKoP.[ExternalWall](/api/oM/Physical/dKoP/Schemas/ExternalWall)
+    - BH.oM.dKoP.[FlatRoof](/api/oM/Physical/dKoP/Schemas/FlatRoof)
+    - BH.oM.dKoP.[InternalWall](/api/oM/Physical/dKoP/Schemas/InternalWall)
+    - BH.oM.dKoP.[PartyWall](/api/oM/Physical/dKoP/Schemas/PartyWall)
+    - BH.oM.dKoP.[PitchedRoof](/api/oM/Physical/dKoP/Schemas/PitchedRoof)
+    - BH.oM.dKoP.[UpperFloor](/api/oM/Physical/dKoP/Schemas/UpperFloor)
     - BH.oM.dKoP.[AcousticsFloor](/api/oM/Physical/dKoP/Perfomance/AcousticsFloor)
     - BH.oM.dKoP.[AcousticsWallAndRoof](/api/oM/Physical/dKoP/Perfomance/AcousticsWallAndRoof)
     - BH.oM.dKoP.[AirborneSoundInsulation](/api/oM/Physical/dKoP/Perfomance/AirborneSoundInsulation)
+    - BH.oM.dKoP.[ImpactSoundInsulation](/api/oM/Physical/dKoP/Perfomance/ImpactSoundInsulation)
     - BH.oM.dKoP.[AirPermeability](/api/oM/Physical/dKoP/Perfomance/AirPermeability)
     - BH.oM.dKoP.[Compartmentation](/api/oM/Physical/dKoP/Perfomance/Compartmentation)
     - BH.oM.dKoP.[Durability](/api/oM/Physical/dKoP/Perfomance/Durability)
-    - BH.oM.dKoP.[EmbodiedCarbon](/api/oM/Physical/dKoP/Perfomance/EmbodiedCarbon)
     - BH.oM.dKoP.[ExternalWallPerformance](/api/oM/Physical/dKoP/Perfomance/ExternalWallPerformance)
     - BH.oM.dKoP.[FinishesFloor](/api/oM/Physical/dKoP/Perfomance/Finishes/FinishesFloor)
     - BH.oM.dKoP.[FinishesRoof](/api/oM/Physical/dKoP/Perfomance/Finishes/FinishesRoof)
     - BH.oM.dKoP.[FinishesWall](/api/oM/Physical/dKoP/Perfomance/Finishes/FinishesWall)
     - BH.oM.dKoP.[Fire](/api/oM/Physical/dKoP/Perfomance/Fire)
     - BH.oM.dKoP.[FireResistance](/api/oM/Physical/dKoP/Perfomance/FireResistance)
+    - BH.oM.dKoP.[SurfaceSpreadOfFlame](/api/oM/Physical/dKoP/Perfomance/SurfaceSpreadOfFlame)
     - BH.oM.dKoP.[FloorPerformance](/api/oM/Physical/dKoP/Perfomance/FloorPerformance)
-    - BH.oM.dKoP.[ImpactSoundInsulation](/api/oM/Physical/dKoP/Perfomance/ImpactSoundInsulation)
     - BH.oM.dKoP.[InternalWallPerformance](/api/oM/Physical/dKoP/Perfomance/InternalWallPerformance)
     - BH.oM.dKoP.[Loading](/api/oM/Physical/dKoP/Perfomance/Loading/Loading)
     - BH.oM.dKoP.[SnowLoad](/api/oM/Physical/dKoP/Perfomance/Loading/SnowLoad)
@@ -470,7 +476,7 @@ title: IObject
     - BH.oM.dKoP.[Services](/api/oM/Physical/dKoP/Perfomance/Services/Services)
     - BH.oM.dKoP.[Ventilation](/api/oM/Physical/dKoP/Perfomance/Services/Ventilation)
     - BH.oM.dKoP.[Water](/api/oM/Physical/dKoP/Perfomance/Services/Water)
-    - BH.oM.dKoP.[SurfaceSpreadOfFlame](/api/oM/Physical/dKoP/Perfomance/SurfaceSpreadOfFlame)
+    - BH.oM.dKoP.[EmbodiedCarbon](/api/oM/Physical/dKoP/Perfomance/EmbodiedCarbon)
     - BH.oM.dKoP.[Sustainability](/api/oM/Physical/dKoP/Perfomance/Sustainability)
     - BH.oM.dKoP.[ThermalPerformance](/api/oM/Physical/dKoP/Perfomance/ThermalPerformance)
     - BH.oM.dKoP.[Vibration](/api/oM/Physical/dKoP/Perfomance/Vibration)
@@ -478,12 +484,6 @@ title: IObject
     - BH.oM.dKoP.[Documentation](/api/oM/Physical/dKoP/ProductInformation/Documentation)
     - BH.oM.dKoP.[ProductInformation](/api/oM/Physical/dKoP/ProductInformation/ProductInformation)
     - BH.oM.dKoP.[QualityAndCertification](/api/oM/Physical/dKoP/QualityAndCertification/QualityAndCertification)
-    - BH.oM.dKoP.[ExternalWall](/api/oM/Physical/dKoP/Schemas/ExternalWall)
-    - BH.oM.dKoP.[FlatRoof](/api/oM/Physical/dKoP/Schemas/FlatRoof)
-    - BH.oM.dKoP.[InternalWall](/api/oM/Physical/dKoP/Schemas/InternalWall)
-    - BH.oM.dKoP.[PartyWall](/api/oM/Physical/dKoP/Schemas/PartyWall)
-    - BH.oM.dKoP.[PitchedRoof](/api/oM/Physical/dKoP/Schemas/PitchedRoof)
-    - BH.oM.dKoP.[UpperFloor](/api/oM/Physical/dKoP/Schemas/UpperFloor)
     - BH.oM.EmbodiedSuffering.Elements.[LabourExploitationRisk](/api/oM/Analytical/EmbodiedSuffering/Elements/LabourExploitationRisk)
     - BH.oM.EmbodiedSuffering.Elements.[MaterialImportSources](/api/oM/Analytical/EmbodiedSuffering/Elements/MaterialImportSources)
     - BH.oM.Environment.SpaceCriteria.[Acoustics](/api/oM/Analytical/Environment/SpaceCriteria/Acoustics)
@@ -1622,3 +1622,15 @@ The interface is defined in C#. The class definition is available on github:
 - [IObject.cs](https://github.com/BHoM/BHoM/blob/develop/BHoM/Interface\IObject.cs)
 
 All history and changes of the class can be found by inspection the history.
+### JSON Schema implementation
+
+The object is defined as a JSON schema. To reference the schema in a validator like [this](https://www.jsonschemavalidator.net/) to validate a Json instance, please use the lines below:
+
+``` { .json .copy .select } title="JSON Schema"
+{
+ "$ref" : https://raw.githubusercontent.com/BHoM/BHoM_JSONSchema/develop/BHoM/IObject.json}
+```
+
+The JSON Schema is available on github here:
+
+- [IObject.json](https://github.com/BHoM/BHoM_JSONSchema/blob/develop/BHoM/IObject.json)
