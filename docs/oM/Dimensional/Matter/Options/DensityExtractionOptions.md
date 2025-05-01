@@ -54,7 +54,8 @@ The object is defined as a JSON schema. To reference the schema in a validator l
 
 ``` json title="JSON Schema"
 {
- "$ref" : https://raw.githubusercontent.com/BHoM/BHoM_JSONSchema/develop/Matter_oM/Options/DensityExtractionOptions.json}
+ "$ref" : "https://raw.githubusercontent.com/BHoM/BHoM_JSONSchema/develop/Matter_oM/Options/DensityExtractionOptions.json"
+}
 ```
 
 The JSON Schema is available on github here:

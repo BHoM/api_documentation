@@ -40,7 +40,8 @@ The object is defined as a JSON schema. To reference the schema in a validator l
 
 ``` json title="JSON Schema"
 {
- "$ref" : https://raw.githubusercontent.com/BHoM/BHoM_JSONSchema/develop/SAP_oM/SAP/ReportStatusCode.json}
+ "$ref" : "https://raw.githubusercontent.com/BHoM/BHoM_JSONSchema/develop/SAP_oM/SAP/ReportStatusCode.json"
+}
 ```
 
 The JSON Schema is available on github here:

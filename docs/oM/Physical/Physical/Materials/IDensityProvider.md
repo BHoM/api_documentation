@@ -81,7 +81,8 @@ The object is defined as a JSON schema. To reference the schema in a validator l
 
 ``` json title="JSON Schema"
 {
- "$ref" : https://raw.githubusercontent.com/BHoM/BHoM_JSONSchema/develop/Physical_oM/Materials/IDensityProvider.json}
+ "$ref" : "https://raw.githubusercontent.com/BHoM/BHoM_JSONSchema/develop/Physical_oM/Materials/IDensityProvider.json"
+}
 ```
 
 The JSON Schema is available on github here:
