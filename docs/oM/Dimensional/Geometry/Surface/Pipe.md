@@ -86,3 +86,30 @@ The object is defined as a JSON schema. To reference the schema in a validator l
 The JSON Schema is available on github here:
 
 - [Pipe.json](https://github.com/BHoM/BHoM_JSONSchema/blob/develop/Geometry_oM/Pipe.json)
+#### Example Json
+
+``` json title="Example Json"
+{
+  "_t": "BH.oM.Geometry.Pipe",
+  "Centreline": {
+    "_t": "BH.oM.Geometry.Line",
+    "Start": {
+      "_t": "BH.oM.Geometry.Point",
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "End": {
+      "_t": "BH.oM.Geometry.Point",
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 10.0
+    },
+    "Infinite": false
+  },
+  "Radius": 2.0,
+  "Capped": true,
+  "_bhomVersion": "8.2"
+}
+```
+

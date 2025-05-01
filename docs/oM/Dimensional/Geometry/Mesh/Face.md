@@ -82,3 +82,16 @@ The object is defined as a JSON schema. To reference the schema in a validator l
 The JSON Schema is available on github here:
 
 - [Face.json](https://github.com/BHoM/BHoM_JSONSchema/blob/develop/Geometry_oM/Face.json)
+#### Example Json
+
+``` json title="Example Json"
+{
+  "_t": "BH.oM.Geometry.Face",
+  "A": 0,
+  "B": 1,
+  "C": 2,
+  "D": 3,
+  "_bhomVersion": "8.2"
+}
+```
+

@@ -78,3 +78,16 @@ The object is defined as a JSON schema. To reference the schema in a validator l
 The JSON Schema is available on github here:
 
 - [Quaternion.json](https://github.com/BHoM/BHoM_JSONSchema/blob/develop/Geometry_oM/Quaternion.json)
+#### Example Json
+
+``` json title="Example Json"
+{
+  "_t": "BH.oM.Geometry.Quaternion",
+  "X": 0.0,
+  "Y": 0.0,
+  "Z": 0.0,
+  "W": 0.0,
+  "_bhomVersion": "8.2"
+}
+```
+

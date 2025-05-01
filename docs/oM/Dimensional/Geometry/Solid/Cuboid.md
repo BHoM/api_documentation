@@ -81,3 +81,42 @@ The object is defined as a JSON schema. To reference the schema in a validator l
 The JSON Schema is available on github here:
 
 - [Cuboid.json](https://github.com/BHoM/BHoM_JSONSchema/blob/develop/Geometry_oM/Cuboid.json)
+#### Example Json
+
+``` json title="Example Json"
+{
+  "_t": "BH.oM.Geometry.Cuboid",
+  "CoordinateSystem": {
+    "_t": "BH.oM.Geometry.CoordinateSystem.Cartesian",
+    "X": {
+      "_t": "BH.oM.Geometry.Vector",
+      "X": 1.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Y": {
+      "_t": "BH.oM.Geometry.Vector",
+      "X": 0.0,
+      "Y": 1.0,
+      "Z": 0.0
+    },
+    "Z": {
+      "_t": "BH.oM.Geometry.Vector",
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 1.0
+    },
+    "Origin": {
+      "_t": "BH.oM.Geometry.Point",
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    }
+  },
+  "Length": 2.0,
+  "Depth": 3.0,
+  "Height": 5.0,
+  "_bhomVersion": "8.2"
+}
+```
+

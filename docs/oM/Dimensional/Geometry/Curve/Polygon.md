@@ -138,3 +138,41 @@ The object is defined as a JSON schema. To reference the schema in a validator l
 The JSON Schema is available on github here:
 
 - [Polygon.json](https://github.com/BHoM/BHoM_JSONSchema/blob/develop/Geometry_oM/Polygon.json)
+#### Example Json
+
+``` json title="Example Json"
+{
+  "_t": "BH.oM.Geometry.Polygon",
+  "Vertices": {
+    "_t": "System.Collections.ObjectModel.ReadOnlyCollection\u00601[[BH.oM.Geometry.Point, Geometry_oM, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "_v": [
+      {
+        "_t": "BH.oM.Geometry.Point",
+        "X": 3.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      {
+        "_t": "BH.oM.Geometry.Point",
+        "X": 1.8369095307335659E-16,
+        "Y": 3.0,
+        "Z": 0.0
+      },
+      {
+        "_t": "BH.oM.Geometry.Point",
+        "X": -3.0,
+        "Y": 3.6738190614671318E-16,
+        "Z": 0.0
+      },
+      {
+        "_t": "BH.oM.Geometry.Point",
+        "X": -5.5107285922006977E-16,
+        "Y": -3.0,
+        "Z": 0.0
+      }
+    ]
+  },
+  "_bhomVersion": "8.2"
+}
+```
+

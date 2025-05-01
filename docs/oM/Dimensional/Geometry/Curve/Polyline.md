@@ -148,3 +148,38 @@ The object is defined as a JSON schema. To reference the schema in a validator l
 The JSON Schema is available on github here:
 
 - [Polyline.json](https://github.com/BHoM/BHoM_JSONSchema/blob/develop/Geometry_oM/Polyline.json)
+#### Example Json
+
+``` json title="Example Json"
+{
+  "_t": "BH.oM.Geometry.Polyline",
+  "ControlPoints": [
+    {
+      "_t": "BH.oM.Geometry.Point",
+      "X": -5.0,
+      "Y": -5.0,
+      "Z": 0.0
+    },
+    {
+      "_t": "BH.oM.Geometry.Point",
+      "X": 0.0,
+      "Y": -5.0,
+      "Z": 0.0
+    },
+    {
+      "_t": "BH.oM.Geometry.Point",
+      "X": 0.0,
+      "Y": 5.0,
+      "Z": 0.0
+    },
+    {
+      "_t": "BH.oM.Geometry.Point",
+      "X": -5.0,
+      "Y": 5.0,
+      "Z": 0.0
+    }
+  ],
+  "_bhomVersion": "8.2"
+}
+```
+

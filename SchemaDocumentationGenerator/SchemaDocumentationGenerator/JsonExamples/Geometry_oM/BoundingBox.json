@@ -1,0 +1,1 @@
+{ "_t" : "BH.oM.Geometry.BoundingBox", "Min" : { "_t" : "BH.oM.Geometry.Point", "X" : 0.0, "Y" : 0.0, "Z" : 0.0 }, "Max" : { "_t" : "BH.oM.Geometry.Point", "X" : 10.0, "Y" : 10.0, "Z" : 5.0 }, "_bhomVersion" : "8.2" }

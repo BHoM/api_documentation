@@ -143,3 +143,25 @@ The object is defined as a JSON schema. To reference the schema in a validator l
 The JSON Schema is available on github here:
 
 - [Circle.json](https://github.com/BHoM/BHoM_JSONSchema/blob/develop/Geometry_oM/Circle.json)
+#### Example Json
+
+``` json title="Example Json"
+{
+  "_t": "BH.oM.Geometry.Circle",
+  "Centre": {
+    "_t": "BH.oM.Geometry.Point",
+    "X": 0.0,
+    "Y": 0.0,
+    "Z": 0.0
+  },
+  "Normal": {
+    "_t": "BH.oM.Geometry.Vector",
+    "X": 0.0,
+    "Y": 0.0,
+    "Z": 1.0
+  },
+  "Radius": 5.0,
+  "_bhomVersion": "8.2"
+}
+```
+

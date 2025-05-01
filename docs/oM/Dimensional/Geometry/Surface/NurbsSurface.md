@@ -95,3 +95,56 @@ The object is defined as a JSON schema. To reference the schema in a validator l
 The JSON Schema is available on github here:
 
 - [NurbsSurface.json](https://github.com/BHoM/BHoM_JSONSchema/blob/develop/Geometry_oM/NurbsSurface.json)
+#### Example Json
+
+``` json title="Example Json"
+{
+  "_t": "BH.oM.Geometry.NurbsSurface",
+  "ControlPoints": [
+    {
+      "_t": "BH.oM.Geometry.Point",
+      "X": -5.0,
+      "Y": -5.0,
+      "Z": 0.0
+    },
+    {
+      "_t": "BH.oM.Geometry.Point",
+      "X": -5.0,
+      "Y": 5.0,
+      "Z": 4.0
+    },
+    {
+      "_t": "BH.oM.Geometry.Point",
+      "X": 5.0,
+      "Y": -5.0,
+      "Z": 4.0
+    },
+    {
+      "_t": "BH.oM.Geometry.Point",
+      "X": 5.0,
+      "Y": 5.0,
+      "Z": 0.0
+    }
+  ],
+  "Weights": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ],
+  "UKnots": [
+    0.0,
+    10.0
+  ],
+  "VKnots": [
+    0.0,
+    10.0
+  ],
+  "UDegree": 1,
+  "VDegree": 1,
+  "InnerTrims": [],
+  "OuterTrims": [],
+  "_bhomVersion": "8.2"
+}
+```
+

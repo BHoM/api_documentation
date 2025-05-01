@@ -77,9 +77,9 @@ namespace SchemaDocumentationGenerator
             string markdown = "### JSON Schema implementation\n\n";
             markdown += "The object is defined as a JSON schema. To reference the schema in a validator like [this](https://www.jsonschemavalidator.net/) to validate a Json instance, please use the lines below:\n\n";
 
-            markdown += "``` { .json .copy .select } title=\"JSON Schema\"\n";
+            markdown += "``` json title=\"JSON Schema\"\n";
             markdown += "{\n";
-            markdown += $" \"$ref\" : {id}";
+            markdown += $" \"$ref\" : \"{id}\"\n";
             markdown += "}\n";
 
             markdown += "```\n\n";
@@ -87,7 +87,50 @@ namespace SchemaDocumentationGenerator
             markdown += "The JSON Schema is available on github here:\n\n";
             markdown += $"- [{type.Name}.json]({link})\n";
 
+            string json = TryGetExampleJson(type);
+
+            if (json != null)
+            {
+
+                string formattedJson = System.Text.Json.Nodes.JsonNode.Parse(json).ToString().Replace(Environment.NewLine, "\n");
+
+                markdown += "#### Example Json\n\n";
+                markdown += "``` json title=\"Example Json\"\n";
+                markdown += formattedJson + "\n";
+
+                markdown += "```\n\n";
+
+            }
+
             return markdown;
+        }
+
+        /***************************************************/
+
+        public static string TryGetExampleJson(this Type type)
+        {
+            string executionPath = Environment.ProcessPath;
+            string[] split = executionPath.Split(Path.DirectorySeparatorChar);
+
+            string basePath = "";
+
+            for (int i = 0; i < split.Length; i++)
+            {
+                basePath += split[i] + Path.DirectorySeparatorChar;
+                if (split[i] == "SchemaDocumentationGenerator")
+                    break;
+            }
+            basePath = Path.Combine(basePath, "SchemaDocumentationGenerator", "JsonExamples");
+
+            string dir = Path.Combine(basePath, type.Assembly.GetName().Name);
+            if (!Directory.Exists(dir))
+                return null;
+
+            string filePath = Path.Combine(dir, type.Name + ".json");
+            if (!File.Exists(filePath))
+                return null;
+
+            return File.ReadAllText(filePath);
         }
 
         /***************************************************/

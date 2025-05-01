@@ -83,3 +83,24 @@ The object is defined as a JSON schema. To reference the schema in a validator l
 The JSON Schema is available on github here:
 
 - [BoundingBox.json](https://github.com/BHoM/BHoM_JSONSchema/blob/develop/Geometry_oM/BoundingBox.json)
+#### Example Json
+
+``` json title="Example Json"
+{
+  "_t": "BH.oM.Geometry.BoundingBox",
+  "Min": {
+    "_t": "BH.oM.Geometry.Point",
+    "X": 0.0,
+    "Y": 0.0,
+    "Z": 0.0
+  },
+  "Max": {
+    "_t": "BH.oM.Geometry.Point",
+    "X": 10.0,
+    "Y": 10.0,
+    "Z": 5.0
+  },
+  "_bhomVersion": "8.2"
+}
+```
+

@@ -83,3 +83,94 @@ The object is defined as a JSON schema. To reference the schema in a validator l
 The JSON Schema is available on github here:
 
 - [Loft.json](https://github.com/BHoM/BHoM_JSONSchema/blob/develop/Geometry_oM/Loft.json)
+#### Example Json
+
+``` json title="Example Json"
+{
+  "_t": "BH.oM.Geometry.Loft",
+  "Curves": [
+    {
+      "_t": "BH.oM.Geometry.Line",
+      "Start": {
+        "_t": "BH.oM.Geometry.Point",
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "End": {
+        "_t": "BH.oM.Geometry.Point",
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 10.0
+      },
+      "Infinite": false
+    },
+    {
+      "_t": "BH.oM.Geometry.Line",
+      "Start": {
+        "_t": "BH.oM.Geometry.Point",
+        "X": 1.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "End": {
+        "_t": "BH.oM.Geometry.Point",
+        "X": 1.0,
+        "Y": 0.0,
+        "Z": 10.0
+      },
+      "Infinite": false
+    },
+    {
+      "_t": "BH.oM.Geometry.Line",
+      "Start": {
+        "_t": "BH.oM.Geometry.Point",
+        "X": 2.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "End": {
+        "_t": "BH.oM.Geometry.Point",
+        "X": 2.0,
+        "Y": 0.0,
+        "Z": 10.0
+      },
+      "Infinite": false
+    },
+    {
+      "_t": "BH.oM.Geometry.Line",
+      "Start": {
+        "_t": "BH.oM.Geometry.Point",
+        "X": 3.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "End": {
+        "_t": "BH.oM.Geometry.Point",
+        "X": 3.0,
+        "Y": 0.0,
+        "Z": 10.0
+      },
+      "Infinite": false
+    },
+    {
+      "_t": "BH.oM.Geometry.Line",
+      "Start": {
+        "_t": "BH.oM.Geometry.Point",
+        "X": 4.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "End": {
+        "_t": "BH.oM.Geometry.Point",
+        "X": 4.0,
+        "Y": 0.0,
+        "Z": 10.0
+      },
+      "Infinite": false
+    }
+  ],
+  "_bhomVersion": "8.2"
+}
+```
+
