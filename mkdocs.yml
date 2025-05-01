@@ -23,6 +23,8 @@ theme:
     - content.action.edit
     - content.action.view
     - content.tabs.link # allows to link to specific Content tab. See https://squidfunk.github.io/mkdocs-material/reference/content-tabs/#linked-content-tabs
+    - content.code.select # allows specific lines of code to be selected in code blocks. See https://squidfunk.github.io/mkdocs-material/reference/code-blocks/#code-selection-button
+    - content.code.copy # allows code blocks to be copied. See https://squidfunk.github.io/mkdocs-material/reference/code-blocks/#code-copy-button
 
 plugins:
   - search
