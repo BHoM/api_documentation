@@ -28,14 +28,14 @@ public enum SizingMethod : System.Enum, System.ValueType, System.IComparable, Sy
 
 Assembly: Environment_oM.dll
 
-The enum is defined in C#. The class definition is available on github:
+The C# enum definition is available on github:
 
 - [SizingMethod.cs](https://github.com/BHoM/BHoM/blob/develop/Environment_oM/Fragments\Enums\SizingMethod.cs)
 
 All history and changes of the class can be found by inspection the history.
 ### JSON Schema implementation
 
-The object is defined as a JSON schema. To reference the schema in a validator like [this](https://www.jsonschemavalidator.net/) to validate a Json instance, please use the lines below:
+The object is defined as a JSON schema. You can validate a JSON instance against this schema by refernce. To do this, use the schema reference below in in a validator like [this one](https://www.jsonschemavalidator.net/).
 
 ``` json title="JSON Schema"
 {

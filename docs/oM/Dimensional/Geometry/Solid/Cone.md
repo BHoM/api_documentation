@@ -63,14 +63,14 @@ public class Cone : BH.oM.Geometry.ISolid, BH.oM.Geometry.IGeometry, BH.oM.Base.
 
 Assembly: Geometry_oM.dll
 
-The class is defined in C#. The class definition is available on github:
+The C# class definition is available on github:
 
 - [Cone.cs](https://github.com/BHoM/BHoM/blob/develop/Geometry_oM/Solid\Cone.cs)
 
 All history and changes of the class can be found by inspection the history.
 ### JSON Schema implementation
 
-The object is defined as a JSON schema. To reference the schema in a validator like [this](https://www.jsonschemavalidator.net/) to validate a Json instance, please use the lines below:
+The object is defined as a JSON schema. You can validate a JSON instance against this schema by refernce. To do this, use the schema reference below in in a validator like [this one](https://www.jsonschemavalidator.net/).
 
 ``` json title="JSON Schema"
 {
@@ -81,9 +81,11 @@ The object is defined as a JSON schema. To reference the schema in a validator l
 The JSON Schema is available on github here:
 
 - [Cone.json](https://github.com/BHoM/BHoM_JSONSchema/blob/develop/Geometry_oM/Cone.json)
-#### Example Json
+### Example JSON instance
 
-``` json title="Example Json"
+Example JSON instance of type Cone.
+
+``` json title="Example JSON"
 {
   "_t": "BH.oM.Geometry.Cone",
   "Centre": {

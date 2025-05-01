@@ -57,7 +57,7 @@ namespace SchemaDocumentationGenerator
             string link = type.GithubLink();
             if (!string.IsNullOrEmpty(link))
             {
-                markdown += $"The {classWord} is defined in C#. The class definition is available on github:\n\n";
+                markdown += $"The C# {classWord} definition is available on github:\n\n";
                 markdown += $"- {link}\n";
                 markdown += "\nAll history and changes of the class can be found by inspection the history.\n";
             }
@@ -75,7 +75,7 @@ namespace SchemaDocumentationGenerator
                 return null;
 
             string markdown = "### JSON Schema implementation\n\n";
-            markdown += "The object is defined as a JSON schema. To reference the schema in a validator like [this](https://www.jsonschemavalidator.net/) to validate a Json instance, please use the lines below:\n\n";
+            markdown += "The object is defined as a JSON schema. You can validate a JSON instance against this schema by refernce. To do this, use the schema reference below in in a validator like [this one](https://www.jsonschemavalidator.net/).\n\n";
 
             markdown += "``` json title=\"JSON Schema\"\n";
             markdown += "{\n";
@@ -91,11 +91,11 @@ namespace SchemaDocumentationGenerator
 
             if (json != null)
             {
-
                 string formattedJson = System.Text.Json.Nodes.JsonNode.Parse(json).ToString().Replace(Environment.NewLine, "\n");
 
-                markdown += "#### Example Json\n\n";
-                markdown += "``` json title=\"Example Json\"\n";
+                markdown += "### Example JSON instance\n\n";
+                markdown += $"Example JSON instance of type {type.Name}.\n\n";
+                markdown += "``` json title=\"Example JSON\"\n";
                 markdown += formattedJson + "\n";
 
                 markdown += "```\n\n";

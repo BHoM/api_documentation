@@ -53,14 +53,14 @@ BH.oM.Base.IBHoMObject
 
 Assembly: File_oM.dll
 
-The interface is defined in C#. The class definition is available on github:
+The C# interface definition is available on github:
 
 - [IFSContainer.cs](https://github.com/BHoM/File_Toolkit/blob/develop/File_oM/Interfaces\IFSContainer.cs)
 
 All history and changes of the class can be found by inspection the history.
 ### JSON Schema implementation
 
-The object is defined as a JSON schema. To reference the schema in a validator like [this](https://www.jsonschemavalidator.net/) to validate a Json instance, please use the lines below:
+The object is defined as a JSON schema. You can validate a JSON instance against this schema by refernce. To do this, use the schema reference below in in a validator like [this one](https://www.jsonschemavalidator.net/).
 
 ``` json title="JSON Schema"
 {

@@ -26,14 +26,14 @@ public enum AnalysisType : System.Enum, System.ValueType, System.IComparable, Sy
 
 Assembly: GSA_oM.dll
 
-The enum is defined in C#. The class definition is available on github:
+The C# enum definition is available on github:
 
 - [AnalysisType.cs](https://github.com/BHoM/GSA_Toolkit/blob/develop/GSA_oM/Enum\AnalysisType.cs)
 
 All history and changes of the class can be found by inspection the history.
 ### JSON Schema implementation
 
-The object is defined as a JSON schema. To reference the schema in a validator like [this](https://www.jsonschemavalidator.net/) to validate a Json instance, please use the lines below:
+The object is defined as a JSON schema. You can validate a JSON instance against this schema by refernce. To do this, use the schema reference below in in a validator like [this one](https://www.jsonschemavalidator.net/).
 
 ``` json title="JSON Schema"
 {

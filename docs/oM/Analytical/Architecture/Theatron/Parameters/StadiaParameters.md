@@ -64,14 +64,14 @@ public class StadiaParameters : BH.oM.Base.BHoMObject, BH.oM.Base.IBHoMObject, B
 
 Assembly: Architecture_oM.dll
 
-The class is defined in C#. The class definition is available on github:
+The C# class definition is available on github:
 
 - [StadiaParameters.cs](https://github.com/BHoM/BHoM/blob/develop/Architecture_oM/Theatron\Parameters\StadiaParameters.cs)
 
 All history and changes of the class can be found by inspection the history.
 ### JSON Schema implementation
 
-The object is defined as a JSON schema. To reference the schema in a validator like [this](https://www.jsonschemavalidator.net/) to validate a Json instance, please use the lines below:
+The object is defined as a JSON schema. You can validate a JSON instance against this schema by refernce. To do this, use the schema reference below in in a validator like [this one](https://www.jsonschemavalidator.net/).
 
 ``` json title="JSON Schema"
 {
