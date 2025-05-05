@@ -26,7 +26,7 @@ The following properties are defined on the class
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| AirborneSoundInsulation | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Weighted sound reduction index, Rw. | - |
+| AirborneSoundInsulation | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | Weighted sound reduction index, Rw. | [WeightedSoundReductionIndex](/api/oM/Dimensional/Quantities/Attributes/WeightedSoundReductionIndex) [dB] |
 
 
 ## Code and Schema

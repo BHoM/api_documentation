@@ -26,7 +26,7 @@ The following properties are defined on the class
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| FireResistance | [FireResistancePeriod](/api/oM/Physical/dKoP/Perfomance/Enums/FireResistancePeriod) | - | - |
+| FireResistance | [FireResistancePeriod](/api/oM/Physical/dKoP/Performance/Fire/FireResistancePeriod) | - | - |
 | SurfaceSpreadOfFlame | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | Reaction to fire, smoke propagation, flaming droplets and particles. | - |
 
 

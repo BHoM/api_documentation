@@ -26,8 +26,8 @@ The following properties are defined on the class
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| UValue | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | - | - |
-| GValue | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | - | - |
+| UValue | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | - | [ThermalTransmittance](/api/oM/Dimensional/Quantities/Attributes/ThermalTransmittance) [W/(m².K)] |
+| GValue | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | - | [Ratio](/api/oM/Dimensional/Quantities/Attributes/Ratio) [-] |
 
 
 ## Code and Schema
