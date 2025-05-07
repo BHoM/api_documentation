@@ -75,7 +75,7 @@ namespace SchemaDocumentationGenerator
                 return null;
 
             string markdown = "### JSON Schema implementation\n\n";
-            markdown += "The object is defined as a JSON schema. You can validate a JSON instance against this schema by refernce. To do this, use the schema reference below in in a validator like [this one](https://www.jsonschemavalidator.net/).\n\n";
+            markdown += "The object is defined as a JSON schema. You can validate a JSON instance against this schema by reference. To do this, use the schema reference below in a validator like [this one](https://www.jsonschemavalidator.net/).\n\n";
 
             markdown += "``` json title=\"JSON Schema\"\n";
             markdown += "{\n";

@@ -44,15 +44,6 @@ The following properties are inherited from the base class of the object
 | CustomData | [Dictionary](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.Dictionary-2?view=netstandard-2.0)&lt;[string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0), [object](https://learn.microsoft.com/en-us/dotnet/api/System.Object?view=netstandard-2.0)&gt; | - | - |
 
 
-### Derived properties
-
-The following properties are defined as extension methods in one of the BHoM_Engines
-
-| Name             | Type             | Description      | Quantity         | Engine           |
-|------------------|------------------|------------------|------------------|------------------|
-| FilterByCheckStatus | [Output](/api/oM/Framework/Base/Output)&lt;[List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[UnitTest](/api/oM/Framework/Test/UnitTests/UnitTest)&gt;, [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[TestResult](/api/oM/Framework/Test/Results/TestResult)&gt;, [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[UnitTest](/api/oM/Framework/Test/UnitTests/UnitTest)&gt;, [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[TestResult](/api/oM/Framework/Test/Results/TestResult)&gt;&gt; | Runs and checks all provided UnitTests in the provided Dataset and provides the ones that has a the provided status. | - | UnitTest_Engine |
-
-
 ## Code and Schema
 
 ### C# implementation
@@ -70,7 +61,7 @@ The C# class definition is available on github:
 All history and changes of the class can be found by inspection the history.
 ### JSON Schema implementation
 
-The object is defined as a JSON schema. You can validate a JSON instance against this schema by refernce. To do this, use the schema reference below in in a validator like [this one](https://www.jsonschemavalidator.net/).
+The object is defined as a JSON schema. You can validate a JSON instance against this schema by reference. To do this, use the schema reference below in a validator like [this one](https://www.jsonschemavalidator.net/).
 
 ``` json title="JSON Schema"
 {
