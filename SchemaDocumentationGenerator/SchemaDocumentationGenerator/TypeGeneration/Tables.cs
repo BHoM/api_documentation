@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
@@ -34,6 +35,28 @@ namespace SchemaDocumentationGenerator
             foreach (PropertyInfo property in props)
             {
                 markdown += PropertyTableString(property, includeQuantities);
+            }
+            return markdown;
+        }
+
+        /***************************************************/
+
+        private static string OptionalPropertyTable(this IEnumerable<PropertyInfo> props, bool includeQuantities = true)
+        {
+            string markdown;
+            if (includeQuantities)
+            {
+                markdown = "| Name             | Type             | Description      | Quantity         |\n";
+                markdown += "|------------------|------------------|------------------|------------------|\n";
+            }
+            else
+            {
+                markdown = "| Name             | Type             | Description      |\n";
+                markdown += "|------------------|------------------|------------------|\n";
+            }
+            foreach (PropertyInfo property in props)
+            {
+                markdown += OptionalPropertyTableString(property, includeQuantities);
             }
             return markdown;
         }
@@ -101,6 +124,8 @@ namespace SchemaDocumentationGenerator
         private static string PropertyTableString(PropertyInfo property, bool includeQuantities)
         {
             string desc = property.SafeDescString();
+            if (property.GetCustomAttribute<DynamicPropertyAttribute>() != null)
+                desc += "<br>This is a dynamic collection that stores the optional properties defined below.";       //<br> rather than new line as this is part of a table
             if (includeQuantities)
             {
                 QuantityAttribute quant = property.GetCustomAttribute<QuantityAttribute>();
@@ -113,6 +138,56 @@ namespace SchemaDocumentationGenerator
 
             }
 
+        }
+
+        /***************************************************/
+
+        private static string OptionalPropertyTableString(PropertyInfo property, bool includeQuantities)
+        {
+            string quantString = "";
+            if (includeQuantities)
+            {
+                QuantityAttribute quant = property.GetCustomAttribute<QuantityAttribute>();
+                quantString = quant.QuantityString();
+
+            }
+
+            if (!typeof(IDictionary).IsAssignableFrom(property.PropertyType))
+                return "";
+
+            Type[] typeArgs = property.PropertyType.GenericTypeArguments;
+
+            if (typeArgs.Length != 2)
+                return "";
+
+            Type propType = typeArgs[1];
+
+            Type enumType = typeArgs[0];
+            if (enumType == null || !enumType.IsEnum)
+                return "";
+            string markdown = "";
+            foreach (FieldInfo field in enumType.GetFields())
+            {
+                if (field.Name == "value__")
+                    continue;
+
+                //DescriptionAttribute[] descriptions = field.GetCustomAttributes(typeof(DescriptionAttribute), false) as DescriptionAttribute[];
+
+                //string desc = "-";
+                //if (descriptions != null && descriptions.Count() > 0)
+                 string   desc = field.SafeDescString();
+
+                if (includeQuantities)
+                {
+                    markdown+= $"| {field.Name} | {propType.GetNameAsLink(false)} | {desc} | {quantString} |\n";
+                }
+                else
+                {
+                    markdown += $"| {field.Name} | {propType.GetNameAsLink(false)} | {desc} |\n";
+                }
+            }
+
+            return markdown;
         }
 
         /***************************************************/

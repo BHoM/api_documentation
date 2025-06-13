@@ -1,4 +1,8 @@
-﻿using System;
+﻿using BH.oM.Base;
+using BH.oM.Base.Attributes;
+using BH.oM.Quantities.Attributes;
+using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
@@ -6,9 +10,6 @@ using System.Reflection;
 using System.Security.AccessControl;
 using System.Text;
 using System.Threading.Tasks;
-using BH.oM.Base;
-using BH.oM.Base.Attributes;
-using BH.oM.Quantities.Attributes;
 
 namespace SchemaDocumentationGenerator
 {
@@ -16,7 +17,7 @@ namespace SchemaDocumentationGenerator
     {
         /***************************************************/
 
-        public static bool WriteTypeToMarkdown(string basePath, Type type, Dictionary<Type, List<MethodInfo>> extensionMethods)
+        public static bool WriteTypeToMarkdown(string basePath, Type type, Dictionary<Type, List<MethodInfo>> extensionMethods, Dictionary<Type, List<MethodInfo>> genericExtensionMethods)
         {
             if (type.IsEnum)
                 return WriteTypeToMarkdownEnum(basePath, type);
@@ -48,6 +49,25 @@ namespace SchemaDocumentationGenerator
                 markdown += props.PropertyTable();
                 markdown += "\n\n";
             }
+
+            if (typeof(IDynamicObject).IsAssignableFrom(type) && !typeof(IDynamicPropertyProvider).IsAssignableFrom(type))
+            {
+                List<PropertyInfo> optionProps = type.GetProperties(BindingFlags.DeclaredOnly | BindingFlags.Instance | BindingFlags.Public).Where(prop =>
+                    prop.GetCustomAttribute<DynamicPropertyAttribute>() != null
+                    && typeof(IDictionary).IsAssignableFrom(prop.PropertyType)
+                    && prop.PropertyType.GenericTypeArguments.First().IsEnum).ToList();
+
+                if (optionProps.Count != 0)
+                {
+                    markdown += "\n\n";
+                    markdown += "### Optional properties\n\n";
+                    markdown += $"The following properties are optional and can be included on a object definition in any combination\n\n";
+                    markdown += optionProps.OptionalPropertyTable();
+                    markdown += "\n\n";
+                }
+
+            }
+
             PropertyInfo[] inheritedProps = type.GetProperties(BindingFlags.Instance | BindingFlags.Public).Except(props).ToArray();
 
             if (inheritedProps.Length > 0)
@@ -62,7 +82,7 @@ namespace SchemaDocumentationGenerator
             List<Type> ignoredTargetTypes = new List<Type> { typeof(IObject), typeof(IBHoMObject), typeof(BHoMObject), typeof(System.Object) };
 
             //Gets query methods that has a single input that accepts this type as input, excluding methods that target one of the other listed types
-            List<MethodInfo> methods = GetExtensionMethods(type, baseTypes, ignoredTargetTypes, extensionMethods);
+            List<MethodInfo> methods = GetExtensionMethods(type, baseTypes, ignoredTargetTypes, extensionMethods, genericExtensionMethods);
             if (methods.Count > 0)
             {
                 markdown += "### Derived properties\n\n";
@@ -195,7 +215,7 @@ namespace SchemaDocumentationGenerator
             List<Type> ignoredTargetTypes = new List<Type> { typeof(IObject), typeof(IBHoMObject), typeof(BHoMObject), typeof(System.Object) };
             List<Type> baseTypes = GetBaseTypes(type);
             //Gets query methods that has a single input that accepts this type as input, excluding methods that target one of the other listed types
-            List<MethodInfo> methods = GetExtensionMethods(type, baseTypes, ignoredTargetTypes, extensionMethods);
+            List<MethodInfo> methods = GetExtensionMethods(type, baseTypes, ignoredTargetTypes, extensionMethods, new Dictionary<Type, List<MethodInfo>>());
             if (methods.Count > 0)
             {
                 markdown += "### Derived properties\n\n";
