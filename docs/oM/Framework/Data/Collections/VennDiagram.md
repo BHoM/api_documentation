@@ -39,6 +39,15 @@ The following properties are defined on the class
 | OnlySet2 | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[T](#t)&gt; | - | - |
 
 
+### Derived properties
+
+The following properties are defined as extension methods in one of the BHoM_Engines
+
+| Name             | Type             | Description      | Quantity         | Engine           |
+|------------------|------------------|------------------|------------------|------------------|
+| Count | [int](https://learn.microsoft.com/en-us/dotnet/api/System.Int32?view=netstandard-2.0) | Get the total number of objects contained within the Venn Diagram. The count will be the sum of the objects contained solely within each set plus those in the intersection. | - | Data_Engine |
+
+
 ## Code and Schema
 
 ### C# implementation

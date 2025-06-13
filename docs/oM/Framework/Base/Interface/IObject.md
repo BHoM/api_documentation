@@ -43,6 +43,8 @@ title: IObject
     - BH.oM.Base.[IBHoMGroup](/api/oM/Framework/Base/Interface/IBHoMGroup)
     - BH.oM.Base.[IBHoMObject](/api/oM/Framework/Base/Interface/IBHoMObject)
     - BH.oM.Base.[IContainer](/api/oM/Framework/Base/Interface/IContainer)
+    - BH.oM.Base.[IDynamicObject](/api/oM/Framework/Base/Interface/IDynamicObject)
+    - BH.oM.Base.[IDynamicPropertyProvider](/api/oM/Framework/Base/Interface/IDynamicPropertyProvider)
     - BH.oM.Base.[IEnum](/api/oM/Framework/Base/Interface/IEnum)
     - BH.oM.Base.[IFragment](/api/oM/Framework/Base/Interface/IFragment)
     - BH.oM.Base.[IHashFragment](/api/oM/Framework/Base/Interface/IHashFragment)
@@ -129,9 +131,15 @@ title: IObject
     - BH.oM.LadybugTools.[ISimulationCommand](/api/oM/Adapter/LadybugTools/ExecuteCommands/ISimulationCommand)
     - BH.oM.LadybugTools.[ILadybugTools](/api/oM/Adapter/LadybugTools/ILadybugTools)
     - BH.oM.LadybugTools.[ISimulationData](/api/oM/Adapter/LadybugTools/MetaData/ISimulationData)
-    - BH.oM.LifeCycleAssessment.[ILifeCycleAssessmentPhaseData](/api/oM/Analytical/LifeCycleAssessment/ILifeCycleAssessmentPhaseData)
-    - BH.oM.LifeCycleAssessment.Results.[IElementResult](/api/oM/Analytical/LifeCycleAssessment/Results/ElementResults/IElementResult)&lt;[T](/api/oM/Analytical/LifeCycleAssessment/Results/ElementResults/IElementResult#t)&gt;
+    - BH.oM.LifeCycleAssessment.Results.[IElementResult](/api/oM/Analytical/LifeCycleAssessment/Results/IElementResult)&lt;[T](/api/oM/Analytical/LifeCycleAssessment/Results/IElementResult#t)&gt;
     - BH.oM.LifeCycleAssessment.Results.[IEnvironmentalResult](/api/oM/Analytical/LifeCycleAssessment/Results/IEnvironmentalResult)
+    - BH.oM.LifeCycleAssessment.MaterialFragments.[IEnvironmentalFactor](/api/oM/Analytical/LifeCycleAssessment/MaterialFragments/EnvironmentalFactors/IEnvironmentalFactor)
+    - BH.oM.LifeCycleAssessment.MaterialFragments.[IEnvironmentalMetric](/api/oM/Analytical/LifeCycleAssessment/MaterialFragments/EnvironmentalMetrics/IEnvironmentalMetric)
+    - BH.oM.LifeCycleAssessment.MaterialFragments.[IEnvironmentalFactorsProvider](/api/oM/Analytical/LifeCycleAssessment/MaterialFragments/IEnvironmentalFactorsProvider)
+    - BH.oM.LifeCycleAssessment.MaterialFragments.Transport.[ITransportFactors](/api/oM/Analytical/LifeCycleAssessment/MaterialFragments/Transport/ITransportFactors)
+    - BH.oM.LifeCycleAssessment.Interfaces.[IDeprecatedStandard](/api/oM/Analytical/LifeCycleAssessment/Interfaces/IDeprecatedStandard)
+    - BH.oM.LifeCycleAssessment.Interfaces.[ILifeCycleAssessmentIndicator](/api/oM/Analytical/LifeCycleAssessment/Interfaces/ILifeCycleAssessmentIndicator)
+    - BH.oM.LifeCycleAssessment.Interfaces.[ILifeCycleAssessmentModuleData](/api/oM/Analytical/LifeCycleAssessment/Interfaces/ILifeCycleAssessmentModuleData)&lt;[T](/api/oM/Analytical/LifeCycleAssessment/Interfaces/ILifeCycleAssessmentModuleData#t)&gt;
     - BH.oM.LifeCycleAssessment.Configs.[IEvaluationConfig](/api/oM/Analytical/LifeCycleAssessment/Configs/IEvaluationConfig)
     - BH.oM.MEP.System.[IFlow](/api/oM/Analytical/MEP/System/IFlow)
     - BH.oM.MEP.System.[ISystemType](/api/oM/Analytical/MEP/System/ISystemType)
@@ -162,6 +170,7 @@ title: IObject
     - BH.oM.PowerPoint.[ISlideUpdate](/api/oM/Adapter/PowerPoint/Update/ISlideUpdate)
     - BH.oM.Programming.[INode](/api/oM/Framework/Programming/Nodes/INode)
     - BH.oM.Programming.[INodeParam](/api/oM/Framework/Programming/Params/INodeParam)
+    - BH.oM.Quantities.[IQuantity](/api/oM/Dimensional/Quantities/IQuantity)
     - BH.oM.Adapters.Revit.Parameters.[IRevitParameterFragment](/api/oM/Adapter/Adapters/Revit/Parameters/IRevitParameterFragment)
     - BH.oM.Adapters.Revit.Mapping.[IParameterLink](/api/oM/Adapter/Adapters/Revit/Mapping/IParameterLink)
     - BH.oM.Adapters.Revit.Elements.[IInstance](/api/oM/Adapter/Adapters/Revit/Elements/IInstance)
@@ -307,6 +316,7 @@ title: IObject
     - BH.oM.Base.[Output](/api/oM/Framework/Base/Output)&lt;[T1](/api/oM/Framework/Base/Output#t1), [T2](/api/oM/Framework/Base/Output#t2), [T3](/api/oM/Framework/Base/Output#t3), [T4](/api/oM/Framework/Base/Output#t4), [T5](/api/oM/Framework/Base/Output#t5), [T6](/api/oM/Framework/Base/Output#t6), [T7](/api/oM/Framework/Base/Output#t7), [T8](/api/oM/Framework/Base/Output#t8), [T9](/api/oM/Framework/Base/Output#t9)&gt;
     - BH.oM.Base.[Output](/api/oM/Framework/Base/Output)&lt;[T1](/api/oM/Framework/Base/Output#t1), [T2](/api/oM/Framework/Base/Output#t2), [T3](/api/oM/Framework/Base/Output#t3), [T4](/api/oM/Framework/Base/Output#t4), [T5](/api/oM/Framework/Base/Output#t5), [T6](/api/oM/Framework/Base/Output#t6), [T7](/api/oM/Framework/Base/Output#t7), [T8](/api/oM/Framework/Base/Output#t8), [T9](/api/oM/Framework/Base/Output#t9), [T10](/api/oM/Framework/Base/Output#t10)&gt;
     - BH.oM.Base.[UsageLogEntry](/api/oM/Framework/Base/UsageLogEntry)
+    - BH.oM.Base.Reflection.[Property](/api/oM/Framework/Base/Reflection/Property)
     - BH.oM.Base.Reflection.[UnderlyingType](/api/oM/Framework/Base/Reflection/UnderlyingType)
     - BH.oM.Base.Debugging.[Event](/api/oM/Framework/Base/Debugging/Event)
     - BH.oM.Base.Debugging.[Log](/api/oM/Framework/Base/Debugging/Log)
@@ -315,9 +325,11 @@ title: IObject
     - BH.oM.Base.Attributes.[DefaultValueWarningAttribute](/api/oM/Framework/Base/Attributes/DefaultValueWarningAttribute)
     - BH.oM.Base.Attributes.[DisplayTextAttribute](/api/oM/Framework/Base/Attributes/DisplayTextAttribute)
     - BH.oM.Base.Attributes.[DocumentationURLAttribute](/api/oM/Framework/Base/Attributes/DocumentationURLAttribute)
+    - BH.oM.Base.Attributes.[DynamicPropertyAttribute](/api/oM/Framework/Base/Attributes/DynamicPropertyAttribute)
     - BH.oM.Base.Attributes.[FilePathAttribute](/api/oM/Framework/Base/Attributes/FilePathAttribute)
     - BH.oM.Base.Attributes.[FolderPathAttribute](/api/oM/Framework/Base/Attributes/FolderPathAttribute)
     - BH.oM.Base.Attributes.[InputAttribute](/api/oM/Framework/Base/Attributes/InputAttribute)
+    - BH.oM.Base.Attributes.[InputFromDescription](/api/oM/Framework/Base/Attributes/InputFromDescription)
     - BH.oM.Base.Attributes.[InputFromProperty](/api/oM/Framework/Base/Attributes/InputFromProperty)
     - BH.oM.Base.Attributes.[MultiOutputAttribute](/api/oM/Framework/Base/Attributes/MultiOutputAttribute)
     - BH.oM.Base.Attributes.[NoAutoConstructorAttribute](/api/oM/Framework/Base/Attributes/NoAutoConstructorAttribute)
@@ -772,6 +784,7 @@ title: IObject
     - BH.oM.LadybugTools.[EnergyMaterial](/api/oM/Adapter/LadybugTools/Constructions/EnergyMaterial)
     - BH.oM.LadybugTools.[EnergyMaterialVegetation](/api/oM/Adapter/LadybugTools/Constructions/EnergyMaterialVegetation)
     - BH.oM.LadybugTools.[DiurnalPlotCommand](/api/oM/Adapter/LadybugTools/ExecuteCommands/DiurnalPlotCommand)
+    - BH.oM.LadybugTools.[FacadeCondensationRiskCommand](/api/oM/Adapter/LadybugTools/ExecuteCommands/FacadeCondensationRiskCommand)
     - BH.oM.LadybugTools.[GetMaterialCommand](/api/oM/Adapter/LadybugTools/ExecuteCommands/GetMaterialCommand)
     - BH.oM.LadybugTools.[GetTypologyCommand](/api/oM/Adapter/LadybugTools/ExecuteCommands/GetTypologyCommand)
     - BH.oM.LadybugTools.[HeatPlotCommand](/api/oM/Adapter/LadybugTools/ExecuteCommands/HeatPlotCommand)
@@ -839,6 +852,25 @@ title: IObject
     - BH.oM.LifeCycleAssessment.Results.[PhotochemicalOzoneCreationMaterialResult](/api/oM/Analytical/LifeCycleAssessment/Results/MaterialResults/PhotochemicalOzoneCreationMaterialResult)
     - BH.oM.LifeCycleAssessment.Results.[PhotochemicalOzoneCreationTRACIMaterialResult](/api/oM/Analytical/LifeCycleAssessment/Results/MaterialResults/PhotochemicalOzoneCreationTRACIMaterialResult)
     - BH.oM.LifeCycleAssessment.Results.[WaterDeprivationMaterialResult](/api/oM/Analytical/LifeCycleAssessment/Results/MaterialResults/WaterDeprivationMaterialResult)
+    - BH.oM.LifeCycleAssessment.MaterialFragments.[CombinedLifeCycleAssessmentFactors](/api/oM/Analytical/LifeCycleAssessment/MaterialFragments/CombinedLifeCycleAssessmentFactors)
+    - BH.oM.LifeCycleAssessment.MaterialFragments.[AbioticDepletionFossilResourcesFactor](/api/oM/Analytical/LifeCycleAssessment/MaterialFragments/EnvironmentalFactors/AbioticDepletionFossilResourcesFactor)
+    - BH.oM.LifeCycleAssessment.MaterialFragments.[AbioticDepletionMineralsAndMetalsFactor](/api/oM/Analytical/LifeCycleAssessment/MaterialFragments/EnvironmentalFactors/AbioticDepletionMineralsAndMetalsFactor)
+    - BH.oM.LifeCycleAssessment.MaterialFragments.[AcidificationFactor](/api/oM/Analytical/LifeCycleAssessment/MaterialFragments/EnvironmentalFactors/AcidificationFactor)
+    - BH.oM.LifeCycleAssessment.MaterialFragments.[ClimateChangeBiogenicFactor](/api/oM/Analytical/LifeCycleAssessment/MaterialFragments/EnvironmentalFactors/ClimateChangeBiogenicFactor)
+    - BH.oM.LifeCycleAssessment.MaterialFragments.[ClimateChangeFossilFactor](/api/oM/Analytical/LifeCycleAssessment/MaterialFragments/EnvironmentalFactors/ClimateChangeFossilFactor)
+    - BH.oM.LifeCycleAssessment.MaterialFragments.[ClimateChangeLandUseFactor](/api/oM/Analytical/LifeCycleAssessment/MaterialFragments/EnvironmentalFactors/ClimateChangeLandUseFactor)
+    - BH.oM.LifeCycleAssessment.MaterialFragments.[ClimateChangeTotalFactor](/api/oM/Analytical/LifeCycleAssessment/MaterialFragments/EnvironmentalFactors/ClimateChangeTotalFactor)
+    - BH.oM.LifeCycleAssessment.MaterialFragments.[ClimateChangeTotalNoBiogenicFactor](/api/oM/Analytical/LifeCycleAssessment/MaterialFragments/EnvironmentalFactors/ClimateChangeTotalNoBiogenicFactor)
+    - BH.oM.LifeCycleAssessment.MaterialFragments.[EutrophicationAquaticFreshwaterFactor](/api/oM/Analytical/LifeCycleAssessment/MaterialFragments/EnvironmentalFactors/EutrophicationAquaticFreshwaterFactor)
+    - BH.oM.LifeCycleAssessment.MaterialFragments.[EutrophicationAquaticMarineFactor](/api/oM/Analytical/LifeCycleAssessment/MaterialFragments/EnvironmentalFactors/EutrophicationAquaticMarineFactor)
+    - BH.oM.LifeCycleAssessment.MaterialFragments.[EutrophicationCMLFactor](/api/oM/Analytical/LifeCycleAssessment/MaterialFragments/EnvironmentalFactors/EutrophicationCMLFactor)
+    - BH.oM.LifeCycleAssessment.MaterialFragments.[EutrophicationTerrestrialFactor](/api/oM/Analytical/LifeCycleAssessment/MaterialFragments/EnvironmentalFactors/EutrophicationTerrestrialFactor)
+    - BH.oM.LifeCycleAssessment.MaterialFragments.[EutrophicationTRACIFactor](/api/oM/Analytical/LifeCycleAssessment/MaterialFragments/EnvironmentalFactors/EutrophicationTRACIFactor)
+    - BH.oM.LifeCycleAssessment.MaterialFragments.[OzoneDepletionFactor](/api/oM/Analytical/LifeCycleAssessment/MaterialFragments/EnvironmentalFactors/OzoneDepletionFactor)
+    - BH.oM.LifeCycleAssessment.MaterialFragments.[PhotochemicalOzoneCreationCMLFactor](/api/oM/Analytical/LifeCycleAssessment/MaterialFragments/EnvironmentalFactors/PhotochemicalOzoneCreationCMLFactor)
+    - BH.oM.LifeCycleAssessment.MaterialFragments.[PhotochemicalOzoneCreationFactor](/api/oM/Analytical/LifeCycleAssessment/MaterialFragments/EnvironmentalFactors/PhotochemicalOzoneCreationFactor)
+    - BH.oM.LifeCycleAssessment.MaterialFragments.[PhotochemicalOzoneCreationTRACIFactor](/api/oM/Analytical/LifeCycleAssessment/MaterialFragments/EnvironmentalFactors/PhotochemicalOzoneCreationTRACIFactor)
+    - BH.oM.LifeCycleAssessment.MaterialFragments.[WaterDeprivationFactor](/api/oM/Analytical/LifeCycleAssessment/MaterialFragments/EnvironmentalFactors/WaterDeprivationFactor)
     - BH.oM.LifeCycleAssessment.MaterialFragments.[AbioticDepletionFossilResourcesMetric](/api/oM/Analytical/LifeCycleAssessment/MaterialFragments/EnvironmentalMetrics/AbioticDepletionFossilResourcesMetric)
     - BH.oM.LifeCycleAssessment.MaterialFragments.[AbioticDepletionMineralsAndMetalsMetric](/api/oM/Analytical/LifeCycleAssessment/MaterialFragments/EnvironmentalMetrics/AbioticDepletionMineralsAndMetalsMetric)
     - BH.oM.LifeCycleAssessment.MaterialFragments.[AcidificationMetric](/api/oM/Analytical/LifeCycleAssessment/MaterialFragments/EnvironmentalMetrics/AcidificationMetric)
@@ -847,7 +879,6 @@ title: IObject
     - BH.oM.LifeCycleAssessment.MaterialFragments.[ClimateChangeLandUseMetric](/api/oM/Analytical/LifeCycleAssessment/MaterialFragments/EnvironmentalMetrics/ClimateChangeLandUseMetric)
     - BH.oM.LifeCycleAssessment.MaterialFragments.[ClimateChangeTotalMetric](/api/oM/Analytical/LifeCycleAssessment/MaterialFragments/EnvironmentalMetrics/ClimateChangeTotalMetric)
     - BH.oM.LifeCycleAssessment.MaterialFragments.[ClimateChangeTotalNoBiogenicMetric](/api/oM/Analytical/LifeCycleAssessment/MaterialFragments/EnvironmentalMetrics/ClimateChangeTotalNoBiogenicMetric)
-    - BH.oM.LifeCycleAssessment.MaterialFragments.[EnvironmentalMetric](/api/oM/Analytical/LifeCycleAssessment/MaterialFragments/EnvironmentalMetrics/EnvironmentalMetric)
     - BH.oM.LifeCycleAssessment.MaterialFragments.[EutrophicationAquaticFreshwaterMetric](/api/oM/Analytical/LifeCycleAssessment/MaterialFragments/EnvironmentalMetrics/EutrophicationAquaticFreshwaterMetric)
     - BH.oM.LifeCycleAssessment.MaterialFragments.[EutrophicationAquaticMarineMetric](/api/oM/Analytical/LifeCycleAssessment/MaterialFragments/EnvironmentalMetrics/EutrophicationAquaticMarineMetric)
     - BH.oM.LifeCycleAssessment.MaterialFragments.[EutrophicationCMLMetric](/api/oM/Analytical/LifeCycleAssessment/MaterialFragments/EnvironmentalMetrics/EutrophicationCMLMetric)
@@ -859,6 +890,10 @@ title: IObject
     - BH.oM.LifeCycleAssessment.MaterialFragments.[PhotochemicalOzoneCreationTRACIMetric](/api/oM/Analytical/LifeCycleAssessment/MaterialFragments/EnvironmentalMetrics/PhotochemicalOzoneCreationTRACIMetric)
     - BH.oM.LifeCycleAssessment.MaterialFragments.[WaterDeprivationMetric](/api/oM/Analytical/LifeCycleAssessment/MaterialFragments/EnvironmentalMetrics/WaterDeprivationMetric)
     - BH.oM.LifeCycleAssessment.MaterialFragments.[EnvironmentalProductDeclaration](/api/oM/Analytical/LifeCycleAssessment/MaterialFragments/EnvironmentalProductDeclaration)
+    - BH.oM.LifeCycleAssessment.MaterialFragments.Transport.[DistanceTransportModeScenario](/api/oM/Analytical/LifeCycleAssessment/MaterialFragments/Transport/DistanceTransportModeScenario)
+    - BH.oM.LifeCycleAssessment.MaterialFragments.Transport.[FullTransportScenario](/api/oM/Analytical/LifeCycleAssessment/MaterialFragments/Transport/FullTransportScenario)
+    - BH.oM.LifeCycleAssessment.MaterialFragments.Transport.[SingleTransportModeImpact](/api/oM/Analytical/LifeCycleAssessment/MaterialFragments/Transport/SingleTransportModeImpact)
+    - BH.oM.LifeCycleAssessment.MaterialFragments.Transport.[VehicleEmissions](/api/oM/Analytical/LifeCycleAssessment/MaterialFragments/Transport/VehicleEmissions)
     - BH.oM.LifeCycleAssessment.Fragments.[AdditionalEPDData](/api/oM/Analytical/LifeCycleAssessment/Fragments/AdditionalEPDData)
     - BH.oM.LifeCycleAssessment.Fragments.[EPDDensity](/api/oM/Analytical/LifeCycleAssessment/Fragments/EPDDensity)
     - BH.oM.LifeCycleAssessment.Configs.[IStructEEvaluationConfig](/api/oM/Analytical/LifeCycleAssessment/Configs/IStructEEvaluationConfig)
@@ -1038,6 +1073,7 @@ title: IObject
     - BH.oM.Programming.[NodeGroup](/api/oM/Framework/Programming/Others/NodeGroup)
     - BH.oM.Programming.[DataParam](/api/oM/Framework/Programming/Params/DataParam)
     - BH.oM.Programming.[ReceiverParam](/api/oM/Framework/Programming/Params/ReceiverParam)
+    - BH.oM.Quantities.[Quantity](/api/oM/Dimensional/Quantities/Quantity)&lt;[T](/api/oM/Dimensional/Quantities/Quantity#t)&gt;
     - BH.oM.Quantities.Attributes.[AbioticDepletionMineralsAndMetals](/api/oM/Dimensional/Quantities/Attributes/AbioticDepletionMineralsAndMetals)
     - BH.oM.Quantities.Attributes.[AbioticDepletionMineralsAndMetalsPerQuantity](/api/oM/Dimensional/Quantities/Attributes/AbioticDepletionMineralsAndMetalsPerQuantity)
     - BH.oM.Quantities.Attributes.[QuantityAttribute](/api/oM/Dimensional/Quantities/Attributes/Abstract/QuantityAttribute)
@@ -1185,6 +1221,8 @@ title: IObject
     - BH.oM.Adapters.Revit.Elements.[DraftingInstance](/api/oM/Adapter/Adapters/Revit/Elements/DraftingInstance)
     - BH.oM.Adapters.Revit.Elements.[Family](/api/oM/Adapter/Adapters/Revit/Elements/Family)
     - BH.oM.Adapters.Revit.Elements.[ModelInstance](/api/oM/Adapter/Adapters/Revit/Elements/ModelInstance)
+    - BH.oM.Adapters.Revit.Elements.[PipeDesignData](/api/oM/Adapter/Adapters/Revit/Elements/PipeDesignData)
+    - BH.oM.Adapters.Revit.Elements.[PipeSize](/api/oM/Adapter/Adapters/Revit/Elements/PipeSize)
     - BH.oM.Adapters.Revit.Elements.[Sheet](/api/oM/Adapter/Adapters/Revit/Elements/Sheet)
     - BH.oM.Adapters.Revit.Elements.[ViewPlan](/api/oM/Adapter/Adapters/Revit/Elements/ViewPlan)
     - BH.oM.Adapters.Revit.Elements.[Viewport](/api/oM/Adapter/Adapters/Revit/Elements/Viewport)
@@ -1553,6 +1591,10 @@ title: IObject
     - BH.oM.Verification.Conditions.[LogicalOrCondition](/api/oM/Framework/Verification/Conditions/Logical/LogicalOrCondition)
     - BH.oM.Verification.Conditions.[PropertyValueSource](/api/oM/Framework/Verification/Conditions/Value Sources/PropertyValueSource)
     - BH.oM.Verification.Conditions.[ValueCondition](/api/oM/Framework/Verification/Conditions/ValueCondition)
+    - BH.oM.Versioning.[DowngraderAttribute](/api/oM/Framework/Versioning/Attributes/DowngraderAttribute)
+    - BH.oM.Versioning.[UpgraderAttribute](/api/oM/Framework/Versioning/Attributes/UpgraderAttribute)
+    - BH.oM.Versioning.[VersioningTargetAttribute](/api/oM/Framework/Versioning/Attributes/VersioningTargetAttribute)
+    - BH.oM.Versioning.[NoUpdateException](/api/oM/Framework/Versioning/NoUpdateException)
     - BH.oM.Versioning.[VersioningEvent](/api/oM/Framework/Versioning/VersioningEvent)
     - BH.oM.Adapters.XML.[XMLConfig](/api/oM/Adapter/Adapters/XML/Config/XMLConfig)
     - BH.oM.Adapters.XML.[GBXMLUnitSetUp](/api/oM/Adapter/Adapters/XML/GBXML/GBXMLUnitSetUp)
@@ -1606,9 +1648,12 @@ The following properties are defined as extension methods in one of the BHoM_Eng
 
 | Name             | Type             | Description      | Quantity         | Engine           |
 |------------------|------------------|------------------|------------------|------------------|
+| DeepClone | T | - | - | BHoM_Engine |
+| EnumValues | [IEnumerable](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IEnumerable-1?view=netstandard-2.0)&lt;T&gt; | - | - | Reflection_Engine |
 | Hash | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | Computes a Hash code for the iObject. The hash uniquely represents an object's state, based on its properties and their values. It can be used for comparisons.<br>You can change how the hash is computed by changing the settings in the ComparisonConfig. | - | BHoM_Engine |
 | IGeometry3D | [IGeometry](/api/oM/Dimensional/Geometry/Interface/IGeometry) | Queries a three-dimensional geometry out of an IObject, if available. This geometry may be used for downstream tasks such as graphical representation, volume determination, or others. | - | BHoM_Engine |
 | RenderMesh | [RenderMesh](/api/oM/Graphics/Graphics/Render/RenderMesh) | Returns a RenderMesh of the object, that is a mesh usable for graphical display. | - | Graphics_Engine |
+| ShallowClone | T | - | - | BHoM_Engine |
 
 
 ## Code and Schema

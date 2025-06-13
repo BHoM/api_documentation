@@ -12,6 +12,7 @@ A BHoM wrapper class for a Revit parameter.
 
 ???+ bhom "The RevitParameter is inheriting from the following base type(s) and implements the following interfaces:"
 
+    -  BH.oM.Base.[IImmutable](/api/oM/Framework/Base/Interface/IImmutable)
     -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
 
 
@@ -27,7 +28,8 @@ The following properties are defined on the class
 |------------------|------------------|------------------|------------------|
 | Name | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | Name of the Revit parameter as seen in the UI. | - |
 | Value | [object](https://learn.microsoft.com/en-us/dotnet/api/System.Object?view=netstandard-2.0) | Value of the Revit parameter. Enums are converted to strings, ElementIds to integers. | - |
-| UnitType | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | Unit type of the Revit parameter. | - |
+| Quantity | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | Quantity of the Revit parameter. | - |
+| Unit | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | Unit of the Revit parameter. | - |
 | IsReadOnly | [bool](https://learn.microsoft.com/en-us/dotnet/api/System.Boolean?view=netstandard-2.0) | Whether the parameter is read only or modifiable by the Revit user. | - |
 
 
@@ -45,7 +47,7 @@ The following properties are defined as extension methods in one of the BHoM_Eng
 ### C# implementation
 
 ``` C# title="C#"
-public class RevitParameter : BH.oM.Base.IObject
+public class RevitParameter : BH.oM.Base.IImmutable, BH.oM.Base.IObject
 ```
 
 Assembly: Revit_oM.dll

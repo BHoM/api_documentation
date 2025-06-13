@@ -38,6 +38,16 @@ The following properties are defined on the class
 | Links | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[GraphLink](/api/oM/Framework/Data/Collections/GraphLink)&lt;[T](#t)&gt;&gt; | - | - |
 
 
+### Derived properties
+
+The following properties are defined as extension methods in one of the BHoM_Engines
+
+| Name             | Type             | Description      | Quantity         | Engine           |
+|------------------|------------------|------------------|------------------|------------------|
+| AdjacencyDictionary | [Dictionary](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.Dictionary-2?view=netstandard-2.0)&lt;[GraphNode](/api/oM/Framework/Data/Collections/GraphNode)&lt;T&gt;, [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[GraphNode](/api/oM/Framework/Data/Collections/GraphNode)&lt;T&gt;&gt;&gt; | Gets the adjacency dictionary of a graph, each key value pair in the resulting dictionary is in the form &lt;node, neighbours&gt; | - | Data_Engine |
+| Count | [int](https://learn.microsoft.com/en-us/dotnet/api/System.Int32?view=netstandard-2.0) | Get the number of nodes in the graph. | - | Data_Engine |
+
+
 ## Code and Schema
 
 ### C# implementation

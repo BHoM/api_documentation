@@ -39,6 +39,16 @@ The following properties are defined on the class
 | Value | [T](#t) | - | - |
 
 
+### Derived properties
+
+The following properties are defined as extension methods in one of the BHoM_Engines
+
+| Name             | Type             | Description      | Quantity         | Engine           |
+|------------------|------------------|------------------|------------------|------------------|
+| Children | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[Tree](/api/oM/Framework/Data/Collections/Tree)&lt;T&gt;&gt; | Gets the child nodes of this node. | - | Data_Engine |
+| Count | [int](https://learn.microsoft.com/en-us/dotnet/api/System.Int32?view=netstandard-2.0) | Get the number of children contained by the tree. Takes the sum of the number of values each child of the tree has. | - | Data_Engine |
+
+
 ## Code and Schema
 
 ### C# implementation

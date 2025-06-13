@@ -42,6 +42,7 @@ Classes implementing IExecuteCommand are commands compatible with the `Execute` 
     - BH.oM.Adapters.File.[MoveCommand](/api/oM/Adapter/Adapters/File/Commands/MoveCommand)
     - BH.oM.Adapters.File.[RenameCommand](/api/oM/Adapter/Adapters/File/Commands/RenameCommand)
     - BH.oM.LadybugTools.[DiurnalPlotCommand](/api/oM/Adapter/LadybugTools/ExecuteCommands/DiurnalPlotCommand)
+    - BH.oM.LadybugTools.[FacadeCondensationRiskCommand](/api/oM/Adapter/LadybugTools/ExecuteCommands/FacadeCondensationRiskCommand)
     - BH.oM.LadybugTools.[GetMaterialCommand](/api/oM/Adapter/LadybugTools/ExecuteCommands/GetMaterialCommand)
     - BH.oM.LadybugTools.[GetTypologyCommand](/api/oM/Adapter/LadybugTools/ExecuteCommands/GetTypologyCommand)
     - BH.oM.LadybugTools.[HeatPlotCommand](/api/oM/Adapter/LadybugTools/ExecuteCommands/HeatPlotCommand)

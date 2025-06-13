@@ -66,6 +66,9 @@ title: IBHoMObject
     - BH.oM.Ground.[IStratumProperty](/api/oM/Analytical/Ground/StratumProperties/IStratumProperty)
     - BH.oM.LadybugTools.[IEnergyMaterialOpaque](/api/oM/Adapter/LadybugTools/Constructions/IEnergyMaterialOpaque)
     - BH.oM.LadybugTools.[ILadybugTools](/api/oM/Adapter/LadybugTools/ILadybugTools)
+    - BH.oM.LifeCycleAssessment.MaterialFragments.[IEnvironmentalMetric](/api/oM/Analytical/LifeCycleAssessment/MaterialFragments/EnvironmentalMetrics/IEnvironmentalMetric)
+    - BH.oM.LifeCycleAssessment.MaterialFragments.[IEnvironmentalFactorsProvider](/api/oM/Analytical/LifeCycleAssessment/MaterialFragments/IEnvironmentalFactorsProvider)
+    - BH.oM.LifeCycleAssessment.MaterialFragments.Transport.[ITransportFactors](/api/oM/Analytical/LifeCycleAssessment/MaterialFragments/Transport/ITransportFactors)
     - BH.oM.LifeCycleAssessment.Configs.[IEvaluationConfig](/api/oM/Analytical/LifeCycleAssessment/Configs/IEvaluationConfig)
     - BH.oM.MEP.System.[IFlow](/api/oM/Analytical/MEP/System/IFlow)
     - BH.oM.MEP.System.[ISystemType](/api/oM/Analytical/MEP/System/ISystemType)
@@ -352,6 +355,7 @@ title: IBHoMObject
     - BH.oM.LifeCycleAssessment.[BuildingBenchmarkingData](/api/oM/Analytical/LifeCycleAssessment/BuildingBenchmarkingData)
     - BH.oM.LifeCycleAssessment.[HealthProductDeclaration](/api/oM/Analytical/LifeCycleAssessment/HealthProductDeclaration)
     - BH.oM.LifeCycleAssessment.[ProjectLifeCycleAssessment](/api/oM/Analytical/LifeCycleAssessment/ProjectLifeCycleAssessment)
+    - BH.oM.LifeCycleAssessment.MaterialFragments.[CombinedLifeCycleAssessmentFactors](/api/oM/Analytical/LifeCycleAssessment/MaterialFragments/CombinedLifeCycleAssessmentFactors)
     - BH.oM.LifeCycleAssessment.MaterialFragments.[AbioticDepletionFossilResourcesMetric](/api/oM/Analytical/LifeCycleAssessment/MaterialFragments/EnvironmentalMetrics/AbioticDepletionFossilResourcesMetric)
     - BH.oM.LifeCycleAssessment.MaterialFragments.[AbioticDepletionMineralsAndMetalsMetric](/api/oM/Analytical/LifeCycleAssessment/MaterialFragments/EnvironmentalMetrics/AbioticDepletionMineralsAndMetalsMetric)
     - BH.oM.LifeCycleAssessment.MaterialFragments.[AcidificationMetric](/api/oM/Analytical/LifeCycleAssessment/MaterialFragments/EnvironmentalMetrics/AcidificationMetric)
@@ -360,7 +364,6 @@ title: IBHoMObject
     - BH.oM.LifeCycleAssessment.MaterialFragments.[ClimateChangeLandUseMetric](/api/oM/Analytical/LifeCycleAssessment/MaterialFragments/EnvironmentalMetrics/ClimateChangeLandUseMetric)
     - BH.oM.LifeCycleAssessment.MaterialFragments.[ClimateChangeTotalMetric](/api/oM/Analytical/LifeCycleAssessment/MaterialFragments/EnvironmentalMetrics/ClimateChangeTotalMetric)
     - BH.oM.LifeCycleAssessment.MaterialFragments.[ClimateChangeTotalNoBiogenicMetric](/api/oM/Analytical/LifeCycleAssessment/MaterialFragments/EnvironmentalMetrics/ClimateChangeTotalNoBiogenicMetric)
-    - BH.oM.LifeCycleAssessment.MaterialFragments.[EnvironmentalMetric](/api/oM/Analytical/LifeCycleAssessment/MaterialFragments/EnvironmentalMetrics/EnvironmentalMetric)
     - BH.oM.LifeCycleAssessment.MaterialFragments.[EutrophicationAquaticFreshwaterMetric](/api/oM/Analytical/LifeCycleAssessment/MaterialFragments/EnvironmentalMetrics/EutrophicationAquaticFreshwaterMetric)
     - BH.oM.LifeCycleAssessment.MaterialFragments.[EutrophicationAquaticMarineMetric](/api/oM/Analytical/LifeCycleAssessment/MaterialFragments/EnvironmentalMetrics/EutrophicationAquaticMarineMetric)
     - BH.oM.LifeCycleAssessment.MaterialFragments.[EutrophicationCMLMetric](/api/oM/Analytical/LifeCycleAssessment/MaterialFragments/EnvironmentalMetrics/EutrophicationCMLMetric)
@@ -372,6 +375,10 @@ title: IBHoMObject
     - BH.oM.LifeCycleAssessment.MaterialFragments.[PhotochemicalOzoneCreationTRACIMetric](/api/oM/Analytical/LifeCycleAssessment/MaterialFragments/EnvironmentalMetrics/PhotochemicalOzoneCreationTRACIMetric)
     - BH.oM.LifeCycleAssessment.MaterialFragments.[WaterDeprivationMetric](/api/oM/Analytical/LifeCycleAssessment/MaterialFragments/EnvironmentalMetrics/WaterDeprivationMetric)
     - BH.oM.LifeCycleAssessment.MaterialFragments.[EnvironmentalProductDeclaration](/api/oM/Analytical/LifeCycleAssessment/MaterialFragments/EnvironmentalProductDeclaration)
+    - BH.oM.LifeCycleAssessment.MaterialFragments.Transport.[DistanceTransportModeScenario](/api/oM/Analytical/LifeCycleAssessment/MaterialFragments/Transport/DistanceTransportModeScenario)
+    - BH.oM.LifeCycleAssessment.MaterialFragments.Transport.[FullTransportScenario](/api/oM/Analytical/LifeCycleAssessment/MaterialFragments/Transport/FullTransportScenario)
+    - BH.oM.LifeCycleAssessment.MaterialFragments.Transport.[SingleTransportModeImpact](/api/oM/Analytical/LifeCycleAssessment/MaterialFragments/Transport/SingleTransportModeImpact)
+    - BH.oM.LifeCycleAssessment.MaterialFragments.Transport.[VehicleEmissions](/api/oM/Analytical/LifeCycleAssessment/MaterialFragments/Transport/VehicleEmissions)
     - BH.oM.LifeCycleAssessment.Configs.[IStructEEvaluationConfig](/api/oM/Analytical/LifeCycleAssessment/Configs/IStructEEvaluationConfig)
     - BH.oM.Lighting.Elements.[Luminaire](/api/oM/Analytical/Lighting/Elements/Luminaire)
     - BH.oM.Lighting.Elements.[LuminaireType](/api/oM/Analytical/Lighting/Elements/LuminaireType)
@@ -556,6 +563,7 @@ title: IBHoMObject
     - BH.oM.Adapters.Revit.Elements.[DraftingInstance](/api/oM/Adapter/Adapters/Revit/Elements/DraftingInstance)
     - BH.oM.Adapters.Revit.Elements.[Family](/api/oM/Adapter/Adapters/Revit/Elements/Family)
     - BH.oM.Adapters.Revit.Elements.[ModelInstance](/api/oM/Adapter/Adapters/Revit/Elements/ModelInstance)
+    - BH.oM.Adapters.Revit.Elements.[PipeSize](/api/oM/Adapter/Adapters/Revit/Elements/PipeSize)
     - BH.oM.Adapters.Revit.Elements.[Sheet](/api/oM/Adapter/Adapters/Revit/Elements/Sheet)
     - BH.oM.Adapters.Revit.Elements.[ViewPlan](/api/oM/Adapter/Adapters/Revit/Elements/ViewPlan)
     - BH.oM.Adapters.Revit.Elements.[Viewport](/api/oM/Adapter/Adapters/Revit/Elements/Viewport)
@@ -875,7 +883,9 @@ The following properties are defined as extension methods in one of the BHoM_Eng
 |------------------|------------------|------------------|------------------|------------------|
 | AdapterIds | [object](https://learn.microsoft.com/en-us/dotnet/api/System.Object?view=netstandard-2.0) | Returns the BHoMObject's Id of the provided FragmentType. If more than one matching IdFragment is found, the method returns a List of all Ids of that type.If none is found, `null` is returned. | - | Adapter_Engine |
 | CategoryName | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | Gets Revit category name from BHoMObject. | - | Revit_Engine |
+| DeepClone | T | - | - | BHoM_Engine |
 | ElementId | [int](https://learn.microsoft.com/en-us/dotnet/api/System.Int32?view=netstandard-2.0) | Returns integer representation of ElementId of Revit element correspondent to given BHoMObject. This value is stored in RevitIdentifiers fragment. | - | Revit_Engine |
+| EnumValues | [IEnumerable](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IEnumerable-1?view=netstandard-2.0)&lt;T&gt; | - | - | Reflection_Engine |
 | ExplicitBulk | [ExplicitBulk](/api/oM/Physical/Physical/Elements/ExplicitBulk) | Queries the material take off information stored as a fragment on the object and return it as an ExplicitBulk element. This could be data extracted from an external package such as Revit and stored in VolumetricMaterialTakeoff fragment attached to a given BHoMObject when pulled. | - | Matter_Engine |
 | FamilyName | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | Gets the name of Revit family correspondent to given BHoMObject. This value is stored in  RevitIdentifiers fragment. | - | Revit_Engine |
 | FamilyTypeName | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | Gets the name of Revit family type correspondent to given BHoMObject. This value is stored in RevitIdentifiers fragment. | - | Revit_Engine |
@@ -898,6 +908,8 @@ The following properties are defined as extension methods in one of the BHoM_Eng
 | RevitEdges | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[ICurve](/api/oM/Dimensional/Geometry/Curve/ICurve)&gt; | Returns edges of Revit element correspondent to given BHoMObject. This value is stored in RevitGeometry fragment. | - | Revit_Engine |
 | RevitMeshes | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[Mesh](/api/oM/Dimensional/Geometry/Mesh/Mesh)&gt; | Returns mesh geometry of Revit element correspondent to given BHoMObject. This value is stored in RevitGeometry fragment. | - | Revit_Engine |
 | RevitSurfaces | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[ISurface](/api/oM/Dimensional/Geometry/Surface/ISurface)&gt; | Returns surface geometry of Revit element correspondent to given BHoMObject. This value is stored in RevitGeometry fragment. | - | Revit_Engine |
+| ShallowClone | T | - | - | BHoM_Engine |
+| ShallowClone | T | - | - | BHoM_Engine |
 | TaggedName | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | - | - | Serialiser_Engine |
 | UniqueId | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | Retrieves the Revit UniqueId stored on a BHoMObject, if found, otherwise returns null. The UniqueId is stored in the `PersistentId` property of a `RevitIdentifiers` fragment. | - | Revit_Engine |
 | Workset | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | Returns name of the workset to which the Revit element correspondent to given BHoMObject belongs. This value is stored in RevitIdentifiers fragment. | - | Revit_Engine |

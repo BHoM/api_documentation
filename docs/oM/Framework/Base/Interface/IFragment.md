@@ -120,6 +120,7 @@ Describes objects that can exist independently or can be attached to other BHoM 
     - BH.oM.Adapters.Revit.Parameters.[RevitIdentifiers](/api/oM/Adapter/Adapters/Revit/Parameters/RevitIdentifiers)
     - BH.oM.Adapters.Revit.Parameters.[RevitParametersToPush](/api/oM/Adapter/Adapters/Revit/Parameters/RevitParametersToPush)
     - BH.oM.Adapters.Revit.Parameters.[RevitPulledParameters](/api/oM/Adapter/Adapters/Revit/Parameters/RevitPulledParameters)
+    - BH.oM.Adapters.Revit.Elements.[PipeDesignData](/api/oM/Adapter/Adapters/Revit/Elements/PipeDesignData)
     - BH.oM.Revit.[RevitHostFragment](/api/oM/Adapter/Revit/Misc/RevitHostFragment)
     - BH.oM.Adapters.RFEM5.[RFEM5Id](/api/oM/Adapter/Adapters/RFEM5/RFEM5Id)
     - BH.oM.Adapters.RFEM6.[RFEM6ID](/api/oM/Adapter/Adapters/RFEM6/Fragments/RFEM6ID)

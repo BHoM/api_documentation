@@ -27,7 +27,7 @@ The following properties are defined on the class
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
 | ParameterName | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | Name of the parameter to extract the value from. | - |
-| FromType | [bool](https://learn.microsoft.com/en-us/dotnet/api/System.Boolean?view=netstandard-2.0) | If true, the value to be extracted from the underlying type, not the instance. | - |
+| FromType | [Nullable](https://learn.microsoft.com/en-us/dotnet/api/System.Nullable-1?view=netstandard-2.0)&lt;[bool](https://learn.microsoft.com/en-us/dotnet/api/System.Boolean?view=netstandard-2.0)&gt; | If true, the value to be extracted from the underlying type, not the instance.<br>If set to null, first instance will be checked for the parameter with given name, and if not found then same will be done with its type. | - |
 
 
 ### Derived properties

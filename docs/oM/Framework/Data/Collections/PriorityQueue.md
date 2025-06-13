@@ -39,6 +39,16 @@ The following properties are defined on the class
 | Data | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[T](#t)&gt; | - | - |
 
 
+### Derived properties
+
+The following properties are defined as extension methods in one of the BHoM_Engines
+
+| Name             | Type             | Description      | Quantity         | Engine           |
+|------------------|------------------|------------------|------------------|------------------|
+| Count | [int](https://learn.microsoft.com/en-us/dotnet/api/System.Int32?view=netstandard-2.0) | Get the number of items in the Priority Queue Data. | - | Data_Engine |
+| Peek | T | - | - | Data_Engine |
+
+
 ## Code and Schema
 
 ### C# implementation

@@ -29,6 +29,7 @@ The following properties are defined on the class
 | RequirementId | [IComparable](https://learn.microsoft.com/en-us/dotnet/api/System.IComparable?view=netstandard-2.0) | BHoM_Guid of Requirement object this result was based on. | - |
 | ObjectId | [IComparable](https://learn.microsoft.com/en-us/dotnet/api/System.IComparable?view=netstandard-2.0) | Identifier of an object this result was based on. In case of IBHoMObjects it is their BHoM_Guid. | - |
 | VerificationResult | [IConditionResult](/api/oM/Framework/Verification/Results/Conditions/IConditionResult) | Result of object verification against the condition specified in the Requirement. | - |
+| Events | [ReadOnlyCollection](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.ObjectModel.ReadOnlyCollection-1?view=netstandard-2.0)&lt;[Event](/api/oM/Framework/Base/Debugging/Event)&gt; | List of events that occurred during the verification process. | - |
 
 
 ## Code and Schema

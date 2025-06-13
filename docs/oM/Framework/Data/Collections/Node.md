@@ -33,6 +33,15 @@ Unconstrained generic type. Can be any type of object.
 
 ## Properties
 
+### Derived properties
+
+The following properties are defined as extension methods in one of the BHoM_Engines
+
+| Name             | Type             | Description      | Quantity         | Engine           |
+|------------------|------------------|------------------|------------------|------------------|
+| IValues | [IEnumerable](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IEnumerable-1?view=netstandard-2.0)&lt;T&gt; | Gets the data values contained in this node. | - | Data_Engine |
+
+
 ## Code and Schema
 
 ### C# implementation

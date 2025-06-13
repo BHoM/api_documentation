@@ -40,6 +40,17 @@ The following properties are defined on the class
 | DomainBox | [DomainBox](/api/oM/Framework/Data/Collections/DomainBox) | This nodes DomainBox, enclosing either all the child nodes' DomainBoxes or this node's Values. | - |
 
 
+### Derived properties
+
+The following properties are defined as extension methods in one of the BHoM_Engines
+
+| Name             | Type             | Description      | Quantity         | Engine           |
+|------------------|------------------|------------------|------------------|------------------|
+| Children | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[DomainTree](/api/oM/Framework/Data/Collections/DomainTree)&lt;T&gt;&gt; | Gets the child nodes of this node. | - | Data_Engine |
+| IValues | [IEnumerable](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IEnumerable-1?view=netstandard-2.0)&lt;T&gt; | Gets the data values contained in this node. | - | Data_Engine |
+| Values | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;T&gt; | Gets the data values contained in this node. | - | Data_Engine |
+
+
 ## Code and Schema
 
 ### C# implementation
